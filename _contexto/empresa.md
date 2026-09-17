@@ -15,11 +15,10 @@
 - Instagram: @tkfilmesmobile
 
 ## Clientes conhecidos (2026-09-17)
-- Passaporte do Galeguinho (hamburgueria): relatórios de Instagram por trimestre. Base mar-abr/2026: 379.224 visualizações, 23.880 contas alcançadas, 4.624 seguidores.
+- Passaporte do Galeguinho (lanchonete de sanduíches e cachorro-quente, São José da Laje/AL): dono Aelenildo Francisco da Silva. Contrato de R$ 800/mês (R$ 3.200 por 120 dias), de 23/01/2026 a 23/05/2026, renovado automaticamente a cada 90 dias na falta de aviso prévio de 30 dias: **vigente até cerca de 19/11/2026**. Escopo: 2 a 4 vídeos por semana mais roteiro, capas, legendas, métricas, persona, planejamento de redes e posicionamento. Relatórios de Instagram por trimestre; base mar-abr/2026: 379.224 visualizações, 23.880 contas alcançadas, 4.624 seguidores. Ficha em `clientes/passaporte-do-galeguinho/`.
 - Força & Vigor (academia @academiaforcaevigor + loja @fv_modafitness, União dos Palmares/AL): relatório comparativo e calendário de conteúdo.
 - Anna Walleska (maquiadora): apresentação de fotos em slides verticais 9:16.
 - Casamento Anderson e Amanda (05/09/2026): peças 9:16 com monograma verde oliva botânico.
-- Aelenildo Francisco: contrato de 2 a 4 vídeos por semana, R$ 800/mês, de 23/01/2026 a 23/05/2026.
 - Eduarda Pereira: até 12 vídeos por mês, R$ 600/mês, de 12/03/2026 a 10/07/2026.
 - Dra. Camilla Wanderley: 5 posts fixos por mês + diárias de captação nos atendimentos, R$ 600/mês.
 

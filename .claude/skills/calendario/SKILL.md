@@ -31,8 +31,17 @@ listando o que já foi encontrado nos arquivos:
 
 1. **Métricas do trimestre anterior** (do relatório): formatos e temas que performaram.
 2. **Briefing do cliente**: o que ele vende, o que quer vender agora, o que não pode aparecer.
-3. **Datas comemorativas do mês**: buscar as do mês/ano em questão e filtrar as que fazem
-   sentido pro nicho daquele cliente. Não encher o calendário de data por encher.
+3. **Datas comemorativas do mês**: buscar em quatro camadas, nesta ordem, e só as do mês/ano
+   em questão:
+   - **nicho** do cliente (ex.: Dia do Hambúrguer, Dia do Profissional de Educação Física, Dia do Advogado);
+   - **país**: feriados e datas nacionais do Brasil;
+   - **estado**: datas de Alagoas (ou do estado do cliente, se for outro);
+   - **cidade**: padroeiro, aniversário da cidade, festa tradicional. Em União dos Palmares
+     entram também as datas ligadas a Zumbi e à Serra da Barriga, que movimentam a cidade.
+
+   A cidade e o estado saem da ficha do cliente; se não estiverem lá, perguntar.
+   Data local costuma render mais engajamento que data nacional genérica. Ainda assim, filtrar:
+   entra a que combina com o que o cliente vende. Não encher o calendário de data por encher.
 4. **Pedidos específicos do cliente** pra este mês.
 
 Falta alguma? Perguntar. Nunca inventar dado de métrica nem de briefing.

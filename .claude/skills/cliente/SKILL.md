@@ -32,7 +32,8 @@ Cliente novo: nome da pasta em minúsculas, sem espaço nem acento (`clientes/pa
 Se o usuário colar um briefing pronto, extrair o que der de lá e perguntar só o que faltou.
 Senão, perguntar em blocos, um por vez, nunca a lista inteira de uma vez:
 
-1. **Quem é:** nome do negócio, pessoa de contato, telefone, email, cidade.
+1. **Quem é:** nome do negócio, pessoa de contato, telefone, email, **cidade e estado** (o
+   `/calendario` usa pra achar as datas comemorativas locais) e **o nicho** dele.
 2. **Onde está:** Instagram e outras redes, site.
 3. **O negócio:** o que vende, quem é o público, qual o objetivo com o conteúdo.
 4. **O contrato:** plano contratado, valor, data de início, quantidade e tipos de conteúdo por
