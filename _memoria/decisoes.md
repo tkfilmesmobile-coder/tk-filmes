@@ -17,3 +17,8 @@ regra de trabalho. O que não entra: tarefa feita (isso é o diário).
 ---
 
 <!-- as decisões entram abaixo, a mais nova por último -->
+
+- **2026-09-17** (Talyta): o nome principal do negócio é TK Filmes; TK Movies fica como o nome que aparece no logo, no papel timbrado e nos contratos. Por quê: é como ela chama o negócio, embora o registro e o material institucional usem TK Movies Mobile.
+- **2026-09-17** (Talyta): o sistema vive num repositório privado no GitHub e os arquivos pesados (vídeo, foto bruta, entrega final) ficam no Google Drive. Por quê: ela trabalha em computadores de empresas, sem máquina própria, e precisa abrir tudo de qualquer lugar.
+- **2026-09-17** (Talyta): senha e acesso de cliente nunca são escritos no sistema; a ficha registra só onde o acesso está guardado. Por quê: o sistema sobe pro GitHub e roda em computador de empresa.
+- **2026-09-17** (Talyta): edição de vídeo não vira skill. Por quê: é feita na mão no CapCut, e o agente não tem como entrar nesse fluxo.

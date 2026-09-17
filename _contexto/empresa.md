@@ -19,6 +19,12 @@
 - Força & Vigor (academia @academiaforcaevigor + loja @fv_modafitness, União dos Palmares/AL): relatório comparativo e calendário de conteúdo.
 - Anna Walleska (maquiadora): apresentação de fotos em slides verticais 9:16.
 - Casamento Anderson e Amanda (05/09/2026): peças 9:16 com monograma verde oliva botânico.
+- Aelenildo Francisco: contrato de 2 a 4 vídeos por semana, R$ 800/mês, de 23/01/2026 a 23/05/2026.
+- Eduarda Pereira: até 12 vídeos por mês, R$ 600/mês, de 12/03/2026 a 10/07/2026.
+- Dra. Camilla Wanderley: 5 posts fixos por mês + diárias de captação nos atendimentos, R$ 600/mês.
+
+## Preço
+Faixa mensal praticada: R$ 550 a R$ 800. Diária avulsa de gravação (4h): R$ 300. Diária de cobertura extra pra cliente com contrato: R$ 100. O histórico completo, com escopo e motivo de cada valor, fica em `propostas/precos.md`.
 
 ## Contexto adicional
 - Trabalha em computadores de empresas, sem máquina própria: o sistema precisa ser acessível de qualquer lugar (GitHub privado + Google Drive).

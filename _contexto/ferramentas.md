@@ -13,7 +13,7 @@
 | Google Drive | armazenamento de conteúdo, documentação e tudo do cliente | conector (a decidir) | não ligada | 2026-09-17 |
 | Notion | CRM (ainda não estruturado) | MCP (a decidir) | não ligada | 2026-09-17 |
 | WhatsApp | comunicação com cliente | só você, na mão | não ligada | 2026-09-17 |
-| GitHub | acessar o sistema de qualquer computador | CLI (`/syncar`) | não ligada | 2026-09-17 |
+| GitHub | acessar o sistema de qualquer computador | CLI (`/syncar`), repositório tkfilmesmobile-coder/tk-filmes | ligada | 2026-09-17 |
 
 ## Os sete assuntos que todo negócio tem
 
