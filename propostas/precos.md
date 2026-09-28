@@ -19,6 +19,7 @@
 | Aelenildo Francisco | 2 a 4 vídeos/semana + análise de métricas, persona, planejamento completo e programação | 120 dias, de 23/01/2026 a 23/05/2026 | R$ 3.200 | R$ 800 | 2026-01-23 |
 | Eduarda Pereira | até 12 vídeos/mês, orgânico e estratégico; cobertura extra a R$ 100/diária | 120 dias, de 12/03/2026 a 10/07/2026 | R$ 2.400 | R$ 600 | 2026-03-12 |
 | Dra. Camilla Wanderley | 5 posts fixos/mês + diárias de captação durante atendimentos | mensal | — | R$ 600 | 2026 |
+| Tamara Chagas Advocacia | marketing completo, presencial seg a sex 8h às 17h (5 reels, 50 stories e 5 vídeos de localização por semana) | mensal, desde 01/10/2025, sem contrato escrito | — | R$ 2.000 | 2026-09-28 |
 | modelo "2 a 4 vídeos/semana" (com indique-e-ganhe e parceria de produto) | gravação, edição, roteiro, capas, legendas, métricas, persona, planejamento | 120 dias | R$ 2.200 | R$ 550 | modelo de contrato |
 
 ## Leitura destes números

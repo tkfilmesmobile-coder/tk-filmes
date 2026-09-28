@@ -21,11 +21,12 @@
 - Casamento Anderson e Amanda (05/09/2026): peças 9:16 com monograma verde oliva botânico.
 - Eduarda Pereira: até 12 vídeos por mês, R$ 600/mês, de 12/03/2026 a 10/07/2026.
 - Dra. Camilla Wanderley: 5 posts fixos por mês + diárias de captação nos atendimentos, R$ 600/mês.
+- Tamara Chagas Advocacia (direito previdenciário e assistencial, União dos Palmares/AL): marketing completo, presencial no escritório de segunda a sexta, 8h às 17h. R$ 2.000/mês desde 01/10/2025, sem contrato escrito. Instagrams @tamarachagas_prev e @dra.tamarachagas_. Ficha em `clientes/tamara-chagas/`. (2026-09-28)
 
 ## Preço
-Faixa mensal praticada: R$ 550 a R$ 800. Diária avulsa de gravação (4h): R$ 300. Diária de cobertura extra pra cliente com contrato: R$ 100. O histórico completo, com escopo e motivo de cada valor, fica em `propostas/precos.md`.
+Faixa mensal praticada: R$ 550 a R$ 800 (fora da faixa: Tamara Chagas, R$ 2.000, presencial em tempo integral). Diária avulsa de gravação (4h): R$ 300. Diária de cobertura extra pra cliente com contrato: R$ 100. O histórico completo, com escopo e motivo de cada valor, fica em `propostas/precos.md`.
 
 ## Contexto adicional
 - Trabalha em computadores de empresas, sem máquina própria: o sistema precisa ser acessível de qualquer lugar (GitHub privado + Google Drive).
-- A conta do Claude é compartilhada com outras pessoas; o que é do escritório Tamara Chagas Advocacia não é da TK Filmes.
+- A conta do Claude é compartilhada com outras pessoas. O marketing do escritório Tamara Chagas Advocacia é cliente da TK; o trabalho jurídico do escritório (petições, processos) não é da TK Filmes.
 - Relatórios de métricas: PDF elegante e minimalista, feito a partir de prints do Instagram Insights (geralmente chegam em .zip pelo WhatsApp).

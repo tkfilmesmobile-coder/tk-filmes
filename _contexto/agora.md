@@ -2,9 +2,12 @@
 # Agora · onde paramos
 
 ## Onde paramos
-Primeiro cliente cadastrado em 2026-09-17: o Passaporte do Galeguinho, com ficha, andamento, contrato assinado e a marca dele inteira em `clientes/passaporte-do-galeguinho/`. A ficha aproveitou a pasta de produção que já existia fora do sistema. Faltam 4 clientes na fila do `/cliente`.
+Em 2026-09-28 a cliente Tamara Chagas Advocacia foi cadastrada em `clientes/tamara-chagas/`, e os dois Instagrams dela (@tamarachagas_prev e @dra.tamarachagas_) estão conectados pra publicar direto do sistema pela skill `publicar-social-ratos`. Faltam 4 clientes na fila do `/cliente`.
 
 ## Pendências
+- **Gerar tokens novos das duas contas do Instagram da Tamara**: os atuais passaram pelo chat. Colar no `.env` e testar. (2026-09-28)
+- Tokens do Instagram vencem por volta de 27/11/2026: renovar antes. (2026-09-28)
+- Tamara: confirmar o tom de fala dela nos vídeos e, se existir, o manual de marca com fontes e cores oficiais. (2026-09-28)
 - **Passaporte do Galeguinho: 8 vídeos em atraso, com plano de quitação.** Ritmo de 3 vídeos por semana de 18/09 a 19/11/2026 (26 no total: 18 do piso + os 8 atrasados). Conferir o ritmo a cada registro semanal. (2026-09-17)
 - Cadastrar os clientes que faltam com `/cliente`: Eduarda Pereira, Dra. Camilla Wanderley, Força & Vigor, Anna Walleska. (2026-09-17)
 - Conferir se junho a setembro de 2026 do Passaporte do Galeguinho foram pagos: o contrato renovou sozinho, são R$ 800/mês além dos 120 dias iniciais. (2026-09-17)
