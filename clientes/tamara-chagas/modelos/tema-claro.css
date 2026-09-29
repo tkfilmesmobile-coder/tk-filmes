@@ -1,0 +1,19 @@
+/* Tema claro dos posts da Tamara (aprovado em 2026-09-29, substitui o fundo escuro de 2026-09-28).
+   Fundo off-white quente, texto grafite, detalhes em taupe; a foto se dissolve no claro. */
+:root{--ink:#1f1d1a;--muted:#7a746c;--rule:rgba(31,29,26,.16);--acento:#8c7b6b}
+body{background:#f5f1eb !important}
+.post{background:#f5f1eb !important;color:var(--ink) !important}
+.foto{filter:saturate(1) contrast(1) brightness(1.02) !important}
+.sombra{background:
+  linear-gradient(90deg,#f5f1eb 0%,#f5f1eb 44%,rgba(245,241,235,.75) 54%,rgba(245,241,235,.15) 70%,rgba(245,241,235,0) 84%),
+  linear-gradient(180deg,#f5f1eb 0%,#f5f1eb 15%,rgba(245,241,235,.3) 26%,rgba(245,241,235,0) 34%,rgba(245,241,235,0) 80%,rgba(245,241,235,.9) 100%) !important}
+.moldura{border-color:rgba(31,29,26,.10) !important}
+.marca .fio{background:var(--rule) !important}
+.area,.kicker,.cab,.data small,.fonte b{color:var(--acento) !important}
+.kicker i{background:var(--acento) !important}
+.sub1,.item p,.fonte{color:#3b3833 !important}
+.sub1 b,.item b,.nota b{color:var(--ink) !important}
+.n{color:var(--acento) !important}
+.nota{color:var(--muted) !important}
+.data span{color:var(--ink)}
+.data{background:rgba(245,241,235,.88);padding:14px 20px 10px;border-radius:4px}

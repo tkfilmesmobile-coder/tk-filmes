@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:lining-nums}
+  :root{--serif:'Libre Baskerville',serif;--sans:'Inter',sans-serif;--ink:#efeeeb;--muted:#a3a19c;--rule:rgba(239,238,235,.24)}
+  body{width:1080px;height:1350px;overflow:hidden;background:#0b0b0c}
+  .post{position:relative;width:1080px;height:1350px;padding:92px 96px;color:var(--ink);overflow:hidden;
+    font-family:var(--sans);font-weight:300;background:#0b0b0c}
+
+  /* foto colorida de idoso feliz à direita, dissolvendo no fundo escuro; texto sobre a área escura */
+  .foto{position:absolute;right:-120px;bottom:0;height:1150px;width:auto;
+    filter:saturate(.92) contrast(1.04) brightness(.95)}
+  .sombra{position:absolute;inset:0;
+    background:
+      linear-gradient(90deg,#0b0b0c 0%,#0b0b0c 44%,rgba(11,11,12,.7) 54%,rgba(11,11,12,.15) 70%,rgba(11,11,12,0) 84%),
+      linear-gradient(180deg,#0b0b0c 0%,#0b0b0c 15%,rgba(11,11,12,.3) 26%,rgba(11,11,12,0) 34%,rgba(11,11,12,0) 78%,rgba(11,11,12,.92) 100%)}
+  .moldura{position:absolute;inset:40px;border:1px solid rgba(239,238,235,.10)}
+  .z{position:relative}
+
+  .topo{display:flex;justify-content:space-between;align-items:center}
+  .marca{display:flex;align-items:center;gap:24px}
+  .marca img{width:62px}
+  .marca .fio{width:1px;height:56px;background:var(--rule)}
+  .marca .nome{font-family:var(--serif);font-size:23px;letter-spacing:.2em}
+  .marca .sub{font-size:11px;letter-spacing:.6em;margin-top:8px;color:var(--muted);font-weight:400}
+  .area{font-size:11.5px;letter-spacing:.3em;line-height:1.8;color:#c9c7c2;text-align:right;font-weight:400}
+
+  .kicker{display:flex;align-items:center;gap:20px;margin-top:132px;font-size:14px;letter-spacing:.34em;
+    color:var(--muted);text-transform:uppercase;font-weight:500}
+  .kicker i{width:48px;height:1px;background:#c9c7c2}
+
+  h1{font-family:var(--serif);font-weight:400;font-size:92px;line-height:1.12;letter-spacing:-.025em;margin-top:34px}
+
+  .sub1{margin-top:34px;font-size:27px;line-height:1.5;color:#d6d4cf;max-width:640px}
+  .sub1 b{font-weight:600;color:var(--ink)}
+
+  .lista{margin-top:56px;border-top:1px solid var(--rule);max-width:520px}
+  .item{display:grid;grid-template-columns:70px 1fr;align-items:baseline;padding:24px 0;border-bottom:1px solid var(--rule)}
+  .n{font-family:var(--serif);font-size:22px;color:#c9c7c2}
+  .item p{font-size:22px;line-height:1.5;color:#d6d4cf}
+  .item b{font-weight:600;color:var(--ink)}
+
+  .rodape{position:absolute;left:96px;right:96px;bottom:84px;display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+  .nota{font-size:15px;line-height:1.7;color:var(--muted);max-width:540px}
+  .nota b{color:#d6d4cf;font-weight:500}
+  .fonte{margin-top:18px;padding-top:16px;border-top:1px solid var(--rule);font-size:15px;line-height:1.7;color:#d6d4cf;max-width:540px}
+  .fonte b{display:block;font-size:11px;letter-spacing:.42em;color:#c9c7c2;font-weight:500;margin-bottom:4px}
+  .data{text-align:right}
+  .data small{display:block;font-size:11px;letter-spacing:.42em;color:#c9c7c2;margin-bottom:10px;font-weight:500}
+  .data span{font-family:var(--serif);font-size:40px;letter-spacing:.08em}
+</style>
+</head>
+<body>
+<div class="post">
+  <img class="foto" src="../../marca/fotos/idosa-camisa-rosa-junior-reis-unsplash.jpg" alt="">
+  <div class="sombra"></div>
+  <div class="moldura"></div>
+
+  <div class="z topo">
+    <div class="marca">
+      <img src="../../marca/simbolo-transparente.png" alt="">
+      <div class="fio"></div>
+      <div><div class="nome">TAMARA CHAGAS</div><div class="sub">ADVOCACIA</div></div>
+    </div>
+    <div class="area">DIREITO PREVIDENCIÁRIO<br>E ASSISTENCIAL</div>
+  </div>
+
+  <div class="z kicker"><i></i>Eleições 2026 · INSS</div>
+
+  <h1 class="z">Vai votar<br>no domingo?</h1>
+
+  <p class="z sub1">O seu voto pode valer como <b>prova de vida</b> no INSS.</p>
+
+  <div class="z lista">
+    <div class="item"><span class="n">01</span><p>Quem comparece às urnas tem a prova de vida <b>computada automaticamente</b>.</p></div>
+    <div class="item"><span class="n">02</span><p>Vale para <b>aposentadoria, pensão</b> e <b>benefício assistencial</b>.</p></div>
+    <div class="item"><span class="n">03</span><p><b>Não precisa</b> ir à agência nem fazer mais nada por isso.</p></div>
+  </div>
+
+  <div class="rodape">
+    <div><p class="nota"><b>Não vai votar?</b> O INSS também faz a prova de vida cruzando outros dados do governo.</p><p class="fonte"><b>FONTE</b>Ministério da Previdência Social · gov.br/previdencia · 18/09/2026<br>Portaria INSS nº 1.408/2022</p></div>
+    <div class="data"><small>1º TURNO</small><span>04.10</span></div>
+  </div>
+</div>
+</body>
+</html>

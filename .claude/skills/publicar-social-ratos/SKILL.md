@@ -19,6 +19,9 @@ description: >
 > maiúsculas, ex: `TAMARACHAGAS_PREV`). Toda publicação pela Graph API leva `--conta <nome>`, e o
 > preview sempre mostra o @ da conta. Conta nova: validar o token com `/me?fields=id,username` e
 > acrescentar a dupla. Ao atualizar a skill, preservar o `--conta` do `publish-graph-api.js`.
+> Também acrescentados no `publish-graph-api.js` (2026-09-28): `--caption-file <arquivo>`,
+> `--colaboradores user1,user2` (convite de colaboração no feed) e `--story` (publica imagem nos
+> stories; o script espera o Instagram liberar antes de publicar). Preservar ao atualizar.
 > Scripts rodam direto daqui: `node --env-file=.env .claude/skills/publicar-social-ratos/scripts/...`
 
 ## Setup (primeira vez)

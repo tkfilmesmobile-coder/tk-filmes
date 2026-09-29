@@ -1,0 +1,69 @@
+[
+ {
+  "id": "1-retrato-01-10-70mais",
+  "layout": "retrato",
+  "foto": "tamara/tamara-estudio-0110.jpg",
+  "kicker": "DIA DA PESSOA IDOSA · 01/10",
+  "fino": "Tem 70 anos ou mais?",
+  "forte": "Votar é opcional.",
+  "lista": [
+   [
+    "Justificar?",
+    "não precisa"
+   ],
+   [
+    "Multa?",
+    "nenhuma"
+   ],
+   [
+    "Se votar",
+    "conta como prova de vida no INSS"
+   ]
+  ],
+  "fonte": "TSE · tse.jus.br · Ministério da Previdência, 18/09/2026"
+ },
+ {
+  "id": "2-tipografico-06-10-justificar",
+  "layout": "tipografico",
+  "etiqueta": "ELEIÇÕES 2026",
+  "pre": "Não votou no domingo?",
+  "giga": "JUSTIFIQUE.",
+  "pos": "Você tem até <b>3 de dezembro.</b>",
+  "faixa": "Pelo aplicativo e-Título ou no cartório eleitoral",
+  "obs": "Quem tem 70 anos ou mais não precisa justificar: para essas pessoas, o voto é facultativo.",
+  "fonte": "TSE · tse.jus.br · Justificativa eleitoral"
+ },
+ {
+  "id": "3-foto-cheia-11-10-familia",
+  "layout": "foto-cheia",
+  "foto": "senhora-oculos-felipe-queiroz-alves-unsplash.jpg",
+  "rot1": "TAMARA CHAGAS",
+  "rot2": "domingo em família",
+  "titulo": "Converse com quem você <i>ama</i> sobre o INSS.",
+  "sub": "Prova de vida, golpes e extrato:<br>três assuntos que protegem o benefício.",
+  "fonte": "Leia a legenda ↘",
+  "foto_css": "left:-60px;bottom:0;height:980px;width:auto;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 28%)",
+  "topo": 250,
+  "largura": 520,
+  "escuro": true
+ },
+ {
+  "id": "4-metades-03-10-checklist",
+  "layout": "metades",
+  "foto1": "senhor-chapeu-radio-fernando-filo-unsplash.jpg",
+  "foto2": "casal-idosos-kawe-rodrigues-unsplash.jpg",
+  "t1": "Amanhã é<br>{<b>dia de votar</b>},",
+  "t2": "você já sabe<br>[<b>onde</b>] vota?",
+  "rodape": "<span>TAMARA CHAGAS</span><i>confira no</i><span>E-TÍTULO</span><i>&amp;</i><span>LEIA A LEGENDA</span>",
+  "img1_css": "left:520px;top:-110px;width:640px",
+  "img2_css": "left:-360px;top:-30px;height:760px;width:auto"
+ },
+ {
+  "id": "5-cartao-15-10-boato",
+  "layout": "cartao",
+  "msg": "Viu no WhatsApp uma notícia sobre o INSS em época de eleição?",
+  "giga": "Antes de compartilhar, confira.",
+  "selo": "CANAIS OFICIAIS NA LEGENDA ↘",
+  "fonte": "INSS · gov.br/inss · 28/07/2026"
+ }
+]

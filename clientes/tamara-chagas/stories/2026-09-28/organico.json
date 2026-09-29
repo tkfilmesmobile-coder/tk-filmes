@@ -1,0 +1,237 @@
+[
+ {
+  "id": "01-boa-tarde",
+  "fundo": "foto:tamara/tamara-estudio-0132.jpg",
+  "celular": true,
+  "zoom": 1.25,
+  "origem": "50% 20%",
+  "posicao": "50% 20%",
+  "topo": 1330,
+  "blocos": [
+   {
+    "t": "boa tarde!&nbsp;👋",
+    "estilo": "caixa",
+    "tam": 62,
+    "giro": -2
+   },
+   {
+    "t": "passando pra te contar umas coisas importantes sobre o INSS nessa semana de eleição&nbsp;👇",
+    "estilo": "caixa",
+    "tam": 42
+   }
+  ]
+ },
+ {
+  "id": "02-enquete",
+  "fundo": "#EDE4D8",
+  "texto_escuro": true,
+  "topo": 620,
+  "blocos": [
+   {
+    "t": "rapidinho&nbsp;👀",
+    "estilo": "solto",
+    "tam": 44
+   },
+   {
+    "t": "você sabia que o seu <b>VOTO</b> pode valer como <b>prova de vida</b> no INSS?",
+    "estilo": "solto",
+    "tam": 66
+   },
+   {
+    "espaco": 60
+   },
+   {
+    "t": "a resposta tá no próximo story&nbsp;👉",
+    "estilo": "caixa-escura",
+    "tam": 38,
+    "giro": -2
+   }
+  ]
+ },
+ {
+  "id": "03-resposta-enquete",
+  "fundo": "foto:maos-bengala-alexas-fotos-unsplash.jpg",
+  "posicao": "35% 50%",
+  "escurecer": 0.28,
+  "topo": 360,
+  "blocos": [
+   {
+    "t": "pois é!&nbsp;📌",
+    "estilo": "caixa",
+    "tam": 60,
+    "giro": -2
+   },
+   {
+    "t": "se você recebe aposentadoria, pensão ou BPC e vai votar no domingo (04/10)…",
+    "estilo": "caixa",
+    "tam": 42
+   },
+   {
+    "t": "o INSS já conta como prova de vida&nbsp;✅",
+    "estilo": "caixa",
+    "tam": 48
+   },
+   {
+    "t": "não precisa ir na agência nem fazer mais nada!",
+    "estilo": "caixa-escura",
+    "tam": 40
+   },
+   {
+    "espaco": 30
+   },
+   {
+    "t": "fonte: Ministério da Previdência Social, 18/09/2026 · Portaria INSS 1.408/2022",
+    "estilo": "fonte",
+    "tam": 31
+   }
+  ]
+ },
+ {
+  "id": "05-caixinha",
+  "fundo": "foto:tamara/tamara-estudio-0164.jpg",
+  "topo": 1150,
+  "blocos": [
+   {
+    "t": "ficou com alguma dúvida sobre o INSS?",
+    "estilo": "caixa",
+    "tam": 54,
+    "giro": -2
+   },
+   {
+    "t": "me manda no direct&nbsp;💬",
+    "estilo": "caixa-escura",
+    "tam": 44
+   }
+  ],
+  "celular": true,
+  "zoom": 1.0,
+  "origem": "50% 0%",
+  "posicao": "50% 5%"
+ },
+ {
+  "id": "07-libras-pericia",
+  "fundo": "#1F2A3A",
+  "topo": 440,
+  "blocos": [
+   {
+    "t": "informação importante&nbsp;🤟",
+    "estilo": "solto",
+    "tam": 44
+   },
+   {
+    "t": "pessoa surda tem direito a <b>intérprete de Libras</b> na perícia do INSS",
+    "estilo": "caixa",
+    "tam": 58
+   },
+   {
+    "t": "vale presencial ou por vídeo, desde 22/09",
+    "estilo": "caixa-escura",
+    "tam": 40
+   },
+   {
+    "t": "compartilha com quem precisa saber&nbsp;🙏",
+    "estilo": "solto",
+    "tam": 38
+   },
+   {
+    "espaco": 40
+   },
+   {
+    "t": "fonte: Portaria MPS nº 1.357/2026 · Ministério da Previdência, 23/09/2026",
+    "estilo": "fonte",
+    "tam": 31
+   }
+  ]
+ },
+ {
+  "id": "08-quiz",
+  "fundo": "#EDE4D8",
+  "texto_escuro": true,
+  "topo": 640,
+  "blocos": [
+   {
+    "t": "QUIZ&nbsp;🤔",
+    "estilo": "caixa-escura",
+    "tam": 56,
+    "giro": -3
+   },
+   {
+    "t": "associação pode descontar mensalidade direto da sua aposentadoria?",
+    "estilo": "solto",
+    "tam": 62
+   },
+   {
+    "espaco": 60
+   },
+   {
+    "t": "a resposta tá no próximo story&nbsp;👉",
+    "estilo": "pequeno",
+    "tam": 38
+   }
+  ]
+ },
+ {
+  "id": "08b-resposta-quiz",
+  "fundo": "#1C1C1C",
+  "topo": 400,
+  "blocos": [
+   {
+    "t": "NÃO PODE&nbsp;❌",
+    "estilo": "caixa",
+    "tam": 76,
+    "giro": -2
+   },
+   {
+    "t": "desde janeiro a lei proíbe esse desconto no benefício do INSS",
+    "estilo": "solto",
+    "tam": 48
+   },
+   {
+    "t": "se descontaram sem você autorizar, o valor tem que ser devolvido",
+    "estilo": "caixa",
+    "tam": 42
+   },
+   {
+    "t": "confere o extrato no Meu INSS ou liga no 135&nbsp;📱",
+    "estilo": "caixa-escura",
+    "tam": 40
+   },
+   {
+    "espaco": 40
+   },
+   {
+    "t": "fonte: Lei nº 15.327/2026 · planalto.gov.br",
+    "estilo": "fonte",
+    "tam": 31
+   }
+  ]
+ },
+ {
+  "id": "10-encerramento",
+  "fundo": "foto:tamara/tamara-estudio-0099.jpg",
+  "posicao": "40% 25%",
+  "escurecer": 0.1,
+  "topo": 1300,
+  "blocos": [
+   {
+    "t": "por hoje é isso!&nbsp;💛",
+    "estilo": "caixa",
+    "tam": 60,
+    "giro": -2
+   },
+   {
+    "t": "cada caso é único. na dúvida, procure orientação profissional",
+    "estilo": "caixa",
+    "tam": 40
+   },
+   {
+    "t": "até amanhã&nbsp;👋",
+    "estilo": "caixa-escura",
+    "tam": 40
+   }
+  ],
+  "celular": true,
+  "zoom": 1.2,
+  "origem": "45% 25%"
+ }
+]

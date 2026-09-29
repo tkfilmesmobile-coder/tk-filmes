@@ -13,7 +13,9 @@
 | Google Drive | armazenamento de conteúdo, documentação e tudo do cliente | conector (a decidir) | não ligada | 2026-09-17 |
 | Notion | CRM (ainda não estruturado) | MCP (a decidir) | não ligada | 2026-09-17 |
 | WhatsApp | comunicação com cliente | só você, na mão | não ligada | 2026-09-17 |
-| Instagram (Graph API) | publicar nos perfis de clientes | skill `publicar-social-ratos`, um token por conta no `.env` (`INSTAGRAM_ACCESS_TOKEN_<CONTA>`) | ligada | 2026-09-28 |
+| Instagram (Graph API) | publicar nos perfis de clientes | skill `publicar-social-ratos`, um token por conta no `.env` (`INSTAGRAM_ACCESS_TOKEN_<CONTA>`). Publica feed, story e colaboração; não faz agendamento, música, sticker nem rascunho | ligada | 2026-09-29 |
+| Agendador de Tarefas do Windows | publicar posts em data e hora marcadas | tarefas "TK - ..." criadas pelo agente a pedido; inventário em `automacoes.md` | ligada (só com o PC ligado) | 2026-09-29 |
+| Site do TSE | conferir regras eleitorais | bloqueia leitura automática: abrir pelo navegador do app | ligada | 2026-09-29 |
 | GitHub | acessar o sistema de qualquer computador | CLI (`/syncar`), repositório tkfilmesmobile-coder/tk-filmes | ligada | 2026-09-17 |
 
 ## Os sete assuntos que todo negócio tem

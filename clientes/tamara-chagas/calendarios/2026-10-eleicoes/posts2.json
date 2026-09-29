@@ -1,0 +1,157 @@
+[
+ {
+  "id": "04-2026-10-04-hoje-e-dia-de-votar",
+  "layout": "foto-cheia",
+  "foto": "senhor-jardim-kawe-rodrigues-unsplash.jpg",
+  "foto_css": "left:40px;bottom:0;height:720px;width:auto;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 30%),linear-gradient(90deg,transparent 0%,#000 22%);-webkit-mask-composite:source-in;mask-composite:intersect",
+  "topo": 200,
+  "largura": 560,
+  "rot1": "TAMARA CHAGAS",
+  "rot2": "1º turno · 04/10",
+  "titulo": "Hoje o seu voto é <i>prova de vida.</i>",
+  "sub": "Aposentadoria, pensão e BPC:<br>votou, está feito.",
+  "fonte": "Previdência · 18/09/2026 · TSE"
+ },
+ {
+  "id": "06-2026-10-08-perco-o-beneficio",
+  "layout": "cartao",
+  "msg": "Não votou e não justificou. E agora?",
+  "giga": "Perco o benefício do INSS?",
+  "selo": "O QUE A LEI DIZ NA LEGENDA ↘",
+  "fonte": "Código Eleitoral · art. 7º · planalto.gov.br"
+ },
+ {
+  "id": "07-2026-10-10-quem-muda-as-regras",
+  "layout": "retrato",
+  "foto": "tamara/tamara-estudio-0145.jpg",
+  "kicker": "PREVIDÊNCIA E POLÍTICA",
+  "fino": "Quem muda as regras",
+  "forte": "da sua aposentadoria?",
+  "lista": [
+   [
+    "Quem decide",
+    "o Congresso Nacional"
+   ],
+   [
+    "Na Constituição",
+    "emenda: 2 votações em cada Casa, 3/5 dos votos"
+   ],
+   [
+    "Nas leis",
+    "projeto aprovado e sancionado"
+   ]
+  ],
+  "fonte": "Constituição Federal · arts. 48, 60 e 201"
+ },
+ {
+  "id": "09-2026-10-12-bpc-crianca",
+  "layout": "metades",
+  "foto1": "menino-sorrindo-pavol-stugel-unsplash.jpg",
+  "img1_css": "left:470px;top:-40px;width:620px",
+  "foto2": "menino-cadeira-de-rodas-grab-unsplash.jpg",
+  "img2_css": "left:-520px;top:-20px;height:720px;width:auto",
+  "t1": "Criança com<br>{<b>deficiência</b>}",
+  "t2": "também pode ter<br>[<b>direito</b>] ao BPC.",
+  "rodape": "<span>TAMARA CHAGAS</span><i>dia das crianças</i><span>LEI 8.742/1993</span><i>&amp;</i><span>LEIA A LEGENDA</span>"
+ },
+ {
+  "id": "12-2026-10-17-acompanhe-no-congresso",
+  "layout": "retrato",
+  "foto": "tamara/tamara-estudio-0156.jpg",
+  "kicker": "PREVIDÊNCIA E POLÍTICA",
+  "fino": "Mudança na aposentadoria?",
+  "forte": "Acompanhe na fonte.",
+  "lista": [
+   [
+    "Câmara",
+    "camara.leg.br · propostas legislativas"
+   ],
+   [
+    "Senado",
+    "senado.leg.br · pesquisa de matérias"
+   ],
+   [
+    "Busque por",
+    "aposentadoria, BPC, INSS"
+   ]
+  ],
+  "fonte": "Câmara dos Deputados · Senado Federal"
+ },
+ {
+  "id": "13-2026-10-18-atendimento-preferencial",
+  "layout": "foto-cheia",
+  "foto": "senhora-oculos-azul-roberto-huczek-unsplash.jpg",
+  "foto_css": "left:120px;bottom:0;height:700px;width:auto;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 30%),linear-gradient(90deg,transparent 0%,#000 22%);-webkit-mask-composite:source-in;mask-composite:intersect",
+  "topo": 210,
+  "largura": 620,
+  "rot1": "TAMARA CHAGAS",
+  "rot2": "Estatuto da Pessoa Idosa",
+  "titulo": "Prioridade não é favor: é <i>lei.</i>",
+  "sub": "Atendimento preferencial para<br>quem tem 60 anos ou mais.",
+  "fonte": "Lei 10.741/2003 · art. 3º"
+ },
+ {
+  "id": "14-2026-10-20-pcd-na-votacao",
+  "layout": "metades",
+  "foto1": "tamara/tamara-estudio-0020.jpg",
+  "img1_css": "left:420px;top:-80px;width:760px",
+  "foto2": "mulher-cadeira-de-rodas-ageing-better-unsplash.jpg",
+  "img2_css": "left:-260px;top:-210px;width:760px",
+  "t1": "Pessoa com<br>{<b>deficiência</b>}",
+  "t2": "tem [<b>apoio</b>]<br>na hora de votar.",
+  "rodape": "<span>TAMARA CHAGAS</span><i>fonte</i><span>TSE · 11/09/2026</span><i>&amp;</i><span>LEIA A LEGENDA</span>"
+ },
+ {
+  "id": "15-2026-10-22-segundo-turno",
+  "layout": "tipografico",
+  "etiqueta": "2º TURNO · 25/10",
+  "pre": "Tem 2º turno no domingo?",
+  "giga": "VOTE DE NOVO.",
+  "pos": "Das <b>8h às 17h</b> (Brasília).",
+  "faixa": "Documento com foto · local no e-Título",
+  "obs": "O 2º turno só acontece onde houver disputa. 70 anos ou mais: votar é opcional.",
+  "fonte": "TSE · Código Eleitoral, art. 144"
+ },
+ {
+  "id": "16-2026-10-24-checklist-2-turno",
+  "layout": "cartao",
+  "msg": "Amanhã tem 2º turno.",
+  "giga": "Seu checklist está pronto?",
+  "selo": "3 ITENS NA LEGENDA ↘",
+  "fonte": "TSE · tse.jus.br"
+ },
+ {
+  "id": "17-2026-10-25-hoje-tem-2-turno",
+  "layout": "retrato",
+  "foto": "tamara/tamara-estudio-0004.jpg",
+  "kicker": "2º TURNO · 25/10",
+  "fino": "Hoje tem 2º turno.",
+  "forte": "Votou, conta como prova de vida.",
+  "lista": [
+   [
+    "Horário",
+    "8h às 17h (Brasília)"
+   ],
+   [
+    "Documento",
+    "com foto, pode ser digital"
+   ],
+   [
+    "70 anos ou mais",
+    "voto opcional"
+   ]
+  ],
+  "fonte": "TSE · Previdência, 18/09/2026"
+ },
+ {
+  "id": "18-2026-10-27-justifique-2-turno",
+  "layout": "tipografico",
+  "etiqueta": "2º TURNO",
+  "pre": "Faltou no 2º turno?",
+  "giga": "JUSTIFIQUE.",
+  "pos": "Até <b>8 de janeiro de 2027.</b>",
+  "faixa": "Pelo aplicativo e-Título ou no cartório eleitoral",
+  "obs": "Cada turno se justifica separadamente. 70 anos ou mais não precisa justificar.",
+  "fonte": "TSE · tse.jus.br · Justificativa eleitoral"
+ }
+]

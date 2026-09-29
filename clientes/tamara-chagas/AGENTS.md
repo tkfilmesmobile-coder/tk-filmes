@@ -8,5 +8,8 @@ Nas peças deste cliente vale a marca **dele**, não a da TK (ver "Marca" no `co
 Esta pasta é só o marketing do escritório (conteúdo, Instagram, métricas). O trabalho jurídico do
 escritório (petições, processos) não é da TK e não entra aqui.
 
+Post de imagem: seguir a skill `post-tamara` (`.claude/skills/post-tamara/SKILL.md` nesta pasta),
+com o modelo em `modelos/`. É a regra fixa de estética, legenda e fonte aprovada em 2026-09-28.
+
 Conteúdo de advocacia segue as regras de publicidade da OAB: ver "Cuidados" no `contexto.md`
 antes de escrever qualquer post ou legenda.

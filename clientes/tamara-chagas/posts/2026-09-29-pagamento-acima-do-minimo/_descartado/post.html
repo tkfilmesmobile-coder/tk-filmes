@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:lining-nums}
+  :root{--serif:'Libre Baskerville',serif;--sans:'Inter',sans-serif;--ink:#efeeeb;--muted:#a3a19c;--rule:rgba(239,238,235,.24)}
+  body{width:1080px;height:1350px;overflow:hidden;background:#0b0b0c}
+  .post{position:relative;width:1080px;height:1350px;padding:92px 96px;color:var(--ink);overflow:hidden;
+    font-family:var(--sans);font-weight:300;background:#0b0b0c}
+
+  /* foto colorida de idoso feliz à direita, dissolvendo no fundo escuro; texto sobre a área escura */
+  .foto{position:absolute;right:-470px;bottom:0;height:880px;width:auto;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 24%,#000 85%,transparent 100%);
+    filter:saturate(.92) contrast(1.04) brightness(.95)}
+  .sombra{position:absolute;inset:0;
+    background:
+      linear-gradient(90deg,#0b0b0c 0%,#0b0b0c 44%,rgba(11,11,12,.7) 54%,rgba(11,11,12,.15) 70%,rgba(11,11,12,0) 84%),
+      linear-gradient(180deg,#0b0b0c 0%,#0b0b0c 15%,rgba(11,11,12,.3) 26%,rgba(11,11,12,0) 34%,rgba(11,11,12,0) 78%,rgba(11,11,12,.92) 100%)}
+  .moldura{position:absolute;inset:40px;border:1px solid rgba(239,238,235,.10)}
+  .z{position:relative}
+
+  .topo{display:flex;justify-content:space-between;align-items:center}
+  .marca{display:flex;align-items:center;gap:24px}
+  .marca img{width:62px}
+  .marca .fio{width:1px;height:56px;background:var(--rule)}
+  .marca .nome{font-family:var(--serif);font-size:23px;letter-spacing:.2em}
+  .marca .sub{font-size:11px;letter-spacing:.6em;margin-top:8px;color:var(--muted);font-weight:400}
+  .area{font-size:11.5px;letter-spacing:.3em;line-height:1.8;color:#c9c7c2;text-align:right;font-weight:400}
+
+  .kicker{display:flex;align-items:center;gap:20px;margin-top:96px;font-size:14px;letter-spacing:.34em;
+    color:var(--muted);text-transform:uppercase;font-weight:500}
+  .kicker i{width:48px;height:1px;background:#c9c7c2}
+
+  h1{font-family:var(--serif);font-weight:400;font-size:92px;line-height:1.12;letter-spacing:-.025em;margin-top:34px}
+
+  .sub1{margin-top:34px;font-size:27px;line-height:1.5;color:#d6d4cf;max-width:640px}
+  .sub1 b{font-weight:600;color:var(--ink)}
+
+  .lista{margin-top:44px;border-top:1px solid var(--rule);max-width:520px}
+  .item{display:grid;grid-template-columns:170px 1fr;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--rule)}
+  .cab{display:grid;grid-template-columns:170px 1fr;padding:14px 0 12px;font-size:11px;letter-spacing:.32em;color:#a3a19c;font-weight:500;border-bottom:1px solid var(--rule)}
+  .n{font-family:var(--serif);font-size:22px;color:#c9c7c2}
+  .item p{font-size:22px;line-height:1.5;color:#d6d4cf}
+  .item b{font-weight:600;color:var(--ink)}
+
+  .rodape{position:absolute;left:96px;right:96px;bottom:84px;display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+  .nota{font-size:15px;line-height:1.7;color:var(--muted);max-width:540px}
+  .nota b{color:#d6d4cf;font-weight:500}
+  .fonte{margin-top:18px;padding-top:16px;border-top:1px solid var(--rule);font-size:15px;line-height:1.7;color:#d6d4cf;max-width:540px}
+  .fonte b{display:block;font-size:11px;letter-spacing:.42em;color:#c9c7c2;font-weight:500;margin-bottom:4px}
+  .data{text-align:right}
+  .data small{display:block;font-size:11px;letter-spacing:.42em;color:#c9c7c2;margin-bottom:10px;font-weight:500}
+  .data span{font-family:var(--serif);font-size:40px;letter-spacing:.08em}
+</style>
+<style>/* tema-claro */
+/* Tema claro dos posts da Tamara (aprovado em 2026-09-29, substitui o fundo escuro de 2026-09-28).
+   Fundo off-white quente, texto grafite, detalhes em taupe; a foto se dissolve no claro. */
+:root{--ink:#1f1d1a;--muted:#7a746c;--rule:rgba(31,29,26,.16);--acento:#8c7b6b}
+body{background:#f5f1eb !important}
+.post{background:#f5f1eb !important;color:var(--ink) !important}
+.foto{filter:saturate(1) contrast(1) brightness(1.02) !important}
+.sombra{background:
+  linear-gradient(90deg,#f5f1eb 0%,#f5f1eb 44%,rgba(245,241,235,.75) 54%,rgba(245,241,235,.15) 70%,rgba(245,241,235,0) 84%),
+  linear-gradient(180deg,#f5f1eb 0%,#f5f1eb 15%,rgba(245,241,235,.3) 26%,rgba(245,241,235,0) 34%,rgba(245,241,235,0) 80%,rgba(245,241,235,.9) 100%) !important}
+.moldura{border-color:rgba(31,29,26,.10) !important}
+.marca .fio{background:var(--rule) !important}
+.area,.kicker,.cab,.data small,.fonte b{color:var(--acento) !important}
+.kicker i{background:var(--acento) !important}
+.sub1,.item p,.fonte{color:#3b3833 !important}
+.sub1 b,.item b,.nota b{color:var(--ink) !important}
+.n{color:var(--acento) !important}
+.nota{color:var(--muted) !important}
+.data span{color:var(--ink)}
+.data{background:rgba(245,241,235,.88);padding:14px 20px 10px;border-radius:4px}
+</style>
+</head>
+<body>
+<div class="post">
+  <img class="foto" src="../../marca/fotos/idoso-sorrindo-sala-vitaly-gariev-unsplash.jpg" alt="">
+  <div class="sombra"></div>
+  <div class="moldura"></div>
+
+  <div class="z topo">
+    <div class="marca">
+      <img src="../../marca/simbolo-escuro.png" alt="">
+      <div class="fio"></div>
+      <div><div class="nome">TAMARA CHAGAS</div><div class="sub">ADVOCACIA</div></div>
+    </div>
+    <div class="area">DIREITO PREVIDENCIÁRIO<br>E ASSISTENCIAL</div>
+  </div>
+
+  <div class="z kicker"><i></i>Calendário INSS · Outubro</div>
+
+  <h1 class="z">Ganha acima<br>do mínimo?</h1>
+
+  <p class="z sub1">O pagamento de setembro começa na <b>quinta, 1º de outubro</b>.</p>
+
+  <div class="z lista"><div class="cab"><span>FINAL DO CARTÃO</span><span>DIA DO PAGAMENTO</span></div>
+    <div class="item"><span class="n">1 e 6</span><p><b>quinta, 01/10</b></p></div>
+    <div class="item"><span class="n">2 e 7</span><p><b>sexta, 02/10</b></p></div>
+    <div class="item"><span class="n">3 e 8</span><p><b>segunda, 05/10</b></p></div>
+    <div class="item"><span class="n">4 e 9</span><p><b>terça, 06/10</b></p></div>
+    <div class="item"><span class="n">5 e 0</span><p><b>quarta, 07/10</b></p></div>
+  </div>
+
+  <div class="rodape">
+    <div><p class="nota"><b>Qual é o seu final?</b> É o último número do cartão de benefício, sem o dígito depois do traço.</p><p class="fonte"><b>FONTE</b>INSS · gov.br/inss · 22/09/2026<br>Tabela de Pagamento de Benefícios 2026</p></div>
+    <div class="data"><small>COMEÇA</small><span>01.10</span></div>
+  </div>
+</div>
+</body>
+</html>

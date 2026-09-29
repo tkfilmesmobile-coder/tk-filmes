@@ -1,0 +1,13 @@
+{
+ "foto": "tamara/tamara-estudio-0132.jpg",
+ "foto_css": "left:300px;top:-60px;width:1150px",
+ "story_foto_css": "left:230px;top:-20px;width:1480px",
+ "etiquetas": ["RECEITA", "MEI", "SIMEI"],
+ "fino": "É MEI e quer entrar no Simei?",
+ "forte": "O prazo continua sendo janeiro.",
+ "destaque": "Não confunda os dois prazos",
+ "lista_titulo": "REGIME · PRAZO",
+ "lista": [["Simei (MEI)", "janeiro de 2027"], ["Simples Nacional", "até 30/09/2026"]],
+ "nota": "E lembre: o MEI contribui para o INSS pelo DAS mensal. Manter em dia garante o acesso aos benefícios.",
+ "fonte": "Receita Federal · gov.br/fazenda · 25/09/2026"
+}

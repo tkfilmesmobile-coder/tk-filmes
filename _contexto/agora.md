@@ -2,10 +2,12 @@
 # Agora · onde paramos
 
 ## Onde paramos
-Em 2026-09-28 a cliente Tamara Chagas Advocacia foi cadastrada em `clientes/tamara-chagas/`, e os dois Instagrams dela (@tamarachagas_prev e @dra.tamarachagas_) estão conectados pra publicar direto do sistema pela skill `publicar-social-ratos`. Faltam 4 clientes na fila do `/cliente`.
+Em 2026-09-29 o calendário "Eleições 2026 × Previdência" da Tamara ficou pronto (18 posts) e os posts 1 a 14 estão agendados pra sair sozinhos às 9h, de 01/10 a 20/10. Os posts 15 a 18 esperam o resultado do 1º turno. Faltam 4 clientes na fila do `/cliente`.
 
 ## Pendências
-- **Gerar tokens novos das duas contas do Instagram da Tamara**: os atuais passaram pelo chat. Colar no `.env` e testar. (2026-09-28)
+- **05/10/2026: conferir se há 2º turno e agendar os posts 15 a 18 do calendário da Tamara** (ou os temas alternativos que estão no calendário). (2026-09-29)
+- A cada post da Tamara, aceitar o convite de colaboração no app, logado no @dra.tamarachagas_. (2026-09-29)
+- Publicações agendadas só saem com o PC ligado às 9h: conferir os `*-publicacao.log` na pasta dos posts. (2026-09-29)
 - Tokens do Instagram vencem por volta de 27/11/2026: renovar antes. (2026-09-28)
 - Tamara: confirmar o tom de fala dela nos vídeos e, se existir, o manual de marca com fontes e cores oficiais. (2026-09-28)
 - **Passaporte do Galeguinho: 8 vídeos em atraso, com plano de quitação.** Ritmo de 3 vídeos por semana de 18/09 a 19/11/2026 (26 no total: 18 do piso + os 8 atrasados). Conferir o ritmo a cada registro semanal. (2026-09-17)
@@ -20,7 +22,9 @@ Em 2026-09-28 a cliente Tamara Chagas Advocacia foi cadastrada em `clientes/tama
 - Site em tkfilme.com.br: domínio registrado, nada no ar. (2026-09-17)
 
 ## Quente agora
-Nada com prazo esta semana.
+- 29/09 às 15h: post "golpes / canais oficiais" da Tamara (agendado).
+- 30/09 às 9h: post do Simei (agendado).
+- 01/10: começa o calendário das eleições (Dia Nacional do Idoso). 1º turno em 04/10.
 
 ## Detalhe de operação
 No PowerShell da Talyta o `&&` não funciona: comandos vão um por vez.

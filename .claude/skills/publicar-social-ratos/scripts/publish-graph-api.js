@@ -11,9 +11,14 @@ function parseArgs() {
     else if (args[i] === "--caption") opts.caption = args[++i];
     else if (args[i] === "--dry-run") opts.dryRun = true;
     else if (args[i] === "--conta") opts.conta = args[++i];
+    // TK Filmes: legenda de arquivo (evita briga de aspas no terminal), colaborador e stories
+    else if (args[i] === "--caption-file") opts.caption = fs.readFileSync(args[++i], "utf8").trim();
+    else if (args[i] === "--colaboradores") opts.colaboradores = args[++i].split(",").map(s => s.trim().replace(/^@/, "")).filter(Boolean);
+    else if (args[i] === "--story") opts.story = true;
   }
   return opts;
 }
+const OPTS = parseArgs();
 
 // TK Filmes: várias contas no mesmo .env. --conta <nome> lê INSTAGRAM_ACCESS_TOKEN_<NOME>
 // e INSTAGRAM_USER_ID_<NOME>. Sem --conta, cai nas variáveis sem sufixo (se existirem).
@@ -69,6 +74,7 @@ async function createSingleImageContainer(imageUrl, caption) {
     caption,
     access_token: TOKEN,
   });
+  if (OPTS.colaboradores && OPTS.colaboradores.length) body.append("collaborators", JSON.stringify(OPTS.colaboradores));
   const res = await fetch(`${GRAPH}/${USER_ID}/media`, { method: "POST", body });
   const json = await res.json();
   if (json.error) throw new Error(`Container: ${json.error.message}`);
@@ -182,6 +188,27 @@ async function main() {
     const link = await getPermalink(mediaId);
     console.log(`\nPublicado como Reels!`);
     if (link) console.log(`Link: ${link}`);
+    return;
+  }
+
+  // --- STORY (imagem 1080x1920) ---
+  if (opts.story && isSingleImage) {
+    console.log(`Fazendo upload do story...`);
+    const imageUrl = uploadFile(opts.images[0]);
+    if (opts.dryRun) { console.log(`\nDRY RUN — story pronto mas nao publicado`); return; }
+    const body = new URLSearchParams({ image_url: imageUrl, media_type: "STORIES", access_token: TOKEN });
+    const res = await fetch(`${GRAPH}/${USER_ID}/media`, { method: "POST", body });
+    const json = await res.json();
+    if (json.error) throw new Error(`Story container: ${json.error.message}`);
+    await pollStatus(json.id);
+    // story às vezes diz FINISHED antes de liberar a publicação ("Media ID is not available")
+    let mediaId;
+    for (let t = 1; t <= 6; t++) {
+      await new Promise(r => setTimeout(r, 5000));
+      try { mediaId = await publish(json.id); break; }
+      catch (e) { if (t === 6 || !/not available/i.test(e.message)) throw e; }
+    }
+    console.log(`\nStory publicado! (media ${mediaId})`);
     return;
   }
 

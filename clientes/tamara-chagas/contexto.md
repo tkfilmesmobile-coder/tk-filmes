@@ -68,7 +68,10 @@ Arquivos em `marca/` (recebidos em 2026-09-28): `logo-fundo-preto.png` e `exempl
 - **Cores (tiradas das peças, sem código oficial):** preto e grafite como fundo, prata/cinza
   metálico no símbolo e nos destaques, branco no texto. Fotos em preto e branco, com luz dramática.
   Nada de cor forte.
-- **Fontes (identificadas no olho, nomes a confirmar):** título em serifada elegante de contraste
+- **Padrão dos posts da TK (aprovado em 2026-09-28):** Libre Baskerville nos títulos + Inter no
+  texto, foto colorida de idoso feliz, fonte oficial no post e na legenda. Regra completa na skill
+  `post-tamara` desta pasta.
+- **Fontes do material antigo do escritório (identificadas no olho):** título em serifada elegante de contraste
   alto (tipo Playfair/Cormorant), com a palavra-chave em negrito prateado ("INSS"); apoio em
   sem-serifa fina, caixa-alta com espaçamento largo; corpo em sem-serifa leve com negrito nos termos
   importantes.
