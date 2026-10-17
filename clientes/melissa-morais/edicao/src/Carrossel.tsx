@@ -158,12 +158,13 @@ const MIRA_GLABELA = { altura: 0.62, larg: 0.9, alt: 0.6 };
 
 // Slide principal, como o 1º da referência: rosto em repouso, antes e depois lado a lado, grandes, sem marcação
 const Principal: React.FC = () => {
-  const D = 250;
-  const y = 600;
+  // os dois rostos inteiros à mostra (pedido da cliente): só o cabelo encosta, nenhum rosto cobre o outro
+  const D = 215;
+  const y = 610;
   return (
     <>
-      <Pessoa r={R.antesRepouso} ax={OLHOS.antesRepouso.x} ay={OLHOS.antesRepouso.y} x={280} y={y} s={D / OLHOS.antesRepouso.d} />
-      <Pessoa r={R.depoisRepouso} ax={OLHOS.depoisRepouso.x} ay={OLHOS.depoisRepouso.y} x={800} y={y} s={D / OLHOS.depoisRepouso.d} />
+      <Pessoa r={R.antesRepouso} ax={OLHOS.antesRepouso.x} ay={OLHOS.antesRepouso.y} x={265} y={y} s={D / OLHOS.antesRepouso.d} />
+      <Pessoa r={R.depoisRepouso} ax={OLHOS.depoisRepouso.x} ay={OLHOS.depoisRepouso.y} x={815} y={y} s={D / OLHOS.depoisRepouso.d} />
       <Pe de={960} ate={1170} />
     </>
   );
