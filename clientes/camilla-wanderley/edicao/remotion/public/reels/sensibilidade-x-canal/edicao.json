@@ -1,0 +1,902 @@
+{
+ "fps": 30,
+ "durationInFrames": 1422,
+ "props": {
+  "fonte": "midia/sensibilidade-x-canal.mp4",
+  "videoFrames": 1350,
+  "quadros": [
+   {
+    "de": 0,
+    "ate": 75,
+    "escala": 1.0,
+    "ox": 545,
+    "oy": 616
+   },
+   {
+    "de": 75,
+    "ate": 223,
+    "escala": 1.0,
+    "ox": 557,
+    "oy": 633
+   },
+   {
+    "de": 223,
+    "ate": 265,
+    "escala": 1.0,
+    "ox": 464,
+    "oy": 626
+   },
+   {
+    "de": 265,
+    "ate": 498,
+    "escala": 1.0,
+    "ox": 522,
+    "oy": 666
+   },
+   {
+    "de": 498,
+    "ate": 706,
+    "escala": 1.0,
+    "ox": 532,
+    "oy": 613
+   },
+   {
+    "de": 706,
+    "ate": 716,
+    "escala": 1.0,
+    "ox": 485,
+    "oy": 687
+   },
+   {
+    "de": 716,
+    "ate": 795,
+    "escala": 1.0,
+    "ox": 511,
+    "oy": 711
+   },
+   {
+    "de": 795,
+    "ate": 875,
+    "escala": 1.0,
+    "ox": 495,
+    "oy": 694
+   },
+   {
+    "de": 875,
+    "ate": 952,
+    "escala": 1.0,
+    "ox": 549,
+    "oy": 693
+   },
+   {
+    "de": 952,
+    "ate": 1062,
+    "escala": 1.0,
+    "ox": 524,
+    "oy": 717
+   },
+   {
+    "de": 1062,
+    "ate": 1153,
+    "escala": 1.0,
+    "ox": 492,
+    "oy": 680
+   },
+   {
+    "de": 1153,
+    "ate": 1287,
+    "escala": 1.0,
+    "ox": 523,
+    "oy": 697
+   },
+   {
+    "de": 1287,
+    "ate": 1350,
+    "escala": 1.0,
+    "ox": 491,
+    "oy": 698
+   }
+  ],
+  "legendas": [
+   {
+    "text": " Você",
+    "startMs": 0,
+    "endMs": 200
+   },
+   {
+    "text": " sente",
+    "startMs": 200,
+    "endMs": 460
+   },
+   {
+    "text": " algum",
+    "startMs": 460,
+    "endMs": 680
+   },
+   {
+    "text": " incômodo",
+    "startMs": 680,
+    "endMs": 1140
+   },
+   {
+    "text": " ao",
+    "startMs": 1140,
+    "endMs": 1300
+   },
+   {
+    "text": " consumir",
+    "startMs": 1300,
+    "endMs": 1760
+   },
+   {
+    "text": " algo",
+    "startMs": 1760,
+    "endMs": 1960
+   },
+   {
+    "text": " gelado?",
+    "startMs": 1960,
+    "endMs": 2420
+   },
+   {
+    "text": " Tá",
+    "startMs": 2500,
+    "endMs": 2620
+   },
+   {
+    "text": " na",
+    "startMs": 2620,
+    "endMs": 2740
+   },
+   {
+    "text": " dúvida",
+    "startMs": 2740,
+    "endMs": 3040
+   },
+   {
+    "text": " se",
+    "startMs": 3040,
+    "endMs": 3280
+   },
+   {
+    "text": " isso",
+    "startMs": 3280,
+    "endMs": 3420
+   },
+   {
+    "text": " é",
+    "startMs": 3420,
+    "endMs": 3480
+   },
+   {
+    "text": " uma",
+    "startMs": 3480,
+    "endMs": 3580
+   },
+   {
+    "text": " sensibilidade",
+    "startMs": 3580,
+    "endMs": 4280
+   },
+   {
+    "text": " comum",
+    "startMs": 4280,
+    "endMs": 4700
+   },
+   {
+    "text": " ou",
+    "startMs": 4700,
+    "endMs": 5020
+   },
+   {
+    "text": " um",
+    "startMs": 5020,
+    "endMs": 5180
+   },
+   {
+    "text": " canal?",
+    "startMs": 5180,
+    "endMs": 5480
+   },
+   {
+    "text": " Eu",
+    "startMs": 5720,
+    "endMs": 5900
+   },
+   {
+    "text": " vou",
+    "startMs": 5900,
+    "endMs": 6020
+   },
+   {
+    "text": " te",
+    "startMs": 6020,
+    "endMs": 6120
+   },
+   {
+    "text": " explicar",
+    "startMs": 6120,
+    "endMs": 6440
+   },
+   {
+    "text": " como",
+    "startMs": 6440,
+    "endMs": 6680
+   },
+   {
+    "text": " funciona.",
+    "startMs": 6680,
+    "endMs": 7200
+   },
+   {
+    "text": " A",
+    "startMs": 7440,
+    "endMs": 7520
+   },
+   {
+    "text": " sensibilidade,",
+    "startMs": 7520,
+    "endMs": 8200
+   },
+   {
+    "text": " ela",
+    "startMs": 8200,
+    "endMs": 8360
+   },
+   {
+    "text": " acontece",
+    "startMs": 8360,
+    "endMs": 8740
+   },
+   {
+    "text": " no",
+    "startMs": 8740,
+    "endMs": 8940
+   },
+   {
+    "text": " momento",
+    "startMs": 8940,
+    "endMs": 9180
+   },
+   {
+    "text": " que",
+    "startMs": 9180,
+    "endMs": 9320
+   },
+   {
+    "text": " você",
+    "startMs": 9320,
+    "endMs": 9500
+   },
+   {
+    "text": " consome",
+    "startMs": 9500,
+    "endMs": 10060
+   },
+   {
+    "text": " algo",
+    "startMs": 10060,
+    "endMs": 10320
+   },
+   {
+    "text": " gelado.",
+    "startMs": 10320,
+    "endMs": 10860
+   },
+   {
+    "text": " Ela",
+    "startMs": 11000,
+    "endMs": 11120
+   },
+   {
+    "text": " dá",
+    "startMs": 11120,
+    "endMs": 11300
+   },
+   {
+    "text": " aquela",
+    "startMs": 11300,
+    "endMs": 11560
+   },
+   {
+    "text": " dor",
+    "startMs": 11560,
+    "endMs": 11780
+   },
+   {
+    "text": " mais",
+    "startMs": 11780,
+    "endMs": 12020
+   },
+   {
+    "text": " aguda,",
+    "startMs": 12020,
+    "endMs": 12360
+   },
+   {
+    "text": " aquela",
+    "startMs": 12500,
+    "endMs": 12600
+   },
+   {
+    "text": " dor",
+    "startMs": 12600,
+    "endMs": 12760
+   },
+   {
+    "text": " mais",
+    "startMs": 12760,
+    "endMs": 12960
+   },
+   {
+    "text": " intensa.",
+    "startMs": 12960,
+    "endMs": 13360
+   },
+   {
+    "text": " Mas",
+    "startMs": 13440,
+    "endMs": 13520
+   },
+   {
+    "text": " à",
+    "startMs": 13520,
+    "endMs": 13620
+   },
+   {
+    "text": " medida",
+    "startMs": 13620,
+    "endMs": 13820
+   },
+   {
+    "text": " que",
+    "startMs": 13820,
+    "endMs": 14020
+   },
+   {
+    "text": " você",
+    "startMs": 14020,
+    "endMs": 14400
+   },
+   {
+    "text": " tira,",
+    "startMs": 14400,
+    "endMs": 14880
+   },
+   {
+    "text": " ela",
+    "startMs": 15040,
+    "endMs": 15480
+   },
+   {
+    "text": " já",
+    "startMs": 15480,
+    "endMs": 15700
+   },
+   {
+    "text": " para.",
+    "startMs": 15700,
+    "endMs": 16420
+   },
+   {
+    "text": " Já",
+    "startMs": 16580,
+    "endMs": 16720
+   },
+   {
+    "text": " a",
+    "startMs": 16720,
+    "endMs": 16880
+   },
+   {
+    "text": " dor",
+    "startMs": 16880,
+    "endMs": 17020
+   },
+   {
+    "text": " que",
+    "startMs": 17020,
+    "endMs": 17160
+   },
+   {
+    "text": " pode",
+    "startMs": 17160,
+    "endMs": 17380
+   },
+   {
+    "text": " indicar",
+    "startMs": 17380,
+    "endMs": 17720
+   },
+   {
+    "text": " um",
+    "startMs": 17720,
+    "endMs": 17840
+   },
+   {
+    "text": " canal,",
+    "startMs": 17840,
+    "endMs": 18180
+   },
+   {
+    "text": " ela",
+    "startMs": 18320,
+    "endMs": 18520
+   },
+   {
+    "text": " é",
+    "startMs": 18520,
+    "endMs": 18580
+   },
+   {
+    "text": " uma",
+    "startMs": 18580,
+    "endMs": 18680
+   },
+   {
+    "text": " dor",
+    "startMs": 18680,
+    "endMs": 18860
+   },
+   {
+    "text": " mais",
+    "startMs": 18860,
+    "endMs": 19140
+   },
+   {
+    "text": " intensa.",
+    "startMs": 19140,
+    "endMs": 19660
+   },
+   {
+    "text": " E",
+    "startMs": 19760,
+    "endMs": 19840
+   },
+   {
+    "text": " pode",
+    "startMs": 19840,
+    "endMs": 20040
+   },
+   {
+    "text": " ser",
+    "startMs": 20040,
+    "endMs": 20180
+   },
+   {
+    "text": " acompanhada",
+    "startMs": 20180,
+    "endMs": 20760
+   },
+   {
+    "text": " de",
+    "startMs": 20760,
+    "endMs": 20960
+   },
+   {
+    "text": " outras",
+    "startMs": 20960,
+    "endMs": 21280
+   },
+   {
+    "text": " coisas.",
+    "startMs": 21280,
+    "endMs": 21740
+   },
+   {
+    "text": " Como,",
+    "startMs": 21940,
+    "endMs": 22120
+   },
+   {
+    "text": " por",
+    "startMs": 22240,
+    "endMs": 22280
+   },
+   {
+    "text": " exemplo,",
+    "startMs": 22280,
+    "endMs": 22580
+   },
+   {
+    "text": " uma",
+    "startMs": 22680,
+    "endMs": 22820
+   },
+   {
+    "text": " cárie",
+    "startMs": 22820,
+    "endMs": 23020
+   },
+   {
+    "text": " grande.",
+    "startMs": 23020,
+    "endMs": 23400
+   },
+   {
+    "text": " Ou",
+    "startMs": 23540,
+    "endMs": 23780
+   },
+   {
+    "text": " uma",
+    "startMs": 23780,
+    "endMs": 24000
+   },
+   {
+    "text": " dor",
+    "startMs": 24000,
+    "endMs": 24320
+   },
+   {
+    "text": " ao",
+    "startMs": 24320,
+    "endMs": 24620
+   },
+   {
+    "text": " consumir",
+    "startMs": 24620,
+    "endMs": 25100
+   },
+   {
+    "text": " também",
+    "startMs": 25100,
+    "endMs": 25300
+   },
+   {
+    "text": " algo",
+    "startMs": 25300,
+    "endMs": 25780
+   },
+   {
+    "text": " quente.",
+    "startMs": 25780,
+    "endMs": 26340
+   },
+   {
+    "text": " e",
+    "startMs": 26340,
+    "endMs": 26580
+   },
+   {
+    "text": " às",
+    "startMs": 26580,
+    "endMs": 26720
+   },
+   {
+    "text": " vezes",
+    "startMs": 26720,
+    "endMs": 26880
+   },
+   {
+    "text": " até",
+    "startMs": 26880,
+    "endMs": 27160
+   },
+   {
+    "text": " o",
+    "startMs": 27160,
+    "endMs": 27300
+   },
+   {
+    "text": " gelado",
+    "startMs": 27300,
+    "endMs": 27940
+   },
+   {
+    "text": " pode",
+    "startMs": 27940,
+    "endMs": 28440
+   },
+   {
+    "text": " ajudar",
+    "startMs": 28440,
+    "endMs": 28920
+   },
+   {
+    "text": " a",
+    "startMs": 28920,
+    "endMs": 29340
+   },
+   {
+    "text": " diminuir",
+    "startMs": 29340,
+    "endMs": 29920
+   },
+   {
+    "text": " essa",
+    "startMs": 29920,
+    "endMs": 30120
+   },
+   {
+    "text": " dor,",
+    "startMs": 30120,
+    "endMs": 30380
+   },
+   {
+    "text": " caso",
+    "startMs": 30440,
+    "endMs": 30760
+   },
+   {
+    "text": " seja",
+    "startMs": 30760,
+    "endMs": 31060
+   },
+   {
+    "text": " um",
+    "startMs": 31060,
+    "endMs": 31220
+   },
+   {
+    "text": " canal.",
+    "startMs": 31220,
+    "endMs": 31520
+   },
+   {
+    "text": " A",
+    "startMs": 31700,
+    "endMs": 31820
+   },
+   {
+    "text": " diferenciação",
+    "startMs": 31820,
+    "endMs": 32600
+   },
+   {
+    "text": " do",
+    "startMs": 32600,
+    "endMs": 32759
+   },
+   {
+    "text": " diagnóstico",
+    "startMs": 32759,
+    "endMs": 33440
+   },
+   {
+    "text": " sensibilidade",
+    "startMs": 33440,
+    "endMs": 34220
+   },
+   {
+    "text": " e",
+    "startMs": 34220,
+    "endMs": 34420
+   },
+   {
+    "text": " canal,",
+    "startMs": 34420,
+    "endMs": 34740
+   },
+   {
+    "text": " ela",
+    "startMs": 34880,
+    "endMs": 35220
+   },
+   {
+    "text": " só",
+    "startMs": 35220,
+    "endMs": 35400
+   },
+   {
+    "text": " vai",
+    "startMs": 35400,
+    "endMs": 35540
+   },
+   {
+    "text": " ser",
+    "startMs": 35540,
+    "endMs": 35740
+   },
+   {
+    "text": " feita",
+    "startMs": 35740,
+    "endMs": 36240
+   },
+   {
+    "text": " quando",
+    "startMs": 36240,
+    "endMs": 36860
+   },
+   {
+    "text": " você",
+    "startMs": 36860,
+    "endMs": 37100
+   },
+   {
+    "text": " for",
+    "startMs": 37100,
+    "endMs": 37260
+   },
+   {
+    "text": " avaliado",
+    "startMs": 37260,
+    "endMs": 37700
+   },
+   {
+    "text": " com",
+    "startMs": 37700,
+    "endMs": 37900
+   },
+   {
+    "text": " um",
+    "startMs": 37900,
+    "endMs": 38000
+   },
+   {
+    "text": " dentista.",
+    "startMs": 38000,
+    "endMs": 38420
+   },
+   {
+    "text": " Então",
+    "startMs": 38480,
+    "endMs": 38700
+   },
+   {
+    "text": " é",
+    "startMs": 38700,
+    "endMs": 38840
+   },
+   {
+    "text": " imprescindível",
+    "startMs": 38840,
+    "endMs": 39500
+   },
+   {
+    "text": " que",
+    "startMs": 39500,
+    "endMs": 39640
+   },
+   {
+    "text": " você",
+    "startMs": 39640,
+    "endMs": 39880
+   },
+   {
+    "text": " procure",
+    "startMs": 39880,
+    "endMs": 40240
+   },
+   {
+    "text": " um",
+    "startMs": 40240,
+    "endMs": 40380
+   },
+   {
+    "text": " profissional",
+    "startMs": 40380,
+    "endMs": 41000
+   },
+   {
+    "text": " para",
+    "startMs": 41000,
+    "endMs": 41220
+   },
+   {
+    "text": " que",
+    "startMs": 41220,
+    "endMs": 41340
+   },
+   {
+    "text": " ele",
+    "startMs": 41340,
+    "endMs": 41440
+   },
+   {
+    "text": " possa",
+    "startMs": 41440,
+    "endMs": 41680
+   },
+   {
+    "text": " lhe",
+    "startMs": 41680,
+    "endMs": 41880
+   },
+   {
+    "text": " orientar",
+    "startMs": 41880,
+    "endMs": 42260
+   },
+   {
+    "text": " melhor",
+    "startMs": 42260,
+    "endMs": 42620
+   },
+   {
+    "text": " qual",
+    "startMs": 42620,
+    "endMs": 43020
+   },
+   {
+    "text": " o",
+    "startMs": 43020,
+    "endMs": 43140
+   },
+   {
+    "text": " tratamento",
+    "startMs": 43140,
+    "endMs": 43560
+   },
+   {
+    "text": " mais",
+    "startMs": 43560,
+    "endMs": 43820
+   },
+   {
+    "text": " indicado",
+    "startMs": 43820,
+    "endMs": 44260
+   },
+   {
+    "text": " para",
+    "startMs": 44260,
+    "endMs": 44400
+   },
+   {
+    "text": " o",
+    "startMs": 44400,
+    "endMs": 44440
+   },
+   {
+    "text": " seu",
+    "startMs": 44440,
+    "endMs": 44560
+   },
+   {
+    "text": " caso.",
+    "startMs": 44560,
+    "endMs": 44860
+   }
+  ],
+  "headlines": [
+   {
+    "from": 111,
+    "durationInFrames": 59,
+    "linhas": [
+     {
+      "t": "SENSIBILIDADE"
+     },
+     {
+      "t": "OU CANAL?",
+      "cor": true
+     }
+    ],
+    "pos": "baixo"
+   },
+   {
+    "from": 1059,
+    "durationInFrames": 91,
+    "linhas": [
+     {
+      "t": "SÓ NA"
+     },
+     {
+      "t": "AVALIAÇÃO",
+      "cor": true
+     }
+    ],
+    "pos": "baixo"
+   }
+  ],
+  "cards": [
+   {
+    "from": 333,
+    "durationInFrames": 161,
+    "etiqueta": "Sensibilidade",
+    "texto": "Dor aguda no gelado. Tirou o estímulo, passa."
+   },
+   {
+    "from": 592,
+    "durationInFrames": 197,
+    "etiqueta": "Pode ser canal",
+    "texto": "Dor intensa, cárie grande, dor com algo quente."
+   }
+  ],
+  "cta": {
+   "from": 1350,
+   "durationInFrames": 72,
+   "texto": "me chama no direct"
+  }
+ }
+}

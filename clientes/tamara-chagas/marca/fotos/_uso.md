@@ -22,5 +22,7 @@
 | senhora-oculos-azul-roberto-huczek-unsplash.jpg (avó com a neta) | calendário eleições · post 13 (agendado) | 2026-10-18 |
 | mulher-cadeira-de-rodas-ageing-better-unsplash.jpg | calendário eleições · post 14 (agendado) | 2026-10-20 |
 
-Ainda livres (ensaio da Tamara): 0004, 0020, 0029, 0040, 0044, 0046, 0056, 0066, 0084, 0094,
+| tamara/tamara-estudio-0066.jpg | post BPC / CadÚnico + stories | 2026-10-07 |
+
+Ainda livres (ensaio da Tamara): 0004, 0020, 0029, 0040, 0044, 0046, 0056, 0084, 0094,
 0103, 0110, 0126, 0145, 0156. Originais em OneDrive\Imagens\FOTOS TAMARA.

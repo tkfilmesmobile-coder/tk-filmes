@@ -1,0 +1,26 @@
+Premium vertical 9:16 dental motion graphic, realistic 3D CGI, animating the supplied reference image.
+
+BACKGROUND (MANDATORY, for chroma keying)
+- solid, perfectly uniform chroma green background (#00B140) for the whole shot
+- no gradient, no texture, no vignette, no environment, no floor, no horizon
+- the object never touches or leaves the frame edges
+- no reflections of green on the object
+
+REFERENCE FIDELITY
+- keep the exact design, anatomy, materials and colors of the supplied image
+- do not redesign, add or remove parts of the object
+- one main object; no extra teeth, instruments, hands or people
+
+VISUAL LANGUAGE
+- high-end clinical medical visualization, clean studio lighting from the upper left
+- realistic enamel, dentin and pulp materials, subtle specular highlights
+- pink only as a discreet brand accent (glow, rim light)
+- ivory, white and polished metal as support colors
+- red only for pain or inflammation, always controlled and inside the tooth
+- cold effects in white, pearl, lilac or very soft blue; heat as soft warm energy, never fire
+
+MOTION
+- locked-off camera or very slow controlled dolly; object stays centered
+- restrained Y-axis rotation (a few degrees), subtle Z-depth, natural easing
+- no bounce, no shake, no fast moves, no glitch, no flashes
+- every movement explains the spoken idea; one visual concept at a time

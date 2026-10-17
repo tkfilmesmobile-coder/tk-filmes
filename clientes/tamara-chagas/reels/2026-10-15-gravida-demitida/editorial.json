@@ -1,0 +1,15 @@
+{
+ "fonte": "Lei 8.213/1991, arts. 15 e 71 · Decreto 3.048/1999, art. 97, p. único",
+ "telas": [
+  {"kicker": "DÚVIDA DE VOCÊS", "titulo": "Grávida demitida <b>tem direito?</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg", "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O vídeo completo tá no feed. Aqui vai o resumo 👇"},
+  {"kicker": "O QUE SABER", "titulo": "Justa causa e salário-maternidade.", "tam": 84,
+   "texto": "1. Justa causa <b>não tira o direito</b> ao benefício<br><br>2. Precisa ter a <b>qualidade de segurada na data do parto</b><br><br>3. Quem paga é o <b>INSS</b>, não o empregador"},
+  {"kicker": "GUARDE", "titulo": "Os documentos <b>que ajudam.</b>", "tam": 84,
+   "texto": "📄 Carteira de trabalho<br><br>📋 Termo de rescisão<br><br>🍼 Certidão de nascimento do bebê"},
+  {"kicker": "TAMARA CHAGAS ADVOCACIA", "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

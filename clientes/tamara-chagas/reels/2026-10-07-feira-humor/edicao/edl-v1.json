@@ -1,0 +1,285 @@
+{
+ "bruto": "C:/Users/tamar/Downloads/Mobile Devices/copy_8269CA7F-75FD-4F7A-986D-83577F23EA49.MOV",
+ "clips": [
+  {
+   "in": 189.0,
+   "out": 191.05,
+   "nota": "COLD OPEN rapaz: eu não entendo não dessas coisas não"
+  },
+  {
+   "in": 329.0,
+   "out": 333.0,
+   "nota": "Rita: agora a gente vai saber se o povo conhece sobre benefícios no INSS"
+  },
+  {
+   "in": 110.0,
+   "out": 111.95,
+   "nota": "pergunta 1: quem trabalha na roça?"
+  },
+  {
+   "in": 114.0,
+   "out": 117.0,
+   "nota": "tem direito de pegar um benefício do INSS?"
+  },
+  {
+   "in": 117.0,
+   "out": 120.05,
+   "nota": "feirante: tem / tem? / tem, sim, senhora"
+  },
+  {
+   "in": 141.0,
+   "out": 144.6,
+   "nota": "não precisa contribuir? não."
+  },
+  {
+   "in": 146.0,
+   "out": 151.95,
+   "nota": "feirante: a gente que trabalha na roça não carece... já contribui no trabalho"
+  },
+  {
+   "in": 164.3,
+   "out": 165.1,
+   "nota": "a gestante, né?"
+  },
+  {
+   "in": 166.0,
+   "out": 171.0,
+   "nota": "feirante: quando ganha menino tira o benefício... e o dela também"
+  },
+  {
+   "in": 171.0,
+   "out": 172.9,
+   "nota": "Rita: muito bem, muito bem"
+  },
+  {
+   "in": 184.0,
+   "out": 187.0,
+   "nota": "pergunta 2: quem trabalha na roça tem direito a auxílio-doença?"
+  },
+  {
+   "in": 187.0,
+   "out": 192.0,
+   "nota": "rapaz: acho que não, eu não entendo não dessas coisas não, acho que não"
+  },
+  {
+   "in": 202.0,
+   "out": 205.0,
+   "nota": "quem é trabalhador rural não precisa de contribuição, certo?"
+  },
+  {
+   "in": 211.0,
+   "out": 213.25,
+   "nota": "mas todos nós não temos que ajudar a..."
+  },
+  {
+   "in": 214.0,
+   "out": 216.05,
+   "nota": "a União dos Palmares, assim"
+  },
+  {
+   "in": 218.0,
+   "out": 220.0,
+   "nota": "contribuir com a feira"
+  },
+  {
+   "in": 221.3,
+   "out": 223.0,
+   "nota": "no desenvolvimento da União"
+  },
+  {
+   "in": 224.0,
+   "out": 227.0,
+   "nota": "rapaz: assim, eu acho que é isso. Eu acho. (o 'como é mesmo?' era de outra cena)"
+  },
+  {
+   "in": 155.0,
+   "out": 158.0,
+   "nota": "FINAL selfie Rita: esse povo tá sabendo demais"
+  },
+  {
+   "freeze": 3.5
+  }
+ ],
+ "corrige": {
+  "NSS?": "INSS?",
+  "NSS,": "INSS,",
+  "NSS.": "INSS.",
+  "NSS": "INSS",
+  "estribui": "contribui",
+  "Formados,": "Palmares,"
+ },
+ "destaques": [
+  "roça",
+  "inss",
+  "contribuir",
+  "contribuição",
+  "benefício",
+  "auxílio",
+  "doença",
+  "demais",
+  "união"
+ ],
+ "zooms": [
+  {
+   "t": 0.9,
+   "dur": 1.15,
+   "s": 1.13,
+   "x": 0.66,
+   "y": 0.32,
+   "rampa": 3
+  },
+  {
+   "t": 13.0,
+   "dur": 1.05,
+   "s": 1.1,
+   "x": 0.3,
+   "y": 0.42
+  },
+  {
+   "t": 17.05,
+   "dur": 0.6,
+   "s": 1.16,
+   "x": 0.3,
+   "y": 0.4
+  },
+  {
+   "t": 22.0,
+   "dur": 1.6,
+   "s": 1.1,
+   "x": 0.3,
+   "y": 0.42,
+   "rampa": 6
+  },
+  {
+   "t": 35.3,
+   "dur": 1.9,
+   "s": 1.08,
+   "x": 0.66,
+   "y": 0.32,
+   "rampa": 4
+  },
+  {
+   "t": 37.2,
+   "dur": 1.65,
+   "s": 1.16,
+   "x": 0.66,
+   "y": 0.32,
+   "rampa": 3
+  },
+  {
+   "t": 52.3,
+   "dur": 1.0,
+   "s": 1.15,
+   "x": 0.66,
+   "y": 0.32
+  }
+ ],
+ "pb": [
+  [
+   38.3,
+   38.85
+  ],
+  [
+   52.3,
+   53.3
+  ]
+ ],
+ "inserts": [
+  {
+   "t": 38.85,
+   "dur": 0.45,
+   "tipo": "tv-erro",
+   "texto": "SEM SINAL"
+  },
+  {
+   "t": 48.6,
+   "dur": 1.7,
+   "tipo": "meme",
+   "linhas": [
+    "DESENVOLVIMENTO",
+    "DA",
+    "UNIÃO"
+   ],
+   "tempos": [
+    0,
+    0.89,
+    1.05
+   ]
+  },
+  {
+   "t": 54.0,
+   "dur": 2.3,
+   "tipo": "meme",
+   "linhas": [
+    "ESSE POVO",
+    "TÁ SABENDO",
+    "DEMAIS!"
+   ],
+   "tempos": [
+    0,
+    0.6,
+    1.6
+   ]
+  },
+  {
+   "t": 56.3,
+   "dur": 3.5,
+   "tipo": "cartao",
+   "texto": "Quem é da roça não precisa ter pago carnê.",
+   "sub": "Precisa comprovar o trabalho no campo. Vale pra auxílio-doença e salário-maternidade.",
+   "fonte": "Lei 8.213/1991, arts. 11, VII; 25; 39"
+  }
+ ],
+ "sfx": [
+  [
+   2.0,
+   "scratch",
+   0.5
+  ],
+  [
+   17.05,
+   "pop",
+   0.5
+  ],
+  [
+   29.45,
+   "ding",
+   0.35
+  ],
+  [
+   38.3,
+   "impact",
+   0.42
+  ],
+  [
+   38.85,
+   "tv-erro",
+   0.3
+  ],
+  [
+   46.6,
+   "drama",
+   0.3
+  ],
+  [
+   50.25,
+   "impact",
+   0.6
+  ],
+  [
+   52.3,
+   "pop",
+   0.4
+  ],
+  [
+   55.6,
+   "boom",
+   0.55
+  ],
+  [
+   56.35,
+   "ding",
+   0.35
+  ]
+ ]
+}

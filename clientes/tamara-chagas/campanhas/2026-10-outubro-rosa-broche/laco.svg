@@ -1,0 +1,37 @@
+<svg viewBox="0 0 600 1000" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <filter id="b2"><feGaussianBlur stdDeviation="2"/></filter>
+ <filter id="b6"><feGaussianBlur stdDeviation="6"/></filter>
+ <filter id="b14"><feGaussianBlur stdDeviation="14"/></filter>
+ <linearGradient id="vert" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#5a1030" stop-opacity=".25"/></linearGradient>
+ <mask id="cortes" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="1000">
+  <rect width="600" height="1000" fill="#fff"/>
+  <polygon points="205,992 92,936 172,918" fill="#000"/>
+  <polygon points="508,936 395,992 428,918" fill="#000"/>
+  <rect y="985" width="600" height="20" fill="#000"/>
+ </mask>
+ <path id="tras" d="M 150 960 C 250 760, 430 560, 430 330 C 430 170, 362 78, 300 78"/>
+ <path id="frente" d="M 300 78 C 238 78, 170 170, 170 330 C 170 560, 350 760, 450 960"/>
+</defs>
+<g mask="url(#cortes)" fill="none" stroke-linecap="butt">
+ <!-- sombra do laço no fundo -->
+ <use href="#tras" stroke="#8a2c52" stroke-opacity=".28" stroke-width="112" filter="url(#b14)" transform="translate(10,18)"/>
+ <use href="#frente" stroke="#8a2c52" stroke-opacity=".28" stroke-width="112" filter="url(#b14)" transform="translate(10,18)"/>
+ <!-- faixa de trás -->
+ <use href="#tras" stroke="#a83c66" stroke-width="112"/>
+ <use href="#tras" stroke="#d56a91" stroke-width="98" filter="url(#b2)"/>
+ <use href="#tras" stroke="#ec98b5" stroke-width="64" filter="url(#b6)"/>
+ <use href="#tras" stroke="#ffe1ea" stroke-opacity=".75" stroke-width="16" filter="url(#b6)" transform="translate(10,-4)"/>
+ <use href="#tras" stroke="url(#vert)" stroke-width="112"/>
+ <!-- sombra da faixa da frente caindo sobre a de trás -->
+ <use href="#frente" stroke="#6e1a3d" stroke-opacity=".45" stroke-width="118" filter="url(#b14)" transform="translate(-4,12)"/>
+ <!-- faixa da frente -->
+ <use href="#frente" stroke="#b24670" stroke-width="112"/>
+ <use href="#frente" stroke="#e27c9f" stroke-width="98" filter="url(#b2)"/>
+ <use href="#frente" stroke="#f6aec6" stroke-width="62" filter="url(#b6)"/>
+ <use href="#frente" stroke="#fff0f5" stroke-opacity=".85" stroke-width="18" filter="url(#b6)" transform="translate(-12,-2)"/>
+ <use href="#frente" stroke="#fff" stroke-opacity=".5" stroke-width="5" filter="url(#b2)" transform="translate(-30,0)"/>
+ <use href="#frente" stroke="url(#vert)" stroke-width="112"/>
+</g>
+</svg>

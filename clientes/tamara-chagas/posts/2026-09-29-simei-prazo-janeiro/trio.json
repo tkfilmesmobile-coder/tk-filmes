@@ -1,0 +1,22 @@
+{
+ "data": "30 de setembro de 2026",
+ "card": "Gente, se você é <b>MEI</b>, respira: o prazo pra entrar no Simei continua sendo <b>janeiro</b>. Quem termina hoje é o Simples Nacional. Explico no post 👆",
+ "notas": {
+  "hora": "09:05",
+  "titulo": "MEI: não confunde os prazos ✍️",
+  "linhas": [
+   "📅 Simei (MEI): opção em <b>janeiro de 2027</b>",
+   "⏰ Simples Nacional: até <b>hoje, 30/09</b>, pra quem quer entrar ou continuar em 2027",
+   "🛡️ E o INSS? O MEI contribui com 5% do salário mínimo, no DAS de todo mês",
+   "DAS em dia é o que garante acesso aos benefícios"
+  ],
+  "marca": "janeiro de 2027"
+ },
+ "conversa": [
+  ["in", "Doutora, sou MEI e vi que o prazo acaba hoje. Perdi? 😰", "09:06"],
+  ["out", "Calma! O prazo que termina hoje é do Simples Nacional. Pro MEI entrar no Simei, a opção continua sendo em janeiro de 2027 😊", "09:07"],
+  ["out", "E aproveita pra conferir se o seu DAS tá em dia: é ele que conta pro INSS 😉", "09:07"],
+  ["in", "Ufa! Vou conferir o DAS 🙏", "09:08"]
+ ],
+ "fonte": "Receita Federal, 25/09/2026 · INSS, 22/10/2025"
+}

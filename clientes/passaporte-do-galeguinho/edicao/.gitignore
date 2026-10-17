@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Mídia pesada (cópia de trabalho e áudios; o original fica em Downloads/Drive)
+public/midia/
+scripts/**/*.wav
+scripts/**/frames/

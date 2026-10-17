@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ref 07 · stories editoriais: condensada em caixa alta, etiquetas nos cantos, marcações em círculo */
+  *{margin:0;padding:0;box-sizing:border-box} body{background:transparent;width:1080px}
+  .slide{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:'Poppins',sans-serif;color:#F4EEE6;text-transform:uppercase}
+  .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .cantos,.tit,.txt,.marca{text-shadow:0 1px 12px rgba(40,28,18,.35)}
+  .cantos{position:absolute;left:70px;right:70px;display:flex;justify-content:space-between;font-weight:500;font-size:20px;letter-spacing:.1em;line-height:1.25}
+  .cantos.topo{top:150px} .cantos.base{bottom:150px}
+  .tit{font-weight:500;line-height:1.08;letter-spacing:-.01em}
+  .txt{font-weight:400;font-size:26px;line-height:1.45;letter-spacing:.04em}
+  .bloco{position:absolute}
+  .marca{position:absolute;display:flex;flex-direction:column;align-items:center;gap:12px;font-weight:500;font-size:20px;letter-spacing:.05em;text-align:center;line-height:1.25}
+  .marca i{width:26px;height:26px;border:2px solid #F4EEE6;border-radius:50%}
+  .sombra{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 60%,rgba(30,22,16,.28),rgba(30,22,16,0) 70%)}
+</style>
+</head><body>
+
+<!-- 1 · foto -->
+<section class="slide" id="st1">
+  <img class="bg" src="foto-6280-ed.jpg" style="object-position:50% 25%">
+  <div class="sombra"></div>
+  <div class="cantos topo"><span>Ary Magalhães<br>Cabelos</span><span>Dia das crianças</span></div>
+  <div class="bloco" style="left:70px;top:1080px;width:520px">
+    <p class="tit" style="font-size:76px">Hoje é dia<br>das crianças</p>
+    <p class="txt" style="margin-top:20px">E o salão tá a mil por aqui, meu amor.</p>
+  </div>
+  <div class="marca" style="left:600px;top:760px"><i></i>Mãe, cabeleireira<br>e expert em lisos</div>
+  <div class="cantos base"><span>@cabelosmagalhaes</span><span>12 · 10</span></div>
+</section>
+
+<!-- 2 · vídeo do corte -->
+<section class="slide" id="st2">
+  <div class="sombra"></div>
+  <div class="cantos topo"><span>Ary Magalhães<br>Cabelos</span><span>Bastidor</span></div>
+  <div class="bloco" style="left:90px;right:90px;top:1180px;text-align:center">
+    <p class="tit" style="font-size:96px">Mãe não para.</p>
+    <p class="txt" style="margin-top:22px">Eu sei bem, porque também sou mãe.</p>
+  </div>
+  <div class="cantos base"><span>@cabelosmagalhaes</span><span>12 · 10</span></div>
+</section>
+
+<!-- 3 · vídeo do resultado -->
+<section class="slide" id="st3">
+  <div class="sombra"></div>
+  <div class="cantos topo"><span>Ary Magalhães<br>Cabelos</span><span>Dia das crianças</span></div>
+  <div class="bloco" style="left:90px;right:90px;top:820px;text-align:center">
+    <p class="tit" style="font-size:78px">Cuidar de você<br>também é<br>cuidar deles.</p>
+  </div>
+  <div class="bloco" style="left:90px;right:90px;bottom:250px;text-align:center">
+    <p class="txt" style="font-size:24px">Feliz Dia das Crianças pros pequenos, e um abraço em todas<br>as mães que correm o dia todo.</p>
+  </div>
+  <div class="cantos base"><span>@cabelosmagalhaes</span><span>12 · 10</span></div>
+</section>
+
+</body></html>

@@ -1,0 +1,31 @@
+{
+ "fonte": "TSE · Lei 11.433/2006 · Previdência, 18/09/2026",
+ "telas": [
+  {
+   "kicker": "DIA NACIONAL DO IDOSO · 01/10",
+   "titulo": "Tem 70 anos ou mais? <b>Votar é opcional.</b>",
+   "foto": "tamara/tamara-estudio-0132.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Pra quem tem 70+.",
+   "tam": 84,
+   "texto": "Votar é <b>opcional</b> (facultativo)<br><br>Não precisa <b>justificar</b> se não for<br><br>Não tem <b>multa</b><br><br>Se votar, conta como <b>prova de vida</b> no INSS 💛"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Meu pai tem 75 anos e não quer ir votar. Ele vai ter problema?”",
+   "tam": 64,
+   "texto": "Não! Depois dos 70 o voto é facultativo: ele não precisa justificar e não paga multa. E se ele quiser ir, o voto ainda conta como prova de vida no INSS."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "fonte": "TSE · 11/09/2026 · Código Eleitoral, art. 143",
+ "telas": [
+  {
+   "kicker": "ELEIÇÕES 2026 · DOCUMENTO",
+   "titulo": "Vai votar domingo? <b>Leve foto.</b>",
+   "foto": "tamara/tamara-estudio-0126.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "O que levar domingo.",
+   "tam": 84,
+   "texto": "✅ e-Título, identidade, CNH, passaporte, carteira de trabalho física<br><br>❌ certidão de nascimento ou de casamento<br><br>❌ carteira de trabalho <b>digital</b><br><br>⏰ das 8h às 17h (Brasília)<br><br>👵 idosos, grávidas e enfermos têm preferência na fila"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Minha mãe pode votar levando só a certidão de casamento?”",
+   "tam": 64,
+   "texto": "Não vale  Precisa de documento oficial com foto: identidade, CNH ou o e-Título com foto, por exemplo. E pessoa idosa tem preferência na fila, pode avisar ela."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

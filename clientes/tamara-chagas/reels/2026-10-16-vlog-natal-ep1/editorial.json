@@ -1,0 +1,15 @@
+{
+ "fonte": "Vlog de Natal · EP. 01",
+ "telas": [
+  {"kicker": "VLOG DE NATAL · EP. 01", "titulo": "A saga da <b>decoração 2026.</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg", "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O primeiro episódio tá no feed. Vem ver 👇"},
+  {"kicker": "OS PLANOS", "titulo": "O que vem <b>por aí.</b>", "tam": 84,
+   "texto": "🎄 Árvore da recepção com <b>quase 5 metros</b><br><br>🍷 Bolas gigantes forradas de <b>veludo vinho</b><br><br>✨ Um <b>arco</b> pra fachada do escritório"},
+  {"kicker": "PRÓXIMO EPISÓDIO", "titulo": "E o Papai Noel <b>inflável?</b> 🎅", "tam": 84,
+   "texto": "Conta nos comentários do vídeo qual parte você quer ver no EP. 02."},
+  {"kicker": "TAMARA CHAGAS ADVOCACIA", "titulo": "Feito com carinho <b>pra vocês.</b>",
+   "texto": "Nosso escritório é a casa de quem confia na gente. 🤍<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

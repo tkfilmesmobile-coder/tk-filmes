@@ -1,0 +1,357 @@
+[
+ {
+  "texto": "Eu",
+  "ini": 0.05,
+  "fim": 0.12
+ },
+ {
+  "texto": "sei",
+  "ini": 0.12,
+  "fim": 0.3
+ },
+ {
+  "texto": "que",
+  "ini": 0.3,
+  "fim": 0.48
+ },
+ {
+  "texto": "muita",
+  "ini": 0.48,
+  "fim": 0.79
+ },
+ {
+  "texto": "gente",
+  "ini": 0.79,
+  "fim": 1.09
+ },
+ {
+  "texto": "já",
+  "ini": 1.09,
+  "fim": 1.33
+ },
+ {
+  "texto": "conhece",
+  "ini": 1.33,
+  "fim": 1.84
+ },
+ {
+  "texto": "sobre",
+  "ini": 1.84,
+  "fim": 2.31
+ },
+ {
+  "texto": "o",
+  "ini": 2.31,
+  "fim": 2.34
+ },
+ {
+  "texto": "Botox,",
+  "ini": 2.34,
+  "fim": 2.95
+ },
+ {
+  "texto": "mas",
+  "ini": 2.95,
+  "fim": 3.11
+ },
+ {
+  "texto": "também",
+  "ini": 3.11,
+  "fim": 3.4
+ },
+ {
+  "texto": "tem",
+  "ini": 3.4,
+  "fim": 3.56
+ },
+ {
+  "texto": "bastante",
+  "ini": 3.56,
+  "fim": 4.04
+ },
+ {
+  "texto": "receio",
+  "ini": 4.04,
+  "fim": 4.76
+ },
+ {
+  "texto": "sobre",
+  "ini": 4.76,
+  "fim": 5.08
+ },
+ {
+  "texto": "fazê-lo,",
+  "ini": 5.08,
+  "fim": 6.13
+ },
+ {
+  "texto": "mas",
+  "ini": 6.13,
+  "fim": 6.41
+ },
+ {
+  "texto": "calma,",
+  "ini": 6.41,
+  "fim": 7.08
+ },
+ {
+  "texto": "o",
+  "ini": 7.08,
+  "fim": 7.09
+ },
+ {
+  "texto": "Botox",
+  "ini": 7.09,
+  "fim": 7.68
+ },
+ {
+  "texto": "ele",
+  "ini": 7.68,
+  "fim": 7.83
+ },
+ {
+  "texto": "bem",
+  "ini": 7.83,
+  "fim": 8.11
+ },
+ {
+  "texto": "aplicado",
+  "ini": 8.11,
+  "fim": 8.85
+ },
+ {
+  "texto": "por",
+  "ini": 8.85,
+  "fim": 9.22
+ },
+ {
+  "texto": "um",
+  "ini": 9.22,
+  "fim": 9.31
+ },
+ {
+  "texto": "profissional,",
+  "ini": 9.31,
+  "fim": 10.59
+ },
+ {
+  "texto": "ele",
+  "ini": 10.59,
+  "fim": 10.75
+ },
+ {
+  "texto": "pode",
+  "ini": 10.75,
+  "fim": 10.98
+ },
+ {
+  "texto": "realçar",
+  "ini": 10.98,
+  "fim": 11.52
+ },
+ {
+  "texto": "ainda",
+  "ini": 11.52,
+  "fim": 11.88
+ },
+ {
+  "texto": "mais",
+  "ini": 11.88,
+  "fim": 12.13
+ },
+ {
+  "texto": "a",
+  "ini": 12.13,
+  "fim": 12.2
+ },
+ {
+  "texto": "sua",
+  "ini": 12.2,
+  "fim": 12.39
+ },
+ {
+  "texto": "beleza",
+  "ini": 12.39,
+  "fim": 12.78
+ },
+ {
+  "texto": "natural,",
+  "ini": 12.78,
+  "fim": 13.53
+ },
+ {
+  "texto": "hoje",
+  "ini": 13.53,
+  "fim": 13.62
+ },
+ {
+  "texto": "aqui",
+  "ini": 13.62,
+  "fim": 13.88
+ },
+ {
+  "texto": "em",
+  "ini": 13.88,
+  "fim": 14.02
+ },
+ {
+  "texto": "União",
+  "ini": 14.02,
+  "fim": 14.4
+ },
+ {
+  "texto": "dos",
+  "ini": 14.4,
+  "fim": 14.59
+ },
+ {
+  "texto": "Palmares.",
+  "ini": 14.59,
+  "fim": 15.16
+ },
+ {
+  "texto": "ter",
+  "ini": 15.59,
+  "fim": 15.82
+ },
+ {
+  "texto": "um",
+  "ini": 15.82,
+  "fim": 15.98
+ },
+ {
+  "texto": "dia",
+  "ini": 15.98,
+  "fim": 16.22
+ },
+ {
+  "texto": "exclusivo",
+  "ini": 16.22,
+  "fim": 16.92
+ },
+ {
+  "texto": "de",
+  "ini": 16.92,
+  "fim": 17.08
+ },
+ {
+  "texto": "beleza,",
+  "ini": 17.08,
+  "fim": 17.72
+ },
+ {
+  "texto": "apenas",
+  "ini": 17.72,
+  "fim": 18.18
+ },
+ {
+  "texto": "com",
+  "ini": 18.18,
+  "fim": 18.25
+ },
+ {
+  "texto": "botox.",
+  "ini": 18.25,
+  "fim": 18.58
+ },
+ {
+  "texto": "Viem",
+  "ini": 42.65,
+  "fim": 42.86
+ },
+ {
+  "texto": "aí,",
+  "ini": 42.86,
+  "fim": 43.21
+ },
+ {
+  "texto": "hoje",
+  "ini": 43.21,
+  "fim": 43.53
+ },
+ {
+  "texto": "muitas",
+  "ini": 43.53,
+  "fim": 43.91
+ },
+ {
+  "texto": "mulheres",
+  "ini": 43.91,
+  "fim": 44.48
+ },
+ {
+  "texto": "já",
+  "ini": 44.48,
+  "fim": 44.69
+ },
+ {
+  "texto": "vinharam",
+  "ini": 44.69,
+  "fim": 45.25
+ },
+ {
+  "texto": "real.",
+  "ini": 45.25,
+  "fim": 45.58
+ },
+ {
+  "texto": "Sara,",
+  "ini": 45.58,
+  "fim": 45.97
+ },
+ {
+  "texto": "sua",
+  "ini": 45.97,
+  "fim": 46.17
+ },
+ {
+  "texto": "beleza.",
+  "ini": 46.17,
+  "fim": 46.82
+ },
+ {
+  "texto": "E",
+  "ini": 46.82,
+  "fim": 46.9
+ },
+ {
+  "texto": "você?",
+  "ini": 46.9,
+  "fim": 47.58
+ },
+ {
+  "texto": "Tá",
+  "ini": 47.58,
+  "fim": 47.76
+ },
+ {
+  "texto": "esperando",
+  "ini": 47.76,
+  "fim": 48.32
+ },
+ {
+  "texto": "o",
+  "ini": 48.32,
+  "fim": 48.38
+ },
+ {
+  "texto": "que",
+  "ini": 48.38,
+  "fim": 48.56
+ },
+ {
+  "texto": "pra",
+  "ini": 48.56,
+  "fim": 48.74
+ },
+ {
+  "texto": "mim",
+  "ini": 48.74,
+  "fim": 48.92
+ },
+ {
+  "texto": "também?",
+  "ini": 48.92,
+  "fim": 49.58
+ }
+]

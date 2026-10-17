@@ -1,0 +1,38 @@
+{
+ "data": "3 de outubro de 2026",
+ "fonte": "TSE · tse.jus.br · Local de votação",
+ "card": "Amanhã é o grande dia! Me conta: você já sabe <b>onde</b> vota? Te mostro como conferir em um minuto no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "onde eu voto? 📍",
+  "marca": "Onde Votar",
+  "linhas": [
+   "📱 App <b>e-Título</b> → \"Onde Votar\" (menu de baixo)",
+   "🗺️ Ele mostra o local e ajuda com a rota no GPS",
+   "💻 Ou no site do TSE, no Autoatendimento Eleitoral (Título Net)",
+   "🪪 Não esqueça: documento oficial com foto"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, esqueci onde eu voto 😅",
+   "09:02"
+  ],
+  [
+   "out",
+   "Acontece! Abre o e-Título e toca em \"Onde Votar\", no menu de baixo 📱",
+   "09:03"
+  ],
+  [
+   "out",
+   "Ele mostra o endereço e ainda ajuda com a rota no GPS 📍",
+   "09:03"
+  ],
+  [
+   "in",
+   "Achei! Obrigada 🙏",
+   "09:04"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "data": "8 de outubro de 2026",
+ "card": "Gente, saiu a <b>Parte 1</b> da nossa série na feira! A pergunta: quem é da roça precisa contribuir com o INSS? 🌾 Corre lá no feed 👆",
+ "notas": {
+  "hora": "16:01",
+  "titulo": "quem é da roça e o INSS 🌾",
+  "linhas": [
+   "1. Quem trabalha na roça com a família é <b>segurado especial</b>",
+   "2. Não precisa contribuir todo mês: a contribuição já vem <b>na venda da produção</b>",
+   "3. Pra ter benefício, precisa <b>comprovar o trabalho no campo</b>",
+   "📂 Guarde nota de venda, bloco do produtor, contrato de parceria e documento da terra"
+  ],
+  "marca": "segurado especial"
+ },
+ "conversa": [
+  ["in", "Doutora, meu pai trabalha na roça a vida toda e nunca contribuiu com o INSS. Ele perdeu o direito? 😟", "16:02"],
+  ["out", "Não perdeu! Quem é da roça é segurado especial, e a contribuição vem na venda da produção 🌾", "16:03"],
+  ["out", "O mais importante é ter documentos que comprovem o trabalho no campo. Guarda tudo, tá? 📂", "16:03"],
+  ["in", "Vou juntar os papéis dele hoje mesmo, obrigada! 🙏", "16:04"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 11, VII e 39 · Lei 8.212/1991, art. 25"
+}

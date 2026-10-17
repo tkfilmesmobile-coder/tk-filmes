@@ -1,0 +1,175 @@
+COMANDO DE EDIÇÃO — VOTO FACULTATIVO 70+
+
+IMPORTANTE
+As falas já estão cortadas. Não refaça a montagem da voz. Trabalhe apenas:
+- enquadramento
+- punch-ins
+- motion design
+- inserts
+- sound design
+- trilha
+- legendas
+- acabamento
+
+CORREÇÃO FACTUAL OBRIGATÓRIA
+O 1º turno das Eleições 2026 é domingo, 4 de outubro de 2026.
+Se o áudio mencionar “2 de outubro”, essa frase precisa ser corrigida/regravada antes da exportação final.
+A informação principal deve ser formulada de modo preciso:
+“Para quem tem 70 anos ou mais, o voto é facultativo.”
+
+OBJETIVO VISUAL
+Edição vertical 9:16, institucional, premium, rápida e minimalista.
+Não usar estética de campanha, partido ou candidato.
+A linguagem deve ser informativa e neutra.
+
+IDENTIDADE
+Usar a identidade visual do escritório:
+- rosa / vinho / rosé como destaque
+- branco/off-white como base
+- dourado/rose-gold em pequenos acabamentos
+- preto/grafite como apoio
+- bonequinha da Tamara apenas quando acrescentar contexto ou leveza
+
+NÃO usar:
+- stickers pequenos soltos no canto
+- emojis
+- doodles
+- bounce
+- glitch
+- transições genéricas
+- excesso de texto
+- vários assets simultâneos
+- ícones partidários
+
+REGRAS DE MOTION
+- 1 asset principal por vez
+- entrada entre 6 e 10 frames
+- Easy Ease
+- Scale 92%→100%
+- Position Y +20→0 px
+- micro Rotation Y visual de -4°→0°
+- micro movimento contínuo nos assets: Scale 100→101,5%, deslocamento 2–4 px
+- motion blur somente durante o deslocamento
+- asset deve integrar a composição e não parecer “colado”
+
+TIMELINE PELA FALA REAL
+
+1) “Você sabia…”
+Abrir direto no rosto.
+Punch-in 104%→111% em 6 frames.
+Headline:
+“VOCÊ SABIA?”
+3–4 frames depois:
+“70+ TEM VOTO FACULTATIVO”
+Usar destaque rosa apenas em “70+”.
+Inserir bonequinha:
+bonequinha_tamara/01_tamara_apontando.png
+Entrada curta no negative space.
+Não manter a bonequinha por mais de ~1 segundo.
+SFX: soft hit + tonal tick.
+
+2) “Hoje é dia 1 de outubro… domingo já iria votar…”
+A fala precisa ser corrigida para indicar que o 1º turno será DOMINGO, 4 DE OUTUBRO DE 2026.
+Usar:
+assets_principais/03_calendario_04_outubro_2026.png
+Tratar como HERO:
+- ocupar aproximadamente 28–34% da largura
+- reframe sutil da apresentadora para abrir espaço
+- entrada com Scale 92→100%, Rotation -4°→0°, Y +24→0
+- não colocar pequeno no canto
+SFX: short air whoosh.
+
+3) “Quem tem 70 anos ou mais…”
+Usar:
+assets_principais/02_selo_70mais_3d.png
+Este é o principal hero visual do vídeo.
+Headline:
+“70 ANOS OU MAIS”
+Abaixo, menor:
+“VOTO FACULTATIVO”
+Segurar de 0,8 a 1,2 s com leitura limpa.
+SFX: low impact leve.
+
+4) “…não precisa votar…”
+Não usar símbolo de proibição agressivo.
+Manter o selo 70+ e mudar a hierarquia do texto para:
+“VOTAR É UMA OPÇÃO”
+ou apenas
+“VOTO FACULTATIVO”
+A função do motion é deixar claro que a pessoa PODE votar, mas não é obrigada.
+Evitar qualquer formulação que pareça desencorajar o voto.
+
+5) “…não precisa justificar / não causa penalidade…”
+Usar:
+assets_principais/04_documento_check_sem_penalidade.png
+Headline curta:
+“SEM MULTA”
+Subtexto:
+“SEM JUSTIFICATIVA OBRIGATÓRIA”
+Entrada limpa, sem vermelho.
+SFX: confirmation tick metálico e discreto.
+Retirar o asset assim que a ideia terminar.
+
+6) “Então pode ficar tranquilo…”
+Limpar a tela.
+Voltar ao talking head.
+Punch-out 112%→104% em 8 frames.
+Aqui pode entrar:
+bonequinha_tamara/04_tamara_ok.png
+ou
+bonequinha_tamara/06_tamara_acenando.png
+por no máximo 0,8–1 s.
+A bonequinha deve ser secundária.
+
+7) “…mas se quiser votar…”
+Usar:
+assets_principais/01_urna_eletronica_3d.png
+Entrada lateral com profundidade e rotação mínima.
+Headline neutra:
+“SE QUISER, PODE VOTAR”
+Não usar chamadas persuasivas do tipo “vá votar”, “não deixe de votar” ou semelhantes.
+SFX: restrained whoosh.
+
+LEGENDAS
+- sans-serif medium/semibold
+- brancas
+- máximo 2 linhas
+- acima da safe area inferior
+- destacar no máximo 1 palavra por bloco
+- não repetir headline e legenda com a mesma frase ao mesmo tempo
+
+TALKING HEAD
+Usar somente três estados:
+A) Base: 100–104%
+B) Ênfase: 109–114%
+C) Close editorial: 120–126%
+Só mudar quando mudar o argumento.
+
+TRILHA
+Minimal electronic / editorial.
+95–110 BPM.
+Sem vocal.
+Sem estética épica ou eleitoral.
+Ducking constante sob a voz.
+
+SOUND DESIGN
+- headline: soft hit
+- calendário: air whoosh
+- 70+: low impact
+- sem penalidade: confirmation tick
+- urna: short whoosh
+Tudo em volume baixo.
+
+HIERARQUIA
+Nunca colocar simultaneamente:
+headline grande + legenda longa + asset grande + bonequinha.
+Prioridade:
+1. rosto
+2. informação
+3. legenda
+4. asset secundário
+
+RESULTADO
+A edição deve parecer uma peça informativa jurídica premium.
+Os elementos entram para esclarecer a fala e saem assim que cumprem sua função.
+Se um efeito estiver apenas decorando, remova.

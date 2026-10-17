@@ -1,0 +1,39 @@
+{
+ "data": "15 de outubro de 2026",
+ "fonte": "INSS, 28/07/2026 · TSE",
+ "card": "Recebeu notícia do INSS no WhatsApp? Faz um favor pra mim: <b>confere</b> antes de compartilhar 🙏 Os canais oficiais tão no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "antes de compartilhar ✋",
+  "marca": "Central 135",
+  "linhas": [
+   "✅ gov.br/inss",
+   "✅ Meu INSS (site ou app)",
+   "✅ Central 135",
+   "🚨 boato sobre a eleição: canal SIADE do TSE",
+   "⚠️ desconfie de pressa, ameaça ou pedido de dados"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, recebi que o INSS vai cortar o 13º. É verdade? 😱",
+   "09:02"
+  ],
+  [
+   "out",
+   "Antes de acreditar, confira nos canais oficiais: gov.br/inss, Meu INSS ou 135 📱",
+   "09:03"
+  ],
+  [
+   "out",
+   "Mensagem sem fonte e com muita pressa merece desconfiança 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Vou conferir antes de passar pra frente! 🙏",
+   "09:04"
+  ]
+ ]
+}

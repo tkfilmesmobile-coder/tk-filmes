@@ -1,0 +1,21 @@
+{
+ "data": "30 de setembro de 2026",
+ "fonte": "Portaria Conjunta MDS/INSS nº 45, 29/09/2026 · Lei 8.742/1993",
+ "itens": [
+  {"tipo": "card", "selo": "vídeo novo no perfil 🎬",
+   "card": "Gente, trouxe uma notícia <b>maravilhosa e quentinha</b> do INSS pra quem pede o BPC! Gravei um vídeo explicando, tá no perfil 👆 E aqui embaixo eu te explico com calma 👇"},
+  {"tipo": "notas", "hora": "11:01", "titulo": "primeiro: o que é o BPC? 🤔", "marca": "1 salário mínimo por mês",
+   "linhas": ["É um benefício de 1 salário mínimo por mês", "👵 pra idoso com <b>65 anos ou mais</b>", "♿ ou pra pessoa com <b>deficiência</b>", "Não precisa ter contribuído pro INSS, mas a família precisa ter <b>renda baixa</b>"]},
+  {"tipo": "notas", "hora": "11:02", "titulo": "o problema: bater na trave ⚽", "marca": "bater na trave",
+   "linhas": ["O INSS soma a renda de quem mora na casa e divide pelo número de pessoas", "Se o resultado passa <b>um pouquinho</b> do limite, o pedido é negado", "É isso que eu chamo de bater na trave"]},
+  {"tipo": "notas", "hora": "11:03", "titulo": "a novidade 🎉", "marca": "descontados",
+   "linhas": ["Agora alguns gastos podem ser descontados dessa conta:", "💊 remédios: <b>R$ 56</b>", "🩺 consultas e tratamentos: <b>R$ 110</b>", "🧷 fraldas: <b>R$ 120</b>", "🥣 alimentação especial: <b>R$ 147</b>", "🏠 centro-dia: <b>R$ 40</b>"]},
+  {"tipo": "notas", "hora": "11:04", "titulo": "na prática 👇", "marca": "pode ter chance",
+   "linhas": ["Com esses descontos, a renda da família fica <b>menor na conta do INSS</b>", "E quem batia na trave pode ter chance de conseguir o BPC 🙌", "⚠️ vale pra gasto com o idoso ou a pessoa com deficiência que o SUS ou o SUAS <b>não dão de graça</b>", "📂 precisa comprovar: guarde receitas, laudos e notas fiscais"]},
+  {"tipo": "conversa", "conversa": [
+   ["in", "Doutora, o BPC da minha mãe foi negado por causa da renda. Essa notícia ajuda ela? 🥺", "11:05"],
+   ["out", "Pode ajudar, sim! Se vocês têm gastos com remédio, fralda, alimentação especial ou consulta que o SUS não dá de graça, isso pode ser descontado da renda 💛", "11:06"],
+   ["out", "Mas precisa comprovar tudo, e cada caso é único. Vale procurar orientação 😉", "11:06"],
+   ["in", "Vou separar as receitas e as notas! 🙏", "11:07"]]}
+ ]
+}

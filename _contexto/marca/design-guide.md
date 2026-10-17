@@ -26,6 +26,9 @@
 
 ---
 
+## Brand Book 2.0 (2026-10-13): direção visual
+Estética clássica e sofisticada, com espaço, elegância e boa leitura; cores creme, caramelo e marrom (os HEX acima são a proposta inicial, a confirmar em prova de tela e impressão). Caramelo só em detalhe, divisor e destaque grande; texto pequeno em creme não, por contraste. **Evitar** brilho em excesso, ornamentos 3D e efeitos que concorram com a imagem: os foguetes dourados 3D e os cantos de papel dobrado dourado saem das peças novas. Elementos: linhas finas, grade discreta, margem generosa, moldura editorial, símbolo K aplicado com sutileza. Tipografia: serifa editorial pros títulos (Instrument Serif) e sans pro texto (Montserrat ou Lato), sujeito a teste. Logo: preservar o K; versões a criar: principal, horizontal, só K, fundo creme, fundo marrom, monocromática. Nome da empresa: **TK Filmes**; padronizar os documentos legais e comerciais (hoje "TK Movies") está pendente.
+
 ## Estilo geral
 
 Clean, quente e elegante. Muito respiro, fundo claro, moldura branca com cantos arredondados pro conteúdo, toque premium com elementos dourados/prateados 3D (ex.: foguetes) e cantos de papel dobrado dourado. O símbolo em "K" aparece grande e bem clarinho como marca d'água.
@@ -62,9 +65,21 @@ Clean, quente e elegante. Muito respiro, fundo claro, moldura branca com cantos 
 ## Perfil do autor
 
 - **Nome:** TK Filmes
-- **Handle:** @tkfilmesmobile
+- **Handle:** @tk.filmes (desde 2026-09-29)
 - **Foto:** `foto-perfil.svg`
 - **Badge verificado:** não
+
+---
+
+## Feed do Instagram da TK (linha aprovada em 2026-09-29)
+
+- **Formatos:** imagem única 1080x1350 (frase, tweet, conversa, bastidor) e reels. **Sem carrossel.**
+- **Fundo:** papel claro com textura e luz de folhagem entrando pelo canto (no tweet, branco puro, fiel ao print do Twitter).
+- **Tipografia:** Instrument Serif nos títulos, **sem itálico**; Montserrat no apoio (Inter no tweet). Destaque só pela cor caramelo, com elipse fina em volta; nada de caixa alta no destaque.
+- **Moldura:** "Talyta Kumy · Nº xx" em cima, "Direção de conteúdo · @tk.filmes" embaixo, com fios finos; rótulo pequeno em caixa alta acima do título.
+- **Fotos:** só as de `tk-filmes/fotos/` (regras em `_uso.md`): leves, claras, de ação e detalhe.
+- **Gerador:** `tk-filmes/modelos/pecas.py` (frase, tweet, conversa, bastidor2).
+- **Stories (linha aprovada em 2026-10-10):** 1080x1920, foto inteira com véu mínimo, letra fina e pequena em Nunito (sem itálico), rótulos "TK Filmes · @tk.filmes" em caixa alta fina nos cantos, caramelo só no destaque, círculos numerados nas listas, rodapé "salva isso". Sem cartão, sem capa bege. Gerador `tk-filmes/modelos/stories.py` (capa, sobre, leve, lista; o aprovado é o `leve`).
 
 ---
 

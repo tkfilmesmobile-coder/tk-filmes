@@ -1,0 +1,233 @@
+[
+  {
+    "text": "A",
+    "startMs": 0,
+    "endMs": 190,
+    "timestampMs": 300,
+    "confidence": 0.555198
+  },
+  {
+    "text": " partir",
+    "startMs": 190,
+    "endMs": 470,
+    "timestampMs": 540,
+    "confidence": 0.999361
+  },
+  {
+    "text": " do",
+    "startMs": 470,
+    "endMs": 600,
+    "timestampMs": 660,
+    "confidence": 0.995543
+  },
+  {
+    "text": " momento",
+    "startMs": 600,
+    "endMs": 1070,
+    "timestampMs": 900,
+    "confidence": 0.997946
+  },
+  {
+    "text": " que",
+    "startMs": 1070,
+    "endMs": 1280,
+    "timestampMs": 1100,
+    "confidence": 0.884219
+  },
+  {
+    "text": " você",
+    "startMs": 1280,
+    "endMs": 1620,
+    "timestampMs": 1380,
+    "confidence": 0.990654
+  },
+  {
+    "text": " volta",
+    "startMs": 1620,
+    "endMs": 2030,
+    "timestampMs": 1640,
+    "confidence": 0.982294
+  },
+  {
+    "text": ",",
+    "startMs": 2030,
+    "endMs": 2040,
+    "timestampMs": 1860,
+    "confidence": 0.710314
+  },
+  {
+    "text": " você",
+    "startMs": 2040,
+    "endMs": 2100,
+    "timestampMs": 1920,
+    "confidence": 0.836002
+  },
+  {
+    "text": " não",
+    "startMs": 2100,
+    "endMs": 2220,
+    "timestampMs": 2100,
+    "confidence": 0.985864
+  },
+  {
+    "text": " precisa",
+    "startMs": 2220,
+    "endMs": 2280,
+    "timestampMs": 2340,
+    "confidence": 0.914442
+  },
+  {
+    "text": " ir",
+    "startMs": 2280,
+    "endMs": 2440,
+    "timestampMs": 2460,
+    "confidence": 0.472452
+  },
+  {
+    "text": " mais",
+    "startMs": 2440,
+    "endMs": 2570,
+    "timestampMs": 2640,
+    "confidence": 0.965762
+  },
+  {
+    "text": " nas",
+    "startMs": 2570,
+    "endMs": 2700,
+    "timestampMs": 2720,
+    "confidence": 0.424998
+  },
+  {
+    "text": " ag",
+    "startMs": 2700,
+    "endMs": 2780,
+    "timestampMs": 2940,
+    "confidence": 0.984158
+  },
+  {
+    "text": "ências",
+    "startMs": 2780,
+    "endMs": 3070,
+    "timestampMs": 3020,
+    "confidence": 0.995514
+  },
+  {
+    "text": " banc",
+    "startMs": 3070,
+    "endMs": 3250,
+    "timestampMs": 3360,
+    "confidence": 0.96624
+  },
+  {
+    "text": "árias",
+    "startMs": 3250,
+    "endMs": 3520,
+    "timestampMs": 3520,
+    "confidence": 0.810188
+  },
+  {
+    "text": " fazer",
+    "startMs": 3520,
+    "endMs": 3910,
+    "timestampMs": 3800,
+    "confidence": 0.923104
+  },
+  {
+    "text": " a",
+    "startMs": 3910,
+    "endMs": 3970,
+    "timestampMs": 3960,
+    "confidence": 0.985697
+  },
+  {
+    "text": " prova",
+    "startMs": 3970,
+    "endMs": 4350,
+    "timestampMs": 4140,
+    "confidence": 0.965029
+  },
+  {
+    "text": " de",
+    "startMs": 4350,
+    "endMs": 4500,
+    "timestampMs": 4400,
+    "confidence": 0.989455
+  },
+  {
+    "text": " vida",
+    "startMs": 4500,
+    "endMs": 4870,
+    "timestampMs": 4680,
+    "confidence": 0.993553
+  },
+  {
+    "text": ",",
+    "startMs": 4870,
+    "endMs": 5000,
+    "timestampMs": 5100,
+    "confidence": 0.674005
+  },
+  {
+    "text": " acab",
+    "startMs": 5000,
+    "endMs": 5060,
+    "timestampMs": 5260,
+    "confidence": 0.307729
+  },
+  {
+    "text": "ando",
+    "startMs": 5060,
+    "endMs": 5240,
+    "timestampMs": 5360,
+    "confidence": 0.99606
+  },
+  {
+    "text": " ger",
+    "startMs": 5240,
+    "endMs": 5400,
+    "timestampMs": 5580,
+    "confidence": 0.918192
+  },
+  {
+    "text": "ando",
+    "startMs": 5400,
+    "endMs": 5560,
+    "timestampMs": 5660,
+    "confidence": 0.997931
+  },
+  {
+    "text": " aquele",
+    "startMs": 5560,
+    "endMs": 5890,
+    "timestampMs": 5920,
+    "confidence": 0.987688
+  },
+  {
+    "text": " tran",
+    "startMs": 5890,
+    "endMs": 6110,
+    "timestampMs": 6220,
+    "confidence": 0.974321
+  },
+  {
+    "text": "st",
+    "startMs": 6110,
+    "endMs": 6170,
+    "timestampMs": 6320,
+    "confidence": 0.991572
+  },
+  {
+    "text": "orno",
+    "startMs": 6170,
+    "endMs": 6290,
+    "timestampMs": 6460,
+    "confidence": 0.998932
+  },
+  {
+    "text": ".",
+    "startMs": 6290,
+    "endMs": 6480,
+    "timestampMs": 6460,
+    "confidence": 0.881762
+  }
+]

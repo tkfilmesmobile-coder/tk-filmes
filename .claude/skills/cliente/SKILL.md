@@ -48,7 +48,7 @@ Campo que ele não souber fica `[a definir]`. Não inventar.
 
 ```
 clientes/<cliente>/
-  AGENTS.md          ← ponteiro curto: as regras da raiz valem, leia contexto.md e andamento.md
+  AGENTS.md          ← ponteiro curto: as regras da raiz e as de `clientes/_regras.md` valem, leia contexto.md e andamento.md
   contexto.md        ← a ficha
   andamento.md       ← o que já foi entregue e o que está em aberto
   calendarios/       (.gitkeep)
@@ -60,10 +60,21 @@ plano, valor, data de início, quantidade e tipos de conteúdo · onde está o c
 (só onde estão) · marca: identidade visual, linguagem, tom e personalidade. No fim, a data do
 cadastro e de onde veio a informação.
 
+Na ficha, fechar com a seção **Regras gerais aplicadas**: cada regra de `clientes/_regras.md`
+já adaptada a este cliente (dados, marca, tom). O que não der pra adaptar fica `[a definir]` e
+vira pendência no `andamento.md`. Depois, anotar o cliente na lista "aplicada em" de cada regra.
+
 No `andamento.md`, começar com o que já foi entregue pra esse cliente, se houver histórico.
 
 Se o cliente tem identidade visual própria em arquivo (logo, paleta), guardar em
 `clientes/<cliente>/marca/` e apontar na ficha. É essa marca que vale nas peças dele, não a da TK.
+
+## Passo 3b — Brand book (regra de todos os clientes, 2026-10-13)
+
+Todo cliente tem brand book. Depois da ficha, fazer as 15 perguntas de marca (o que o cliente
+sabe responder; o resto o agente recomenda e marca como pendente de aprovação) e gerar o brand
+book com o prompt de `clientes/_brand-book-prompt.md`, em `clientes/<cliente>/marca/`. Se a
+marca dele já existe, é a base: não refazer do zero. A ficha aponta pro arquivo.
 
 ## Passo 4 — Fechar
 

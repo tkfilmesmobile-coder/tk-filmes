@@ -1,0 +1,1055 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,570"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 570
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,570",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 570,
+				"to": 2000
+			},
+			"text": " Natal"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,000",
+				"to": "00:00:02,550"
+			},
+			"offsets": {
+				"from": 2000,
+				"to": 2550
+			},
+			"text": " final"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,550",
+				"to": "00:00:02,770"
+			},
+			"offsets": {
+				"from": 2550,
+				"to": 2770
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,770",
+				"to": "00:00:03,100"
+			},
+			"offsets": {
+				"from": 2770,
+				"to": 3100
+			},
+			"text": " ano"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,100",
+				"to": "00:00:04,000"
+			},
+			"offsets": {
+				"from": 3100,
+				"to": 4000
+			},
+			"text": " chegando"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,000",
+				"to": "00:00:04,410"
+			},
+			"offsets": {
+				"from": 4000,
+				"to": 4410
+			},
+			"text": " isso"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,410",
+				"to": "00:00:04,820"
+			},
+			"offsets": {
+				"from": 4410,
+				"to": 4820
+			},
+			"text": " quer"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,820",
+				"to": "00:00:05,360"
+			},
+			"offsets": {
+				"from": 4820,
+				"to": 5360
+			},
+			"text": " dizer"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,360",
+				"to": "00:00:05,520"
+			},
+			"offsets": {
+				"from": 5360,
+				"to": 5520
+			},
+			"text": " o"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,520",
+				"to": "00:00:06,000"
+			},
+			"offsets": {
+				"from": 5520,
+				"to": 6000
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,000",
+				"to": "00:00:06,490"
+			},
+			"offsets": {
+				"from": 6000,
+				"to": 6490
+			},
+			"text": " vamos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,490",
+				"to": "00:00:06,800"
+			},
+			"offsets": {
+				"from": 6490,
+				"to": 6800
+			},
+			"text": " dar"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,800",
+				"to": "00:00:07,520"
+			},
+			"offsets": {
+				"from": 6800,
+				"to": 7520
+			},
+			"text": " início"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,520",
+				"to": "00:00:07,580"
+			},
+			"offsets": {
+				"from": 7520,
+				"to": 7580
+			},
+			"text": " à"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,580",
+				"to": "00:00:07,960"
+			},
+			"offsets": {
+				"from": 7580,
+				"to": 7960
+			},
+			"text": " decoração"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,960",
+				"to": "00:00:08,800"
+			},
+			"offsets": {
+				"from": 7960,
+				"to": 8800
+			},
+			"text": " do"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,800",
+				"to": "00:00:09,440"
+			},
+			"offsets": {
+				"from": 8800,
+				"to": 9440
+			},
+			"text": " escritório"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,440",
+				"to": "00:00:09,750"
+			},
+			"offsets": {
+				"from": 9440,
+				"to": 9750
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,750",
+				"to": "00:00:10,380"
+			},
+			"offsets": {
+				"from": 9750,
+				"to": 10380
+			},
+			"text": " sempre"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,380",
+				"to": "00:00:10,590"
+			},
+			"offsets": {
+				"from": 10380,
+				"to": 10590
+			},
+			"text": " é"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,590",
+				"to": "00:00:10,780"
+			},
+			"offsets": {
+				"from": 10590,
+				"to": 10780
+			},
+			"text": " um"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,780",
+				"to": "00:00:11,430"
+			},
+			"offsets": {
+				"from": 10780,
+				"to": 11430
+			},
+			"text": " evento"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,430",
+				"to": "00:00:12,060"
+			},
+			"offsets": {
+				"from": 11430,
+				"to": 12060
+			},
+			"text": " quando"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,060",
+				"to": "00:00:12,270"
+			},
+			"offsets": {
+				"from": 12060,
+				"to": 12270
+			},
+			"text": " se"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,270",
+				"to": "00:00:12,790"
+			},
+			"offsets": {
+				"from": 12270,
+				"to": 12790
+			},
+			"text": " trata"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,790",
+				"to": "00:00:13,000"
+			},
+			"offsets": {
+				"from": 12790,
+				"to": 13000
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,000",
+				"to": "00:00:14,140"
+			},
+			"offsets": {
+				"from": 13000,
+				"to": 14140
+			},
+			"text": " decoração"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,140",
+				"to": "00:00:14,340"
+			},
+			"offsets": {
+				"from": 14140,
+				"to": 14340
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,340",
+				"to": "00:00:14,870"
+			},
+			"offsets": {
+				"from": 14340,
+				"to": 14870
+			},
+			"text": " natal"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,870",
+				"to": "00:00:15,290"
+			},
+			"offsets": {
+				"from": 14870,
+				"to": 15290
+			},
+			"text": " quem"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,290",
+				"to": "00:00:15,500"
+			},
+			"offsets": {
+				"from": 15290,
+				"to": 15500
+			},
+			"text": " me"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,500",
+				"to": "00:00:16,500"
+			},
+			"offsets": {
+				"from": 15500,
+				"to": 16500
+			},
+			"text": " acompanha"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,500",
+				"to": "00:00:16,600"
+			},
+			"offsets": {
+				"from": 16500,
+				"to": 16600
+			},
+			"text": " aqui"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,600",
+				"to": "00:00:16,740"
+			},
+			"offsets": {
+				"from": 16600,
+				"to": 16740
+			},
+			"text": " no"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,740",
+				"to": "00:00:17,280"
+			},
+			"offsets": {
+				"from": 16740,
+				"to": 17280
+			},
+			"text": " Instagram"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,280",
+				"to": "00:00:17,540"
+			},
+			"offsets": {
+				"from": 17280,
+				"to": 17540
+			},
+			"text": " tem"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,540",
+				"to": "00:00:17,970"
+			},
+			"offsets": {
+				"from": 17540,
+				"to": 17970
+			},
+			"text": " pinho"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,970",
+				"to": "00:00:18,310"
+			},
+			"offsets": {
+				"from": 17970,
+				"to": 18310
+			},
+			"text": " sabe"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,310",
+				"to": "00:00:18,570"
+			},
+			"offsets": {
+				"from": 18310,
+				"to": 18570
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,570",
+				"to": "00:00:18,650"
+			},
+			"offsets": {
+				"from": 18570,
+				"to": 18650
+			},
+			"text": " a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,650",
+				"to": "00:00:19,080"
+			},
+			"offsets": {
+				"from": 18650,
+				"to": 19080
+			},
+			"text": " nossa"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,080",
+				"to": "00:00:19,670"
+			},
+			"offsets": {
+				"from": 19080,
+				"to": 19670
+			},
+			"text": " árvore"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,670",
+				"to": "00:00:19,840"
+			},
+			"offsets": {
+				"from": 19670,
+				"to": 19840
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,840",
+				"to": "00:00:20,270"
+			},
+			"offsets": {
+				"from": 19840,
+				"to": 20270
+			},
+			"text": " natal"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,270",
+				"to": "00:00:20,530"
+			},
+			"offsets": {
+				"from": 20270,
+				"to": 20530
+			},
+			"text": " tem"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,530",
+				"to": "00:00:21,550"
+			},
+			"offsets": {
+				"from": 20530,
+				"to": 21550
+			},
+			"text": " simplesmente"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,550",
+				"to": "00:00:22,000"
+			},
+			"offsets": {
+				"from": 21550,
+				"to": 22000
+			},
+			"text": " quase"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,000",
+				"to": "00:00:22,420"
+			},
+			"offsets": {
+				"from": 22000,
+				"to": 22420
+			},
+			"text": " cinco"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,420",
+				"to": "00:00:23,000"
+			},
+			"offsets": {
+				"from": 22420,
+				"to": 23000
+			},
+			"text": " metros"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,000",
+				"to": "00:00:23,350"
+			},
+			"offsets": {
+				"from": 23000,
+				"to": 23350
+			},
+			"text": " e"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,350",
+				"to": "00:00:24,760"
+			},
+			"offsets": {
+				"from": 23350,
+				"to": 24760
+			},
+			"text": " fica"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,760",
+				"to": "00:00:24,840"
+			},
+			"offsets": {
+				"from": 24760,
+				"to": 24840
+			},
+			"text": " na"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,840",
+				"to": "00:00:25,360"
+			},
+			"offsets": {
+				"from": 24840,
+				"to": 25360
+			},
+			"text": " recepção"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,360",
+				"to": "00:00:25,360"
+			},
+			"offsets": {
+				"from": 25360,
+				"to": 25360
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,360",
+				"to": "00:00:25,610"
+			},
+			"offsets": {
+				"from": 25360,
+				"to": 25610
+			},
+			"text": " do"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,610",
+				"to": "00:00:26,970"
+			},
+			"offsets": {
+				"from": 25610,
+				"to": 26970
+			},
+			"text": " escritório"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,970",
+				"to": "00:00:27,720"
+			},
+			"offsets": {
+				"from": 26970,
+				"to": 27720
+			},
+			"text": " então"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,720",
+				"to": "00:00:28,220"
+			},
+			"offsets": {
+				"from": 27720,
+				"to": 28220
+			},
+			"text": " para"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,220",
+				"to": "00:00:29,540"
+			},
+			"offsets": {
+				"from": 28220,
+				"to": 29540
+			},
+			"text": " ornamentar"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,540",
+				"to": "00:00:29,720"
+			},
+			"offsets": {
+				"from": 29540,
+				"to": 29720
+			},
+			"text": " é"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,720",
+				"to": "00:00:29,970"
+			},
+			"offsets": {
+				"from": 29720,
+				"to": 29970
+			},
+			"text": " um"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,970",
+				"to": "00:00:30,720"
+			},
+			"offsets": {
+				"from": 29970,
+				"to": 30720
+			},
+			"text": " evento"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,720",
+				"to": "00:00:31,090"
+			},
+			"offsets": {
+				"from": 30720,
+				"to": 31090
+			},
+			"text": " só"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,090",
+				"to": "00:00:31,470"
+			},
+			"offsets": {
+				"from": 31090,
+				"to": 31470
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,470",
+				"to": "00:00:31,970"
+			},
+			"offsets": {
+				"from": 31470,
+				"to": 31970
+			},
+			"text": " esse"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,970",
+				"to": "00:00:32,330"
+			},
+			"offsets": {
+				"from": 31970,
+				"to": 32330
+			},
+			"text": " ano"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,330",
+				"to": "00:00:32,830"
+			},
+			"offsets": {
+				"from": 32330,
+				"to": 32830
+			},
+			"text": " nós"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,830",
+				"to": "00:00:33,880"
+			},
+			"offsets": {
+				"from": 32830,
+				"to": 33880
+			},
+			"text": " queremos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,880",
+				"to": "00:00:34,560"
+			},
+			"offsets": {
+				"from": 33880,
+				"to": 34560
+			},
+			"text": " algo"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,560",
+				"to": "00:00:34,600"
+			},
+			"offsets": {
+				"from": 34560,
+				"to": 34600
+			},
+			"text": " mais"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,600",
+				"to": "00:00:36,080"
+			},
+			"offsets": {
+				"from": 34600,
+				"to": 36080
+			},
+			"text": " nós"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,080",
+				"to": "00:00:36,980"
+			},
+			"offsets": {
+				"from": 36080,
+				"to": 36980
+			},
+			"text": " queremos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,980",
+				"to": "00:00:37,430"
+			},
+			"offsets": {
+				"from": 36980,
+				"to": 37430
+			},
+			"text": " algo"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,430",
+				"to": "00:00:37,880"
+			},
+			"offsets": {
+				"from": 37430,
+				"to": 37880
+			},
+			"text": " mais"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,880",
+				"to": "00:00:38,890"
+			},
+			"offsets": {
+				"from": 37880,
+				"to": 38890
+			},
+			"text": " grandioso"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,890",
+				"to": "00:00:39,110"
+			},
+			"offsets": {
+				"from": 38890,
+				"to": 39110
+			},
+			"text": " ao"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,110",
+				"to": "00:00:39,790"
+			},
+			"offsets": {
+				"from": 39110,
+				"to": 39790
+			},
+			"text": " nível"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,790",
+				"to": "00:00:40,130"
+			},
+			"offsets": {
+				"from": 39790,
+				"to": 40130
+			},
+			"text": " dos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,130",
+				"to": "00:00:40,810"
+			},
+			"offsets": {
+				"from": 40130,
+				"to": 40810
+			},
+			"text": " nossos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,810",
+				"to": "00:00:41,710"
+			},
+			"offsets": {
+				"from": 40810,
+				"to": 41710
+			},
+			"text": " clientes"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,710",
+				"to": "00:00:42,390"
+			},
+			"offsets": {
+				"from": 41710,
+				"to": 42390
+			},
+			"text": " então"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,390",
+				"to": "00:00:42,960"
+			},
+			"offsets": {
+				"from": 42390,
+				"to": 42960
+			},
+			"text": " vamos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,960",
+				"to": "00:00:43,400"
+			},
+			"offsets": {
+				"from": 42960,
+				"to": 43400
+			},
+			"text": " para"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,400",
+				"to": "00:00:43,510"
+			},
+			"offsets": {
+				"from": 43400,
+				"to": 43510
+			},
+			"text": " a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,510",
+				"to": "00:00:44,040"
+			},
+			"offsets": {
+				"from": 43510,
+				"to": 44040
+			},
+			"text": " saga"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,040",
+				"to": "00:00:44,200"
+			},
+			"offsets": {
+				"from": 44040,
+				"to": 44200
+			},
+			"text": " da"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,200",
+				"to": "00:00:44,640"
+			},
+			"offsets": {
+				"from": 44200,
+				"to": 44640
+			},
+			"text": " decoração"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,640",
+				"to": "00:00:44,720"
+			},
+			"offsets": {
+				"from": 44640,
+				"to": 44720
+			},
+			"text": " do"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,720",
+				"to": "00:00:45,020"
+			},
+			"offsets": {
+				"from": 44720,
+				"to": 45020
+			},
+			"text": " natal"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,020",
+				"to": "00:00:45,140"
+			},
+			"offsets": {
+				"from": 45020,
+				"to": 45140
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,140",
+				"to": "00:00:45,920"
+			},
+			"offsets": {
+				"from": 45140,
+				"to": 45920
+			},
+			"text": " 2026"
+		}
+	]
+}

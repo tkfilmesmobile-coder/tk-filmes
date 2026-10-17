@@ -1,0 +1,18 @@
+{
+  "pasta": "assets/Kit_Assets_3D_INSS_Votacao_Prova_de_Vida/Kit_Assets_3D_INSS_Votacao_Prova_de_Vida",
+  "regras": {
+    "antecipaFrames": 4,
+    "duracaoMaxFrames": 84,
+    "duracaoMinFrames": 27,
+    "folgaEntreFrames": 3
+  },
+  "insercoes": [
+    { "clipe": "abertura", "ancora": "prova", "arquivo": "03_Prova_de_Vida/01_prova_de_vida_smartphone_3d.png" },
+    { "clipe": "voce-sabia", "ancora": "urnas", "arquivo": "01_Votacao/01_urna_eletronica_3d.png" },
+    { "clipe": "voce-sabia", "ancora": "4/10", "arquivo": "03_Prova_de_Vida/03_lembrete_recertificacao_3d.png" },
+    { "clipe": "voce-sabia", "ancora": "automaticamente", "arquivo": "03_Prova_de_Vida/02_biometria_verificada_3d.png" },
+    { "clipe": "quando-vota", "ancora": "urnas", "arquivo": "01_Votacao/02_urna_eleitoral_com_cedula_3d.png" },
+    { "clipe": "quando-vota", "ancora": "registrada", "arquivo": "01_Votacao/03_titulo_de_eleitor_verificado_3d.png" },
+    { "clipe": "final", "ancora": "ficou", "arquivo": "02_INSS/01_pasta_inss_beneficios_3d.png", "ateFimDoClipe": true }
+  ]
+}

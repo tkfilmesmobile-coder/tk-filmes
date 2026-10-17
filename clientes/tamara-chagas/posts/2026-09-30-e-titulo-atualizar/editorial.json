@@ -1,0 +1,31 @@
+{
+ "fonte": "TSE · tse.jus.br · 29/09/2026",
+ "telas": [
+  {
+   "kicker": "ELEIÇÕES 2026 · E-TÍTULO",
+   "titulo": "Tem e-Título antigo? <b>Atualize.</b>",
+   "foto": "tamara/tamara-estudio-0046.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Atualizar o e-Título.",
+   "tam": 84,
+   "texto": "1. Baixe a <b>versão nova</b> do e-Título na loja do celular<br><br>2. <b>Reemita</b> o seu e-Título no aplicativo<br><br>3. Faça isso com antecedência, não no dia da votação<br><br>📍 O app mostra o seu local de votação e, com a sua foto, vale como documento pra votar"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Eu instalei o e-Título na eleição passada. Preciso fazer alguma coisa?”",
+   "tam": 64,
+   "texto": "Precisa sim! A Justiça Eleitoral orienta baixar a versão atualizada e reemitir o e-Título antes de domingo. E se ele tiver a sua foto, serve como documento na hora de votar."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

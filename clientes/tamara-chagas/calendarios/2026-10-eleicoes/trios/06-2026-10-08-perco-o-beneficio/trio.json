@@ -1,0 +1,39 @@
+{
+ "data": "8 de outubro de 2026",
+ "fonte": "Código Eleitoral (Lei 4.737/1965), art. 7º",
+ "card": "Essa dúvida é bem comum: \"não votei, vou perder meu benefício?\" Respondi com o que diz a lei no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "o que fica bloqueado 👇",
+  "marca": "não aparecem",
+  "linhas": [
+   "Sem votar, justificar ou pagar a multa, a lei eleitoral impede, por exemplo:",
+   "🛂 tirar passaporte ou identidade",
+   "📝 concurso e cargo público",
+   "🎓 matrícula em escola pública",
+   "Aposentadoria, pensão e BPC não aparecem nessa lista"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, não votei e não justifiquei. Vou perder minha aposentadoria? 😟",
+   "09:02"
+  ],
+  [
+   "out",
+   "A lei eleitoral não coloca o benefício do INSS na lista do que fica bloqueado 🙂",
+   "09:03"
+  ],
+  [
+   "out",
+   "Mas o ideal é regularizar: justifique no e-Título ou pague a multa 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Entendi! Vou resolver 🙏",
+   "09:04"
+  ]
+ ]
+}

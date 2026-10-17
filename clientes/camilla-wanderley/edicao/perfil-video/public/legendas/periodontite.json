@@ -1,0 +1,915 @@
+[
+ {
+  "text": " A",
+  "startMs": 0,
+  "endMs": 140,
+  "timestampMs": 70,
+  "confidence": 0.219
+ },
+ {
+  "text": " periodontite",
+  "startMs": 140,
+  "endMs": 640,
+  "timestampMs": 390,
+  "confidence": 0.61
+ },
+ {
+  "text": " é",
+  "startMs": 640,
+  "endMs": 920,
+  "timestampMs": 780,
+  "confidence": 0.89
+ },
+ {
+  "text": " uma",
+  "startMs": 920,
+  "endMs": 1540,
+  "timestampMs": 1230,
+  "confidence": 0.644
+ },
+ {
+  "text": " doença",
+  "startMs": 1540,
+  "endMs": 1840,
+  "timestampMs": 1690,
+  "confidence": 0.987
+ },
+ {
+  "text": " da",
+  "startMs": 1840,
+  "endMs": 2020,
+  "timestampMs": 1930,
+  "confidence": 0.979
+ },
+ {
+  "text": " gengiva.",
+  "startMs": 2020,
+  "endMs": 2640,
+  "timestampMs": 2330,
+  "confidence": 0.971,
+  "destaque": true
+ },
+ {
+  "text": " Ela",
+  "startMs": 2840,
+  "endMs": 3260,
+  "timestampMs": 3050,
+  "confidence": 0.974
+ },
+ {
+  "text": " causa",
+  "startMs": 3260,
+  "endMs": 4040,
+  "timestampMs": 3650,
+  "confidence": 0.978
+ },
+ {
+  "text": " parto",
+  "startMs": 4040,
+  "endMs": 4300,
+  "timestampMs": 4170,
+  "confidence": 0.882
+ },
+ {
+  "text": " prematuro.",
+  "startMs": 4300,
+  "endMs": 4800,
+  "timestampMs": 4550,
+  "confidence": 0.994,
+  "destaque": true
+ },
+ {
+  "text": " Por",
+  "startMs": 5040,
+  "endMs": 5340,
+  "timestampMs": 5189,
+  "confidence": 0.952
+ },
+ {
+  "text": " isso",
+  "startMs": 5340,
+  "endMs": 5480,
+  "timestampMs": 5410,
+  "confidence": 0.996
+ },
+ {
+  "text": " que",
+  "startMs": 5480,
+  "endMs": 5600,
+  "timestampMs": 5540,
+  "confidence": 0.963
+ },
+ {
+  "text": " a",
+  "startMs": 5600,
+  "endMs": 5780,
+  "timestampMs": 5689,
+  "confidence": 0.984
+ },
+ {
+  "text": " grávida,",
+  "startMs": 5780,
+  "endMs": 6380,
+  "timestampMs": 6080,
+  "confidence": 0.996
+ },
+ {
+  "text": " a",
+  "startMs": 6540,
+  "endMs": 6540,
+  "timestampMs": 6540,
+  "confidence": 0.989
+ },
+ {
+  "text": " gestante,",
+  "startMs": 6540,
+  "endMs": 7100,
+  "timestampMs": 6820,
+  "confidence": 0.999,
+  "destaque": true
+ },
+ {
+  "text": " tem",
+  "startMs": 7260,
+  "endMs": 7460,
+  "timestampMs": 7359,
+  "confidence": 0.995
+ },
+ {
+  "text": " que",
+  "startMs": 7460,
+  "endMs": 7580,
+  "timestampMs": 7520,
+  "confidence": 0.998
+ },
+ {
+  "text": " cuidar",
+  "startMs": 7580,
+  "endMs": 7960,
+  "timestampMs": 7770,
+  "confidence": 0.998
+ },
+ {
+  "text": " durante",
+  "startMs": 7960,
+  "endMs": 8420,
+  "timestampMs": 8189,
+  "confidence": 0.723
+ },
+ {
+  "text": " a",
+  "startMs": 8420,
+  "endMs": 8700,
+  "timestampMs": 9010,
+  "confidence": 0.998
+ },
+ {
+  "text": " gestação.",
+  "startMs": 9600,
+  "endMs": 10360,
+  "timestampMs": 9980,
+  "confidence": 0.996,
+  "destaque": true
+ },
+ {
+  "text": " Cuidar",
+  "startMs": 12020,
+  "endMs": 12500,
+  "timestampMs": 12260,
+  "confidence": 0.867
+ },
+ {
+  "text": " durante",
+  "startMs": 12500,
+  "endMs": 12740,
+  "timestampMs": 12620,
+  "confidence": 0.997
+ },
+ {
+  "text": " a",
+  "startMs": 12740,
+  "endMs": 12920,
+  "timestampMs": 12830,
+  "confidence": 1.0
+ },
+ {
+  "text": " gestação,",
+  "startMs": 12920,
+  "endMs": 13340,
+  "timestampMs": 13129,
+  "confidence": 1.0,
+  "destaque": true
+ },
+ {
+  "text": " porque",
+  "startMs": 13440,
+  "endMs": 13620,
+  "timestampMs": 13530,
+  "confidence": 0.992
+ },
+ {
+  "text": " pode",
+  "startMs": 13620,
+  "endMs": 13920,
+  "timestampMs": 13770,
+  "confidence": 1.0
+ },
+ {
+  "text": " acontecer.",
+  "startMs": 13920,
+  "endMs": 14520,
+  "timestampMs": 14219,
+  "confidence": 0.999
+ },
+ {
+  "text": " Fazer",
+  "startMs": 14840,
+  "endMs": 15080,
+  "timestampMs": 14960,
+  "confidence": 0.818
+ },
+ {
+  "text": " um",
+  "startMs": 15080,
+  "endMs": 15120,
+  "timestampMs": 15100,
+  "confidence": 0.999
+ },
+ {
+  "text": " parto",
+  "startMs": 15120,
+  "endMs": 15400,
+  "timestampMs": 15260,
+  "confidence": 1.0
+ },
+ {
+  "text": " prematuro",
+  "startMs": 15400,
+  "endMs": 15860,
+  "timestampMs": 15629,
+  "confidence": 0.999
+ },
+ {
+  "text": " por",
+  "startMs": 15860,
+  "endMs": 16040,
+  "timestampMs": 15950,
+  "confidence": 0.979
+ },
+ {
+  "text": " conta",
+  "startMs": 16040,
+  "endMs": 16260,
+  "timestampMs": 16149,
+  "confidence": 0.991
+ },
+ {
+  "text": " de",
+  "startMs": 16260,
+  "endMs": 16400,
+  "timestampMs": 16329,
+  "confidence": 0.999
+ },
+ {
+  "text": " um",
+  "startMs": 16400,
+  "endMs": 16460,
+  "timestampMs": 16430,
+  "confidence": 0.961
+ },
+ {
+  "text": " problema",
+  "startMs": 16460,
+  "endMs": 16780,
+  "timestampMs": 16620,
+  "confidence": 0.996
+ },
+ {
+  "text": " gengival,",
+  "startMs": 16780,
+  "endMs": 17740,
+  "timestampMs": 17259,
+  "confidence": 0.997,
+  "destaque": true
+ },
+ {
+  "text": " sabe?",
+  "startMs": 17820,
+  "endMs": 18020,
+  "timestampMs": 17920,
+  "confidence": 0.999
+ },
+ {
+  "text": " E",
+  "startMs": 18240,
+  "endMs": 18480,
+  "timestampMs": 18360,
+  "confidence": 0.973
+ },
+ {
+  "text": " assim,",
+  "startMs": 18480,
+  "endMs": 18680,
+  "timestampMs": 18580,
+  "confidence": 0.669
+ },
+ {
+  "text": " a",
+  "startMs": 18740,
+  "endMs": 18780,
+  "timestampMs": 18759,
+  "confidence": 0.992
+ },
+ {
+  "text": " melhor",
+  "startMs": 18780,
+  "endMs": 18980,
+  "timestampMs": 18880,
+  "confidence": 1.0
+ },
+ {
+  "text": " fase",
+  "startMs": 18980,
+  "endMs": 19340,
+  "timestampMs": 19160,
+  "confidence": 1.0
+ },
+ {
+  "text": " pra",
+  "startMs": 19340,
+  "endMs": 19560,
+  "timestampMs": 19450,
+  "confidence": 0.637
+ },
+ {
+  "text": " tratar",
+  "startMs": 19560,
+  "endMs": 20100,
+  "timestampMs": 19830,
+  "confidence": 0.999
+ },
+ {
+  "text": " na",
+  "startMs": 20100,
+  "endMs": 20720,
+  "timestampMs": 20410,
+  "confidence": 0.517
+ },
+ {
+  "text": " grávida",
+  "startMs": 20720,
+  "endMs": 21080,
+  "timestampMs": 20900,
+  "confidence": 1.0
+ },
+ {
+  "text": " é",
+  "startMs": 21080,
+  "endMs": 21160,
+  "timestampMs": 21119,
+  "confidence": 0.984
+ },
+ {
+  "text": " no",
+  "startMs": 21160,
+  "endMs": 21240,
+  "timestampMs": 21200,
+  "confidence": 0.998
+ },
+ {
+  "text": " segundo",
+  "startMs": 21240,
+  "endMs": 21540,
+  "timestampMs": 21390,
+  "confidence": 0.994
+ },
+ {
+  "text": " trimestre.",
+  "startMs": 21540,
+  "endMs": 22240,
+  "timestampMs": 21890,
+  "confidence": 1.0,
+  "destaque": true
+ },
+ {
+  "text": " Não",
+  "startMs": 22400,
+  "endMs": 22640,
+  "timestampMs": 22520,
+  "confidence": 0.576
+ },
+ {
+  "text": " é",
+  "startMs": 22640,
+  "endMs": 22700,
+  "timestampMs": 22670,
+  "confidence": 1.0
+ },
+ {
+  "text": " seguro",
+  "startMs": 22700,
+  "endMs": 23160,
+  "timestampMs": 22930,
+  "confidence": 0.999
+ },
+ {
+  "text": " pra",
+  "startMs": 23160,
+  "endMs": 23620,
+  "timestampMs": 23390,
+  "confidence": 0.607
+ },
+ {
+  "text": " paciente,",
+  "startMs": 23620,
+  "endMs": 24540,
+  "timestampMs": 24080,
+  "confidence": 0.782
+ },
+ {
+  "text": " pra",
+  "startMs": 24720,
+  "endMs": 24820,
+  "timestampMs": 24770,
+  "confidence": 0.906
+ },
+ {
+  "text": " bebê",
+  "startMs": 24820,
+  "endMs": 25360,
+  "timestampMs": 25090,
+  "confidence": 0.838
+ },
+ {
+  "text": " e",
+  "startMs": 25360,
+  "endMs": 25660,
+  "timestampMs": 25509,
+  "confidence": 0.98
+ },
+ {
+  "text": " pra",
+  "startMs": 25660,
+  "endMs": 25800,
+  "timestampMs": 25730,
+  "confidence": 0.834
+ },
+ {
+  "text": " dentista,",
+  "startMs": 25800,
+  "endMs": 26340,
+  "timestampMs": 26070,
+  "confidence": 0.885
+ },
+ {
+  "text": " sabe?",
+  "startMs": 26400,
+  "endMs": 26600,
+  "timestampMs": 26500,
+  "confidence": 1.0
+ },
+ {
+  "text": " Agora,",
+  "startMs": 26600,
+  "endMs": 27200,
+  "timestampMs": 26900,
+  "confidence": 0.851
+ },
+ {
+  "text": " o",
+  "startMs": 27440,
+  "endMs": 27460,
+  "timestampMs": 27450,
+  "confidence": 0.996
+ },
+ {
+  "text": " ideal",
+  "startMs": 27460,
+  "endMs": 27840,
+  "timestampMs": 27650,
+  "confidence": 0.999
+ },
+ {
+  "text": " realmente",
+  "startMs": 27840,
+  "endMs": 28440,
+  "timestampMs": 28140,
+  "confidence": 0.715
+ },
+ {
+  "text": " é",
+  "startMs": 28440,
+  "endMs": 28680,
+  "timestampMs": 28560,
+  "confidence": 0.982
+ },
+ {
+  "text": " fazer",
+  "startMs": 28680,
+  "endMs": 29140,
+  "timestampMs": 28910,
+  "confidence": 0.997
+ },
+ {
+  "text": " o",
+  "startMs": 29140,
+  "endMs": 29500,
+  "timestampMs": 29320,
+  "confidence": 0.979
+ },
+ {
+  "text": " tratamento",
+  "startMs": 29500,
+  "endMs": 29920,
+  "timestampMs": 29710,
+  "confidence": 0.999
+ },
+ {
+  "text": " odontológico",
+  "startMs": 29920,
+  "endMs": 30800,
+  "timestampMs": 30360,
+  "confidence": 0.955
+ },
+ {
+  "text": " antes",
+  "startMs": 30800,
+  "endMs": 31460,
+  "timestampMs": 31130,
+  "confidence": 0.966
+ },
+ {
+  "text": " de",
+  "startMs": 31460,
+  "endMs": 31600,
+  "timestampMs": 31530,
+  "confidence": 0.998
+ },
+ {
+  "text": " engravidar,",
+  "startMs": 31600,
+  "endMs": 32220,
+  "timestampMs": 31910,
+  "confidence": 0.994,
+  "destaque": true
+ },
+ {
+  "text": " mas",
+  "startMs": 32299,
+  "endMs": 32640,
+  "timestampMs": 32470,
+  "confidence": 0.666
+ },
+ {
+  "text": " que",
+  "startMs": 32640,
+  "endMs": 32780,
+  "timestampMs": 32710,
+  "confidence": 0.889
+ },
+ {
+  "text": " todas",
+  "startMs": 32780,
+  "endMs": 33060,
+  "timestampMs": 32920,
+  "confidence": 0.996
+ },
+ {
+  "text": " as",
+  "startMs": 33060,
+  "endMs": 33260,
+  "timestampMs": 33160,
+  "confidence": 0.994
+ },
+ {
+  "text": " grávidas",
+  "startMs": 33260,
+  "endMs": 33600,
+  "timestampMs": 33430,
+  "confidence": 0.994
+ },
+ {
+  "text": " deveriam",
+  "startMs": 33600,
+  "endMs": 33980,
+  "timestampMs": 33790,
+  "confidence": 0.993
+ },
+ {
+  "text": " saber,",
+  "startMs": 33980,
+  "endMs": 34440,
+  "timestampMs": 34209,
+  "confidence": 0.96
+ },
+ {
+  "text": " deveriam",
+  "startMs": 34880,
+  "endMs": 35280,
+  "timestampMs": 35080,
+  "confidence": 0.996
+ },
+ {
+  "text": " fazer",
+  "startMs": 35280,
+  "endMs": 35600,
+  "timestampMs": 35440,
+  "confidence": 0.996
+ },
+ {
+  "text": " o",
+  "startMs": 35600,
+  "endMs": 35840,
+  "timestampMs": 35720,
+  "confidence": 0.994
+ },
+ {
+  "text": " tratamento",
+  "startMs": 35840,
+  "endMs": 36380,
+  "timestampMs": 36110,
+  "confidence": 1.0
+ },
+ {
+  "text": " durante",
+  "startMs": 36380,
+  "endMs": 36660,
+  "timestampMs": 36519,
+  "confidence": 0.996
+ },
+ {
+  "text": " a",
+  "startMs": 36660,
+  "endMs": 36920,
+  "timestampMs": 36790,
+  "confidence": 0.998
+ },
+ {
+  "text": " gestação,",
+  "startMs": 36920,
+  "endMs": 37380,
+  "timestampMs": 37150,
+  "confidence": 0.979,
+  "destaque": true
+ },
+ {
+  "text": " limpeza.",
+  "startMs": 37560,
+  "endMs": 38380,
+  "timestampMs": 37970,
+  "confidence": 0.996,
+  "destaque": true
+ },
+ {
+  "text": " Depois,",
+  "startMs": 38860,
+  "endMs": 39160,
+  "timestampMs": 39010,
+  "confidence": 0.922
+ },
+ {
+  "text": " quando",
+  "startMs": 39380,
+  "endMs": 39500,
+  "timestampMs": 39440,
+  "confidence": 1.0
+ },
+ {
+  "text": " nasce,",
+  "startMs": 39500,
+  "endMs": 40020,
+  "timestampMs": 39760,
+  "confidence": 0.994
+ },
+ {
+  "text": " fica",
+  "startMs": 40080,
+  "endMs": 40240,
+  "timestampMs": 40160,
+  "confidence": 0.999
+ },
+ {
+  "text": " mais",
+  "startMs": 40240,
+  "endMs": 40480,
+  "timestampMs": 40360,
+  "confidence": 0.999
+ },
+ {
+  "text": " complicado",
+  "startMs": 40480,
+  "endMs": 40960,
+  "timestampMs": 40720,
+  "confidence": 0.993
+ },
+ {
+  "text": " ir",
+  "startMs": 40960,
+  "endMs": 41160,
+  "timestampMs": 41060,
+  "confidence": 0.795
+ },
+ {
+  "text": " no",
+  "startMs": 41160,
+  "endMs": 41300,
+  "timestampMs": 41230,
+  "confidence": 0.967
+ },
+ {
+  "text": " dentista,",
+  "startMs": 41300,
+  "endMs": 41740,
+  "timestampMs": 41519,
+  "confidence": 0.997
+ },
+ {
+  "text": " aí",
+  "startMs": 41780,
+  "endMs": 41960,
+  "timestampMs": 41870,
+  "confidence": 0.961
+ },
+ {
+  "text": " você",
+  "startMs": 41960,
+  "endMs": 42040,
+  "timestampMs": 42000,
+  "confidence": 0.976
+ },
+ {
+  "text": " imagina,",
+  "startMs": 42040,
+  "endMs": 42540,
+  "timestampMs": 42290,
+  "confidence": 1.0
+ },
+ {
+  "text": " amamentando",
+  "startMs": 42600,
+  "endMs": 43160,
+  "timestampMs": 42879,
+  "confidence": 0.992
+ },
+ {
+  "text": " e",
+  "startMs": 43160,
+  "endMs": 43300,
+  "timestampMs": 43230,
+  "confidence": 0.957
+ },
+ {
+  "text": " com",
+  "startMs": 43300,
+  "endMs": 43380,
+  "timestampMs": 43340,
+  "confidence": 0.999
+ },
+ {
+  "text": " dor",
+  "startMs": 43380,
+  "endMs": 43520,
+  "timestampMs": 43450,
+  "confidence": 0.999
+ },
+ {
+  "text": " de",
+  "startMs": 43520,
+  "endMs": 43720,
+  "timestampMs": 43620,
+  "confidence": 1.0
+ },
+ {
+  "text": " dente.",
+  "startMs": 43720,
+  "endMs": 44040,
+  "timestampMs": 43879,
+  "confidence": 0.989
+ },
+ {
+  "text": " Eu",
+  "startMs": 44360,
+  "endMs": 44920,
+  "timestampMs": 44640,
+  "confidence": 0.856
+ },
+ {
+  "text": " já",
+  "startMs": 44920,
+  "endMs": 45120,
+  "timestampMs": 45019,
+  "confidence": 1.0
+ },
+ {
+  "text": " tive",
+  "startMs": 45120,
+  "endMs": 45400,
+  "timestampMs": 45260,
+  "confidence": 0.999
+ },
+ {
+  "text": " pacientes",
+  "startMs": 45400,
+  "endMs": 45980,
+  "timestampMs": 45690,
+  "confidence": 0.985
+ },
+ {
+  "text": " assim,",
+  "startMs": 45980,
+  "endMs": 46280,
+  "timestampMs": 46129,
+  "confidence": 0.592
+ },
+ {
+  "text": " que",
+  "startMs": 46920,
+  "endMs": 47020,
+  "timestampMs": 46970,
+  "confidence": 0.997
+ },
+ {
+  "text": " levavam",
+  "startMs": 47020,
+  "endMs": 47380,
+  "timestampMs": 47200,
+  "confidence": 0.982
+ },
+ {
+  "text": " neném",
+  "startMs": 47380,
+  "endMs": 47780,
+  "timestampMs": 47580,
+  "confidence": 0.859
+ },
+ {
+  "text": " recém",
+  "startMs": 47780,
+  "endMs": 48160,
+  "timestampMs": 47970,
+  "confidence": 0.997
+ },
+ {
+  "text": " -nascido",
+  "startMs": 48160,
+  "endMs": 48460,
+  "timestampMs": 48310,
+  "confidence": 0.988
+ },
+ {
+  "text": " para",
+  "startMs": 48460,
+  "endMs": 48620,
+  "timestampMs": 48540,
+  "confidence": 0.714
+ },
+ {
+  "text": " o",
+  "startMs": 48620,
+  "endMs": 48700,
+  "timestampMs": 48660,
+  "confidence": 0.957
+ },
+ {
+  "text": " consultório",
+  "startMs": 48700,
+  "endMs": 49080,
+  "timestampMs": 48890,
+  "confidence": 0.998
+ },
+ {
+  "text": " para",
+  "startMs": 49080,
+  "endMs": 49220,
+  "timestampMs": 49150,
+  "confidence": 0.974
+ },
+ {
+  "text": " poder",
+  "startMs": 49220,
+  "endMs": 49400,
+  "timestampMs": 49310,
+  "confidence": 0.997
+ },
+ {
+  "text": " fazer",
+  "startMs": 49400,
+  "endMs": 49620,
+  "timestampMs": 49510,
+  "confidence": 1.0
+ },
+ {
+  "text": " um",
+  "startMs": 49620,
+  "endMs": 49760,
+  "timestampMs": 49690,
+  "confidence": 0.95
+ },
+ {
+  "text": " canal.",
+  "startMs": 49760,
+  "endMs": 50160,
+  "timestampMs": 49959,
+  "confidence": 0.751
+ }
+]

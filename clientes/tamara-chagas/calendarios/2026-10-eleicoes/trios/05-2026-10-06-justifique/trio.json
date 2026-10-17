@@ -1,0 +1,39 @@
+{
+ "data": "6 de outubro de 2026",
+ "fonte": "TSE · Justificativa eleitoral · Código Eleitoral, art. 7º",
+ "card": "Não conseguiu votar no domingo? Fica tranquilo, dá tempo: você tem até <b>3 de dezembro</b> pra justificar. Te explico no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "não votei, e agora?",
+  "marca": "03/12/2026",
+  "linhas": [
+   "🗓️ prazo: até 03/12/2026 (1º turno)",
+   "📱 pelo app e-Título",
+   "🏛️ ou em qualquer cartório eleitoral",
+   "⚠️ cada turno se justifica separado",
+   "👵 70 anos ou mais não precisa justificar"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, eu estava viajando e não votei. E agora? 😬",
+   "09:02"
+  ],
+  [
+   "out",
+   "Calma! Dá pra justificar pelo e-Título até 3 de dezembro 📱",
+   "09:03"
+  ],
+  [
+   "out",
+   "Sem justificar nem pagar a multa, a pessoa fica com restrições, então vale resolver logo 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Vou fazer agora! 🙏",
+   "09:04"
+  ]
+ ]
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Inter:wght@400;500&family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@400;500;600&family=Jost:wght@300;400;500&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Marcellus&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--preto:#121212;--grafite:#242424;--cinza:#8A8A8A;--claro:#F3F1EE;--ouro:#CBA14F;--ouro-cl:#D8B45E}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{background:var(--preto);color:var(--claro);font-family:'Inter',sans-serif;padding:60px 72px 40px;display:flex;flex-direction:column}
+  .head{margin-bottom:30px}
+  .kicker{font-size:15px;letter-spacing:.4em;text-transform:uppercase;color:var(--ouro);font-weight:500}
+  .title{font-family:'Fraunces',serif;font-weight:300;font-size:40px;margin-top:8px;color:var(--claro)}
+  .rows{display:flex;flex-direction:column;flex:1}
+  .row{flex:1;border-top:1px solid #2c2c2c;padding:22px 0;display:flex;align-items:center;gap:30px}
+  .row:last-child{border-bottom:1px solid #2c2c2c}
+  .num{width:26px;font-size:14px;color:var(--ouro);font-weight:600;flex-shrink:0}
+  .name{width:430px;flex-shrink:0;line-height:.98}
+  .name .g{color:var(--ouro-cl)}
+  .meta{flex:1}
+  .pair{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--cinza);margin-bottom:7px}
+  .pair b{color:var(--ouro);font-weight:600}
+  .body{color:#cfcbc3;font-size:16px;line-height:1.4}
+
+  /* 1 Fraunces + Inter */
+  .n1{font-family:'Fraunces',serif;font-weight:300;font-size:52px}
+  .n1 .g{font-style:italic}
+  .b1{font-family:'Inter',sans-serif;font-weight:400}
+  /* 2 Cormorant + Montserrat */
+  .n2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:62px}
+  .b2{font-family:'Montserrat',sans-serif;font-weight:300;letter-spacing:.01em}
+  /* 3 Playfair + Jost */
+  .n3{font-family:'Playfair Display',serif;font-weight:500;font-size:48px}
+  .b3{font-family:'Jost',sans-serif;font-weight:400}
+  /* 4 Bricolage + Inter */
+  .n4{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:50px;letter-spacing:-.02em}
+  .b4{font-family:'Inter',sans-serif;font-weight:400}
+  /* 5 Marcellus + Nunito Sans */
+  .n5{font-family:'Marcellus',serif;font-weight:400;font-size:52px}
+  .b5{font-family:'Nunito Sans',sans-serif;font-weight:400}
+  /* 6 Poppins + Nunito Sans */
+  .n6{font-family:'Poppins',sans-serif;font-weight:700;font-size:46px;letter-spacing:-.02em}
+  .b6{font-family:'Nunito Sans',sans-serif;font-weight:400}
+</style>
+</head>
+<body>
+  <div class="head">
+    <div class="kicker">Ary Magalhães — pares de fontes</div>
+    <div class="title">Escolha a personalidade da tipografia</div>
+  </div>
+  <div class="rows">
+    <div class="row">
+      <div class="num">01</div>
+      <div class="name n1">Ary <span class="g">Magalhães</span></div>
+      <div class="meta"><div class="pair"><b>Fraunces</b> + Inter</div><div class="body b1">Serifada editorial e elegante. Sofisticada e atemporal. <em>(rota A atual)</em></div></div>
+    </div>
+    <div class="row">
+      <div class="num">02</div>
+      <div class="name n2">Ary <span class="g">Magalhães</span></div>
+      <div class="meta"><div class="pair"><b>Cormorant Garamond</b> + Montserrat</div><div class="body b2">Serifada fina e luxuosa, ar de revista de moda. Muito refinada.</div></div>
+    </div>
+    <div class="row">
+      <div class="num">03</div>
+      <div class="name n3">Ary <span class="g">Magalhães</span></div>
+      <div class="meta"><div class="pair"><b>Playfair Display</b> + Jost</div><div class="body b3">Clássica chique com toque contemporâneo. Equilíbrio elegância + moderno.</div></div>
+    </div>
+    <div class="row">
+      <div class="num">04</div>
+      <div class="name n4">Ary <span class="g">Magalhães</span></div>
+      <div class="meta"><div class="pair"><b>Bricolage Grotesque</b> + Inter</div><div class="body b4">Sans marcante e moderna. Ousada, jovial e cheia de personalidade.</div></div>
+    </div>
+    <div class="row">
+      <div class="num">05</div>
+      <div class="name n5">Ary <span class="g">Magalhães</span></div>
+      <div class="meta"><div class="pair"><b>Marcellus</b> + Nunito Sans</div><div class="body b5">Romana clássica com ar de spa/beleza. Sofisticada e acolhedora.</div></div>
+    </div>
+    <div class="row">
+      <div class="num">06</div>
+      <div class="name n6">Ary <span class="g">Magalhães</span></div>
+      <div class="meta"><div class="pair"><b>Poppins</b> + Nunito Sans</div><div class="body b6">Sans redonda e amigável. Jovial e próxima. <em>(rota B atual)</em></div></div>
+    </div>
+  </div>
+</body>
+</html>

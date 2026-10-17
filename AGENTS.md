@@ -60,6 +60,7 @@ diário de outra origem, avisa se o `agora.md` está velho.
 | recado deixado por um robô ou por outra pessoa | `_memoria/recados/` |
 | de um contato ou fornecedor recorrente (não é cliente, não é time) | `_contexto/pessoas/<nome>.md` |
 | de um projeto ou cliente, pra trabalhar nele | a pasta dele: `AGENTS.md` + `contexto.md` + `andamento.md` |
+| regra que vale pra todos os clientes (antigos e novos) | `clientes/_regras.md` |
 | que modelos e scripts o kit traz (perfis, skills prontas, catálogos, ponte) | `sistema/templates/` e `sistema/scripts/` |
 
 Este mapa é a única fonte de caminho do sistema. **Skill nunca escreve caminho de marca, de script ou
@@ -102,6 +103,7 @@ Pedido explícito ("salva isso") é exceção, e passa pela tabela do mesmo jeit
 | robô quer propor ou reportar | `_memoria/recados/` (um arquivo por recado) |
 | identidade visual, jeito de falar com o cliente | `_contexto/marca/` |
 | trabalho de projeto ou cliente | a pasta do projeto |
+| regra, função ou padrão novo pra todos os clientes | `clientes/_regras.md` + a versão adaptada na ficha de cada cliente (Regra 0 do arquivo) |
 | chegou transcrição, material de reunião, documento | a pasta do projeto; destilar o essencial no `contexto.md` dele, com data e caminho da fonte |
 | pessoa ou empresa recorrente que não é cliente nem time | `_contexto/pessoas/<nome>.md` (a pasta nasce no primeiro arquivo) |
 | coisa trivial (pergunta solta, teste, conversa sem ação) | **não salva.** Poluir o sistema é pior que perder |
@@ -165,3 +167,4 @@ no fim", e a sessão nunca morre sem essa oferta. Não oferecer em sessão trivi
 - `clientes/` · uma pasta por cliente (o `/novo-projeto` cria), com contexto, tom, entregas e link do Drive
 - `tk-filmes/` · marketing da própria TK: Instagram, calendário, conteúdo
 - `propostas/` · propostas e orçamentos em andamento e enviados
+- `projetos/curso-mestres-ai/` · curso de edição da Mestres.AI: anotações, exercícios, projetos e as skills do Remotion

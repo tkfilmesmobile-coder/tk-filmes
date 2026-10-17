@@ -1,0 +1,24 @@
+﻿[2026-10-16 14:11:06] publicando 2026-10-15-reels-pesquisa...
+Fazendo upload do video pro catbox...
+node : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\tk-filmes\posts\2026-10\2026-10-15-reels-pesquisa.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\tk-filmes\modelos\publicar-agendado.ps1:20 caractere:12
++   $saida = node --env-file=.env .claude/skills/publicar-social-ratos/ ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[20:46:25] tentativa 1 falhou no envio; nova tentativa em 2 min
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/ya92bx.mp4
+
+Criando container de video...
+  Container: 17961374961215260
+Aguardando processamento (pode levar ate 2 min)...
+Publicando...
+
+Publicado como Reels!
+Link: https://www.instagram.com/reel/DekyBIHj1Xc/
+
+[2026-10-16 21:07:19] fim (código 0)

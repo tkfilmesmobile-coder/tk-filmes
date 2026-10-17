@@ -1,0 +1,22 @@
+{
+ "data": "23 de outubro de 2026",
+ "card": "Esse aqui é pros colegas advogados ⚖️ <b>Chegou cliente com a carta negada do INSS? Antes de judicializar, olha o vídeo no feed</b> 👆",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "carta negada: quando judicializar ⚖️",
+  "linhas": [
+   "1. Primeiro, <b>analisar o motivo</b> do indeferimento",
+   "2. Falha do cliente: <b>novo pedido no INSS</b>, não vai pra Justiça",
+   "3. INSS negou com tudo comprovado: <b>aí sim judicializar</b>",
+   "📌 Carta negada, sozinha, não é munição pra ação"
+  ],
+  "marca": "analisar o motivo"
+ },
+ "conversa": [
+  ["in", "Doutora, o INSS negou o pedido do meu cliente. Já posso entrar com a ação? 🤔", "16:03"],
+  ["out", "Primeiro veja o motivo da negativa. Se faltou documento por parte dele, o caminho é um novo pedido no INSS 📄", "16:04"],
+  ["out", "Se ele juntou tudo e o INSS errou mesmo, aí sim tem respaldo pra judicializar ⚖️", "16:04"],
+  ["in", "Faz todo sentido, vou analisar a carta com calma 🙏", "16:05"]
+ ],
+ "fonte": "STF, RE 631.240 (Tema 350)"
+}

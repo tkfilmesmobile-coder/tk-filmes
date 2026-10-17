@@ -1,0 +1,9 @@
+{"parte": 2, "tema": "AUXÍLIO-DOENÇA", "fonte": "Lei 8.213/1991, arts. 25, I; 26, II; 39, I; 59; 151",
+ "slides": [
+  {"layout": "capa", "foto": "../fotos/f61.0.jpg", "pos": "50% 30%", "kicker": "O POVO DA FEIRA SABE DE INSS?", "titulo": "Quem é da roça tem direito a <b>auxílio-doença?</b>", "fala": "Eu não entendo nada dessas coisas não."},
+  {"layout": "foto", "foto": "../fotos/f47.5.jpg", "pos": "50% 30%", "kicker": "O QUE É", "titulo": "Hoje se chama <b>auxílio por incapacidade temporária.</b>", "texto": "Pra quem ficou doente ou se machucou e <b>não consegue trabalhar</b> por um tempo."},
+  {"layout": "lista", "foto": "../fotos/f52.0.jpg", "pos": "50% 30%", "kicker": "QUEM É DA ROÇA", "titulo": "Precisa de <b>duas coisas.</b>", "lista": ["Provar o trabalho na roça nos <b>12 meses antes</b> de adoecer", "Passar pela <b>perícia do INSS</b>"]},
+  {"layout": "numero", "kicker": "VALOR", "titulo": "Quanto <b>recebe?</b>", "grande": "1|salário mínimo", "texto": "Pro segurado especial, enquanto durar a incapacidade. <b>Acidente</b> ou <b>doença grave</b>, como câncer, dispensam os 12 meses."},
+  {"layout": "foto", "foto": "../fotos/f69.5.jpg", "pos": "50% 30%", "kicker": "NA PERÍCIA", "titulo": "Documento <b>faz diferença.</b>", "texto": "Leve <b>laudo, exame e atestado</b> com o nome da doença e o tempo de afastamento.", "faixa": "E os papéis que provam o trabalho na roça"},
+  {"layout": "fim", "foto": "tamara/tamara-estudio-0094.jpg", "titulo": "Ficou com <b>dúvida?</b>", "texto": "Procure orientação.<br><br>Vem aí a <b>Parte 3</b>: mulher da roça tem salário-maternidade?"}
+ ]}

@@ -1,0 +1,538 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:01,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 1000
+			},
+			"text": " sem o pé"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,000",
+				"to": "00:00:05,640"
+			},
+			"offsets": {
+				"from": 1000,
+				"to": 5640
+			},
+			"text": " sendo aplicada, entendeu?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,640",
+				"to": "00:00:09,640"
+			},
+			"offsets": {
+				"from": 5640,
+				"to": 9640
+			},
+			"text": " Entendi, mas a minha preocupação é saber se..."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,640",
+				"to": "00:00:12,400"
+			},
+			"offsets": {
+				"from": 9640,
+				"to": 12400
+			},
+			"text": " É porque esse efeito não vai dar, sim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,400",
+				"to": "00:00:16,640"
+			},
+			"offsets": {
+				"from": 12400,
+				"to": 16640
+			},
+			"text": " Não vai dar."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,640",
+				"to": "00:00:18,400"
+			},
+			"offsets": {
+				"from": 16640,
+				"to": 18400
+			},
+			"text": " A minha questão é só esta."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,400",
+				"to": "00:00:20,200"
+			},
+			"offsets": {
+				"from": 18400,
+				"to": 20200
+			},
+			"text": " Seria melhor a gente levar de como..."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,200",
+				"to": "00:00:23,280"
+			},
+			"offsets": {
+				"from": 20200,
+				"to": 23280
+			},
+			"text": " Quando uma área está fechada, a estrutura está fechada,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,280",
+				"to": "00:00:26,480"
+			},
+			"offsets": {
+				"from": 23280,
+				"to": 26480
+			},
+			"text": " e colocar pra gente ver realmente também se assim ou outra."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,480",
+				"to": "00:00:28,480"
+			},
+			"offsets": {
+				"from": 26480,
+				"to": 28480
+			},
+			"text": " Como é que ficaria essa estrutura."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,200",
+				"to": "00:00:31,200"
+			},
+			"offsets": {
+				"from": 29200,
+				"to": 31200
+			},
+			"text": " Entendeu? Aí eu acho que seria mais interessante."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,200",
+				"to": "00:00:36,080"
+			},
+			"offsets": {
+				"from": 31200,
+				"to": 36080
+			},
+			"text": " Pra gente ver como ficava."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,080",
+				"to": "00:00:38,080"
+			},
+			"offsets": {
+				"from": 36080,
+				"to": 38080
+			},
+			"text": " E daí a gente..."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,080",
+				"to": "00:00:43,080"
+			},
+			"offsets": {
+				"from": 38080,
+				"to": 43080
+			},
+			"text": " ia pro segundo plano se esse realmente não rolasse."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,080",
+				"to": "00:00:47,080"
+			},
+			"offsets": {
+				"from": 43080,
+				"to": 47080
+			},
+			"text": " Acho que seria perfeito."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,080",
+				"to": "00:00:49,080"
+			},
+			"offsets": {
+				"from": 47080,
+				"to": 49080
+			},
+			"text": " Agora a árvore vai ficar dentro mesmo, não é?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,080",
+				"to": "00:00:50,680"
+			},
+			"offsets": {
+				"from": 49080,
+				"to": 50680
+			},
+			"text": " Vai ficar fora muito."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,680",
+				"to": "00:00:51,680"
+			},
+			"offsets": {
+				"from": 50680,
+				"to": 51680
+			},
+			"text": " Não."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,680",
+				"to": "00:00:56,680"
+			},
+			"offsets": {
+				"from": 51680,
+				"to": 56680
+			},
+			"text": " Meu Deus, Ronaldo, que complicação."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,880",
+				"to": "00:00:59,880"
+			},
+			"offsets": {
+				"from": 57880,
+				"to": 59880
+			},
+			"text": " Seria melhor fora."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,880",
+				"to": "00:01:01,880"
+			},
+			"offsets": {
+				"from": 59880,
+				"to": 61880
+			},
+			"text": " Mas não, é porque a gente está só falando sobre."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,880",
+				"to": "00:01:05,880"
+			},
+			"offsets": {
+				"from": 61880,
+				"to": 65880
+			},
+			"text": " Quando chega lá, começa a ver as coisas, o negócio começa a cometer."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,880",
+				"to": "00:01:08,880"
+			},
+			"offsets": {
+				"from": 65880,
+				"to": 68880
+			},
+			"text": " Não vai ter esse microfone nele não?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,880",
+				"to": "00:01:10,880"
+			},
+			"offsets": {
+				"from": 68880,
+				"to": 70880
+			},
+			"text": " Não tem problema, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,880",
+				"to": "00:01:13,880"
+			},
+			"offsets": {
+				"from": 70880,
+				"to": 73880
+			},
+			"text": " Se coloca aí tudo certo."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,880",
+				"to": "00:01:15,880"
+			},
+			"offsets": {
+				"from": 73880,
+				"to": 75880
+			},
+			"text": " Pronto, então você testa lá."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,880",
+				"to": "00:01:19,880"
+			},
+			"offsets": {
+				"from": 75880,
+				"to": 79880
+			},
+			"text": " E aí a gente vê como é que vai ficar, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,880",
+				"to": "00:01:22,880"
+			},
+			"offsets": {
+				"from": 79880,
+				"to": 82880
+			},
+			"text": " E a gente poderia até fazer esses laços, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,880",
+				"to": "00:01:23,880"
+			},
+			"offsets": {
+				"from": 82880,
+				"to": 83880
+			},
+			"text": " Era com o veludo."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,880",
+				"to": "00:01:26,880"
+			},
+			"offsets": {
+				"from": 83880,
+				"to": 86880
+			},
+			"text": " Com o veludo. E lá, e botar até umas bolas de veludo da..."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,880",
+				"to": "00:01:27,880"
+			},
+			"offsets": {
+				"from": 86880,
+				"to": 87880
+			},
+			"text": " da pele, não?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:27,880",
+				"to": "00:01:29,880"
+			},
+			"offsets": {
+				"from": 87880,
+				"to": 89880
+			},
+			"text": " Não, amigo. Não."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,880",
+				"to": "00:01:31,880"
+			},
+			"offsets": {
+				"from": 89880,
+				"to": 91880
+			},
+			"text": " Se eu fosse comprar, eu compraria outro."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,880",
+				"to": "00:01:33,880"
+			},
+			"offsets": {
+				"from": 91880,
+				"to": 93880
+			},
+			"text": " Um bem mais... Esse é lindo."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,880",
+				"to": "00:01:35,880"
+			},
+			"offsets": {
+				"from": 93880,
+				"to": 95880
+			},
+			"text": " Mas é um..."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,880",
+				"to": "00:01:37,880"
+			},
+			"offsets": {
+				"from": 95880,
+				"to": 97880
+			},
+			"text": " mercado livre. Esse é perfeito, mas não dá não."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,880",
+				"to": "00:01:39,880"
+			},
+			"offsets": {
+				"from": 97880,
+				"to": 99880
+			},
+			"text": " Assim, amigo."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:39,880",
+				"to": "00:01:41,880"
+			},
+			"offsets": {
+				"from": 99880,
+				"to": 101880
+			},
+			"text": " É muito lindo."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:41,880",
+				"to": "00:01:43,880"
+			},
+			"offsets": {
+				"from": 101880,
+				"to": 103880
+			},
+			"text": " É."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,880",
+				"to": "00:01:45,880"
+			},
+			"offsets": {
+				"from": 103880,
+				"to": 105880
+			},
+			"text": " Mas aí a gente..."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:45,880",
+				"to": "00:01:46,880"
+			},
+			"offsets": {
+				"from": 105880,
+				"to": 106880
+			},
+			"text": " Queria."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,880",
+				"to": "00:01:48,880"
+			},
+			"offsets": {
+				"from": 106880,
+				"to": 108880
+			},
+			"text": " Aquele outro que você falou que você queria ficar subindo, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,880",
+				"to": "00:01:51,880"
+			},
+			"offsets": {
+				"from": 108880,
+				"to": 111880
+			},
+			"text": " É, eu queria um."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,880",
+				"to": "00:01:53,880"
+			},
+			"offsets": {
+				"from": 111880,
+				"to": 113880
+			},
+			"text": " O sem grande, inflável. Ficava show, não era?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,880",
+				"to": "00:01:55,880"
+			},
+			"offsets": {
+				"from": 113880,
+				"to": 115880
+			},
+			"text": " Inflável é fácil."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:55,880",
+				"to": "00:01:58,580"
+			},
+			"offsets": {
+				"from": 115880,
+				"to": 118580
+			},
+			"text": " Tudo bom até ali."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+ "data": "20 de outubro de 2026",
+ "fonte": "TSE · 11/09/2026 · Por Dentro das Eleições",
+ "card": "Tem alguém com deficiência na família? Então salva essa: tem <b>apoio</b> garantido na hora de votar. Te conto quais no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "PcD na votação 🤝",
+  "marca": "alguém de confiança",
+  "linhas": [
+   "🤝 ajuda de alguém de confiança na cabine",
+   "🎧 áudio com fone descartável (deficiência visual)",
+   "⌨️ orientação sobre a tecla 5 e material em Braille",
+   "🦮 entrada com cão-guia"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, meu irmão tem deficiência visual. Posso entrar com ele na cabine? 🤔",
+   "09:02"
+  ],
+  [
+   "out",
+   "Pode! Pessoa com deficiência pode ter ajuda de alguém da escolha dela na cabine 🤝",
+   "09:03"
+  ],
+  [
+   "out",
+   "E ainda tem áudio com fone, Braille e entrada com cão-guia 🦮",
+   "09:03"
+  ],
+  [
+   "in",
+   "Que bom saber! 🙏",
+   "09:04"
+  ]
+ ]
+}

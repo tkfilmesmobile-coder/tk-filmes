@@ -1,0 +1,31 @@
+{
+ "fonte": "Lei 8.213/1991, arts. 60, 63 e 118 · CLT, art. 476",
+ "telas": [
+  {
+   "kicker": "DÚVIDA DE VOCÊS",
+   "titulo": "Afastado pelo INSS <b>pode ser demitido?</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O vídeo completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Afastamento e demissão.",
+   "tam": 84,
+   "texto": "1. Recebendo o benefício, o contrato fica suspenso: <b>não pode demitir</b><br><br>2. Acidente ou doença do trabalho: <b>12 meses de estabilidade</b> depois da volta<br><br>3. Teve alta e não foi acidente: a empresa <b>pode demitir</b>"
+  },
+  {
+   "kicker": "ATENÇÃO",
+   "titulo": "Alta do INSS <b>nem sempre</b> é estar apto.",
+   "tam": 84,
+   "texto": "📋 Guarde laudos e exames atualizados<br><br>🩺 Dá pra pedir a continuação do benefício<br><br>⚖️ Se for preciso, dá pra pedir na Justiça"
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

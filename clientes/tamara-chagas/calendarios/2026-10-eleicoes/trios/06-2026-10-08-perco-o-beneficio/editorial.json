@@ -1,0 +1,31 @@
+{
+ "fonte": "Código Eleitoral (Lei 4.737/1965), art. 7º",
+ "telas": [
+  {
+   "kicker": "LEI ELEITORAL",
+   "titulo": "Não votou: <b>e o benefício?</b>",
+   "foto": "tamara/tamara-estudio-0066.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "O que fica bloqueado.",
+   "tam": 84,
+   "texto": "Sem votar, justificar ou pagar a multa, a lei eleitoral impede, por exemplo:<br><br>🛂 tirar passaporte ou identidade<br><br>📝 concurso e cargo público<br><br>🎓 matrícula em escola pública<br><br>Aposentadoria, pensão e BPC não aparecem nessa lista"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Não votei e não justifiquei. Vou perder minha aposentadoria?”",
+   "tam": 64,
+   "texto": "A lei eleitoral não coloca o benefício do INSS na lista do que fica bloqueado. Mas o ideal é regularizar: justifique no e-Título ou pague a multa."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

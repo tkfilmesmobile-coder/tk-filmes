@@ -1,0 +1,119 @@
+{
+ "etapa": "completo",
+ "grade": "H",
+ "fonte": "voltei/cortado.mp4",
+ "clipes": [
+  {
+   "id": "cortado",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 1224,
+   "zoom": 1.0
+  }
+ ],
+ "textos": [],
+ "zooms": [
+  {
+   "from": 446,
+   "durationInFrames": 72,
+   "escala": 1.07
+  },
+  {
+   "from": 1137,
+   "durationInFrames": 78,
+   "escala": 1.06
+  }
+ ],
+ "estilo": "caps",
+ "figuras": [
+  {
+   "pos": "alto",
+   "segue": true,
+   "avatar": "voltei/perfil.jpg",
+   "titulo": "Talyta Kumy",
+   "etiqueta": "último post · há 5 meses",
+   "tom": "neg",
+   "fala": 14,
+   "tipo": "cartao",
+   "from": 27,
+   "durationInFrames": 171
+  },
+  {
+   "pos": "baixo",
+   "segue": true,
+   "etiqueta": "meu perfil",
+   "linhas": [
+    {
+     "tom": "neg",
+     "texto": "parado",
+     "atraso": 5,
+     "fala": 5
+    },
+    {
+     "tom": "neg",
+     "texto": "bonito",
+     "atraso": 26,
+     "fala": 26
+    },
+    {
+     "tom": "neg",
+     "cor": "#E3B48C",
+     "texto": "inútil",
+     "atraso": 57,
+     "fala": 57
+    }
+   ],
+   "tipo": "cartao",
+   "from": 300,
+   "durationInFrames": 99
+  },
+  {
+   "pos": "alto",
+   "segue": true,
+   "avatar": "voltei/perfil.jpg",
+   "titulo": "@tk.filmes",
+   "etiqueta": "novo @",
+   "tom": "pos",
+   "fala": 15,
+   "tipo": "cartao",
+   "from": 549,
+   "durationInFrames": 108
+  },
+  {
+   "pos": "baixo",
+   "segue": true,
+   "linhas": [
+    {
+     "tom": "pos",
+     "texto": "estratégia",
+     "atraso": 9,
+     "fala": 9
+    },
+    {
+     "tom": "pos",
+     "texto": "estética",
+     "atraso": 41,
+     "fala": 41
+    },
+    {
+     "tom": "pos",
+     "cor": "#E3B48C",
+     "texto": "intenção",
+     "atraso": 110,
+     "fala": 110
+    }
+   ],
+   "tipo": "chips",
+   "from": 807,
+   "durationInFrames": 135
+  },
+  {
+   "titulo": "Você vem?",
+   "sub": "@tk.filmes",
+   "fala": 19,
+   "tipo": "fecho",
+   "from": 1176,
+   "durationInFrames": 48
+  }
+ ]
+}

@@ -12,7 +12,7 @@
 ## Contato
 - Email: tkfilmesmobile@gmail.com
 - Telefone/WhatsApp: (82) 9 9120-2604
-- Instagram: @tkfilmesmobile
+- Instagram: @tk.filmes (era @tkfilmesmobile até 2026-09-29)
 
 ## Clientes conhecidos (2026-09-17)
 - Passaporte do Galeguinho (lanchonete de sanduíches e cachorro-quente, São José da Laje/AL): dono Aelenildo Francisco da Silva. Contrato de R$ 800/mês (R$ 3.200 por 120 dias), de 23/01/2026 a 23/05/2026, renovado automaticamente a cada 90 dias na falta de aviso prévio de 30 dias: **vigente até cerca de 19/11/2026**. Escopo: 2 a 4 vídeos por semana mais roteiro, capas, legendas, métricas, persona, planejamento de redes e posicionamento. Relatórios de Instagram por trimestre; base mar-abr/2026: 379.224 visualizações, 23.880 contas alcançadas, 4.624 seguidores. Ficha em `clientes/passaporte-do-galeguinho/`.
@@ -21,10 +21,12 @@
 - Casamento Anderson e Amanda (05/09/2026): peças 9:16 com monograma verde oliva botânico.
 - Eduarda Pereira: até 12 vídeos por mês, R$ 600/mês, de 12/03/2026 a 10/07/2026.
 - Dra. Camilla Wanderley: 5 posts fixos por mês + diárias de captação nos atendimentos, R$ 600/mês.
+- Ary Magalhães (salão de beleza, Praça Padre Cícero, União dos Palmares/AL, @cabelosmagalhaes, "Expert em lisos"): conteúdo e gravação no salão pela Talyta. Contrato e valor a definir. Ficha em `clientes/ary-magalhaes/`. (2026-10-12)
 - Tamara Chagas Advocacia (direito previdenciário e assistencial, União dos Palmares/AL): marketing completo, presencial no escritório de segunda a sexta, 8h às 17h. R$ 2.000/mês desde 01/10/2025, sem contrato escrito. Instagrams @tamarachagas_prev e @dra.tamarachagas_. Ficha em `clientes/tamara-chagas/`. (2026-09-28)
+- Dra. Melissa Morais (harmonização facial): só edição de vídeo, pacote avulso de 4 edições por R$ 200, combinado em 14/10/2026 e pago em 15/10/2026, sem contrato (acordo registrado em PDF). Ficha em `clientes/melissa-morais/`. (2026-10-16)
 
 ## Preço
-Faixa mensal praticada: R$ 550 a R$ 800 (fora da faixa: Tamara Chagas, R$ 2.000, presencial em tempo integral). Diária avulsa de gravação (4h): R$ 300. Diária de cobertura extra pra cliente com contrato: R$ 100. O histórico completo, com escopo e motivo de cada valor, fica em `propostas/precos.md`.
+Faixa mensal praticada: R$ 550 a R$ 800 (fora da faixa: Tamara Chagas, R$ 2.000, presencial em tempo integral). Diária avulsa de gravação (4h): R$ 300. Diária de cobertura extra pra cliente com contrato: R$ 100. O histórico completo, com escopo e motivo de cada valor, fica em `propostas/precos.md`. Oferta de partida do marketing novo (2026-09-29): Autoridade R$ 1.500/mês e Autoridade+ R$ 2.000/mês, ajustadas a cada cliente (`tk-filmes/contexto.md`).
 
 ## Contexto adicional
 - Trabalha em computadores de empresas, sem máquina própria: o sistema precisa ser acessível de qualquer lugar (GitHub privado + Google Drive).

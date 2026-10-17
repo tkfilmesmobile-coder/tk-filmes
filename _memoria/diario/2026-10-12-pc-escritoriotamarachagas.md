@@ -1,0 +1,6 @@
+## 15:00 · [pc-escritoriotamarachagas] · Ary Magalhães (sessão de 08 a 12/10)
+- Cliente nova Ary Magalhães (@cabelosmagalhaes, salão na Praça Padre Cícero, inaugurado em 08/10/2025): histórico levantado (Drive, sessão de identidade de 02-03/08, Instagram) e pasta `clientes/ary-magalhaes/` criada com ficha, guia visual (`marca/design-guide.md`, refs 01 a 07) e calendários de out e nov.
+- Token do Instagram dela conectado (`CABELOSMAGALHAES` no `.env`, vence ~08/12/2026). Análise de 377 posts + Insights. Whisper travou nesta máquina (CPU a 89%); linguagem dela tirada das legendas e de 1 vídeo transcrito.
+- Outubro: carrossel "1 ano de salão" saiu 12/10 às 12h01; valores (20/10) e agenda de fim de ano (27/10) agendados ao meio-dia. Stories de União (13/10) e AGENDA (27/10) no Drive dela (`STORIES 2026-10`) pra postar pelo celular.
+- Novembro: dicas de selagem (03/11) e Consciência Negra (20/11) agendados ao meio-dia; story de últimas vagas (30/11) pronto. Depoimentos (10/11), antes e depois (17/11) e Black Friday (24/11) esperando material da Ary.
+- 12/10: pasta BRUTO do Drive organizada (00_ENTRADA a 04_ATENDIMENTO + `_LEIA-ME.txt`). 3 stories do Dia das Crianças (foto + 2 vídeos do atendimento do dia) publicados pela API, estética ref 07 e música "Elegant Piano" (Pixabay). Todas as fotos de banco dos posts trocadas por fotos da pasta da Ary.

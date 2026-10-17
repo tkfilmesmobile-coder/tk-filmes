@@ -1,0 +1,525 @@
+Whisper already exists at C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp
+Model already exists at C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin
+(node:11524) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\pode-p00.wav' (61120 samples, 3.8 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.070]  
+[00:00:00.070 --> 00:00:00.150]   M
+[00:00:00.150 --> 00:00:00.290]  éd
+[00:00:00.290 --> 00:00:00.510]  ico
+[00:00:00.510 --> 00:00:00.650]  ,
+[00:00:00.650 --> 00:00:00.940]   dent
+[00:00:00.940 --> 00:00:01.230]  ista
+[00:00:01.230 --> 00:00:01.370]  ,
+[00:00:01.370 --> 00:00:01.590]   adv
+[00:00:01.590 --> 00:00:01.730]  og
+[00:00:01.730 --> 00:00:02.040]  ado
+[00:00:02.040 --> 00:00:02.180]   não
+[00:00:02.180 --> 00:00:02.360]   pode
+[00:00:02.360 --> 00:00:02.740]   aparecer
+[00:00:02.740 --> 00:00:03.040]   nas
+[00:00:03.040 --> 00:00:03.460]   redes
+[00:00:03.460 --> 00:00:03.810]   sociais
+[00:00:03.810 --> 00:00:04.000]  .
+whisper_print_progress_callback: progress = 104%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  9016.92 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    13.27 ms
+whisper_print_timings:   sample time =  1491.30 ms /    93 runs (   16.04 ms per run)
+whisper_print_timings:   encode time = 85560.40 ms /     1 runs (85560.40 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time = 13255.16 ms /    91 runs (  145.66 ms per run)
+whisper_print_timings:   prompt time =  1689.03 ms /    21 runs (   80.43 ms per run)
+whisper_print_timings:    total time = 111101.84 ms
+
+trecho 0 0.73-4.55: Médico, dentista, advogado não pode aparecer nas redes sociais.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\pode-p01.wav' (604320 samples, 37.8 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.140]  
+[00:00:00.140 --> 00:00:00.250]   Cal
+[00:00:00.250 --> 00:00:00.400]  ma
+[00:00:00.400 --> 00:00:00.570]  ,
+[00:00:00.570 --> 00:00:01.050]   gente
+[00:00:01.050 --> 00:00:01.160]  .
+[00:00:01.160 --> 00:00:01.280]   O
+[00:00:01.280 --> 00:00:01.370]   con
+[00:00:01.370 --> 00:00:01.530]  sel
+[00:00:01.530 --> 00:00:01.640]  ho
+[00:00:01.640 --> 00:00:01.910]   liber
+[00:00:01.910 --> 00:00:02.110]  a
+[00:00:02.110 --> 00:00:02.200]   sim
+[00:00:02.200 --> 00:00:02.500]   vocês
+[00:00:02.500 --> 00:00:02.940]   apare
+[00:00:02.940 --> 00:00:02.990]  c
+[00:00:02.990 --> 00:00:03.240]  erem
+[00:00:03.240 --> 00:00:03.460]   nas
+[00:00:03.460 --> 00:00:03.830]   redes
+[00:00:03.830 --> 00:00:04.320]   sociais
+[00:00:04.320 --> 00:00:04.440]  .
+[00:00:04.440 --> 00:00:04.580]   O
+[00:00:04.580 --> 00:00:04.790]   que
+[00:00:04.790 --> 00:00:05.090]   não
+[00:00:05.090 --> 00:00:05.420]   pode
+[00:00:05.420 --> 00:00:05.580]   é
+[00:00:05.580 --> 00:00:06.120]   fazer
+[00:00:06.120 --> 00:00:06.570]   algumas
+[00:00:06.570 --> 00:00:06.730]   co
+[00:00:06.730 --> 00:00:06.950]  is
+[00:00:06.950 --> 00:00:07.290]  inhas
+[00:00:07.290 --> 00:00:07.600]  .
+[00:00:07.600 --> 00:00:07.990]   Você
+[00:00:07.990 --> 00:00:08.170]   pode
+[00:00:08.170 --> 00:00:08.630]   mostrar
+[00:00:08.630 --> 00:00:08.930]   você
+[00:00:08.930 --> 00:00:09.060]  ,
+[00:00:09.060 --> 00:00:09.300]   seu
+[00:00:09.300 --> 00:00:09.680]   consult
+[00:00:09.680 --> 00:00:09.990]  ório
+[00:00:09.990 --> 00:00:10.230]  ,
+[00:00:10.230 --> 00:00:10.260]   o
+[00:00:10.260 --> 00:00:10.450]   seu
+[00:00:10.450 --> 00:00:10.830]   local
+[00:00:10.830 --> 00:00:11.030]   de
+[00:00:11.030 --> 00:00:11.580]   trabalho
+[00:00:11.580 --> 00:00:11.890]  ,
+[00:00:11.890 --> 00:00:11.900]   a
+[00:00:11.900 --> 00:00:12.340]   sua
+[00:00:12.340 --> 00:00:12.780]   equ
+[00:00:12.780 --> 00:00:13.280]  ipe
+[00:00:13.280 --> 00:00:13.300]  .
+[00:00:13.300 --> 00:00:13.420]   Os
+[00:00:13.420 --> 00:00:13.720]   três
+[00:00:13.720 --> 00:00:13.910]   con
+[00:00:13.910 --> 00:00:14.110]  sel
+[00:00:14.110 --> 00:00:14.260]  hos
+[00:00:14.260 --> 00:00:14.560]   liber
+[00:00:14.560 --> 00:00:14.680]  am
+[00:00:14.680 --> 00:00:15.190]   tranquil
+[00:00:15.190 --> 00:00:15.580]  amente
+[00:00:15.580 --> 00:00:15.840]   você
+[00:00:15.840 --> 00:00:15.950]   a
+[00:00:15.950 --> 00:00:16.200]   fazer
+[00:00:16.200 --> 00:00:16.450]   isso
+[00:00:16.450 --> 00:00:16.700]  .
+[00:00:16.700 --> 00:00:16.950]   Você
+[00:00:16.950 --> 00:00:17.150]   pode
+[00:00:17.150 --> 00:00:17.260]  ,
+[00:00:17.260 --> 00:00:17.400]   por
+[00:00:17.400 --> 00:00:17.820]   exemplo
+[00:00:17.820 --> 00:00:17.850]  ,
+[00:00:17.850 --> 00:00:18.050]   grav
+[00:00:18.050 --> 00:00:18.150]  ar
+[00:00:18.150 --> 00:00:18.250]   um
+[00:00:18.250 --> 00:00:18.550]   vídeo
+[00:00:18.550 --> 00:00:18.940]   explic
+[00:00:18.940 --> 00:00:19.100]  ando
+[00:00:19.100 --> 00:00:19.150]   a
+[00:00:19.150 --> 00:00:19.310]   dú
+[00:00:19.310 --> 00:00:19.540]  vida
+[00:00:19.540 --> 00:00:19.710]   que
+[00:00:19.710 --> 00:00:19.810]   o
+[00:00:19.810 --> 00:00:19.980]   seu
+[00:00:19.980 --> 00:00:20.320]   client
+[00:00:20.320 --> 00:00:20.400]  e
+[00:00:20.400 --> 00:00:20.880]   mais
+[00:00:20.880 --> 00:00:21.110]   te
+[00:00:21.110 --> 00:00:21.500]   faz
+[00:00:21.500 --> 00:00:21.500]  .
+[00:00:21.500 --> 00:00:21.780]   Inc
+[00:00:21.780 --> 00:00:22.080]  lusive
+[00:00:22.080 --> 00:00:22.210]  ,
+[00:00:22.210 --> 00:00:22.470]   isso
+[00:00:22.470 --> 00:00:22.660]   tem
+[00:00:22.660 --> 00:00:22.920]   nome
+[00:00:22.920 --> 00:00:23.100]  ,
+[00:00:23.100 --> 00:00:23.180]   é
+[00:00:23.180 --> 00:00:23.760]   conteúdo
+[00:00:23.760 --> 00:00:24.140]   inform
+[00:00:24.140 --> 00:00:24.500]  ativo
+[00:00:24.500 --> 00:00:24.500]  .
+[00:00:24.500 --> 00:00:24.600]   E
+[00:00:24.600 --> 00:00:24.690]   é
+[00:00:24.690 --> 00:00:24.750]   o
+[00:00:24.750 --> 00:00:25.360]   conteúdo
+[00:00:25.360 --> 00:00:25.830]   que
+[00:00:25.830 --> 00:00:25.850]   mais
+[00:00:25.850 --> 00:00:26.260]   conver
+[00:00:26.260 --> 00:00:26.370]  te
+[00:00:26.370 --> 00:00:26.570]   em
+[00:00:26.570 --> 00:00:26.910]   client
+[00:00:26.910 --> 00:00:26.970]  e
+[00:00:26.970 --> 00:00:27.100]  ,
+[00:00:27.100 --> 00:00:27.430]   acred
+[00:00:27.430 --> 00:00:27.640]  ita
+[00:00:27.640 --> 00:00:27.940]  ?
+whisper_print_progress_callback: progress =  73%
+[00:00:27.940 --> 00:00:28.040]  
+[00:00:28.040 --> 00:00:28.280]   Você
+[00:00:28.280 --> 00:00:28.580]   pode
+[00:00:28.580 --> 00:00:29.020]   mostrar
+[00:00:29.020 --> 00:00:29.490]   também
+[00:00:29.490 --> 00:00:29.550]   a
+[00:00:29.550 --> 00:00:29.750]   sua
+[00:00:29.750 --> 00:00:29.950]   rot
+[00:00:29.950 --> 00:00:30.370]  ina
+[00:00:30.370 --> 00:00:30.400]  .
+[00:00:30.400 --> 00:00:30.450]   O
+[00:00:30.450 --> 00:00:30.860]   médico
+[00:00:30.860 --> 00:00:31.150]   pode
+[00:00:31.150 --> 00:00:31.390]   até
+[00:00:31.390 --> 00:00:31.610]   falar
+[00:00:31.610 --> 00:00:31.660]   o
+[00:00:31.660 --> 00:00:31.950]   valor
+[00:00:31.950 --> 00:00:32.060]   da
+[00:00:32.060 --> 00:00:32.490]   consult
+[00:00:32.490 --> 00:00:32.520]  a
+[00:00:32.520 --> 00:00:32.760]  ,
+[00:00:32.760 --> 00:00:32.800]   se
+[00:00:32.800 --> 00:00:33.120]   quiser
+[00:00:33.120 --> 00:00:33.300]  .
+[00:00:33.300 --> 00:00:33.490]   Já
+[00:00:33.490 --> 00:00:33.740]   dent
+[00:00:33.740 --> 00:00:33.990]  ista
+[00:00:33.990 --> 00:00:34.050]   e
+[00:00:34.050 --> 00:00:34.240]   adv
+[00:00:34.240 --> 00:00:34.360]  og
+[00:00:34.360 --> 00:00:34.550]  ado
+[00:00:34.550 --> 00:00:34.800]   não
+[00:00:34.800 --> 00:00:35.300]   podem
+[00:00:35.300 --> 00:00:35.300]  ,
+[00:00:35.300 --> 00:00:35.520]   porque
+[00:00:35.520 --> 00:00:35.900]   as
+[00:00:35.900 --> 00:00:35.940]   re
+[00:00:35.940 --> 00:00:36.020]  gr
+[00:00:36.020 --> 00:00:36.380]  inhas
+[00:00:36.380 --> 00:00:36.680]   são
+[00:00:36.680 --> 00:00:36.730]   um
+[00:00:36.730 --> 00:00:37.030]   pouco
+[00:00:37.030 --> 00:00:37.580]   diferentes
+[00:00:37.580 --> 00:00:37.800]  .
+whisper_print_progress_callback: progress = 100%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  6713.80 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    85.44 ms
+whisper_print_timings:   sample time = 11333.50 ms /   904 runs (   12.54 ms per run)
+whisper_print_timings:   encode time = 118343.91 ms /     2 runs (59171.95 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time = 83851.78 ms /   897 runs (   93.48 ms per run)
+whisper_print_timings:   prompt time = 16330.45 ms /   302 runs (   54.07 ms per run)
+whisper_print_timings:    total time = 236954.09 ms
+
+trecho 1 4.83-42.60: Calma, gente. O conselho libera sim vocês aparecerem nas redes sociais. O que não pode é fazer algumas coisinhas. Você pode mostrar você, seu consultório, o seu local de trabalho, a sua equipe. Os três conselhos liberam tranquilamente você a fazer isso. Você pode, por exemplo, gravar um vídeo explicando a dúvida que o seu cliente mais te faz. Inclusive, isso tem nome, é conteúdo informativo. E é o conteúdo que mais converte em cliente, acredita? Você pode mostrar também a sua rotina. O médico pode até falar o valor da consulta, se quiser. Já dentista e advogado não podem, porque as regrinhas são um pouco diferentes.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\pode-p02.wav' (356320 samples, 22.3 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.110]  
+[00:00:00.110 --> 00:00:00.380]   Agora
+[00:00:00.380 --> 00:00:00.450]   o
+[00:00:00.450 --> 00:00:00.680]   que
+[00:00:00.680 --> 00:00:01.330]   ninguém
+[00:00:01.330 --> 00:00:01.590]   pode
+[00:00:01.590 --> 00:00:02.110]   fazer
+[00:00:02.110 --> 00:00:02.150]  ,
+[00:00:02.150 --> 00:00:02.460]   seja
+[00:00:02.460 --> 00:00:02.680]   por
+[00:00:02.680 --> 00:00:02.970]   lei
+[00:00:02.970 --> 00:00:03.160]   ou
+[00:00:03.160 --> 00:00:03.520]   por
+[00:00:03.520 --> 00:00:03.880]   bom
+[00:00:03.880 --> 00:00:04.240]   sen
+[00:00:04.240 --> 00:00:04.620]  so
+[00:00:04.620 --> 00:00:04.640]  ,
+[00:00:04.640 --> 00:00:04.800]   é
+[00:00:04.800 --> 00:00:04.960]   pr
+[00:00:04.960 --> 00:00:05.460]  ometer
+[00:00:05.460 --> 00:00:05.710]   mil
+[00:00:05.710 --> 00:00:05.870]  ag
+[00:00:05.870 --> 00:00:06.160]  re
+[00:00:06.160 --> 00:00:06.250]  ,
+[00:00:06.250 --> 00:00:06.480]   aquele
+[00:00:06.480 --> 00:00:07.350]   resultado
+[00:00:07.350 --> 00:00:07.460]   per
+[00:00:07.460 --> 00:00:07.870]  feito
+[00:00:07.870 --> 00:00:08.070]  ,
+[00:00:08.070 --> 00:00:08.200]   a
+[00:00:08.200 --> 00:00:08.520]   resol
+[00:00:08.520 --> 00:00:09.010]  ução
+[00:00:09.010 --> 00:00:09.300]   per
+[00:00:09.300 --> 00:00:09.410]  fe
+[00:00:09.410 --> 00:00:09.650]  ita
+[00:00:09.650 --> 00:00:09.900]   de
+[00:00:09.900 --> 00:00:09.970]   um
+[00:00:09.970 --> 00:00:10.360]   caso
+[00:00:10.360 --> 00:00:10.800]  .
+[00:00:10.800 --> 00:00:10.980]   Faz
+[00:00:10.980 --> 00:00:11.030]   o
+[00:00:11.030 --> 00:00:11.540]   seguinte
+[00:00:11.540 --> 00:00:11.700]  ,
+[00:00:11.700 --> 00:00:12.060]   começa
+[00:00:12.060 --> 00:00:12.310]   hoje
+[00:00:12.310 --> 00:00:12.540]   pelo
+[00:00:12.540 --> 00:00:12.790]   mais
+[00:00:12.790 --> 00:00:13.360]   fácil
+[00:00:13.360 --> 00:00:13.360]  .
+[00:00:13.360 --> 00:00:13.720]   Most
+[00:00:13.720 --> 00:00:13.790]  re
+[00:00:13.790 --> 00:00:14.020]   o
+[00:00:14.020 --> 00:00:14.080]   seu
+[00:00:14.080 --> 00:00:14.840]   espaço
+[00:00:14.840 --> 00:00:14.840]  .
+[00:00:14.840 --> 00:00:15.120]   Out
+[00:00:15.120 --> 00:00:15.310]  ro
+[00:00:15.310 --> 00:00:15.590]   dia
+[00:00:15.590 --> 00:00:16.060]   você
+[00:00:16.060 --> 00:00:16.340]   vem
+[00:00:16.340 --> 00:00:16.620]   res
+[00:00:16.620 --> 00:00:16.810]  um
+[00:00:16.810 --> 00:00:17.000]  ir
+[00:00:17.000 --> 00:00:17.280]   uma
+[00:00:17.280 --> 00:00:17.600]   dú
+[00:00:17.600 --> 00:00:17.930]  vida
+[00:00:17.930 --> 00:00:18.300]   do
+[00:00:18.300 --> 00:00:18.470]   seu
+[00:00:18.470 --> 00:00:18.980]   client
+[00:00:18.980 --> 00:00:19.070]  e
+[00:00:19.070 --> 00:00:19.160]   e
+[00:00:19.160 --> 00:00:19.250]   p
+[00:00:19.250 --> 00:00:19.430]  õ
+[00:00:19.430 --> 00:00:19.550]  e
+[00:00:19.550 --> 00:00:19.780]   CR
+[00:00:19.780 --> 00:00:19.810]  M
+[00:00:19.810 --> 00:00:20.000]  ,
+[00:00:20.000 --> 00:00:20.090]   C
+[00:00:20.090 --> 00:00:20.280]  RO
+[00:00:20.280 --> 00:00:20.470]   ou
+[00:00:20.470 --> 00:00:20.660]   AO
+[00:00:20.660 --> 00:00:20.960]  AB
+[00:00:20.960 --> 00:00:21.200]   na
+[00:00:21.200 --> 00:00:21.370]   leg
+[00:00:21.370 --> 00:00:21.600]  enda
+whisper_print_progress_callback: progress =  97%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  3818.16 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    43.21 ms
+whisper_print_timings:   sample time =  5297.38 ms /   499 runs (   10.62 ms per run)
+whisper_print_timings:   encode time = 67140.79 ms /     1 runs (67140.79 ms per run)
+whisper_print_timings:   decode time =    86.21 ms /     1 runs (   86.21 ms per run)
+whisper_print_timings:   batchd time = 41566.80 ms /   496 runs (   83.80 ms per run)
+whisper_print_timings:   prompt time =  4669.34 ms /    88 runs (   53.06 ms per run)
+whisper_print_timings:    total time = 122782.09 ms
+
+trecho 2 42.98-65.25: Agora o que ninguém pode fazer, seja por lei ou por bom senso, é prometer milagre, aquele resultado perfeito, a resolução perfeita de um caso. Faz o seguinte, começa hoje pelo mais fácil. Mostre o seu espaço. Outro dia você vem resumir uma dúvida do seu cliente e põe CRM, CRO ou AOAB na legenda
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\pode-p03.wav' (76320 samples, 4.8 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.120]  
+[00:00:00.120 --> 00:00:00.120]   As
+[00:00:00.120 --> 00:00:00.250]   re
+[00:00:00.250 --> 00:00:00.360]  gr
+[00:00:00.360 --> 00:00:00.480]  as
+[00:00:00.480 --> 00:00:00.660]   que
+[00:00:00.660 --> 00:00:00.780]   eu
+[00:00:00.780 --> 00:00:01.020]   cite
+[00:00:01.020 --> 00:00:01.080]  i
+[00:00:01.080 --> 00:00:01.370]   nesse
+[00:00:01.370 --> 00:00:01.880]   vídeo
+[00:00:01.880 --> 00:00:02.010]   com
+[00:00:02.010 --> 00:00:02.090]   o
+[00:00:02.090 --> 00:00:02.470]   nome
+[00:00:02.470 --> 00:00:02.500]   e
+[00:00:02.500 --> 00:00:02.560]   o
+[00:00:02.560 --> 00:00:03.050]   número
+[00:00:03.050 --> 00:00:03.280]   cert
+[00:00:03.280 --> 00:00:03.500]  inho
+[00:00:03.500 --> 00:00:03.700]   estão
+[00:00:03.700 --> 00:00:03.910]   todas
+[00:00:03.910 --> 00:00:03.990]   aqui
+[00:00:03.990 --> 00:00:04.290]   embaixo
+[00:00:04.290 --> 00:00:04.390]   da
+[00:00:04.390 --> 00:00:04.610]   leg
+[00:00:04.610 --> 00:00:04.760]  enda
+[00:00:04.760 --> 00:00:04.980]  .
+whisper_print_progress_callback: progress = 104%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  2758.54 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    13.61 ms
+whisper_print_timings:   sample time =  1354.05 ms /   139 runs (    9.74 ms per run)
+whisper_print_timings:   encode time = 59531.95 ms /     1 runs (59531.95 ms per run)
+whisper_print_timings:   decode time =    95.70 ms /     1 runs (   95.70 ms per run)
+whisper_print_timings:   batchd time =  9925.01 ms /   136 runs (   72.98 ms per run)
+whisper_print_timings:   prompt time =  1681.92 ms /    30 runs (   56.06 ms per run)
+whisper_print_timings:    total time = 75389.04 ms
+
+trecho 3 65.58-70.35: As regras que eu citei nesse vídeo com o nome e o número certinho estão todas aqui embaixo da legenda.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\pode-p04.wav' (13120 samples, 0.8 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  2225.32 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    20.91 ms
+whisper_print_timings:   sample time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   encode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   prompt time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:    total time =  2266.55 ms
+
+trecho 4 70.83-71.65: 
+0.8:Médico, 1.38:dentista, 2.1:advogado 2.77:não 2.91:pode 3.09:aparecer 3.47:nas 3.77:redes 4.19:sociais. 4.97:Calma, 5.4:gente. 5.99:O 6.11:conselho 6.47:libera 6.94:sim 7.03:vocês 7.33:aparecerem 8.07:nas 8.29:redes 8.66:sociais. 9.27:O 9.41:que 9.62:não 9.92:pode 10.25:é 10.41:fazer 10.95:algumas 11.4:coisinhas. 12.43:Você 12.82:pode 13:mostrar 13.46:você, 13.89:seu 14.13:consultório, 15.06:o 15.09:seu 15.28:local 15.66:de 15.86:trabalho, 16.72:a 16.73:sua 17.17:equipe. 18.13:Os 18.25:três 18.55:conselhos 19.09:liberam 19.51:tranquilamente 20.41:você 20.67:a 20.78:fazer 21.03:isso. 21.53:Você 21.78:pode, 22.09:por 22.23:exemplo, 22.68:gravar 22.98:um 23.08:vídeo 23.38:explicando 23.93:a 23.98:dúvida 24.37:que 24.54:o 24.64:seu 24.81:cliente 25.23:mais 25.71:te 25.94:faz. 26.33:Inclusive, 27.04:isso 27.3:tem 27.49:nome, 27.93:é 28.01:conteúdo 28.59:informativo. 29.33:E 29.43:é 29.52:o 29.58:conteúdo 30.19:que 30.66:mais 30.68:converte 31.2:em 31.4:cliente, 31.93:acredita? 32.87:Você 33.11:pode 33.41:mostrar 33.85:também 34.32:a 34.38:sua 34.58:rotina. 35.23:O 35.28:médico 35.69:pode 35.98:até 36.22:falar 36.44:o 36.49:valor 36.78:da 36.89:consulta, 37.59:se 37.63:quiser. 38.13:Já 38.32:dentista 38.82:e 38.88:advogado 39.38:não 39.63:podem, 40.13:porque 40.35:as 40.73:regrinhas 41.21:são 41.51:um 41.56:pouco 41.86:diferentes. 43.09:Agora 43.36:o 43.43:que 43.66:ninguém 44.31:pode 44.57:fazer, 45.13:seja 45.44:por 45.66:lei 45.95:ou 46.14:por 46.5:bom 46.86:senso, 47.62:é 47.78:prometer 48.44:milagre, 49.23:aquele 49.46:resultado 50.33:perfeito, 51.05:a 51.18:resolução 51.99:perfeita 52.63:de 52.88:um 52.95:caso. 53.78:Faz 53.96:o 54.01:seguinte, 54.68:começa 55.04:hoje 55.29:pelo 55.52:mais 55.77:fácil. 56.34:Mostre 56.77:o 57:seu 57.06:espaço. 57.82:Outro 58.29:dia 58.57:você 59.04:vem 59.32:resumir 59.98:uma 60.26:dúvida 60.91:do 61.28:seu 61.45:cliente 62.05:e 62.14:põe 62.53:CRM, 62.98:CRO 63.26:ou 63.45:AOAB 63.94:na 64.18:legenda 65.7:As 65.7:regras 66.06:que 66.24:eu 66.36:citei 66.66:nesse 66.95:vídeo 67.46:com 67.59:o 67.67:nome 68.05:e 68.08:o 68.14:número 68.63:certinho 69.08:estão 69.28:todas 69.49:aqui 69.57:embaixo 69.87:da 69.97:legenda.

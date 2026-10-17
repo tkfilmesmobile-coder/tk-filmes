@@ -1,0 +1,205 @@
+Whisper already exists at C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp
+Model already exists at C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin
+(node:11252) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\alana-p00.wav' (242400 samples, 15.1 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.050]  
+[00:00:00.050 --> 00:00:00.120]   Eu
+[00:00:00.120 --> 00:00:00.300]   sei
+[00:00:00.300 --> 00:00:00.480]   que
+[00:00:00.480 --> 00:00:00.790]   muita
+[00:00:00.790 --> 00:00:01.090]   gente
+[00:00:01.090 --> 00:00:01.330]   já
+[00:00:01.330 --> 00:00:01.590]   conhe
+[00:00:01.590 --> 00:00:01.840]  ce
+[00:00:01.840 --> 00:00:02.310]   sobre
+[00:00:02.310 --> 00:00:02.340]   o
+[00:00:02.340 --> 00:00:02.620]   Bot
+[00:00:02.620 --> 00:00:02.940]  ox
+[00:00:02.940 --> 00:00:02.950]  ,
+[00:00:02.950 --> 00:00:03.110]   mas
+[00:00:03.110 --> 00:00:03.400]   também
+[00:00:03.400 --> 00:00:03.560]   tem
+[00:00:03.560 --> 00:00:04.040]   bastante
+[00:00:04.040 --> 00:00:04.500]   rece
+[00:00:04.500 --> 00:00:04.760]  io
+[00:00:04.760 --> 00:00:05.080]   sobre
+[00:00:05.080 --> 00:00:05.410]   faz
+[00:00:05.410 --> 00:00:05.570]  ê
+[00:00:05.570 --> 00:00:05.660]  -
+[00:00:05.660 --> 00:00:06.080]  lo
+[00:00:06.080 --> 00:00:06.130]  ,
+[00:00:06.130 --> 00:00:06.410]   mas
+[00:00:06.410 --> 00:00:06.640]   cal
+[00:00:06.640 --> 00:00:06.810]  ma
+[00:00:06.810 --> 00:00:07.080]  ,
+[00:00:07.080 --> 00:00:07.090]   o
+[00:00:07.090 --> 00:00:07.370]   Bot
+[00:00:07.370 --> 00:00:07.680]  ox
+[00:00:07.680 --> 00:00:07.830]   ele
+[00:00:07.830 --> 00:00:08.110]   bem
+[00:00:08.110 --> 00:00:08.570]   aplic
+[00:00:08.570 --> 00:00:08.850]  ado
+[00:00:08.850 --> 00:00:09.220]   por
+[00:00:09.220 --> 00:00:09.310]   um
+[00:00:09.310 --> 00:00:09.680]   prof
+[00:00:09.680 --> 00:00:09.960]  iss
+[00:00:09.960 --> 00:00:10.550]  ional
+[00:00:10.550 --> 00:00:10.590]  ,
+[00:00:10.590 --> 00:00:10.750]   ele
+[00:00:10.750 --> 00:00:10.980]   pode
+[00:00:10.980 --> 00:00:11.250]   real
+[00:00:11.250 --> 00:00:11.520]  çar
+[00:00:11.520 --> 00:00:11.880]   ainda
+[00:00:11.880 --> 00:00:12.130]   mais
+[00:00:12.130 --> 00:00:12.200]   a
+[00:00:12.200 --> 00:00:12.390]   sua
+[00:00:12.390 --> 00:00:12.780]   beleza
+[00:00:12.780 --> 00:00:13.230]   natural
+[00:00:13.230 --> 00:00:13.530]  ,
+[00:00:13.530 --> 00:00:13.620]   hoje
+[00:00:13.620 --> 00:00:13.880]   aqui
+[00:00:13.880 --> 00:00:14.020]   em
+[00:00:14.020 --> 00:00:14.140]   Un
+[00:00:14.140 --> 00:00:14.400]  ião
+[00:00:14.400 --> 00:00:14.590]   dos
+[00:00:14.590 --> 00:00:14.860]   Pal
+[00:00:14.860 --> 00:00:15.140]  mares
+[00:00:15.140 --> 00:00:15.160]  .
+whisper_print_progress_callback: progress = 100%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time = 61164.02 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   465.07 ms
+whisper_print_timings:   sample time = 30048.27 ms /   354 runs (   84.88 ms per run)
+whisper_print_timings:   encode time = 766122.06 ms /     1 runs (766122.06 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time = 1044233.88 ms /   352 runs ( 2966.57 ms per run)
+whisper_print_timings:   prompt time = 13600.42 ms /    66 runs (  206.07 ms per run)
+whisper_print_timings:    total time = 1916720.00 ms
+
+trecho 0 0.00-15.15: Eu sei que muita gente já conhece sobre o Botox, mas também tem bastante receio sobre fazê-lo, mas calma, o Botox ele bem aplicado por um profissional, ele pode realçar ainda mais a sua beleza natural, hoje aqui em União dos Palmares.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\alana-p01.wav' (536460 samples, 33.5 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.010]  
+[00:00:00.010 --> 00:00:00.240]   ter
+[00:00:00.240 --> 00:00:00.400]   um
+[00:00:00.400 --> 00:00:00.640]   dia
+[00:00:00.640 --> 00:00:01.110]   exclus
+[00:00:01.110 --> 00:00:01.340]  ivo
+[00:00:01.340 --> 00:00:01.500]   de
+[00:00:01.500 --> 00:00:02.000]   beleza
+[00:00:02.000 --> 00:00:02.140]  ,
+[00:00:02.140 --> 00:00:02.600]   apenas
+[00:00:02.600 --> 00:00:02.670]   com
+[00:00:02.670 --> 00:00:02.900]   bot
+[00:00:02.900 --> 00:00:03.000]  ox
+[00:00:03.000 --> 00:00:03.000]  .
+whisper_print_progress_callback: progress =  80%
+[00:00:27.000 --> 00:00:27.070]  
+[00:00:27.070 --> 00:00:27.210]   Vie
+[00:00:27.210 --> 00:00:27.280]  m
+[00:00:27.280 --> 00:00:27.490]   aí
+[00:00:27.490 --> 00:00:27.630]  ,
+[00:00:27.630 --> 00:00:27.950]   hoje
+[00:00:27.950 --> 00:00:28.330]   muitas
+[00:00:28.330 --> 00:00:28.900]   mulheres
+[00:00:28.900 --> 00:00:29.110]   já
+[00:00:29.110 --> 00:00:29.320]   vin
+[00:00:29.320 --> 00:00:29.530]  har
+[00:00:29.530 --> 00:00:29.670]  am
+[00:00:29.670 --> 00:00:30.000]   real
+[00:00:30.000 --> 00:00:30.000]  .
+[00:00:30.000 --> 00:00:30.260]   Sara
+[00:00:30.260 --> 00:00:30.390]  ,
+[00:00:30.390 --> 00:00:30.590]   sua
+[00:00:30.590 --> 00:00:30.990]   beleza
+[00:00:30.990 --> 00:00:31.240]  .
+[00:00:31.240 --> 00:00:31.320]   E
+[00:00:31.320 --> 00:00:31.730]   você
+[00:00:31.730 --> 00:00:32.000]  ?
+[00:00:32.000 --> 00:00:32.180]   Tá
+[00:00:32.180 --> 00:00:32.740]   esperando
+[00:00:32.740 --> 00:00:32.800]   o
+[00:00:32.800 --> 00:00:32.980]   que
+[00:00:32.980 --> 00:00:33.160]   pra
+[00:00:33.160 --> 00:00:33.340]   mim
+[00:00:33.340 --> 00:00:33.520]   também
+[00:00:33.520 --> 00:00:34.000]  ?
+whisper_print_progress_callback: progress = 101%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time = 100218.58 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =  1597.47 ms
+whisper_print_timings:   sample time = 10810.67 ms /   260 runs (   41.58 ms per run)
+whisper_print_timings:   encode time = 547425.88 ms /     2 runs (273712.94 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time = 279508.22 ms /   253 runs ( 1104.78 ms per run)
+whisper_print_timings:   prompt time = 33963.44 ms /    70 runs (  485.19 ms per run)
+whisper_print_timings:    total time = 975837.12 ms
+
+trecho 1 15.58-49.30: ter um dia exclusivo de beleza, apenas com botox. Viem aí, hoje muitas mulheres já vinharam real. Sara, sua beleza. E você? Tá esperando o que pra mim também?
+0.05:Eu 0.12:sei 0.3:que 0.48:muita 0.79:gente 1.09:já 1.33:conhece 1.84:sobre 2.31:o 2.34:Botox, 2.95:mas 3.11:também 3.4:tem 3.56:bastante 4.04:receio 4.76:sobre 5.08:fazê-lo, 6.13:mas 6.41:calma, 7.08:o 7.09:Botox 7.68:ele 7.83:bem 8.11:aplicado 8.85:por 9.22:um 9.31:profissional, 10.59:ele 10.75:pode 10.98:realçar 11.52:ainda 11.88:mais 12.13:a 12.2:sua 12.39:beleza 12.78:natural, 13.53:hoje 13.62:aqui 13.88:em 14.02:União 14.4:dos 14.59:Palmares. 15.59:ter 15.82:um 15.98:dia 16.22:exclusivo 16.92:de 17.08:beleza, 17.72:apenas 18.18:com 18.25:botox. 42.65:Viem 42.86:aí, 43.21:hoje 43.53:muitas 43.91:mulheres 44.48:já 44.69:vinharam 45.25:real. 45.58:Sara, 45.97:sua 46.17:beleza. 46.82:E 46.9:você? 47.58:Tá 47.76:esperando 48.32:o 48.38:que 48.56:pra 48.74:mim 48.92:também?

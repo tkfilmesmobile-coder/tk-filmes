@@ -1,0 +1,38 @@
+{
+ "data": "17 de outubro de 2026",
+ "fonte": "Câmara dos Deputados · Senado Federal · CF, arts. 48 e 60",
+ "card": "Ouviu por aí que vão mudar a aposentadoria? Antes de se preocupar, vem comigo conferir na fonte. Te ensino no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "acompanhar na fonte 🔎",
+  "marca": "proposta não é lei",
+  "linhas": [
+   "🏛️ camara.leg.br → Propostas legislativas",
+   "🏛️ senado.leg.br → Pesquisa de matérias",
+   "🔎 busque: aposentadoria, BPC, INSS",
+   "⚠️ lembre: proposta não é lei"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, vi um projeto que acaba com o BPC! 😨",
+   "09:02"
+  ],
+  [
+   "out",
+   "Proposta ainda não é lei: só muda alguma coisa depois de aprovada, publicada e em vigor 🏛️",
+   "09:03"
+  ],
+  [
+   "out",
+   "Dá pra ver em que fase ela está no site da Câmara ou do Senado 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Que bom saber! 🙏",
+   "09:04"
+  ]
+ ]
+}

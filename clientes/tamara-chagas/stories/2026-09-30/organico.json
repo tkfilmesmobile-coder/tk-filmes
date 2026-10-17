@@ -1,0 +1,77 @@
+[
+ {"id": "01-bom-dia", "fundo": "foto:tamara/tamara-estudio-0110.jpg", "celular": true, "zoom": 1.15, "origem": "50% 15%", "posicao": "50% 10%", "topo": 1330,
+  "blocos": [
+   {"t": "bom dia!&nbsp;☀️", "estilo": "caixa", "tam": 62, "giro": -2},
+   {"t": "hoje tem pagamento, e-Título e um recado pra quem tem 70+&nbsp;👇", "estilo": "caixa", "tam": 42}
+  ]},
+ {"id": "02-post-simei", "fundo": "#EDE4D8", "texto_escuro": true, "topo": 560,
+  "blocos": [
+   {"t": "saiu post novo&nbsp;📌", "estilo": "caixa-escura", "tam": 44, "giro": -2},
+   {"t": "é <b>MEI</b>? o prazo pra entrar no Simei continua sendo <b>janeiro</b>", "estilo": "solto", "tam": 62},
+   {"t": "e o Simples Nacional termina <b>hoje</b>, 30/09", "estilo": "caixa", "tam": 42},
+   {"t": "tá no feed&nbsp;👆", "estilo": "pequeno", "tam": 36},
+   {"espaco": 30},
+   {"t": "fonte: Receita Federal · gov.br/fazenda · 25/09/2026", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "03-pagamento-hoje", "fundo": "#1F2A3A", "topo": 440,
+  "blocos": [
+   {"t": "pagamento do INSS&nbsp;💸", "estilo": "solto", "tam": 44},
+   {"t": "<b>hoje</b> recebe quem ganha até 1 salário mínimo com final <b>5</b>", "estilo": "caixa", "tam": 52},
+   {"t": "amanhã (01/10): final <b>6</b> até o mínimo, e finais <b>1 e 6</b> acima do mínimo", "estilo": "caixa-escura", "tam": 40},
+   {"t": "o final é o último número do cartão, sem o dígito depois do traço", "estilo": "solto", "tam": 36},
+   {"espaco": 30},
+   {"t": "fonte: INSS · gov.br/inss · 22/09/2026", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "04-e-titulo", "fundo": "foto:tamara/tamara-estudio-0156.jpg", "celular": true, "zoom": 1.1, "origem": "50% 15%", "posicao": "50% 10%", "topo": 1180,
+  "blocos": [
+   {"t": "tem o e-Título no celular faz tempo?&nbsp;📱", "estilo": "caixa", "tam": 52, "giro": -2},
+   {"t": "a Justiça Eleitoral pede pra <b>atualizar</b> o app antes de domingo", "estilo": "caixa", "tam": 40},
+   {"t": "fonte: TSE · 29/09/2026", "estilo": "fonte", "tam": 28}
+  ]},
+ {"id": "05-como-atualizar", "fundo": "#EDE4D8", "texto_escuro": true, "topo": 470,
+  "blocos": [
+   {"t": "como fazer&nbsp;👇", "estilo": "caixa-escura", "tam": 46, "giro": -2},
+   {"t": "1. baixe a versão nova do <b>e-Título</b> na loja do celular", "estilo": "caixa", "tam": 42},
+   {"t": "2. <b>reemita</b> o seu e-Título no app", "estilo": "caixa", "tam": 42},
+   {"t": "3. faça <b>antes</b> de domingo, não na fila&nbsp;😉", "estilo": "caixa", "tam": 42},
+   {"t": "às 15h tem post completo no feed", "estilo": "pequeno", "tam": 34},
+   {"espaco": 20},
+   {"t": "fonte: TSE · tse.jus.br · 29/09/2026", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "06-quiz-70", "fundo": "#C9A3A0", "topo": 620,
+  "blocos": [
+   {"t": "QUIZ&nbsp;🤔", "estilo": "caixa-escura", "tam": 56, "giro": -3},
+   {"t": "quem tem 70 anos ou mais é <b>obrigado</b> a votar?", "estilo": "caixa", "tam": 56},
+   {"t": "a resposta tá no próximo story&nbsp;👉", "estilo": "solto", "tam": 38}
+  ]},
+ {"id": "07-resposta-70", "fundo": "#1C1C1C", "topo": 460,
+  "blocos": [
+   {"t": "NÃO&nbsp;✅", "estilo": "caixa", "tam": 80, "giro": -2},
+   {"t": "depois dos 70, o voto é <b>facultativo</b>", "estilo": "solto", "tam": 54},
+   {"t": "não precisa justificar e não tem multa", "estilo": "caixa", "tam": 42},
+   {"t": "mas se quiser votar, conta como prova de vida no INSS&nbsp;💛", "estilo": "caixa-escura", "tam": 40},
+   {"espaco": 30},
+   {"t": "fonte: TSE · Previdência, 18/09/2026", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "08-amanha-dia-do-idoso", "fundo": "#EDE4D8", "texto_escuro": true, "topo": 600,
+  "blocos": [
+   {"t": "amanhã, 1º de outubro&nbsp;🗓️", "estilo": "caixa-escura", "tam": 44, "giro": -2},
+   {"t": "é o <b>Dia Nacional do Idoso</b>", "estilo": "solto", "tam": 66},
+   {"t": "tem post especial aqui no perfil. marca quem você quer homenagear&nbsp;💛", "estilo": "solto", "tam": 40},
+   {"espaco": 30},
+   {"t": "fonte: Lei nº 11.433/2006 · planalto.gov.br", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "09-apuracao", "fundo": "#1F2A3A", "topo": 600,
+  "blocos": [
+   {"t": "faltam 4 dias&nbsp;📅", "estilo": "caixa", "tam": 52, "giro": -3},
+   {"t": "no domingo dá pra acompanhar a contagem dos votos <b>em tempo real</b>, pela Justiça Eleitoral", "estilo": "solto", "tam": 46},
+   {"espaco": 30},
+   {"t": "fonte: TSE · tse.jus.br · 30/09/2026", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "10-encerramento", "fundo": "foto:tamara/tamara-estudio-0132.jpg", "celular": true, "zoom": 1.2, "origem": "50% 20%", "posicao": "50% 15%", "topo": 1330,
+  "blocos": [
+   {"t": "por hoje é isso!&nbsp;💛", "estilo": "caixa", "tam": 60, "giro": -2},
+   {"t": "cada caso é único. na dúvida, procure orientação profissional", "estilo": "caixa", "tam": 40},
+   {"t": "até amanhã&nbsp;👋", "estilo": "caixa-escura", "tam": 40}
+  ]}
+]

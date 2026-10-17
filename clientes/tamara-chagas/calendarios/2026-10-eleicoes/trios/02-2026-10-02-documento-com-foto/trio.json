@@ -1,0 +1,39 @@
+{
+ "data": "2 de outubro de 2026",
+ "fonte": "TSE · 11/09/2026 · Código Eleitoral, art. 143",
+ "card": "Domingo é dia de votar e sempre bate a dúvida do que levar, né? Resumindo: documento <b>com foto</b> (pode ser o e-Título). Detalhei no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "o que levar domingo ✍️",
+  "marca": "física",
+  "linhas": [
+   "✅ e-Título, identidade, CNH, passaporte, carteira de trabalho física",
+   "❌ certidão de nascimento ou de casamento",
+   "❌ carteira de trabalho <b>digital</b>",
+   "⏰ das 8h às 17h (Brasília)",
+   "👵 idosos, grávidas e enfermos têm preferência na fila"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, minha mãe pode votar levando só a certidão de casamento? 🤔",
+   "09:02"
+  ],
+  [
+   "out",
+   "Não vale 😕 Precisa de documento oficial com foto: identidade, CNH ou o e-Título com foto, por exemplo",
+   "09:03"
+  ],
+  [
+   "out",
+   "E pessoa idosa tem preferência na fila, pode avisar ela 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Vou separar a identidade dela! 🙏",
+   "09:04"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "fonte": "INSS, 28/07/2026 · TSE",
+ "telas": [
+  {
+   "kicker": "INSS · BOATOS",
+   "titulo": "Viu no WhatsApp? <b>Confira.</b>",
+   "foto": "tamara/tamara-estudio-0003.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Antes de compartilhar.",
+   "tam": 84,
+   "texto": "✅ gov.br/inss<br><br>✅ Meu INSS (site ou app)<br><br>✅ Central 135<br><br>🚨 boato sobre a eleição: canal SIADE do TSE<br><br>⚠️ desconfie de pressa, ameaça ou pedido de dados"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Recebi que o INSS vai cortar o 13º. É verdade?”",
+   "tam": 64,
+   "texto": "Antes de acreditar, confira nos canais oficiais: gov.br/inss, Meu INSS ou 135. Mensagem sem fonte e com muita pressa merece desconfiança."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

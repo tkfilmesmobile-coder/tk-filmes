@@ -1,0 +1,38 @@
+{
+ "data": "13 de outubro de 2026",
+ "fonte": "TSE · tse.jus.br",
+ "card": "Em quem votar? Isso eu não posso te dizer 🙂 Mas te mostro onde ler as propostas <b>direto na fonte</b>. Tá no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "onde ler as propostas 📄",
+  "marca": "apartidário",
+  "linhas": [
+   "🌐 site do TSE → \"Planos de governo\"",
+   "📊 DivulgaCandContas: dados de todas as candidaturas",
+   "🔎 procure: previdência, aposentadoria, BPC",
+   "Este perfil é apartidário: a gente informa, não indica candidato"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, em quem eu voto pra proteger minha aposentadoria? 🤔",
+   "09:02"
+  ],
+  [
+   "out",
+   "Isso eu não posso te dizer: aqui o perfil é apartidário 🙂",
+   "09:03"
+  ],
+  [
+   "out",
+   "Mas dá pra ler o que cada candidatura propõe no site do TSE, direto na fonte 📄",
+   "09:03"
+  ],
+  [
+   "in",
+   "Justo! Vou ler 🙏",
+   "09:04"
+  ]
+ ]
+}

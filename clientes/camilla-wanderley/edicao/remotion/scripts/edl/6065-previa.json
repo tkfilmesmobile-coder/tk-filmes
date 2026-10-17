@@ -1,0 +1,15 @@
+{
+  "fonte": "midia/IMG_6065.mp4",
+  "palavras": "IMG_6065.palavras.json",
+  "wav": "IMG_6065.wav",
+  "fps": 30,
+  "nota": "Entradas e saídas medidas no áudio (scripts/falas.py): fala da Dra. de 0,10 a 4,98 s e de 10,45 a 14,93 s. Fora: toque/direção em 5,53 e 10,02 s.",
+  "tomadas": [
+    { "id": "gancho", "inicio": 0.02,  "fim": 5.16,  "exato": true, "zoom": "A", "punch": { "em": 3.85, "zoom": "B" } },
+    { "id": "queixa", "inicio": 10.37, "fim": 15.08, "exato": true, "zoom": "B", "lateral": 14 }
+  ],
+  "headlines": [
+    { "em": 3.9, "dur": 1.3, "linhas": [ { "t": "FAZER CANAL" }, { "t": "DÓI?", "cor": true } ] }
+  ],
+  "cards": []
+}

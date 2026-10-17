@@ -58,6 +58,9 @@ STF, CJF/TNU, TRF5 e Planalto. Não publicar decisão só pela manchete: conferi
   (conectado em 2026-09-28, vence por volta de 27/11/2026).
 - **Publicação no Instagram pessoal:** mesma skill, conta `DRA_TAMARACHAGAS_`. Token no `.env`,
   conectado em 2026-09-28, vence por volta de 27/11/2026.
+- **Drive** (`G:\Meu Drive\Tamara Chagas`, organizado em 2026-10-17 no padrão da Dra. Alana):
+  `DOCUMENTAÇÃO/` (`CONTRATO/`, `FINANCEIRO/`, `NOTAS FISCAIS/`, com as notas nomeadas por mês:
+  `2026-09 SETEMBRO.pdf`) · `CONTEÚDO/<ano-mês MÊS>/` · `IDENTIDADE VISUAL/`.
 
 ## Marca
 Arquivos em `marca/` (recebidos em 2026-09-28): `logo-fundo-preto.png` e `exemplo-post-bpc-loas.webp`.
@@ -92,3 +95,7 @@ honorários nem divulgar casos com dados do cliente. Na dúvida, perguntar antes
 
 ---
 Cadastro: 2026-09-28, a partir da conversa em que a conta do Instagram foi conectada.
+
+## Regras gerais aplicadas
+
+- **Brand book (2026-10-13):** Só há logos e símbolo em `marca/`; a ficha já pedia manual com fontes e cores oficiais (2026-09-28). A fonte e a estética dos posts estão fixadas na skill `post-tamara`. Brand book: **pendente**. Partir dos posts aprovados e das regras da OAB (Cuidados), e pedir à Dra. Tamara a aprovação do que for recomendação.

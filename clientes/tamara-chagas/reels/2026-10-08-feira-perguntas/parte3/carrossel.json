@@ -1,0 +1,9 @@
+{"parte": 3, "tema": "SALÁRIO-MATERNIDADE", "fonte": "Lei 8.213/1991, arts. 25, III; 39, parágrafo único; 71 e 71-A",
+ "slides": [
+  {"layout": "capa", "foto": "../fotos/f83.0.jpg", "pos": "35% 30%", "kicker": "O POVO DA FEIRA SABE DE INSS?", "titulo": "Mulher da roça tem <b>salário-maternidade?</b>", "fala": "Na minha mente eu acho que tem, com certeza."},
+  {"layout": "foto", "foto": "../fotos/f88.0.jpg", "pos": "50% 35%", "kicker": "A RESPOSTA", "titulo": "Tem, <b>sim.</b>", "texto": "A mulher que trabalha na roça com a família é <b>segurada especial</b> e não precisa ter contribuído todo mês com o INSS."},
+  {"layout": "lista", "foto": "../fotos/f93.0.jpg", "pos": "50% 30%", "kicker": "O QUE PRECISA", "titulo": "Provar o trabalho <b>no campo.</b>", "lista": ["Nos <b>10 meses antes</b> do parto", "Com documentos: <b>notas</b>, <b>bloco do produtor</b>, ficha do <b>posto de saúde</b>, <b>CadÚnico</b>", "Vale também pra quem <b>adotou</b>"]},
+  {"layout": "numero", "kicker": "QUANTO E POR QUANTO TEMPO", "titulo": "<b>1 salário mínimo</b> por mês, durante:", "grande": "120|dias", "texto": "O pedido pode ser feito pelo aplicativo <b>Meu INSS</b> ou pelo telefone <b>135</b>."},
+  {"layout": "foto", "foto": "../fotos/f76.0.jpg", "pos": "50% 30%", "kicker": "ATENÇÃO", "titulo": "Guarde a <b>certidão de nascimento.</b>", "texto": "Junto com os papéis da roça, ela é o principal documento do pedido.", "faixa": "Quem não pediu na época pode procurar orientação"},
+  {"layout": "fim", "foto": "tamara/tamara-estudio-0145.jpg", "titulo": "Ficou com <b>dúvida?</b>", "texto": "Procure orientação.<br><br>Vem aí a <b>Parte 4</b>: precisa ser casado no papel pra receber pensão por morte?"}
+ ]}

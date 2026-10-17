@@ -1,0 +1,22 @@
+{
+ "data": "16 de outubro de 2026",
+ "card": "Chegou muita dúvida sobre isso e eu respondi no feed 🩺 <b>Quem está afastado pelo INSS pode ser demitido?</b> 👆",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "afastado pelo INSS e demissão 🩺",
+  "linhas": [
+   "1. Recebendo o benefício, o contrato fica suspenso: <b>não pode demitir</b>",
+   "2. Acidente ou doença do trabalho: <b>12 meses de estabilidade</b> depois da volta",
+   "3. Teve alta e não foi acidente: a empresa <b>pode demitir</b>",
+   "📋 Alta do INSS nem sempre é estar apto. Guarde laudos e exames atualizados"
+  ],
+  "marca": "12 meses de estabilidade"
+ },
+ "conversa": [
+  ["in", "Doutora, o INSS me deu alta mas eu ainda tô sentindo dor. E agora? 😟", "16:03"],
+  ["out", "Alta do INSS nem sempre quer dizer que você está apto pra trabalhar 🩺", "16:04"],
+  ["out", "Guarde os laudos e exames atualizados. Dá pra pedir a continuação do benefício, e cada caso precisa ser analisado direitinho, tá? 😉", "16:04"],
+  ["in", "Entendi! Vou separar meus exames 🙏", "16:05"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 60, 63 e 118 · CLT, art. 476"
+}

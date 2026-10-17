@@ -1,0 +1,265 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "pode/bruto.mp4",
+ "clipes": [
+  {
+   "id": "cortado",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 1816,
+   "zoom": 1.0
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "headline",
+   "from": 17,
+   "durationInFrames": 86,
+   "palavras": [
+    {
+     "texto": "médico",
+     "fala": 2
+    },
+    {
+     "texto": "dentista",
+     "fala": 16
+    },
+    {
+     "texto": "advogado",
+     "fala": 33
+    }
+   ]
+  },
+  {
+   "tipo": "titulo",
+   "from": 114,
+   "durationInFrames": 104,
+   "texto": "Pode ou não pode?",
+   "sub": "o conselho deixa, sim",
+   "fala": 41
+  },
+  {
+   "tipo": "chips",
+   "from": 296,
+   "durationInFrames": 191,
+   "pos": "baixo",
+   "segue": true,
+   "linhas": [
+    {
+     "texto": "você",
+     "atraso": 2,
+     "fala": 2,
+     "tom": "pos"
+    },
+    {
+     "texto": "seu consultório",
+     "atraso": 43,
+     "fala": 43,
+     "tom": "pos"
+    },
+    {
+     "texto": "sua equipe",
+     "atraso": 116,
+     "fala": 116,
+     "tom": "pos"
+    }
+   ]
+  },
+  {
+   "tipo": "sutil",
+   "from": 493,
+   "durationInFrames": 53,
+   "texto": "liberado pelos três conselhos"
+  },
+  {
+   "tipo": "stickers",
+   "from": 573,
+   "durationInFrames": 78,
+   "exemplos": [
+    "Dói? 😬",
+    "Preciso de advogado pra isso?"
+   ]
+  },
+  {
+   "tipo": "titulo",
+   "from": 657,
+   "durationInFrames": 210,
+   "texto": "Conteúdo informativo",
+   "sub": "isso tem até nome",
+   "fala": 29
+  },
+  {
+   "tipo": "cartao",
+   "from": 873,
+   "durationInFrames": 166,
+   "segue": true,
+   "pos": "baixo",
+   "etiqueta": "valor da consulta",
+   "linhas": [
+    {
+     "texto": "médico · pode",
+     "atraso": 3,
+     "fala": 3,
+     "tom": "pos"
+    },
+    {
+     "texto": "dentista",
+     "atraso": 47,
+     "fala": 47,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "advogado",
+     "atraso": 72,
+     "fala": 72,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    }
+   ]
+  },
+  {
+   "tipo": "cartao",
+   "from": 1045,
+   "durationInFrames": 268,
+   "segue": true,
+   "pos": "baixo",
+   "etiqueta": "ninguém pode",
+   "linhas": [
+    {
+     "texto": "prometer milagre",
+     "atraso": 118,
+     "fala": 118,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "resultado perfeito",
+     "atraso": 163,
+     "fala": 163,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    }
+   ]
+  },
+  {
+   "tipo": "frase",
+   "from": 1319,
+   "durationInFrames": 60,
+   "texto": "Começa hoje pelo mais fácil: mostra o seu espaço.",
+   "fala": 50
+  },
+  {
+   "tipo": "frase",
+   "from": 1385,
+   "durationInFrames": 107,
+   "texto": "Outro dia, responde a dúvida do seu cliente.",
+   "fala": 61
+  },
+  {
+   "tipo": "frase",
+   "from": 1498,
+   "durationInFrames": 70,
+   "texto": "CRM, CRO ou OAB na legenda.",
+   "fala": 3
+  },
+  {
+   "tipo": "frase",
+   "from": 1574,
+   "durationInFrames": 117,
+   "texto": "As regras, com nome e número, estão na legenda 👇",
+   "fala": 105
+  },
+  {
+   "tipo": "salvar",
+   "from": 1697,
+   "durationInFrames": 53,
+   "fala": 12
+  },
+  {
+   "tipo": "logo",
+   "from": 1749,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 222,
+   "durationInFrames": 20,
+   "texto": "O que não"
+  },
+  {
+   "from": 238,
+   "durationInFrames": 28,
+   "texto": "pode é fazer"
+  },
+  {
+   "from": 263,
+   "durationInFrames": 39,
+   "texto": "algumas coisinhas."
+  },
+  {
+   "from": 490,
+   "durationInFrames": 10,
+   "texto": "você"
+  },
+  {
+   "from": 552,
+   "durationInFrames": 26,
+   "texto": "um vídeo explicando"
+  },
+  {
+   "from": 655,
+   "durationInFrames": 8,
+   "texto": "tem"
+  },
+  {
+   "from": 869,
+   "durationInFrames": 9,
+   "texto": "falar"
+  },
+  {
+   "from": 1041,
+   "durationInFrames": 10,
+   "texto": "o que"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 18,
+   "durationInFrames": 17,
+   "escala": 1.08
+  },
+  {
+   "from": 32,
+   "durationInFrames": 17,
+   "escala": 1.08
+  },
+  {
+   "from": 49,
+   "durationInFrames": 17,
+   "escala": 1.08
+  },
+  {
+   "from": 1043,
+   "durationInFrames": 58,
+   "escala": 1.07
+  }
+ ],
+ "reenquadramentos": [
+  {
+   "from": 10,
+   "durationInFrames": 98,
+   "escala": 1.12
+  },
+  {
+   "from": 1038,
+   "durationInFrames": 526,
+   "escala": 1.1
+  }
+ ]
+}

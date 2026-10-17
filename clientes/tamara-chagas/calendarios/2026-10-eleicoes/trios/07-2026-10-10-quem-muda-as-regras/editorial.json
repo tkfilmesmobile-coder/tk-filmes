@@ -1,0 +1,31 @@
+{
+ "fonte": "Constituição Federal, arts. 48, 60 e 201",
+ "telas": [
+  {
+   "kicker": "PREVIDÊNCIA E POLÍTICA",
+   "titulo": "Quem muda <b>a aposentadoria?</b>",
+   "foto": "tamara/tamara-estudio-0040.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Quem muda a aposentadoria?",
+   "tam": 84,
+   "texto": "🏛️ o Congresso Nacional (Câmara + Senado)<br><br>📜 mudar a Constituição: 2 votações em cada Casa e 3/5 dos votos<br><br>⚖️ lei: aprovada e sancionada<br><br>🗳️ por isso quem você elege importa"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Ouvi que vão mudar a aposentadoria semana que vem. É verdade?”",
+   "tam": 64,
+   "texto": "Mudança nas regras só acontece por lei ou emenda aprovada no Congresso, não de uma hora pra outra. Desconfie de mensagem sem fonte e confira no site da Câmara e do Senado."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

@@ -1,0 +1,274 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,340"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 340
+			},
+			"text": " mas"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,340",
+				"to": "00:00:00,600"
+			},
+			"offsets": {
+				"from": 340,
+				"to": 600
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,600",
+				"to": "00:00:01,320"
+			},
+			"offsets": {
+				"from": 600,
+				"to": 1320
+			},
+			"text": " seria"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,320",
+				"to": "00:00:02,060"
+			},
+			"offsets": {
+				"from": 1320,
+				"to": 2060
+			},
+			"text": " preferido"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,060",
+				"to": "00:00:02,290"
+			},
+			"offsets": {
+				"from": 2060,
+				"to": 2290
+			},
+			"text": " agora"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,290",
+				"to": "00:00:02,340"
+			},
+			"offsets": {
+				"from": 2290,
+				"to": 2340
+			},
+			"text": " a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,340",
+				"to": "00:00:02,730"
+			},
+			"offsets": {
+				"from": 2340,
+				"to": 2730
+			},
+			"text": " árvore"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,730",
+				"to": "00:00:02,900"
+			},
+			"offsets": {
+				"from": 2730,
+				"to": 2900
+			},
+			"text": " vai"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,900",
+				"to": "00:00:03,240"
+			},
+			"offsets": {
+				"from": 2900,
+				"to": 3240
+			},
+			"text": " ficar"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,240",
+				"to": "00:00:04,000"
+			},
+			"offsets": {
+				"from": 3240,
+				"to": 4000
+			},
+			"text": " dentro"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,000",
+				"to": "00:00:04,290"
+			},
+			"offsets": {
+				"from": 4000,
+				"to": 4290
+			},
+			"text": " mesmo"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,290",
+				"to": "00:00:04,440"
+			},
+			"offsets": {
+				"from": 4290,
+				"to": 4440
+			},
+			"text": " não?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,440",
+				"to": "00:00:06,440"
+			},
+			"offsets": {
+				"from": 4440,
+				"to": 6440
+			},
+			"text": " não"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,440",
+				"to": "00:00:07,290"
+			},
+			"offsets": {
+				"from": 6440,
+				"to": 7290
+			},
+			"text": " meu"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,290",
+				"to": "00:00:09,000"
+			},
+			"offsets": {
+				"from": 7290,
+				"to": 9000
+			},
+			"text": " deus"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,000",
+				"to": "00:00:10,440"
+			},
+			"offsets": {
+				"from": 9000,
+				"to": 10440
+			},
+			"text": " Ronaldo"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,440",
+				"to": "00:00:10,730"
+			},
+			"offsets": {
+				"from": 10440,
+				"to": 10730
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,730",
+				"to": "00:00:11,640"
+			},
+			"offsets": {
+				"from": 10730,
+				"to": 11640
+			},
+			"text": " complicação"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,640",
+				"to": "00:00:12,720"
+			},
+			"offsets": {
+				"from": 11640,
+				"to": 12720
+			},
+			"text": " seria"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,720",
+				"to": "00:00:13,880"
+			},
+			"offsets": {
+				"from": 12720,
+				"to": 13880
+			},
+			"text": " melhor"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,880",
+				"to": "00:00:14,640"
+			},
+			"offsets": {
+				"from": 13880,
+				"to": 14640
+			},
+			"text": " for"
+		}
+	]
+}

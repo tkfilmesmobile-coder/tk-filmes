@@ -1,0 +1,11 @@
+KIT DE ASSETS 3D — INSS, VOTAÇÃO E PROVA DE VIDA
+
+Conteúdo organizado em pastas:
+01_Votacao — urna eletrônica, urna/cédula e título de eleitor.
+02_INSS — pasta/benefícios e elementos previdenciários.
+03_Prova_de_Vida — biometria, smartphone e lembrete de recertificação.
+04_Documentos_e_Prazos — prancheta/aprovação.
+05_Kits_Extras — folhas com vários stickers e elementos 3D adicionais.
+06_Personagem — boneca base e versão “Você sabia?”.
+
+Arquivos em PNG, prontos para uso em artes e posts.

@@ -1,0 +1,71 @@
+[
+ {"id": "01-boa-tarde", "fundo": "foto:tamara/tamara-estudio-0126.jpg", "celular": true, "zoom": 1.15, "origem": "50% 20%", "posicao": "50% 15%", "topo": 1320,
+  "blocos": [
+   {"t": "boa tarde!&nbsp;☀️", "estilo": "caixa", "tam": 62, "giro": -2},
+   {"t": "hoje o assunto é pagamento, eleição e golpe: fica comigo nos stories&nbsp;👇", "estilo": "caixa", "tam": 42}
+  ]},
+ {"id": "02-post-pagamento", "fundo": "#EDE4D8", "texto_escuro": true, "topo": 520,
+  "blocos": [
+   {"t": "saiu post novo&nbsp;📌", "estilo": "caixa-escura", "tam": 44, "giro": -2},
+   {"t": "ganha <b>acima do mínimo</b>? o pagamento de setembro começa <b>quinta, 01/10</b>", "estilo": "solto", "tam": 64},
+   {"t": "a data certinha depende do final do seu cartão de benefício", "estilo": "solto", "tam": 40},
+   {"t": "tá no feed&nbsp;👆", "estilo": "pequeno", "tam": 36},
+   {"espaco": 30},
+   {"t": "fonte: INSS · gov.br/inss · 22/09/2026", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "03-final-do-cartao", "fundo": "#1F2A3A", "topo": 470,
+  "blocos": [
+   {"t": "rapidinho&nbsp;👀", "estilo": "solto", "tam": 44},
+   {"t": "você sabe qual é o <b>final</b> do seu cartão de benefício?", "estilo": "caixa", "tam": 58},
+   {"t": "é o último número, <b>sem</b> o dígito que vem depois do traço", "estilo": "caixa-escura", "tam": 42},
+   {"t": "ex.: 123.456.789-<b>0</b> → o final é <b>9</b>", "estilo": "caixa", "tam": 42, "giro": -1},
+   {"espaco": 30},
+   {"t": "fonte: INSS · gov.br/inss · 22/09/2026", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "04-nao-caiu", "fundo": "foto:tamara/tamara-estudio-0029.jpg", "celular": true, "zoom": 1.1, "origem": "50% 15%", "posicao": "50% 10%", "topo": 1150,
+  "blocos": [
+   {"t": "e se o dinheiro não cair?&nbsp;🤔", "estilo": "caixa", "tam": 54, "giro": -2},
+   {"t": "confere o extrato de pagamento no <b>Meu INSS</b> ou liga no <b>135</b> (seg a sáb, 7h às 22h)", "estilo": "caixa", "tam": 40},
+   {"t": "fonte: INSS · 22/09/2026", "estilo": "fonte", "tam": 28}
+  ]},
+ {"id": "05-reels", "fundo": "#C9A3A0", "topo": 620,
+  "blocos": [
+   {"t": "tem reels novo no perfil&nbsp;🎬", "estilo": "caixa", "tam": 60, "giro": -2},
+   {"t": "corre lá assistir e manda pra quem precisa&nbsp;💬", "estilo": "solto", "tam": 44}
+  ]},
+ {"id": "06-faltam-5-dias", "fundo": "#EDE4D8", "texto_escuro": true, "topo": 460,
+  "blocos": [
+   {"t": "faltam 5 dias&nbsp;📅", "estilo": "caixa-escura", "tam": 52, "giro": -3},
+   {"t": "já sabe <b>onde</b> você vota no domingo?", "estilo": "solto", "tam": 66},
+   {"t": "no app <b>e-Título</b>, toca em \"Onde Votar\" no menu de baixo", "estilo": "caixa", "tam": 42},
+   {"t": "ele mostra o local e ainda ajuda com a rota no GPS&nbsp;📍", "estilo": "solto", "tam": 38},
+   {"espaco": 30},
+   {"t": "fonte: TSE · tse.jus.br · Local de votação", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "07-quiz-certidao", "fundo": "#1C1C1C", "topo": 620,
+  "blocos": [
+   {"t": "QUIZ&nbsp;🤔", "estilo": "caixa", "tam": 56, "giro": -3},
+   {"t": "certidão de nascimento serve pra votar?", "estilo": "solto", "tam": 64},
+   {"t": "a resposta tá no próximo story&nbsp;👉", "estilo": "pequeno", "tam": 38}
+  ]},
+ {"id": "08-resposta-certidao", "fundo": "#EDE4D8", "texto_escuro": true, "topo": 420,
+  "blocos": [
+   {"t": "NÃO SERVE&nbsp;❌", "estilo": "caixa-escura", "tam": 72, "giro": -2},
+   {"t": "nem certidão de nascimento, nem de casamento, nem carteira de trabalho <b>digital</b>", "estilo": "solto", "tam": 48},
+   {"t": "vale documento oficial com foto: e-Título, identidade, CNH, passaporte, carteira de trabalho física…", "estilo": "caixa", "tam": 40},
+   {"espaco": 30},
+   {"t": "fonte: TSE · 11/09/2026 · Por Dentro das Eleições", "estilo": "fonte", "tam": 30}
+  ]},
+ {"id": "09-golpe-15h", "fundo": "foto:tamara/tamara-estudio-0066.jpg", "celular": true, "zoom": 1.1, "origem": "50% 15%", "posicao": "50% 10%", "topo": 1180,
+  "blocos": [
+   {"t": "recebeu mensagem \"do INSS\"?&nbsp;⚠️", "estilo": "caixa", "tam": 54, "giro": -2},
+   {"t": "antes de responder, confere se veio de canal oficial. às 15h tem post sobre isso no feed&nbsp;👆", "estilo": "caixa", "tam": 40},
+   {"t": "fonte: INSS · 28/07/2026", "estilo": "fonte", "tam": 28}
+  ]},
+ {"id": "10-encerramento", "fundo": "foto:tamara/tamara-estudio-0040.jpg", "celular": true, "zoom": 1.15, "origem": "50% 15%", "posicao": "50% 10%", "topo": 1320,
+  "blocos": [
+   {"t": "por hoje é isso!&nbsp;💛", "estilo": "caixa", "tam": 60, "giro": -2},
+   {"t": "cada caso é único. na dúvida, procure orientação profissional", "estilo": "caixa", "tam": 40},
+   {"t": "até amanhã&nbsp;👋", "estilo": "caixa-escura", "tam": 40}
+  ]}
+]

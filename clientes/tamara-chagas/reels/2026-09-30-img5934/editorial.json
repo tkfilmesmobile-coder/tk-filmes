@@ -1,0 +1,22 @@
+{
+ "fonte": "Portaria Conjunta MDS/INSS nº 45, 29/09/2026 · Lei 8.742/1993",
+ "telas": [
+  {"kicker": "BPC · NOVIDADE", "titulo": "Notícia boa pra quem pede <b>o BPC.</b>",
+   "texto": "Saiu uma portaria com <b>novos valores</b> que podem ser descontados da renda da família.",
+   "foto": "tamara/tamara-estudio-0046.jpg", "foto_css": "left:330px;top:900px;width:1100px"},
+  {"kicker": "PRIMEIRO: O QUE É", "titulo": "1 salário mínimo <b>por mês.</b>",
+   "texto": "O BPC é pago ao <b>idoso com 65 anos ou mais</b> ou à <b>pessoa com deficiência</b>, de família com renda baixa.<br><br>Não exige ter contribuído para o INSS.",
+   "faixa": "Benefício de Prestação Continuada (LOAS)"},
+  {"kicker": "O PROBLEMA", "titulo": "Bater <b>na trave.</b>",
+   "texto": "O INSS soma a renda de quem mora na casa e divide pelo número de pessoas.<br><br>Se o resultado passa <b>um pouco do limite</b>, o pedido é negado."},
+  {"kicker": "A NOVIDADE", "titulo": "Gastos que <b>descontam.</b>",
+   "lista_titulo": "GASTO · VALOR POR MÊS",
+   "lista": [["Medicamentos", "R$ 56"], ["Consultas e tratamentos", "R$ 110"], ["Fraldas", "R$ 120"], ["Alimentação especial", "R$ 147"], ["Centro-dia (SUAS)", "R$ 40"]]},
+  {"kicker": "NA PRÁTICA", "titulo": "Renda menor <b>na conta.</b>",
+   "texto": "Com os descontos, quem batia na trave pode ter chance de conseguir o BPC.<br><br>Vale para gastos com o idoso ou a pessoa com deficiência que o <b>SUS ou o SUAS não oferecem de graça</b>.",
+   "faixa": "Guarde receitas, laudos e notas fiscais"},
+  {"kicker": "ASSISTA", "titulo": "A Dra. Tamara explica <b>no vídeo.</b>",
+   "texto": "Reels no perfil <b>@dra.tamarachagas_</b>, em colaboração com este perfil.<br><br>Cada caso é único: procure orientação profissional.",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

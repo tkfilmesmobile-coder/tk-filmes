@@ -1,0 +1,16 @@
+[
+  {
+    "text": "É",
+    "startMs": 190,
+    "endMs": 800,
+    "timestampMs": 400,
+    "confidence": 0.918133
+  },
+  {
+    "text": ".",
+    "startMs": 800,
+    "endMs": 2000,
+    "timestampMs": 1480,
+    "confidence": 0.881588
+  }
+]

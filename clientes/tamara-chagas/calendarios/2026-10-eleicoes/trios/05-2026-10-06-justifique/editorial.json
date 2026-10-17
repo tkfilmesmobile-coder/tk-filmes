@@ -1,0 +1,31 @@
+{
+ "fonte": "TSE · Justificativa eleitoral · Código Eleitoral, art. 7º",
+ "telas": [
+  {
+   "kicker": "ELEIÇÕES 2026 · JUSTIFICATIVA",
+   "titulo": "Não votou? <b>Justifique.</b>",
+   "foto": "tamara/tamara-estudio-0029.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Não votei, e agora?",
+   "tam": 84,
+   "texto": "🗓️ prazo: até 03/12/2026 (1º turno)<br><br>📱 pelo app e-Título<br><br>🏛️ ou em qualquer cartório eleitoral<br><br>⚠️ cada turno se justifica separado<br><br>👵 70 anos ou mais não precisa justificar"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Eu estava viajando e não votei. E agora?”",
+   "tam": 64,
+   "texto": "Calma! Dá pra justificar pelo e-Título até 3 de dezembro. Sem justificar nem pagar a multa, a pessoa fica com restrições, então vale resolver logo."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

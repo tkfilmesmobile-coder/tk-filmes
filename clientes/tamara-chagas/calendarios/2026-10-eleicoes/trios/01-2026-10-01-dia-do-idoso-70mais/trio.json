@@ -1,0 +1,38 @@
+{
+ "data": "1 de outubro de 2026",
+ "fonte": "TSE · Lei 11.433/2006 · Previdência, 18/09/2026",
+ "card": "Hoje é o <b>Dia Nacional do Idoso</b> e eu quero mandar um recado especial pra quem tem 70+: votar é opcional pra vocês 💛 Explico no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "pra quem tem 70+ 💛",
+  "marca": "opcional",
+  "linhas": [
+   "Votar é <b>opcional</b> (facultativo)",
+   "Não precisa <b>justificar</b> se não for",
+   "Não tem <b>multa</b>",
+   "Se votar, conta como <b>prova de vida</b> no INSS 💛"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, meu pai tem 75 anos e não quer ir votar. Ele vai ter problema? 😟",
+   "09:02"
+  ],
+  [
+   "out",
+   "Não! Depois dos 70 o voto é facultativo: ele não precisa justificar e não paga multa 😊",
+   "09:03"
+  ],
+  [
+   "out",
+   "E se ele quiser ir, o voto ainda conta como prova de vida no INSS 💛",
+   "09:03"
+  ],
+  [
+   "in",
+   "Que alívio! Obrigada 🙏",
+   "09:04"
+  ]
+ ]
+}

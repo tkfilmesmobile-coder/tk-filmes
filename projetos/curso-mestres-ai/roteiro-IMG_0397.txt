@@ -1,0 +1,64 @@
+ROTEIRO · Reels Tamara Chagas Advocacia · IMG_0397
+Transcrição do vídeo JÁ EDITADO (prévia v4, 21 s, 1080x1920), não do bruto.
+Gerado em 2026-09-28 a partir de: remotion/out/IMG_0397-previa-v4.mp4
+Composição no Remotion: remotion/src/reels/Img0397.tsx (id "IMG0397")
+Original intocado: .claude/TAMARA CHAGAS/ESCRITÓRIO ADVOCACIA/SETEMBRO/REELS/28.09.26/IMG_0397.mov
+
+------------------------------------------------------------
+FALA (tempos do vídeo editado)
+------------------------------------------------------------
+
+[0:00 – 0:02]  Acabou a prova de vida no INSS.
+
+[0:02 – 0:10]  Você sabia que a partir do momento que você vai nas urnas votar,
+               agora dia 4/10, já é computada automaticamente na Receita Federal
+               a sua prova de vida?
+
+[0:10 – 0:14]  A Receita Federal agora acaba de lançar esse novo sistema.
+
+[0:14 – 0:17]  A partir do momento que você vota nas eleições, já fica registrado.
+
+[0:17 – 0:20]  Você não precisa ir nas agências gerando aqueles transtornos.
+
+[0:20 – 0:21]  Agora ficou muito mais fácil, né?
+
+------------------------------------------------------------
+TEXTO CORRIDO
+------------------------------------------------------------
+
+Acabou a prova de vida no INSS. Você sabia que a partir do momento que você vai
+nas urnas votar, agora dia 4/10, já é computada automaticamente na Receita Federal
+a sua prova de vida? A Receita Federal agora acaba de lançar esse novo sistema.
+A partir do momento que você vota nas eleições, já fica registrado. Você não
+precisa ir nas agências gerando aqueles transtornos. Agora ficou muito mais fácil, né?
+
+------------------------------------------------------------
+DE ONDE VEM CADA FALA (tempos do bruto, 2min16s)
+------------------------------------------------------------
+
+0:00 – 0:02   "Acabou a prova de vida no INSS."
+0:25 – 0:38   "Você sabia que..." até "...esse novo sistema." (3 respiros cortados)
+2:01 – 2:05   "A partir do momento que você vota nas eleições, já fica registrado."
+2:11 – 2:16   "Você não precisa ir nas agências..." até "...muito mais fácil, né?"
+
+Emendas com dissolve (imagem): 0:02, 0:14 e 0:17. As outras são corte seco.
+
+------------------------------------------------------------
+PALAVRAS CONFERIDAS NO OUVIDO (o Whisper ouviu diferente)
+------------------------------------------------------------
+
+- "votar" / "vota": o Whisper escreveu "volta". Pelo contexto das urnas, é votar.
+- "transtornos": o Whisper escreveu "tranchô" / "trunchos".
+- "no INSS": numa das transcrições saiu "do INSS".
+Vale ouvir esses três pontos antes de usar o texto em legenda ou post.
+
+------------------------------------------------------------
+PONTOS DE CONTEÚDO PRA TAMARA VALIDAR (regras da OAB)
+------------------------------------------------------------
+
+- "Acabou a prova de vida" pode dar a entender que ela deixou de existir.
+  Pelo que se sabe, ela continua, só passou a ser feita automaticamente
+  (cruzamento de dados, como o voto). Não conferido em fonte oficial.
+- O cruzamento é atribuído na fala à Receita Federal; pelo que se sabe, vem do
+  INSS com a Justiça Eleitoral. Não conferido em fonte oficial.
+A fala foi mantida como gravada; nada disso foi alterado na edição.

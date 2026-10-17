@@ -76,6 +76,36 @@ As seções abaixo (escuro e claro) ficam como histórico.
 - **Rodapé:** nota curta ("Não vai votar? ...") + bloco **FONTE** separado por fio, com órgão,
   site, data e a norma; à direita, a data-chave do assunto quando houver.
 
+## 2a-REGRA. Stories a cada post (regra fixa da Talyta, 2026-09-30 à tarde; vale acima do 2a e do 2b)
+
+1. **Todo post que sai (imagem ou vídeo) ganha uma sequência de stories** sobre o mesmo assunto, com
+   linguagem **pessoal, próxima e didática** (explicar pra leigo: o que é → o problema → a novidade
+   → na prática → dúvida comum). Fonte oficial em toda tela informativa.
+2. **Post em colaboração entre os dois perfis → stories nos DOIS perfis, com o mesmo conteúdo e
+   visual diferente:**
+   - **@dra.tamarachagas_ (pessoal):** formatos card + notas + conversa ilustrativa
+     (`python modelos/stories_seq.py <pasta>` com `sequencia.json`)
+   - **@tamarachagas_prev (escritório):** linha editorial do feed, fundo claro, título fino+negrito,
+     logo, numeração 1/N, fonte no rodapé (`python modelos/stories_editorial.py <pasta>` com `editorial.json`)
+3. Post só de um perfil → stories só nele, no visual daquele perfil.
+Referência aprovada ("amei, ficaram perfeitos"): `reels/2026-09-30-img5934/` (stories/ = pessoal, editorial/ = escritório).
+Publicar em JPEG, um por vez, na ordem: `--conta DRA_TAMARACHAGAS_` ou `--conta TAMARACHAGAS_PREV`.
+
+## 2a. Trio de stories a cada post novo (regra de 2026-09-30, a principal)
+
+**Todo post novo no feed sai seguido de 3 stories sobre o assunto do post**, nesta ordem:
+1. **post-card**: cartão com a foto e o nome da Dra. Tamara anunciando o post ("post novo no feed 📌")
+2. **bloco de notas**: print do app Notas com o resumo prático, marca-texto amarelo e fonte
+3. **conversa**: print de WhatsApp com a dúvida mais comum respondida pela Dra. Tamara, sempre
+   marcada "conversa ilustrativa" (OAB: nunca parecer conversa real com cliente)
+
+- **Linguagem próxima e pessoal**, primeira pessoa, com a voz da Tamara ("gente", "me conta",
+  "fica tranquilo", "faz um favor pra mim"). O feed é o formal; o story é conversa.
+- Nada de número inventado (curtidas, "a pergunta que eu mais ouço"): só o que é verdade.
+- Conteúdo em `<pasta-do-post>/trio.json`; gerar com `python modelos/stories_trio.py <pasta>`
+  (sai PNG e JPG em `<pasta>/stories/`). Os agendados publicam o trio sozinhos logo depois do post
+  (`modelos/publicar-agendado.ps1`, trios em `calendarios/2026-10-eleicoes/trios/<id>/`).
+
 ## 2b. Stories do dia (regra de 2026-09-28)
 
 Story **não** usa a estética do feed. Tem que parecer feito por uma pessoa no próprio Instagram:
@@ -87,7 +117,9 @@ Story **não** usa a estética do feed. Tem que parecer feito por uma pessoa no 
 - enquete, quiz e caixinha: deixar o espaço vazio pro sticker, que se cola no app.
 
 Gerar com `python modelos/stories_organico.py stories/<data> stories/<data>/organico.json` e
-registrar a ordem em `stories/<data>/roteiro.md`. O que tem sticker se posta pelo app; o resto
+registrar a ordem em `stories/<data>/roteiro.md`. **Publicar sempre em JPEG** (2026-09-29): o
+Instagram recusa PNG em story ("image format is not supported") de forma aleatória; converter
+antes e publicar um por vez, na ordem, sem `| Select-Object` no terminal (derruba o node no Windows). O que tem sticker se posta pelo app; o resto
 pode sair pelo `--story` da publicar-social-ratos, com OK.
 
 ## 3. Legenda (formato fixo)

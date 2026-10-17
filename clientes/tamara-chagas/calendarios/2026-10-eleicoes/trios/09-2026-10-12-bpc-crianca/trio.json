@@ -1,0 +1,38 @@
+{
+ "data": "12 de outubro de 2026",
+ "fonte": "Lei 8.742/1993 (LOAS), art. 20",
+ "card": "Feliz Dia das Crianças! Hoje quero lembrar de um direito que muita família não conhece: o <b>BPC</b> pra criança com deficiência. Tá no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "BPC pra criança 🎈",
+  "marca": "qualquer idade",
+  "linhas": [
+   "💰 um salário mínimo por mês",
+   "🧩 pra pessoa com deficiência de qualquer idade (ou idoso com 65+)",
+   "🏠 quando a família não tem meios de manter o sustento",
+   "📋 tem critério de renda e avaliação"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, meu filho tem deficiência. Ele pode ter direito ao BPC? 🤔",
+   "09:02"
+  ],
+  [
+   "out",
+   "Pode, sim: o BPC vale pra pessoa com deficiência de qualquer idade 💛",
+   "09:03"
+  ],
+  [
+   "out",
+   "Mas tem critério de renda da família e avaliação, então cada caso precisa ser analisado 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Vou me informar! Obrigada 🙏",
+   "09:04"
+  ]
+ ]
+}

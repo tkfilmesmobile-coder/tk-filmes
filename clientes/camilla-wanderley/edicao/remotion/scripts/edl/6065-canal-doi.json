@@ -1,0 +1,85 @@
+{
+  "fonte": "midia/IMG_6065.mp4",
+  "palavras": "IMG_6065.palavras.json",
+  "fps": 30,
+  "tomadas": [
+    {
+      "id": "gancho",
+      "inicio": 0.0,
+      "fim": 4.8,
+      "zoom": "A",
+      "punch": {
+        "em": 3.55,
+        "zoom": "B"
+      }
+    },
+    {
+      "id": "queixa",
+      "inicio": 10.45,
+      "fim": 14.8,
+      "zoom": "B",
+      "lateral": 14
+    },
+    {
+      "id": "anestesia",
+      "inicio": 21.95,
+      "fim": 26.9,
+      "zoom": "A",
+      "lateral": -16
+    },
+    {
+      "id": "nao",
+      "inicio": 27.95,
+      "fim": 29.35,
+      "zoom": "C"
+    },
+    {
+      "id": "fecho",
+      "inicio": 33.4,
+      "fim": 41.55,
+      "zoom": "B",
+      "lateral": 12
+    }
+  ],
+  "headlines": [
+    {
+      "em": 3.7,
+      "dur": 2.3,
+      "linhas": [
+        {
+          "t": "FAZER CANAL"
+        },
+        {
+          "t": "DÓI?",
+          "cor": true
+        }
+      ]
+    },
+    {
+      "em": 28.5,
+      "dur": 1.9,
+      "linhas": [
+        {
+          "t": "A RESPOSTA É"
+        },
+        {
+          "t": "NÃO.",
+          "cor": true
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "em": 24.7,
+      "dur": 3.2,
+      "etiqueta": "Anestesia",
+      "texto": "O tratamento é feito todo anestesiado."
+    }
+  ],
+  "cta": {
+    "dur": 2.6,
+    "texto": "me chama no direct"
+  },
+  "wav": "IMG_6065.wav"
+}

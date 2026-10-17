@@ -1,0 +1,98 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:11,480"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 11480
+			},
+			"text": " final de ano chegando então vamos dar início a temporada das decorações de natal final de ano"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,480",
+				"to": "00:00:19,360"
+			},
+			"offsets": {
+				"from": 11480,
+				"to": 19360
+			},
+			"text": " chegando isso quer dizer o que vamos dar início a decoração do escritório que sempre é um evento"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,360",
+				"to": "00:00:27,320"
+			},
+			"offsets": {
+				"from": 19360,
+				"to": 27320
+			},
+			"text": " quando se trata de decoração de natal quem me acompanha aqui no instagram tem pinho sabe que a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,320",
+				"to": "00:00:35,960"
+			},
+			"offsets": {
+				"from": 27320,
+				"to": 35960
+			},
+			"text": " árvore de natal tem simplesmente quase 5 metros e fica na recepção do escritório então para"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,960",
+				"to": "00:00:46,280"
+			},
+			"offsets": {
+				"from": 35960,
+				"to": 46280
+			},
+			"text": " ornamentar é um evento só que esse ano nós queremos algo mais nós queremos algo mais grandioso"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,280",
+				"to": "00:00:54,080"
+			},
+			"offsets": {
+				"from": 46280,
+				"to": 54080
+			},
+			"text": " ao nível dos nossos clientes então vamos para a saga da decoração do natal 2026"
+		}
+	]
+}

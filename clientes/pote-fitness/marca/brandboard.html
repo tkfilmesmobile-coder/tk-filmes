@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--verde:#16321D;--folha:#5D7B33;--creme:#FDF9EF;--morango:#C8262E;--manga:#F8D528}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{width:1080px;height:1350px;background:var(--creme);color:var(--verde);font-family:Montserrat,sans-serif;padding:56px 72px 64px;display:flex;flex-direction:column;gap:32px}
+  .label{font-size:15px;letter-spacing:.32em;text-transform:uppercase;font-weight:500;color:var(--folha)}
+  header{display:flex;align-items:center;gap:44px;border-bottom:1.5px solid var(--verde);padding-bottom:36px}
+  header img{width:280px;height:280px}
+  header h1{font-family:'Playfair Display',serif;font-weight:800;font-size:96px;line-height:.95;letter-spacing:.01em}
+  header h1 span{display:block;font-family:Montserrat;font-weight:300;font-size:30px;letter-spacing:.55em;margin-top:14px}
+  header p{margin-top:22px;font-size:17px;letter-spacing:.3em;text-transform:uppercase;font-weight:500;color:var(--folha)}
+  .cores{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:16px}
+  .cor .sw{height:130px;border-radius:14px;border:1px solid rgba(22,50,29,.18)}
+  .cor b{display:block;margin-top:12px;font-size:16px;font-weight:600}
+  .cor small{font-size:14px;letter-spacing:.08em;color:#4a5a4c}
+  .tipos{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;margin-top:16px}
+  .t1{font-family:'Playfair Display',serif;font-weight:700;font-size:66px;line-height:1}
+  .t2{font-weight:400;font-size:22px;line-height:1.5}
+  .tipos small{display:block;margin-top:12px;font-size:14px;letter-spacing:.12em;color:#4a5a4c}
+  .aplic{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:16px;flex:1}
+  .card{border-radius:18px;padding:36px;display:flex;flex-direction:column;justify-content:space-between}
+  .c1{background:var(--verde);color:var(--creme)}
+  .c2{background:#fff;border:1.5px solid var(--verde)}
+  .card .k{font-size:13px;letter-spacing:.35em;text-transform:uppercase;font-weight:500;opacity:.85}
+  .card h3{font-family:'Playfair Display',serif;font-weight:700;font-size:46px;line-height:1.05;margin:18px 0}
+  .card h3 em{font-style:italic;color:var(--manga)}
+  .c2 h3 em{color:var(--morango)}
+  .card p{font-size:17px;line-height:1.5;opacity:.9}
+  .btn{align-self:flex-start;margin-top:22px;background:var(--morango);color:#fff;font-weight:600;font-size:15px;letter-spacing:.2em;text-transform:uppercase;padding:14px 24px;border-radius:999px}
+  .c2 .btn{background:var(--verde)}
+  .perfil{display:flex;align-items:center;gap:18px;margin-top:22px}
+  .perfil img{width:84px;height:84px;border-radius:50%}
+  .perfil b{font-size:17px}
+</style>
+</head>
+<body>
+  <header>
+    <img src="logo-principal.webp" alt="">
+    <div>
+      <h1>POTE<span>FITNESS</span></h1>
+      <p>Salada de frutas · Delivery</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="label">Paleta</div>
+    <div class="cores">
+      <div class="cor"><div class="sw" style="background:#16321D"></div><b>Verde floresta</b><small>#16321D · principal</small></div>
+      <div class="cor"><div class="sw" style="background:#5D7B33"></div><b>Verde folha</b><small>#5D7B33 · apoio</small></div>
+      <div class="cor"><div class="sw" style="background:#FDF9EF"></div><b>Creme</b><small>#FDF9EF · fundo</small></div>
+      <div class="cor"><div class="sw" style="background:#C8262E"></div><b>Morango</b><small>#C8262E · destaque</small></div>
+      <div class="cor"><div class="sw" style="background:#F8D528"></div><b>Manga</b><small>#F8D528 · detalhe</small></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Tipografia</div>
+    <div class="tipos">
+      <div><div class="t1">Fruta fresca, no pote.</div><small>PLAYFAIR DISPLAY · títulos</small></div>
+      <div><div class="t2">Aa Bb Cc 0123<br>Lanche saudável, prático e de qualidade.</div><small>MONTSERRAT · texto e apoio</small></div>
+    </div>
+  </section>
+
+  <section class="aplic">
+    <div class="card c1">
+      <div>
+        <div class="k">Salada de frutas</div>
+        <h3>O lanche que <em>cabe</em> no seu dia.</h3>
+        <p>Salada de frutas no pote, entregue na sua porta.</p>
+      </div>
+      <div class="btn">Peça no delivery</div>
+    </div>
+    <div class="card c2">
+      <div>
+        <div class="k">Perfil no Instagram</div>
+        <div class="perfil"><img src="logo-reduzida-perfil.png" alt=""><div><b>Pote Fitness</b><br><small>Salada de frutas · delivery</small></div></div>
+        <h3>Leve, <em>doce</em> e de verdade.</h3>
+      </div>
+      <div class="btn">Ver cardápio</div>
+    </div>
+  </section>
+</body>
+</html>

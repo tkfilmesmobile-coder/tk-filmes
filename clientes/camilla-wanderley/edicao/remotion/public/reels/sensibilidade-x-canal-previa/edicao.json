@@ -1,0 +1,174 @@
+{
+ "fps": 30,
+ "durationInFrames": 222,
+ "props": {
+  "fonte": "midia/sensibilidade-x-canal.mp4",
+  "videoFrames": 222,
+  "quadros": [
+   {
+    "de": 0,
+    "ate": 75,
+    "escala": 1.0,
+    "ox": 545,
+    "oy": 616
+   },
+   {
+    "de": 75,
+    "ate": 222,
+    "escala": 1.0,
+    "ox": 557,
+    "oy": 633
+   }
+  ],
+  "legendas": [
+   {
+    "text": " Você",
+    "startMs": 0,
+    "endMs": 200
+   },
+   {
+    "text": " sente",
+    "startMs": 200,
+    "endMs": 460
+   },
+   {
+    "text": " algum",
+    "startMs": 460,
+    "endMs": 680
+   },
+   {
+    "text": " incômodo",
+    "startMs": 680,
+    "endMs": 1140
+   },
+   {
+    "text": " ao",
+    "startMs": 1140,
+    "endMs": 1300
+   },
+   {
+    "text": " consumir",
+    "startMs": 1300,
+    "endMs": 1760
+   },
+   {
+    "text": " algo",
+    "startMs": 1760,
+    "endMs": 1960
+   },
+   {
+    "text": " gelado?",
+    "startMs": 1960,
+    "endMs": 2420
+   },
+   {
+    "text": " Tá",
+    "startMs": 2500,
+    "endMs": 2620
+   },
+   {
+    "text": " na",
+    "startMs": 2620,
+    "endMs": 2740
+   },
+   {
+    "text": " dúvida",
+    "startMs": 2740,
+    "endMs": 3040
+   },
+   {
+    "text": " se",
+    "startMs": 3040,
+    "endMs": 3280
+   },
+   {
+    "text": " isso",
+    "startMs": 3280,
+    "endMs": 3420
+   },
+   {
+    "text": " é",
+    "startMs": 3420,
+    "endMs": 3480
+   },
+   {
+    "text": " uma",
+    "startMs": 3480,
+    "endMs": 3580
+   },
+   {
+    "text": " sensibilidade",
+    "startMs": 3580,
+    "endMs": 4280
+   },
+   {
+    "text": " comum",
+    "startMs": 4280,
+    "endMs": 4700
+   },
+   {
+    "text": " ou",
+    "startMs": 4700,
+    "endMs": 5020
+   },
+   {
+    "text": " um",
+    "startMs": 5020,
+    "endMs": 5180
+   },
+   {
+    "text": " canal?",
+    "startMs": 5180,
+    "endMs": 5480
+   },
+   {
+    "text": " Eu",
+    "startMs": 5720,
+    "endMs": 5900
+   },
+   {
+    "text": " vou",
+    "startMs": 5900,
+    "endMs": 6020
+   },
+   {
+    "text": " te",
+    "startMs": 6020,
+    "endMs": 6120
+   },
+   {
+    "text": " explicar",
+    "startMs": 6120,
+    "endMs": 6440
+   },
+   {
+    "text": " como",
+    "startMs": 6440,
+    "endMs": 6680
+   },
+   {
+    "text": " funciona.",
+    "startMs": 6680,
+    "endMs": 7200
+   }
+  ],
+  "headlines": [
+   {
+    "from": 111,
+    "durationInFrames": 59,
+    "linhas": [
+     {
+      "t": "SENSIBILIDADE"
+     },
+     {
+      "t": "OU CANAL?",
+      "cor": true
+     }
+    ],
+    "pos": "baixo"
+   }
+  ],
+  "cards": [],
+  "cta": null
+ }
+}

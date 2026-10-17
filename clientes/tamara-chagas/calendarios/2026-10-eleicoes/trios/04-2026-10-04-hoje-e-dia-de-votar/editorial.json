@@ -1,0 +1,31 @@
+{
+ "fonte": "Previdência · 18/09/2026 · TSE",
+ "telas": [
+  {
+   "kicker": "1º TURNO · 04/10",
+   "titulo": "Hoje o voto é <b>prova de vida.</b>",
+   "foto": "tamara/tamara-estudio-0156.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Checklist de hoje.",
+   "tam": 84,
+   "texto": "⏰ das 8h às 17h (Brasília)<br><br>🪪 documento oficial com foto<br><br>📍 local no e-Título<br><br>🧾 votou = prova de vida no INSS<br><br>👵 70 anos ou mais: voto opcional"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Sou aposentada. Votando hoje, ainda preciso fazer prova de vida?”",
+   "tam": 64,
+   "texto": "Não precisa! O INSS recebe a informação do voto e já conta como prova de vida. Só não esquece o documento com foto."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

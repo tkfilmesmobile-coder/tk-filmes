@@ -1,0 +1,31 @@
+{
+ "fonte": "Lei 8.213/1991, arts. 11, VII e §1º; 39 e 106",
+ "telas": [
+  {
+   "kicker": "PARTE 1 · TRABALHADOR RURAL",
+   "titulo": "A resposta da <b>Dra. Tamara.</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Trabalhador rural e INSS.",
+   "tam": 84,
+   "texto": "1. <b>Não precisa</b> contribuir mês a mês<br><br>2. Tem que trabalhar em <b>regime de economia familiar</b><br><br>3. O que garante o benefício é a <b>prova do trabalho no campo</b><br><br>📂 Nota de venda, bloco do produtor, contrato de parceria, documento da terra"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“O que é esse tal de 'regime de economia familiar'?”",
+   "tam": 64,
+   "texto": "É quando a família trabalha junto na roça, sem ter empregado fixo, e vive daquilo. Quem trabalha assim é segurado especial, e cada caso precisa ser analisado direitinho, tá?"
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

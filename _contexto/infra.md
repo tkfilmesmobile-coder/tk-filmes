@@ -7,5 +7,5 @@
 |---|---|---|---|---|
 | domínio | Registro.br | tkfilme.com.br | Talyta | registrado, sem site no ar |
 | email | Gmail | tkfilmesmobile@gmail.com | Talyta | |
-| Instagram | Instagram | @tkfilmesmobile | Talyta | |
+| Instagram | Instagram | @tk.filmes (era @tkfilmesmobile até 2026-09-29) | Talyta | token no `.env` como `TK_FILMES` |
 | arquivos de clientes | Google Drive | conta tkfilmesmobile | Talyta | vídeos, fotos e entregas pesadas ficam aqui, não no git |

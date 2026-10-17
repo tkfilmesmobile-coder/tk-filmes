@@ -1,0 +1,648 @@
+[
+  {
+    "text": "Acabou",
+    "startMs": 90,
+    "endMs": 480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 480,
+    "endMs": 560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " prova",
+    "startMs": 560,
+    "endMs": 970,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 970,
+    "endMs": 1130,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " vida",
+    "startMs": 1130,
+    "endMs": 1460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 1460,
+    "endMs": 1750,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " INSS.",
+    "startMs": 1750,
+    "endMs": 2000,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Você",
+    "startMs": 2243,
+    "endMs": 2403,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sabia",
+    "startMs": 2403,
+    "endMs": 2713,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 2713,
+    "endMs": 2973,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 2973,
+    "endMs": 2993,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " partir",
+    "startMs": 2993,
+    "endMs": 3383,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 3383,
+    "endMs": 3513,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " momento",
+    "startMs": 3513,
+    "endMs": 4033,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 4033,
+    "endMs": 4153,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " você",
+    "startMs": 4153,
+    "endMs": 4253,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " vai",
+    "startMs": 4253,
+    "endMs": 4353,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nas",
+    "startMs": 4353,
+    "endMs": 4613,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " urnas",
+    "startMs": 4613,
+    "endMs": 5013,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " votar,",
+    "startMs": 5013,
+    "endMs": 5273,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " agora",
+    "startMs": 5273,
+    "endMs": 5473,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " dia",
+    "startMs": 5473,
+    "endMs": 5873,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " 4/10,",
+    "startMs": 5873,
+    "endMs": 6593,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " já",
+    "startMs": 6593,
+    "endMs": 6913,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " é",
+    "startMs": 6913,
+    "endMs": 6923,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " computada",
+    "startMs": 6923,
+    "endMs": 7523,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " automaticamente",
+    "startMs": 7523,
+    "endMs": 8523,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " na",
+    "startMs": 8523,
+    "endMs": 8663,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " Receita",
+    "startMs": 8663,
+    "endMs": 9123,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " Federal",
+    "startMs": 9123,
+    "endMs": 9683,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 9683,
+    "endMs": 9823,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sua",
+    "startMs": 9823,
+    "endMs": 10013,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " prova",
+    "startMs": 10013,
+    "endMs": 10363,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " de",
+    "startMs": 10363,
+    "endMs": 10523,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " vida?",
+    "startMs": 10523,
+    "endMs": 11113,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " A",
+    "startMs": 11113,
+    "endMs": 11253,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " Receita",
+    "startMs": 11253,
+    "endMs": 11693,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " Federal",
+    "startMs": 11693,
+    "endMs": 12203,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " agora",
+    "startMs": 12203,
+    "endMs": 12573,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " acaba",
+    "startMs": 12573,
+    "endMs": 13033,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " de",
+    "startMs": 13033,
+    "endMs": 13083,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " lançar",
+    "startMs": 13083,
+    "endMs": 13653,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " esse",
+    "startMs": 13653,
+    "endMs": 13883,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " novo",
+    "startMs": 13883,
+    "endMs": 14223,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sistema.",
+    "startMs": 14223,
+    "endMs": 14793,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Quando",
+    "startMs": 14917,
+    "endMs": 15867,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " você",
+    "startMs": 15867,
+    "endMs": 16047,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " vota",
+    "startMs": 16047,
+    "endMs": 16637,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nas",
+    "startMs": 16637,
+    "endMs": 16977,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " urnas,",
+    "startMs": 16977,
+    "endMs": 17557,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " automaticamente",
+    "startMs": 17557,
+    "endMs": 18317,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " já",
+    "startMs": 18317,
+    "endMs": 18487,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fica",
+    "startMs": 18487,
+    "endMs": 18667,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " registrada",
+    "startMs": 18667,
+    "endMs": 19227,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 19227,
+    "endMs": 19377,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sua",
+    "startMs": 19377,
+    "endMs": 19427,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " prova",
+    "startMs": 19427,
+    "endMs": 19727,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 19727,
+    "endMs": 19837,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " vida.",
+    "startMs": 19837,
+    "endMs": 20267,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " A",
+    "startMs": 20367,
+    "endMs": 20557,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " partir",
+    "startMs": 20557,
+    "endMs": 20837,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 20837,
+    "endMs": 20967,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " momento",
+    "startMs": 20967,
+    "endMs": 21437,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 21437,
+    "endMs": 21647,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " você",
+    "startMs": 21647,
+    "endMs": 21987,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " vota,",
+    "startMs": 21987,
+    "endMs": 22407,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " você",
+    "startMs": 22407,
+    "endMs": 22467,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " não",
+    "startMs": 22467,
+    "endMs": 22587,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " precisa",
+    "startMs": 22587,
+    "endMs": 22647,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ir",
+    "startMs": 22647,
+    "endMs": 22807,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " mais",
+    "startMs": 22807,
+    "endMs": 22937,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nas",
+    "startMs": 22937,
+    "endMs": 23067,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " agências",
+    "startMs": 23067,
+    "endMs": 23437,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " bancárias",
+    "startMs": 23437,
+    "endMs": 23887,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fazer",
+    "startMs": 23887,
+    "endMs": 24277,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 24277,
+    "endMs": 24337,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " prova",
+    "startMs": 24337,
+    "endMs": 24717,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 24717,
+    "endMs": 24867,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " vida,",
+    "startMs": 24867,
+    "endMs": 25367,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " acabando",
+    "startMs": 25367,
+    "endMs": 25607,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " gerando",
+    "startMs": 25607,
+    "endMs": 25927,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " aquele",
+    "startMs": 25927,
+    "endMs": 26257,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " transtorno.",
+    "startMs": 26257,
+    "endMs": 26847,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Agora",
+    "startMs": 27297,
+    "endMs": 27467,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ficou",
+    "startMs": 27467,
+    "endMs": 27857,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " muito",
+    "startMs": 27857,
+    "endMs": 28267,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " mais",
+    "startMs": 28267,
+    "endMs": 28587,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fácil,",
+    "startMs": 28587,
+    "endMs": 29067,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " né?",
+    "startMs": 29067,
+    "endMs": 29067,
+    "timestampMs": null,
+    "confidence": null,
+    "pageBreakAfter": true
+  }
+]

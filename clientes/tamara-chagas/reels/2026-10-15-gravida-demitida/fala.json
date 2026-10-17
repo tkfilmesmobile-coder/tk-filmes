@@ -1,0 +1,109 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,320"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3320
+			},
+			"text": " grávida, demitida por justa causa."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,320",
+				"to": "00:00:06,080"
+			},
+			"offsets": {
+				"from": 3320,
+				"to": 6080
+			},
+			"text": " Será que é ante direito ao benefício de salário maternidade?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,080",
+				"to": "00:00:12,200"
+			},
+			"offsets": {
+				"from": 6080,
+				"to": 12200
+			},
+			"text": " A demissão por justa causa não tira o direito da mãe em receber o benefício de salário"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,200",
+				"to": "00:00:13,200"
+			},
+			"offsets": {
+				"from": 12200,
+				"to": 13200
+			},
+			"text": " maternidade."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,200",
+				"to": "00:00:19,520"
+			},
+			"offsets": {
+				"from": 13200,
+				"to": 19520
+			},
+			"text": " Se na data do parto ela tiver a qualidade dessegurada para concessão do benefício,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,520",
+				"to": "00:00:25,680"
+			},
+			"offsets": {
+				"from": 19520,
+				"to": 25680
+			},
+			"text": " ele é devido, mas neste caso não vai ser devido pelo empregador, porque existiu a demissão"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,680",
+				"to": "00:00:29,200"
+			},
+			"offsets": {
+				"from": 25680,
+				"to": 29200
+			},
+			"text": " por justa causa e sim pelo NSS."
+		}
+	]
+}

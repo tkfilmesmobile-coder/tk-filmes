@@ -1,0 +1,202 @@
+/* Ary Magalhães · base das artes (ver marca/design-guide.md) */
+:root{
+  --preto:#141210; --cafe:#5A3E2B; --bege:#EDE6DC; --bege2:#D8C9B5;
+  --ouro:#CBA14F; --branco:#FAF7F2;
+  --degrade:linear-gradient(100deg,#B8873D 0%,#E3C68A 45%,#C9984A 70%,#A9783A 100%);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#888;font-family:'Poppins',sans-serif}
+.slide{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--bege);margin-bottom:20px}
+.slide.stories{height:1920px}
+.slide.escuro{background:var(--preto)}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bg.suave{opacity:.35;filter:blur(2px)}
+.fade-bottom{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,18,16,0) 45%,rgba(20,18,16,.55) 68%,rgba(20,18,16,.88) 100%)}
+.fade-bottom.forte{background:linear-gradient(180deg,rgba(20,18,16,0) 35%,rgba(20,18,16,.7) 62%,rgba(20,18,16,.94) 100%)}
+.fade-total{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(20,18,16,.55),rgba(20,18,16,.92))}
+
+.pills{position:absolute;top:64px;left:72px;right:72px;display:flex;justify-content:space-between;z-index:3}
+.pills span,.pill-unica{border:1.5px solid var(--cafe);color:var(--cafe);border-radius:999px;padding:12px 30px;
+  font-size:22px;letter-spacing:.18em;text-transform:uppercase;font-weight:400}
+.pills.claro span{border-color:rgba(250,247,242,.85);color:var(--branco)}
+.pill-unica{display:inline-block;margin-top:56px;border-color:var(--ouro);color:var(--ouro);text-transform:none;letter-spacing:.08em}
+
+.bloco{position:absolute;left:84px;right:84px;z-index:3}
+.bloco.baixo{bottom:96px}
+.bloco.centro{top:50%;transform:translateY(-50%);text-align:center}
+
+h1,h2{font-family:'Bodoni Moda',serif;font-weight:400;line-height:.95;letter-spacing:-.01em}
+h1.gigante{font-size:250px}
+h2{font-size:132px;margin:10px 0 26px}
+h2.grande{font-size:170px}
+.ouro{background:var(--degrade);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+.kicker{font-size:24px;letter-spacing:.32em;text-transform:uppercase;font-weight:400;color:var(--cafe)}
+.kicker.claro{color:rgba(250,247,242,.85)}
+.texto{font-size:38px;line-height:1.45;font-weight:300;color:var(--preto);max-width:860px}
+.texto.claro{color:var(--branco)}
+.bloco.centro .texto{margin:0 auto}
+
+.split{position:absolute;top:190px;bottom:150px;left:72px;right:72px;display:flex;gap:56px;align-items:center}
+.col-texto{flex:1}
+.col-foto{width:470px;height:100%;border-radius:240px 240px 24px 24px;overflow:hidden;box-shadow:0 30px 60px rgba(90,62,43,.25)}
+.col-foto img{width:100%;height:100%;object-fit:cover}
+.fio{width:90px;height:2px;background:var(--ouro);margin:36px 0}
+.assinatura{position:absolute;bottom:64px;left:0;right:0;text-align:center;font-size:24px;letter-spacing:.12em;color:var(--cafe)}
+
+/* caixinha de perguntas (ref 06) */
+.caixinha{position:absolute;right:70px;bottom:120px;width:560px;background:rgba(250,247,242,.96);border-radius:34px;
+  overflow:hidden;box-shadow:0 30px 70px rgba(20,18,16,.35);z-index:3}
+.cx-topo{display:flex;align-items:center;gap:18px;padding:34px 38px 0;font-size:32px;color:var(--cafe)}
+.cx-bola{width:48px;height:48px;border-radius:50%;background:var(--cafe)}
+.cx-texto{padding:22px 38px 34px;font-size:40px;line-height:1.3;font-weight:300;font-style:italic;color:var(--preto)}
+.cx-texto b{font-weight:500;font-style:normal}
+.cx-botao{background:var(--cafe);color:var(--branco);padding:24px 38px;font-size:28px}
+.pills.claro::before{content:"";position:absolute;left:-72px;right:-72px;top:-64px;height:260px;z-index:-1;
+  background:linear-gradient(180deg,rgba(20,18,16,.45),rgba(20,18,16,0))}
+
+/* ===== revisão 2026-10-10: menos formal, mais claro ===== */
+:root{
+  --champanhe:#EAD9B8;                     /* título sobre foto */
+  --degrade-claro:linear-gradient(100deg,#5A3E2B 0%,#8E6440 45%,#C9A475 100%); /* título sobre fundo claro (ref 03) */
+}
+.fade-claro{position:absolute;inset:0;background:linear-gradient(180deg,rgba(237,230,220,0) 42%,rgba(237,230,220,.82) 66%,rgba(237,230,220,.97) 100%)}
+.pill-ouro{display:inline-block;margin-top:34px;border:1.5px solid var(--ouro);color:var(--ouro);border-radius:999px;
+  padding:12px 30px;font-size:22px;letter-spacing:.08em}
+.pill-ouro.escura{border-color:#A9803F;color:#8A6635}
+.champanhe{color:var(--champanhe)}
+.ouro-claro{background:var(--degrade-claro);-webkit-background-clip:text;background-clip:text;color:transparent}
+.texto.cafe{color:var(--cafe)}
+.fade-claro.forte{background:linear-gradient(180deg,rgba(237,230,220,0) 32%,rgba(237,230,220,.9) 56%,rgba(237,230,220,.98) 100%)}
+.num{font-family:'Gilda Display',serif;font-variant-numeric:lining-nums;letter-spacing:-.02em}
+.fade-claro.maxi{background:linear-gradient(180deg,rgba(237,230,220,0) 26%,rgba(237,230,220,.93) 50%,rgba(237,230,220,1) 62%)}
+
+/* ===== revisão 2: assinatura discreta + slide "foto que emerge" ===== */
+.assin{position:absolute;left:0;right:0;bottom:52px;text-align:center;z-index:4;
+  font-family:'Poppins',sans-serif;font-weight:400;font-size:22px;letter-spacing:.34em;text-transform:uppercase;color:rgba(250,247,242,.82)}
+.assin.cafe{color:rgba(90,62,43,.75)}
+.assin::before,.assin::after{content:"";display:inline-block;width:46px;height:1px;background:currentColor;vertical-align:middle;margin:0 22px;opacity:.6}
+.bloco.baixo.com-assin{bottom:150px}
+
+/* fundo = a própria foto desfocada; a foto nítida sobe de baixo, sem borda */
+.emerge-fundo{position:absolute;inset:-60px;width:calc(100% + 120px);height:calc(100% + 120px);object-fit:cover;filter:blur(40px) saturate(.9) brightness(1.04)}
+.emerge-foto{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:900px;height:auto;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 16%),linear-gradient(90deg,transparent 0%,#000 14%,#000 86%,transparent 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.topo-texto{position:absolute;top:110px;left:80px;right:80px;text-align:center;z-index:3}
+.topo-texto .pre{font-family:'Poppins',sans-serif;font-weight:300;font-size:30px;letter-spacing:.3em;text-transform:uppercase;color:var(--cafe)}
+.topo-texto .titulo{font-family:'Gilda Display',serif;font-size:250px;line-height:.9;letter-spacing:-.02em;margin:18px 0 10px;
+  background:var(--degrade-claro);-webkit-background-clip:text;background-clip:text;color:transparent}
+.topo-texto .sub{font-family:'Bodoni Moda',serif;font-style:italic;font-size:46px;line-height:1.25;color:var(--cafe)}
+.fade-base{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,18,16,0) 70%,rgba(20,18,16,.55) 100%)}
+.emerge-parede{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 15% 20%,#D6BC9E 0%,rgba(214,188,158,0) 60%),
+  linear-gradient(100deg,#CDB394 0%,#C9B9A2 50%,#C6BDAF 100%)}
+.emerge-foto.v2{top:440px;bottom:auto;width:820px;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 12%),linear-gradient(90deg,transparent 0%,#000 18%,#000 82%,transparent 100%)}
+.topo-texto.v2{top:96px}
+.topo-texto.v2 .titulo{font-size:205px}
+.topo-texto.v2 .sub{font-size:40px}
+
+/* ===== stories (ref 04): foto desfocada + palavra grande + frase ===== */
+.st-fundo{position:absolute;inset:-80px;width:calc(100% + 160px);height:calc(100% + 160px);object-fit:cover;filter:blur(12px) brightness(.8) saturate(.95)}
+.st-veu{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,18,16,.15),rgba(20,18,16,.35))}
+.st-centro{position:absolute;left:90px;right:90px;top:50%;transform:translateY(-50%);text-align:center;z-index:3;color:var(--branco)}
+.st-pre{font-family:'Poppins',sans-serif;font-weight:300;font-size:30px;letter-spacing:.32em;text-transform:uppercase;opacity:.9}
+.st-palavra{font-family:'Bodoni Moda',serif;font-weight:400;font-size:230px;line-height:1;margin:26px 0 30px;letter-spacing:.01em}
+.st-frase{font-family:'Poppins',sans-serif;font-weight:300;font-size:44px;line-height:1.45;letter-spacing:.03em}
+.st-frase b{font-weight:500}
+.slide.stories .assin{bottom:280px}
+.slide.stories .bloco.baixo.com-assin{bottom:360px}
+
+/* ===== cartão sobre foto (ref 05): valores, etapas, produto ===== */
+.cartao{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:700px;background:rgba(237,230,220,.97);
+  border-radius:6px;padding:70px 64px 64px;text-align:center;z-index:3;box-shadow:0 30px 80px rgba(20,18,16,.28)}
+.cartao .c-pre{font-family:'Poppins',sans-serif;font-weight:400;font-size:20px;letter-spacing:.34em;text-transform:uppercase;color:var(--cafe);opacity:.8}
+.cartao .c-tit{font-family:'Bodoni Moda',serif;font-size:64px;line-height:1.08;color:var(--preto);margin:22px 0 10px}
+.cartao .c-sub{font-family:'Poppins',sans-serif;font-weight:300;font-size:26px;line-height:1.5;color:var(--cafe)}
+.cartao .c-fio{width:70px;height:1px;background:var(--ouro);margin:34px auto}
+.cartao .c-linha{display:flex;justify-content:space-between;align-items:baseline;font-family:'Poppins',sans-serif;font-weight:300;
+  font-size:30px;color:var(--preto);padding:14px 0;border-bottom:1px solid rgba(90,62,43,.15)}
+.cartao .c-linha:last-of-type{border-bottom:0}
+.cartao .c-valor{font-family:'Gilda Display',serif;font-size:40px;color:var(--cafe);font-variant-numeric:lining-nums}
+.cartao .c-de{font-family:'Poppins',sans-serif;font-weight:300;font-size:28px;color:var(--cafe);opacity:.7;text-decoration:line-through}
+.cartao .c-grande{font-family:'Gilda Display',serif;font-size:120px;line-height:1;color:var(--cafe);font-variant-numeric:lining-nums;margin:6px 0 8px}
+.cartao .c-grande small{font-size:46px;vertical-align:.9em;margin-right:8px}
+.cartao .c-obs{font-family:'Poppins',sans-serif;font-weight:300;font-size:22px;line-height:1.5;color:var(--cafe);opacity:.85;margin-top:26px}
+.bg.escurece{filter:brightness(.82)}
+
+/* ===== pilha de caixinhas (ref 06): fala de outra pessoa ===== */
+.cx2{position:absolute;width:640px;background:rgba(250,247,242,.97);border-radius:30px;overflow:hidden;z-index:3;
+  box-shadow:0 26px 60px rgba(20,18,16,.30)}
+.cx2.atras{filter:blur(5px);opacity:.88;z-index:2}
+.cx2 .h{display:flex;align-items:center;gap:18px;padding:30px 36px 0}
+.cx2 .av{width:70px;height:70px;border-radius:50%;object-fit:cover}
+.cx2 .nome{font-family:'Poppins',sans-serif;font-weight:500;font-size:28px;color:var(--preto);filter:blur(7px)}
+.cx2 .tag{font-family:'Poppins',sans-serif;font-weight:400;font-size:24px;color:var(--cafe);opacity:.75;margin-left:auto}
+.cx2 .q{padding:22px 36px 32px;font-family:'Poppins',sans-serif;font-weight:300;font-style:italic;font-size:38px;line-height:1.32;color:var(--preto)}
+.cx2 .q b{font-weight:600;font-style:italic}
+.cx2 .r{background:var(--cafe);color:var(--branco);padding:24px 36px;font-family:'Poppins',sans-serif;font-size:28px}
+.dica{position:absolute;left:0;right:0;bottom:120px;text-align:center;z-index:4;font-family:'Poppins',sans-serif;font-weight:300;
+  font-size:30px;color:var(--branco);letter-spacing:.04em}
+
+/* ===== tipográfico sobre luzes (festas) ===== */
+.tipo-centro{position:absolute;left:80px;right:80px;top:50%;transform:translateY(-50%);text-align:center;z-index:3}
+.tipo-centro .grande{font-family:'Bodoni Moda',serif;font-size:150px;line-height:1;color:var(--branco);text-shadow:0 4px 40px rgba(20,18,16,.25)}
+.tipo-centro .e{font-family:'Bodoni Moda',serif;font-style:italic;font-size:70px;color:var(--champanhe);margin:6px 0}
+.tipo-centro .frase{font-family:'Poppins',sans-serif;font-weight:300;font-size:36px;line-height:1.5;color:var(--branco);margin-top:46px}
+.veu-quente{position:absolute;inset:0;background:rgba(60,42,28,.32)}
+
+/* ===== coluna lateral (ref 02, "brilho que fala por si") ===== */
+.lado-esq{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,18,16,.72) 0%,rgba(20,18,16,.45) 38%,rgba(20,18,16,0) 62%)}
+.coluna{position:absolute;left:80px;width:470px;top:50%;transform:translateY(-50%);z-index:3}
+.coluna .t{font-family:'Bodoni Moda',serif;font-size:118px;line-height:.98;color:var(--champanhe)}
+.coluna .s{font-family:'Poppins',sans-serif;font-weight:300;font-size:30px;line-height:1.5;color:var(--branco);margin-top:30px}
+.coluna .botao{display:inline-flex;align-items:center;gap:14px;margin-top:40px;border:1.5px solid rgba(234,217,184,.8);border-radius:10px;
+  padding:16px 24px;font-family:'Poppins',sans-serif;font-size:24px;color:var(--champanhe)}
+.coluna .botao svg{width:28px;height:28px}
+
+/* revisão caixinhas: mais perto da caixinha real do Instagram, pergunta menor */
+.recorte{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3}
+.cx3{position:absolute;width:560px;background:#FFFFFF;border-radius:26px;overflow:hidden;box-shadow:0 22px 50px rgba(20,18,16,.28)}
+.cx3.atras{filter:blur(4px);opacity:.92}
+.cx3 .h{display:flex;align-items:center;gap:14px;padding:24px 28px 0}
+.cx3 .av{width:54px;height:54px;border-radius:50%;object-fit:cover}
+.cx3 .nome{font-family:'Poppins',sans-serif;font-weight:500;font-size:24px;color:#262626;filter:blur(6px)}
+.cx3 .q{padding:14px 28px 24px;font-family:'Poppins',sans-serif;font-weight:400;font-size:29px;line-height:1.38;color:#262626}
+.cx3 .r{background:var(--cafe);color:#fff;padding:18px 28px;font-family:'Poppins',sans-serif;font-weight:500;font-size:24px}
+
+/* ===== capa educativa (ref 03): foto clara + palavra grande no meio ===== */
+.veu-claro-topo{position:absolute;inset:0;background:linear-gradient(180deg,rgba(250,247,242,.55) 0%,rgba(250,247,242,.15) 55%,rgba(250,247,242,0) 100%)}
+.ref03{position:absolute;left:70px;right:70px;top:200px;text-align:center;z-index:3}
+.ref03.esq{right:auto;width:720px;text-align:left}
+.ref03 .pre{font-family:'Poppins',sans-serif;font-weight:400;font-size:30px;letter-spacing:.14em;text-transform:uppercase;color:#3B2A1E}
+.ref03.esq .palavra{font-size:230px;padding-right:20px;display:inline-block}
+.ref03 .palavra{font-family:'Bodoni Moda',serif;font-size:300px;line-height:1;margin:6px 0 0;
+  background:var(--degrade-claro);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ref03 .sub{font-family:'Poppins',sans-serif;font-weight:300;font-size:38px;line-height:1.4;color:#3B2A1E;margin-top:10px}
+.ref03 .sub b{font-weight:500}
+/* cartão de dica numerada */
+.cartao .c-num{font-family:'Gilda Display',serif;font-size:96px;line-height:1;color:var(--ouro);font-variant-numeric:lining-nums}
+.cartao .c-txt{font-family:'Poppins',sans-serif;font-weight:300;font-size:32px;line-height:1.5;color:var(--preto)}
+
+/* ===== tipográfico claro e sóbrio (datas cívicas) ===== */
+.papel{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 20%,#F4EEE6 0%,#E9E0D3 55%,#DCCDB9 100%)}
+.civico{position:absolute;left:100px;right:100px;top:50%;transform:translateY(-50%);text-align:center;z-index:3}
+.civico .data{font-family:'Poppins',sans-serif;font-weight:400;font-size:28px;letter-spacing:.34em;text-transform:uppercase;color:var(--cafe)}
+.civico .fio{width:80px;height:1px;background:var(--ouro);margin:44px auto}
+.civico .t{font-family:'Bodoni Moda',serif;font-size:150px;line-height:1.02;color:var(--preto)}
+.civico .t i{display:inline-block;padding:0 .12em;font-style:italic;color:var(--cafe)}
+.civico .p{font-family:'Poppins',sans-serif;font-weight:300;font-size:36px;line-height:1.55;color:#3B2A1E}
+
+/* ===== dicas no estilo ref 01: texto direto sobre a foto, etiqueta de contorno + checks ===== */
+.r01{position:absolute;left:80px;right:80px;z-index:3}
+.r01 .etq{display:inline-block;border:1.5px solid currentColor;border-radius:999px;padding:12px 30px;font-family:'Poppins',sans-serif;
+  font-weight:400;font-size:24px;letter-spacing:.16em;text-transform:uppercase}
+.r01 .tt{font-family:'Bodoni Moda',serif;font-size:84px;line-height:1.05;margin:30px 0 22px}
+.r01 .tx{font-family:'Poppins',sans-serif;font-weight:300;font-size:34px;line-height:1.5;max-width:760px}
+.r01 .ck{display:flex;align-items:center;gap:20px;font-family:'Poppins',sans-serif;font-weight:300;font-size:36px;margin:16px 0}
+.r01 .ck svg{width:44px;height:44px;flex:none}
+.r01.claro{color:var(--branco)} .r01.claro .tt{color:var(--champanhe)}
+.r01.cafe{color:#3B2A1E} .r01.cafe .tt{color:var(--cafe)}
+.sombra-topo{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,18,16,.55) 0%,rgba(20,18,16,.15) 45%,rgba(20,18,16,0) 65%)}

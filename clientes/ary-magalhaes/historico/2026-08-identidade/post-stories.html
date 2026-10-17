@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&display=swap" rel="stylesheet">
+<style>
+  :root{--preto:#131210;--claro:#F4F1EA;--cinza:#c9c2b4;--ouro:#CBA14F;--ouro-cl:#E0C67F}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1920px}
+  .stage{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:'Nunito Sans',sans-serif;color:var(--claro);background:#c9c2b5}
+  /* foto em tela cheia — protagonista */
+  .foto{position:absolute;inset:0;background:url('ary.jpg') 50% 16%/cover no-repeat}
+  /* leve escurecida no topo pra ler a marca */
+  .top-scrim{position:absolute;top:0;left:0;right:0;height:340px;
+    background:linear-gradient(to bottom, rgba(19,18,16,.55) 0%, rgba(19,18,16,0) 100%)}
+  /* faixa suave embaixo pra ler o texto sem cobrir muito a foto */
+  .bot-scrim{position:absolute;left:0;right:0;bottom:0;height:1020px;
+    background:linear-gradient(to top, rgba(19,18,16,.95) 0%, rgba(19,18,16,.9) 26%, rgba(19,18,16,.62) 52%, rgba(19,18,16,.12) 80%, rgba(19,18,16,0) 100%)}
+
+  .brandtop{position:absolute;top:118px;left:0;width:1080px;text-align:center;z-index:3}
+  .brandtop .nm{font-family:'Poppins',sans-serif;font-size:30px;font-weight:600;letter-spacing:.01em}
+
+  .txt{position:absolute;z-index:3;left:88px;right:88px;bottom:150px}
+  .kicker{font-size:16px;letter-spacing:.46em;text-transform:uppercase;color:var(--ouro-cl);font-weight:600}
+  h1{font-family:'Poppins',sans-serif;font-weight:600;font-size:74px;line-height:1.0;letter-spacing:-.03em;margin-top:20px}
+  h1 em{font-style:normal;color:var(--ouro-cl)}
+  .rule{height:1px;width:150px;background:rgba(224,198,127,.6);margin:34px 0 30px}
+  .body{display:flex;flex-direction:column;gap:20px;max-width:820px}
+  .body p{font-size:26px;line-height:1.5;color:#e8e3d8;font-weight:400}
+  .body .destaque{color:#fff;font-weight:600}
+  .body .dias{color:var(--ouro-cl);font-weight:700}
+  .fecho{margin-top:44px;display:flex;align-items:baseline;gap:20px;flex-wrap:wrap}
+  .fecho .assina{font-family:'Poppins',sans-serif;font-size:32px;font-weight:600;letter-spacing:-.01em}
+  .fecho .at{font-size:16px;letter-spacing:.28em;text-transform:uppercase;color:var(--cinza)}
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="foto"></div>
+    <div class="top-scrim"></div>
+    <div class="bot-scrim"></div>
+
+    <div class="brandtop"><div class="nm">Ary Magalhães</div></div>
+
+    <div class="txt">
+      <div class="kicker">Comunicado</div>
+      <h1>Um afastamento <em>temporário</em></h1>
+      <div class="rule"></div>
+      <div class="body">
+        <p>Por motivos de <span class="destaque">saúde</span>, a Ary Magalhães estará afastada do salão pelos próximos <span class="dias">45 dias</span>.</p>
+        <p>Retornaremos o mais breve possível para cuidar de você com todo o carinho de sempre.</p>
+      </div>
+      <div class="fecho">
+        <div class="assina">Com carinho, Ary</div>
+        <div class="at">@cabelosmagalhaes</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

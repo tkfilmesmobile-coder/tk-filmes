@@ -1,0 +1,527 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2000
+			},
+			"text": " é dessa mesma de pátria, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,000",
+				"to": "00:00:06,380"
+			},
+			"offsets": {
+				"from": 2000,
+				"to": 6380
+			},
+			"text": " Pronto, então a gente comprava vários tamanhos e aí você montava?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,380",
+				"to": "00:00:06,880"
+			},
+			"offsets": {
+				"from": 6380,
+				"to": 6880
+			},
+			"text": " Sim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,880",
+				"to": "00:00:07,880"
+			},
+			"offsets": {
+				"from": 6880,
+				"to": 7880
+			},
+			"text": " Só que aí..."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,880",
+				"to": "00:00:08,880"
+			},
+			"offsets": {
+				"from": 7880,
+				"to": 8880
+			},
+			"text": " Revestia toda a área."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,880",
+				"to": "00:00:10,880"
+			},
+			"offsets": {
+				"from": 8880,
+				"to": 10880
+			},
+			"text": " Revestia... aí o que eu quero de você?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,880",
+				"to": "00:00:19,880"
+			},
+			"offsets": {
+				"from": 10880,
+				"to": 19880
+			},
+			"text": " Revestir, montar a árvore, revestir, aí ela deixa ela bem linda, uma coisa para a frente do escritório."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,880",
+				"to": "00:00:24,880"
+			},
+			"offsets": {
+				"from": 19880,
+				"to": 24880
+			},
+			"text": " Sim, eu tava até pensando lá hoje na frente, se eu voltar na IEI fazer a estrutura toda antes,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,880",
+				"to": "00:00:30,880"
+			},
+			"offsets": {
+				"from": 24880,
+				"to": 30880
+			},
+			"text": " quando eu encontrar com ela, já mostrar ela pronto, aí você chegou e ela descarregou."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,880",
+				"to": "00:00:33,880"
+			},
+			"offsets": {
+				"from": 30880,
+				"to": 33880
+			},
+			"text": " Aí que eu pensei naquele..."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,880",
+				"to": "00:00:34,880"
+			},
+			"offsets": {
+				"from": 33880,
+				"to": 34880
+			},
+			"text": " Arco."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,880",
+				"to": "00:00:38,880"
+			},
+			"offsets": {
+				"from": 34880,
+				"to": 38880
+			},
+			"text": " Arco. Só que... será que dava certo?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,880",
+				"to": "00:00:44,880"
+			},
+			"offsets": {
+				"from": 38880,
+				"to": 44880
+			},
+			"text": " O que eu fiquei pensando é porque a gente tem dois desses, se a gente encaixa, como eles são encaixos,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,880",
+				"to": "00:00:47,880"
+			},
+			"offsets": {
+				"from": 44880,
+				"to": 47880
+			},
+			"text": " tanto a gente consegue deixar ele mais alto quanto consegue deixar ele mais lato."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,880",
+				"to": "00:00:49,880"
+			},
+			"offsets": {
+				"from": 47880,
+				"to": 49880
+			},
+			"text": " Mas ele cairia? Penderia?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,880",
+				"to": "00:00:56,880"
+			},
+			"offsets": {
+				"from": 49880,
+				"to": 56880
+			},
+			"text": " Aí esse é o meu pensamento, a minha preocupação, porque aí só realmente fazendo o teste,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:56,880",
+				"to": "00:01:02,880"
+			},
+			"offsets": {
+				"from": 56880,
+				"to": 62880
+			},
+			"text": " montando os dois juntos, para ver se ele ia fazer isso, porque ali ele não faz, e como é ferro,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,880",
+				"to": "00:01:05,880"
+			},
+			"offsets": {
+				"from": 62880,
+				"to": 65880
+			},
+			"text": " eu acho que não vai fazer, porque ele é bem rico."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,880",
+				"to": "00:01:06,880"
+			},
+			"offsets": {
+				"from": 65880,
+				"to": 66880
+			},
+			"text": " Eu entendi."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,880",
+				"to": "00:01:09,880"
+			},
+			"offsets": {
+				"from": 66880,
+				"to": 69880
+			},
+			"text": " E aí, Helena?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,880",
+				"to": "00:01:10,880"
+			},
+			"offsets": {
+				"from": 69880,
+				"to": 70880
+			},
+			"text": " É, tá pronto."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,880",
+				"to": "00:01:12,880"
+			},
+			"offsets": {
+				"from": 70880,
+				"to": 72880
+			},
+			"text": " Vamos lá?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,880",
+				"to": "00:01:13,880"
+			},
+			"offsets": {
+				"from": 72880,
+				"to": 73880
+			},
+			"text": " Vou contar, vou contar."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,880",
+				"to": "00:01:14,880"
+			},
+			"offsets": {
+				"from": 73880,
+				"to": 74880
+			},
+			"text": " Eu tenho que ser ferro."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,880",
+				"to": "00:01:16,880"
+			},
+			"offsets": {
+				"from": 74880,
+				"to": 76880
+			},
+			"text": " Olha, não anda."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,880",
+				"to": "00:01:19,880"
+			},
+			"offsets": {
+				"from": 76880,
+				"to": 79880
+			},
+			"text": " O que eu estou vendo é o encaixe dele."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,880",
+				"to": "00:01:20,880"
+			},
+			"offsets": {
+				"from": 79880,
+				"to": 80880
+			},
+			"text": " Pronto, só."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,880",
+				"to": "00:01:24,880"
+			},
+			"offsets": {
+				"from": 80880,
+				"to": 84880
+			},
+			"text": " Tá vendo? Ele é todo no ferro, então eu acho que não solta."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,880",
+				"to": "00:01:26,880"
+			},
+			"offsets": {
+				"from": 84880,
+				"to": 86880
+			},
+			"text": " E ele não vai dobrar."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,880",
+				"to": "00:01:29,880"
+			},
+			"offsets": {
+				"from": 86880,
+				"to": 89880
+			},
+			"text": " Porque as peças, como são iguais, elas encaixam uma na outra."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,880",
+				"to": "00:01:32,880"
+			},
+			"offsets": {
+				"from": 89880,
+				"to": 92880
+			},
+			"text": " Mas ela fica... mas a altura..."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:32,880",
+				"to": "00:01:36,880"
+			},
+			"offsets": {
+				"from": 92880,
+				"to": 96880
+			},
+			"text": " A altura pode prender."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,880",
+				"to": "00:01:38,880"
+			},
+			"offsets": {
+				"from": 96880,
+				"to": 98880
+			},
+			"text": " Aí nesse caso, para a gente colocar..."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,880",
+				"to": "00:01:41,880"
+			},
+			"offsets": {
+				"from": 98880,
+				"to": 101880
+			},
+			"text": " E tem que botar parafusar."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:41,880",
+				"to": "00:01:42,880"
+			},
+			"offsets": {
+				"from": 101880,
+				"to": 102880
+			},
+			"text": " Parafusar."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:42,880",
+				"to": "00:01:47,880"
+			},
+			"offsets": {
+				"from": 102880,
+				"to": 107880
+			},
+			"text": " Ou não é bem parafuso... é, seria um parafuso, que a gente teria que colocar em pontos específicos."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,880",
+				"to": "00:01:52,880"
+			},
+			"offsets": {
+				"from": 107880,
+				"to": 112880
+			},
+			"text": " E botar aquele gancho para amarrar o condele por trás."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,880",
+				"to": "00:01:54,880"
+			},
+			"offsets": {
+				"from": 112880,
+				"to": 114880
+			},
+			"text": " É, porque o menino mexe, vão querer tirar foto."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,880",
+				"to": "00:01:56,880"
+			},
+			"offsets": {
+				"from": 114880,
+				"to": 116880
+			},
+			"text": " Não vai ter que ir tirar a noite, isso, Ronaldo?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,880",
+				"to": "00:01:57,880"
+			},
+			"offsets": {
+				"from": 116880,
+				"to": 117880
+			},
+			"text": " Não vai ter."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:57,880",
+				"to": "00:01:59,880"
+			},
+			"offsets": {
+				"from": 117880,
+				"to": 119880
+			},
+			"text": " Todos os dias vai ter que ficar permanente."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,880",
+				"to": "00:02:04,880"
+			},
+			"offsets": {
+				"from": 119880,
+				"to": 124880
+			},
+			"text": " Por isso que os galhos também precisam ser colocados e prender todos, nem para trás."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,880",
+				"to": "00:02:07,880"
+			},
+			"offsets": {
+				"from": 124880,
+				"to": 127880
+			},
+			"text": " Porque também o povo pode passar e levar."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,880",
+				"to": "00:02:08,880"
+			},
+			"offsets": {
+				"from": 127880,
+				"to": 128880
+			},
+			"text": " Entendeu?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,880",
+				"to": "00:02:09,880"
+			},
+			"offsets": {
+				"from": 128880,
+				"to": 129880
+			},
+			"text": " Sim."
+		}
+	]
+}

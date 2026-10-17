@@ -1,0 +1,51 @@
+[
+  {
+    "text": "quando",
+    "startMs": 200,
+    "endMs": 430,
+    "timestampMs": 400,
+    "confidence": 0.538857
+  },
+  {
+    "text": " você",
+    "startMs": 430,
+    "endMs": 790,
+    "timestampMs": 760,
+    "confidence": 0.987743
+  },
+  {
+    "text": " volta",
+    "startMs": 790,
+    "endMs": 1150,
+    "timestampMs": 1020,
+    "confidence": 0.986103
+  },
+  {
+    "text": " no",
+    "startMs": 1150,
+    "endMs": 1290,
+    "timestampMs": 1200,
+    "confidence": 0.970276
+  },
+  {
+    "text": " IN",
+    "startMs": 1290,
+    "endMs": 1500,
+    "timestampMs": 1460,
+    "confidence": 0.697233
+  },
+  {
+    "text": "S",
+    "startMs": 1500,
+    "endMs": 1690,
+    "timestampMs": 1660,
+    "confidence": 0.928187
+  },
+  {
+    "text": ".",
+    "startMs": 1690,
+    "endMs": 1760,
+    "timestampMs": 1660,
+    "confidence": 0.606063
+  }
+]

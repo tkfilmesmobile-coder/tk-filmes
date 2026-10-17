@@ -64,7 +64,7 @@ def pagina(c, story=False):
   {lista}
   {f'<p class="nota">{c["nota"]}</p>' if c.get('nota') else ''}
   <div class="fonte"><b>FONTE</b>{c['fonte']}</div>
-  <div class="leia"><b>Leia</b> a legenda <i>↘</i></div>
+  {'' if c.get('sem_leia') else '<div class="leia"><b>Leia</b> a legenda <i>↘</i></div>'}
 </div>
 <img class="logo" src="{MARCA}/logo-escuro-recortado.png">
 </div></body></html>"""

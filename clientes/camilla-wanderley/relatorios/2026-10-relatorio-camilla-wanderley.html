@@ -1,0 +1,193 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+@page{size:A4;margin:0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Nunito,sans-serif;color:#4A2F33;background:#FBF4F2;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.pg{width:210mm;height:297mm;padding:18mm 17mm 16mm;position:relative;page-break-after:always;overflow:hidden;background:#FBF4F2}
+.pg:last-child{page-break-after:auto}
+h1{font-family:'Playfair Display',serif;font-weight:600;font-size:40pt;line-height:1.02;color:#7E2A38}
+h2{font-family:'Playfair Display',serif;font-weight:600;font-size:25pt;line-height:1.1;color:#7E2A38;margin-bottom:2mm}
+.sub{font-size:11pt;color:#8a5f66;line-height:1.5;margin-bottom:6mm}
+.tag{display:inline-block;background:#F3D9DC;color:#7E2A38;font-weight:800;font-size:8pt;letter-spacing:2px;text-transform:uppercase;padding:1.6mm 4mm;border-radius:20px;margin-bottom:4mm}
+p{font-size:10.5pt;line-height:1.6}
+b{color:#7E2A38}
+.rod{position:absolute;bottom:8mm;left:17mm;right:17mm;display:flex;justify-content:space-between;font-size:8pt;color:#b78c92}
+/* capa */
+.capa{display:grid;grid-template-columns:1fr 78mm;gap:8mm;height:100%}
+.capa .foto{border-radius:6mm;overflow:hidden;height:100%}
+.capa .foto img{width:100%;height:100%;object-fit:cover;object-position:19% center}
+.capa .txt{display:flex;flex-direction:column;justify-content:center}
+.capa .assina{margin-top:10mm;font-size:9.5pt;color:#8a5f66;line-height:1.6}
+/* ganhos */
+.ganhos{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:4mm}
+.g{background:#fff;border-radius:5mm;padding:6mm;box-shadow:0 2mm 6mm rgba(126,42,56,.06)}
+.g .ic{font-size:22pt}
+.g .num{font-family:'Playfair Display',serif;font-weight:700;font-size:30pt;color:#7E2A38;line-height:1;margin-top:2mm}
+.g .tit{font-weight:800;font-size:11.5pt;margin-top:2mm;color:#4A2F33}
+.g .ex{font-size:9.3pt;color:#8a5f66;margin-top:1.5mm;line-height:1.5}
+.up{display:inline-block;background:#E3F1E6;color:#3E7B4F;font-weight:800;font-size:8.5pt;border-radius:10px;padding:.6mm 2.5mm;margin-left:1mm;vertical-align:middle}
+.nota{background:#7E2A38;color:#fff;border-radius:5mm;padding:6mm 7mm;margin-top:6mm}
+.nota p{color:#fff}.nota b{color:#FFD3DA}
+/* antes x depois */
+.cmp{background:#fff;border-radius:4mm;padding:3mm 5mm;margin-bottom:2.4mm}
+.cmpt{font-weight:800;font-size:10pt;margin-bottom:2mm}
+.lin{display:grid;grid-template-columns:20mm 1fr 30mm;align-items:center;gap:3mm;margin:1.2mm 0;font-size:9pt;color:#8a5f66}
+.trilho{height:4.2mm;background:#F6E9E8;border-radius:3mm;overflow:hidden;display:block}
+.b{display:block;height:100%;border-radius:3mm}.b.a{background:#E2C2C6}.b.d{background:#C9566A}
+.val{text-align:right}
+.faixa{display:flex;gap:1.6mm;align-items:flex-end;background:#fff;border-radius:4mm;padding:3mm 5mm 2mm;margin-top:2mm}
+.sem{display:flex;flex-direction:column-reverse;align-items:center;gap:1mm;flex:1}
+.sem i{width:3.2mm;height:3.2mm;border-radius:50%;background:#E2C2C6;display:block}
+.sem i.tk{background:#C9566A}.sem i.vazio{background:transparent;border:1px dashed #e3cfd2}
+.sem span{font-size:6pt;color:#b78c92;margin-top:1mm}
+.leg{font-size:8.5pt;color:#8a5f66;margin-top:2mm}
+.leg i{display:inline-block;width:3mm;height:3mm;border-radius:50%;vertical-align:middle;margin:0 1mm 0 3mm}
+/* imagem */
+.pilares{display:grid;grid-template-columns:1fr 1fr;gap:4.5mm}
+.pl{background:#fff;border-radius:5mm;padding:5.5mm}
+.pl .n{width:8mm;height:8mm;border-radius:50%;background:#F3D9DC;color:#7E2A38;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:10pt}
+.pl .t{font-family:'Playfair Display',serif;font-weight:600;font-size:13.5pt;color:#7E2A38;margin:2.5mm 0 1.5mm}
+.pl p{font-size:9.3pt;line-height:1.55;color:#5c3d42}
+.pl .prova{margin-top:2.5mm;font-size:8.6pt;background:#FBF0F0;border-radius:3mm;padding:2.2mm 3mm;color:#7E2A38}
+/* destaques */
+.dest{display:grid;grid-template-columns:repeat(3,1fr);gap:4.5mm}
+.dc{background:#fff;border-radius:5mm;overflow:hidden}
+.dc img{width:100%;height:58mm;object-fit:cover;object-position:center 25%;display:block}
+.dc .in{padding:4mm}
+.dc .num{font-family:'Playfair Display',serif;font-weight:700;font-size:20pt;color:#7E2A38;line-height:1}
+.dc .t{font-weight:800;font-size:9.5pt;margin-top:1.5mm}
+.dc .ex{font-size:8.5pt;color:#8a5f66;margin-top:1mm;line-height:1.45}
+.at{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-top:5mm}
+.ai{background:#fff;border-radius:4mm;padding:4.5mm;border-left:2mm solid #E8A9B3}
+.ai .t{font-weight:800;font-size:10pt}
+.ai p{font-size:8.9pt;color:#5c3d42;margin-top:1mm;line-height:1.5}
+/* próximos */
+.passos{display:grid;gap:3.5mm}
+.ps{background:#fff;border-radius:4mm;padding:4.5mm 5mm;display:grid;grid-template-columns:10mm 1fr;gap:3mm;align-items:start}
+.ps .ic{font-size:17pt}
+.ps .t{font-weight:800;font-size:10.5pt}
+.ps p{font-size:9.2pt;color:#5c3d42;line-height:1.5}
+.glos{background:#F3E1E3;border-radius:5mm;padding:5mm 6mm;margin-top:6mm}
+.glos .t{font-weight:800;font-size:10pt;color:#7E2A38;margin-bottom:2mm}
+.glos p{font-size:8.8pt;line-height:1.6;color:#5c3d42}
+</style></head><body>
+
+<section class="pg"><div class="capa">
+<div class="txt">
+<span class="tag">relatório · outubro 2026</span>
+<h1>Seu Instagram,<br>6 semanas<br>depois</h1>
+<p class="sub" style="margin-top:6mm">O que mudou no <b>@dra.camillawanderley</b> desde que começamos a trabalhar juntas,
+em 03/09/2026, até 15/10/2026. Em linguagem simples, com os números certinhos.</p>
+<div class="assina">Preparado pela <b>TK Filmes</b><br>para a Dra. Camilla Wanderley · Clínica Geral e Endodontia</div>
+</div>
+<div class="foto"><img src="file:///C:/Users/tamar/TK FILMES/clientes/camilla-wanderley/posts/2026-10/05-uniao-195-anos/fotos/0164.jpg"></div>
+</div></section>
+
+<section class="pg">
+<span class="tag">em 30 segundos</span>
+<h2>O que a gente conquistou</h2>
+<p class="sub">Comparando com os 3 meses antes de começarmos.</p>
+<div class="ganhos">
+<div class="g"><div class="ic">📅</div><div class="num">2,1<span style="font-size:13pt"> posts/semana</span></div>
+<div class="tit">Quase o dobro de presença</div><div class="ex">Antes eram 1,2 por semana. Você passou a aparecer com constância, que é o que faz as pessoas lembrarem de você.</div></div>
+<div class="g"><div class="ic">👀</div><div class="num">7.913</div>
+<div class="tit">Mais gente assistindo <span class="up">+34%</span></div><div class="ex">Visualizações nos últimos 28 dias: a maior marca dos últimos 4 meses.</div></div>
+<div class="g"><div class="ic">💬</div><div class="num">311</div>
+<div class="tit">Mais conversa <span class="up">+71%</span></div><div class="ex">Curtidas, comentários, compartilhamentos e mensagens nos últimos 28 dias, contra 182 nos 28 dias anteriores.</div></div>
+<div class="g"><div class="ic">🏆</div><div class="num">1.013</div>
+<div class="tit">Um vídeo campeão</div><div class="ex">Pessoas que viram o reels da mancha branca (11/09): o 2º maior alcance do seu perfil nos últimos 12 meses.</div></div>
+</div>
+<div class="nota"><p><b>E o mais importante:</b> o nosso objetivo não é viralizar, é construir uma <b>imagem sólida</b> da Dra. Camilla:
+a dentista em quem as pessoas confiam pra cuidar do dente, e principalmente pra <b>salvar o dente com o canal</b>.
+Na página 4 está o que já foi construído nesse sentido.</p></div>
+<div class="rod"><span>TK Filmes · Dra. Camilla Wanderley</span><span>2</span></div></section>
+
+<section class="pg">
+<span class="tag">antes x depois</span>
+<h2>O antes e o depois, lado a lado</h2>
+<p class="sub">"Antes" = 03/06 a 02/09 (3 meses) · "com a TK" = 03/09 a 15/10 (6 semanas).</p>
+<div class="cmp"><div class="cmpt">📅 Publicações por semana</div>
+<div class="lin"><span class="lab">antes</span><span class="trilho"><span class="b a" style="width:57%"></span></span><span class="val">1,2</span></div>
+<div class="lin"><span class="lab"><b>com a TK</b></span><span class="trilho"><span class="b d" style="width:100%"></span></span><span class="val"><b>2,1</b></span></div></div>
+<div class="cmp"><div class="cmpt">🙋 Pessoas que cada post alcança (post típico)</div>
+<div class="lin"><span class="lab">antes</span><span class="trilho"><span class="b a" style="width:99%"></span></span><span class="val">234</span></div>
+<div class="lin"><span class="lab"><b>com a TK</b></span><span class="trilho"><span class="b d" style="width:100%"></span></span><span class="val"><b>237</b></span></div></div>
+<div class="cmp"><div class="cmpt">👀 Visualizações em 28 dias</div>
+<div class="lin"><span class="lab">antes</span><span class="trilho"><span class="b a" style="width:74%"></span></span><span class="val">5.889</span></div>
+<div class="lin"><span class="lab"><b>com a TK</b></span><span class="trilho"><span class="b d" style="width:100%"></span></span><span class="val"><b>7.913</b></span></div></div>
+<div class="cmp"><div class="cmpt">💬 Interações em 28 dias</div>
+<div class="lin"><span class="lab">antes</span><span class="trilho"><span class="b a" style="width:59%"></span></span><span class="val">182</span></div>
+<div class="lin"><span class="lab"><b>com a TK</b></span><span class="trilho"><span class="b d" style="width:100%"></span></span><span class="val"><b>311</b></span></div></div>
+<div class="cmp"><div class="cmpt">➕ Novos seguidores em 28 dias</div>
+<div class="lin"><span class="lab">antes</span><span class="trilho"><span class="b a" style="width:78%"></span></span><span class="val">18</span></div>
+<div class="lin"><span class="lab"><b>com a TK</b></span><span class="trilho"><span class="b d" style="width:100%"></span></span><span class="val"><b>23</b></span></div></div>
+<div class="cmp"><div class="cmpt">📤 Compartilhamentos (gente mandando seu post pra alguém)</div>
+<div class="lin"><span class="lab">antes</span><span class="trilho"><span class="b a" style="width:96%"></span></span><span class="val">24 em 3 meses</span></div>
+<div class="lin"><span class="lab"><b>com a TK</b></span><span class="trilho"><span class="b d" style="width:100%"></span></span><span class="val"><b>25 em 6 semanas</b></span></div></div>
+<p style="font-size:9.3pt;color:#5c3d42;margin-top:1mm"><b>O que isso quer dizer:</b> você passou a postar quase o dobro, e <b>cada post continua chegando no mesmo número de pessoas</b>
+(234 → 237). Ou seja, mais presença sem cansar o público. E os compartilhamentos de 6 semanas já empataram com os de 3 meses inteiros.</p>
+<div class="cmpt" style="margin-top:3mm">Como ficou a constância, semana a semana (cada bolinha é um post)</div>
+<div class="faixa"><div class="sem"><i class="vazio"></i><span>03/06</span></div><div class="sem"><i class="vazio"></i><span>10/06</span></div><div class="sem"><i class=""></i><i class=""></i><i class=""></i><span>17/06</span></div><div class="sem"><i class=""></i><i class=""></i><i class=""></i><span>24/06</span></div><div class="sem"><i class="vazio"></i><span>01/07</span></div><div class="sem"><i class=""></i><span>08/07</span></div><div class="sem"><i class=""></i><span>15/07</span></div><div class="sem"><i class=""></i><i class=""></i><span>22/07</span></div><div class="sem"><i class="vazio"></i><span>29/07</span></div><div class="sem"><i class=""></i><i class=""></i><i class=""></i><span>05/08</span></div><div class="sem"><i class=""></i><span>12/08</span></div><div class="sem"><i class=""></i><i class=""></i><span>19/08</span></div><div class="sem"><i class="vazio"></i><span>26/08</span></div><div class="sem"><i class="vazio"></i><span>02/09</span></div><div class="sem"><i class="tk"></i><span>09/09</span></div><div class="sem"><i class="tk"></i><i class="tk"></i><span>16/09</span></div><div class="sem"><i class="tk"></i><i class="tk"></i><span>23/09</span></div><div class="sem"><i class="tk"></i><i class="tk"></i><i class="tk"></i><span>30/09</span></div><div class="sem"><i class="tk"></i><i class="tk"></i><i class="tk"></i><i class="tk"></i><i class="tk"></i><span>07/10</span></div><div class="sem"><i class="vazio"></i><span>14/10</span></div></div>
+<div class="leg"><i style="background:#E2C2C6"></i>antes <i style="background:#C9566A"></i>com a TK (desde 03/09)</div>
+<div class="rod"><span>TK Filmes · Dra. Camilla Wanderley</span><span>3</span></div></section>
+
+<section class="pg">
+<span class="tag">o objetivo maior</span>
+<h2>O que já construímos pra sua imagem</h2>
+<p class="sub">Número é consequência. O que a gente está levantando é a base: quem é a Dra. Camilla pra quem ainda não te conhece.</p>
+<div class="pilares">
+<div class="pl"><div class="n">1</div><div class="t">Ficou claro quem você é</div>
+<p>Clínica Geral e <b>Endodontia (canal)</b>, falando com o adulto. O calendário de outubro foi pensado em cima disso: o medo de dentista,
+"dente doía e arrancava", a dor que some sozinha, "canal dói?". Temas que fazem a pessoa pensar e se reconhecer, sem "vender" tratamento.</p>
+<div class="prova">✔ A nova linha começou em 07/10 e o post de União já foi o de imagem com mais comentários do mês.</div></div>
+<div class="pl"><div class="n">2</div><div class="t">Um visual com a sua cara</div>
+<p>Uma estética própria e aprovada: <b>foto real sua</b>, texto elegante, nada de imagem de banco. E um padrão de vídeo próprio,
+com título, animação 3D, legenda e trilha. Quem passar pelo seu perfil vai reconhecer o seu conteúdo.</p>
+<div class="prova">✔ Estética e padrão de vídeo registrados, pra todo conteúdo novo sair no mesmo nível.</div></div>
+<div class="pl"><div class="n">3</div><div class="t">Você no centro</div>
+<p>Duas diárias de captação no consultório (03/09 e 24/09), um banco com <b>115 fotos</b> organizado no Drive e vídeos com você explicando.
+As pessoas confiam em quem elas veem.</p>
+<div class="prova">✔ Os 6 maiores alcances do seu perfil no último ano foram todos vídeos (reels).</div></div>
+<div class="pl"><div class="n">4</div><div class="t">Confiança antes da consulta</div>
+<p>Conteúdo que explica e acolhe: periodontite na gestação, medo de dentista, "canal dói?". Quem assiste chega na consulta já confiando em você.</p>
+<div class="prova">✔ O vídeo da periodontite teve o maior tempo assistido de todos (12,4 s em média): quem começa, fica.</div></div>
+</div>
+<div class="nota" style="margin-top:5mm"><p><b>E um laço com a cidade:</b> no aniversário de 195 anos de União, o post "Toda quinta eu pego a estrada de Maceió até aqui"
+mostrou o seu compromisso com quem você atende. Foi o post de imagem mais forte de outubro.</p></div>
+<div class="rod"><span>TK Filmes · Dra. Camilla Wanderley</span><span>4</span></div></section>
+
+<section class="pg">
+<span class="tag">destaques</span>
+<h2>Os conteúdos que mais se destacaram</h2>
+<div class="dest" style="margin-top:4mm">
+<div class="dc"><img src="file:///C:/Users/tamar/TK FILMES/clientes/camilla-wanderley/relatorios/dados/thumbs/mancha.jpg"><div class="in"><div class="num">1.013</div><div class="t">pessoas alcançadas</div><div class="ex">Reels "Mancha branca no sulco do dente" (11/09). Também teve 1.395 visualizações e 5 comentários.</div></div></div>
+<div class="dc"><img src="file:///C:/Users/tamar/TK FILMES/clientes/camilla-wanderley/relatorios/dados/thumbs/primeira-consulta.jpg"><div class="in"><div class="num">12</div><div class="t">compartilhamentos</div><div class="ex">Reels "A primeira consulta da criança" (08/10): o mais enviado de pessoa pra pessoa no período.</div></div></div>
+<div class="dc"><img src="file:///C:/Users/tamar/TK FILMES/clientes/camilla-wanderley/relatorios/dados/thumbs/uniao.jpg" style="object-position:center 30%"><div class="in"><div class="num">27</div><div class="t">interações</div><div class="ex">"195 anos de União" (13/10): 320 pessoas alcançadas e 4 comentários.</div></div></div>
+</div>
+<h2 style="font-size:17pt;margin-top:7mm">O que ainda dá pra melhorar</h2>
+<div class="at">
+<div class="ai"><div class="t">Chegar em quem ainda não te conhece</div><p>Nos últimos 28 dias o conteúdo chegou a 1.424 pessoas diferentes, contra 1.673 antes (-15%). Quem já te segue está vendo mais; o próximo passo é alcançar gente nova.</p></div>
+<div class="ai"><div class="t">Conteúdo pra guardar</div><p>Ninguém salvou um post desde setembro (antes foram 14). Posts com dicas práticas e "salva pra lembrar" ajudam muito o Instagram a mostrar o seu perfil.</p></div>
+<div class="ai"><div class="t">2 posts sem alcance</div><p>Os posts de 05/10 e 12/10 aparecem com zero pessoas alcançadas. Pode ser que tenham sido arquivados ou ocultados: vale conferir no app.</p></div>
+<div class="ai"><div class="t">Capa dos vídeos</div><p>No perfil, o reels da periodontite aparece com a imagem da paciente, e não com o título. Escolher uma capa bonita faz mais gente clicar.</p></div>
+</div>
+<div class="rod"><span>TK Filmes · Dra. Camilla Wanderley</span><span>5</span></div></section>
+
+<section class="pg">
+<span class="tag">próximos passos</span>
+<h2>Pra continuar construindo</h2>
+<p class="sub">O plano pras próximas semanas, já com o que os números mostraram.</p>
+<div class="passos">
+<div class="ps"><div class="ic">🎥</div><div><div class="t">1 vídeo por semana com você explicando</div><p>É o formato que mais alcança e mais gera confiança. Saem das diárias de captação.</p></div></div>
+<div class="ps"><div class="ic">📌</div><div><div class="t">Posts que dá vontade de guardar</div><p>Carrosséis com dicas práticas sobre canal e saúde da boca, com o convite "salva pra lembrar".</p></div></div>
+<div class="ps"><div class="ic">🖼️</div><div><div class="t">Capa caprichada em todo reels</div><p>A capa é a vitrine do perfil: título claro e o seu visual, nunca um quadro aleatório do vídeo.</p></div></div>
+<div class="ps"><div class="ic">📲</div><div><div class="t">Stories em todo post</div><p>Três stories ligados a cada post levam quem te segue até o conteúdo novo.</p></div></div>
+<div class="ps"><div class="ic">📊</div><div><div class="t">Novo relatório em meados de novembro</div><p>Com 30 dias completos da nova linha, pra ver a imagem se firmando mês a mês.</p></div></div>
+</div>
+<div class="glos"><div class="t">Mini dicionário</div>
+<p><b>Alcance:</b> quantas pessoas diferentes viram seu conteúdo. · <b>Visualizações:</b> quantas vezes ele foi visto (a mesma pessoa pode ver mais de uma vez).
+· <b>Interações:</b> curtidas, comentários, compartilhamentos, salvamentos e respostas. · <b>Compartilhamento:</b> quando alguém manda o seu post pra outra pessoa.
+· <b>Salvamento:</b> quando alguém guarda o post pra ver depois.</p></div>
+<p style="font-size:8pt;color:#b78c92;margin-top:4mm">Fonte: dados oficiais da sua conta no Instagram, coletados em 15/10/2026. Os stories não entram: o Instagram só guarda os números de story por 24 horas.</p>
+<div class="rod"><span>TK Filmes · Dra. Camilla Wanderley</span><span>6</span></div></section>
+</body></html>

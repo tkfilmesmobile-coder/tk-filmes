@@ -1,0 +1,31 @@
+{
+ "fonte": "TSE · 11/09/2026 · Por Dentro das Eleições",
+ "telas": [
+  {
+   "kicker": "ELEIÇÕES 2026 · PcD",
+   "titulo": "Apoio na hora <b>de votar.</b>",
+   "foto": "tamara/tamara-estudio-0020.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "PcD na votação.",
+   "tam": 84,
+   "texto": "🤝 ajuda de alguém de confiança na cabine<br><br>🎧 áudio com fone descartável (deficiência visual)<br><br>⌨️ orientação sobre a tecla 5 e material em Braille<br><br>🦮 entrada com cão-guia"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Meu irmão tem deficiência visual. Posso entrar com ele na cabine?”",
+   "tam": 64,
+   "texto": "Pode! Pessoa com deficiência pode ter ajuda de alguém da escolha dela na cabine. E ainda tem áudio com fone, Braille e entrada com cão-guia."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

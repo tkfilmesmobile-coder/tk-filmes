@@ -1,0 +1,31 @@
+{
+ "fonte": "Lei 8.213/1991, arts. 11, VII e 39 · Lei 8.212/1991, art. 25",
+ "telas": [
+  {
+   "kicker": "PARTE 1 · TRABALHADOR RURAL",
+   "titulo": "Quem é da roça <b>precisa contribuir?</b>",
+   "foto": "tamara/tamara-estudio-0084.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Quem é da roça e o INSS.",
+   "tam": 84,
+   "texto": "1. Quem trabalha na roça com a família é <b>segurado especial</b><br><br>2. Não precisa contribuir todo mês: a contribuição já vem <b>na venda da produção</b><br><br>3. Pra ter benefício, precisa <b>comprovar o trabalho no campo</b><br><br>📂 Guarde nota de venda, bloco do produtor, contrato de parceria e documento da terra"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Meu pai trabalha na roça a vida toda e nunca contribuiu com o INSS. Ele perdeu o direito?”",
+   "tam": 64,
+   "texto": "Não perdeu! Quem é da roça é segurado especial, e a contribuição vem na venda da produção. O mais importante é ter documentos que comprovem o trabalho no campo. Guarda tudo, tá?"
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

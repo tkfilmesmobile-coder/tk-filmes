@@ -1,0 +1,31 @@
+{
+ "fonte": "TSE · tse.jus.br · Local de votação",
+ "telas": [
+  {
+   "kicker": "ELEIÇÕES 2026 · LOCAL",
+   "titulo": "Já sabe <b>onde vota?</b>",
+   "foto": "tamara/tamara-estudio-0145.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Onde eu voto?",
+   "tam": 84,
+   "texto": "📱 App <b>e-Título</b> → \"Onde Votar\" (menu de baixo)<br><br>🗺️ Ele mostra o local e ajuda com a rota no GPS<br><br>💻 Ou no site do TSE, no Autoatendimento Eleitoral (Título Net)<br><br>🪪 Não esqueça: documento oficial com foto"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Esqueci onde eu voto”",
+   "tam": 64,
+   "texto": "Acontece! Abre o e-Título e toca em \"Onde Votar\", no menu de baixo. Ele mostra o endereço e ainda ajuda com a rota no GPS."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

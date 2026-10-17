@@ -1,0 +1,38 @@
+{
+ "data": "30 de setembro de 2026",
+ "card": "Gente, quem tem o e-Título no celular faz tempo: <b>atualiza antes de domingo</b>, tá? Deixei o passo a passo no post 👆",
+ "notas": {
+  "hora": "15:01",
+  "titulo": "atualizar o e-Título 📱",
+  "linhas": [
+   "1. Baixe a <b>versão nova</b> do e-Título na loja do celular",
+   "2. <b>Reemita</b> o seu e-Título no aplicativo",
+   "3. Faça isso com antecedência, não no dia da votação",
+   "📍 O app mostra o seu local de votação e, com a sua foto, vale como documento pra votar"
+  ],
+  "marca": "versão nova"
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, eu instalei o e-Título na eleição passada. Preciso fazer alguma coisa? 🤔",
+   "15:02"
+  ],
+  [
+   "out",
+   "Precisa sim! A Justiça Eleitoral orienta baixar a versão atualizada e reemitir o e-Título antes de domingo 📲",
+   "15:03"
+  ],
+  [
+   "out",
+   "E se ele tiver a sua foto, serve como documento na hora de votar 😉",
+   "15:03"
+  ],
+  [
+   "in",
+   "Vou atualizar hoje mesmo, obrigada! 🙏",
+   "15:04"
+  ]
+ ],
+ "fonte": "TSE · tse.jus.br · 29/09/2026"
+}

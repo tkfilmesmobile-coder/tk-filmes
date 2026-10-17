@@ -37,7 +37,7 @@ function uploadFile(filePath) {
   try {
     const result = execSync(
       `curl -s -F "reqtype=fileupload" -F "fileToUpload=@${abs}" "https://catbox.moe/user/api.php"`,
-      { timeout: 60000 }
+      { timeout: 600000 }
     ).toString().trim();
     if (result.startsWith("https://")) return result;
   } catch (e) { /* catbox falhou, tenta uguu */ }
@@ -45,7 +45,7 @@ function uploadFile(filePath) {
   // Fallback: uguu.se
   const result = execSync(
     `curl -s -F "files[]=@${abs}" "https://uguu.se/upload"`,
-    { timeout: 60000 }
+    { timeout: 600000 }
   ).toString().trim();
   try {
     const json = JSON.parse(result);
@@ -89,6 +89,7 @@ async function createVideoContainer(videoUrl, caption) {
     caption,
     access_token: TOKEN,
   });
+  if (OPTS.colaboradores && OPTS.colaboradores.length) body.append("collaborators", JSON.stringify(OPTS.colaboradores));
   const res = await fetch(`${GRAPH}/${USER_ID}/media`, { method: "POST", body });
   const json = await res.json();
   if (json.error) throw new Error(`Video container: ${json.error.message}`);
@@ -103,6 +104,7 @@ async function createCarousel(containerIds, caption) {
     caption,
     access_token: TOKEN,
   });
+  if (OPTS.colaboradores && OPTS.colaboradores.length) body.append("collaborators", JSON.stringify(OPTS.colaboradores));
   const res = await fetch(`${GRAPH}/${USER_ID}/media`, { method: "POST", body });
   const json = await res.json();
   if (json.error) throw new Error(`Carousel: ${json.error.message}`);
@@ -173,6 +175,23 @@ async function main() {
 
     if (opts.dryRun) {
       console.log(`\nDRY RUN — video pronto mas nao publicado`);
+      return;
+    }
+
+    // TK Filmes: --story com --video publica story em vídeo (até 60s)
+    if (opts.story) {
+      const body = new URLSearchParams({ video_url: videoUrl, media_type: "STORIES", access_token: TOKEN });
+      const res = await fetch(`${GRAPH}/${USER_ID}/media`, { method: "POST", body });
+      const json = await res.json();
+      if (json.error) throw new Error(`Story video container: ${json.error.message}`);
+      await pollStatus(json.id, 180000);
+      let mediaId;
+      for (let t = 1; t <= 6; t++) {
+        await new Promise(r => setTimeout(r, 5000));
+        try { mediaId = await publish(json.id); break; }
+        catch (e) { if (t === 6 || !/not available/i.test(e.message)) throw e; }
+      }
+      console.log(`\nStory em video publicado! (media ${mediaId})`);
       return;
     }
 

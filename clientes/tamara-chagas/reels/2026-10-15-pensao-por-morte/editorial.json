@@ -1,0 +1,15 @@
+{
+ "fonte": "Lei 8.213/1991, arts. 16, I; 74 e 77, §2º",
+ "telas": [
+  {"kicker": "VOCÊ SABIA?", "titulo": "Filho maior de idade <b>pode ter direito.</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg", "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O vídeo completo tá no feed. Aqui vai o resumo 👇"},
+  {"kicker": "O QUE SABER", "titulo": "Pensão por morte e filho com deficiência.", "tam": 76,
+   "texto": "1. Filho com deficiência intelectual, mental ou grave <b>continua dependente</b> depois dos 21<br><br>2. Precisa comprovar a <b>qualidade de dependente</b><br><br>3. O pai ou a mãe precisava ser <b>segurado na data do óbito</b>"},
+  {"kicker": "GUARDE", "titulo": "Os documentos <b>que ajudam.</b>", "tam": 84,
+   "texto": "📄 Certidão de óbito<br><br>🧬 Prova da filiação (até exame de DNA, quando for o caso)<br><br>🩺 Laudos médicos atualizados"},
+  {"kicker": "TAMARA CHAGAS ADVOCACIA", "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

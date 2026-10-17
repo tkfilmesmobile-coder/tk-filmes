@@ -1,0 +1,7 @@
+## 15:40 · [pc-escritoriotamarachagas] · Dra. Melissa Morais (vídeo e carrossel de antes e depois)
+- Vídeo antes/depois no Remotion (`clientes/melissa-morais/edicao/`): v1 a v6, tela cheia, só headline sobre a imagem, trilha lounge e efeitos sintetizados, mira seguindo o rosto. A v6 está no Drive como rascunho, com "CRO [nº a confirmar]".
+- A cliente trocou o pedido por um carrossel na estética da referência (@dritalomoreira): 5 slides sem texto (ela insere), com a logo dela, recortes da Talyta sobre o preto, perfis girados em pé com setas onde a Talyta marcou, grade de duas fileiras e o depois em três ângulos. Aprovado em 17/10 → `G:\Meu Drive\Dra. Melissa Morais\POSTS\POST 1\carrossel-antes-depois-RASCUNHO\` (versões antigas em `_ARQUIVO`).
+- O sobrenome profissional é **Morais** (logo e perfil), não Moraes: pasta `clientes/melissa-morais/`, pasta do Drive e acordo em PDF corrigidos. O nome civil do Pix segue Moraes.
+- Recorte das fotos só no PC (modelo isnet-general-use em `~/.u2net`, baixado com ok da Talyta); nenhuma foto da paciente saiu do computador. Conselho dela: CRO (dentista); paciente com autorização de imagem assinada.
+- 2026-10-17 · Slide de perfil refeito frente a frente (versão aprovada pela cliente, setas trocadas). A Talyta renomeou a pasta do Drive pra `POSTS/POST 1/`.
+- Entrou o slide principal (frontais em repouso, antes de regata e depois de camiseta), no estilo do 1º da referência: o carrossel passou a ter 6 slides. Recortes do ChatGPT usados como vieram, por decisão da Talyta (avisada de que o ChatGPT redesenha a foto).

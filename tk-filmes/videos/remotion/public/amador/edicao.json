@@ -1,0 +1,197 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "amador/bruto.mp4",
+ "clipes": [
+  {
+   "id": "cortado",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 1560,
+   "zoom": 1.0
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "titulo",
+   "from": 28,
+   "durationInFrames": 60,
+   "texto": "Cara de amador?",
+   "sub": "a câmera não tem culpa",
+   "fala": 57
+  },
+  {
+   "tipo": "cartao",
+   "from": 94,
+   "durationInFrames": 284,
+   "segue": false,
+   "pos": "baixo",
+   "etiqueta": "luz",
+   "linhas": [
+    {
+     "texto": "janela atrás de você",
+     "atraso": 45,
+     "fala": 45,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "rosto escuro, fundo estourado",
+     "atraso": 162,
+     "fala": 162,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "vira de frente pra janela",
+     "atraso": 199,
+     "fala": 199,
+     "tom": "pos"
+    }
+   ]
+  },
+  {
+   "tipo": "cartao",
+   "from": 384,
+   "durationInFrames": 305,
+   "segue": false,
+   "pos": "baixo",
+   "etiqueta": "altura da lente",
+   "linhas": [
+    {
+     "texto": "lente na altura dos olhos",
+     "atraso": 92,
+     "fala": 92,
+     "tom": "pos"
+    },
+    {
+     "texto": "de baixo pra cima: queixo e teto",
+     "atraso": 121,
+     "fala": 121,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "empilha uns livros",
+     "atraso": 282,
+     "fala": 282,
+     "tom": "pos"
+    }
+   ]
+  },
+  {
+   "tipo": "cartao",
+   "from": 695,
+   "durationInFrames": 328,
+   "segue": false,
+   "pos": "baixo",
+   "etiqueta": "áudio",
+   "linhas": [
+    {
+     "texto": "sala vazia: eco, voz distante",
+     "atraso": 76,
+     "fala": 76,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "aproxima o celular",
+     "atraso": 138,
+     "fala": 138,
+     "tom": "pos"
+    },
+    {
+     "texto": "microfone · sofá · cortina",
+     "atraso": 174,
+     "fala": 174,
+     "tom": "pos"
+    }
+   ]
+  },
+  {
+   "tipo": "headline",
+   "from": 1027,
+   "durationInFrames": 98,
+   "palavras": [
+    {
+     "texto": "não é",
+     "fala": 3
+    },
+    {
+     "texto": "equipamento",
+     "fala": 31
+    },
+    {
+     "texto": "é direção",
+     "fala": 60
+    }
+   ]
+  },
+  {
+   "tipo": "tres",
+   "from": 1107,
+   "durationInFrames": 60,
+   "falas": [
+    4,
+    13,
+    21
+   ],
+   "itens": [
+    {
+     "rotulo": "luz",
+     "desenho": "luz"
+    },
+    {
+     "rotulo": "altura da lente",
+     "desenho": "lente"
+    },
+    {
+     "rotulo": "áudio",
+     "desenho": "mic"
+    }
+   ]
+  },
+  {
+   "tipo": "frase",
+   "from": 1173,
+   "durationInFrames": 213,
+   "texto": "Dez segundos como antes. Dez segundos corrigindo. Compara.",
+   "pos": "baixo",
+   "fala": 37
+  },
+  {
+   "tipo": "salvar",
+   "from": 1392,
+   "durationInFrames": 99,
+   "fala": 8
+  },
+  {
+   "tipo": "logo",
+   "from": 1493,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 7,
+   "durationInFrames": 18,
+   "texto": "Seu vídeo está"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 31,
+   "durationInFrames": 19,
+   "escala": 1.07
+  },
+  {
+   "from": 1086,
+   "durationInFrames": 19,
+   "escala": 1.07
+  }
+ ],
+ "reenquadramentos": []
+}

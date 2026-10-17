@@ -1,0 +1,22 @@
+{
+ "data": "7 de outubro de 2026",
+ "card": "Gente, quem recebe BPC: <b>fica de olho no CadÚnico</b>! Cadastro desatualizado pode bloquear o pagamento. Expliquei tudo no post 👆",
+ "notas": {
+  "hora": "14:31",
+  "titulo": "BPC e CadÚnico 📋",
+  "linhas": [
+   "1. Chegou aviso do INSS? Você tem <b>30 dias</b> pra ligar no 135 ou ir à agência",
+   "2. Depois disso, <b>45 dias</b> (cidade até 50 mil hab.) ou <b>90 dias</b> pra atualizar no CRAS",
+   "3. Perdeu o prazo? O pagamento pode ser bloqueado ou suspenso",
+   "📍 Atualiza no CRAS, levando documento com foto e CPF de quem mora na casa"
+  ],
+  "marca": "30 dias"
+ },
+ "conversa": [
+  ["in", "Doutora, minha mãe recebe BPC e chegou um aviso no extrato do banco. E agora? 😟", "14:32"],
+  ["out", "Calma! Primeiro, liga no 135 ou vai a uma agência do INSS dentro de 30 dias pra dar ciência do aviso 📞", "14:33"],
+  ["out", "Depois, atualiza o CadÚnico no CRAS dentro do prazo. Assim o benefício continua normal 😉", "14:33"],
+  ["in", "Vou levar ela no CRAS essa semana, obrigada! 🙏", "14:34"]
+ ],
+ "fonte": "MDS e INSS (Portaria Conjunta) · Agência Brasil · gov.br/mds"
+}

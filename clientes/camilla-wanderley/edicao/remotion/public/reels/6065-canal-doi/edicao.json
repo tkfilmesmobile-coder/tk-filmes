@@ -1,0 +1,601 @@
+{
+ "fps": 30,
+ "durationInFrames": 797,
+ "props": {
+  "fonte": "midia/IMG_6065.mp4",
+  "clipes": [
+   {
+    "id": "gancho",
+    "trimBefore": 0,
+    "from": 0,
+    "durationInFrames": 151,
+    "rosto": {
+     "x": 545,
+     "y": 569,
+     "w": 298
+    },
+    "quadros": [
+     {
+      "f": 0,
+      "escala": 1,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 107,
+      "escala": 1,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 108,
+      "escala": 1.14,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 151,
+      "escala": 1.16,
+      "tx": 0,
+      "ty": 0
+     }
+    ]
+   },
+   {
+    "id": "queixa",
+    "trimBefore": 312,
+    "from": 151,
+    "durationInFrames": 128,
+    "rosto": {
+     "x": 487,
+     "y": 705,
+     "w": 291
+    },
+    "quadros": [
+     {
+      "f": 0,
+      "escala": 1.14,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 128,
+      "escala": 1.17,
+      "tx": 14,
+      "ty": 0
+     }
+    ]
+   },
+   {
+    "id": "anestesia",
+    "trimBefore": 659,
+    "from": 279,
+    "durationInFrames": 150,
+    "rosto": {
+     "x": 571,
+     "y": 684,
+     "w": 328
+    },
+    "quadros": [
+     {
+      "f": 0,
+      "escala": 1,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 150,
+      "escala": 1.03,
+      "tx": -16,
+      "ty": 0
+     }
+    ]
+   },
+   {
+    "id": "nao",
+    "trimBefore": 839,
+    "from": 429,
+    "durationInFrames": 44,
+    "rosto": {
+     "x": 542,
+     "y": 623,
+     "w": 331
+    },
+    "quadros": [
+     {
+      "f": 0,
+      "escala": 1.32,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 44,
+      "escala": 1.35,
+      "tx": 0,
+      "ty": 0
+     }
+    ]
+   },
+   {
+    "id": "fecho",
+    "trimBefore": 1003,
+    "from": 473,
+    "durationInFrames": 246,
+    "rosto": {
+     "x": 511,
+     "y": 656,
+     "w": 325
+    },
+    "quadros": [
+     {
+      "f": 0,
+      "escala": 1.14,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 246,
+      "escala": 1.17,
+      "tx": 12,
+      "ty": 0
+     }
+    ]
+   }
+  ],
+  "headlines": [
+   {
+    "from": 111,
+    "durationInFrames": 40,
+    "linhas": [
+     {
+      "t": "FAZER CANAL"
+     },
+     {
+      "t": "DÓI?",
+      "cor": true
+     }
+    ],
+    "pos": "baixo"
+   },
+   {
+    "from": 445,
+    "durationInFrames": 28,
+    "linhas": [
+     {
+      "t": "A RESPOSTA É"
+     },
+     {
+      "t": "NÃO.",
+      "cor": true
+     }
+    ],
+    "pos": "baixo"
+   }
+  ],
+  "cards": [
+   {
+    "from": 361,
+    "durationInFrames": 68,
+    "etiqueta": "Anestesia",
+    "texto": "O tratamento é feito todo anestesiado."
+   }
+  ],
+  "cta": {
+   "from": 719,
+   "durationInFrames": 78,
+   "texto": "me chama no direct"
+  },
+  "legendas": [
+   {
+    "text": " Eu",
+    "startMs": 0,
+    "endMs": 620
+   },
+   {
+    "text": " sei",
+    "startMs": 620,
+    "endMs": 780
+   },
+   {
+    "text": " que",
+    "startMs": 780,
+    "endMs": 860
+   },
+   {
+    "text": " você",
+    "startMs": 860,
+    "endMs": 1000
+   },
+   {
+    "text": " morre",
+    "startMs": 1000,
+    "endMs": 1440
+   },
+   {
+    "text": " de",
+    "startMs": 1440,
+    "endMs": 1560
+   },
+   {
+    "text": " medo",
+    "startMs": 1560,
+    "endMs": 1800
+   },
+   {
+    "text": " de",
+    "startMs": 1800,
+    "endMs": 1940
+   },
+   {
+    "text": " fazer",
+    "startMs": 1940,
+    "endMs": 2220
+   },
+   {
+    "text": " canal,",
+    "startMs": 2220,
+    "endMs": 2520
+   },
+   {
+    "text": " mas",
+    "startMs": 2660,
+    "endMs": 2820
+   },
+   {
+    "text": " na",
+    "startMs": 2820,
+    "endMs": 2960
+   },
+   {
+    "text": " realidade,",
+    "startMs": 2960,
+    "endMs": 3440
+   },
+   {
+    "text": " será",
+    "startMs": 3620,
+    "endMs": 3860
+   },
+   {
+    "text": " que",
+    "startMs": 3860,
+    "endMs": 4040
+   },
+   {
+    "text": " fazer",
+    "startMs": 4040,
+    "endMs": 4320
+   },
+   {
+    "text": " canal",
+    "startMs": 4320,
+    "endMs": 4640
+   },
+   {
+    "text": " dói?",
+    "startMs": 4640,
+    "endMs": 4980
+   },
+   {
+    "text": " Normalmente,",
+    "startMs": 5143,
+    "endMs": 5543
+   },
+   {
+    "text": " quando",
+    "startMs": 5623,
+    "endMs": 5723
+   },
+   {
+    "text": " você",
+    "startMs": 5723,
+    "endMs": 5983
+   },
+   {
+    "text": " chega",
+    "startMs": 5983,
+    "endMs": 6283
+   },
+   {
+    "text": " aqui",
+    "startMs": 6283,
+    "endMs": 6443
+   },
+   {
+    "text": " no",
+    "startMs": 6443,
+    "endMs": 6543
+   },
+   {
+    "text": " consultório,",
+    "startMs": 6543,
+    "endMs": 6983
+   },
+   {
+    "text": " você",
+    "startMs": 7103,
+    "endMs": 7223
+   },
+   {
+    "text": " já",
+    "startMs": 7223,
+    "endMs": 7383
+   },
+   {
+    "text": " chega",
+    "startMs": 7383,
+    "endMs": 7743
+   },
+   {
+    "text": " com",
+    "startMs": 7743,
+    "endMs": 7943
+   },
+   {
+    "text": " uma",
+    "startMs": 7943,
+    "endMs": 8123
+   },
+   {
+    "text": " queixa",
+    "startMs": 8123,
+    "endMs": 8503
+   },
+   {
+    "text": " de",
+    "startMs": 8503,
+    "endMs": 8663
+   },
+   {
+    "text": " dor",
+    "startMs": 8663,
+    "endMs": 8863
+   },
+   {
+    "text": " muito",
+    "startMs": 8863,
+    "endMs": 9203
+   },
+   {
+    "text": " O",
+    "startMs": 9350,
+    "endMs": 9750
+   },
+   {
+    "text": " tratamento",
+    "startMs": 9750,
+    "endMs": 10150
+   },
+   {
+    "text": " do",
+    "startMs": 10150,
+    "endMs": 10330
+   },
+   {
+    "text": " canal,",
+    "startMs": 10330,
+    "endMs": 10630
+   },
+   {
+    "text": " ele",
+    "startMs": 10650,
+    "endMs": 10850
+   },
+   {
+    "text": " é",
+    "startMs": 10850,
+    "endMs": 10930
+   },
+   {
+    "text": " um",
+    "startMs": 10930,
+    "endMs": 11010
+   },
+   {
+    "text": " pouco",
+    "startMs": 11010,
+    "endMs": 11210
+   },
+   {
+    "text": " mais",
+    "startMs": 11210,
+    "endMs": 11430
+   },
+   {
+    "text": " complexo,",
+    "startMs": 11430,
+    "endMs": 12010
+   },
+   {
+    "text": " mas",
+    "startMs": 12050,
+    "endMs": 12190
+   },
+   {
+    "text": " fique",
+    "startMs": 12190,
+    "endMs": 12390
+   },
+   {
+    "text": " tranquilo",
+    "startMs": 12390,
+    "endMs": 12950
+   },
+   {
+    "text": " que",
+    "startMs": 12950,
+    "endMs": 13090
+   },
+   {
+    "text": " ele",
+    "startMs": 13090,
+    "endMs": 13170
+   },
+   {
+    "text": " é",
+    "startMs": 13170,
+    "endMs": 13250
+   },
+   {
+    "text": " feito",
+    "startMs": 13250,
+    "endMs": 13450
+   },
+   {
+    "text": " todo",
+    "startMs": 13450,
+    "endMs": 13830
+   },
+   {
+    "text": " com",
+    "startMs": 13830,
+    "endMs": 14030
+   },
+   {
+    "text": " Então,",
+    "startMs": 14350,
+    "endMs": 14750
+   },
+   {
+    "text": " a",
+    "startMs": 14830,
+    "endMs": 14930
+   },
+   {
+    "text": " resposta",
+    "startMs": 14930,
+    "endMs": 15250
+   },
+   {
+    "text": " é",
+    "startMs": 15250,
+    "endMs": 15470
+   },
+   {
+    "text": " não.",
+    "startMs": 15470,
+    "endMs": 15650
+   },
+   {
+    "text": " fazer",
+    "startMs": 15817,
+    "endMs": 16137
+   },
+   {
+    "text": " canal",
+    "startMs": 16137,
+    "endMs": 16457
+   },
+   {
+    "text": " não",
+    "startMs": 16457,
+    "endMs": 16677
+   },
+   {
+    "text": " dói,",
+    "startMs": 16677,
+    "endMs": 17057
+   },
+   {
+    "text": " porque",
+    "startMs": 17157,
+    "endMs": 17357
+   },
+   {
+    "text": " aqui",
+    "startMs": 17357,
+    "endMs": 17557
+   },
+   {
+    "text": " no",
+    "startMs": 17557,
+    "endMs": 17697
+   },
+   {
+    "text": " consultório",
+    "startMs": 17697,
+    "endMs": 18337
+   },
+   {
+    "text": " o",
+    "startMs": 18337,
+    "endMs": 18917
+   },
+   {
+    "text": " tratamento",
+    "startMs": 18917,
+    "endMs": 19277
+   },
+   {
+    "text": " de",
+    "startMs": 19277,
+    "endMs": 19437
+   },
+   {
+    "text": " canal",
+    "startMs": 19437,
+    "endMs": 19657
+   },
+   {
+    "text": " é",
+    "startMs": 19657,
+    "endMs": 19837
+   },
+   {
+    "text": " feito",
+    "startMs": 19837,
+    "endMs": 20077
+   },
+   {
+    "text": " com",
+    "startMs": 20077,
+    "endMs": 20277
+   },
+   {
+    "text": " muito",
+    "startMs": 20277,
+    "endMs": 20557
+   },
+   {
+    "text": " cuidado",
+    "startMs": 20557,
+    "endMs": 20897
+   },
+   {
+    "text": " e",
+    "startMs": 20897,
+    "endMs": 21137
+   },
+   {
+    "text": " com",
+    "startMs": 21137,
+    "endMs": 21237
+   },
+   {
+    "text": " muito",
+    "startMs": 21237,
+    "endMs": 21437
+   },
+   {
+    "text": " carinho,",
+    "startMs": 21437,
+    "endMs": 21857
+   },
+   {
+    "text": " utilizando",
+    "startMs": 21997,
+    "endMs": 22497
+   },
+   {
+    "text": " tecnologias",
+    "startMs": 22497,
+    "endMs": 23357
+   },
+   {
+    "text": " muito",
+    "startMs": 23357,
+    "endMs": 23637
+   }
+  ]
+ }
+}

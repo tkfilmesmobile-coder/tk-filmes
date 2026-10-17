@@ -1,0 +1,19 @@
+{
+ "layout": "calendario",
+ "kicker": "AVISO DE FUNCIONAMENTO",
+ "titulo": "Segunda e terça, <b>não abriremos.</b>",
+ "dias": [
+  [
+   "12",
+   "SEG",
+   "Nossa Senhora Aparecida"
+  ],
+  [
+   "13",
+   "TER",
+   "Emancipação Política de União dos Palmares"
+  ]
+ ],
+ "retorno": "Voltamos na <b>quarta, 14/10</b>, a partir das <b>8h</b>.",
+ "rodape": "FERIADOS NACIONAL E MUNICIPAL"
+}

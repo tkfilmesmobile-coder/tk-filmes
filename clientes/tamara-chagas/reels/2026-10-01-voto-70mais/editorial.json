@@ -1,0 +1,15 @@
+{
+ "fonte": "Constituição Federal, art. 14, § 1º, II, b · TSE",
+ "telas": [
+  {"kicker": "ELEIÇÕES 2026 · 70+", "titulo": "70 anos ou mais: <b>voto facultativo.</b>",
+   "texto": "Tem vídeo novo no feed. Aqui vai o resumo 👇", "foto": "tamara/tamara-estudio-0156.jpg", "foto_css": "left:330px;top:900px;width:1100px"},
+  {"kicker": "O QUE DIZ A LEI", "titulo": "Votar é <b>opcional.</b>",
+   "texto": "A Constituição diz que o voto é <b>facultativo</b> pra quem tem mais de 70 anos.<br><br>Não precisa justificar e <b>não tem multa</b>.",
+   "faixa": "Constituição Federal, art. 14"},
+  {"kicker": "E SE QUISER VOTAR?", "titulo": "Pode votar <b>normalmente.</b>",
+   "texto": "O 1º turno é <b>domingo, 4 de outubro</b>, das 8h às 17h, com documento oficial com foto.<br><br>E pra quem recebe benefício do INSS, votar conta como <b>prova de vida</b>."},
+  {"kicker": "TAMARA CHAGAS ADVOCACIA", "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Marque alguém com 70+ que precisa saber disso 💛",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

@@ -1,0 +1,522 @@
+{
+ "bruto": "C:/Users/tamar/Downloads/feira.mp4",
+ "nota": "ABERTURA v2 · tipografia cinética sincronizada à fala, texto atrás da Rita (recorte quadro a quadro em public/fg), cards de benefícios (ref. cosmos.so/e/1146368741 a partir de 0:14).",
+ "clips": [
+  {
+   "in": 0.0,
+   "out": 1.1,
+   "nota": "Rita na moto (parada)"
+  },
+  {
+   "in": 1.1,
+   "out": 4.45,
+   "texto": "Eu quero saber se esse povo sabe de INSS.",
+   "nota": "Rita pilotando, fala a pergunta"
+  },
+  {
+   "in": 4.5,
+   "out": 5.3,
+   "nota": "chegada na feira (b-roll)"
+  },
+  {
+   "in": 5.9,
+   "out": 9.55,
+   "texto": "...a gente vai saber se o povo conhece sobre benefícios no INSS.",
+   "nota": "Rita + Jeferson caminhando"
+  },
+  {
+   "in": 74.36,
+   "out": 82.1,
+   "texto": "A gente sabe que trabalhador não precisa contribuir para o INSS, mas para receber benefício como salário-maternidade, tem direito ou não o agricultor?",
+   "nota": "Sales pergunta"
+  },
+  {
+   "in": 82.16,
+   "out": 84.44,
+   "texto": "Na minha mente eu acho que tem, com certeza.",
+   "nota": "moça"
+  },
+  {
+   "in": 84.5,
+   "out": 96.05,
+   "cortar_pausas": true,
+   "texto": "Todo agricultor que a gente consegue comprovar que ela é agricultora, com documentações, tanto de postinho de saúde da zona rural, CadÚnico, ela tem direito, sim, ao salário-maternidade.",
+   "nota": "Sales explica"
+  },
+  {
+   "in": 137.13,
+   "out": 139.45,
+   "texto": "Até mais!",
+   "nota": "fecho"
+  },
+  {
+   "freeze": 4.2
+  }
+ ],
+ "destaques": [
+  "inss",
+  "benefícios",
+  "benefício",
+  "salário-maternidade",
+  "agricultor",
+  "agricultora",
+  "certeza",
+  "comprovar",
+  "documentações",
+  "direito"
+ ],
+ "zooms": [
+  {
+   "t": 0.0,
+   "dur": 1.1,
+   "s": 1.1,
+   "rampa": 33
+  },
+  {
+   "t": 3.52,
+   "dur": 0.9,
+   "s": 1.07,
+   "rampa": 5
+  },
+  {
+   "t": 16.64,
+   "dur": 2.28,
+   "s": 1.1,
+   "x": 0.5,
+   "y": 0.35,
+   "rampa": 20
+  }
+ ],
+ "whips": [
+  1.1,
+  4.45,
+  5.25
+ ],
+ "pb": [],
+ "inserts": [
+  {
+   "t": 0.05,
+   "dur": 1.03,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "parte",
+     "estilo": "fino",
+     "tam": 120,
+     "x": 90,
+     "y": 250
+    },
+    {
+     "de": 0.12,
+     "txt": "03",
+     "estilo": "contorno",
+     "tam": 560,
+     "x": 300,
+     "y": 170,
+     "cor": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "t": 0.3,
+   "dur": 0.78,
+   "tipo": "cinetico",
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "salário-maternidade",
+     "estilo": "forte",
+     "tam": 92,
+     "x": 70,
+     "y": 1330,
+     "cor": "#E6D3B8"
+    }
+   ]
+  },
+  {
+   "t": 1.11,
+   "dur": 1.13,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "eu quero",
+     "estilo": "fino",
+     "tam": 130,
+     "x": 80,
+     "y": 300
+    },
+    {
+     "de": 0.67,
+     "txt": "SABER",
+     "estilo": "forte",
+     "tam": 250,
+     "x": 60,
+     "y": 420
+    }
+   ]
+  },
+  {
+   "t": 2.24,
+   "dur": 0.86,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "se esse",
+     "estilo": "fino",
+     "tam": 130,
+     "x": 90,
+     "y": 300
+    },
+    {
+     "de": 0.56,
+     "txt": "POVO",
+     "estilo": "forte",
+     "tam": 290,
+     "x": 70,
+     "y": 410,
+     "cor": "#E6D3B8"
+    }
+   ]
+  },
+  {
+   "t": 3.1,
+   "dur": 1.35,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "sabe de",
+     "estilo": "fino",
+     "tam": 130,
+     "x": 90,
+     "y": 300
+    },
+    {
+     "de": 0.42,
+     "txt": "INSS?",
+     "estilo": "brilho",
+     "tam": 300,
+     "x": 50,
+     "y": 420
+    }
+   ]
+  },
+  {
+   "t": 4.45,
+   "dur": 0.8,
+   "tipo": "cinetico",
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "na feira de",
+     "estilo": "fino",
+     "tam": 105,
+     "x": 80,
+     "y": 250
+    },
+    {
+     "de": 0.15,
+     "txt": "UNIÃO",
+     "estilo": "forte",
+     "tam": 230,
+     "x": 60,
+     "y": 350
+    }
+   ]
+  },
+  {
+   "t": 5.38,
+   "dur": 2.6,
+   "tipo": "identifica",
+   "texto": "RITA E SALES",
+   "sub": "TAMARA CHAGAS ADVOCACIA",
+   "y": 232
+  },
+  {
+   "t": 7.75,
+   "dur": 1.15,
+   "tipo": "cards",
+   "y": 1430,
+   "itens": [
+    "Aposentadoria",
+    "Auxílio-doença",
+    "Salário-maternidade",
+    "Pensão por morte",
+    "BPC/LOAS"
+   ]
+  },
+  {
+   "t": 16.7,
+   "dur": 1.45,
+   "tipo": "sticker",
+   "emoji": "🧠",
+   "texto": "NA MINHA MENTE...",
+   "cor": "#FFFFFF",
+   "y": 340,
+   "rot": -4
+  },
+  {
+   "t": 18.2,
+   "dur": 1.6,
+   "tipo": "sticker",
+   "emoji": "✅",
+   "texto": "ACERTOU!",
+   "cor": "#141414",
+   "y": 340,
+   "rot": 4
+  },
+  {
+   "t": 23.76,
+   "dur": 1.8,
+   "tipo": "sticker",
+   "emoji": "📂",
+   "texto": "DOCUMENTOS!",
+   "cor": "#FFFFFF",
+   "y": 340,
+   "rot": -3
+  },
+  {
+   "t": 28.63,
+   "dur": 1.84,
+   "tipo": "meme",
+   "linhas": [
+    "TEM",
+    "DIREITO,",
+    "SIM!"
+   ],
+   "tempos": [
+    0,
+    0.12,
+    0.45
+   ]
+  },
+  {
+   "t": 30.7,
+   "dur": 2.0,
+   "tipo": "sticker",
+   "emoji": "👋",
+   "texto": "ATÉ A PRÓXIMA PARTE",
+   "cor": "#FFFFFF",
+   "y": 340,
+   "x": 50,
+   "rot": -3
+  },
+  {
+   "t": 32.79,
+   "dur": 4.2,
+   "tipo": "cartao",
+   "parte": 3,
+   "tema": "SALÁRIO-MATERNIDADE",
+   "texto": "A mulher da roça <b>tem direito ao salário-maternidade.</b>",
+   "sub": "Precisa comprovar o trabalho no campo nos <b>10 meses</b> antes do parto. São <b>120 dias</b> de 1 salário mínimo.",
+   "fonte": "Lei 8.213/1991, arts. 25, III; 39, parágrafo único; e 71 (planalto.gov.br)"
+  }
+ ],
+ "headline": {
+  "de": 5.25,
+  "ate": 999,
+  "parte": 3,
+  "tema": "SALÁRIO-MATERNIDADE"
+ },
+ "sfx": [
+  [
+   0.0,
+   "abertura-hit",
+   0.55
+  ],
+  [
+   0.02,
+   "whoosh-grave",
+   0.6
+  ],
+  [
+   0.05,
+   "tick",
+   0.5
+  ],
+  [
+   0.15,
+   "thump2",
+   0.65
+  ],
+  [
+   0.7,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   1.11,
+   "tick",
+   0.5
+  ],
+  [
+   1.78,
+   "thump",
+   0.65
+  ],
+  [
+   2.24,
+   "tick",
+   0.5
+  ],
+  [
+   2.8,
+   "thump2",
+   0.65
+  ],
+  [
+   3.0,
+   "riser",
+   0.32
+  ],
+  [
+   3.1,
+   "tick",
+   0.45
+  ],
+  [
+   3.52,
+   "shimmer",
+   0.45
+  ],
+  [
+   3.52,
+   "thump",
+   0.65
+  ],
+  [
+   4.08,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   4.6,
+   "thump2",
+   0.65
+  ],
+  [
+   4.85,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   5.27,
+   "click",
+   0.4
+  ],
+  [
+   5.4,
+   "click",
+   0.35
+  ],
+  [
+   7.34,
+   "whoosh-grave-cards",
+   0.65
+  ],
+  [
+   7.8,
+   "card-1",
+   0.55
+  ],
+  [
+   7.9,
+   "card-2",
+   0.55
+  ],
+  [
+   8.0,
+   "card-3",
+   0.55
+  ],
+  [
+   8.1,
+   "card-4",
+   0.55
+  ],
+  [
+   8.2,
+   "card-5",
+   0.55
+  ],
+  [
+   16.7,
+   "pop",
+   0.45
+  ],
+  [
+   18.2,
+   "ding",
+   0.4
+  ],
+  [
+   23.5,
+   "whoosh-grave",
+   0.6
+  ],
+  [
+   23.76,
+   "click",
+   0.4
+  ],
+  [
+   28.63,
+   "thump2",
+   0.65
+  ],
+  [
+   28.75,
+   "thump",
+   0.65
+  ],
+  [
+   29.08,
+   "boom",
+   0.45
+  ],
+  [
+   30.7,
+   "click",
+   0.4
+  ],
+  [
+   32.35,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   32.89,
+   "shimmer",
+   0.3
+  ]
+ ],
+ "trilha": [
+  [
+   0.0,
+   4.39,
+   0.42
+  ],
+  [
+   4.39,
+   5.2,
+   0.32
+  ],
+  [
+   5.25,
+   32.6,
+   0.09
+  ],
+  [
+   32.79,
+   36.99,
+   0.4
+  ]
+ ]
+}

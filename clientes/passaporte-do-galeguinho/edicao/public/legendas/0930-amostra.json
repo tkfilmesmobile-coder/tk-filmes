@@ -1,0 +1,217 @@
+[
+  {
+    "text": " Já",
+    "startMs": 50,
+    "endMs": 490,
+    "timestampMs": 270,
+    "confidence": null
+  },
+  {
+    "text": " pensasse,",
+    "startMs": 490,
+    "endMs": 1210,
+    "timestampMs": 850,
+    "confidence": null
+  },
+  {
+    "text": " pô?",
+    "startMs": 1210,
+    "endMs": 1660,
+    "timestampMs": 1435,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Eu",
+    "startMs": 1660,
+    "endMs": 1750,
+    "timestampMs": 1705,
+    "confidence": null
+  },
+  {
+    "text": " passava",
+    "startMs": 1750,
+    "endMs": 2080,
+    "timestampMs": 1915,
+    "confidence": null
+  },
+  {
+    "text": " aqui",
+    "startMs": 2080,
+    "endMs": 2280,
+    "timestampMs": 2180,
+    "confidence": null
+  },
+  {
+    "text": " em",
+    "startMs": 2280,
+    "endMs": 2360,
+    "timestampMs": 2320,
+    "confidence": null
+  },
+  {
+    "text": " São",
+    "startMs": 2360,
+    "endMs": 2550,
+    "timestampMs": 2455,
+    "confidence": null
+  },
+  {
+    "text": " José",
+    "startMs": 2550,
+    "endMs": 2790,
+    "timestampMs": 2670,
+    "confidence": null
+  },
+  {
+    "text": " da",
+    "startMs": 2790,
+    "endMs": 2880,
+    "timestampMs": 2835,
+    "confidence": null
+  },
+  {
+    "text": " Laje",
+    "startMs": 2880,
+    "endMs": 3260,
+    "timestampMs": 3070,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " e",
+    "startMs": 3260,
+    "endMs": 3380,
+    "timestampMs": 3320,
+    "confidence": null
+  },
+  {
+    "text": " não",
+    "startMs": 3380,
+    "endMs": 3950,
+    "timestampMs": 3665,
+    "confidence": null
+  },
+  {
+    "text": " vinha",
+    "startMs": 3950,
+    "endMs": 4420,
+    "timestampMs": 4185,
+    "confidence": null
+  },
+  {
+    "text": " aqui",
+    "startMs": 4420,
+    "endMs": 4930,
+    "timestampMs": 4675,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 4930,
+    "endMs": 5000,
+    "timestampMs": 4965,
+    "confidence": null
+  },
+  {
+    "text": " Passaporte",
+    "startMs": 5000,
+    "endMs": 5440,
+    "timestampMs": 5220,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 5440,
+    "endMs": 5560,
+    "timestampMs": 5500,
+    "confidence": null
+  },
+  {
+    "text": " Galeguinho?",
+    "startMs": 5560,
+    "endMs": 6060,
+    "timestampMs": 5810,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Mas",
+    "startMs": 6060,
+    "endMs": 6250,
+    "timestampMs": 6155,
+    "confidence": null
+  },
+  {
+    "text": " eu",
+    "startMs": 6250,
+    "endMs": 6380,
+    "timestampMs": 6315,
+    "confidence": null
+  },
+  {
+    "text": " não",
+    "startMs": 6380,
+    "endMs": 6640,
+    "timestampMs": 6510,
+    "confidence": null
+  },
+  {
+    "text": " fiz",
+    "startMs": 6640,
+    "endMs": 6830,
+    "timestampMs": 6735,
+    "confidence": null
+  },
+  {
+    "text": " nada",
+    "startMs": 6830,
+    "endMs": 7090,
+    "timestampMs": 6960,
+    "confidence": null
+  },
+  {
+    "text": " não,",
+    "startMs": 7090,
+    "endMs": 7470,
+    "timestampMs": 7280,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " eu",
+    "startMs": 7470,
+    "endMs": 7750,
+    "timestampMs": 7610,
+    "confidence": null
+  },
+  {
+    "text": " não",
+    "startMs": 7750,
+    "endMs": 7860,
+    "timestampMs": 7805,
+    "confidence": null
+  },
+  {
+    "text": " fiz",
+    "startMs": 7860,
+    "endMs": 8050,
+    "timestampMs": 7955,
+    "confidence": null
+  },
+  {
+    "text": " nada",
+    "startMs": 8050,
+    "endMs": 8310,
+    "timestampMs": 8180,
+    "confidence": null
+  },
+  {
+    "text": " não.",
+    "startMs": 8310,
+    "endMs": 8830,
+    "timestampMs": 8570,
+    "confidence": null,
+    "pageBreakAfter": true
+  }
+]

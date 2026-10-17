@@ -20,6 +20,7 @@
 | Eduarda Pereira | até 12 vídeos/mês, orgânico e estratégico; cobertura extra a R$ 100/diária | 120 dias, de 12/03/2026 a 10/07/2026 | R$ 2.400 | R$ 600 | 2026-03-12 |
 | Dra. Camilla Wanderley | 5 posts fixos/mês + diárias de captação durante atendimentos | mensal | — | R$ 600 | 2026 |
 | Tamara Chagas Advocacia | marketing completo, presencial seg a sex 8h às 17h (5 reels, 50 stories e 5 vídeos de localização por semana) | mensal, desde 01/10/2025, sem contrato escrito | — | R$ 2.000 | 2026-09-28 |
+| Dra. Melissa Morais | só edição de 4 vídeos, avulso, sem contrato escrito (acordo em PDF) | pacote único, pago em 15/10/2026 | R$ 200 | — | 2026-10-15 |
 | modelo "2 a 4 vídeos/semana" (com indique-e-ganhe e parceria de produto) | gravação, edição, roteiro, capas, legendas, métricas, persona, planejamento | 120 dias | R$ 2.200 | R$ 550 | modelo de contrato |
 
 ## Leitura destes números
@@ -28,3 +29,4 @@
 - O que empurra pra cima: mais vídeos por mês, mais dias de gravação, deslocamento por conta da TK, cliente de porte maior.
 - O que puxa pra baixo: gravação concentrada num dia só, cliente que grava sozinho, contrato longo.
 - Ponto de atenção levantado em 2026-09-17: a diária de cobertura extra a R$ 100 está bem abaixo da diária avulsa de R$ 300.
+- Edição avulsa (só edição, sem gravação nem planejamento): 4 vídeos por R$ 200, ou R$ 50 por vídeo (2026-10-15, Dra. Melissa Morais). Fora da faixa mensal: é pacote fechado.

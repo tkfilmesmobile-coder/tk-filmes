@@ -1,0 +1,31 @@
+{
+ "fonte": "Lei 8.742/1993 (LOAS), art. 20",
+ "telas": [
+  {
+   "kicker": "DIA DAS CRIANÇAS · BPC",
+   "titulo": "Criança com deficiência <b>e o BPC.</b>",
+   "foto": "tamara/tamara-estudio-0099.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "BPC pra criança.",
+   "tam": 84,
+   "texto": "💰 um salário mínimo por mês<br><br>🧩 pra pessoa com deficiência de qualquer idade (ou idoso com 65+)<br><br>🏠 quando a família não tem meios de manter o sustento<br><br>📋 tem critério de renda e avaliação"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Meu filho tem deficiência. Ele pode ter direito ao BPC?”",
+   "tam": 64,
+   "texto": "Pode, sim: o BPC vale pra pessoa com deficiência de qualquer idade. Mas tem critério de renda da família e avaliação, então cada caso precisa ser analisado."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

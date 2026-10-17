@@ -1,0 +1,12 @@
+{
+  "fonte": "public/midia/IMG_0397.mp4",
+  "audio16k": "public/midia/IMG_0397-16k.wav",
+  "fps": 30,
+  "clipes": [
+    { "id": "abertura", "inicio": 0.0, "fim": 2.03, "fala": "Acabou a prova de vida no INSS." },
+    { "id": "voce-sabia", "inicio": 25.03, "fim": 37.85, "fala": "Você sabia que ... novo sistema." },
+    { "id": "quando-vota", "inicio": 50.75, "fim": 56.25, "fala": "Quando você vota nas urnas ... a sua prova de vida." },
+    { "id": "agencias", "inicio": 75.0, "fim": 81.7, "fala": "A partir do momento que você vota ... aquele transtorno." },
+    { "id": "final", "inicio": 134.25, "fim": 136.55, "fala": "Agora ficou muito mais fácil, né?" }
+  ]
+}

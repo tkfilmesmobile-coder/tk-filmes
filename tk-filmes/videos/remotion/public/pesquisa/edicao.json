@@ -1,0 +1,267 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "pesquisa/bruto.mp4",
+ "clipes": [
+  {
+   "id": "cortado",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 2083,
+   "zoom": 1.0
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "titulo",
+   "from": 15,
+   "durationInFrames": 107,
+   "texto": "Faz o teste",
+   "sub": "pesquisa o seu nome no Instagram",
+   "fala": 50
+  },
+  {
+   "tipo": "frase",
+   "from": 165,
+   "durationInFrames": 42,
+   "texto": "Olha o seu perfil como se fosse cliente.",
+   "pos": "baixo",
+   "fala": 7
+  },
+  {
+   "tipo": "cartao",
+   "from": 213,
+   "durationInFrames": 174,
+   "segue": false,
+   "pos": "baixo",
+   "etiqueta": "o que apareceu?",
+   "linhas": [
+    {
+     "texto": "uma trend de três semanas atrás",
+     "atraso": 25,
+     "fala": 25,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "um vídeo bom perdido lá embaixo",
+     "atraso": 90,
+     "fala": 90,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "vinte dias sem nada",
+     "atraso": 132,
+     "fala": 132,
+     "tom": "neg",
+     "cor": "#E3B48C"
+    }
+   ]
+  },
+  {
+   "tipo": "headline",
+   "from": 417,
+   "durationInFrames": 76,
+   "palavras": [
+    {
+     "texto": "é isso",
+     "fala": 3
+    },
+    {
+     "texto": "que o seu",
+     "fala": 10
+    },
+    {
+     "texto": "cliente vê",
+     "fala": 18
+    }
+   ]
+  },
+  {
+   "tipo": "titulo",
+   "from": 652,
+   "durationInFrames": 118,
+   "texto": "Sem intenção",
+   "sub": "cada post é um recomeço do zero",
+   "fala": 5
+  },
+  {
+   "tipo": "cartao",
+   "from": 776,
+   "durationInFrames": 331,
+   "segue": false,
+   "pos": "baixo",
+   "etiqueta": "faz o seguinte",
+   "linhas": [
+    {
+     "texto": "uma dúvida que o cliente sempre faz",
+     "atraso": 41,
+     "fala": 41,
+     "tom": "pos"
+    },
+    {
+     "texto": "três conteúdos respondendo só ela",
+     "atraso": 151,
+     "fala": 151,
+     "tom": "pos",
+     "cor": "#E3B48C"
+    }
+   ]
+  },
+  {
+   "tipo": "tres",
+   "from": 1113,
+   "durationInFrames": 93,
+   "falas": [
+    7,
+    21,
+    48
+   ]
+  },
+  {
+   "tipo": "fixar",
+   "from": 1212,
+   "durationInFrames": 84,
+   "fala": 63
+  },
+  {
+   "tipo": "frase",
+   "from": 1302,
+   "durationInFrames": 91,
+   "texto": "Quem chega entende em um segundo.",
+   "pos": "baixo",
+   "fala": 83
+  },
+  {
+   "tipo": "rolar",
+   "from": 1399,
+   "durationInFrames": 219,
+   "fala": 12
+  },
+  {
+   "tipo": "calendario",
+   "from": 1456,
+   "durationInFrames": 330,
+   "dias": [
+    1,
+    3
+   ],
+   "fala": 28,
+   "pessoa": "pesquisa/pessoa"
+  },
+  {
+   "tipo": "frase",
+   "from": 1624,
+   "durationInFrames": 180,
+   "texto": "Não é postar mais. É postar certo.",
+   "pos": "baixo",
+   "fala": 5
+  },
+  {
+   "tipo": "frase",
+   "from": 1810,
+   "durationInFrames": 66,
+   "texto": "Faz isso por um mês e pesquisa de novo.",
+   "pos": "baixo",
+   "fala": 3
+  },
+  {
+   "tipo": "titulo",
+   "from": 1882,
+   "durationInFrames": 76,
+   "texto": "O perfil é o mesmo.",
+   "sub": "a leitura dele, não",
+   "fala": 57
+  },
+  {
+   "tipo": "salvar",
+   "from": 1964,
+   "durationInFrames": 53,
+   "fala": 12
+  },
+  {
+   "tipo": "logo",
+   "from": 2016,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 139,
+   "durationInFrames": 13,
+   "texto": "E você vai"
+  },
+  {
+   "from": 149,
+   "durationInFrames": 13,
+   "texto": "olhar agora"
+  },
+  {
+   "from": 390,
+   "durationInFrames": 24,
+   "texto": "Pois é,"
+  },
+  {
+   "from": 494,
+   "durationInFrames": 26,
+   "texto": "Olha, não é"
+  },
+  {
+   "from": 516,
+   "durationInFrames": 25,
+   "texto": "que você não"
+  },
+  {
+   "from": 537,
+   "durationInFrames": 33,
+   "texto": "poste. é que"
+  },
+  {
+   "from": 566,
+   "durationInFrames": 21,
+   "texto": "o que você"
+  },
+  {
+   "from": 583,
+   "durationInFrames": 27,
+   "texto": "posta não está"
+  },
+  {
+   "from": 606,
+   "durationInFrames": 43,
+   "texto": "conversando entre si,"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 18,
+   "durationInFrames": 19,
+   "escala": 1.07
+  },
+  {
+   "from": 419,
+   "durationInFrames": 17,
+   "escala": 1.06
+  },
+  {
+   "from": 434,
+   "durationInFrames": 17,
+   "escala": 1.06
+  },
+  {
+   "from": 492,
+   "durationInFrames": 24,
+   "escala": 1.06
+  },
+  {
+   "from": 1881,
+   "durationInFrames": 29,
+   "escala": 1.07
+  }
+ ],
+ "reenquadramentos": []
+}

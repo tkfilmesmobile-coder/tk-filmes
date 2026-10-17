@@ -1,0 +1,31 @@
+{
+ "fonte": "Câmara dos Deputados · Senado Federal · CF, arts. 48 e 60",
+ "telas": [
+  {
+   "kicker": "PREVIDÊNCIA E POLÍTICA",
+   "titulo": "Acompanhe <b>no Congresso.</b>",
+   "foto": "tamara/tamara-estudio-0004.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Acompanhar na fonte.",
+   "tam": 84,
+   "texto": "🏛️ camara.leg.br → Propostas legislativas<br><br>🏛️ senado.leg.br → Pesquisa de matérias<br><br>🔎 busque: aposentadoria, BPC, INSS<br><br>⚠️ lembre: proposta não é lei"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Vi um projeto que acaba com o BPC!”",
+   "tam": 64,
+   "texto": "Proposta ainda não é lei: só muda alguma coisa depois de aprovada, publicada e em vigor. Dá pra ver em que fase ela está no site da Câmara ou do Senado."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

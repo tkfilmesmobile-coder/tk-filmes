@@ -1,0 +1,15 @@
+{
+ "fonte": "STF, RE 631.240 (Tema 350)",
+ "telas": [
+  {"kicker": "PARA ADVOGADOS", "titulo": "Carta negada: <b>e agora?</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg", "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O vídeo completo tá no feed. Aqui vai o resumo 👇"},
+  {"kicker": "PRIMEIRO PASSO", "titulo": "Analise o <b>motivo da negativa.</b>", "tam": 84,
+   "texto": "❌ Falha do cliente (faltou documento ou informação): <b>novo pedido no INSS</b><br><br>✅ Tudo comprovado e o INSS negou mesmo assim: <b>aí sim judicializar</b>"},
+  {"kicker": "ATENÇÃO", "titulo": "Carta negada, sozinha, <b>não é munição.</b>", "tam": 84,
+   "texto": "📎 Documentos completos no pedido<br><br>🩺 Perícia com os laudos<br><br>🧾 Incapacidade comprovada"},
+  {"kicker": "TAMARA CHAGAS ADVOCACIA", "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Análise cuidadosa antes de qualquer ação.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

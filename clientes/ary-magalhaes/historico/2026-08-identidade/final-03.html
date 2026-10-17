@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --preto:#121212; --grafite:#242424; --cinza:#8A8A8A; --cinza-claro:#C9C9C9;
+    --claro:#F3F1EE; --ouro:#CBA14F; --ouro-cl:#D8B45E; --ouro-esc:#96742A;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{background:var(--preto);color:var(--claro);font-family:'Jost',sans-serif;
+    padding:64px 72px;display:flex;flex-direction:column;gap:34px;overflow:hidden}
+  .kicker{font-size:16px;letter-spacing:.42em;text-transform:uppercase;color:var(--ouro);font-weight:500}
+  .rota-tag{font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--cinza);margin-bottom:6px}
+  h1{font-family:'Playfair Display',serif;font-weight:400;font-size:100px;line-height:.94;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--ouro-cl)}
+  .concept{font-size:19px;color:var(--cinza-claro);letter-spacing:.02em;font-weight:300;margin-top:12px}
+  .sec-title{font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--cinza);margin-bottom:16px}
+  .palette{display:flex;gap:16px}
+  .chip{flex:1;height:96px;border-radius:6px;display:flex;align-items:flex-end;padding:10px;font-size:12px;font-weight:500}
+  .chip span{background:rgba(0,0,0,.35);padding:3px 7px;border-radius:4px;letter-spacing:.04em}
+  .fonts{display:flex;gap:40px}
+  .fonts>div{flex:1}
+  .font-name{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ouro);margin-bottom:8px}
+  .spec-serif{font-family:'Playfair Display',serif;font-weight:400;font-size:50px;line-height:1.02}
+  .spec-sans{font-family:'Jost',sans-serif;font-weight:400;font-size:20px;line-height:1.5;color:var(--cinza-claro)}
+  .apply{display:flex;gap:22px;margin-top:auto}
+  .ig{width:300px;height:300px;background:var(--preto);border:1px solid #333;border-radius:10px;
+    display:flex;flex-direction:column;justify-content:space-between;padding:26px;flex-shrink:0}
+  .ig .k{font-size:11px;letter-spacing:.38em;color:var(--ouro);text-transform:uppercase}
+  .ig h2{font-family:'Playfair Display',serif;font-weight:400;font-size:40px;line-height:.98}
+  .ig .cta{font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:var(--claro);border-top:1px solid #333;padding-top:12px}
+  .web{flex:1;background:var(--claro);color:var(--preto);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+  .web .bar{display:flex;align-items:center;justify-content:space-between;padding:16px 22px;border-bottom:1px solid #e2ded9}
+  .web .logo{font-family:'Playfair Display',serif;font-weight:500;font-size:22px}
+  .web .nav{display:flex;gap:16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#555}
+  .web .hero{padding:26px 22px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}
+  .web .hero h3{font-family:'Playfair Display',serif;font-weight:400;font-size:32px;line-height:1.05;letter-spacing:-.01em}
+  .web .hero h3 em{font-style:italic;color:var(--ouro-esc)}
+  .web .btn{align-self:flex-start;background:var(--preto);color:var(--claro);font-size:11px;letter-spacing:.2em;text-transform:uppercase;padding:11px 20px;border-radius:40px}
+</style>
+</head>
+<body>
+  <div>
+    <div class="rota-tag">Opção 03 — Playfair Display + Jost</div>
+    <div class="kicker">Salão de Beleza</div>
+  </div>
+  <div>
+    <h1>Ary <em>Magalhães</em></h1>
+    <div class="concept">moderna · acolhedora · jovial — clássica chique</div>
+  </div>
+
+  <div>
+    <div class="sec-title">Paleta</div>
+    <div class="palette">
+      <div class="chip" style="background:#121212;color:#fff;border:1px solid #333"><span>#121212</span></div>
+      <div class="chip" style="background:#242424;color:#fff"><span>#242424</span></div>
+      <div class="chip" style="background:#8A8A8A;color:#fff"><span>#8A8A8A</span></div>
+      <div class="chip" style="background:#CBA14F;color:#2a2213"><span>#CBA14F</span></div>
+      <div class="chip" style="background:#F3F1EE;color:#333"><span>#F3F1EE</span></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="sec-title">Tipografia</div>
+    <div class="fonts">
+      <div>
+        <div class="font-name">Playfair Display — títulos</div>
+        <div class="spec-serif">Beleza que<br>acolhe</div>
+      </div>
+      <div>
+        <div class="font-name">Jost — texto</div>
+        <div class="spec-sans">Cabelo, unhas e estética num ambiente moderno e cuidadoso. Agende seu horário.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="apply">
+    <div class="ig">
+      <div class="k">Novidade</div>
+      <h2>Seu novo<br><em style="font-style:italic;color:#D8B45E">visual</em></h2>
+      <div class="cta">Agende pelo direct →</div>
+    </div>
+    <div class="web">
+      <div class="bar">
+        <div class="logo">Ary Magalhães</div>
+        <div class="nav"><span>Serviços</span><span>Sobre</span><span>Agenda</span></div>
+      </div>
+      <div class="hero">
+        <h3>Um salão <em>moderno</em> feito pra você se sentir em casa.</h3>
+        <div class="btn">Agendar horário</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

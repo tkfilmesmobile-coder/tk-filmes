@@ -1,0 +1,398 @@
+Whisper already exists at C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp
+Model already exists at C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin
+(node:28160) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\amador-p00.wav' (451520 samples, 28.2 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.100]  
+[00:00:00.100 --> 00:00:00.140]   Se
+[00:00:00.140 --> 00:00:00.150]  u
+[00:00:00.150 --> 00:00:00.460]   vídeo
+[00:00:00.460 --> 00:00:00.720]   está
+[00:00:00.720 --> 00:00:00.880]   com
+[00:00:00.880 --> 00:00:01.080]   cara
+[00:00:01.080 --> 00:00:01.180]   de
+[00:00:01.180 --> 00:00:01.280]   am
+[00:00:01.280 --> 00:00:01.540]  ador
+[00:00:01.540 --> 00:00:01.590]   e
+[00:00:01.590 --> 00:00:01.640]   o
+[00:00:01.640 --> 00:00:02.220]   problema
+[00:00:02.220 --> 00:00:02.560]   está
+[00:00:02.560 --> 00:00:03.000]   longe
+[00:00:03.000 --> 00:00:03.190]   de
+[00:00:03.190 --> 00:00:03.300]   ser
+[00:00:03.300 --> 00:00:03.360]   a
+[00:00:03.360 --> 00:00:03.840]   câmera
+[00:00:03.840 --> 00:00:03.840]  .
+[00:00:03.840 --> 00:00:04.120]   Prime
+[00:00:04.120 --> 00:00:04.300]  iro
+[00:00:04.300 --> 00:00:04.570]   ponto
+[00:00:04.570 --> 00:00:04.680]   é
+[00:00:04.680 --> 00:00:04.730]   a
+[00:00:04.730 --> 00:00:04.840]   il
+[00:00:04.840 --> 00:00:04.950]  um
+[00:00:04.950 --> 00:00:05.430]  inação
+[00:00:05.430 --> 00:00:05.460]  .
+[00:00:05.460 --> 00:00:05.590]   Se
+[00:00:05.590 --> 00:00:05.620]   a
+[00:00:05.620 --> 00:00:05.790]   jan
+[00:00:05.790 --> 00:00:05.960]  ela
+[00:00:05.960 --> 00:00:06.130]   que
+[00:00:06.130 --> 00:00:06.410]   você
+[00:00:06.410 --> 00:00:06.680]   util
+[00:00:06.680 --> 00:00:06.810]  iza
+[00:00:06.810 --> 00:00:07.040]   como
+[00:00:07.040 --> 00:00:07.150]   il
+[00:00:07.150 --> 00:00:07.260]  um
+[00:00:07.260 --> 00:00:07.840]  inação
+[00:00:07.840 --> 00:00:07.920]   está
+[00:00:07.920 --> 00:00:08.490]   atrás
+[00:00:08.490 --> 00:00:08.710]   do
+[00:00:08.710 --> 00:00:08.960]   seu
+[00:00:08.960 --> 00:00:09.050]   r
+[00:00:09.050 --> 00:00:09.510]  osto
+[00:00:09.510 --> 00:00:09.720]  ,
+[00:00:09.720 --> 00:00:09.820]   o
+[00:00:09.820 --> 00:00:09.940]   seu
+[00:00:09.940 --> 00:00:09.950]   r
+[00:00:09.950 --> 00:00:10.130]  osto
+[00:00:10.130 --> 00:00:10.270]   vai
+[00:00:10.270 --> 00:00:10.500]   ficar
+[00:00:10.500 --> 00:00:10.780]   esc
+[00:00:10.780 --> 00:00:10.790]  uro
+[00:00:10.790 --> 00:00:10.820]   e
+[00:00:10.820 --> 00:00:10.860]   o
+[00:00:10.860 --> 00:00:11.100]   fundo
+[00:00:11.100 --> 00:00:11.230]   est
+[00:00:11.230 --> 00:00:11.380]  our
+[00:00:11.380 --> 00:00:11.510]  ado
+[00:00:11.510 --> 00:00:11.720]  .
+[00:00:11.720 --> 00:00:12.040]   Você
+[00:00:12.040 --> 00:00:12.230]   vir
+[00:00:12.230 --> 00:00:12.280]  a
+[00:00:12.280 --> 00:00:12.560]   de
+[00:00:12.560 --> 00:00:12.810]   frente
+[00:00:12.810 --> 00:00:13.110]   para
+[00:00:13.110 --> 00:00:13.130]   a
+[00:00:13.130 --> 00:00:13.320]   jan
+[00:00:13.320 --> 00:00:13.660]  ela
+[00:00:13.660 --> 00:00:13.660]  ,
+[00:00:13.660 --> 00:00:13.960]   porque
+[00:00:13.960 --> 00:00:14.020]   a
+[00:00:14.020 --> 00:00:14.170]   luz
+[00:00:14.170 --> 00:00:14.320]   tem
+[00:00:14.320 --> 00:00:14.500]   que
+[00:00:14.500 --> 00:00:14.740]   estar
+[00:00:14.740 --> 00:00:14.830]   de
+[00:00:14.830 --> 00:00:15.240]   frente
+[00:00:15.240 --> 00:00:15.600]   para
+[00:00:15.600 --> 00:00:15.600]   você
+[00:00:15.600 --> 00:00:15.800]  .
+[00:00:15.800 --> 00:00:15.900]   A
+[00:00:15.900 --> 00:00:16.240]   altura
+[00:00:16.240 --> 00:00:16.360]   da
+[00:00:16.360 --> 00:00:16.410]   l
+[00:00:16.410 --> 00:00:16.670]  ente
+[00:00:16.670 --> 00:00:16.880]  .
+[00:00:16.880 --> 00:00:16.940]   A
+[00:00:16.940 --> 00:00:17.360]   câmera
+[00:00:17.360 --> 00:00:17.500]   do
+[00:00:17.500 --> 00:00:17.660]   seu
+[00:00:17.660 --> 00:00:18.090]   celular
+[00:00:18.090 --> 00:00:18.300]   tem
+[00:00:18.300 --> 00:00:18.440]   que
+[00:00:18.440 --> 00:00:18.750]   estar
+[00:00:18.750 --> 00:00:18.860]   na
+[00:00:18.860 --> 00:00:19.220]   altura
+[00:00:19.220 --> 00:00:19.420]   dos
+[00:00:19.420 --> 00:00:19.640]   seus
+[00:00:19.640 --> 00:00:20.030]   olhos
+[00:00:20.030 --> 00:00:20.140]  .
+[00:00:20.140 --> 00:00:20.280]   Se
+[00:00:20.280 --> 00:00:20.390]   ela
+[00:00:20.390 --> 00:00:20.810]   estiver
+[00:00:20.810 --> 00:00:20.850]   de
+[00:00:20.850 --> 00:00:21.100]   baixo
+[00:00:21.100 --> 00:00:21.300]   para
+[00:00:21.300 --> 00:00:21.500]   cima
+[00:00:21.500 --> 00:00:21.640]  ,
+[00:00:21.640 --> 00:00:21.830]   vai
+[00:00:21.830 --> 00:00:22.390]   mostrar
+[00:00:22.390 --> 00:00:22.470]   que
+[00:00:22.470 --> 00:00:22.800]  ixo
+[00:00:22.800 --> 00:00:22.870]  ,
+[00:00:22.870 --> 00:00:22.900]   t
+[00:00:22.900 --> 00:00:23.070]  eto
+[00:00:23.070 --> 00:00:23.220]  ,
+[00:00:23.220 --> 00:00:23.500]   muito
+[00:00:23.500 --> 00:00:23.610]   de
+[00:00:23.610 --> 00:00:23.900]   coisa
+[00:00:23.900 --> 00:00:24.030]   que
+[00:00:24.030 --> 00:00:24.240]   não
+[00:00:24.240 --> 00:00:24.530]   precisa
+[00:00:24.530 --> 00:00:24.680]  .
+[00:00:24.680 --> 00:00:24.820]   Se
+[00:00:24.820 --> 00:00:25.050]   você
+[00:00:25.050 --> 00:00:25.370]   precis
+[00:00:25.370 --> 00:00:25.470]  ar
+[00:00:25.470 --> 00:00:25.660]  ,
+[00:00:25.660 --> 00:00:25.730]   col
+[00:00:25.730 --> 00:00:25.940]  oque
+[00:00:25.940 --> 00:00:25.990]   o
+[00:00:25.990 --> 00:00:26.440]   celular
+[00:00:26.440 --> 00:00:26.470]   em
+[00:00:26.470 --> 00:00:26.680]   cima
+[00:00:26.680 --> 00:00:26.780]   de
+[00:00:26.780 --> 00:00:27.150]   alguma
+[00:00:27.150 --> 00:00:27.370]   coisa
+[00:00:27.370 --> 00:00:27.580]   como
+[00:00:27.580 --> 00:00:27.740]   liv
+[00:00:27.740 --> 00:00:27.890]  ros
+[00:00:27.890 --> 00:00:28.180]  .
+whisper_print_progress_callback: progress =  99%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time = 15349.81 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   300.03 ms
+whisper_print_timings:   sample time =  7966.52 ms /   808 runs (    9.86 ms per run)
+whisper_print_timings:   encode time = 946405.31 ms /     1 runs (946405.31 ms per run)
+whisper_print_timings:   decode time =    80.15 ms /     1 runs (   80.15 ms per run)
+whisper_print_timings:   batchd time = 76766.26 ms /   805 runs (   95.36 ms per run)
+whisper_print_timings:   prompt time =  4727.64 ms /   148 runs (   31.94 ms per run)
+whisper_print_timings:    total time = 1051983.00 ms
+
+trecho 0 0.18-28.40: Seu vídeo está com cara de amador e o problema está longe de ser a câmera. Primeiro ponto é a iluminação. Se a janela que você utiliza como iluminação está atrás do seu rosto, o seu rosto vai ficar escuro e o fundo estourado. Você vira de frente para a janela, porque a luz tem que estar de frente para você. A altura da lente. A câmera do seu celular tem que estar na altura dos seus olhos. Se ela estiver de baixo para cima, vai mostrar queixo, teto, muito de coisa que não precisa. Se você precisar, coloque o celular em cima de alguma coisa como livros.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\amador-p01.wav' (511520 samples, 32.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.120]  
+[00:00:00.120 --> 00:00:00.140]   O
+[00:00:00.140 --> 00:00:00.420]   á
+[00:00:00.420 --> 00:00:00.890]  ud
+[00:00:00.890 --> 00:00:01.000]  io
+[00:00:01.000 --> 00:00:01.230]  .
+[00:00:01.230 --> 00:00:01.300]   A
+[00:00:01.300 --> 00:00:01.600]   sala
+[00:00:01.600 --> 00:00:01.830]   vaz
+[00:00:01.830 --> 00:00:02.000]  ia
+[00:00:02.000 --> 00:00:02.060]  ,
+[00:00:02.060 --> 00:00:02.160]   sem
+[00:00:02.160 --> 00:00:02.260]   mó
+[00:00:02.260 --> 00:00:02.360]  vel
+[00:00:02.360 --> 00:00:02.570]   nenhum
+[00:00:02.570 --> 00:00:02.630]  ,
+[00:00:02.630 --> 00:00:02.720]   vai
+[00:00:02.720 --> 00:00:02.880]   ger
+[00:00:02.880 --> 00:00:03.190]  ar
+[00:00:03.190 --> 00:00:03.500]   eco
+[00:00:03.500 --> 00:00:03.540]   e
+[00:00:03.540 --> 00:00:04.010]   deixar
+[00:00:04.010 --> 00:00:04.120]   sua
+[00:00:04.120 --> 00:00:04.310]   voz
+[00:00:04.310 --> 00:00:04.570]   dist
+[00:00:04.570 --> 00:00:04.860]  ante
+[00:00:04.860 --> 00:00:04.860]  .
+[00:00:04.860 --> 00:00:05.090]   Prime
+[00:00:05.090 --> 00:00:05.180]  ir
+[00:00:05.180 --> 00:00:05.500]  amente
+[00:00:05.500 --> 00:00:05.550]  ,
+[00:00:05.550 --> 00:00:05.780]   você
+[00:00:05.780 --> 00:00:06.110]   aproxim
+[00:00:06.110 --> 00:00:06.150]  a
+[00:00:06.150 --> 00:00:06.190]   o
+[00:00:06.190 --> 00:00:06.520]   celular
+[00:00:06.520 --> 00:00:06.790]  .
+[00:00:06.790 --> 00:00:06.830]   Se
+[00:00:06.830 --> 00:00:07.150]   tiver
+[00:00:07.150 --> 00:00:07.280]   um
+[00:00:07.280 --> 00:00:07.690]   microf
+[00:00:07.690 --> 00:00:07.850]  one
+[00:00:07.850 --> 00:00:08.000]  ,
+[00:00:08.000 --> 00:00:08.570]   melhor
+[00:00:08.570 --> 00:00:08.870]   ainda
+[00:00:08.870 --> 00:00:09.100]  .
+[00:00:09.100 --> 00:00:09.230]   E
+[00:00:09.230 --> 00:00:09.490]   também
+[00:00:09.490 --> 00:00:09.580]   se
+[00:00:09.580 --> 00:00:09.830]   você
+[00:00:09.830 --> 00:00:09.970]   pud
+[00:00:09.970 --> 00:00:10.050]  er
+[00:00:10.050 --> 00:00:10.240]   grav
+[00:00:10.240 --> 00:00:10.350]  ar
+[00:00:10.350 --> 00:00:10.420]   em
+[00:00:10.420 --> 00:00:10.510]   um
+[00:00:10.510 --> 00:00:10.700]   cô
+[00:00:10.700 --> 00:00:10.790]  mod
+[00:00:10.790 --> 00:00:10.940]  o
+[00:00:10.940 --> 00:00:11.150]   que
+[00:00:11.150 --> 00:00:11.290]   tem
+[00:00:11.290 --> 00:00:11.390]   am
+[00:00:11.390 --> 00:00:11.490]  ob
+[00:00:11.490 --> 00:00:11.760]  ília
+[00:00:11.760 --> 00:00:11.780]  ,
+[00:00:11.780 --> 00:00:12.090]   como
+[00:00:12.090 --> 00:00:12.340]   sof
+[00:00:12.340 --> 00:00:12.360]  á
+[00:00:12.360 --> 00:00:12.500]  ,
+[00:00:12.500 --> 00:00:12.590]   a
+[00:00:12.590 --> 00:00:12.910]   cort
+[00:00:12.910 --> 00:00:13.160]  ina
+[00:00:13.160 --> 00:00:13.410]   vai
+[00:00:13.410 --> 00:00:13.710]   ajudar
+[00:00:13.710 --> 00:00:13.980]  .
+[00:00:13.980 --> 00:00:14.350]   Nada
+[00:00:14.350 --> 00:00:14.810]   disso
+[00:00:14.810 --> 00:00:15.160]   é
+[00:00:15.160 --> 00:00:15.460]   equip
+[00:00:15.460 --> 00:00:16.140]  amento
+[00:00:16.140 --> 00:00:16.330]  ,
+[00:00:16.330 --> 00:00:16.350]   é
+[00:00:16.350 --> 00:00:16.660]   dire
+[00:00:16.660 --> 00:00:17.040]  ção
+[00:00:17.040 --> 00:00:17.190]  ,
+[00:00:17.190 --> 00:00:17.380]   é
+[00:00:17.380 --> 00:00:17.570]   pre
+[00:00:17.570 --> 00:00:17.920]  star
+[00:00:17.920 --> 00:00:18.580]   atenção
+[00:00:18.580 --> 00:00:18.730]   em
+[00:00:18.730 --> 00:00:19.140]   cada
+[00:00:19.140 --> 00:00:19.420]   detal
+[00:00:19.420 --> 00:00:19.720]  he
+[00:00:19.720 --> 00:00:19.860]  .
+[00:00:19.860 --> 00:00:20.050]   Faz
+[00:00:20.050 --> 00:00:20.110]   o
+[00:00:20.110 --> 00:00:20.420]   teste
+[00:00:20.420 --> 00:00:20.730]   agora
+[00:00:20.730 --> 00:00:20.970]  .
+[00:00:20.970 --> 00:00:21.210]   Você
+[00:00:21.210 --> 00:00:21.370]   gra
+[00:00:21.370 --> 00:00:21.480]  va
+[00:00:21.480 --> 00:00:21.810]   10
+[00:00:21.810 --> 00:00:22.250]   segundos
+[00:00:22.250 --> 00:00:22.360]   de
+[00:00:22.360 --> 00:00:22.470]   um
+[00:00:22.470 --> 00:00:22.820]   vídeo
+[00:00:22.820 --> 00:00:22.960]   que
+[00:00:22.960 --> 00:00:23.230]   você
+[00:00:23.230 --> 00:00:23.450]   quer
+[00:00:23.450 --> 00:00:23.670]   grav
+[00:00:23.670 --> 00:00:23.850]  ar
+[00:00:23.850 --> 00:00:23.890]  ,
+[00:00:23.890 --> 00:00:23.960]   do
+[00:00:23.960 --> 00:00:24.270]   jeito
+[00:00:24.270 --> 00:00:24.280]   que
+[00:00:24.280 --> 00:00:24.620]   você
+[00:00:24.620 --> 00:00:24.890]   grav
+[00:00:24.890 --> 00:00:25.140]  ava
+[00:00:25.140 --> 00:00:25.460]   antes
+[00:00:25.460 --> 00:00:25.460]  ,
+[00:00:25.460 --> 00:00:25.560]   e
+[00:00:25.560 --> 00:00:25.830]   depois
+[00:00:25.830 --> 00:00:26.020]   pre
+[00:00:26.020 --> 00:00:26.250]  stand
+[00:00:26.250 --> 00:00:26.300]  o
+[00:00:26.300 --> 00:00:26.830]   atenção
+[00:00:26.830 --> 00:00:26.850]   n
+[00:00:26.850 --> 00:00:27.180]  esses
+[00:00:27.180 --> 00:00:27.350]   detal
+[00:00:27.350 --> 00:00:27.490]  hes
+[00:00:27.490 --> 00:00:27.720]  .
+whisper_print_progress_callback: progress =  86%
+[00:00:27.720 --> 00:00:27.770]  
+[00:00:27.770 --> 00:00:27.870]   V
+[00:00:27.870 --> 00:00:27.870]  ê
+[00:00:27.870 --> 00:00:27.970]   se
+[00:00:27.970 --> 00:00:28.230]   não
+[00:00:28.230 --> 00:00:28.340]   faz
+[00:00:28.340 --> 00:00:28.500]   uma
+[00:00:28.500 --> 00:00:29.040]   diferença
+[00:00:29.040 --> 00:00:29.220]  .
+[00:00:29.220 --> 00:00:29.360]   Sal
+[00:00:29.360 --> 00:00:29.450]  va
+[00:00:29.450 --> 00:00:29.640]   esse
+[00:00:29.640 --> 00:00:29.960]   vídeo
+[00:00:29.960 --> 00:00:30.180]   para
+[00:00:30.180 --> 00:00:30.230]   a
+[00:00:30.230 --> 00:00:30.670]   próxima
+[00:00:30.670 --> 00:00:30.960]   vez
+[00:00:30.960 --> 00:00:30.990]   que
+[00:00:30.990 --> 00:00:31.330]   você
+[00:00:31.330 --> 00:00:31.430]   for
+[00:00:31.430 --> 00:00:31.650]   grav
+[00:00:31.650 --> 00:00:31.760]  ar
+[00:00:31.760 --> 00:00:31.980]  .
+whisper_print_progress_callback: progress = 100%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  6259.83 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    50.69 ms
+whisper_print_timings:   sample time =  4783.56 ms /   853 runs (    5.61 ms per run)
+whisper_print_timings:   encode time = 63589.86 ms /     2 runs (31794.93 ms per run)
+whisper_print_timings:   decode time =    60.11 ms /     1 runs (   60.11 ms per run)
+whisper_print_timings:   batchd time = 36420.54 ms /   848 runs (   42.95 ms per run)
+whisper_print_timings:   prompt time =  4975.00 ms /   161 runs (   30.90 ms per run)
+whisper_print_timings:    total time = 116344.37 ms
+
+trecho 1 28.93-60.90: O áudio. A sala vazia, sem móvel nenhum, vai gerar eco e deixar sua voz distante. Primeiramente, você aproxima o celular. Se tiver um microfone, melhor ainda. E também se você puder gravar em um cômodo que tem amobília, como sofá, a cortina vai ajudar. Nada disso é equipamento, é direção, é prestar atenção em cada detalhe. Faz o teste agora. Você grava 10 segundos de um vídeo que você quer gravar, do jeito que você gravava antes, e depois prestando atenção nesses detalhes. Vê se não faz uma diferença. Salva esse vídeo para a próxima vez que você for gravar.
+0.28:Seu 0.33:vídeo 0.64:está 0.9:com 1.06:cara 1.26:de 1.36:amador 1.72:e 1.77:o 1.82:problema 2.4:está 2.74:longe 3.18:de 3.37:ser 3.48:a 3.54:câmera. 4.02:Primeiro 4.48:ponto 4.75:é 4.86:a 4.91:iluminação. 5.64:Se 5.77:a 5.8:janela 6.14:que 6.31:você 6.59:utiliza 6.99:como 7.22:iluminação 8.02:está 8.1:atrás 8.67:do 8.89:seu 9.14:rosto, 9.9:o 10:seu 10.12:rosto 10.31:vai 10.45:ficar 10.68:escuro 10.97:e 11:o 11.04:fundo 11.28:estourado. 11.9:Você 12.22:vira 12.46:de 12.74:frente 12.99:para 13.29:a 13.31:janela, 13.84:porque 14.14:a 14.2:luz 14.35:tem 14.5:que 14.68:estar 14.92:de 15.01:frente 15.42:para 15.78:você. 15.98:A 16.08:altura 16.42:da 16.54:lente. 17.06:A 17.12:câmera 17.54:do 17.68:seu 17.84:celular 18.27:tem 18.48:que 18.62:estar 18.93:na 19.04:altura 19.4:dos 19.6:seus 19.82:olhos. 20.32:Se 20.46:ela 20.57:estiver 20.99:de 21.03:baixo 21.28:para 21.48:cima, 21.82:vai 22.01:mostrar 22.57:queixo, 23.05:teto, 23.4:muito 23.68:de 23.79:coisa 24.08:que 24.21:não 24.42:precisa. 24.86:Se 25:você 25.23:precisar, 25.84:coloque 26.12:o 26.17:celular 26.62:em 26.65:cima 26.86:de 26.96:alguma 27.33:coisa 27.55:como 27.76:livros. 29.05:O 29.07:áudio. 30.16:A 30.23:sala 30.53:vazia, 30.99:sem 31.09:móvel 31.29:nenhum, 31.56:vai 31.65:gerar 32.12:eco 32.43:e 32.47:deixar 32.94:sua 33.05:voz 33.24:distante. 33.79:Primeiramente, 34.48:você 34.71:aproxima 35.08:o 35.12:celular. 35.72:Se 35.76:tiver 36.08:um 36.21:microfone, 36.93:melhor 37.5:ainda. 38.03:E 38.16:também 38.42:se 38.51:você 38.76:puder 38.98:gravar 39.28:em 39.35:um 39.44:cômodo 39.87:que 40.08:tem 40.22:amobília, 40.71:como 41.02:sofá, 41.43:a 41.52:cortina 42.09:vai 42.34:ajudar. 42.91:Nada 43.28:disso 43.74:é 44.09:equipamento, 45.26:é 45.28:direção, 46.12:é 46.31:prestar 46.85:atenção 47.51:em 47.66:cada 48.07:detalhe. 48.79:Faz 48.98:o 49.04:teste 49.35:agora. 49.9:Você 50.14:grava 50.41:10 50.74:segundos 51.18:de 51.29:um 51.4:vídeo 51.75:que 51.89:você 52.16:quer 52.38:gravar, 52.82:do 52.89:jeito 53.2:que 53.21:você 53.55:gravava 54.07:antes, 54.39:e 54.49:depois 54.76:prestando 55.23:atenção 55.76:nesses 56.11:detalhes. 56.7:Vê 56.8:se 56.9:não 57.16:faz 57.27:uma 57.43:diferença. 58.15:Salva 58.38:esse 58.57:vídeo 58.89:para 59.11:a 59.16:próxima 59.6:vez 59.89:que 59.92:você 60.26:for 60.36:gravar.

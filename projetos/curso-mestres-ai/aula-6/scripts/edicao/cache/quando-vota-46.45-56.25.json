@@ -1,0 +1,135 @@
+[
+  {
+    "text": "Quando",
+    "startMs": 200,
+    "endMs": 2180,
+    "timestampMs": 400,
+    "confidence": 0.739511
+  },
+  {
+    "text": " você",
+    "startMs": 2180,
+    "endMs": 3520,
+    "timestampMs": 720,
+    "confidence": 0.992693
+  },
+  {
+    "text": " volta",
+    "startMs": 3520,
+    "endMs": 5310,
+    "timestampMs": 1020,
+    "confidence": 0.983939
+  },
+  {
+    "text": " na",
+    "startMs": 5310,
+    "endMs": 5710,
+    "timestampMs": 1160,
+    "confidence": 0.0506366
+  },
+  {
+    "text": " ur",
+    "startMs": 5710,
+    "endMs": 6390,
+    "timestampMs": 1520,
+    "confidence": 0.742581
+  },
+  {
+    "text": "na",
+    "startMs": 6390,
+    "endMs": 7000,
+    "timestampMs": 6940,
+    "confidence": 0.890739
+  },
+  {
+    "text": ",",
+    "startMs": 7000,
+    "endMs": 7120,
+    "timestampMs": 7320,
+    "confidence": 0.521036
+  },
+  {
+    "text": " automatic",
+    "startMs": 7120,
+    "endMs": 7460,
+    "timestampMs": 7440,
+    "confidence": 0.853501
+  },
+  {
+    "text": "amente",
+    "startMs": 7460,
+    "endMs": 7750,
+    "timestampMs": 7760,
+    "confidence": 0.998605
+  },
+  {
+    "text": " já",
+    "startMs": 7750,
+    "endMs": 7920,
+    "timestampMs": 7960,
+    "confidence": 0.732511
+  },
+  {
+    "text": " fica",
+    "startMs": 7920,
+    "endMs": 8080,
+    "timestampMs": 8120,
+    "confidence": 0.978408
+  },
+  {
+    "text": " regist",
+    "startMs": 8080,
+    "endMs": 8470,
+    "timestampMs": 8560,
+    "confidence": 0.968733
+  },
+  {
+    "text": "rada",
+    "startMs": 8470,
+    "endMs": 8660,
+    "timestampMs": 8720,
+    "confidence": 0.697761
+  },
+  {
+    "text": " a",
+    "startMs": 8660,
+    "endMs": 8810,
+    "timestampMs": 8900,
+    "confidence": 0.731556
+  },
+  {
+    "text": " sua",
+    "startMs": 8810,
+    "endMs": 9000,
+    "timestampMs": 9020,
+    "confidence": 0.871399
+  },
+  {
+    "text": " prova",
+    "startMs": 9000,
+    "endMs": 9160,
+    "timestampMs": 9260,
+    "confidence": 0.872725
+  },
+  {
+    "text": " de",
+    "startMs": 9160,
+    "endMs": 9230,
+    "timestampMs": 9500,
+    "confidence": 0.982694
+  },
+  {
+    "text": " vida",
+    "startMs": 9230,
+    "endMs": 9510,
+    "timestampMs": 9700,
+    "confidence": 0.956249
+  },
+  {
+    "text": ".",
+    "startMs": 9510,
+    "endMs": 9720,
+    "timestampMs": 9700,
+    "confidence": 0.826284
+  }
+]

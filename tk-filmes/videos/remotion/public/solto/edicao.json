@@ -1,0 +1,232 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "solto/bruto.mp4",
+ "clipes": [
+  {
+   "id": "cortado",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 2043,
+   "zoom": 1.0
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "headline",
+   "from": 152,
+   "durationInFrames": 70,
+   "palavras": [
+    {
+     "texto": "vídeo solto",
+     "fala": 8
+    },
+    {
+     "texto": "não vende",
+     "fala": 36
+    }
+   ]
+  },
+  {
+   "tipo": "frase",
+   "from": 257,
+   "durationInFrames": 202,
+   "texto": "Cartão de visita jogado na rua: bonito, e ninguém sabe o que fazer com ele.",
+   "pos": "baixo",
+   "fala": 4
+  },
+  {
+   "tipo": "comentario",
+   "from": 465,
+   "durationInFrames": 115,
+   "usuario": "cliente",
+   "pergunta": "Vocês atendem aos sábados?",
+   "resposta": "Atendemos! Te explico aqui.",
+   "fala": 16
+  },
+  {
+   "tipo": "assets",
+   "from": 586,
+   "durationInFrames": 183,
+   "itens": [
+    {
+     "icone": "whatsapp",
+     "rotulo": "seu whatsapp",
+     "fala": 68
+    },
+    {
+     "icone": "stories",
+     "rotulo": "caixinha de stories",
+     "fala": 135
+    },
+    {
+     "icone": "play",
+     "rotulo": "próximo vídeo",
+     "fala": 155
+    }
+   ]
+  },
+  {
+   "tipo": "frase",
+   "from": 775,
+   "durationInFrames": 499,
+   "texto": "No dia seguinte o perfil muda de assunto, e o cliente não acha a continuação.",
+   "pos": "baixo",
+   "fala": 98
+  },
+  {
+   "tipo": "porta",
+   "from": 1140,
+   "durationInFrames": 156,
+   "fala": 14,
+   "pessoa": "solto/pessoa"
+  },
+  {
+   "tipo": "headline",
+   "from": 1140,
+   "durationInFrames": 141,
+   "palavras": [
+    {
+     "texto": "o vídeo",
+     "fala": 2
+    },
+    {
+     "texto": "é a porta",
+     "fala": 14
+    },
+    {
+     "texto": "de entrada",
+     "fala": 28
+    }
+   ]
+  },
+  {
+   "tipo": "assets",
+   "from": 1390,
+   "durationInFrames": 103,
+   "itens": [
+    {
+     "icone": "stories",
+     "rotulo": "stories hoje, chamando pro vídeo",
+     "fala": 5
+    }
+   ]
+  },
+  {
+   "tipo": "comentario",
+   "from": 1499,
+   "durationInFrames": 59,
+   "usuario": "cliente",
+   "pergunta": "E se eu tiver outra dúvida?",
+   "resposta": "Boa! Essa vira o próximo vídeo.",
+   "fala": 9
+  },
+  {
+   "tipo": "assets",
+   "from": 1564,
+   "durationInFrames": 127,
+   "itens": [
+    {
+     "icone": "play",
+     "rotulo": "o próximo vídeo responde ela",
+     "fala": 5
+    }
+   ]
+  },
+  {
+   "tipo": "salvar",
+   "from": 1697,
+   "durationInFrames": 277,
+   "fala": 8
+  },
+  {
+   "tipo": "logo",
+   "from": 1976,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 11,
+   "durationInFrames": 19,
+   "texto": "Fiz um vídeo"
+  },
+  {
+   "from": 26,
+   "durationInFrames": 37,
+   "texto": "bonito, ficou perfeito,"
+  },
+  {
+   "from": 59,
+   "durationInFrames": 16,
+   "texto": "mas não veio"
+  },
+  {
+   "from": 71,
+   "durationInFrames": 38,
+   "texto": "o cliente através"
+  },
+  {
+   "from": 105,
+   "durationInFrames": 15,
+   "texto": "dele. Pois é,"
+  },
+  {
+   "from": 116,
+   "durationInFrames": 28,
+   "texto": "isso acontece quando"
+  },
+  {
+   "from": 141,
+   "durationInFrames": 8,
+   "texto": "você"
+  },
+  {
+   "from": 225,
+   "durationInFrames": 25,
+   "texto": "Um vídeo sozinho"
+  },
+  {
+   "from": 246,
+   "durationInFrames": 8,
+   "texto": "é igual"
+  },
+  {
+   "from": 1307,
+   "durationInFrames": 40,
+   "texto": "o seu melhor"
+  },
+  {
+   "from": 1343,
+   "durationInFrames": 32,
+   "texto": "vídeo e aí"
+  },
+  {
+   "from": 1371,
+   "durationInFrames": 16,
+   "texto": "você vai gravar"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 192,
+   "durationInFrames": 19,
+   "escala": 1.06
+  },
+  {
+   "from": 1153,
+   "durationInFrames": 19,
+   "escala": 1.06
+  }
+ ],
+ "reenquadramentos": [
+  {
+   "from": 1133,
+   "durationInFrames": 163,
+   "escala": 1.22
+  }
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "bruto": "C:/Users/tamar/Downloads/Mobile Devices/copy_8269CA7F-75FD-4F7A-986D-83577F23EA49.MOV",
+ "nota": "v4 (07/10): roteiro com lógica (abertura → pergunta 1 com a feirante → 'esse povo tá sabendo demais' → pergunta 2 com o rapaz → gargalhada da Rita → cartão). Respiro antes de cada fala. v3 em edl-v3.json.",
+ "clips": [
+  {
+   "in": 30.6,
+   "out": 31.4,
+   "mudo": true,
+   "nota": "ABERTURA b-roll: Rita de moto"
+  },
+  {
+   "in": 51.0,
+   "out": 51.8,
+   "mudo": true,
+   "nota": "ABERTURA b-roll: Rita entrando na feira"
+  },
+  {
+   "in": 343.0,
+   "out": 343.8,
+   "mudo": true,
+   "nota": "ABERTURA b-roll: banca de frutas"
+  },
+  {
+   "in": 325.33,
+   "out": 329.22,
+   "texto": "Agora a gente vai saber... se o povo está sabendo sobre o INSS.",
+   "nota": "Rita, 1ª tomada"
+  },
+  {
+   "in": 110.55,
+   "out": 119.35,
+   "texto": "Quem trabalha na roça? Na roça, como agricultor, tem direito de pegar um benefício do INSS? | Tem. | Tem? | Tem, sim, senhora.",
+   "nota": "PERGUNTA 1"
+  },
+  {
+   "in": 121.62,
+   "out": 126.1,
+   "texto": "Isso, precisa de alguma contribuição? | Precisa. | Precisa? | Precisa.",
+   "nota": "feirante diz que precisa"
+  },
+  {
+   "in": 141.12,
+   "out": 153.3,
+   "texto": "A senhora que não precisa contribuir com o INSS? | Não. | A gente que trabalha na roça não carece também de contribuir com o INSS, tá? Porque a gente já contribui lá no trabalho. | É.",
+   "nota": "Rita reformula + feirante se corrige (fim completo)",
+   "cortar_pausas": true
+  },
+  {
+   "in": 155.4,
+   "out": 158.25,
+   "texto": "Esse povo tá sabendo demais, já tá sabendo demais!",
+   "nota": "selfie Rita (dito logo depois da feirante)"
+  },
+  {
+   "in": 183.85,
+   "out": 186.7,
+   "texto": "Quem trabalha na roça tem direito a auxílio-doença?",
+   "nota": "PERGUNTA 2"
+  },
+  {
+   "in": 187.15,
+   "out": 192.32,
+   "texto": "Acho que não. | Eu não entendo não. Eu não entendo não dessas coisas não. | Acho que não.",
+   "nota": "rapaz"
+  },
+  {
+   "in": 192.32,
+   "out": 195.55,
+   "texto": "Pronto. | Olha, quem trabalha na roça é...",
+   "nota": "Rita dá a deixa"
+  },
+  {
+   "in": 201.45,
+   "out": 226.6,
+   "cortar_pausas": true,
+   "texto": "Quem é trabalhador rural não precisa de contribuição, certo? Porque você aí já prova lá que você é trabalhador rural, tá certo? | Mas todos nós não temos que ajudar a União dos Palmares, assim, e ajudar... contribuir com outra feira, ajudar no desenvolvimento da União, né? | Acho que é isso. Eu acho.",
+   "nota": "rapaz raciocina, acerta e escorrega pro 'contribuir com a feira'; Rita cai na gargalhada no fim"
+  },
+  {
+   "freeze": 4.1
+  }
+ ],
+ "destaques": [
+  "roça",
+  "agricultor",
+  "inss",
+  "contribuir",
+  "contribuição",
+  "contribui",
+  "benefício",
+  "auxílio-doença",
+  "demais",
+  "união",
+  "palmares",
+  "gestante"
+ ],
+ "zooms": [
+  {
+   "t": 0.0,
+   "dur": 0.8,
+   "s": 1.12,
+   "rampa": 20
+  },
+  {
+   "t": 0.8,
+   "dur": 0.8,
+   "s": 1.12,
+   "rampa": 20
+  },
+  {
+   "t": 1.6,
+   "dur": 0.8,
+   "s": 1.12,
+   "rampa": 20
+  },
+  {
+   "t": 23.37,
+   "dur": 0.65,
+   "s": 1.16,
+   "x": 0.3,
+   "y": 0.4
+  },
+  {
+   "t": 38.69,
+   "dur": 2.64,
+   "s": 1.08,
+   "x": 0.66,
+   "y": 0.32,
+   "rampa": 4
+  },
+  {
+   "t": 41.33,
+   "dur": 1.29,
+   "s": 1.16,
+   "x": 0.66,
+   "y": 0.32,
+   "rampa": 3
+  },
+  {
+   "t": 69.27,
+   "dur": 1.46,
+   "s": 1.15,
+   "x": 0.2,
+   "y": 0.45,
+   "rampa": 3
+  }
+ ],
+ "pb": [
+  [
+   41.84,
+   42.62
+  ],
+  [
+   69.27,
+   70.95
+  ]
+ ],
+ "inserts": [
+  {
+   "t": 0.0,
+   "dur": 2.4,
+   "tipo": "abertura",
+   "linhas": [
+    "O POVO DA",
+    "FEIRA SABE",
+    "DE INSS?"
+   ],
+   "sub": "NA RUA COM A RITA 🎤"
+  },
+  {
+   "t": 17.61,
+   "dur": 1.28,
+   "tipo": "sticker",
+   "emoji": "🤔",
+   "texto": "HUM...",
+   "cor": "#F4A3C0",
+   "y": 250,
+   "rot": -5
+  },
+  {
+   "t": 29.51,
+   "dur": 1.6,
+   "tipo": "sticker",
+   "emoji": "✅",
+   "texto": "AGORA SIM!",
+   "cor": "#2fae5e",
+   "y": 250,
+   "rot": 4
+  },
+  {
+   "t": 31.81,
+   "dur": 2.76,
+   "tipo": "meme",
+   "encolhe": true,
+   "linhas": [
+    "ESSE POVO",
+    "TÁ SABENDO",
+    "DEMAIS!"
+   ],
+   "tempos": [
+    0,
+    0.5,
+    1.8
+   ]
+  },
+  {
+   "t": 42.44,
+   "dur": 0.3,
+   "tipo": "tv-erro",
+   "texto": "SEM SINAL"
+  },
+  {
+   "t": 51.24,
+   "dur": 2.3,
+   "tipo": "sticker",
+   "emoji": "🤯",
+   "texto": "PLOT TWIST: ELE SABE!",
+   "cor": "#7A1E3A",
+   "y": 250,
+   "x": 50,
+   "rot": -3
+  },
+  {
+   "t": 63.0,
+   "dur": 1.6,
+   "tipo": "sticker",
+   "emoji": "🧐",
+   "texto": "PERA...",
+   "cor": "#F7F2EE",
+   "y": 250,
+   "rot": 5
+  },
+  {
+   "t": 65.27,
+   "dur": 1.55,
+   "tipo": "meme",
+   "linhas": [
+    "DESENVOLVIMENTO",
+    "DA",
+    "UNIÃO"
+   ],
+   "tempos": [
+    0,
+    0.85,
+    1.0
+   ]
+  },
+  {
+   "t": 69.27,
+   "dur": 1.46,
+   "tipo": "sticker",
+   "emoji": "😂",
+   "cor": "#F4A3C0",
+   "y": 250,
+   "x": 600,
+   "rot": 8
+  },
+  {
+   "t": 70.95,
+   "dur": 3.5,
+   "tipo": "cartao",
+   "texto": "Quem é da roça não precisa ter pago carnê.",
+   "sub": "Precisa comprovar o trabalho no campo. Vale pra auxílio-doença e salário-maternidade.",
+   "fonte": "Lei 8.213/1991, arts. 11, VII; 25; 39"
+  }
+ ],
+ "sfx": [
+  [
+   0.0,
+   "abertura-hit",
+   0.7
+  ],
+  [
+   0.12,
+   "pop",
+   0.4
+  ],
+  [
+   0.78,
+   "whoosh",
+   0.45
+  ],
+  [
+   1.58,
+   "whoosh",
+   0.45
+  ],
+  [
+   2.38,
+   "impact",
+   0.45
+  ],
+  [
+   17.61,
+   "pop",
+   0.5
+  ],
+  [
+   23.37,
+   "pop",
+   0.45
+  ],
+  [
+   29.51,
+   "ding",
+   0.4
+  ],
+  [
+   34.01,
+   "boom",
+   0.5
+  ],
+  [
+   41.84,
+   "impact",
+   0.42
+  ],
+  [
+   42.44,
+   "tv-erro",
+   0.22
+  ],
+  [
+   51.24,
+   "whoosh",
+   0.5
+  ],
+  [
+   51.29,
+   "pop",
+   0.4
+  ],
+  [
+   63.0,
+   "scratch",
+   0.45
+  ],
+  [
+   63.05,
+   "drama",
+   0.32
+  ],
+  [
+   66.82,
+   "impact",
+   0.6
+  ],
+  [
+   69.27,
+   "pop",
+   0.45
+  ],
+  [
+   70.99,
+   "ding",
+   0.35
+  ]
+ ],
+ "trilha": [
+  [
+   0.0,
+   2.35,
+   0.5
+  ],
+  [
+   2.4,
+   62.9,
+   0.09
+  ],
+  [
+   68.07,
+   70.07,
+   0.09
+  ],
+  [
+   70.95,
+   74.45,
+   0.42
+  ]
+ ]
+}

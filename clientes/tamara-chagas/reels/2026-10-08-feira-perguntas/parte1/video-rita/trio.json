@@ -1,0 +1,22 @@
+{
+ "data": "14 de outubro de 2026",
+ "card": "A Rita me ligou pra tirar a dúvida que mais chegou depois do vídeo da feira 📞 <b>Quem é da roça precisa contribuir com o INSS?</b> Tá no feed 👆",
+ "notas": {
+  "hora": "11:10",
+  "titulo": "roça e INSS 🌾",
+  "linhas": [
+   "1. Quem trabalha na roça com a família é <b>segurado especial</b>",
+   "2. Não precisa contribuir todo mês: a contribuição vem <b>na venda da produção</b>",
+   "3. O que garante o benefício são as <b>provas do trabalho no campo</b>",
+   "📂 Guarde nota de venda, nota de compra pra roça, bloco do produtor e documento da terra"
+  ],
+  "marca": "provas do trabalho no campo"
+ },
+ "conversa": [
+  ["in", "Doutora, eu compro adubo e semente pra roça. Esse comprovante serve pra alguma coisa? 🤔", "11:11"],
+  ["out", "Serve sim! Nota de compra de material pra roça ajuda a provar o trabalho no campo 🌾", "11:12"],
+  ["out", "Guarda junto com as notas de venda da produção e o documento da terra, tá? 📂", "11:12"],
+  ["in", "Vou começar a guardar tudo, obrigado! 🙏", "11:13"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 11, VII; 39 e 106 · Lei 8.212/1991, art. 25"
+}

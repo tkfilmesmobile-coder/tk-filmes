@@ -1,0 +1,506 @@
+[
+ {
+  "text": " Acabou",
+  "startMs": 57,
+  "endMs": 447,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 447,
+  "endMs": 547,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prova",
+  "startMs": 527,
+  "endMs": 937,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 937,
+  "endMs": 1097,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vida",
+  "startMs": 1097,
+  "endMs": 1427,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " no",
+  "startMs": 1427,
+  "endMs": 1717,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " INSS.",
+  "startMs": 1717,
+  "endMs": 1967,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Você",
+  "startMs": 2040,
+  "endMs": 2390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sabia",
+  "startMs": 2390,
+  "endMs": 2680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 2680,
+  "endMs": 2900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 2900,
+  "endMs": 3000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " partir",
+  "startMs": 2940,
+  "endMs": 3350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 3350,
+  "endMs": 3620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " momento",
+  "startMs": 3620,
+  "endMs": 4000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 4000,
+  "endMs": 4100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " você",
+  "startMs": 4100,
+  "endMs": 4270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vai",
+  "startMs": 4270,
+  "endMs": 4410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nas",
+  "startMs": 4410,
+  "endMs": 4510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " urnas",
+  "startMs": 4470,
+  "endMs": 4770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " votar",
+  "startMs": 4770,
+  "endMs": 5040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agora",
+  "startMs": 5040,
+  "endMs": 5320,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dia",
+  "startMs": 5320,
+  "endMs": 5500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 4/10,",
+  "startMs": 5500,
+  "endMs": 6233,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " já",
+  "startMs": 6343,
+  "endMs": 6443,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " é",
+  "startMs": 6433,
+  "endMs": 6533,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " computada",
+  "startMs": 6473,
+  "endMs": 7143,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " automaticamente",
+  "startMs": 7143,
+  "endMs": 8223,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " na",
+  "startMs": 8223,
+  "endMs": 8383,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Receita",
+  "startMs": 8383,
+  "endMs": 8803,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Federal",
+  "startMs": 8803,
+  "endMs": 8933,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 9037,
+  "endMs": 9177,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sua",
+  "startMs": 9177,
+  "endMs": 9367,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prova",
+  "startMs": 9367,
+  "endMs": 9667,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 9667,
+  "endMs": 9807,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vida?",
+  "startMs": 9807,
+  "endMs": 10133,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 10167,
+  "endMs": 10267,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Receita",
+  "startMs": 10237,
+  "endMs": 10787,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Federal",
+  "startMs": 10787,
+  "endMs": 11287,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agora",
+  "startMs": 11287,
+  "endMs": 11807,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " acaba",
+  "startMs": 11807,
+  "endMs": 12047,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 12047,
+  "endMs": 12197,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lançar",
+  "startMs": 12197,
+  "endMs": 12727,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " esse",
+  "startMs": 12727,
+  "endMs": 13017,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " novo",
+  "startMs": 13017,
+  "endMs": 13317,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sistema.",
+  "startMs": 13317,
+  "endMs": 13667,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 13740,
+  "endMs": 13840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " partir",
+  "startMs": 13750,
+  "endMs": 14070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 14070,
+  "endMs": 14170,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " momento",
+  "startMs": 14170,
+  "endMs": 14560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 14560,
+  "endMs": 14740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " você",
+  "startMs": 14740,
+  "endMs": 14970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vota",
+  "startMs": 14970,
+  "endMs": 15240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nas",
+  "startMs": 15240,
+  "endMs": 15530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eleições,",
+  "startMs": 15530,
+  "endMs": 15867,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " já",
+  "startMs": 15940,
+  "endMs": 16100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fica",
+  "startMs": 16100,
+  "endMs": 16450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " registrado.",
+  "startMs": 16450,
+  "endMs": 17033,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Você",
+  "startMs": 17040,
+  "endMs": 17290,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " não",
+  "startMs": 17290,
+  "endMs": 17490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " precisa",
+  "startMs": 17490,
+  "endMs": 17850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ir",
+  "startMs": 17850,
+  "endMs": 17950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nas",
+  "startMs": 17950,
+  "endMs": 18100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agências",
+  "startMs": 18100,
+  "endMs": 18560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gerando",
+  "startMs": 18560,
+  "endMs": 18910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " aqueles",
+  "startMs": 18910,
+  "endMs": 19280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " transtornos.",
+  "startMs": 19280,
+  "endMs": 19533,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Agora",
+  "startMs": 19573,
+  "endMs": 19803,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ficou",
+  "startMs": 19803,
+  "endMs": 20033,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " muito",
+  "startMs": 20033,
+  "endMs": 20263,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mais",
+  "startMs": 20263,
+  "endMs": 20533,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fácil,",
+  "startMs": 20533,
+  "endMs": 20803,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " né?",
+  "startMs": 20803,
+  "endMs": 21033,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

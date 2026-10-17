@@ -1,0 +1,31 @@
+{
+ "fonte": "TSE · tse.jus.br",
+ "telas": [
+  {
+   "kicker": "PREVIDÊNCIA E POLÍTICA",
+   "titulo": "Propostas <b>na fonte.</b>",
+   "foto": "tamara/tamara-estudio-0081.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Onde ler as propostas.",
+   "tam": 84,
+   "texto": "🌐 site do TSE → \"Planos de governo\"<br><br>📊 DivulgaCandContas: dados de todas as candidaturas<br><br>🔎 procure: previdência, aposentadoria, BPC<br><br>Este perfil é apartidário: a gente informa, não indica candidato"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Em quem eu voto pra proteger minha aposentadoria?”",
+   "tam": 64,
+   "texto": "Isso eu não posso te dizer: aqui o perfil é apartidário. Mas dá pra ler o que cada candidatura propõe no site do TSE, direto na fonte."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

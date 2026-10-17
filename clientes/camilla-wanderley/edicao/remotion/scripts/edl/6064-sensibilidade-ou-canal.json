@@ -1,0 +1,108 @@
+{
+  "fonte": "midia/IMG_6064.mp4",
+  "palavras": "IMG_6064.palavras.json",
+  "fps": 30,
+  "correcoes": {
+    "imprecedível": "imprescindível",
+    "como@107520": "com o",
+    "cara@89820": "cárie"
+  },
+  "tomadas": [
+    {
+      "id": "gancho",
+      "inicio": 22.35,
+      "fim": 27.35,
+      "zoom": "B"
+    },
+    {
+      "id": "dor-rapida",
+      "inicio": 28.3,
+      "fim": 29.65,
+      "zoom": "C"
+    },
+    {
+      "id": "sensib",
+      "inicio": 45.75,
+      "fim": 55.7,
+      "zoom": "A",
+      "lateral": -18
+    },
+    {
+      "id": "canal-1",
+      "inicio": 71.3,
+      "fim": 78.25,
+      "zoom": "B",
+      "punch": {
+        "em": 73.4,
+        "zoom": "C"
+      }
+    },
+    {
+      "id": "canal-2",
+      "inicio": 90.45,
+      "fim": 100.7,
+      "zoom": "A",
+      "lateral": 16
+    },
+    {
+      "id": "diagnostico",
+      "inicio": 101.05,
+      "fim": 107.9,
+      "zoom": "C"
+    },
+    {
+      "id": "fecho",
+      "inicio": 108.55,
+      "fim": 115.65,
+      "zoom": "B",
+      "lateral": -12
+    }
+  ],
+  "headlines": [
+    {
+      "em": 22.5,
+      "dur": 3.0,
+      "linhas": [
+        {
+          "t": "SENSIBILIDADE"
+        },
+        {
+          "t": "OU CANAL?",
+          "cor": true
+        }
+      ]
+    },
+    {
+      "em": 71.45,
+      "dur": 2.2,
+      "linhas": [
+        {
+          "t": "DOR DE"
+        },
+        {
+          "t": "CANAL",
+          "cor": true
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "em": 50.4,
+      "dur": 5.0,
+      "etiqueta": "Sensibilidade",
+      "texto": "Dor rápida no gelado. Tirou o estímulo, passa."
+    },
+    {
+      "em": 92.0,
+      "dur": 6.0,
+      "etiqueta": "Pode ser canal",
+      "texto": "Dor intensa, cárie grande, dói no quente. O gelado pode até aliviar."
+    }
+  ],
+  "cta": {
+    "dur": 2.6,
+    "texto": "me chama no direct"
+  },
+  "wav": "IMG_6064.wav"
+}

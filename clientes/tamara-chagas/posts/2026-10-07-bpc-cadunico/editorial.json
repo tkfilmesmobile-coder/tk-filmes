@@ -1,0 +1,31 @@
+{
+ "fonte": "MDS e INSS (Portaria Conjunta) · Agência Brasil · gov.br/mds",
+ "telas": [
+  {
+   "kicker": "BPC · CADÚNICO",
+   "titulo": "Recebe BPC? <b>Olha o CadÚnico.</b>",
+   "foto": "tamara/tamara-estudio-0066.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "BPC e CadÚnico.",
+   "tam": 84,
+   "texto": "1. Chegou aviso do INSS? Você tem <b>30 dias</b> pra ligar no 135 ou ir à agência<br><br>2. Depois disso, <b>45 dias</b> (cidade até 50 mil hab.) ou <b>90 dias</b> pra atualizar no CRAS<br><br>3. Perdeu o prazo? O pagamento pode ser bloqueado ou suspenso<br><br>📍 Atualiza no CRAS, levando documento com foto e CPF de quem mora na casa"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Minha mãe recebe BPC e chegou um aviso no extrato do banco. E agora?”",
+   "tam": 64,
+   "texto": "Calma! Primeiro, liga no 135 ou vai a uma agência do INSS dentro de 30 dias pra dar ciência do aviso. Depois, atualiza o CadÚnico no CRAS dentro do prazo. Assim o benefício continua normal."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

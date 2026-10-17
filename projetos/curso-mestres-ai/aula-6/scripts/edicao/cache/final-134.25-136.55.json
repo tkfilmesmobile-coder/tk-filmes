@@ -1,0 +1,58 @@
+[
+  {
+    "text": "Agora",
+    "startMs": 230,
+    "endMs": 400,
+    "timestampMs": 520,
+    "confidence": 0.63414
+  },
+  {
+    "text": " ficou",
+    "startMs": 400,
+    "endMs": 790,
+    "timestampMs": 720,
+    "confidence": 0.911991
+  },
+  {
+    "text": " muito",
+    "startMs": 790,
+    "endMs": 1200,
+    "timestampMs": 920,
+    "confidence": 0.918892
+  },
+  {
+    "text": " mais",
+    "startMs": 1200,
+    "endMs": 1520,
+    "timestampMs": 1200,
+    "confidence": 0.998106
+  },
+  {
+    "text": " fácil",
+    "startMs": 1520,
+    "endMs": 1950,
+    "timestampMs": 1440,
+    "confidence": 0.996137
+  },
+  {
+    "text": ",",
+    "startMs": 1950,
+    "endMs": 2000,
+    "timestampMs": 1820,
+    "confidence": 0.393125
+  },
+  {
+    "text": " né",
+    "startMs": 2000,
+    "endMs": 2000,
+    "timestampMs": 1820,
+    "confidence": 0.871456
+  },
+  {
+    "text": "?",
+    "startMs": 2000,
+    "endMs": 2000,
+    "timestampMs": 1980,
+    "confidence": 0.801227
+  }
+]

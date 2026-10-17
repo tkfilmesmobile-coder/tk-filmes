@@ -1,0 +1,70 @@
+"""Broche Outubro Rosa · Tamara Chagas Advocacia (arte para impressão).
+Padrão de gráfica: frente visível 55 mm, círculo de corte 70 mm (a borda dobra pra trás), fundo com sangria.
+Gera: broche-70mm.pdf (vetorial), broche-600dpi.png, broche-guias.png (com linhas de corte e de segurança)."""
+import pathlib
+from playwright.sync_api import sync_playwright
+
+AQUI = pathlib.Path(__file__).resolve().parent
+M = (AQUI.parent.parent / "marca").as_uri()
+F = ('<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400&family=Inter:wght@300;400;500'
+     '&family=Great+Vibes&display=swap" rel="stylesheet">')
+
+LACO = """<svg viewBox="0 0 520 900" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="70" y1="0" x2="450" y2="0">
+  <stop offset="0" stop-color="#d9688f"/><stop offset=".3" stop-color="#f4a9c1"/><stop offset=".5" stop-color="#fbd0dd"/>
+  <stop offset=".7" stop-color="#f0a0ba"/><stop offset="1" stop-color="#c95a82"/></linearGradient>
+ <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#a8466b" flood-opacity=".25"/></filter>
+</defs>
+<g filter="url(#s)" fill="none">
+ <path d="M 110 860 C 210 680, 375 480, 375 300 C 375 165, 318 92, 258 92" stroke="url(#g)" stroke-width="80"/>
+ <path d="M 258 92 C 198 92, 141 165, 141 300 C 141 480, 306 680, 406 860" stroke="url(#g)" stroke-width="80"/>
+ <path d="M 258 92 C 198 92, 141 165, 141 300 C 141 480, 306 680, 406 860" stroke="#fff" stroke-opacity=".22" stroke-width="9" transform="translate(-18,4)"/>
+</g></svg>"""
+
+RAMO = """<svg viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#c97a96" stroke-width="2.4" stroke-linecap="round">
+<path d="M150 590 C 140 450, 120 330, 160 120"/>
+<path d="M146 470 C 100 450, 80 410, 78 370 C 120 385, 140 420, 146 470 Z"/>
+<path d="M140 380 C 185 360, 205 320, 205 280 C 168 300, 148 335, 140 380 Z"/>
+<path d="M138 300 C 95 280, 78 245, 80 205 C 118 225, 134 258, 138 300 Z"/>
+<path d="M150 210 C 190 190, 205 155, 200 118 C 170 140, 155 170, 150 210 Z"/>
+<path d="M160 120 C 150 90, 158 60, 175 40"/></svg>"""
+
+def html(guias=False):
+    g = """<svg class="g" viewBox="0 0 70 70"><circle cx="35" cy="35" r="34.9" fill="none" stroke="#333" stroke-width=".18" stroke-dasharray="1 .8"/>
+<circle cx="35" cy="35" r="27.5" fill="none" stroke="#1a7f37" stroke-width=".18" stroke-dasharray=".6 .6"/></svg>""" if guias else ""
+    return f"""<!doctype html><html><head><meta charset="utf-8">{F}<style>
+@page{{size:70mm 70mm;margin:0}}
+*{{margin:0;padding:0;box-sizing:border-box}}
+html,body{{width:70mm;height:70mm;overflow:hidden}}
+body{{position:relative;font-family:'Inter',sans-serif;color:#9a3f64;
+ background:radial-gradient(circle at 30% 25%,#fff4f7 0%,transparent 55%),radial-gradient(circle at 80% 85%,#f4c3d2 0%,transparent 60%),linear-gradient(160deg,#fde5ec,#f7cfdb)}}
+.ramo{{position:absolute;left:11.5mm;top:14mm;width:11mm}}
+.laco{{position:absolute;left:15mm;top:11.5mm;width:15.5mm}}
+.txt{{position:absolute;left:32.5mm;top:15.5mm;width:23mm;text-align:center}}
+.k{{font-size:2.15mm;letter-spacing:.4em;padding-left:.4em;font-weight:400}}
+h1{{font-family:'Libre Baskerville',serif;font-weight:400;font-size:9.6mm;line-height:1;margin-top:.4mm;color:#b4547c;letter-spacing:-.02em}}
+.linha{{display:flex;align-items:center;gap:1mm;margin:1.4mm 0 1.3mm}}.linha i{{flex:1;height:.18mm;background:#c97a96}}.linha span{{font-size:1.6mm}}
+p{{font-size:1.85mm;line-height:1.45;font-weight:300;color:#8a3a5b}}
+.ass{{font-family:'Great Vibes',cursive;font-size:4.6mm;margin-top:.9mm;color:#b4547c}}
+.logo{{position:absolute;left:50%;transform:translateX(-50%);top:48.8mm;width:9.5mm}}
+.g{{position:absolute;inset:0;width:70mm;height:70mm}}
+</style></head><body>
+<div class="ramo">{RAMO}</div><div class="laco">{LACO}</div>
+<div class="txt"><div class="k">OUTUBRO</div><h1>rosa</h1><div class="linha"><i></i><span>♡</span><i></i></div>
+<p>Cuidar da saúde também<br>é um direito seu.</p><div class="ass">Cuide-se!</div></div>
+<img class="logo" src="{M}/logo-rosa-recortado.png">{g}
+</body></html>"""
+
+with sync_playwright() as p:
+    b = p.chromium.launch()
+    for nome, guias in [("broche", False), ("broche-guias", True)]:
+        h = AQUI / f"{nome}.html"; h.write_text(html(guias), encoding="utf8")
+        pg = b.new_page(viewport={"width": 265, "height": 265}, device_scale_factor=6.25)  # 70 mm ≈ 1654 px ≈ 600 dpi
+        pg.goto(h.as_uri()); pg.wait_for_load_state("networkidle"); pg.evaluate("document.fonts.ready")
+        pg.screenshot(path=str(AQUI / (f"{nome}-600dpi.png" if not guias else f"{nome}.png")))
+        if not guias:
+            pg.pdf(path=str(AQUI / "broche-70mm.pdf"), width="70mm", height="70mm", print_background=True)
+        pg.close()
+    b.close()
+print("ok")

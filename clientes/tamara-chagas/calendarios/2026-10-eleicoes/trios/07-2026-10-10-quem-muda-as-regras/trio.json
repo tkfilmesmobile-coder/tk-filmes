@@ -1,0 +1,38 @@
+{
+ "data": "10 de outubro de 2026",
+ "fonte": "Constituição Federal, arts. 48, 60 e 201",
+ "card": "Vamos falar sério um minutinho? Quem muda as regras da sua aposentadoria não é o INSS, e nada acontece da noite pro dia. Explico no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "quem muda a aposentadoria? 🏛️",
+  "marca": "Congresso Nacional",
+  "linhas": [
+   "🏛️ o Congresso Nacional (Câmara + Senado)",
+   "📜 mudar a Constituição: 2 votações em cada Casa e 3/5 dos votos",
+   "⚖️ lei: aprovada e sancionada",
+   "🗳️ por isso quem você elege importa"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, ouvi que vão mudar a aposentadoria semana que vem. É verdade? 😨",
+   "09:02"
+  ],
+  [
+   "out",
+   "Mudança nas regras só acontece por lei ou emenda aprovada no Congresso, não de uma hora pra outra 🏛️",
+   "09:03"
+  ],
+  [
+   "out",
+   "Desconfie de mensagem sem fonte e confira no site da Câmara e do Senado 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Ufa! Vou conferir 🙏",
+   "09:04"
+  ]
+ ]
+}

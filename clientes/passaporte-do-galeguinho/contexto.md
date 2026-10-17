@@ -6,9 +6,11 @@
 - **CPF/CNPJ (do contrato):** 21.649.703/0001-15
 - **Endereço do contrato:** Rua Abílio Gomes, 137, Centro, União dos Palmares/AL (endereço dele; a
   lanchonete fica em São José da Laje)
-- **Telefone/WhatsApp:** (81) 9 9352-9696 — informado em 2026-09-17. O material antigo trazia (82) 9 9197-9141; **confirmar qual é o atual.**
+- **Telefone/WhatsApp:** (82) 9 9197-9141 (é o da bio do Instagram, conferido em 2026-09-30). O (81) 9 9352-9696 apareceu em 2026-09-17; pode ser pessoal do dono.
 - **Email:** [a definir]
 - **Cidade:** São José da Laje, AL (Zona da Mata alagoana)
+- **Horário:** terça a domingo, das 18h às 23h (bio do Instagram, 2026-09-30). Segunda fechado: post de segunda não chama pra loja no dia.
+- **Drive do cliente:** pasta `PASSAPORTE DO GALEGUINHO` no Drive da TK (https://drive.google.com/drive/folders/1EJKn28G8dBXMM7qxAUXe464RPVl2QFvi), montada em `G:\Meu Drive`. Entregas vão pra lá: `IDENTIDADE VISUAL/`, `POSTS/<ano-mês>/`.
 
 ## Redes
 - **Instagram:** @passaportedogaleguinho — principal
@@ -56,7 +58,7 @@ dele em União dos Palmares, enquanto a lanchonete fica em São José da Laje. C
 - **Onde está o contrato:** `contrato/2026-01-23-contrato-producao-assinado.pdf`, nesta pasta.
 
 ## Acessos
-- Instagram: [a definir onde o acesso está guardado]
+- Instagram: conectado à Graph API pela skill `publicar-social-ratos` (token `PASSAPORTEDOGALEGUINHO` no `.env`, vence ~28/11/2026). Senha: [a definir onde está guardada]
 - Fotos: o cliente despeja as fotos reais no Google Drive dele; a cópia de trabalho está em `marca/fotos/`
   da pasta de produção. Confirmar onde fica a pasta no Drive.
 
@@ -74,6 +76,9 @@ Resumo do sistema visual:
   Playfair só na trend "acho chique"
 - Selo "Nº1 · O melhor da cidade" em círculo dourado; barra fina de delivery só nos posts de fundo de funil
 - Foto nítida e centralizada, grade quente com grão de filme, margens generosas
+
+**Vídeo:** a edição segue a skill `video-galeguinho` (`.claude/skills/` desta pasta), padrão fechado em 2026-10-05.
+Apresentador parceiro: Maycon de Quipapá (@maycondequipapaof, 196 mil seguidores); vídeo com ele sai em colaboração.
 
 **Regra de imagem, obrigatória:** toda peça usa foto real do cliente. Nunca IA, nunca banco de imagens.
 Faltou foto pro tema, pergunta ao cliente em vez de inventar.
@@ -98,3 +103,7 @@ promoção que não existe.
 Cadastro em 2026-09-17. Fonte: conversa com a Talyta (telefone, cidade, Instagram, link da bio) o contrato assinado em `contrato/`, e a pasta
 de produção `C:\Users\tamar\cliente-passaporte-do-galeguinho\` (`_contexto/empresa.md`,
 `_contexto/preferencias.md`, `_contexto/estrategia.md`, `_contexto/RESUMO-DO-PROJETO.md`).
+
+## Regras gerais aplicadas
+
+- **Brand book (2026-10-13):** Identidade travada na pasta de trabalho (`marca/design-guide.md`, `marca/fotos/CATALOGO.md`, ver 'Marca'). Brand book: **pendente**. Partir da identidade travada, do persona e do posicionamento já registrados na ficha; nada da identidade visual muda.

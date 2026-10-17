@@ -1,0 +1,64 @@
+{
+  "fonte": "midia/sensibilidade-x-canal.mp4",
+  "origem": "Corte da Talyta: Downloads/CAMILLA WANDERLLEY/VIDEOS/SENSIBILIDADE X CANAL .mp4 (2026-09-30)",
+  "palavras": "sensibilidade-x-canal.palavras.json",
+  "segmentos": "sensibilidade-x-canal.segmentos.json",
+  "fps": 30,
+  "duracao": 45.0,
+  "alvo_rosto": 320,
+  "teto": 1.0,
+  "correcoes": {
+    "cara@22820": "cárie",
+    "imprecedível": "imprescindível"
+  },
+  "punches": [],
+  "headlines": [
+    {
+      "de": 3.7,
+      "ate": 5.65,
+      "linhas": [
+        {
+          "t": "SENSIBILIDADE"
+        },
+        {
+          "t": "OU CANAL?",
+          "cor": true
+        }
+      ]
+    },
+    {
+      "de": 35.3,
+      "ate": 38.35,
+      "linhas": [
+        {
+          "t": "SÓ NA"
+        },
+        {
+          "t": "AVALIAÇÃO",
+          "cor": true
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "de": 11.1,
+      "ate": 16.45,
+      "etiqueta": "Sensibilidade",
+      "texto": "Dor aguda no gelado. Tirou o estímulo, passa."
+    },
+    {
+      "de": 19.75,
+      "ate": 26.3,
+      "etiqueta": "Pode ser canal",
+      "texto": "Dor intensa, cárie grande, dor com algo quente."
+    }
+  ],
+  "cta": {
+    "dur": 2.4,
+    "texto": "me chama no direct"
+  },
+  "ate": 7.43,
+  "nota": "Prévia: do início até o 2º corte da Talyta (fim de 'Eu vou te explicar como funciona.')",
+  "enquadramento_nota": "Sem zoom nosso: a Talyta já fez os zooms no corte (push-ins em 0-0,6 s, 3,1-3,8 s, 7,4-7,9 s, 16,6-17 s, 27,5-28,4 s, 33,9-34,5 s)."
+}

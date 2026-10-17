@@ -1,0 +1,22 @@
+{
+ "data": "15 de outubro de 2026",
+ "card": "A Rita me ligou com a dúvida de vocês e eu respondi no feed 📞 <b>Quem é da roça precisa contribuir mês a mês com o INSS?</b> 👆",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "trabalhador rural e INSS 🌾",
+  "linhas": [
+   "1. <b>Não precisa</b> contribuir mês a mês",
+   "2. Tem que trabalhar em <b>regime de economia familiar</b>",
+   "3. O que garante o benefício é a <b>prova do trabalho no campo</b>",
+   "📂 Nota de venda, bloco do produtor, contrato de parceria, documento da terra"
+  ],
+  "marca": "regime de economia familiar"
+ },
+ "conversa": [
+  ["in", "Doutora, o que é esse tal de 'regime de economia familiar'? 🤔", "16:03"],
+  ["out", "É quando a família trabalha junto na roça, sem ter empregado fixo, e vive daquilo 🌾", "16:04"],
+  ["out", "Quem trabalha assim é segurado especial, e cada caso precisa ser analisado direitinho, tá? 😉", "16:04"],
+  ["in", "Entendi! Vou mostrar pro meu pai 🙏", "16:05"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 11, VII e §1º; 39 e 106"
+}

@@ -1,0 +1,584 @@
+{
+ "bruto": "C:/Users/tamar/Downloads/feira.mp4",
+ "nota": "PARTE 2 · AUXÍLIO-DOENÇA = abertura padrão + bloco do rapaz (bruto 43,2–74,3, respeitando as trocas de tomada em 50,63 e 58,87) + fecho 'Até mais!' + cartão.",
+ "clips": [
+  {
+   "in": 0.0,
+   "out": 1.1,
+   "nota": "Rita na moto (parada)"
+  },
+  {
+   "in": 1.1,
+   "out": 4.45,
+   "texto": "Eu quero saber se esse povo sabe de INSS.",
+   "nota": "Rita pilotando, fala a pergunta"
+  },
+  {
+   "in": 4.5,
+   "out": 5.3,
+   "nota": "chegada na feira (b-roll)"
+  },
+  {
+   "in": 5.9,
+   "out": 9.55,
+   "texto": "...a gente vai saber se o povo conhece sobre benefícios no INSS.",
+   "nota": "Rita + Jeferson caminhando"
+  },
+  {
+   "in": 43.22,
+   "out": 45.62,
+   "texto": "Quem trabalha na roça tem direito a auxílio-doença?",
+   "nota": "pergunta"
+  },
+  {
+   "in": 45.62,
+   "out": 50.1,
+   "texto": "Acho que não. | Eu não entendo não, eu não entendo nada dessas coisas não. | Acho que não.",
+   "nota": "rapaz"
+  },
+  {
+   "in": 50.66,
+   "out": 58.62,
+   "texto": "Quem é trabalhador rural não precisa de contribuição, certo? Porque você aí já prova lá que você é trabalhador rural.",
+   "nota": "rapaz raciocina"
+  },
+  {
+   "in": 58.9,
+   "out": 74.3,
+   "texto": "Nós todos não temos que ajudar a União dos Palmares, assim, e ajudar a contribuir com outra feira, ajudar no desenvolvimento da União, não é assim? | Eu acho que é isso, eu acho.",
+   "nota": "escorrega pro 'contribuir com a feira'"
+  },
+  {
+   "in": 137.13,
+   "out": 139.45,
+   "texto": "Até mais!",
+   "nota": "fecho"
+  },
+  {
+   "freeze": 4.2
+  }
+ ],
+ "destaques": [
+  "inss",
+  "benefícios",
+  "roça",
+  "auxílio-doença",
+  "contribuição",
+  "contribuir",
+  "rural",
+  "união",
+  "palmares",
+  "feira"
+ ],
+ "zooms": [
+  {
+   "t": 0.0,
+   "dur": 1.1,
+   "s": 1.1,
+   "rampa": 33
+  },
+  {
+   "t": 3.52,
+   "dur": 0.9,
+   "s": 1.07,
+   "rampa": 5
+  },
+  {
+   "t": 12.95,
+   "dur": 1.57,
+   "s": 1.08,
+   "x": 0.66,
+   "y": 0.32,
+   "rampa": 5
+  },
+  {
+   "t": 14.52,
+   "dur": 1.26,
+   "s": 1.16,
+   "x": 0.66,
+   "y": 0.32,
+   "rampa": 3
+  },
+  {
+   "t": 38.37,
+   "dur": 0.75,
+   "s": 1.14,
+   "x": 0.4,
+   "y": 0.4,
+   "rampa": 3
+  }
+ ],
+ "whips": [
+  1.1,
+  4.45,
+  5.25
+ ],
+ "pb": [
+  [
+   14.52,
+   15.78
+  ],
+  [
+   38.37,
+   39.12
+  ]
+ ],
+ "inserts": [
+  {
+   "t": 0.05,
+   "dur": 1.03,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "parte",
+     "estilo": "fino",
+     "tam": 120,
+     "x": 90,
+     "y": 250
+    },
+    {
+     "de": 0.12,
+     "txt": "02",
+     "estilo": "contorno",
+     "tam": 560,
+     "x": 300,
+     "y": 170,
+     "cor": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "t": 0.3,
+   "dur": 0.78,
+   "tipo": "cinetico",
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "auxílio-doença",
+     "estilo": "forte",
+     "tam": 92,
+     "x": 70,
+     "y": 1330,
+     "cor": "#E6D3B8"
+    }
+   ]
+  },
+  {
+   "t": 1.11,
+   "dur": 1.13,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "eu quero",
+     "estilo": "fino",
+     "tam": 130,
+     "x": 80,
+     "y": 300
+    },
+    {
+     "de": 0.67,
+     "txt": "SABER",
+     "estilo": "forte",
+     "tam": 250,
+     "x": 60,
+     "y": 420
+    }
+   ]
+  },
+  {
+   "t": 2.24,
+   "dur": 0.86,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "se esse",
+     "estilo": "fino",
+     "tam": 130,
+     "x": 90,
+     "y": 300
+    },
+    {
+     "de": 0.56,
+     "txt": "POVO",
+     "estilo": "forte",
+     "tam": 290,
+     "x": 70,
+     "y": 410,
+     "cor": "#E6D3B8"
+    }
+   ]
+  },
+  {
+   "t": 3.1,
+   "dur": 1.35,
+   "tipo": "cinetico",
+   "atras": true,
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "sabe de",
+     "estilo": "fino",
+     "tam": 130,
+     "x": 90,
+     "y": 300
+    },
+    {
+     "de": 0.42,
+     "txt": "INSS?",
+     "estilo": "brilho",
+     "tam": 300,
+     "x": 50,
+     "y": 420
+    }
+   ]
+  },
+  {
+   "t": 4.45,
+   "dur": 0.8,
+   "tipo": "cinetico",
+   "blocos": [
+    {
+     "de": 0.0,
+     "txt": "na feira de",
+     "estilo": "fino",
+     "tam": 105,
+     "x": 80,
+     "y": 250
+    },
+    {
+     "de": 0.15,
+     "txt": "UNIÃO",
+     "estilo": "forte",
+     "tam": 230,
+     "x": 60,
+     "y": 350
+    }
+   ]
+  },
+  {
+   "t": 5.38,
+   "dur": 2.6,
+   "tipo": "identifica",
+   "texto": "RITA E SALES",
+   "sub": "TAMARA CHAGAS ADVOCACIA",
+   "y": 232
+  },
+  {
+   "t": 7.75,
+   "dur": 1.15,
+   "tipo": "cards",
+   "y": 1430,
+   "itens": [
+    "Aposentadoria",
+    "Auxílio-doença",
+    "Salário-maternidade",
+    "Pensão por morte",
+    "BPC/LOAS"
+   ]
+  },
+  {
+   "t": 15.62,
+   "dur": 0.32,
+   "tipo": "tv-erro",
+   "texto": "SEM SINAL"
+  },
+  {
+   "t": 21.26,
+   "dur": 2.3,
+   "tipo": "sticker",
+   "emoji": "🤯",
+   "texto": "PLOT TWIST: ELE SABE!",
+   "cor": "#141414",
+   "y": 340,
+   "x": 50,
+   "rot": -3
+  },
+  {
+   "t": 29.77,
+   "dur": 1.7,
+   "tipo": "sticker",
+   "emoji": "🧐",
+   "texto": "PERA...",
+   "cor": "#FFFFFF",
+   "y": 340,
+   "rot": 5
+  },
+  {
+   "t": 33.03,
+   "dur": 2.3,
+   "tipo": "meme",
+   "linhas": [
+    "DESENVOLVIMENTO",
+    "DA",
+    "UNIÃO"
+   ],
+   "tempos": [
+    0,
+    1.45,
+    1.61
+   ]
+  },
+  {
+   "t": 38.37,
+   "dur": 0.75,
+   "tipo": "sticker",
+   "emoji": "😂",
+   "cor": "#FFFFFF",
+   "y": 1040,
+   "x": 70,
+   "rot": 8
+  },
+  {
+   "t": 39.35,
+   "dur": 2.0,
+   "tipo": "sticker",
+   "emoji": "👋",
+   "texto": "ATÉ A PRÓXIMA PARTE",
+   "cor": "#FFFFFF",
+   "y": 340,
+   "x": 50,
+   "rot": -3
+  },
+  {
+   "t": 41.44,
+   "dur": 4.2,
+   "tipo": "cartao",
+   "parte": 2,
+   "tema": "AUXÍLIO-DOENÇA",
+   "texto": "Quem é da roça <b>tem direito a auxílio-doença.</b>",
+   "sub": "Precisa comprovar o trabalho no campo nos <b>12 meses</b> antes de adoecer e passar pela perícia do INSS.",
+   "fonte": "Lei 8.213/1991, arts. 25, I; 39, I; e 59 (planalto.gov.br)"
+  }
+ ],
+ "headline": {
+  "de": 5.25,
+  "ate": 999,
+  "parte": 2,
+  "tema": "AUXÍLIO-DOENÇA"
+ },
+ "sfx": [
+  [
+   0.0,
+   "abertura-hit",
+   0.55
+  ],
+  [
+   0.02,
+   "whoosh-grave",
+   0.6
+  ],
+  [
+   0.05,
+   "tick",
+   0.5
+  ],
+  [
+   0.15,
+   "thump2",
+   0.65
+  ],
+  [
+   0.7,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   1.11,
+   "tick",
+   0.5
+  ],
+  [
+   1.78,
+   "thump",
+   0.65
+  ],
+  [
+   2.24,
+   "tick",
+   0.5
+  ],
+  [
+   2.8,
+   "thump2",
+   0.65
+  ],
+  [
+   3.0,
+   "riser",
+   0.32
+  ],
+  [
+   3.1,
+   "tick",
+   0.45
+  ],
+  [
+   3.52,
+   "shimmer",
+   0.45
+  ],
+  [
+   3.52,
+   "thump",
+   0.65
+  ],
+  [
+   4.08,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   4.6,
+   "thump2",
+   0.65
+  ],
+  [
+   4.85,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   5.27,
+   "click",
+   0.4
+  ],
+  [
+   5.4,
+   "click",
+   0.35
+  ],
+  [
+   7.34,
+   "whoosh-grave-cards",
+   0.65
+  ],
+  [
+   7.8,
+   "card-1",
+   0.55
+  ],
+  [
+   7.9,
+   "card-2",
+   0.55
+  ],
+  [
+   8.0,
+   "card-3",
+   0.55
+  ],
+  [
+   8.1,
+   "card-4",
+   0.55
+  ],
+  [
+   8.2,
+   "card-5",
+   0.55
+  ],
+  [
+   12.95,
+   "riser",
+   0.25
+  ],
+  [
+   14.52,
+   "thump",
+   0.65
+  ],
+  [
+   15.62,
+   "tv-erro",
+   0.22
+  ],
+  [
+   21.0,
+   "whoosh-grave",
+   0.6
+  ],
+  [
+   21.26,
+   "click",
+   0.4
+  ],
+  [
+   29.77,
+   "scratch",
+   0.45
+  ],
+  [
+   30.6,
+   "drama",
+   0.32
+  ],
+  [
+   33.03,
+   "thump2",
+   0.65
+  ],
+  [
+   34.48,
+   "thump",
+   0.65
+  ],
+  [
+   34.64,
+   "boom",
+   0.5
+  ],
+  [
+   38.37,
+   "pop",
+   0.45
+  ],
+  [
+   39.35,
+   "click",
+   0.4
+  ],
+  [
+   41.0,
+   "whoosh-grave-impacto",
+   0.75
+  ],
+  [
+   41.55,
+   "shimmer",
+   0.3
+  ]
+ ],
+ "trilha": [
+  [
+   0.0,
+   4.39,
+   0.42
+  ],
+  [
+   4.39,
+   5.2,
+   0.32
+  ],
+  [
+   5.25,
+   30.5,
+   0.09
+  ],
+  [
+   35.4,
+   41.3,
+   0.09
+  ],
+  [
+   41.44,
+   45.64,
+   0.4
+  ]
+ ]
+}

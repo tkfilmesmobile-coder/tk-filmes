@@ -1,0 +1,9 @@
+{"parte": 4, "tema": "PENSÃO POR MORTE", "fonte": "Lei 8.213/1991, arts. 16, I e §§ 3º e 5º; 74; 77",
+ "slides": [
+  {"layout": "capa", "foto": "../fotos/f101.2.jpg", "pos": "55% 30%", "kicker": "O POVO DA FEIRA SABE DE INSS?", "titulo": "Pra receber pensão, precisa ser <b>casado no papel?</b>", "fala": "Eu acho que sim."},
+  {"layout": "foto", "foto": "../fotos/f108.0.jpg", "pos": "50% 30%", "kicker": "A RESPOSTA", "titulo": "Não <b>necessariamente.</b>", "texto": "Quem vivia junto, em <b>união estável</b>, também tem direito à pensão por morte."},
+  {"layout": "foto", "foto": "../fotos/f97.0.jpg", "pos": "50% 30%", "kicker": "QUEM RECEBE", "titulo": "A <b>família</b> de quem faleceu.", "texto": "Marido ou esposa, <b>companheiro ou companheira</b>, e filhos menores de 21 anos."},
+  {"layout": "lista", "foto": "../fotos/f114.0.jpg", "pos": "50% 30%", "kicker": "COMO PROVAR A UNIÃO", "titulo": "Documentos que <b>ajudam.</b>", "lista": ["<b>Filho</b> em comum", "Comprovante do <b>mesmo endereço</b>", "Cadastro no <b>posto de saúde</b> ou <b>plano funerário</b>", "<b>Conta</b> conjunta ou plano de saúde"]},
+  {"layout": "numero", "kicker": "ATENÇÃO AO PRAZO", "titulo": "Os documentos precisam ser <b>recentes:</b>", "grande": "2|anos antes do falecimento, no máximo", "texto": "E não basta testemunha: <b>tem que ter documento</b>. O tempo da pensão depende da idade de quem fica e do tempo de união."},
+  {"layout": "fim", "foto": "tamara/tamara-estudio-0156.jpg", "titulo": "Ficou com <b>dúvida?</b>", "texto": "Procure orientação. Cada caso é único.<br><br>Esse foi o último episódio da série <b>O povo da feira sabe de INSS?</b>"}
+ ]}

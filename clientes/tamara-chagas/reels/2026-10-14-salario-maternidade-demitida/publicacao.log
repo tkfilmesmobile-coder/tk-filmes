@@ -1,0 +1,61 @@
+﻿[2026-10-16 21:01:20] publicando...
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\reels\2026-10-14-salario-maternidade-demitida\afastado-inss-demissao-leve.mp4" 
+"https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\reels\2026-10-14-salario-maternidade-demitida\publicar.ps1:10 
+caractere:15
++     $saida = (& node --env-file=.env @argsNode 2>&1 | Out-String)
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-16 21:01:36] falhou (tentativa 1), tentando de novo em 60 s
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/2hrowh.mp4
+
+Criando container de video...
+  Container: 18638557141002264
+Aguardando processamento (pode levar ate 2 min)...
+Publicando...
+
+Publicado como Reels!
+Link: https://www.instagram.com/reel/Dekxv85AK2z/
+
+[2026-10-16 21:04:29] reels: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 17996296487834914)
+
+[2026-10-16 21:05:02] pessoal 1-card: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18131135254765065)
+
+[2026-10-16 21:05:35] pessoal 2-notas: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18108836495265911)
+
+[2026-10-16 21:06:07] pessoal 3-conversa: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18428742229144827)
+
+[2026-10-16 21:06:38] escritorio 01: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18002337540009443)
+
+[2026-10-16 21:07:10] escritorio 02: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18115612085324975)
+
+[2026-10-16 21:07:39] escritorio 03: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 17883832920625588)
+
+[2026-10-16 21:08:10] escritorio 04: codigo 0

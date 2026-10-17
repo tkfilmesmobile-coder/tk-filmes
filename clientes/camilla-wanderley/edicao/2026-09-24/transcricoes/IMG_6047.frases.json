@@ -1,0 +1,92 @@
+[
+ {
+  "de": 0.0,
+  "ate": 1.0,
+  "texto": "Ou sim."
+ },
+ {
+  "de": 1.0,
+  "ate": 4.34,
+  "texto": "No começo do mês eu fui ao dentista,"
+ },
+ {
+  "de": 4.34,
+  "ate": 6.34,
+  "texto": "só que aí eu não me senti segura."
+ },
+ {
+  "de": 6.34,
+  "ate": 8.74,
+  "texto": "Aí eu falei que isso aqui era canal,"
+ },
+ {
+  "de": 8.74,
+  "ate": 10.74,
+  "texto": "isso aqui que é extração,"
+ },
+ {
+  "de": 10.74,
+  "ate": 13.74,
+  "texto": "e falou que tinha sete restalações e limpeza."
+ },
+ {
+  "de": 13.74,
+  "ate": 16.46,
+  "texto": "Aí no momento eu quero mexer algo nesse,"
+ },
+ {
+  "de": 16.46,
+  "ate": 19.36,
+  "texto": "que vai e não vai, ele fica querendo doer."
+ },
+ {
+  "de": 19.36,
+  "ate": 20.36,
+  "texto": "Certo."
+ },
+ {
+  "de": 22.36,
+  "ate": 23.36,
+  "texto": "Ele dói com o que?"
+ },
+ {
+  "de": 24.62,
+  "ate": 26.0,
+  "texto": "Se eu mastigar em cima."
+ },
+ {
+  "de": 27.0,
+  "ate": 29.0,
+  "texto": "Se você tomar água quente ou gelada, ele dói?"
+ },
+ {
+  "de": 29.0,
+  "ate": 29.5,
+  "texto": "Não."
+ },
+ {
+  "de": 29.5,
+  "ate": 30.16,
+  "texto": "Nem café?"
+ },
+ {
+  "de": 30.4,
+  "ate": 30.64,
+  "texto": "Não."
+ },
+ {
+  "de": 32.71,
+  "ate": 34.53,
+  "texto": "Ele chegou a fazer raio-x pra ver?"
+ },
+ {
+  "de": 34.97,
+  "ate": 35.37,
+  "texto": "Não."
+ },
+ {
+  "de": 35.85,
+  "ate": 37.89,
+  "texto": "Só falou que ia ser canal."
+ }
+]

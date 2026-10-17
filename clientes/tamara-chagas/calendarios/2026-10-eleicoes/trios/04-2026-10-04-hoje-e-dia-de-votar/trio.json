@@ -1,0 +1,39 @@
+{
+ "data": "4 de outubro de 2026",
+ "fonte": "Previdência · 18/09/2026 · TSE",
+ "card": "Bom dia, gente! Hoje é dia de eleição. E pra quem recebe benefício do INSS: votou, a <b>prova de vida</b> já conta 💛 Tá no post 👆",
+ "notas": {
+  "hora": "09:01",
+  "titulo": "checklist de hoje ✅",
+  "marca": "prova de vida",
+  "linhas": [
+   "⏰ das 8h às 17h (Brasília)",
+   "🪪 documento oficial com foto",
+   "📍 local no e-Título",
+   "🧾 votou = prova de vida no INSS",
+   "👵 70 anos ou mais: voto opcional"
+  ]
+ },
+ "conversa": [
+  [
+   "in",
+   "Doutora, sou aposentada. Votando hoje, ainda preciso fazer prova de vida? 🤔",
+   "09:02"
+  ],
+  [
+   "out",
+   "Não precisa! O INSS recebe a informação do voto e já conta como prova de vida ✅",
+   "09:03"
+  ],
+  [
+   "out",
+   "Só não esquece o documento com foto 😉",
+   "09:03"
+  ],
+  [
+   "in",
+   "Que prático! Obrigada 🙏",
+   "09:04"
+  ]
+ ]
+}

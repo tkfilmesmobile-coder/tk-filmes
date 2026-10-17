@@ -1,0 +1,438 @@
+Whisper already exists at C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp
+Model already exists at C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin
+(node:33152) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\solto-p00.wav' (843520 samples, 52.7 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.060]  
+[00:00:00.060 --> 00:00:00.120]   F
+[00:00:00.120 --> 00:00:00.190]  iz
+[00:00:00.190 --> 00:00:00.320]   um
+[00:00:00.320 --> 00:00:00.710]   vídeo
+[00:00:00.710 --> 00:00:01.100]   bonito
+[00:00:01.100 --> 00:00:01.270]  ,
+[00:00:01.270 --> 00:00:01.530]   ficou
+[00:00:01.530 --> 00:00:01.700]   per
+[00:00:01.700 --> 00:00:02.000]  feito
+[00:00:02.000 --> 00:00:02.090]  ,
+[00:00:02.090 --> 00:00:02.220]   mas
+[00:00:02.220 --> 00:00:02.440]   não
+[00:00:02.440 --> 00:00:02.580]   veio
+[00:00:02.580 --> 00:00:02.620]   o
+[00:00:02.620 --> 00:00:02.890]   client
+[00:00:02.890 --> 00:00:02.960]  e
+[00:00:02.960 --> 00:00:04.000]   através
+[00:00:04.000 --> 00:00:04.000]   dele
+[00:00:04.000 --> 00:00:04.000]  .
+[00:00:04.000 --> 00:00:04.230]   Pois
+[00:00:04.230 --> 00:00:04.340]   é
+[00:00:04.340 --> 00:00:04.450]  ,
+[00:00:04.450 --> 00:00:04.700]   isso
+[00:00:04.700 --> 00:00:05.130]   acontece
+[00:00:05.130 --> 00:00:05.480]   quando
+[00:00:05.480 --> 00:00:05.760]   você
+[00:00:05.760 --> 00:00:05.930]   faz
+[00:00:05.930 --> 00:00:06.270]   vídeo
+[00:00:06.270 --> 00:00:06.440]   sol
+[00:00:06.440 --> 00:00:06.600]  to
+[00:00:06.600 --> 00:00:06.720]  ,
+[00:00:06.720 --> 00:00:06.780]   e
+[00:00:06.780 --> 00:00:07.140]   vídeo
+[00:00:07.140 --> 00:00:07.320]   sol
+[00:00:07.320 --> 00:00:07.440]  to
+[00:00:07.440 --> 00:00:07.680]   não
+[00:00:07.680 --> 00:00:07.730]   v
+[00:00:07.730 --> 00:00:07.990]  ende
+[00:00:07.990 --> 00:00:08.000]  .
+[00:00:08.000 --> 00:00:08.290]   Deixa
+[00:00:08.290 --> 00:00:08.400]   eu
+[00:00:08.400 --> 00:00:08.520]   te
+[00:00:08.520 --> 00:00:08.940]   explicar
+[00:00:08.940 --> 00:00:09.000]  .
+[00:00:09.000 --> 00:00:09.240]   Um
+[00:00:09.240 --> 00:00:09.470]   vídeo
+[00:00:09.470 --> 00:00:09.600]   so
+[00:00:09.600 --> 00:00:09.880]  zinho
+[00:00:09.880 --> 00:00:10.000]   é
+[00:00:10.000 --> 00:00:10.280]   igual
+[00:00:10.280 --> 00:00:10.510]   um
+[00:00:10.510 --> 00:00:10.650]   cart
+[00:00:10.650 --> 00:00:10.820]  ão
+[00:00:10.820 --> 00:00:10.980]   de
+[00:00:10.980 --> 00:00:11.120]   vis
+[00:00:11.120 --> 00:00:11.290]  ita
+[00:00:11.290 --> 00:00:11.470]   jog
+[00:00:11.470 --> 00:00:11.640]  ado
+[00:00:11.640 --> 00:00:11.760]   na
+[00:00:11.760 --> 00:00:12.000]   rua
+[00:00:12.000 --> 00:00:12.000]  .
+[00:00:12.000 --> 00:00:12.100]   É
+[00:00:12.100 --> 00:00:12.420]   bonito
+[00:00:12.420 --> 00:00:12.520]  ,
+[00:00:12.520 --> 00:00:12.680]   mas
+[00:00:12.680 --> 00:00:13.110]   ninguém
+[00:00:13.110 --> 00:00:13.320]   sabe
+[00:00:13.320 --> 00:00:13.530]   para
+[00:00:13.530 --> 00:00:13.580]   o
+[00:00:13.580 --> 00:00:13.820]   que
+[00:00:13.820 --> 00:00:13.950]   usar
+[00:00:13.950 --> 00:00:14.270]   aquilo
+[00:00:14.270 --> 00:00:14.430]   ali
+[00:00:14.430 --> 00:00:14.530]  ,
+[00:00:14.530 --> 00:00:14.740]   sabe
+[00:00:14.740 --> 00:00:15.000]  ?
+[00:00:15.000 --> 00:00:15.150]   É
+[00:00:15.150 --> 00:00:15.530]   ignor
+[00:00:15.530 --> 00:00:15.760]  ado
+[00:00:15.760 --> 00:00:16.000]  .
+[00:00:16.000 --> 00:00:16.070]   O
+[00:00:16.070 --> 00:00:16.630]   vídeo
+[00:00:16.630 --> 00:00:16.770]   que
+[00:00:16.770 --> 00:00:17.240]   trabal
+[00:00:17.240 --> 00:00:17.390]  ha
+[00:00:17.390 --> 00:00:17.620]   tem
+[00:00:17.620 --> 00:00:17.710]   o
+[00:00:17.710 --> 00:00:18.110]   antes
+[00:00:18.110 --> 00:00:18.150]   e
+[00:00:18.150 --> 00:00:18.220]   o
+[00:00:18.220 --> 00:00:19.000]   depois
+[00:00:19.000 --> 00:00:19.000]  .
+[00:00:19.000 --> 00:00:19.080]   O
+[00:00:19.080 --> 00:00:19.480]   antes
+[00:00:19.480 --> 00:00:19.700]   é
+[00:00:19.700 --> 00:00:20.360]   responder
+[00:00:20.360 --> 00:00:20.520]   um
+[00:00:20.520 --> 00:00:21.180]   question
+[00:00:21.180 --> 00:00:21.640]  amento
+[00:00:21.640 --> 00:00:22.000]   real
+[00:00:22.000 --> 00:00:22.090]   do
+[00:00:22.090 --> 00:00:22.270]   dia
+[00:00:22.270 --> 00:00:22.330]   a
+[00:00:22.330 --> 00:00:22.410]   dia
+[00:00:22.410 --> 00:00:22.500]   do
+[00:00:22.500 --> 00:00:22.640]   seu
+[00:00:22.640 --> 00:00:23.000]   client
+[00:00:23.000 --> 00:00:23.000]  e
+[00:00:23.000 --> 00:00:23.000]  ,
+[00:00:23.000 --> 00:00:23.120]   que
+[00:00:23.120 --> 00:00:23.240]   ele
+[00:00:23.240 --> 00:00:23.480]   já
+[00:00:23.480 --> 00:00:23.480]   faz
+[00:00:23.480 --> 00:00:23.640]   para
+[00:00:23.640 --> 00:00:23.840]   você
+[00:00:23.840 --> 00:00:24.000]  .
+[00:00:24.000 --> 00:00:24.120]   E
+[00:00:24.120 --> 00:00:24.120]   o
+[00:00:24.120 --> 00:00:24.600]   depois
+[00:00:24.600 --> 00:00:24.620]   é
+[00:00:24.620 --> 00:00:24.720]   ap
+[00:00:24.720 --> 00:00:24.990]  ont
+[00:00:24.990 --> 00:00:25.020]  ar
+[00:00:25.020 --> 00:00:25.260]   para
+[00:00:25.260 --> 00:00:25.560]   algum
+[00:00:25.560 --> 00:00:25.860]   lugar
+[00:00:25.860 --> 00:00:26.000]  ,
+[00:00:26.000 --> 00:00:26.490]   para
+[00:00:26.490 --> 00:00:26.550]   o
+[00:00:26.550 --> 00:00:26.880]   seu
+[00:00:26.880 --> 00:00:27.930]   WhatsApp
+[00:00:27.930 --> 00:00:28.000]  ,
+whisper_print_progress_callback: progress =  53%
+[00:00:28.000 --> 00:00:28.000]  
+[00:00:28.000 --> 00:00:28.300]   para
+[00:00:28.300 --> 00:00:28.610]   criar
+[00:00:28.610 --> 00:00:28.810]   uma
+[00:00:28.810 --> 00:00:29.020]   ca
+[00:00:29.020 --> 00:00:29.070]  ix
+[00:00:29.070 --> 00:00:29.340]  inha
+[00:00:29.340 --> 00:00:29.680]   de
+[00:00:29.680 --> 00:00:30.000]   stories
+[00:00:30.000 --> 00:00:30.090]  ,
+[00:00:30.090 --> 00:00:30.270]   para
+[00:00:30.270 --> 00:00:30.490]   algum
+[00:00:30.490 --> 00:00:30.710]   lugar
+[00:00:30.710 --> 00:00:30.870]   que
+[00:00:30.870 --> 00:00:31.000]   vai
+[00:00:31.000 --> 00:00:31.120]   dar
+[00:00:31.120 --> 00:00:31.410]   continu
+[00:00:31.410 --> 00:00:31.650]  idade
+[00:00:31.650 --> 00:00:31.740]   para
+[00:00:31.740 --> 00:00:32.000]   aquilo
+[00:00:32.000 --> 00:00:32.000]  .
+[00:00:32.000 --> 00:00:32.200]   Agora
+[00:00:32.200 --> 00:00:32.260]  ,
+[00:00:32.260 --> 00:00:32.290]   o
+[00:00:32.290 --> 00:00:32.400]   que
+[00:00:32.400 --> 00:00:32.550]   mais
+[00:00:32.550 --> 00:00:32.850]   acontece
+[00:00:32.850 --> 00:00:33.000]  ?
+[00:00:33.000 --> 00:00:33.110]   Se
+[00:00:33.110 --> 00:00:33.160]   a
+[00:00:33.160 --> 00:00:33.540]   pessoa
+[00:00:33.540 --> 00:00:33.760]   post
+[00:00:33.760 --> 00:00:33.760]  a
+[00:00:33.760 --> 00:00:33.870]  ,
+[00:00:33.870 --> 00:00:33.920]   o
+[00:00:33.920 --> 00:00:34.250]   vídeo
+[00:00:34.250 --> 00:00:34.410]   vai
+[00:00:34.410 --> 00:00:34.680]   estar
+[00:00:34.680 --> 00:00:34.880]   bem
+[00:00:34.880 --> 00:00:35.000]  ,
+[00:00:35.000 --> 00:00:35.360]   mas
+[00:00:35.360 --> 00:00:35.630]   no
+[00:00:35.630 --> 00:00:35.990]   dia
+[00:00:35.990 --> 00:00:37.000]   seguinte
+[00:00:37.000 --> 00:00:37.050]   o
+[00:00:37.050 --> 00:00:37.250]   perf
+[00:00:37.250 --> 00:00:37.360]  il
+[00:00:37.360 --> 00:00:37.630]   volta
+[00:00:37.630 --> 00:00:37.740]   a
+[00:00:37.740 --> 00:00:37.950]   falar
+[00:00:37.950 --> 00:00:38.050]   de
+[00:00:38.050 --> 00:00:38.380]   coisas
+[00:00:38.380 --> 00:00:38.530]   ale
+[00:00:38.530 --> 00:00:38.630]  at
+[00:00:38.630 --> 00:00:38.720]  ó
+[00:00:38.720 --> 00:00:38.790]  rias
+[00:00:38.790 --> 00:00:39.000]  .
+[00:00:39.000 --> 00:00:39.160]   O
+[00:00:39.160 --> 00:00:39.390]   client
+[00:00:39.390 --> 00:00:39.460]  e
+[00:00:39.460 --> 00:00:39.780]   chegou
+[00:00:39.780 --> 00:00:39.830]   e
+[00:00:39.830 --> 00:00:40.060]   não
+[00:00:40.060 --> 00:00:40.230]   ach
+[00:00:40.230 --> 00:00:40.380]  ou
+[00:00:40.380 --> 00:00:40.740]   continu
+[00:00:40.740 --> 00:00:41.070]  ação
+[00:00:41.070 --> 00:00:41.190]   do
+[00:00:41.190 --> 00:00:41.360]   que
+[00:00:41.360 --> 00:00:41.600]   ele
+[00:00:41.600 --> 00:00:41.810]   sente
+[00:00:41.810 --> 00:00:42.000]  ,
+[00:00:42.000 --> 00:00:42.240]   da
+[00:00:42.240 --> 00:00:42.650]   dor
+[00:00:42.650 --> 00:00:42.930]   que
+[00:00:42.930 --> 00:00:43.270]   ele
+[00:00:43.270 --> 00:00:43.620]   tem
+[00:00:43.620 --> 00:00:44.000]  .
+[00:00:44.000 --> 00:00:44.140]   Mas
+[00:00:44.140 --> 00:00:44.280]   ent
+[00:00:44.280 --> 00:00:44.470]  enda
+[00:00:44.470 --> 00:00:44.610]   uma
+[00:00:44.610 --> 00:00:44.880]   coisa
+[00:00:44.880 --> 00:00:45.000]  .
+[00:00:45.000 --> 00:00:45.070]   O
+[00:00:45.070 --> 00:00:45.520]   vídeo
+[00:00:45.520 --> 00:00:45.800]   não
+[00:00:45.800 --> 00:00:45.940]   é
+[00:00:45.940 --> 00:00:46.080]   um
+[00:00:46.080 --> 00:00:46.830]   conteúdo
+[00:00:46.830 --> 00:00:47.000]  .
+[00:00:47.000 --> 00:00:47.070]   O
+[00:00:47.070 --> 00:00:47.650]   vídeo
+[00:00:47.650 --> 00:00:47.690]   é
+[00:00:47.690 --> 00:00:47.720]   a
+[00:00:47.720 --> 00:00:48.090]   porta
+[00:00:48.090 --> 00:00:48.300]   de
+[00:00:48.300 --> 00:00:48.740]   entrada
+[00:00:48.740 --> 00:00:49.000]  .
+[00:00:49.000 --> 00:00:49.050]   O
+[00:00:49.050 --> 00:00:49.720]   conteúdo
+[00:00:49.720 --> 00:00:49.770]   é
+[00:00:49.770 --> 00:00:49.830]   o
+[00:00:49.830 --> 00:00:50.020]   que
+[00:00:50.020 --> 00:00:50.340]   você
+[00:00:50.340 --> 00:00:50.530]   faz
+[00:00:50.530 --> 00:00:50.660]   no
+[00:00:50.660 --> 00:00:50.980]   geral
+[00:00:50.980 --> 00:00:51.110]  ,
+[00:00:51.110 --> 00:00:51.240]   no
+[00:00:51.240 --> 00:00:51.750]   contexto
+[00:00:51.750 --> 00:00:52.000]  .
+whisper_print_progress_callback: progress =  98%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time = 53455.39 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   434.46 ms
+whisper_print_timings:   sample time = 28145.15 ms /  1405 runs (   20.03 ms per run)
+whisper_print_timings:   encode time = 352913.84 ms /     2 runs (176456.92 ms per run)
+whisper_print_timings:   decode time =   327.06 ms /     3 runs (  109.02 ms per run)
+whisper_print_timings:   batchd time = 257951.11 ms /  1395 runs (  184.91 ms per run)
+whisper_print_timings:   prompt time = 33077.23 ms /   408 runs (   81.07 ms per run)
+whisper_print_timings:    total time = 727263.88 ms
+
+trecho 0 0.38-53.10: Fiz um vídeo bonito, ficou perfeito, mas não veio o cliente através dele. Pois é, isso acontece quando você faz vídeo solto, e vídeo solto não vende. Deixa eu te explicar. Um vídeo sozinho é igual um cartão de visita jogado na rua. É bonito, mas ninguém sabe para o que usar aquilo ali, sabe? É ignorado. O vídeo que trabalha tem o antes e o depois. O antes é responder um questionamento real do dia a dia do seu cliente, que ele já faz para você. E o depois é apontar para algum lugar, para o seu WhatsApp, para criar uma caixinha de stories, para algum lugar que vai dar continuidade para aquilo. Agora, o que mais acontece? Se a pessoa posta, o vídeo vai estar bem, mas no dia seguinte o perfil volta a falar de coisas aleatórias. O cliente chegou e não achou continuação do que ele sente, da dor que ele tem. Mas entenda uma coisa. O vídeo não é um conteúdo. O vídeo é a porta de entrada. O conteúdo é o que você faz no geral, no contexto.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\solto-p01.wav' (435520 samples, 27.2 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.120]  
+[00:00:00.120 --> 00:00:00.150]   P
+[00:00:00.150 --> 00:00:00.610]  ega
+[00:00:00.610 --> 00:00:01.130]   o
+[00:00:01.130 --> 00:00:01.220]   seu
+[00:00:01.220 --> 00:00:02.140]   melhor
+[00:00:02.140 --> 00:00:03.130]   vídeo
+[00:00:03.130 --> 00:00:03.230]   e
+[00:00:03.230 --> 00:00:03.300]   aí
+[00:00:03.300 --> 00:00:03.580]   você
+[00:00:03.580 --> 00:00:03.750]   vai
+[00:00:03.750 --> 00:00:03.980]   grav
+[00:00:03.980 --> 00:00:04.090]  ar
+[00:00:04.090 --> 00:00:04.300]   um
+[00:00:04.300 --> 00:00:04.670]   Stories
+[00:00:04.670 --> 00:00:05.000]   hoje
+[00:00:05.000 --> 00:00:05.110]  ,
+[00:00:05.110 --> 00:00:05.340]   cham
+[00:00:05.340 --> 00:00:05.590]  ando
+[00:00:05.590 --> 00:00:05.760]   pra
+[00:00:05.760 --> 00:00:05.990]   ele
+[00:00:05.990 --> 00:00:06.300]   quem
+[00:00:06.300 --> 00:00:06.360]   está
+[00:00:06.360 --> 00:00:06.610]   assist
+[00:00:06.610 --> 00:00:06.830]  indo
+[00:00:06.830 --> 00:00:07.140]   seus
+[00:00:07.140 --> 00:00:07.540]   Stories
+[00:00:07.540 --> 00:00:07.660]  .
+[00:00:07.660 --> 00:00:07.950]   Você
+[00:00:07.950 --> 00:00:08.120]   vai
+[00:00:08.120 --> 00:00:08.640]   responder
+[00:00:08.640 --> 00:00:08.810]   nos
+[00:00:08.810 --> 00:00:09.500]   comentários
+[00:00:09.500 --> 00:00:09.670]   com
+[00:00:09.670 --> 00:00:09.720]   a
+[00:00:09.720 --> 00:00:10.180]   próxima
+[00:00:10.180 --> 00:00:10.680]   pergunta
+[00:00:10.680 --> 00:00:10.730]   e
+[00:00:10.730 --> 00:00:10.970]   você
+[00:00:10.970 --> 00:00:11.130]   vai
+[00:00:11.130 --> 00:00:11.380]   fazer
+[00:00:11.380 --> 00:00:11.550]   um
+[00:00:11.550 --> 00:00:12.150]   vídeo
+[00:00:12.150 --> 00:00:12.420]   sobre
+[00:00:12.420 --> 00:00:12.940]   aquele
+[00:00:12.940 --> 00:00:13.540]   conteúdo
+[00:00:13.540 --> 00:00:13.560]   que
+[00:00:13.560 --> 00:00:14.050]   você
+[00:00:14.050 --> 00:00:14.600]   falou
+[00:00:14.600 --> 00:00:14.600]  .
+[00:00:14.600 --> 00:00:14.710]   So
+[00:00:14.710 --> 00:00:14.880]  bre
+[00:00:14.880 --> 00:00:15.230]   aquele
+[00:00:15.230 --> 00:00:15.700]   question
+[00:00:15.700 --> 00:00:16.070]  amento
+[00:00:16.070 --> 00:00:16.160]  ,
+[00:00:16.160 --> 00:00:16.380]   sabe
+[00:00:16.380 --> 00:00:16.600]  ?
+[00:00:16.600 --> 00:00:17.020]   Então
+[00:00:17.020 --> 00:00:17.220]   sal
+[00:00:17.220 --> 00:00:17.370]  va
+[00:00:17.370 --> 00:00:17.650]   esse
+[00:00:17.650 --> 00:00:18.270]   vídeo
+[00:00:18.270 --> 00:00:18.280]   pra
+[00:00:18.280 --> 00:00:18.630]   você
+[00:00:18.630 --> 00:00:18.910]   não
+[00:00:18.910 --> 00:00:19.330]   perder
+[00:00:19.330 --> 00:00:19.610]   essa
+[00:00:19.610 --> 00:00:20.000]   ideia
+[00:00:20.000 --> 00:00:20.230]  .
+[00:00:20.230 --> 00:00:20.530]   Ten
+[00:00:20.530 --> 00:00:20.620]  ha
+[00:00:20.620 --> 00:00:21.370]   certeza
+[00:00:21.370 --> 00:00:21.380]   que
+[00:00:21.380 --> 00:00:21.660]   você
+[00:00:21.660 --> 00:00:21.840]   vai
+[00:00:21.840 --> 00:00:22.360]   conseguir
+[00:00:22.360 --> 00:00:22.530]   ger
+[00:00:22.530 --> 00:00:22.650]  ar
+[00:00:22.650 --> 00:00:23.050]   conteú
+[00:00:23.050 --> 00:00:23.310]  dos
+[00:00:23.310 --> 00:00:23.510]   muito
+[00:00:23.510 --> 00:00:24.210]   melhores
+[00:00:24.210 --> 00:00:24.300]   que
+[00:00:24.300 --> 00:00:24.520]   o
+[00:00:24.520 --> 00:00:24.620]   seu
+[00:00:24.620 --> 00:00:25.110]   client
+[00:00:25.110 --> 00:00:25.190]  e
+[00:00:25.190 --> 00:00:25.430]   vai
+[00:00:25.430 --> 00:00:25.720]   se
+[00:00:25.720 --> 00:00:26.000]   agrad
+[00:00:26.000 --> 00:00:26.160]  ar
+[00:00:26.160 --> 00:00:26.570]   muito
+[00:00:26.570 --> 00:00:26.900]   mais
+[00:00:26.900 --> 00:00:27.200]  .
+whisper_print_progress_callback: progress =  99%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  8670.45 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   142.32 ms
+whisper_print_timings:   sample time =  8515.23 ms /   519 runs (   16.41 ms per run)
+whisper_print_timings:   encode time = 99946.72 ms /     1 runs (99946.72 ms per run)
+whisper_print_timings:   decode time =   200.80 ms /     1 runs (  200.80 ms per run)
+whisper_print_timings:   batchd time = 65143.37 ms /   516 runs (  126.25 ms per run)
+whisper_print_timings:   prompt time =  9539.10 ms /    98 runs (   97.34 ms per run)
+whisper_print_timings:    total time = 192551.95 ms
+
+trecho 1 53.83-81.05: Pega o seu melhor vídeo e aí você vai gravar um Stories hoje, chamando pra ele quem está assistindo seus Stories. Você vai responder nos comentários com a próxima pergunta e você vai fazer um vídeo sobre aquele conteúdo que você falou. Sobre aquele questionamento, sabe? Então salva esse vídeo pra você não perder essa ideia. Tenha certeza que você vai conseguir gerar conteúdos muito melhores que o seu cliente vai se agradar muito mais.
+0.44:Fiz 0.57:um 0.7:vídeo 1.09:bonito, 1.65:ficou 1.91:perfeito, 2.47:mas 2.6:não 2.82:veio 2.96:o 3:cliente 3.34:através 4.38:dele. 4.38:Pois 4.61:é, 4.83:isso 5.08:acontece 5.51:quando 5.86:você 6.14:faz 6.31:vídeo 6.65:solto, 7.1:e 7.16:vídeo 7.52:solto 7.82:não 8.06:vende. 8.38:Deixa 8.67:eu 8.78:te 8.9:explicar. 9.38:Um 9.62:vídeo 9.85:sozinho 10.26:é 10.38:igual 10.66:um 10.89:cartão 11.2:de 11.36:visita 11.67:jogado 12.02:na 12.14:rua. 12.38:É 12.48:bonito, 12.9:mas 13.06:ninguém 13.49:sabe 13.7:para 13.91:o 13.96:que 14.2:usar 14.33:aquilo 14.65:ali, 14.91:sabe? 15.38:É 15.53:ignorado. 16.38:O 16.45:vídeo 17.01:que 17.15:trabalha 17.77:tem 18:o 18.09:antes 18.49:e 18.53:o 18.6:depois. 19.38:O 19.46:antes 19.86:é 20.08:responder 20.74:um 20.9:questionamento 22.02:real 22.38:do 22.47:dia 22.65:a 22.71:dia 22.79:do 22.88:seu 23.02:cliente, 23.38:que 23.5:ele 23.62:já 23.86:faz 23.86:para 24.02:você. 24.38:E 24.5:o 24.5:depois 24.98:é 25:apontar 25.4:para 25.64:algum 25.94:lugar, 26.38:para 26.87:o 26.93:seu 27.26:WhatsApp, 28.38:para 28.68:criar 28.99:uma 29.19:caixinha 29.72:de 30.06:stories, 30.47:para 30.65:algum 30.87:lugar 31.09:que 31.25:vai 31.38:dar 31.5:continuidade 32.03:para 32.12:aquilo. 32.38:Agora, 32.64:o 32.67:que 32.78:mais 32.93:acontece? 33.38:Se 33.49:a 33.54:pessoa 33.92:posta, 34.25:o 34.3:vídeo 34.63:vai 34.79:estar 35.06:bem, 35.38:mas 35.74:no 36.01:dia 36.37:seguinte 37.38:o 37.43:perfil 37.74:volta 38.01:a 38.12:falar 38.33:de 38.43:coisas 38.76:aleatórias. 39.38:O 39.54:cliente 39.84:chegou 40.16:e 40.21:não 40.44:achou 40.76:continuação 41.45:do 41.57:que 41.74:ele 41.98:sente, 42.38:da 42.62:dor 43.03:que 43.31:ele 43.65:tem. 44.38:Mas 44.52:entenda 44.85:uma 44.99:coisa. 45.38:O 45.45:vídeo 45.9:não 46.18:é 46.32:um 46.46:conteúdo. 47.38:O 47.45:vídeo 48.03:é 48.07:a 48.1:porta 48.47:de 48.68:entrada. 49.38:O 49.43:conteúdo 50.1:é 50.15:o 50.21:que 50.4:você 50.72:faz 50.91:no 51.04:geral, 51.49:no 51.62:contexto. 53.95:Pega 54.44:o 54.96:seu 55.05:melhor 55.97:vídeo 56.96:e 57.06:aí 57.13:você 57.41:vai 57.58:gravar 57.92:um 58.13:Stories 58.5:hoje, 58.94:chamando 59.42:pra 59.59:ele 59.82:quem 60.13:está 60.19:assistindo 60.66:seus 60.97:Stories. 61.49:Você 61.78:vai 61.95:responder 62.47:nos 62.64:comentários 63.33:com 63.5:a 63.55:próxima 64.01:pergunta 64.51:e 64.56:você 64.8:vai 64.96:fazer 65.21:um 65.38:vídeo 65.98:sobre 66.25:aquele 66.77:conteúdo 67.37:que 67.39:você 67.88:falou. 68.43:Sobre 68.71:aquele 69.06:questionamento, 69.99:sabe? 70.43:Então 70.85:salva 71.2:esse 71.48:vídeo 72.1:pra 72.11:você 72.46:não 72.74:perder 73.16:essa 73.44:ideia. 74.06:Tenha 74.45:certeza 75.2:que 75.21:você 75.49:vai 75.67:conseguir 76.19:gerar 76.48:conteúdos 77.14:muito 77.34:melhores 78.04:que 78.13:o 78.35:seu 78.45:cliente 79.02:vai 79.26:se 79.55:agradar 79.99:muito 80.4:mais.

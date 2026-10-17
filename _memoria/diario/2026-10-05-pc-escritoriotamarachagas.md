@@ -1,0 +1,11 @@
+# 2026-10-05 · pc-escritoriotamarachagas
+
+## 19:45 · pc-escritoriotamarachagas
+- Edição de vídeo do Galeguinho no Remotion: projeto novo em `clientes/passaporte-do-galeguinho/edicao/` (4.0.533, pacotes na mesma versão), com a skill `remotion-best-practices` carregada. Vídeo gravado em 30/09 com o apresentador Maycon de Quipapá (@maycondequipapaof, 196 mil seguidores), 54,5 s, já vertical.
+- Transcrição local com o Whisper.cpp do curso, em duas passadas (a 2ª com os termos da ficha como contexto). O nome do lanche saiu da conferência no cardápio online: Burguer Capiana (pão australiano, blend 160 g, cheddar duplo, cebola caramelizada, bacon crocante). Três trechos ficaram sem legenda por falta de confirmação (lista em `edicao/scripts/0930/REVISAR.md`).
+- 3 prévias e 3 versões até a v3 aprovada: abertura com perfil e depois os vídeos com visualizações, selo de localização com a logo, legenda em minúsculas, headlines manuscrito + Anton, cardápio em 3D só com itens com foto e o Capiana saltando, ingredientes em camadas da foto real do ensaio, fechamento com o selo acima da cabeça, rastreio do rosto quadro a quadro (YuNet), color grade e efeitos sonoros sintetizados no projeto. Referências dela: 3 do Cosmos; a do TikTok pedia login e não abriu.
+- O padrão virou a skill `video-galeguinho` na pasta do cliente, registrada no `AGENTS.md` dele.
+- Vídeo publicado às 19h31 como reels em colaboração com @maycondequipapaof (https://www.instagram.com/reel/DeISUUcCbQU/) + 3 stories, pela tarefa "TK - Galeguinho 2026-10-05 video". Hoje é segunda e a casa está fechada: legenda e stories chamam pra terça. Final no Drive em `VIDEO EDITADO/2026-10-05 Maycon de Quipapá no Capiana`.
+- Carrossel contínuo do Capiana (4 slides emendados, condimentos e "a escolha de muitos por aqui") agendado pra 06/10 ao meio-dia com 3 stories; a anatomia "O Passaporte por dentro" passou pra 07/10. Gerador em `conteudo/2026-10/_gerador/carrossel-capiana.py` (pasta de produção).
+- O post de 03/10 (sábado) só saiu às 00h23 de 04/10: o PC estava desligado ao meio-dia. Confirma que os sábados dependem do PC ligado.
+- `publish-graph-api.js`: timeout de upload passou de 60 s pra 10 min (vídeo de 39 MB subiu em 27 s). `publicar-agendado.ps1` do Galeguinho publica vídeo (`<id>.mp4`) e colaborador (`<id>-colaboradores.txt`).

@@ -1,0 +1,186 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:22,020"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 22020
+			},
+			"text": " e aí e aí e aí Ronaldo e finalmente encontrei você eu gostei e aí o o a saga da decoração eu vou"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,020",
+				"to": "00:00:30,840"
+			},
+			"offsets": {
+				"from": 22020,
+				"to": 30840
+			},
+			"text": " fazer você vai agora vim de casa vamos ver contigo sim eu tenho um ano passado eu comprei um rolo de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,840",
+				"to": "00:00:41,600"
+			},
+			"offsets": {
+				"from": 30840,
+				"to": 41600
+			},
+			"text": " tecido de veludo com tom vinho foi vinho é lena foi vinho e comprei umas bolas que é aquela de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,600",
+				"to": "00:00:48,240"
+			},
+			"offsets": {
+				"from": 41600,
+				"to": 48240
+			},
+			"text": " como se fosse aniversário só que nessas comuns ela é uma transparente bem rígida pronto e eu tenho"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,240",
+				"to": "00:00:55,600"
+			},
+			"offsets": {
+				"from": 48240,
+				"to": 55600
+			},
+			"text": " uns tamanhos dela aí o ano passado que era o que a gente queria recortar e cobrir essas bolas e"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,600",
+				"to": "00:01:02,120"
+			},
+			"offsets": {
+				"from": 55600,
+				"to": 62120
+			},
+			"text": " fazer como se fosse as bolas de natal porque botar uma bolinha dessas aqui não tem como fazer o"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,120",
+				"to": "00:01:11,040"
+			},
+			"offsets": {
+				"from": 62120,
+				"to": 71040
+			},
+			"text": " tamanho da árvore então eu tenho desse e tenho da grande só que para forrar aí o que eu pensei"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,040",
+				"to": "00:01:20,280"
+			},
+			"offsets": {
+				"from": 71040,
+				"to": 80280
+			},
+			"text": " da gente voltar com essa proposta porque não colocou isso de ver com vocês para vocês forrarem"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,280",
+				"to": "00:01:28,080"
+			},
+			"offsets": {
+				"from": 80280,
+				"to": 88080
+			},
+			"text": " elas e eu pensei fazer uma espiral sim não sei se ficar legal pode ver a gente vê lá direitinho"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:28,080",
+				"to": "00:01:35,960"
+			},
+			"offsets": {
+				"from": 88080,
+				"to": 95960
+			},
+			"text": " pronto agora a questão das bolas o ideal seria ou bola normal bola bola que a gente compra que"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,960",
+				"to": "00:01:44,720"
+			},
+			"offsets": {
+				"from": 95960,
+				"to": 104720
+			},
+			"text": " tem de isopor ou de isopor é o bolo é o é mas não tem do tamanho é mas o que acontece é isso"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,720",
+				"to": "00:01:50,760"
+			},
+			"offsets": {
+				"from": 104720,
+				"to": 110760
+			},
+			"text": " ele não consegue durar tanto tempo aí entendi porque ela querendo não é uma bola do sopro"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,760",
+				"to": "00:01:56,800"
+			},
+			"offsets": {
+				"from": 110760,
+				"to": 116800
+			},
+			"text": " entendi é vai até janeiro ele não aguenta ela vai começar a dar uma almoça ou ronaldo e se eu"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,800",
+				"to": "00:02:09,680"
+			},
+			"offsets": {
+				"from": 116800,
+				"to": 129680
+			},
+			"text": " forrar aquelas bolas de de piscina pequena ter que elas grandona é delas eu acho que dava certo"
+		}
+	]
+}

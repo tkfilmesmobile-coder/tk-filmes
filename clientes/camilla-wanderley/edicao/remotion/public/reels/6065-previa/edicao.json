@@ -1,0 +1,266 @@
+{
+ "fps": 30,
+ "durationInFrames": 297,
+ "props": {
+  "fonte": "midia/IMG_6065.mp4",
+  "clipes": [
+   {
+    "id": "gancho",
+    "trimBefore": 0,
+    "from": 0,
+    "durationInFrames": 155,
+    "rosto": {
+     "x": 544,
+     "y": 570,
+     "w": 292
+    },
+    "quadros": [
+     {
+      "f": 0,
+      "escala": 1,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 115,
+      "escala": 1,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 116,
+      "escala": 1.14,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 155,
+      "escala": 1.16,
+      "tx": 0,
+      "ty": 0
+     }
+    ]
+   },
+   {
+    "id": "queixa",
+    "trimBefore": 311,
+    "from": 155,
+    "durationInFrames": 142,
+    "rosto": {
+     "x": 488,
+     "y": 708,
+     "w": 289
+    },
+    "quadros": [
+     {
+      "f": 0,
+      "escala": 1.14,
+      "tx": 0,
+      "ty": 0
+     },
+     {
+      "f": 142,
+      "escala": 1.17,
+      "tx": 14,
+      "ty": 0
+     }
+    ]
+   }
+  ],
+  "headlines": [
+   {
+    "from": 116,
+    "durationInFrames": 38,
+    "linhas": [
+     {
+      "t": "FAZER CANAL"
+     },
+     {
+      "t": "DÓI?",
+      "cor": true
+     }
+    ],
+    "pos": "baixo"
+   }
+  ],
+  "cards": [],
+  "cta": null,
+  "legendas": [
+   {
+    "text": " Eu",
+    "startMs": 0,
+    "endMs": 600
+   },
+   {
+    "text": " sei",
+    "startMs": 600,
+    "endMs": 760
+   },
+   {
+    "text": " que",
+    "startMs": 760,
+    "endMs": 840
+   },
+   {
+    "text": " você",
+    "startMs": 840,
+    "endMs": 980
+   },
+   {
+    "text": " morre",
+    "startMs": 980,
+    "endMs": 1420
+   },
+   {
+    "text": " de",
+    "startMs": 1420,
+    "endMs": 1540
+   },
+   {
+    "text": " medo",
+    "startMs": 1540,
+    "endMs": 1780
+   },
+   {
+    "text": " de",
+    "startMs": 1780,
+    "endMs": 1920
+   },
+   {
+    "text": " fazer",
+    "startMs": 1920,
+    "endMs": 2200
+   },
+   {
+    "text": " canal,",
+    "startMs": 2200,
+    "endMs": 2500
+   },
+   {
+    "text": " mas",
+    "startMs": 2640,
+    "endMs": 2800
+   },
+   {
+    "text": " na",
+    "startMs": 2800,
+    "endMs": 2940
+   },
+   {
+    "text": " realidade,",
+    "startMs": 2940,
+    "endMs": 3420
+   },
+   {
+    "text": " será",
+    "startMs": 3600,
+    "endMs": 3840
+   },
+   {
+    "text": " que",
+    "startMs": 3840,
+    "endMs": 4020
+   },
+   {
+    "text": " fazer",
+    "startMs": 4020,
+    "endMs": 4300
+   },
+   {
+    "text": " canal",
+    "startMs": 4300,
+    "endMs": 4620
+   },
+   {
+    "text": " dói?",
+    "startMs": 4620,
+    "endMs": 4960
+   },
+   {
+    "text": " Normalmente,",
+    "startMs": 5317,
+    "endMs": 5717
+   },
+   {
+    "text": " quando",
+    "startMs": 5797,
+    "endMs": 5897
+   },
+   {
+    "text": " você",
+    "startMs": 5897,
+    "endMs": 6157
+   },
+   {
+    "text": " chega",
+    "startMs": 6157,
+    "endMs": 6457
+   },
+   {
+    "text": " aqui",
+    "startMs": 6457,
+    "endMs": 6617
+   },
+   {
+    "text": " no",
+    "startMs": 6617,
+    "endMs": 6717
+   },
+   {
+    "text": " consultório,",
+    "startMs": 6717,
+    "endMs": 7157
+   },
+   {
+    "text": " você",
+    "startMs": 7277,
+    "endMs": 7397
+   },
+   {
+    "text": " já",
+    "startMs": 7397,
+    "endMs": 7557
+   },
+   {
+    "text": " chega",
+    "startMs": 7557,
+    "endMs": 7917
+   },
+   {
+    "text": " com",
+    "startMs": 7917,
+    "endMs": 8117
+   },
+   {
+    "text": " uma",
+    "startMs": 8117,
+    "endMs": 8297
+   },
+   {
+    "text": " queixa",
+    "startMs": 8297,
+    "endMs": 8677
+   },
+   {
+    "text": " de",
+    "startMs": 8677,
+    "endMs": 8837
+   },
+   {
+    "text": " dor",
+    "startMs": 8837,
+    "endMs": 9037
+   },
+   {
+    "text": " muito",
+    "startMs": 9037,
+    "endMs": 9377
+   },
+   {
+    "text": " forte.",
+    "startMs": 9377,
+    "endMs": 9857
+   }
+  ]
+ }
+}

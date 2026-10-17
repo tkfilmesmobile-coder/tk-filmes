@@ -1,0 +1,31 @@
+{
+ "fonte": "Estatuto da Pessoa Idosa (Lei 10.741/2003), art. 3º",
+ "telas": [
+  {
+   "kicker": "ESTATUTO DA PESSOA IDOSA",
+   "titulo": "Prioridade <b>é lei.</b>",
+   "foto": "tamara/tamara-estudio-0046.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Prioridade é lei.",
+   "tam": 84,
+   "texto": "👵 pra quem tem 60 anos ou mais<br><br>⚡ atendimento preferencial imediato e individualizado<br><br>🏢 em órgãos públicos e empresas privadas que atendem o público<br><br>🗳️ e na eleição: preferência pra votar"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Minha mãe tem 62 anos. Ela tem direito a fila preferencial?”",
+   "tam": 64,
+   "texto": "Tem sim! Pelo Estatuto da Pessoa Idosa, quem tem 60+ tem atendimento preferencial imediato. Vale pedir o atendimento prioritário no local."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

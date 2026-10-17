@@ -1,0 +1,22 @@
+{
+ "data": "20 de outubro de 2026",
+ "card": "Essa dúvida chegou nos comentários e eu respondi no feed 🤰 <b>Grávida demitida por justa causa perde o salário-maternidade?</b> 👆",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "grávida demitida e salário-maternidade 🤰",
+  "linhas": [
+   "1. Justa causa <b>não tira o direito</b> ao salário-maternidade",
+   "2. Precisa ter a <b>qualidade de segurada na data do parto</b>",
+   "3. Nesse caso, quem paga é o <b>INSS</b>, não o empregador",
+   "📂 Carteira de trabalho, termo de rescisão e certidão de nascimento"
+  ],
+  "marca": "qualidade de segurada na data do parto"
+ },
+ "conversa": [
+  ["in", "Doutora, eu saí da empresa e o bebê nasceu depois. Ainda dá pra receber? 🤔", "16:03"],
+  ["out", "Se na data do parto você ainda tinha a qualidade de segurada, o benefício é devido 🤰", "16:04"],
+  ["out", "E quem paga é o próprio INSS. Mas cada caso precisa ser analisado direitinho, tá? 😉", "16:04"],
+  ["in", "Ah, que alívio! Vou separar meus documentos 🙏", "16:05"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 15 e 71 · Decreto 3.048/1999, art. 97, p. único"
+}

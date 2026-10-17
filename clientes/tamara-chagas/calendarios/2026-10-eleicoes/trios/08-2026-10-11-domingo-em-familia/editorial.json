@@ -1,0 +1,31 @@
+{
+ "fonte": "Previdência, 18/09/2026 · INSS, 28/07/2026 · Lei 15.327/2026",
+ "telas": [
+  {
+   "kicker": "DOMINGO EM FAMÍLIA",
+   "titulo": "Converse sobre <b>o INSS.</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg",
+   "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"
+  },
+  {
+   "kicker": "O QUE SABER",
+   "titulo": "Pro almoço de domingo.",
+   "tam": 84,
+   "texto": "1. <b>prova de vida</b>: quem votou já teve a sua computada<br><br>2. <b>golpes</b>: o INSS só fala pelos canais oficiais<br><br>3. <b>extrato</b>: conferir juntos no Meu INSS se tem desconto não autorizado"
+  },
+  {
+   "kicker": "DÚVIDA COMUM",
+   "titulo": "“Como eu ajudo minha avó a conferir o benefício dela?”",
+   "tam": 64,
+   "texto": "Dá pra olhar juntas o extrato de pagamento no Meu INSS, pelo site ou pelo aplicativo. Se aparecer desconto que ela não autorizou, vale procurar orientação."
+  },
+  {
+   "kicker": "TAMARA CHAGAS ADVOCACIA",
+   "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg",
+   "foto_css": "left:330px;top:980px;width:1100px"
+  }
+ ]
+}

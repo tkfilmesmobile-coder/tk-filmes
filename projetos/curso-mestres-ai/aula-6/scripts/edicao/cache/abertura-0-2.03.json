@@ -1,0 +1,79 @@
+[
+  {
+    "text": "Ac",
+    "startMs": 90,
+    "endMs": 160,
+    "timestampMs": 280,
+    "confidence": 0.631201
+  },
+  {
+    "text": "ab",
+    "startMs": 160,
+    "endMs": 320,
+    "timestampMs": 500,
+    "confidence": 0.992299
+  },
+  {
+    "text": "ou",
+    "startMs": 320,
+    "endMs": 480,
+    "timestampMs": 620,
+    "confidence": 0.999481
+  },
+  {
+    "text": " a",
+    "startMs": 480,
+    "endMs": 560,
+    "timestampMs": 720,
+    "confidence": 0.994863
+  },
+  {
+    "text": " prova",
+    "startMs": 560,
+    "endMs": 970,
+    "timestampMs": 900,
+    "confidence": 0.947312
+  },
+  {
+    "text": " de",
+    "startMs": 970,
+    "endMs": 1130,
+    "timestampMs": 1140,
+    "confidence": 0.979154
+  },
+  {
+    "text": " vida",
+    "startMs": 1130,
+    "endMs": 1460,
+    "timestampMs": 1240,
+    "confidence": 0.93208
+  },
+  {
+    "text": " no",
+    "startMs": 1460,
+    "endMs": 1750,
+    "timestampMs": 1420,
+    "confidence": 0.576831
+  },
+  {
+    "text": " IN",
+    "startMs": 1750,
+    "endMs": 1780,
+    "timestampMs": 1720,
+    "confidence": 0.910307
+  },
+  {
+    "text": "SS",
+    "startMs": 1780,
+    "endMs": 2000,
+    "timestampMs": 1980,
+    "confidence": 0.851741
+  },
+  {
+    "text": ".",
+    "startMs": 2000,
+    "endMs": 2000,
+    "timestampMs": 1980,
+    "confidence": 0.79428
+  }
+]

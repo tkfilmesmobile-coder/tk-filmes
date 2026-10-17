@@ -1,0 +1,14 @@
+{
+ "foto": "tamara/tamara-estudio-0044.jpg",
+ "foto_css": "left:330px;top:-60px;width:1150px",
+ "story_foto_css": "left:200px;top:-40px;width:1480px",
+ "etiquetas": ["BPC · RENDA FAMILIAR · NOVOS VALORES"],
+ "fino": "BPC: novos valores",
+ "forte": "pra deduzir da renda da família.",
+ "destaque": "Gastos que podem ser descontados",
+ "lista_titulo": "GASTO · VALOR POR MÊS",
+ "lista": [["Medicamentos", "R$ 56"], ["Consultas e tratamentos", "R$ 110"], ["Fraldas", "R$ 120"], ["Alimentação especial", "R$ 147"], ["Centro-dia (SUAS)", "R$ 40"]],
+ "nota": "Vale para gastos com o idoso ou a pessoa com deficiência que o SUS ou o SUAS não oferecem de graça (Lei 8.742/1993, art. 20-B).",
+ "sem_leia": true,
+ "fonte": "Portaria Conjunta MDS/INSS nº 45, de 29/09/2026"
+}

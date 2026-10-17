@@ -1,0 +1,10 @@
+PACOTE — VOTO FACULTATIVO 70+
+
+Pastas:
+- assets_principais: elementos 3D para calendário, 70+, ausência de penalidade e urna.
+- bonequinha_tamara: poses da mascote inspiradas nas fotos fornecidas nesta conversa.
+- COMANDO_EDICAO.txt: direção técnica da edição.
+
+Observação factual:
+O 1º turno das Eleições 2026 será em 4 de outubro de 2026.
+O voto é facultativo para pessoas maiores de 70 anos.

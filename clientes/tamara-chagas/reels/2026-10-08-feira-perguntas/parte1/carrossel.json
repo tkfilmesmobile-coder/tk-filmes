@@ -1,0 +1,58 @@
+{
+ "parte": 1,
+ "tema": "TRABALHADOR RURAL",
+ "fonte": "Lei 8.213/1991, arts. 11, VII; 39; 48; 106 · Lei 8.212/1991, art. 25",
+ "slides": [
+  {
+   "layout": "capa",
+   "foto": "../fotos/f16.8.jpg",
+   "pos": "50% 30%",
+   "kicker": "O POVO DA FEIRA SABE DE INSS?",
+   "titulo": "Quem é da roça <b>precisa contribuir com o INSS?</b>",
+   "fala": "A gente já contribui lá no trabalho."
+  },
+  {
+   "layout": "foto",
+   "foto": "../fotos/f35.5.jpg",
+   "pos": "50% 35%",
+   "kicker": "QUEM É",
+   "titulo": "O <b>segurado especial.</b>",
+   "texto": "Quem trabalha na roça <b>com a família</b>, sem empregado fixo: o agricultor, a esposa, os filhos que ajudam e o pescador artesanal."
+  },
+  {
+   "layout": "foto",
+   "foto": "../fotos/f128.0.jpg",
+   "pos": "50% 70%",
+   "kicker": "A RESPOSTA",
+   "titulo": "Não precisa contribuir <b>todo mês.</b>",
+   "texto": "A contribuição já vem descontada <b>na venda da produção</b>.",
+   "faixa": "O que vale é provar o trabalho no campo"
+  },
+  {
+   "layout": "lista",
+   "kicker": "COMO PROVAR",
+   "titulo": "Guarde <b>estes papéis.</b>",
+   "lista": [
+    "Nota de <b>venda da produção</b>",
+    "<b>Bloco</b> do produtor rural",
+    "Contrato de <b>arrendamento</b> ou parceria",
+    "<b>Documento</b> da terra"
+   ],
+   "foto": "../fotos/f8.3.jpg",
+   "pos": "50% 35%"
+  },
+  {
+   "layout": "numero",
+   "kicker": "APOSENTADORIA RURAL",
+   "titulo": "A idade <b>mínima.</b>",
+   "grande": "55|anos · mulher",
+   "texto": "<b>60 anos</b> pro homem. Nos dois casos, com <b>15 anos</b> de trabalho na roça comprovados."
+  },
+  {
+   "layout": "fim",
+   "foto": "tamara/tamara-estudio-0103.jpg",
+   "titulo": "Ficou com <b>dúvida?</b>",
+   "texto": "Procure orientação antes de pedir o benefício.<br><br>Vem aí a <b>Parte 2</b>: quem é da roça tem direito a auxílio-doença?"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "data": "16 de outubro de 2026",
+ "card": "Saiu a <b>Parte 2</b> da série na feira! Quem é da roça tem direito a auxílio-doença? 🩺 Corre no feed 👆",
+ "notas": {
+  "hora": "16:01",
+  "titulo": "roça e auxílio-doença 🩺",
+  "linhas": [
+   "1. Quem é da roça é <b>segurado especial</b>, não precisa contribuir todo mês",
+   "2. Precisa provar o trabalho na roça nos <b>12 meses antes</b> de adoecer",
+   "3. E passar pela <b>perícia do INSS</b>",
+   "📂 Leve laudo, exame e atestado médico"
+  ],
+  "marca": "12 meses antes"
+ },
+ "conversa": [
+  ["in", "Doutora, meu irmão trabalha na roça e machucou a coluna. Ele pode pedir auxílio-doença? 😟", "16:02"],
+  ["out", "Pode sim! Quem é da roça é segurado especial, mesmo sem contribuir todo mês com o INSS 🌾", "16:03"],
+  ["out", "Ele precisa comprovar o trabalho no campo e levar os laudos pra perícia, tá? 🩺", "16:03"],
+  ["in", "Vou juntar os papéis dele, obrigada! 🙏", "16:04"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 25, I; 39, I e 59"
+}
