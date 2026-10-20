@@ -1,0 +1,22 @@
+{
+ "data": "29 de outubro de 2026",
+ "card": "Essa dúvida chega toda semana aqui 🩺 <b>Fez cirurgia estética e não consegue trabalhar: tem direito a benefício do INSS?</b> 👆",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "cirurgia estética e INSS 🩺",
+  "linhas": [
+   "1. O que importa é se a cirurgia <b>impede de trabalhar</b>",
+   "2. Precisa ter a <b>qualidade de segurado</b>",
+   "3. E a <b>carência mínima</b>: em regra, 12 contribuições",
+   "📋 A incapacidade precisa ser comprovada na perícia"
+  ],
+  "marca": "impede de trabalhar"
+ },
+ "conversa": [
+  ["in", "Doutora, fiz uma lipo e o médico me deu 60 dias de repouso. Posso pedir o benefício? 🤔", "16:03"],
+  ["out", "Pode ter direito, sim! Mesmo sendo estética, o que conta é se você não consegue trabalhar 🩺", "16:04"],
+  ["out", "Precisa estar contribuindo com o INSS e ter a carência mínima. Cada caso precisa ser analisado direitinho, tá? 😉", "16:04"],
+  ["in", "Nem sabia disso! Vou juntar meus laudos 🙏", "16:05"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 25, I; 59 e 60"
+}

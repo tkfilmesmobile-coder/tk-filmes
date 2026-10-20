@@ -17,7 +17,10 @@ antes de escrever qualquer post ou legenda.
 
 Vídeos (regra da Talyta, 15/10/2026):
 - **Programação automática:** todo vídeo que ela mandar e for aprovado já entra na programação de
-  postagens, no próximo dia útil livre às 16h, com stories (3 no pessoal, 4 no escritório).
+  postagens, às 16h, com stories (3 no pessoal, 4 no escritório).
   Não perguntar a data: agendar e avisar, registrando em `_contexto/automacoes.md`.
+- **5 Reels por semana, mesclando formatos** (regra de 20/10/2026): um por dia útil, de segunda a
+  sexta, sem repetir o mesmo formato em dias seguidos (Tamara pra câmera · equipe/humor · quadro da
+  feira · vlog). Semana cheia, o próximo vídeo passa pra semana seguinte. Vale também pro quadro da feira.
 - **Tamara falando pra câmera:** publicar sempre no perfil pessoal `@dra.tamarachagas_`
   (conta `DRA_TAMARACHAGAS_`) em colaboração com o `@tamarachagas_prev`.

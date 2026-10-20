@@ -73,6 +73,9 @@ movimento dele com média de ±7 frames (segue, não treme). A legenda corrente 
 desvia do rosto: o cardápio fica sempre à esquerda dele; os ingredientes, sempre abaixo do queixo.
 
 ### Abertura (primeiros ~3,4 s), fiel à referência aprovada
+**Só quando o apresentador é um influenciador convidado** (regra da Talyta, 2026-10-17). Quando quem fala é
+gente da casa (atendente, dono), não tem card de números: entra o selo da casa (logo, nome, cidade) na hora
+em que ela diz o nome do Passaporte, e o cardápio em 3D quando fala do lanche.
 1. **Card de perfil primeiro:** foto com aro dourado, nome com selo de verificado, @ em dourado e os
    três números (posts, seguidores, seguindo) em Anton.
 2. **Embaixo dele, os três vídeos** com o olho e a contagem de visualizações, entrando um por vez,

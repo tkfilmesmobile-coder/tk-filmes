@@ -15,6 +15,7 @@ import type { ZonaDeLegenda } from "./Legendas";
 import { MARCA } from "./marca";
 import { ancoraDoBloco, useRastreio } from "./Rastreio";
 import { SomDaCasa } from "./Sons";
+import { DURACAO_6498, Edicao6498, FPS_6498 } from "./Edicao6498";
 
 const FPS = 30;
 
@@ -152,6 +153,33 @@ export const MyComposition = () => {
           video: "midia/0930.mp4",
           legendas: "legendas/0930.json",
           rastreio: "rastreio/0930.json",
+        }}
+      />
+      {/* Vídeo IMG_6498 (atendente monta o Passaporte de Frango), 24 fps */}
+      <Composition
+        id="Edicao6498"
+        component={Edicao6498}
+        durationInFrames={DURACAO_6498}
+        fps={FPS_6498}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          video: "midia/6498.mov",
+          legendas: "legendas/6498.json",
+          rastreio: "rastreio/6498.json",
+        }}
+      />
+      <Composition
+        id="Previa6498"
+        component={Edicao6498}
+        durationInFrames={9 * FPS_6498}
+        fps={FPS_6498}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          video: "midia/6498.mov",
+          legendas: "legendas/6498.json",
+          rastreio: "rastreio/6498.json",
         }}
       />
       {/* Prévia de 9 s (abertura), pra conferir ajuste rápido sem renderizar tudo */}

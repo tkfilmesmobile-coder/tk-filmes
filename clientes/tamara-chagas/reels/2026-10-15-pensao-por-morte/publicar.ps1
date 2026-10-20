@@ -1,5 +1,5 @@
 ﻿# Publica o vídeo da Dra. Tamara "Pensão por morte pro filho maior de idade com autismo" no perfil pessoal @dra.tamarachagas_ com colaboração do @tamarachagas_prev (regra de 15/10: Tamara falando pra câmera vai no pessoal)
-# + 3 stories no pessoal e 4 no escritório. Uma vez só, pedido da Talyta em 15/10/2026 (quarta 21/10, 16h).
+# + 3 stories no pessoal e 4 no escritório. Uma vez só, pedido da Talyta em 15/10/2026 (remarcado em 20/10 pra segunda 26/10, 16h).
 Set-Location "C:\Users\tamar\TK FILMES"
 $p = "clientes/tamara-chagas/reels/2026-10-15-pensao-por-morte"
 $js = ".claude/skills/publicar-social-ratos/scripts/publish-graph-api.js"

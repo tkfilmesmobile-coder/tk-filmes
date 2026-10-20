@@ -68,8 +68,10 @@ Na quinta seguinte o ciclo recomeça com o próximo episódio.
 |---|---|---|---|
 | 1 | 08/10 ✅ | 09/10 | qua 14/10 (seg 12 e ter 13 são feriados) · carrossel qui 15/10 11h |
 | 2 | seg 19/10 16h (qui 15 = vídeo da Tamara da Parte 1; sex 16 = vídeo avulso "Afastado pelo INSS") | a definir | a definir |
-| 3 | 22/10 | 23/10 | 26/10 |
+| 3 | ter 27/10 16h (rodízio de 5 Reels por semana) | a definir | a definir |
 | 4 | 29/10 | 30/10 | 02/11 |
+
+**Regra de 20/10/2026:** o episódio entra no rodízio de 5 Reels por semana, mesclando formatos (ver `AGENTS.md` do cliente); semana cheia, passa pra seguinte.
 
 **Carrossel:** sai na quinta seguinte, às 11h, antes do novo episódio das 16h. **Feriado:** não se posta vídeo do quadro. Passa pro próximo dia útil.
 

@@ -1,0 +1,22 @@
+{
+ "data": "28 de outubro de 2026",
+ "card": "A Rita perguntou e o Sales respondeu 🌾 <b>Quem é da roça e nunca contribuiu com o INSS tem direito?</b> 👆",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "trabalhador rural e INSS 🌾",
+  "linhas": [
+   "1. Trabalhador rural em economia familiar é <b>segurado especial</b>",
+   "2. Pode ter direito <b>sem contribuir mês a mês</b>",
+   "3. O que vale é a <b>prova do trabalho no campo</b>",
+   "📂 Documentos da terra, sindicato, cadastros e notas da produção"
+  ],
+  "marca": "segurado especial"
+ },
+ "conversa": [
+  ["in", "Doutora, minha mãe trabalhou a vida toda na roça e nunca contribuiu. Ela tem direito? 🤔", "16:03"],
+  ["out", "Pode ter, sim! Quem trabalha na roça em economia familiar é segurado especial 🌾", "16:04"],
+  ["out", "O importante é reunir as provas do trabalho no campo. Cada caso precisa ser analisado direitinho, tá? 😉", "16:04"],
+  ["in", "Vou separar os documentos dela 🙏", "16:05"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 11, VII; 39 e 106"
+}

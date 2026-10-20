@@ -21,6 +21,7 @@
 | Dra. Camilla Wanderley | 5 posts fixos/mês + diárias de captação durante atendimentos | mensal | — | R$ 600 | 2026 |
 | Tamara Chagas Advocacia | marketing completo, presencial seg a sex 8h às 17h (5 reels, 50 stories e 5 vídeos de localização por semana) | mensal, desde 01/10/2025, sem contrato escrito | — | R$ 2.000 | 2026-09-28 |
 | Dra. Melissa Morais | só edição de 4 vídeos, avulso, sem contrato escrito (acordo em PDF) | pacote único, pago em 15/10/2026 | R$ 200 | — | 2026-10-15 |
+| Dra. Annalibya (odontologia) | Plano Essencial: 4 a 6 conteúdos/mês (vídeo ou post, 1 = 1), roteiro, 1 diária de gravação/mês, edição, entrega no Drive; sem publicação; diária extra a R$ 100 | 30 dias de experiência + 90, de 19/10/2026 | R$ 1.600 | R$ 400 | 2026-10-19 |
 | modelo "2 a 4 vídeos/semana" (com indique-e-ganhe e parceria de produto) | gravação, edição, roteiro, capas, legendas, métricas, persona, planejamento | 120 dias | R$ 2.200 | R$ 550 | modelo de contrato |
 
 ## Leitura destes números

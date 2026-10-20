@@ -1,0 +1,22 @@
+{
+ "data": "27 de outubro de 2026",
+ "card": "Saiu a <b>Parte 3</b> da série na feira! Mulher da roça tem salário-maternidade? 🤰 Corre no feed 👆",
+ "notas": {
+  "hora": "16:01",
+  "titulo": "roça e salário-maternidade 🤰",
+  "linhas": [
+   "1. Mulher da roça é <b>segurada especial</b>, não precisa contribuir todo mês",
+   "2. Precisa provar o trabalho no campo nos <b>10 meses antes</b> do parto",
+   "3. Recebe <b>1 salário mínimo</b> por mês, durante 120 dias",
+   "📂 Guarde a certidão de nascimento e os papéis da roça"
+  ],
+  "marca": "10 meses antes"
+ },
+ "conversa": [
+  ["in", "Doutora, minha filha trabalha na roça e acabou de ter neném. Ela tem direito? 🤰", "16:02"],
+  ["out", "Tem sim! Quem é da roça é segurada especial, mesmo sem contribuir todo mês com o INSS 🌾", "16:03"],
+  ["out", "Ela precisa comprovar o trabalho no campo nos 10 meses antes do parto, tá? Cada caso é único 😉", "16:03"],
+  ["in", "Vou ajudar ela a juntar os papéis! 🙏", "16:04"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 39, parágrafo único; 71 e 71-A"
+}

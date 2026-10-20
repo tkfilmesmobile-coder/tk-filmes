@@ -34,7 +34,7 @@ No fim, dizer à Talyta, cliente por cliente, o que mudou e o que ficou `[a defi
   ele. A skill `/identidade` e a marca existente do cliente entram como base, nunca são refeitas
   do zero. Aplicada em (status em 2026-10-13): TK Filmes (Brand Book 2.0 em `_contexto/marca/brand-book-2.0.pdf`, feito das 15
   respostas dela; a v1 que montei do histórico está em `_contexto/marca/arquivo/`); Pote Fitness (tem `brand-book-v1.pdf`); Tamara,
-  Galeguinho, Ary e Camilla: **pendente**; Dra. Melissa Morais (só edição de vídeo, cadastrada em 2026-10-16): **a definir** se se aplica.
+  Galeguinho, Ary e Camilla: **pendente**; Dra. Melissa Morais (só edição de vídeo, cadastrada em 2026-10-16): **a definir** se se aplica. Dra. Annalibya (cadastrada em 2026-10-20, sem marca nem perfil): **pendente**, nasce do zero.
 - **Zonas seguras do reels (2026-10-12).** Em 1080x1920: área útil x 60–920 e y 250–1500; foco na
   linha dos olhos (y 300–900); legenda logo abaixo, perto do rosto (y 900–1080); ilustrações na
   faixa de baixo (y 1080–1500), sem dominar. Referência: vídeo de @rejanetoigo, "Não cometa esse

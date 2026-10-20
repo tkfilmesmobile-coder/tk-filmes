@@ -19,10 +19,7 @@ type Corte = { src: string; a: number; b: number; vol?: number; zoom?: number; t
 const EDL: Corte[] = [
   { src: "v6084", a: 441.2, b: 446.7, zoom: 1.12, tag: "gancho" },             // "Meu Deus, Ronaldo, que complicação."
   { src: "v6084", a: 2.0, b: 4.4, vol: 0.25, tag: "vinheta" },                 // entrada da loja (vinheta por cima)
-  { src: "v6083", a: 9.85, b: 19.35, tag: "carro" },                           // "Final de ano chegando... sempre é um evento"
-  { src: "v6083", a: 22.75, b: 34.45 },                                        // "quem me acompanha... quase cinco metros... recepção"
-  { src: "v6083", a: 38.55, b: 41.9 },                                         // "só que esse ano nós queremos"
-  { src: "v6083", a: 44.9, b: 54.3, zoom: 1.08 },                              // "algo mais grandioso... saga da decoração do Natal de 2026"
+  { src: "v6083", a: 9.85, b: 54.3, tag: "carro" },                            // um corte só: "Final de ano chegando, isso quer dizer o quê?..." até "...Natal de 2026"
   { src: "v6084", a: 6.75, b: 13.0, tag: "loja" },                             // "Ronaldo! ... Finalmente encontrei você."
   { src: "v6084", a: 28.55, b: 34.1, tag: "veludo" },                          // "comprei um rolo de tecido de veludo... com tom vinho"
   { src: "v6084", a: 37.4, b: 45.7 },                                          // "e comprei umas bolas... transparente, bem rígida"
@@ -128,7 +125,7 @@ export const Vlog: React.FC = () => {
       {Q(total, FIM_CARD, <Fim />)}
       {Q(ini("vinheta"), fr(2.4), <Vinheta />)}
       {Q(ini("carro") + 6, fr(3.2), <Capitulo n="01" txt="partiu decoração 🚗" dur={3.2} />)}
-      {Q(ini("carro") + fr(15.6), fr(5.5), <Destaque kicker="A ÁRVORE DA RECEPÇÃO" fino="quase" forte="5 METROS." dur={5.5} />)}
+      {Q(ini("carro") + fr(20.0), fr(5.5), <Destaque kicker="A ÁRVORE DA RECEPÇÃO" fino="quase" forte="5 METROS." dur={5.5} />)}
       {Q(ini("loja") + 4, fr(3.2), <Capitulo n="02" txt="na loja com o Ronaldo" dur={3.2} />)}
       {Q(ini("veludo") + 6, fr(4.5), <Capitulo n="03" txt="a ideia: veludo vinho" dur={4.5} />)}
       {Q(ini("arco") + 6, fr(4.5), <Capitulo n="04" txt="o arco da fachada" dur={4.5} />)}
@@ -138,7 +135,7 @@ export const Vlog: React.FC = () => {
       {/* SFX graves (regra de 14/10) */}
       {S(ini("vinheta") - 4, "whoosh-grave-impacto", 0.75)}{S(ini("vinheta") + 4, "thump2", 0.7)}
       {S(ini("carro") + 4, "whoosh-grave", 0.55)}
-      {S(ini("carro") + fr(15.6) - 6, "whoosh-grave", 0.6)}{S(ini("carro") + fr(15.6) + 6, "thump", 0.65)}
+      {S(ini("carro") + fr(20.0) - 6, "whoosh-grave", 0.6)}{S(ini("carro") + fr(20.0) + 6, "thump", 0.65)}
       {S(ini("loja"), "whoosh-grave-impacto", 0.65)}
       {S(ini("veludo") + 4, "whoosh-grave", 0.55)}
       {S(ini("arco") + 4, "whoosh-grave", 0.55)}

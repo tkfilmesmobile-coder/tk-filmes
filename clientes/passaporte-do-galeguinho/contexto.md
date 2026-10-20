@@ -49,6 +49,9 @@ dele em União dos Palmares, enquanto a lanchonete fica em São José da Laje. C
   a cada 90 dias**, salvo aviso prévio de 30 dias por escrito.
   ✅ Confirmado em 2026-09-17: **não houve encerramento**, então o contrato renovou em 23/05/2026 e em
   21/08/2026, e **segue vigente** até cerca de 19/11/2026. Pra encerrar, aviso por escrito com 30 dias.
+  🔁 2026-10-20: a Talyta decidiu **renovar** com o mesmo valor e escopo. Contrato de renovação de 19/11/2026 a
+  17/02/2027 (90 dias, R$ 2.400 = 3 × R$ 800) gerado no papel timbrado: `contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`
+  (cópia no Drive em `DOCUMENTAÇÃO/`). Falta assinar. Próximo aviso, se for encerrar: até ~18/01/2027.
 - **Custos operacionais:** deslocamento, passagem, alimentação e hospedagem são por conta do cliente,
   acordados caso a caso (cláusula 12).
 - **Direito de imagem:** o cliente cedeu imagem, voz e nome à TK, de forma gratuita e por prazo

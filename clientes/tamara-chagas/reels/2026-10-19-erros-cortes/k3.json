@@ -1,0 +1,230 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,380"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 380
+			},
+			"text": " Oxe,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,380",
+				"to": "00:00:00,620"
+			},
+			"offsets": {
+				"from": 380,
+				"to": 620
+			},
+			"text": " mas"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,620",
+				"to": "00:00:00,860"
+			},
+			"offsets": {
+				"from": 620,
+				"to": 860
+			},
+			"text": " ele"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,860",
+				"to": "00:00:01,060"
+			},
+			"offsets": {
+				"from": 860,
+				"to": 1060
+			},
+			"text": " se"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,060",
+				"to": "00:00:01,760"
+			},
+			"offsets": {
+				"from": 1060,
+				"to": 1760
+			},
+			"text": " aposentou"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,760",
+				"to": "00:00:01,810"
+			},
+			"offsets": {
+				"from": 1760,
+				"to": 1810
+			},
+			"text": " e"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,810",
+				"to": "00:00:02,110"
+			},
+			"offsets": {
+				"from": 1810,
+				"to": 2110
+			},
+			"text": " minha"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,110",
+				"to": "00:00:02,360"
+			},
+			"offsets": {
+				"from": 2110,
+				"to": 2360
+			},
+			"text": " cumada"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,360",
+				"to": "00:00:02,650"
+			},
+			"offsets": {
+				"from": 2360,
+				"to": 2650
+			},
+			"text": " disse"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,650",
+				"to": "00:00:02,790"
+			},
+			"offsets": {
+				"from": 2650,
+				"to": 2790
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,790",
+				"to": "00:00:02,990"
+			},
+			"offsets": {
+				"from": 2790,
+				"to": 2990
+			},
+			"text": " quem"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,990",
+				"to": "00:00:03,000"
+			},
+			"offsets": {
+				"from": 2990,
+				"to": 3000
+			},
+			"text": " se"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,000",
+				"to": "00:00:03,400"
+			},
+			"offsets": {
+				"from": 3000,
+				"to": 3400
+			},
+			"text": " aposenta"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,400",
+				"to": "00:00:03,650"
+			},
+			"offsets": {
+				"from": 3400,
+				"to": 3650
+			},
+			"text": " não"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,650",
+				"to": "00:00:03,870"
+			},
+			"offsets": {
+				"from": 3650,
+				"to": 3870
+			},
+			"text": " pode"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,870",
+				"to": "00:00:04,350"
+			},
+			"offsets": {
+				"from": 3870,
+				"to": 4350
+			},
+			"text": " trabalhar"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,350",
+				"to": "00:00:04,440"
+			},
+			"offsets": {
+				"from": 4350,
+				"to": 4440
+			},
+			"text": " não."
+		}
+	]
+}

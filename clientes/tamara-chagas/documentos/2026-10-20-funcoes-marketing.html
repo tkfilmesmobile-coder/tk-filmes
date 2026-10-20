@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Mesma fonte e cores do papel timbrado da TK (Open Sans, bege #C4AE98 e marrom do logo), filetes finos, muito respiro.
+     As margens deixam livres o cabeçalho e o rodapé do papel timbrado, aplicado por baixo depois. */
+  @page { size: A4; margin: 47mm 20mm 24mm 20mm; }
+  :root { --marrom: #5A3A2E; --texto: #6E5446; --caramelo: #B39377; --bege: #C4AE98; --creme: #F5EFEA; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Open Sans', sans-serif; color: var(--texto); font-size: 9.6pt; line-height: 1.5; }
+
+  .topo { display: flex; align-items: center; gap: 10pt; }
+  .topo .fio { width: 26pt; height: .8pt; background: var(--caramelo); }
+  .kicker { font-size: 7.2pt; letter-spacing: .32em; font-weight: 700; color: var(--caramelo); text-transform: uppercase; }
+  h1 { font-weight: 800; font-size: 22pt; line-height: 1.12; color: var(--marrom); margin: 8pt 0 6pt; letter-spacing: -.01em; }
+  h1 em { font-style: normal; color: var(--bege); }
+  .sub { font-size: 10pt; font-weight: 300; color: var(--texto); max-width: 420pt; }
+
+  .ficha { display: grid; grid-template-columns: repeat(4, 1fr); margin: 16pt 0 0; border-top: .6pt solid var(--bege); border-bottom: .6pt solid var(--bege); }
+  .ficha div { padding: 8pt 10pt 8pt 0; }
+  .ficha div + div { padding-left: 10pt; border-left: .6pt solid rgba(196,174,152,.6); }
+  .ficha small { display: block; font-size: 6.6pt; letter-spacing: .24em; font-weight: 700; color: var(--bege); text-transform: uppercase; margin-bottom: 2pt; }
+  .ficha span { font-size: 8.6pt; color: var(--marrom); line-height: 1.35; display: block; }
+
+  .numeros { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin: 14pt 0 18pt; background: var(--creme); border-radius: 4pt; }
+  .numeros div { padding: 9pt 6pt 8pt; text-align: center; }
+  .numeros b { display: block; font-weight: 800; font-size: 19pt; line-height: 1; color: var(--caramelo); }
+  .numeros span { display: block; margin-top: 3pt; font-size: 7pt; letter-spacing: .08em; text-transform: uppercase; color: var(--marrom); line-height: 1.3; }
+
+  .areas { display: grid; grid-template-columns: 1fr 1fr; column-gap: 22pt; }
+  .pagina2 { break-before: page; }
+  .pagina2 .area li { margin: 1.6pt 0; }
+  .pagina2 .area { margin-bottom: 9pt; }
+  .area { break-inside: avoid; margin: 0 0 10pt; }
+  .area header { display: flex; align-items: baseline; gap: 8pt; border-bottom: .6pt solid var(--bege); padding-bottom: 3pt; margin-bottom: 5pt; }
+  .area .n { font-weight: 800; font-size: 13pt; line-height: 1; color: var(--bege); }
+  .area h2 { margin: 0; font-size: 8pt; letter-spacing: .14em; font-weight: 800; color: var(--marrom); text-transform: uppercase; }
+  .area ul { list-style: none; margin: 0; padding: 0; }
+  .area li { position: relative; padding-left: 11pt; margin: 2.2pt 0; font-size: 8.6pt; line-height: 1.45; }
+  .area li::before { content: ""; position: absolute; left: 0; top: 6.2pt; width: 5pt; height: .9pt; background: var(--caramelo); }
+
+  .fecho { break-inside: avoid; margin-top: 4pt; display: flex; justify-content: space-between; align-items: flex-end; border-top: .6pt solid var(--bege); padding-top: 10pt; }
+  .fecho p { margin: 0; max-width: 250pt; font-weight: 300; font-size: 10pt; line-height: 1.45; color: var(--marrom); }
+  .assina { text-align: center; }
+  .assina .nome { height: 26pt; }
+  .assina .linha { width: 220pt; white-space: nowrap; border-top: .6pt solid var(--texto); margin-top: 2pt; padding-top: 4pt; font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--texto); }
+</style></head>
+<body>
+  <div class="topo"><div class="fio"></div><div class="kicker">Relação de funções · Outubro de 2026</div></div>
+  <h1>O marketing do escritório<br><em>Tamara Chagas Advocacia</em></h1>
+  <div class="sub">Todas as funções desempenhadas por Talyta Kumy no dia a dia do escritório, das grandes às mínimas.</div>
+
+  <div class="ficha">
+    <div><small>Profissional</small><span>Talyta Kumy<br>TK Filmes</span></div>
+    <div><small>Cliente</small><span>Tamara Chagas Advocacia<br>União dos Palmares/AL</span></div>
+    <div><small>Regime</small><span>Aberto</span></div>
+    <div><small>Perfis</small><span>@tamarachagas_prev<br>@dra.tamarachagas_</span></div>
+  </div>
+
+  <div class="numeros">
+    <div><b>5</b><span>Reels<br>por semana</span></div>
+    <div><b>50</b><span>Stories<br>por semana</span></div>
+    <div><b>5</b><span>Vídeos de<br>localização</span></div>
+    <div><b>70</b><span>Tarefas no<br>checklist semanal</span></div>
+    <div><b>1</b><span>Relatório de<br>produtividade por dia</span></div>
+  </div>
+
+  <div class="areas">
+    <div>
+    <section class="area"><header><span class="n">01</span><h2>Planejamento e estratégia</h2></header><ul>
+      <li>Estratégia de conteúdo do trimestre: objetivos, pilares e públicos</li>
+      <li>Calendário editorial mensal e por tema (ex.: "Eleições × Previdência", com 18 posts)</li>
+      <li>Pauta do dia seguinte, todo fim de tarde</li>
+      <li>Banco de pautas e ideias (4 conteúdos por dia)</li>
+      <li>Criação e gestão de séries fixas ("O povo da feira sabe de INSS?", "A vizinha disse", Vlog de Natal)</li>
+      <li>Cadência e programação de postagens nos dois perfis</li>
+      <li>Definição do perfil de cada publicação e das colaborações</li>
+      <li>Ajuste da programação em feriados e datas especiais</li>
+    </ul></section>
+    </div>
+    <div>
+    <section class="area"><header><span class="n">02</span><h2>Pesquisa e conteúdo informativo</h2></header><ul>
+      <li>Pesquisa diária em fontes oficiais (INSS, Previdência, Planalto, DOU, STF, STJ, TNU, TRF5): 3 novidades e 1 decisão por dia</li>
+      <li>Conferência da lei, do artigo e da fonte de cada post</li>
+      <li>Levantamento de notícias e temas em alta</li>
+      <li>Pesquisa do nome oficial de feriados e datas</li>
+      <li>Adequação às regras de publicidade da OAB (Provimento 205/2021)</li>
+      <li>Envio das pautas para aprovação jurídica da Dra. Tamara</li>
+    </ul></section>
+    <section class="area"><header><span class="n">03</span><h2>Roteiro e direção</h2></header><ul>
+      <li>Roteiros curtos de Reels (3 por dia)</li>
+      <li>Roteiros para a Dra. Tamara e a equipe (Rita, Sales e Jeferson)</li>
+      <li>Roteiros de humor e de entrevista de rua</li>
+      <li>Direção da equipe nas gravações: fala, tom, marcação e takes</li>
+      <li>Direção da Dra. Tamara nos vídeos para a câmera</li>
+      <li>Preparação dos funcionários para gravar</li>
+    </ul></section>
+    </div>
+  </div>
+  <div class="areas pagina2">
+    <div>
+    <section class="area"><header><span class="n">04</span><h2>Filmagem e fotografia</h2></header><ul>
+      <li>Gravação de vídeo com funcionário, todos os dias</li>
+      <li>8 fotos ou vídeos de bastidores por dia</li>
+      <li>Vídeos de localização (5 por semana, variando o percurso)</li>
+      <li>Conteúdo da estrutura e dos serviços do escritório</li>
+      <li>Entrevistas de rua (feira)</li>
+      <li>Cobertura de eventos internos (ex.: palestra do Outubro Rosa)</li>
+      <li>Vlogs (ex.: preparação da decoração de Natal)</li>
+      <li>Pedido de autorização de imagem de quem aparece</li>
+    </ul></section>
+    <section class="area"><header><span class="n">05</span><h2>Edição de vídeo</h2></header><ul>
+      <li>Edição de 2 Reels por dia</li>
+      <li>Cortes: melhores tentativas, sem erros, pausas e trechos fora da gravação</li>
+      <li>Motion e animações: títulos, cards, selos, ilustrações e rastreio</li>
+      <li>Zoom in e zoom out, ritmo e transições</li>
+      <li>Legendas, efeitos sonoros e trilha</li>
+      <li>Vinhetas, aberturas e cartões finais com a fonte</li>
+      <li>Prévias para aprovação e versões finais (alta e leve)</li>
+    </ul></section>
+    <section class="area"><header><span class="n">06</span><h2>Design e artes</h2></header><ul>
+      <li>Posts de feed e carrosséis</li>
+      <li>Stories editoriais e orgânicos</li>
+      <li>Datas comemorativas e avisos de feriado</li>
+      <li>Capas de vídeo</li>
+      <li>Identidade visual e estética do escritório</li>
+      <li>Seleção e tratamento de fotos</li>
+    </ul></section>
+    <section class="area"><header><span class="n">07</span><h2>Texto</h2></header><ul>
+      <li>Legendas com fonte oficial e linguagem simples</li>
+      <li>Textos dos stories e das artes</li>
+      <li>Mensagens para o grupo de WhatsApp do escritório</li>
+      <li>Chamadas, perguntas e enquetes</li>
+    </ul></section>
+    </div>
+    <div>
+    <section class="area"><header><span class="n">08</span><h2>Publicação e redes</h2></header><ul>
+      <li>Reel principal todos os dias (5 por semana)</li>
+      <li>10 stories por dia (50 por semana)</li>
+      <li>Publicação nos dois perfis, em colaboração</li>
+      <li>Agendamento das postagens</li>
+      <li>Conferência das publicações e republicação quando falha</li>
+      <li>Música, sticker, enquete e caixinha pelo celular</li>
+      <li>Resposta aos comentários (diariamente)</li>
+      <li>Acompanhamento das mensagens das redes</li>
+    </ul></section>
+    <section class="area"><header><span class="n">09</span><h2>Métricas e relatórios</h2></header><ul>
+      <li>Relatório diário de produtividade</li>
+      <li>Checklist diário (70 tarefas por semana, meta de 100%)</li>
+      <li>Comprovação de cada entrega com link ou print</li>
+      <li>Análise de alcance e desempenho</li>
+      <li>Revisão do que funcionou para ajustar a estratégia</li>
+    </ul></section>
+    <section class="area"><header><span class="n">10</span><h2>Organização do marketing</h2></header><ul>
+      <li>Drive organizado: brutos, conteúdos, documentos e notas fiscais</li>
+      <li>Arquivo de fotos e vídeos com registro de uso</li>
+      <li>Controle da planilha de metas</li>
+      <li>Gestão dos acessos das contas do Instagram</li>
+      <li>Registro das decisões e do histórico de conteúdo</li>
+    </ul></section>
+    <section class="area"><header><span class="n">11</span><h2>Tarefas mínimas do dia a dia</h2></header><ul>
+      <li>Montar celular, tripé e luz antes de gravar</li>
+      <li>Conferir enquadramento, áudio e fundo</li>
+      <li>Transferir arquivos do celular para o computador e o Drive</li>
+      <li>Renomear e organizar arquivos</li>
+      <li>Manter o computador ligado quando há postagem agendada</li>
+      <li>Avisar a equipe sobre gravações e prazos</li>
+      <li>Conferir pagamentos, feriados e calendário do INSS para a pauta</li>
+      <li>Acompanhar as aprovações com a Dra. Tamara</li>
+    </ul></section>
+    </div>
+  </div>
+  <div class="fecho">
+    <p>Um trabalho contínuo de estratégia, produção e presença no dia a dia do escritório.</p>
+    <div class="assina"><div class="nome"></div><div class="linha">Talyta Kumy · TK Filmes · 20/10/2026</div></div>
+  </div>
+</body></html>

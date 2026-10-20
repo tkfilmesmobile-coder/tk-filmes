@@ -10,8 +10,12 @@ no Drive dele esperando a troca pelo app. Cliente nova Ary Magalhães (@cabelosm
 novembro prontos e agendados, stories do Dia das Crianças publicados em 12/10; faltam os roteiros dos reels (`clientes/ary-magalhaes/`).
 Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): em 2026-10-17 o carrossel de antes e depois foi aprovado
 e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo v6 ficou como rascunho (`clientes/melissa-morais/`).
+Em 2026-10-20 entrou a Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): contrato pronto, esperando
+assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.
 
 ## Pendências
+- **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)
+- **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
 - **Dra. Melissa Morais:** número do CRO (entra no fecho do vídeo e na legenda); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-17)
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)
 - Ary: preço da sobrancelha e dos kits de tratamento; prints reais de depoimentos (post 10/11); oferta de Black Friday (24/11); se o salão abre em 20/11. (2026-10-12)
@@ -39,7 +43,6 @@ e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo
 - **Passaporte do Galeguinho: 8 vídeos em atraso, com plano de quitação.** Ritmo de 3 vídeos por semana de 18/09 a 19/11/2026 (26 no total). Conferir a cada registro semanal. (2026-09-17)
 - Cadastrar os clientes que faltam com `/cliente`: Eduarda Pereira, Dra. Camilla Wanderley, Força & Vigor, Anna Walleska. (2026-09-17)
 - Conferir se junho a setembro de 2026 do Passaporte do Galeguinho foram pagos: o contrato renovou sozinho, R$ 800/mês. (2026-09-17)
-- Pra encerrar o contrato do Passaporte do Galeguinho no ciclo atual, o aviso por escrito tem que sair até por volta de 20/10/2026. (2026-09-17)
 - Decidir se a pasta de produção `cliente-passaporte-do-galeguinho` (89 MB, com as skills de carrossel e post) entra pro sistema. (2026-09-17)
 - O contrato da Dra. Camilla Wanderley está com o campo de valor em branco; combinado é R$ 600/mês. (2026-09-17)
 - Rever a diária de cobertura extra de R$ 100: está bem abaixo da diária avulsa de R$ 300. (2026-09-17)
@@ -48,11 +51,9 @@ e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo
 - Site em tkfilme.com.br: domínio registrado, nada no ar. (2026-09-17)
 
 ## Quente agora
-- Ter 13/10: stories de União da Ary pelo celular. Ter 20/10 e 27/10 ao meio-dia: carrosséis da Ary (valores e agenda).
-- Seg 12/10 12h: post da TK e post do Galeguinho (Dia das Crianças). Ter 13/10: feriado em União, nada da TK.
-- Qua 14/10: 12h post da TK · 14h reels "Pode ou não pode?". O PC precisa estar ligado e com internet estável.
-- Sex 16/10 14h: republicar o "Voltei" (se ela aprovar a data).
+- Ter 20/10 e 27/10 ao meio-dia: carrosséis da Ary (valores e agenda). Ter 27/10: stories de AGENDA da Ary pelo celular.
 - 2º turno das eleições em 25/10: define os posts 15 a 18 da Tamara.
+- Contratos pra assinar: Dra. Annalibya e a renovação do Galeguinho.
 
 ## Detalhe de operação
 No PowerShell da Talyta o `&&` não funciona: comandos vão um por vez.

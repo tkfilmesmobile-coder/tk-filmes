@@ -1,5 +1,5 @@
 ﻿# Publica o vídeo da Dra. Tamara "Vlog de Natal EP. 01: a saga da decoração 2026" no perfil pessoal @dra.tamarachagas_ com colaboração do @tamarachagas_prev (regra de 15/10: Tamara falando pra câmera vai no pessoal)
-# + 3 stories no pessoal e 4 no escritório. Uma vez só, pedido da Talyta em 15/10/2026 (terça 27/10, 16h).
+# + 3 stories no pessoal e 4 no escritório. Uma vez só, pedido da Talyta em 15/10/2026 (segunda 19/10, 11h; às 16h sai o episódio 2 da feira).
 Set-Location "C:\Users\tamar\TK FILMES"
 $p = "clientes/tamara-chagas/reels/2026-10-16-vlog-natal-ep1"
 $js = ".claude/skills/publicar-social-ratos/scripts/publish-graph-api.js"

@@ -179,7 +179,31 @@ const Numero: React.FC<{ valor: string; rotulo: string }> = ({
 );
 
 // 2. Card do perfil do apresentador: foto, nome, @ e números.
-const CardDePerfil: React.FC<{ duracao: number }> = ({ duracao }) => {
+// Dados do perfil mostrado no card. O padrão é o do vídeo de 30/09 (Maycon de Quipapá).
+export type Perfil = {
+  nome: string;
+  arroba: string;
+  avatar: string; // arquivo em public/
+  verificado: boolean;
+  posts: string;
+  seguidores: string;
+  seguindo: string;
+};
+
+export const MAYCON: Perfil = {
+  nome: "Maycon de Quipapá",
+  arroba: "@maycondequipapaof",
+  avatar: "intro/avatar.jpg",
+  verificado: true,
+  posts: "2.863",
+  seguidores: "196 mil",
+  seguindo: "2.883",
+};
+
+export const CardDePerfil: React.FC<{ duracao: number; perfil?: Perfil }> = ({
+  duracao,
+  perfil = MAYCON,
+}) => {
   const frame = useCurrentFrame();
 
   return (
@@ -225,7 +249,7 @@ const CardDePerfil: React.FC<{ duracao: number }> = ({ duracao }) => {
         }}
       >
         <Img
-          src={staticFile("intro/avatar.jpg")}
+          src={staticFile(perfil.avatar)}
           style={{
             width: "100%",
             height: "100%",
@@ -243,12 +267,14 @@ const CardDePerfil: React.FC<{ duracao: number }> = ({ duracao }) => {
             gap: 12,
             fontFamily: montserrat,
             fontWeight: 800,
-            fontSize: 32,
+            fontSize: perfil.nome.length > 18 ? 27 : 32,
+            whiteSpace: "nowrap",
             color: MARCA.creme,
             letterSpacing: "-0.01em",
           }}
         >
-          Maycon de Quipapá
+          {perfil.nome}
+          {perfil.verificado ? (
           <svg width="28" height="28" viewBox="0 0 24 24">
             <path
               d="M12 1.5l2.6 2 3.3-.2 1 3.1 2.8 1.7-1 3.1 1 3.1-2.8 1.7-1 3.1-3.3-.2-2.6 2-2.6-2-3.3.2-1-3.1L2.3 14.3l1-3.1-1-3.1L5.1 6.4l1-3.1 3.3.2z"
@@ -263,6 +289,7 @@ const CardDePerfil: React.FC<{ duracao: number }> = ({ duracao }) => {
               strokeLinejoin="round"
             />
           </svg>
+          ) : null}
         </div>
         <div
           style={{
@@ -273,7 +300,7 @@ const CardDePerfil: React.FC<{ duracao: number }> = ({ duracao }) => {
             color: MARCA.dourado,
           }}
         >
-          @maycondequipapaof
+          {perfil.arroba}
         </div>
         <div
           style={{
@@ -290,9 +317,9 @@ const CardDePerfil: React.FC<{ duracao: number }> = ({ duracao }) => {
             ),
           }}
         >
-          <Numero valor="2.863" rotulo="posts" />
-          <Numero valor="196 mil" rotulo="seguidores" />
-          <Numero valor="2.883" rotulo="seguindo" />
+          <Numero valor={perfil.posts} rotulo="posts" />
+          <Numero valor={perfil.seguidores} rotulo="seguidores" />
+          <Numero valor={perfil.seguindo} rotulo="seguindo" />
         </div>
       </div>
     </div>
@@ -480,7 +507,7 @@ export const Abertura: React.FC<{ ancora: { x: number; topo: number } }> = ({
     <>
       <Sequence name="Card de perfil" from={3} durationInFrames={100}>
         <Bloco ancora={ancora}>
-          <CardDePerfil duracao={100} />
+          <CardDePerfil duracao={100} perfil={MAYCON} />
         </Bloco>
       </Sequence>
       <Sequence name="Vídeos + visualizações" from={22} durationInFrames={81}>

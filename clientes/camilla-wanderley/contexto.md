@@ -55,6 +55,13 @@ infantil. Público: famílias de União dos Palmares, mães de mini pacientes e 
 ## Plano, valor e entregas
 - **Plano:** 5 posts fixos por mês + diárias de captação durante os atendimentos
 - **Valor:** R$ 600,00 por mês (pagos mensalmente; total de 120 dias = R$ 2.400,00)
+- **Pagamentos recebidos** (Pix da Camilla Tavares Barros Wanderley, PagBank; comprovantes recebidos no chat
+  em 2026-10-20 e arquivados no Drive em `DOCUMENTAÇÃO/Comprovantes de pagamento/`):
+  | mês de referência | pago em | valor |
+  |---|---|---|
+  | setembro/2026 | 11/09/2026 | R$ 600,00 |
+  | outubro/2026 | 16/10/2026 | R$ 600,00 |
+  Faltam novembro e dezembro/2026 (R$ 1.200,00).
 - **Data de início:** [a definir] (em branco no contrato)
 - **Diárias por mês:** [a definir] (em branco no contrato; sugestão feita em 2026-09-03: 2)
 - Contagem: o contrato fala em **posts fixos**, então conta post, e o vídeo é o extra.
@@ -65,6 +72,9 @@ infantil. Público: famílias de União dos Palmares, mães de mini pacientes e 
 sem preenchimento. Faltam: qualificação dela, diárias/mês, prazo de aprovação, nº de ajustes,
 antecedência pra remarcar, vencimento, valor da diária extra e data de início.
 Proposta original (planos de R$ 400, 600 e 800): `contrato/proposta-clinica-camilla.pdf`.
+**Contrato assinado pelas duas partes** (arquivado em 2026-10-20): Drive da TK,
+`Dra. Camilla Wanderlley/DOCUMENTAÇÃO/CONTRATO TK Filmes - Dra Camilla Wanderley - assinado pelas duas partes.pdf`.
+Tem CPF e endereço dela: fica só no Drive, fora do git.
 
 ## Acessos
 - **Publicação no Instagram:** conectado pela skill `publicar-social-ratos` (Graph API), conta

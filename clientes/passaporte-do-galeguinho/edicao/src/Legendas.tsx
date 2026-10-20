@@ -49,6 +49,8 @@ export type ZonaDeLegenda = {
   centro: number; // linha central da legenda corrente
   base: number; // linha de baixo da headline (ela cresce pra cima)
   enfase: number; // tamanho máximo do título da headline
+  headlineEsquerda?: number; // quando a headline precisa desviar pra um lado (lanche em cena)
+  headlineDireita?: number;
 };
 
 const ZONA_PADRAO = {
@@ -149,7 +151,9 @@ const Headline: React.FC<{
     ((titulo[0].startMs - bloco.inicioMs) / 1000) * fps,
   );
 
-  const largura = 1080 - zona.esquerda - zona.direita;
+  const esquerda = zona.headlineEsquerda ?? zona.esquerda;
+  const direita = zona.headlineDireita ?? zona.direita;
+  const largura = 1080 - esquerda - direita;
   const linhas = linhasDoTitulo(
     titulo.map((p) => p.text.trim().toUpperCase()),
     largura > 700 ? 14 : 11,
@@ -166,8 +170,8 @@ const Headline: React.FC<{
       <div
         style={{
           position: "absolute",
-          left: zona.esquerda,
-          right: zona.direita,
+          left: esquerda,
+          right: direita,
           bottom: 1920 - zona.base,
           textAlign: "center",
           opacity: interpolate(

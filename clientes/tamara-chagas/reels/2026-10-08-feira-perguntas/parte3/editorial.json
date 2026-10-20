@@ -1,0 +1,15 @@
+{
+ "fonte": "Lei 8.213/1991, arts. 39, parágrafo único; 71 e 71-A",
+ "telas": [
+  {"kicker": "PARTE 3 · SALÁRIO-MATERNIDADE", "titulo": "Mulher da roça tem <b>salário-maternidade?</b>",
+   "foto": "tamara/tamara-estudio-0046.jpg", "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O post completo tá no feed. Aqui vai o resumo 👇"},
+  {"kicker": "O QUE SABER", "titulo": "Roça e salário-maternidade.", "tam": 84,
+   "texto": "1. Mulher da roça é <b>segurada especial</b>, não precisa contribuir todo mês<br><br>2. Precisa provar o trabalho no campo nos <b>10 meses antes</b> do parto<br><br>3. Recebe <b>1 salário mínimo</b> por mês, durante <b>120 dias</b>"},
+  {"kicker": "DÚVIDA COMUM", "titulo": "“Minha filha trabalha na roça e acabou de ter neném. Ela tem direito?”", "tam": 64,
+   "texto": "Tem sim! Quem é da roça é segurada especial. Ela precisa comprovar o trabalho no campo nos 10 meses antes do parto e guardar a certidão de nascimento, tá?"},
+  {"kicker": "TAMARA CHAGAS ADVOCACIA", "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

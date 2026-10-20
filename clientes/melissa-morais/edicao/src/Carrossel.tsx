@@ -154,7 +154,8 @@ const ParFrontal: React.FC<{
 );
 
 const MIRA_TESTA = { altura: 0.9, larg: 1.2, alt: 0.8 };
-const MIRA_GLABELA = { altura: 0.62, larg: 0.9, alt: 0.6 };
+// só entre as sobrancelhas (ajuste da Talyta, 2026-10-19)
+const MIRA_GLABELA = { altura: 0.3, larg: 0.5, alt: 0.48 };
 
 // Slide principal, como o 1º da referência: rosto em repouso, antes e depois lado a lado, grandes, sem marcação
 const Principal: React.FC = () => {

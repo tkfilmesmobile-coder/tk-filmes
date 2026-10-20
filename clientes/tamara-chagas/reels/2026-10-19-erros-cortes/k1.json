@@ -1,0 +1,274 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,100"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 100
+			},
+			"text": " o"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,100",
+				"to": "00:00:00,730"
+			},
+			"offsets": {
+				"from": 100,
+				"to": 730
+			},
+			"text": " Rita,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,730",
+				"to": "00:00:00,940"
+			},
+			"offsets": {
+				"from": 730,
+				"to": 940
+			},
+			"text": " tu"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,940",
+				"to": "00:00:01,470"
+			},
+			"offsets": {
+				"from": 940,
+				"to": 1470
+			},
+			"text": " soube"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,470",
+				"to": "00:00:01,890"
+			},
+			"offsets": {
+				"from": 1470,
+				"to": 1890
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,890",
+				"to": "00:00:02,120"
+			},
+			"offsets": {
+				"from": 1890,
+				"to": 2120
+			},
+			"text": " seu"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,120",
+				"to": "00:00:02,950"
+			},
+			"offsets": {
+				"from": 2120,
+				"to": 2950
+			},
+			"text": " Aristide"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,950",
+				"to": "00:00:03,200"
+			},
+			"offsets": {
+				"from": 2950,
+				"to": 3200
+			},
+			"text": " se"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,200",
+				"to": "00:00:04,000"
+			},
+			"offsets": {
+				"from": 3200,
+				"to": 4000
+			},
+			"text": " aposentou"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,000",
+				"to": "00:00:04,990"
+			},
+			"offsets": {
+				"from": 4000,
+				"to": 4990
+			},
+			"text": " e"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,990",
+				"to": "00:00:05,190"
+			},
+			"offsets": {
+				"from": 4990,
+				"to": 5190
+			},
+			"text": " agora"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,190",
+				"to": "00:00:05,550"
+			},
+			"offsets": {
+				"from": 5190,
+				"to": 5550
+			},
+			"text": " arrumou"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,550",
+				"to": "00:00:05,680"
+			},
+			"offsets": {
+				"from": 5550,
+				"to": 5680
+			},
+			"text": " um"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,680",
+				"to": "00:00:06,400"
+			},
+			"offsets": {
+				"from": 5680,
+				"to": 6400
+			},
+			"text": " bico"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,400",
+				"to": "00:00:07,070"
+			},
+			"offsets": {
+				"from": 6400,
+				"to": 7070
+			},
+			"text": " aquele"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,070",
+				"to": "00:00:07,620"
+			},
+			"offsets": {
+				"from": 7070,
+				"to": 7620
+			},
+			"text": " velho"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,620",
+				"to": "00:00:07,960"
+			},
+			"offsets": {
+				"from": 7620,
+				"to": 7960
+			},
+			"text": " vai"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,960",
+				"to": "00:00:08,620"
+			},
+			"offsets": {
+				"from": 7960,
+				"to": 8620
+			},
+			"text": " perder"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,620",
+				"to": "00:00:08,730"
+			},
+			"offsets": {
+				"from": 8620,
+				"to": 8730
+			},
+			"text": " a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,730",
+				"to": "00:00:09,240"
+			},
+			"offsets": {
+				"from": 8730,
+				"to": 9240
+			},
+			"text": " aposentadoria"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,240",
+				"to": "00:00:11,000"
+			},
+			"offsets": {
+				"from": 9240,
+				"to": 11000
+			},
+			"text": " todinha"
+		}
+	]
+}

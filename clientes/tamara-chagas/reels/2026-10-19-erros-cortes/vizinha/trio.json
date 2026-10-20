@@ -1,0 +1,22 @@
+{
+ "data": "21 de outubro de 2026",
+ "card": "Estreou a série <b>“A vizinha disse”</b> 🤭 Aposentado pode fazer bico? Vem ver no feed 👆",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "aposentado pode trabalhar? 🤔",
+  "linhas": [
+   "1. Aposentado por <b>idade ou tempo de contribuição</b> pode trabalhar",
+   "2. Quem recebe <b>por incapacidade</b> não pode voltar a trabalhar e seguir recebendo",
+   "3. Na dúvida, pergunta pra quem entende",
+   "😅 Não pra vizinha!"
+  ],
+  "marca": "idade ou tempo de contribuição"
+ },
+ "conversa": [
+  ["in", "Doutora, meu pai é aposentado e arrumou um bico. Ele vai perder a aposentadoria? 😟", "16:03"],
+  ["out", "Se ele se aposentou por idade ou por tempo de contribuição, pode trabalhar, sim 😊", "16:04"],
+  ["out", "O cuidado é só com quem recebe por incapacidade. Cada caso precisa ser analisado direitinho, tá? 😉", "16:04"],
+  ["in", "Ufa! Vou contar pra ele 🙏", "16:05"]
+ ],
+ "fonte": "Lei 8.213/1991, arts. 18, §2º; 46 e 60, §6º"
+}

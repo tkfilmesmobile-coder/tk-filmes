@@ -1,0 +1,333 @@
+[
+  {
+    "text": " meu",
+    "startMs": 150,
+    "endMs": 250,
+    "timestampMs": 200,
+    "confidence": null
+  },
+  {
+    "text": " nome",
+    "startMs": 250,
+    "endMs": 350,
+    "timestampMs": 300,
+    "confidence": null
+  },
+  {
+    "text": " é",
+    "startMs": 350,
+    "endMs": 450,
+    "timestampMs": 400,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " taislane,",
+    "startMs": 450,
+    "endMs": 1000,
+    "timestampMs": 725,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " eu",
+    "startMs": 1000,
+    "endMs": 1213,
+    "timestampMs": 1106,
+    "confidence": null
+  },
+  {
+    "text": " sou",
+    "startMs": 1213,
+    "endMs": 1427,
+    "timestampMs": 1320,
+    "confidence": null
+  },
+  {
+    "text": " atendente",
+    "startMs": 1427,
+    "endMs": 1640,
+    "timestampMs": 1533,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " aqui",
+    "startMs": 1640,
+    "endMs": 1912,
+    "timestampMs": 1776,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 1912,
+    "endMs": 2184,
+    "timestampMs": 2048,
+    "confidence": null
+  },
+  {
+    "text": " passaporte",
+    "startMs": 2184,
+    "endMs": 2456,
+    "timestampMs": 2320,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 2456,
+    "endMs": 2728,
+    "timestampMs": 2592,
+    "confidence": null
+  },
+  {
+    "text": " galeguinho",
+    "startMs": 2728,
+    "endMs": 3000,
+    "timestampMs": 2864,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " e",
+    "startMs": 3000,
+    "endMs": 3251,
+    "timestampMs": 3125,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 3251,
+    "endMs": 3503,
+    "timestampMs": 3377,
+    "confidence": null
+  },
+  {
+    "text": " meu",
+    "startMs": 3503,
+    "endMs": 3754,
+    "timestampMs": 3628,
+    "confidence": null
+  },
+  {
+    "text": " lanche",
+    "startMs": 3754,
+    "endMs": 4006,
+    "timestampMs": 3880,
+    "confidence": null
+  },
+  {
+    "text": " favorito",
+    "startMs": 4006,
+    "endMs": 4257,
+    "timestampMs": 4131,
+    "confidence": null
+  },
+  {
+    "text": " é",
+    "startMs": 4257,
+    "endMs": 4509,
+    "timestampMs": 4383,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 4509,
+    "endMs": 4760,
+    "timestampMs": 4634,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " passaporte",
+    "startMs": 4890,
+    "endMs": 5200,
+    "timestampMs": 5045,
+    "confidence": null,
+    "enfase": true
+  },
+  {
+    "text": " de",
+    "startMs": 5200,
+    "endMs": 5510,
+    "timestampMs": 5355,
+    "confidence": null,
+    "enfase": true
+  },
+  {
+    "text": " frango",
+    "startMs": 5510,
+    "endMs": 5820,
+    "timestampMs": 5665,
+    "confidence": null,
+    "enfase": true
+  },
+  {
+    "text": " com",
+    "startMs": 5820,
+    "endMs": 6130,
+    "timestampMs": 5975,
+    "confidence": null,
+    "enfase": true
+  },
+  {
+    "text": " batata",
+    "startMs": 6130,
+    "endMs": 6440,
+    "timestampMs": 6285,
+    "confidence": null,
+    "enfase": true
+  },
+  {
+    "text": " palha",
+    "startMs": 6440,
+    "endMs": 6750,
+    "timestampMs": 6595,
+    "confidence": null,
+    "enfase": true,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " o",
+    "startMs": 25800,
+    "endMs": 26138,
+    "timestampMs": 25969,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 26138,
+    "endMs": 26475,
+    "timestampMs": 26306,
+    "confidence": null
+  },
+  {
+    "text": " faz",
+    "startMs": 26475,
+    "endMs": 26812,
+    "timestampMs": 26643,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 26812,
+    "endMs": 27150,
+    "timestampMs": 26981,
+    "confidence": null
+  },
+  {
+    "text": " diferença",
+    "startMs": 27150,
+    "endMs": 27488,
+    "timestampMs": 27319,
+    "confidence": null
+  },
+  {
+    "text": " aqui",
+    "startMs": 27488,
+    "endMs": 27825,
+    "timestampMs": 27656,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 27825,
+    "endMs": 28162,
+    "timestampMs": 27993,
+    "confidence": null
+  },
+  {
+    "text": " lanche",
+    "startMs": 28162,
+    "endMs": 28500,
+    "timestampMs": 28331,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " são",
+    "startMs": 28510,
+    "endMs": 28807,
+    "timestampMs": 28658,
+    "confidence": null,
+    "enfase": true,
+    "apoio": true
+  },
+  {
+    "text": " os",
+    "startMs": 28807,
+    "endMs": 29103,
+    "timestampMs": 28955,
+    "confidence": null,
+    "enfase": true,
+    "apoio": true
+  },
+  {
+    "text": " ingredientes",
+    "startMs": 29103,
+    "endMs": 29400,
+    "timestampMs": 29251,
+    "confidence": null,
+    "enfase": true,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " e",
+    "startMs": 29530,
+    "endMs": 29840,
+    "timestampMs": 29685,
+    "confidence": null
+  },
+  {
+    "text": " aqui",
+    "startMs": 29840,
+    "endMs": 30150,
+    "timestampMs": 29995,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 30150,
+    "endMs": 30460,
+    "timestampMs": 30305,
+    "confidence": null
+  },
+  {
+    "text": " gente",
+    "startMs": 30460,
+    "endMs": 30770,
+    "timestampMs": 30615,
+    "confidence": null
+  },
+  {
+    "text": " sempre",
+    "startMs": 30770,
+    "endMs": 31080,
+    "timestampMs": 30925,
+    "confidence": null
+  },
+  {
+    "text": " busca",
+    "startMs": 31080,
+    "endMs": 31390,
+    "timestampMs": 31235,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " o",
+    "startMs": 31390,
+    "endMs": 31670,
+    "timestampMs": 31530,
+    "confidence": null,
+    "enfase": true
+  },
+  {
+    "text": " melhor!",
+    "startMs": 31670,
+    "endMs": 31950,
+    "timestampMs": 31810,
+    "confidence": null,
+    "enfase": true,
+    "pageBreakAfter": true
+  }
+]

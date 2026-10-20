@@ -57,6 +57,8 @@ Clean, quente e elegante. Muito respiro, fundo claro, moldura branca com cantos 
 - **Foto de perfil:** `foto-perfil.svg` (logo sobre fundo creme)
 - **Marca d'água:** `marca-dagua.svg`
 - **Referências:** `papel-timbrado.pdf`, `destaques.pdf`
+- **Documentos (regra da Talyta, 2026-10-20): todo documento sai no papel timbrado** (proposta, contrato, relatório, lista, declaração, orçamento). Conteúdo em HTML com fonte Open Sans (a do timbrado), cores do timbrado (bege `#C4AE98`, marrom `#5A3A2E`) e margens que livram cabeçalho e rodapé; o PDF sai pelo script do papel timbrado (`sistema/scripts/timbrado.py`). Sem serifa nem letra manuscrita nos documentos.
+- **Assinaturas (regra da Talyta, 2026-10-20): todo contrato e documento assinado deixa ~32 mm livres acima de cada linha de assinatura** (contratante, contratada, testemunhas), pra caixa da assinatura digital não cobrir nome nem CPF. No HTML: `.linha { margin: 32mm auto 1.5mm }`, nome e documento embaixo da linha. Modelo pronto: `clientes/annalibya-duarte/contrato/2026-10-contrato-annalibya-duarte.html`.
 - **Versão pra fundo escuro:** [não tem; usar símbolo em creme/caramelo]
 - **Tamanho sugerido:** largura entre 120-200px nos HTMLs
 

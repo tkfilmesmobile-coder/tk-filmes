@@ -1,0 +1,15 @@
+{
+ "fonte": "Lei 8.213/1991, arts. 25, I; 59 e 60",
+ "telas": [
+  {"kicker": "DÚVIDA DE VOCÊS", "titulo": "Cirurgia estética <b>dá direito?</b>",
+   "foto": "tamara/tamara-estudio-0044.jpg", "foto_css": "left:330px;top:900px;width:1100px",
+   "texto": "O vídeo completo tá no feed. Aqui vai o resumo 👇"},
+  {"kicker": "O QUE IMPORTA", "titulo": "Se a cirurgia <b>impede de trabalhar.</b>", "tam": 84,
+   "texto": "Mesmo com finalidade estética, se você fica sem conseguir exercer a sua atividade, pode ter direito ao <b>benefício por incapacidade temporária</b>."},
+  {"kicker": "2 REQUISITOS", "titulo": "O que o INSS <b>exige.</b>", "tam": 84,
+   "texto": "🪪 <b>Qualidade de segurado</b>: estar contribuindo com o INSS<br><br>📅 <b>Carência mínima</b>: em regra, 12 contribuições<br><br>🩺 E a incapacidade comprovada na perícia"},
+  {"kicker": "TAMARA CHAGAS ADVOCACIA", "titulo": "Cada caso <b>é único.</b>",
+   "texto": "Na dúvida, procure orientação profissional.<br><br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>.",
+   "foto": "tamara/tamara-estudio-0110.jpg", "foto_css": "left:330px;top:980px;width:1100px"}
+ ]
+}

@@ -23,16 +23,13 @@ const TRAVA = {
 
 // O cardápio online da casa, recortado em linhas (public/insercoes/cardapio-*.png, 860 px de largura).
 // Só entram os lanches que têm foto no cardápio.
-const ESCALA = 0.44;
-const LARGURA = 860 * ESCALA;
-const ALTURA_CABECALHO = 160 * ESCALA;
-const ALTURA_TITULO = 76 * ESCALA;
-const ALTURA_LINHA = 272 * ESCALA;
-const LINHAS = ["bacontella", "capiana", "duplo", "smash", "supremo"];
-const ESCOLHIDO = 1; // o Capiana
-const JANELA = ALTURA_CABECALHO + ALTURA_TITULO + 3.55 * ALTURA_LINHA;
-const TOPO_DO_ESCOLHIDO =
-  ALTURA_CABECALHO + ALTURA_TITULO + ESCOLHIDO * ALTURA_LINHA;
+const LINHAS_HAMBURGUER = [
+  "cardapio-bacontella",
+  "cardapio-capiana",
+  "cardapio-duplo",
+  "cardapio-smash",
+  "cardapio-supremo",
+];
 
 // Cartão em perspectiva: chega de lado e se abre pra câmera. Quando ele escolhe (destaqueEm),
 // os outros lanches apagam e o Capiana salta pra frente do cartão, com moldura, brilho e etiqueta.
@@ -41,8 +38,36 @@ export const Cardapio3D: React.FC<{
   duracao: number;
   destaqueEm: number;
   esquerda: number;
-}> = ({ duracao, destaqueEm, esquerda }) => {
+  topo?: number;
+  escala?: number;
+  titulo?: string; // imagem do título da seção (public/insercoes)
+  linhas?: string[]; // imagens das linhas, na ordem
+  escolhido?: number; // índice da linha que salta
+  etiqueta?: string;
+  etiqueta2?: string; // segunda etiqueta, abaixo da primeira (ex.: adicional)
+}> = ({
+  duracao,
+  destaqueEm,
+  esquerda,
+  topo = 560,
+  escala = 0.44,
+  titulo = "cardapio-titulo",
+  linhas = LINHAS_HAMBURGUER,
+  escolhido = 1,
+  etiqueta = "a escolha dele",
+  etiqueta2,
+}) => {
   const frame = useCurrentFrame();
+  const ESCALA = escala;
+  const LARGURA = 860 * ESCALA;
+  const ALTURA_CABECALHO = 160 * ESCALA;
+  const ALTURA_TITULO = 76 * ESCALA;
+  const ALTURA_LINHA = 272 * ESCALA;
+  const ESCOLHIDO = escolhido;
+  const JANELA =
+    ALTURA_CABECALHO + ALTURA_TITULO + Math.min(linhas.length, 3.55) * ALTURA_LINHA;
+  const TOPO_DO_ESCOLHIDO =
+    ALTURA_CABECALHO + ALTURA_TITULO + ESCOLHIDO * ALTURA_LINHA;
 
   return (
     <AbsoluteFill style={{ perspective: 1400 }}>
@@ -50,7 +75,7 @@ export const Cardapio3D: React.FC<{
         style={{
           position: "absolute",
           left: esquerda,
-          top: 560,
+          top: topo,
           width: LARGURA,
           height: JANELA,
           transformOrigin: "left center",
@@ -94,13 +119,13 @@ export const Cardapio3D: React.FC<{
             style={{ width: LARGURA, display: "block" }}
           />
           <Img
-            src={staticFile("insercoes/cardapio-titulo.png")}
+            src={staticFile(`insercoes/${titulo}.png`)}
             style={{ width: LARGURA, display: "block" }}
           />
-          {LINHAS.map((nome, i) => (
+          {linhas.map((nome, i) => (
             <Img
               key={nome}
-              src={staticFile(`insercoes/cardapio-${nome}.png`)}
+              src={staticFile(`insercoes/${nome}.png`)}
               style={{
                 width: LARGURA,
                 display: "block",
@@ -193,7 +218,7 @@ export const Cardapio3D: React.FC<{
           }}
         >
           <Img
-            src={staticFile("insercoes/cardapio-capiana.png")}
+            src={staticFile(`insercoes/${linhas[ESCOLHIDO]}.png`)}
             style={{ width: LARGURA, display: "block", marginTop: -2 }}
           />
           {/* brilho que varre o escolhido */}
@@ -242,8 +267,43 @@ export const Cardapio3D: React.FC<{
             )}) rotate(-4deg)`,
           }}
         >
-          a escolha dele
+          {etiqueta}
         </div>
+        {etiqueta2 ? (
+          <div
+            style={{
+              position: "absolute",
+              right: -40,
+              top: TOPO_DO_ESCOLHIDO + ALTURA_LINHA - 22,
+              padding: "8px 16px",
+              borderRadius: 30,
+              backgroundColor: MARCA.escuro,
+              border: `2px solid ${MARCA.dourado}`,
+              color: MARCA.dourado,
+              fontFamily,
+              fontWeight: 800,
+              fontSize: 19,
+              letterSpacing: "0.04em",
+              textTransform: "uppercase",
+              whiteSpace: "nowrap",
+              boxShadow: "0 10px 26px rgba(0,0,0,0.45)",
+              opacity: interpolate(
+                frame,
+                [destaqueEm + 14, destaqueEm + 18],
+                [0, 1],
+                TRAVA,
+              ),
+              transform: `translateZ(130px) scale(${interpolate(
+                frame,
+                [destaqueEm + 14, destaqueEm + 26],
+                [0.5, 1],
+                { ...TRAVA, easing: ELASTICO },
+              )}) rotate(3deg)`,
+            }}
+          >
+            {etiqueta2}
+          </div>
+        ) : null}
       </div>
     </AbsoluteFill>
   );

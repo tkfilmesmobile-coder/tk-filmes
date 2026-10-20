@@ -52,6 +52,9 @@ export const ancoraDoBloco = (
   pontos: PontoDoRosto[],
   frame: number,
   largura: number,
+  // faixa vertical permitida pro topo do bloco (zonas seguras do reels: ilustração em y 1080–1500)
+  topoMin = 770,
+  topoMax = 868,
 ): Ancora => {
   let x = 0;
   let queixo = 0;
@@ -74,7 +77,7 @@ export const ancoraDoBloco = (
   const margem = 60;
   return {
     x: limitar(x, margem + largura / 2, 1080 - margem - largura / 2),
-    topo: limitar(queixo + altura * 0.7, 770, 868),
+    topo: limitar(queixo + altura * 0.7, topoMin, topoMax),
     rosto: { esquerda, cima: queixo - altura, queixo },
   };
 };

@@ -79,12 +79,15 @@ const grava = (nome, amostras, pico = 0.85) => {
 {
   const n = Math.round(SR * 0.38);
   const dur = n / SR;
-  const r = passaBanda(n, criaRuido(5), (t) => 500 + 3200 * Math.sin((Math.PI * t) / dur), 0.9);
+  // grave e encorpado (a Talyta reprovou sopro agudo e fininho em 2026-10-14): banda baixa + corpo grave
+  const r = passaBanda(n, criaRuido(5), (t) => 220 + 1500 * Math.sin((Math.PI * t) / dur), 0.8);
+  const corpo = passaBanda(n, criaRuido(13), () => 140, 0.6);
   const a = new Float32Array(n);
   for (let i = 0; i < n; i++) {
-    a[i] = r[i] * Math.sin((Math.PI * i) / n) ** 2;
+    const env = Math.sin((Math.PI * i) / n) ** 2;
+    a[i] = (r[i] + corpo[i] * 1.6) * env;
   }
-  grava("sopro", a, 0.7);
+  grava("sopro", a, 0.8);
 }
 
 // estouro: "pop" arredondado, seno que sobe rápido e some
