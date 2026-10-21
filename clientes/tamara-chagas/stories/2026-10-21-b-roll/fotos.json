@@ -1,0 +1,10 @@
+[
+ {"id": "01-bom-dia", "foto": "b-roll/estrutura-01-vaso.jpg", "kicker": "QUARTA-FEIRA", "pos": "baixo",
+  "texto": "Bom dia.<br>Mais um dia de <b>trabalho</b> por aqui."},
+ {"id": "04-cuidado", "foto": "b-roll/equipe-01-mesas.jpg", "kicker": "BASTIDORES", "pos": "baixo",
+  "texto": "Por trás de cada pedido no INSS, uma <b>equipe inteira</b> cuidando de tudo."},
+ {"id": "05-estreia", "foto": "b-roll/equipe-02-maos.jpg", "kicker": "HOJE, 16H", "pos": "meio",
+  "texto": "Estreia no feed a série <b>“A vizinha disse”</b>."},
+ {"id": "06-ate-amanha", "foto": "b-roll/estrutura-02-prateleira.jpg", "kicker": "ATÉ AMANHÃ", "pos": "baixo",
+  "texto": "Na dúvida, pergunte a quem entende.<br><b>Cada caso é único.</b>"}
+]

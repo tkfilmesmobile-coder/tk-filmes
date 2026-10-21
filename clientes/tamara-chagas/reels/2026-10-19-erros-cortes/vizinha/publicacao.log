@@ -1,0 +1,58 @@
+﻿[2026-10-21 16:55:58] publicando...
+Fazendo upload do video pro catbox...
+node.exe : spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\reels\2026-10-19-erros-cortes\vizinha\publicar.ps1:10 caractere:15
++     $saida = (& node --env-file=.env @argsNode 2>&1 | Out-String)
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (spawnSync C:\Wi...d.exe ETIMEDOUT:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-21 18:10:49] falhou (tentativa 1), tentando de novo em 60 s
+Fazendo upload do video pro catbox...
+  OK: https://h.uguu.se/BAMmbVEC.mp4
+
+Criando container de video...
+  Container: 18152088958526701
+Aguardando processamento (pode levar ate 2 min)...
+Publicando...
+
+Publicado como Reels!
+Link: https://www.instagram.com/reel/DexWIjiiIZh/
+
+[2026-10-21 18:13:17] reels: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 17891356956455829)
+
+[2026-10-21 18:14:11] pessoal 1-card: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18122248520057380)
+
+[2026-10-21 18:15:02] pessoal 2-notas: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18199457341383788)
+
+[2026-10-21 18:15:56] pessoal 3-conversa: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18131557027766397)
+
+[2026-10-21 18:16:48] escritorio 01: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18468438307191379)
+
+[2026-10-21 18:17:41] escritorio 02: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18080829329737650)
+
+[2026-10-21 18:18:33] escritorio 03: codigo 0
+Fazendo upload do story...
+
+Story publicado! (media 18179351755448207)
+
+[2026-10-21 18:19:25] escritorio 04: codigo 0

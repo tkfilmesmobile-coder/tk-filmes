@@ -8,7 +8,7 @@ processamento): o arquivo está pronto, falta nova data. Faltam 6 vídeos de out
 eleições segue agendado (posts 1 a 14). No Galeguinho, posts e stories de outubro agendados ao meio-dia e capas de destaque
 no Drive dele esperando a troca pelo app. Cliente nova Ary Magalhães (@cabelosmagalhaes): posts de imagem de outubro e
 novembro prontos e agendados, stories do Dia das Crianças publicados em 12/10; faltam os roteiros dos reels (`clientes/ary-magalhaes/`).
-Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): em 2026-10-17 o carrossel de antes e depois foi aprovado
+Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): 2 edições aprovadas, o carrossel de antes e depois (2026-10-17) e o reel "autocuidado" (2026-10-21, Drive `POSTS/POST 2`); o carrossel foi aprovado
 e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo v6 ficou como rascunho (`clientes/melissa-morais/`).
 Em 2026-10-20 entrou a Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): contrato pronto, esperando
 assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.

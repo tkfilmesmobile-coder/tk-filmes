@@ -1,0 +1,9 @@
+[
+ {"id": "01-bom-dia", "foto": "b-roll/equipe-03-dupla.jpg", "kicker": "QUINTA-FEIRA", "pos": "baixo",
+  "texto": "Bom dia.<br>Começando o dia com <b>atenção</b> a cada detalhe."},
+ {"id": "05-novidade", "foto": "b-roll/estrutura-03-teclado.jpg", "kicker": "NOVIDADE DO INSS", "pos": "meio",
+  "texto": "Votou no 2º turno, dia 25? O voto <b>vale como prova de vida</b> do INSS.",
+  "fonte": "INSS · Agência Brasil, outubro de 2026"},
+ {"id": "07-ate-amanha", "foto": "b-roll/estrutura-02-prateleira.jpg", "kicker": "CADA CASO É ÚNICO", "pos": "baixo",
+  "texto": "Ficou com alguma dúvida?<br><b>Pergunte a quem entende.</b>"}
+]

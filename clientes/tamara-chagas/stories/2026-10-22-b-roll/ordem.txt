@@ -1,0 +1,8 @@
+# ordem de publicação (qui 22/10, 8h) · regra: localização e horário em stories separados, com fala;
+# depois da localização falada sem rua, vem a localização com música
+01-bom-dia.jpg
+02-recado-horario.mp4
+03-novidade.jpg
+04-localizacao.mp4
+05-localizacao-musica.mp4
+06-ate-amanha.jpg

@@ -56,4 +56,5 @@ Arte: `posts/2026-10/03-2026-10-20-valores/` (4 slides; capa de caixinhas). Lege
 Arte: `posts/2026-10/04-2026-10-27-agenda-fim-de-ano/` (4 slides). Legenda: `legenda.txt`.
 **Agendado:** ter 27/10 às 12h (tarefa "TK - Ary 2026-10-27 agenda"). Story `story-agenda.jpg`: **postar pelo celular** com link do WhatsApp.
 
-<!-- roteiros dos reels: a escrever -->
+## Reels
+Roteiros com a Ary falando pra câmera, de 23/10 a novembro (grade revista em 2026-10-20, diária sugerida na quinta 22/10; 21/10 sai com o material de 12/10): `calendarios/2026-10-roteiros-reels.md`. Os reels de 14 a 19/10 não foram gravados e saíram da grade.
