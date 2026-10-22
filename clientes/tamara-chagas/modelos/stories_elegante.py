@@ -22,6 +22,7 @@ CSS = """*{margin:0;padding:0;box-sizing:border-box}body{width:1080px;height:192
 .k i{display:block;width:56px;height:2px;background:#E6D3B8}
 .t{margin-top:30px;font-size:66px;line-height:1.16;font-weight:200;letter-spacing:-.025em;color:#fff}
 .t b{font-weight:700}
+.sub{margin-top:34px;font-size:38px;line-height:1.42;font-weight:300;color:rgba(255,255,255,.92)}.sub b{font-weight:600}
 .f{margin-top:28px;font-size:22px;letter-spacing:.06em;color:rgba(255,255,255,.7);font-weight:300}
 .ass{position:absolute;left:96px;bottom:150px;font-size:20px;letter-spacing:.32em;font-weight:600;color:rgba(255,255,255,.78)}
 """
@@ -39,7 +40,8 @@ def html(s):
             f'<img class="bg" style="object-position:{s.get("posicao", "50% 50%")}" src="{FOTOS}/{s["foto"]}">'
             f'<div class="veu" style="background:{VEUS[pos]}"></div>'
             f'<div class="txt" style="{TOPO[pos]}"><div class="k"><i></i>{s.get("kicker", "")}</div>'
-            f'<div class="t">{s["texto"]}</div>'
+            f'<div class="t" style="font-size:{s.get("tam", 66)}px">{s["texto"]}</div>'
+            + (f'<div class="sub">{s["sub"]}</div>' if s.get("sub") else '')
             + (f'<div class="f">Fonte: {s["fonte"]}</div>' if s.get("fonte") else '') + '</div>'
             f'<div class="ass">TAMARA CHAGAS ADVOCACIA</div></div></body></html>')
 

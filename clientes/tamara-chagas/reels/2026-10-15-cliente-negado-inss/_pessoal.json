@@ -1,0 +1,28 @@
+[
+ {
+  "id": "1-card",
+  "foto": "tamara/tamara-estudio-0044.jpg",
+  "kicker": "NOVO NO FEED",
+  "pos": "baixo",
+  "tam": 54,
+  "texto": "Esse aqui é pros colegas advogados <b>Chegou cliente com a carta negada do INSS? Antes de judicializar, olha o vídeo no feed</b>"
+ },
+ {
+  "id": "2-notas",
+  "foto": "stock/documento-assinatura-pexels-7734574.jpg",
+  "kicker": "CARTA NEGADA: QUANDO JUDICIALIZAR",
+  "pos": "baixo",
+  "tam": 42,
+  "texto": "1. Primeiro, <b>analisar o motivo</b> do indeferimento<br>2. Falha do cliente: <b>novo pedido no INSS</b>, não vai pra Justiça<br>3. INSS negou com tudo comprovado: <b>aí sim judicializar</b>",
+  "fonte": "STF, RE 631.240 (Tema 350)"
+ },
+ {
+  "id": "3-conversa",
+  "foto": "stock/advogada-mesa-pexels-8111815.jpg",
+  "kicker": "DÚVIDA COMUM",
+  "pos": "baixo",
+  "tam": 50,
+  "texto": "“Doutora, o INSS negou o pedido do meu cliente. Já posso entrar com a ação?”",
+  "sub": "Primeiro veja o motivo da negativa. Se faltou documento por parte dele, o caminho é um novo pedido no INSS Se ele juntou tudo e o INSS errou mesmo, aí sim tem respaldo pra judicializar"
+ }
+]
