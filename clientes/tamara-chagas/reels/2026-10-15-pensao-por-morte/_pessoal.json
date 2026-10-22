@@ -1,0 +1,28 @@
+[
+ {
+  "id": "1-card",
+  "foto": "tamara/tamara-estudio-0029.jpg",
+  "kicker": "NOVO NO FEED",
+  "pos": "baixo",
+  "tam": 54,
+  "texto": "Muita gente acha que não tem direito, por isso falei disso no feed <b>Filho maior de idade com autismo tem direito à pensão por morte?</b>"
+ },
+ {
+  "id": "2-notas",
+  "foto": "stock/mae-filho-brincando-pexels-31559971.jpg",
+  "kicker": "PENSÃO POR MORTE E FILHO COM AUTISMO",
+  "pos": "baixo",
+  "tam": 42,
+  "texto": "1. Filho com deficiência <b>continua dependente</b>, mesmo depois dos 21<br>2. Precisa comprovar a <b>qualidade de dependente</b><br>3. E que o pai ou a mãe era <b>segurado na data do óbito</b>",
+  "fonte": "Lei 8.213/1991, arts. 16, I; 74 e 77, §2º"
+ },
+ {
+  "id": "3-conversa",
+  "foto": "b-roll/equipe-01-mesas.jpg",
+  "kicker": "DÚVIDA COMUM",
+  "pos": "baixo",
+  "tam": 50,
+  "texto": "“Doutora, meu filho tem 25 anos e é autista. O pai dele faleceu. Ele tem direito?”",
+  "sub": "Pode ter, sim! Filho com deficiência continua sendo dependente mesmo depois dos 21"
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "data": "22 de outubro de 2026",
+ "card": "Saiu o EP. 02 do nosso vlog de Natal: hoje foi dia de testar onde fica cada decoração.",
+ "notas": {
+  "hora": "12:02",
+  "titulo": "decoração de natal · ep. 02",
+  "linhas": [
+   "1. Trouxemos as decorações <b>de casa</b>",
+   "2. Testamos o <b>Papai Noel</b> e o <b>Grinch</b>",
+   "3. E a <b>sala de reunião</b> ganhou o seu lugar"
+  ],
+  "marca": "sala de reunião"
+ },
+ "conversa": [
+  ["in", "Esse ano a decoração vai ser a mais bonita de todas?", "12:03"],
+  ["out", "Estamos caprichando em cada detalhe. Acompanha os episódios!", "12:04"]
+ ],
+ "fonte": "Vlog de Natal · EP. 02"
+}

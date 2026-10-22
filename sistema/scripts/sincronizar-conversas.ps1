@@ -53,4 +53,10 @@ foreach ($pasta in Get-ChildItem -LiteralPath $nuvem -Directory) {
     $destino = Join-Path $local ($prefixo + $pasta.Name.Substring(4))
     $mudou += [int]((Copiar $pasta.FullName $destino) -band 1)
 }
+# Skills globais (%USERPROFILE%\.claude\skills), nos dois sentidos
+$skillsLocal = Join-Path $env:USERPROFILE '.claude\skills'
+$skillsNuvem = Join-Path $nuvem '_skills-globais'
+if (Test-Path -LiteralPath $skillsLocal) { $mudou += [int]((Copiar $skillsLocal $skillsNuvem) -band 1) }
+if (Test-Path -LiteralPath $skillsNuvem) { $mudou += [int]((Copiar $skillsNuvem $skillsLocal) -band 1) }
+
 if ($mudou -gt 0) { Log "conversas sincronizadas ($mudou pasta(s) com novidade)" }

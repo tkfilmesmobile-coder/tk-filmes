@@ -1,0 +1,197 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,830"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 830
+			},
+			"text": " Já"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,830",
+				"to": "00:00:03,070"
+			},
+			"offsets": {
+				"from": 830,
+				"to": 3070
+			},
+			"text": " trazendo"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,070",
+				"to": "00:00:04,410"
+			},
+			"offsets": {
+				"from": 3070,
+				"to": 4410
+			},
+			"text": " as"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,410",
+				"to": "00:00:05,400"
+			},
+			"offsets": {
+				"from": 4410,
+				"to": 5400
+			},
+			"text": " coisas"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,400",
+				"to": "00:00:05,860"
+			},
+			"offsets": {
+				"from": 5400,
+				"to": 5860
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,860",
+				"to": "00:00:07,010"
+			},
+			"offsets": {
+				"from": 5860,
+				"to": 7010
+			},
+			"text": " casa"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,010",
+				"to": "00:00:07,230"
+			},
+			"offsets": {
+				"from": 7010,
+				"to": 7230
+			},
+			"text": " pra"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,230",
+				"to": "00:00:07,460"
+			},
+			"offsets": {
+				"from": 7230,
+				"to": 7460
+			},
+			"text": " dar"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,460",
+				"to": "00:00:08,000"
+			},
+			"offsets": {
+				"from": 7460,
+				"to": 8000
+			},
+			"text": " início"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,000",
+				"to": "00:00:08,030"
+			},
+			"offsets": {
+				"from": 8000,
+				"to": 8030
+			},
+			"text": " a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,030",
+				"to": "00:00:08,380"
+			},
+			"offsets": {
+				"from": 8030,
+				"to": 8380
+			},
+			"text": " melhor"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,380",
+				"to": "00:00:08,880"
+			},
+			"offsets": {
+				"from": 8380,
+				"to": 8880
+			},
+			"text": " temporada"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,880",
+				"to": "00:00:08,990"
+			},
+			"offsets": {
+				"from": 8880,
+				"to": 8990
+			},
+			"text": " do"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,990",
+				"to": "00:00:09,360"
+			},
+			"offsets": {
+				"from": 8990,
+				"to": 9360
+			},
+			"text": " ano."
+		}
+	]
+}

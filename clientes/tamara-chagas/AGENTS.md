@@ -41,4 +41,11 @@ Stories diários com b-roll (regra da Talyta, 21/10/2026):
   (bt709) e tirar a rotação antes de publicar.
 - Escrita elegante (`modelos/stories_elegante.py`): Inter fina com uma palavra forte, título pequeno
   espaçado em champanhe, filete fino. Sem caixa de texto e **sem emoji de carinha**.
+- **Todo story com escrita usa foto ocupando o fundo inteiro**, com a escrita elegante por cima (regra de
+  22/10/2026). Vale também pros stories que acompanham os Reels (3 no pessoal + 4 no escritório): gerar com
+  `modelos/stories_reel_elegante.py <pasta-do-reel> <7 fotos>` a partir do `trio.json` e do `editorial.json`
+  (substitui o visual de cartão, bloco de notas e conversa do `stories_trio.py`/`stories_editorial.py`).
+  Card e tela final com foto da Tamara; as do meio com foto do tema ou b-roll, sem repetir em stories seguidos.
+- Pode usar foto e vídeo de banco com licença livre (Pexels, Unsplash, Pixabay) que combinem com o assunto;
+  guardar em `marca/fotos/stock/` e registrar em `marca/fotos/_uso.md`.
 - Nunca usar tela com processo, planilha, nome ou CPF de cliente, nem rosto de cliente sem autorização.

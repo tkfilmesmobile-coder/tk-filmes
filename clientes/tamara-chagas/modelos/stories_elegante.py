@@ -31,7 +31,7 @@ VEUS = {
     "meio": "linear-gradient(180deg,rgba(20,20,20,.15) 0%,rgba(20,20,20,.55) 45%,rgba(20,20,20,.55) 60%,rgba(20,20,20,.2) 100%)",
     "alto": "linear-gradient(180deg,rgba(20,20,20,.8) 0%,rgba(20,20,20,.5) 34%,rgba(20,20,20,0) 62%)",
 }
-TOPO = {"baixo": "top:1260px", "meio": "top:780px", "alto": "top:300px"}
+TOPO = {"baixo": "bottom:250px", "meio": "top:780px", "alto": "top:300px"}
 
 
 def html(s):

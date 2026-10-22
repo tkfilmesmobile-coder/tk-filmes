@@ -17,7 +17,7 @@ def main():
     ed = json.loads((pasta / "editorial.json").read_text(encoding="utf-8-sig"))
     conv = trio["conversa"]
     pergunta = next(c[1] for c in conv if c[0] == "in")
-    resposta = " ".join(c[1] for c in conv if c[0] == "out")
+    resposta = next(c[1] for c in conv if c[0] == "out")  # só a 1ª resposta: texto curto
     pessoal = [
         {"id": "1-card", "foto": fotos[0], "kicker": "NOVO NO FEED", "pos": "baixo", "tam": 54, "texto": limpa(trio["card"])},
         {"id": "2-notas", "foto": fotos[1], "kicker": limpa(trio["notas"]["titulo"]).upper(), "pos": "baixo", "tam": 42,

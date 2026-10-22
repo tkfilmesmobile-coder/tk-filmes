@@ -1,0 +1,28 @@
+[
+ {
+  "id": "1-card",
+  "foto": "tamara/tamara-estudio-0081.jpg",
+  "kicker": "NOVO NO FEED",
+  "pos": "baixo",
+  "tam": 54,
+  "texto": "Saiu a <b>Parte 3</b> da série na feira! Mulher da roça tem salário-maternidade? Corre no feed"
+ },
+ {
+  "id": "2-notas",
+  "foto": "stock/gestante-jardim-pexels-20770621.jpg",
+  "kicker": "ROÇA E SALÁRIO-MATERNIDADE",
+  "pos": "baixo",
+  "tam": 42,
+  "texto": "1. Mulher da roça é <b>segurada especial</b>, não precisa contribuir todo mês<br>2. Precisa provar o trabalho no campo nos <b>10 meses antes</b> do parto<br>3. Recebe <b>1 salário mínimo</b> por mês, durante 120 dias",
+  "fonte": "Lei 8.213/1991, arts. 39, parágrafo único; 71 e 71-A"
+ },
+ {
+  "id": "3-conversa",
+  "foto": "b-roll/equipe-03-dupla.jpg",
+  "kicker": "DÚVIDA COMUM",
+  "pos": "baixo",
+  "tam": 50,
+  "texto": "“Doutora, minha filha trabalha na roça e acabou de ter neném. Ela tem direito?”",
+  "sub": "Tem sim! Quem é da roça é segurada especial, mesmo sem contribuir todo mês com o INSS"
+ }
+]

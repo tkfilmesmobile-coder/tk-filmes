@@ -68,6 +68,7 @@ RodarGit diff --cached -U0 --diff-filter=ACMR --no-color | Out-Null
 $atual = $null; $comSegredo = @{}
 foreach ($linha in ($gitSaida -split "`n")) {
     if ($linha.StartsWith('+++ b/')) { $atual = $linha.Substring(6); continue }
+    if ($linha.Length -gt 4000) { continue }   # linha gigante é imagem embutida, não chave
     if ($atual -and $linha.StartsWith('+') -and -not $linha.StartsWith('+++') -and $linha -match $regex) { $comSegredo[$atual] = $true }
 }
 foreach ($f in $comSegredo.Keys) { RodarGit reset -q -- $f | Out-Null; $barrados += "$f (parece ter senha ou chave)" }

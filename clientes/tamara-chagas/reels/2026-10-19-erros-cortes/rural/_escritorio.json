@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "stock/agricultor-feno-pexels-18394393.jpg",
+  "kicker": "PERGUNTA PRO SALES",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Quem é da roça <b>tem direito?</b>",
+  "sub": "O vídeo tá no feed. Aqui vai o resumo"
+ },
+ {
+  "id": "02",
+  "foto": "stock/agricultora-cafe-pexels-17836197.jpg",
+  "kicker": "O QUE SABER",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Segurado <b>especial.</b>",
+  "sub": "Quem trabalha na roça em <b>economia familiar</b> pode ter direito a benefícios <b>sem contribuir mês a mês</b>.",
+  "fonte": "Lei 8.213/1991, arts. 11, VII; 39 e 106"
+ },
+ {
+  "id": "03",
+  "foto": "stock/agricultor-plantacao-pexels-13834221.jpg",
+  "kicker": "COMO PROVAR",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Os documentos <b>que ajudam.</b>",
+  "sub": "Documentos da terra<br> Declaração do sindicato<br> Cadastros e notas da produção",
+  "fonte": "Lei 8.213/1991, arts. 11, VII; 39 e 106"
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0145.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Cada caso <b>é único.</b>",
+  "sub": "Na dúvida, procure orientação profissional.<br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]

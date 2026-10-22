@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "stock/mae-filha-carinho-pexels-18251000.jpg",
+  "kicker": "VOCÊ SABIA?",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Filho maior de idade <b>pode ter direito.</b>",
+  "sub": "O vídeo completo tá no feed. Aqui vai o resumo"
+ },
+ {
+  "id": "02",
+  "foto": "stock/mae-filho-brincando-pexels-31559971.jpg",
+  "kicker": "O QUE SABER",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Pensão por morte e filho com deficiência.",
+  "sub": "1. Filho com deficiência intelectual, mental ou grave <b>continua dependente</b> depois dos 21<br>2. Precisa comprovar a <b>qualidade de dependente</b><br>3. O pai ou a mãe precisava ser <b>segurado na data do óbito</b>",
+  "fonte": "Lei 8.213/1991, arts. 16, I; 74 e 77, §2º"
+ },
+ {
+  "id": "03",
+  "foto": "b-roll/estrutura-03-teclado.jpg",
+  "kicker": "GUARDE",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Os documentos <b>que ajudam.</b>",
+  "sub": "Certidão de óbito<br> Prova da filiação (até exame de DNA, quando for o caso)<br> Laudos médicos atualizados",
+  "fonte": "Lei 8.213/1991, arts. 16, I; 74 e 77, §2º"
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0156.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Cada caso <b>é único.</b>",
+  "sub": "Na dúvida, procure orientação profissional.<br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]

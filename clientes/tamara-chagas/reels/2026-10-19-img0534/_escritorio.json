@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "stock/equipe-saude-corredor-pexels-6627924.jpg",
+  "kicker": "DÚVIDA DE VOCÊS",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Cirurgia estética <b>dá direito?</b>",
+  "sub": "O vídeo completo tá no feed. Aqui vai o resumo"
+ },
+ {
+  "id": "02",
+  "foto": "stock/enfermeira-sorrindo-pexels-4930705.jpg",
+  "kicker": "O QUE IMPORTA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Se a cirurgia <b>impede de trabalhar.</b>",
+  "sub": "Mesmo com finalidade estética, se você fica sem conseguir exercer a sua atividade, pode ter direito ao <b>benefício por incapacidade temporária</b>.",
+  "fonte": "Lei 8.213/1991, arts. 25, I; 59 e 60"
+ },
+ {
+  "id": "03",
+  "foto": "stock/cirurgia-pexels-14513059.jpg",
+  "kicker": "2 REQUISITOS",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "O que o INSS <b>exige.</b>",
+  "sub": "<b>Qualidade de segurado</b>: estar contribuindo com o INSS<br> <b>Carência mínima</b>: em regra, 12 contribuições<br> E a incapacidade comprovada na perícia",
+  "fonte": "Lei 8.213/1991, arts. 25, I; 59 e 60"
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0103.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Cada caso <b>é único.</b>",
+  "sub": "Na dúvida, procure orientação profissional.<br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]

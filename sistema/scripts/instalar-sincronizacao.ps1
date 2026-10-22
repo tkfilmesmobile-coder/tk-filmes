@@ -27,7 +27,7 @@ $acao = New-ScheduledTaskAction -Execute 'wscript.exe' -Argument "`"$vbs`""
 $cada15 = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) -RepetitionInterval (New-TimeSpan -Minutes 15)
 $aoEntrar = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
 $config = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
-    -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 2)
+    -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Minutes 30)
 $quem = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType Interactive -RunLevel Limited
 
 Register-ScheduledTask -TaskName 'TK - Sincronizar GitHub e conversas' -Action $acao -Trigger @($cada15, $aoEntrar) `
