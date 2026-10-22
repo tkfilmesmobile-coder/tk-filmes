@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "stock/martelo-justica-pexels-6077447.jpg",
+  "kicker": "PARA ADVOGADOS",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Carta negada: <b>e agora?</b>",
+  "sub": "O vídeo completo tá no feed. Aqui vai o resumo"
+ },
+ {
+  "id": "02",
+  "foto": "b-roll/equipe-03-dupla.jpg",
+  "kicker": "PRIMEIRO PASSO",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Analise o <b>motivo da negativa.</b>",
+  "sub": "Falha do cliente (faltou documento ou informação): <b>novo pedido no INSS</b><br> Tudo comprovado e o INSS negou mesmo assim: <b>aí sim judicializar</b>",
+  "fonte": "STF, RE 631.240 (Tema 350)"
+ },
+ {
+  "id": "03",
+  "foto": "stock/documento-assinatura-pexels-7734574.jpg",
+  "kicker": "ATENÇÃO",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Carta negada, sozinha, <b>não é munição.</b>",
+  "sub": "Documentos completos no pedido<br> Perícia com os laudos<br> Incapacidade comprovada",
+  "fonte": "STF, RE 631.240 (Tema 350)"
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0110.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Cada caso <b>é único.</b>",
+  "sub": "Análise cuidadosa antes de qualquer ação.<br>Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]
