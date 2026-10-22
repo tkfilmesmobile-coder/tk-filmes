@@ -29,7 +29,17 @@ const USER_ID = process.env[`INSTAGRAM_USER_ID${SUF}`];
 const GRAPH = "https://graph.instagram.com/v21.0";
 
 // --- Upload imagem (catbox.moe com fallback pra uguu.se) ---
+// TK Filmes (22/10/2026): a rede do escritório derruba envios às vezes ("Connection was reset").
+// Repete o upload até 8 vezes antes de desistir.
 function uploadFile(filePath) {
+  let ultimo;
+  for (let t = 1; t <= 8; t++) {
+    try { return uploadFileUmaVez(filePath); }
+    catch (e) { ultimo = e; console.log(`  upload falhou (tentativa ${t}/8), tentando de novo...`); execSync("ping -n 8 127.0.0.1 >NUL"); }
+  }
+  throw ultimo;
+}
+function uploadFileUmaVez(filePath) {
   const abs = path.resolve(filePath);
   if (!fs.existsSync(abs)) throw new Error(`Arquivo nao encontrado: ${abs}`);
 

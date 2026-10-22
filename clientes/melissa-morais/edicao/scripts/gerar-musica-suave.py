@@ -10,7 +10,7 @@ import numpy as np
 SR = 48000
 BEAT = 0.65            # 92,3 BPM
 BAR = 4 * BEAT         # 2,6 s
-DUR = 27.6
+DUR = 28.6
 N = int(SR * DUR)
 rng = np.random.default_rng(11)
 

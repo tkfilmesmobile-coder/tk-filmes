@@ -1,0 +1,150 @@
+Whisper already exists at C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp
+Model already exists at C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin
+(node:36632) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\v21a-p00.wav' (257920 samples, 16.1 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.080]  
+[00:00:00.080 --> 00:00:00.150]   O
+[00:00:00.150 --> 00:00:00.320]   Bot
+[00:00:00.320 --> 00:00:00.480]  ox
+[00:00:00.480 --> 00:00:00.610]   é
+[00:00:00.610 --> 00:00:00.930]   um
+[00:00:00.930 --> 00:00:01.040]   dos
+[00:00:01.040 --> 00:00:01.520]   nossos
+[00:00:01.520 --> 00:00:02.080]   grandes
+[00:00:02.080 --> 00:00:02.320]   ali
+[00:00:02.320 --> 00:00:02.770]  ados
+[00:00:02.770 --> 00:00:03.070]   para
+[00:00:03.070 --> 00:00:03.130]   su
+[00:00:03.130 --> 00:00:03.280]  av
+[00:00:03.280 --> 00:00:03.650]  izar
+[00:00:03.650 --> 00:00:03.690]   as
+[00:00:03.690 --> 00:00:03.730]   l
+[00:00:03.730 --> 00:00:03.960]  inhas
+[00:00:03.960 --> 00:00:04.090]   de
+[00:00:04.090 --> 00:00:04.560]   express
+[00:00:04.560 --> 00:00:04.970]  ões
+[00:00:04.970 --> 00:00:05.120]  .
+[00:00:05.120 --> 00:00:05.360]   Por
+[00:00:05.360 --> 00:00:05.600]  ém
+[00:00:05.600 --> 00:00:05.760]  ,
+[00:00:05.760 --> 00:00:06.000]   ele
+[00:00:06.000 --> 00:00:06.350]   não
+[00:00:06.350 --> 00:00:06.990]   consegue
+[00:00:06.990 --> 00:00:07.400]   fazer
+[00:00:07.400 --> 00:00:07.730]   tudo
+[00:00:07.730 --> 00:00:07.880]   so
+[00:00:07.880 --> 00:00:08.440]  zinho
+[00:00:08.440 --> 00:00:08.440]  .
+[00:00:08.440 --> 00:00:08.660]   Alg
+[00:00:08.660 --> 00:00:08.800]  um
+[00:00:08.800 --> 00:00:08.960]  as
+[00:00:08.960 --> 00:00:09.160]   mar
+[00:00:09.160 --> 00:00:09.380]  cas
+[00:00:09.380 --> 00:00:09.520]   e
+[00:00:09.520 --> 00:00:09.600]   l
+[00:00:09.600 --> 00:00:09.890]  inhas
+[00:00:09.890 --> 00:00:10.030]   de
+[00:00:10.030 --> 00:00:10.600]   express
+[00:00:10.600 --> 00:00:11.020]  ões
+[00:00:11.020 --> 00:00:11.310]   precis
+[00:00:11.310 --> 00:00:11.420]  am
+[00:00:11.420 --> 00:00:11.560]   de
+[00:00:11.560 --> 00:00:12.000]   outras
+[00:00:12.000 --> 00:00:12.360]   abord
+[00:00:12.360 --> 00:00:12.880]  agens
+[00:00:12.880 --> 00:00:12.880]  ,
+[00:00:12.880 --> 00:00:13.110]   como
+[00:00:13.110 --> 00:00:13.220]  ,
+[00:00:13.220 --> 00:00:13.400]   por
+[00:00:13.400 --> 00:00:13.790]   exemplo
+[00:00:13.790 --> 00:00:13.900]  ,
+[00:00:13.900 --> 00:00:13.950]   o
+[00:00:13.950 --> 00:00:14.160]   pre
+[00:00:14.160 --> 00:00:14.350]  ench
+[00:00:14.350 --> 00:00:14.690]  imento
+[00:00:14.690 --> 00:00:14.960]   com
+[00:00:14.960 --> 00:00:14.970]   á
+[00:00:14.970 --> 00:00:15.250]  cido
+[00:00:15.250 --> 00:00:15.290]   i
+[00:00:15.290 --> 00:00:15.360]  al
+[00:00:15.360 --> 00:00:15.470]  ur
+[00:00:15.470 --> 00:00:15.630]  ôn
+[00:00:15.630 --> 00:00:15.810]  ico
+[00:00:15.810 --> 00:00:16.080]  .
+whisper_print_progress_callback: progress =  99%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time = 33523.21 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   209.61 ms
+whisper_print_timings:   sample time =  8751.47 ms /   380 runs (   23.03 ms per run)
+whisper_print_timings:   encode time = 124025.94 ms /     1 runs (124025.94 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time = 5462923.50 ms /   378 runs (14452.18 ms per run)
+whisper_print_timings:   prompt time =  6402.24 ms /    72 runs (   88.92 ms per run)
+whisper_print_timings:    total time = 5636207.00 ms
+
+trecho 0 6.38-22.50: O Botox é um dos nossos grandes aliados para suavizar as linhas de expressões. Porém, ele não consegue fazer tudo sozinho. Algumas marcas e linhas de expressões precisam de outras abordagens, como, por exemplo, o preenchimento com ácido ialurônico.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\v21a-p01.wav' (456320 samples, 28.5 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+

@@ -11,6 +11,11 @@ if (-not (Test-Path "$pasta/ordem.txt")) {
   "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] SEM STORIES: $pasta/ordem.txt não existe" | Out-File $log -Append -Encoding utf8
   exit 1
 }
+# o PC costuma acordar sem internet: espera a conexão com o Instagram (até 15 min) antes de começar (falhou assim em 22/10)
+for ($w = 0; $w -lt 30; $w++) {
+  try { Invoke-WebRequest -Uri "https://graph.facebook.com/" -Method Head -TimeoutSec 10 -UseBasicParsing | Out-Null; break }
+  catch { if ($_.Exception.Response) { break }; Start-Sleep -Seconds 30 }
+}
 foreach ($arq in (Get-Content "$pasta/ordem.txt" -Encoding utf8 | Where-Object { $_.Trim() -ne "" -and -not $_.StartsWith("#") })) {
   $arq = $arq.Trim()
   $tipo = if ($arq -match "\.mp4$") { "--video" } else { "--images" }

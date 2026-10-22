@@ -37,3 +37,266 @@ Fazendo upload do story...
 
 Story publicado! (media 18128762539891324)
 
+[2026-10-22 08:14:53] 2026-10-22 01-bom-dia.jpg (tentativa 1)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\01-bom-dia.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:16:47] 2026-10-22 01-bom-dia.jpg (tentativa 2)
+Fazendo upload do story...
+node.exe : fetch failed
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fetch failed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:18:49] 2026-10-22 01-bom-dia.jpg (tentativa 3)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\01-bom-dia.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:20:48] 2026-10-22 02-recado-horario.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://n.uguu.se/LhXhBuLl.mp4
+node.exe : fetch failed
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fetch failed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:22:51] 2026-10-22 02-recado-horario.mp4 (tentativa 2)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\02-recado-horario.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:25:26] 2026-10-22 02-recado-horario.mp4 (tentativa 3)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\02-recado-horario.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:27:50] 2026-10-22 03-novidade.jpg (tentativa 1)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\03-novidade.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:30:31] 2026-10-22 03-novidade.jpg (tentativa 2)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\03-novidade.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:32:40] 2026-10-22 03-novidade.jpg (tentativa 3)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\03-novidade.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:35:02] 2026-10-22 04-localizacao.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\04-localizacao.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:37:05] 2026-10-22 04-localizacao.mp4 (tentativa 2)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\04-localizacao.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:39:18] 2026-10-22 04-localizacao.mp4 (tentativa 3)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\04-localizacao.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:41:46] 2026-10-22 05-localizacao-musica.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\05-localizacao-musica.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:43:49] 2026-10-22 05-localizacao-musica.mp4 (tentativa 2)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\05-localizacao-musica.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:45:47] 2026-10-22 05-localizacao-musica.mp4 (tentativa 3)
+Fazendo upload do video pro catbox...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\05-localizacao-musica.mp4" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:19 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:47:44] 2026-10-22 01-bom-dia.jpg (tentativa 1)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\01-bom-dia.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:24 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:50:05] 2026-10-22 01-bom-dia.jpg (tentativa 2)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\01-bom-dia.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:24 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 08:52:42] 2026-10-22 01-bom-dia.jpg (tentativa 3)
+Fazendo upload do story...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\01-bom-dia.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:24 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 09:29:34] 2026-10-22 01-bom-dia.jpg (tentativa 1)
+Fazendo upload do story...
+  upload falhou (tentativa 1/8), tentando de novo...
+  upload falhou (tentativa 2/8), tentando de novo...
+  upload falhou (tentativa 3/8), tentando de novo...
+  upload falhou (tentativa 4/8), tentando de novo...
+node.exe : fetch failed
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:24 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fetch failed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 09:39:15] 2026-10-22 01-bom-dia.jpg (tentativa 2)
+Fazendo upload do story...
+  upload falhou (tentativa 1/8), tentando de novo...
+  upload falhou (tentativa 2/8), tentando de novo...
+  upload falhou (tentativa 3/8), tentando de novo...
+  upload falhou (tentativa 4/8), tentando de novo...
+  upload falhou (tentativa 5/8), tentando de novo...
+  upload falhou (tentativa 6/8), tentando de novo...
+  upload falhou (tentativa 7/8), tentando de novo...
+  upload falhou (tentativa 8/8), tentando de novo...
+node.exe : Command failed: curl -s -F "files[]=@C:\Users\tamar\TK 
+FILMES\clientes\tamara-chagas\stories\2026-10-22-b-roll\01-bom-dia.jpg" "https://uguu.se/upload"
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:24 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Command failed:...uguu.se/upload":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-22 09:42:06] 2026-10-22 01-bom-dia.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18032435933855175)
+
+[2026-10-22 09:43:15] 2026-10-22 02-recado-horario.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://d.uguu.se/aGAvPLTc.mp4
+
+Story em video publicado! (media 18107201606192700)
+
+[2026-10-22 09:43:55] 2026-10-22 03-novidade.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18117422519107699)
+
+[2026-10-22 09:45:09] 2026-10-22 04-localizacao.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://h.uguu.se/xTBqCWva.mp4
+
+Story em video publicado! (media 18115406681024416)
+
+[2026-10-22 09:46:37] 2026-10-22 05-localizacao-musica.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://d.uguu.se/YzBfaGmX.mp4
+
+Story em video publicado! (media 18138420715650470)
+
+[2026-10-22 09:47:14] 2026-10-22 06-ate-amanha.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 17914529145499875)
+
