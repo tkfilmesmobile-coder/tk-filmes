@@ -45,7 +45,7 @@ foreach ($p in '.git\rebase-merge', '.git\rebase-apply', '.git\MERGE_HEAD') {
 if (Test-Path (Join-Path $raiz '.git\index.lock')) { Log 'pulado: outro git rodando agora'; exit 0 }
 
 # 1. Junta tudo que mudou aqui (o .gitignore já tira vídeo, áudio etc.)
-RodarGit add -A | Out-Null
+if ((RodarGit add -A) -ne 0) { Log "aviso ao juntar os arquivos (algum pode estar aberto em outro programa): $gitSaida" }
 RodarGit diff --cached --name-only --diff-filter=ACMR | Out-Null
 $staged = @($gitSaida -split "`n" | Where-Object { $_ })
 
