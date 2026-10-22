@@ -12,8 +12,16 @@
   "marca": "sala de reunião"
  },
  "conversa": [
-  ["in", "Esse ano a decoração vai ser a mais bonita de todas?", "12:03"],
-  ["out", "Estamos caprichando em cada detalhe. Acompanha os episódios!", "12:04"]
+  [
+   "in",
+   "Esse ano a decoração vai ser a mais bonita de todas?",
+   "12:03"
+  ],
+  [
+   "out",
+   "Estamos caprichando em cada detalhe. Acompanha os episódios!",
+   "12:04"
+  ]
  ],
- "fonte": "Vlog de Natal · EP. 02"
+ "fonte": ""
 }
