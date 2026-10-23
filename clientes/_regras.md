@@ -51,4 +51,14 @@ No fim, dizer à Talyta, cliente por cliente, o que mudou e o que ficou `[a defi
   confere a norma do conselho na fonte oficial do ano atual. Referência:
   `tk-filmes/referencias/publicidade-conselhos.md`.
 
+- **B-roll de toda diária (2026-10-23).** Em toda diária de gravação, nesta ordem: (1) analisar todas
+  as filmagens; (2) separar os **B-rolls qualificados** (cena boa sem fala, ou com fala dispensável:
+  estável, bem exposta, que sirva pra cobrir outra edição no futuro) numa pasta de B-roll no Drive do
+  cliente, uma subpasta por diária (`AAAA-MM-DD · <lugar>`), com o nome do arquivo dizendo a cena;
+  (3) separar as fotos na pasta de fotos da diária; (4) fazer o **vlog geral** (um pouco de cada coisa);
+  (5) fazer o **máximo de vídeos unitários por tema** que o material sustentar (ex.: clareamento,
+  feedback de paciente). Paciente ou cliente só entra no B-roll com autorização de imagem.
+  Aplicada em (2026-10-23): Camilla, Ary, Tamara, Galeguinho, Melissa, Annalibya; Pote Fitness com
+  pasta **a definir**.
+
 Essas seis já valiam antes da Regra 0: não passaram pela adaptação cliente a cliente.

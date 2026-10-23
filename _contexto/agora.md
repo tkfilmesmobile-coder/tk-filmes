@@ -12,6 +12,8 @@ Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): 2 ediç
 e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo v6 ficou como rascunho (`clientes/melissa-morais/`).
 Em 2026-10-20 entrou a Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): contrato pronto, esperando
 assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.
+Em 2026-10-22 o carrossel "o caso da Mari" da Dra. Camilla não saiu pela tarefa das 12h e foi publicado à mão às 14h, do
+computador principal; a tarefa do outro PC foi cancelada.
 
 ## Pendências
 - **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)
@@ -41,10 +43,9 @@ assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o
 - Galeguinho: trocar as 7 capas de destaque pelo app (arquivos em `IDENTIDADE VISUAL/PERFIL/CAPAS DE DESTAQUE` no Drive dele). (2026-09-30)
 - Os 5 posts de sábado do Galeguinho (03, 10, 17, 24 e 31/10) só saem no horário com este PC ligado ao meio-dia. (2026-09-29)
 - **Passaporte do Galeguinho: 8 vídeos em atraso, com plano de quitação.** Ritmo de 3 vídeos por semana de 18/09 a 19/11/2026 (26 no total). Conferir a cada registro semanal. (2026-09-17)
-- Cadastrar os clientes que faltam com `/cliente`: Eduarda Pereira, Dra. Camilla Wanderley, Força & Vigor, Anna Walleska. (2026-09-17)
+- Cadastrar os clientes que faltam com `/cliente`: Eduarda Pereira, Força & Vigor, Anna Walleska. (2026-09-17)
 - Conferir se junho a setembro de 2026 do Passaporte do Galeguinho foram pagos: o contrato renovou sozinho, R$ 800/mês. (2026-09-17)
 - Decidir se a pasta de produção `cliente-passaporte-do-galeguinho` (89 MB, com as skills de carrossel e post) entra pro sistema. (2026-09-17)
-- O contrato da Dra. Camilla Wanderley está com o campo de valor em branco; combinado é R$ 600/mês. (2026-09-17)
 - Rever a diária de cobertura extra de R$ 100: está bem abaixo da diária avulsa de R$ 300. (2026-09-17)
 - Decidir conectores: Notion e conferir se o conector do Google Drive da conta é o da TK (em 2026-09-29 ele não enxergou o Drive da TK; pasta compartilhada por link funciona pelo navegador). (2026-09-17)
 - Mapear as artes e peças visuais dos clientes (posts, stories, capas, peças de evento): ficou de fora do `/mapear`. (2026-09-17)

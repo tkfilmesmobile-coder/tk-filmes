@@ -66,3 +66,4 @@ Ficha criada em 2026-10-20, a partir da conversa com a Talyta no chat, do compro
   ficam fora de qualquer peça até ela confirmar.
 - **Profissão regulamentada (2026-10-08):** dentista, segue o CFO. Toda peça leva nome + número do CRO, sem preço,
   e antes e depois só dentro das condições da norma. Conferir `tk-filmes/referencias/publicidade-conselhos.md` antes de cada peça clínica.
+- **B-roll de toda diária (2026-10-23):** a partir da 1ª diária, B-rolls qualificados em `BRUTO/B-ROLL/AAAA-MM-DD · Diária consultório/` no Drive dela (`Dra. Annalibya`); fotos em `BRUTO/FOTOS/`. Depois o vlog geral e um vídeo por tema, dentro dos 4 a 6 conteúdos do plano.

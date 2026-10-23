@@ -11,12 +11,13 @@
 - 2026-09-17 · Post de atendimento infantil (foto 0149, Montserrat, degradê vinho) → `posts/2026-09/`.
 - No Instagram dela saíram: dente de leite (17/09) e manchas brancas (23/09).
 - 2026-09-29 · Instagram @dra.camillawanderley conectado pra publicar direto do sistema.
+- 2026-10-22 · Carrossel "o caso da Mari" (6 slides) publicado à mão às 14h, porque a tarefa das 12h
+  não rodou: https://www.instagram.com/p/DezeGhglm0t/
 
 ## Em aberto
 - Calendário de outubro/2026 (10 posts, 2 por semana) escrito em `calendarios/2026-10-calendario.md`; falta o PDF e as artes.
 - Termos de autorização das crianças do ensaio: assinados (confirmado em 2026-09-29).
 - Editar os vídeos da última diária de captação (a Talyta tem o material).
-- Contrato com campos em branco (ver ficha).
 - CRO dela pro termo de autorização.
 - Arquivo original da logo.
 

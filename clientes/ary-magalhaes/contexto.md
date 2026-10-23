@@ -56,3 +56,4 @@ Ficha criada em 2026-10-10, a partir do Drive da TK, da sessão de identidade de
 ## Regras gerais aplicadas
 
 - **Brand book (2026-10-13):** Há `marca/design-guide.md` (preto, bege e dourado champagne; ela não gosta de rosa) e referências. Brand book: **pendente**. Partir do design guide e de 'Como a Ary fala'; preço, depoimentos e Black Friday seguem `[a definir]`.
+- **B-roll de toda diária (2026-10-23):** B-rolls qualificados em `BRUTO/B-ROLL/AAAA-MM-DD · <atendimento>/` no Drive dela (salão, produtos, mãos trabalhando, cabelo pronto). Cliente do salão só entra com autorização de imagem (pendência já aberta). Depois o vlog geral e os reels por tema.

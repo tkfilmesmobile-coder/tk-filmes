@@ -60,3 +60,4 @@ Ficha criada em 2026-10-16, a partir do pedido da Talyta no chat e do comprovant
   (antes e depois só pelo próprio dentista, com TCLE; nome + número do CRO em toda peça; sem preço). Antes de editar vídeo com procedimento, resultado ou antes e
   depois, conferir `tk-filmes/referencias/publicidade-conselhos.md`, com identificação (nome + número
   do conselho) quando a norma pedir.
+- **B-roll de toda diária (2026-10-23):** ela manda os takes e a TK só edita: dos takes recebidos, os B-rolls bons vão pra `B-ROLL/AAAA-MM-DD/` no Drive dela. Paciente só com autorização (a dos takes de 11/09 está assinada). Vlog geral e unitários só se o material e o pacote de edições permitirem.

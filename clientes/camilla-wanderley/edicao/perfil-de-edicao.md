@@ -19,8 +19,7 @@ passar a direção da filmmaker. A duração final acompanha o vídeo gravado.
 3. **Separar os conteúdos únicos:** tudo que for minimamente explicativo vira **um vídeo próprio**.
 4. **Finalizar cada vídeo** neste perfil.
 5. **Vlog de atendimento geral** com o resto da diária.
-6. Exportados vão pro Drive dela: `VIDEOS/<MÊS AAAA>/PRODUÇÃO TK FILMES/` (o que é da clínica vai em
-   `PRODUÇÃO CLÍNICA/`).
+6. Exportados vão pro Drive dela: `VÍDEOS EDITADOS/<AAAA-MM>/` (pasta reorganizada em 2026-10-23).
 
 ## A linguagem
 

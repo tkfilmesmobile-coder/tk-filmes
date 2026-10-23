@@ -11,8 +11,10 @@
 - Novembro: dicas (03/11) e Consciência Negra (20/11) agendados; story de últimas vagas (30/11) pronto. `calendarios/2026-11-calendario.md`.
 - Próximo: roteiros dos 12 reels de outubro (material do atendimento de 12/10 já no Drive, `04_ATENDIMENTO-01`).
 
+## Resolvido
+- 2026-10-22: autorização de imagem confirmada pra todas as clientes que aparecem nos posts, inclusive a de 20/11 (IMG_3174). Posts agendados seguem como estão.
+
 ## Em aberto
-- Autorização de imagem das clientes que aparecem nos posts (a de 20/11, IMG_3174, é a mais sensível).
 - Preço da sobrancelha e dos kits de tratamento.
 - Prints reais de depoimentos (10/11), fotos de antes e depois autorizadas (17/11), oferta de Black Friday (24/11), se o salão abre em 20/11.
 - Data da diária 1 (13/10 é feriado municipal).

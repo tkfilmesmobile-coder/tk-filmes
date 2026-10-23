@@ -1,0 +1,14 @@
+[
+ {"id": "01-bom-dia", "foto": "b-roll/estrutura-01-vaso.jpg", "kicker": "SEXTA-FEIRA", "pos": "baixo",
+  "texto": "Bom dia.<br>Sexta-feira de <b>atendimento</b> por aqui."},
+ {"id": "03-novidade", "foto": "b-roll/equipe-02-maos.jpg", "kicker": "PAGAMENTO DO INSS", "pos": "meio", "tam": 62,
+  "texto": "Ganha até um salário mínimo? O pagamento de outubro <b>começa segunda, dia 26</b>.",
+  "sub": "A data segue o final do benefício. Acima do mínimo, a partir de <b>3 de novembro</b>.",
+  "fonte": "INSS · Tabela de Pagamento de Benefícios 2026"},
+ {"id": "05-chamada-reel", "foto": "tamara/tamara-estudio-0126.jpg", "kicker": "HOJE, 16H", "pos": "baixo", "posicao": "50% 30%",
+  "texto": "Carta negada no INSS: <b>quando judicializar?</b>",
+  "sub": "Vídeo novo da Dra. Tamara no feed."},
+ {"id": "08-bom-fim-de-semana", "foto": "tamara/tamara-estudio-0164.jpg", "kicker": "BOM FIM DE SEMANA", "pos": "baixo", "posicao": "50% 20%",
+  "texto": "Na dúvida sobre o INSS,<br><b>pergunte a quem entende.</b>",
+  "sub": "Voltamos segunda, às 8h."}
+]
