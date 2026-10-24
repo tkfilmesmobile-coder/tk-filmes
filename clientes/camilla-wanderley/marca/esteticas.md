@@ -69,7 +69,9 @@ só no chat; salvar o arquivo em `referencias/stories-clinico-claro/` quando che
 
 **Aprovada:** só a versão escura, com uma correção: a doutora fica com a **cor natural da foto, tratada** (color grade
 CAMILLA, `grade.py`); o vinho fica só no ambiente (bordas tingidas em modo cor, vinheta e véu no rodapé). Nada de foto
-monocromática. **Versão clara (cards) recusada.** Gerador: `posts/_estetica-datas/gera_datas.py`, função `homenagem()`.
+monocromática. **Versão clara (cards) recusada.** Gerador: `posts/_estetica-datas/gera_datas.py`, função `homenagem()`
+(lista `DATAS`: foto, título por linhas, data, frases; o título encolhe sozinho pra caber; frases sobem pra cima do título;
+nada de texto em cima de rosto, ajustar `tags_css`/`pos` por foto). Primeiro uso: 6 datas de nov/dez (2026-10-24).
 O histórico do teste segue abaixo.
 
 Referências que a Talyta amou ("só adaptar as cores"): `referencias/datas-comemorativas/ref-1-dia-do-dentista-cinema.webp`,
