@@ -72,6 +72,9 @@ CAMILLA, `grade.py`); o vinho fica só no ambiente (bordas tingidas em modo cor,
 monocromática. **Versão clara (cards) recusada.** Gerador: `posts/_estetica-datas/gera_datas.py`, função `homenagem()`
 (lista `DATAS`: foto, título por linhas, data, frases; o título encolhe sozinho pra caber; frases sobem pra cima do título;
 nada de texto em cima de rosto, ajustar `tags_css`/`pos` por foto). Primeiro uso: 6 datas de nov/dez (2026-10-24).
+Stories: `stories_datas.py` (1080×1920, zona segura; story 1 com foto diferente da do post, 2 e 3 tipográficos).
+**Degradê nunca cobre rosto (2026-10-24):** `montar()` enquadra a foto e acha os rostos (YuNet); o escuro de baixo começa
+abaixo do último rosto, o véu de cima some se há rosto no alto, e uma camada devolve a foto natural na região de cada rosto.
 O histórico do teste segue abaixo.
 
 Referências que a Talyta amou ("só adaptar as cores"): `referencias/datas-comemorativas/ref-1-dia-do-dentista-cinema.webp`,

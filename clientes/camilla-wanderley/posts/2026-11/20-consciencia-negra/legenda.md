@@ -6,4 +6,6 @@ Hoje, Dia Nacional de Zumbi e da Consciência Negra, é dia de lembrar, respeita
 
 #consciencianegra #zumbidospalmares #serradabarriga #uniaodospalmares
 
+Foto: Ministério da Cultura, Parque Memorial Quilombo dos Palmares (CC BY 2.0, Wikimedia Commons).
+
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares

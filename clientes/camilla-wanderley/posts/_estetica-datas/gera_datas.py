@@ -27,6 +27,84 @@ def tratar(nome):
     return dst
 
 
+YUNET = os.path.expandvars(r"%LOCALAPPDATA%\Programs\modelos\yunet.onnx")
+
+
+def montar(nome, W, H, tam="cover", pos="center top", tratada=True, chave=None):
+    """Enquadra a foto (já tratada) num quadro WxH, como o CSS faria, e acha os rostos (YuNet) no quadro final.
+    Devolve (caminho do quadro, lista de rostos (x, y, w, h))."""
+    from PIL import Image
+    src = tratar(nome) if tratada else f"{AQUI}/ig/{nome}.jpg"
+    img = Image.open(src).convert("RGB")
+    w, h = img.size
+    if tam == "cover":
+        s = max(W / w, H / h)
+    else:
+        a, b = tam.split()
+        s = float(a[:-2]) / w if a != "auto" else float(b[:-2]) / h
+    nw, nh = round(w * s), round(h * s)
+    px, py = pos.split()
+
+    def p(v, livre):
+        if v == "center": return livre / 2
+        if v in ("left", "top"): return 0
+        if v in ("right", "bottom"): return livre
+        return float(v.replace("px", ""))
+    quadro = Image.new("RGB", (W, H), (34, 8, 13))
+    x0, y0 = round(p(px, W - nw)), round(p(py, H - nh))
+    foto = img.resize((nw, nh), Image.LANCZOS)
+    # borda da foto que não chega na borda do quadro some suave no fundo (sem linha dura)
+    from PIL import ImageDraw
+    alfa = Image.new("L", (nw, nh), 255)
+    dr = ImageDraw.Draw(alfa)
+    f = 180
+    for i in range(f):
+        v = int(255 * i / f)
+        if y0 > 0: dr.line([(0, i), (nw, i)], fill=v)
+        if y0 + nh < H: dr.line([(0, nh - 1 - i), (nw, nh - 1 - i)], fill=v)
+    quadro.paste(foto, (x0, y0), alfa)
+    os.makedirs(f"{AQUI}/fotos/_quadros", exist_ok=True)
+    caminho = f"{AQUI}/fotos/_quadros/{chave or nome}-{W}x{H}.jpg"
+    quadro.save(caminho, quality=93)
+    bgr = cv2.imread(caminho)
+    det = cv2.FaceDetectorYN.create(YUNET, "", (W, H), 0.6)
+    _, fs = det.detect(bgr)
+    rostos = [tuple(int(v) for v in f[:4]) for f in (fs if fs is not None else [])]
+    return caminho, rostos
+
+
+def css_veu(rostos, H, rampa=0.18, topo_escuro=False):
+    """Degradê que nunca cobre rosto: o escuro de baixo só começa abaixo do rosto mais baixo; o véu do alto só existe
+    se não houver rosto perto do topo."""
+    fb = max([y + h for x, y, w, h in rostos], default=0)
+    ft = min([y for x, y, w, h in rostos], default=H)
+    ini = max(0.42 * H, fb + 30)
+    pc = lambda v: f"{min(100, v / H * 100):.1f}%"
+    alto = f"rgba(34,8,13,.35) 0%,rgba(34,8,13,0) {pc(0.16 * H)}," if ft > 0.2 * H else "rgba(34,8,13,0) 0%,"
+    if topo_escuro:  # texto no alto: escuro de cima até antes do primeiro rosto
+        fim = max(0.30 * H, ft - 40)
+        alto = f"#22080D 0%,rgba(34,8,13,.92) {pc(fim * 0.72)},rgba(34,8,13,0) {pc(fim)},"
+    return (f"linear-gradient(to bottom,{alto}rgba(34,8,13,0) {pc(ini)},rgba(34,8,13,.74) {pc(ini + rampa * H)},"
+            f"rgba(34,8,13,.95) {pc(ini + 2 * rampa * H)},#22080D 100%)")
+
+
+def css_rostos(caminho, rostos, W, H):
+    """Camada por cima de todos os degradês: a própria foto, só na região de cada rosto (máscara suave)."""
+    if not rostos:
+        return ""
+    m = ",".join(f"radial-gradient(ellipse {w * 1.0:.0f}px {h * 1.2:.0f}px at {x + w / 2:.0f}px {y + h * 0.48:.0f}px,#000 62%,transparent 100%)"
+                 for x, y, w, h in rostos)
+    return (f".rostos{{left:0;top:0;width:{W}px;height:{H}px;background:url('file:///{caminho}') no-repeat 0 0/{W}px {H}px;"
+            f"-webkit-mask-image:{m};mask-image:{m}}}")
+
+
+def js_rostos(rostos):
+    """Se as faixas de frase caírem em cima de um rosto, passam pro outro lado."""
+    return f"""<script>window.ROSTOS={[list(r) for r in rostos]};
+window.foge=(el,esq)=>{{const bate=()=>{{const r=el.getBoundingClientRect();return ROSTOS.some(([x,y,w,h])=>r.left<x+w&&r.right>x&&r.top<y+h&&r.bottom>y)}};
+ if(bate()){{el.style.left=esq+'px';}} }};</script>"""
+
+
 BASE = """@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1350px;overflow:hidden}
@@ -51,6 +129,7 @@ document.fonts.ready.then(()=>{
   if(ult.right+48+dr.width<=1000){ data.style.left=(ult.right+48)+'px'; data.style.top=(ult.top+ult.height*0.42)+'px'; }
   else { const pre=document.querySelector('.pre').getBoundingClientRect(); data.style.right='92px'; data.style.left='auto'; data.style.top=(pre.top+8)+'px'; data.style.textAlign='right'; }
   const tags=document.querySelector('.tags'); tags.style.top=(bloco.top-tags.getBoundingClientRect().height-46)+'px';
+  if(window.foge) foge(tags,92);
 });
 </script>"""
 
@@ -58,17 +137,18 @@ document.fonts.ready.then(()=>{
 def homenagem(d):
     tags = "".join(f"<span>{f}</span>" for f in d["frases"])
     big = "".join(f'<div class="big nb">{l}</div>' for l in d["titulo"])
-    foto = tratar(d["foto"])
+    foto, rostos = montar(d["foto"], 1080, 1350, d.get("tam", "1080px auto"), d.get("pos", "0 -20px"), d.get("tratada", True),
+                          d["slug"].replace("/", "_"))
     cx, cy, ew, eh = d.get("elipse", (50, 44, 46, 62))
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{BASE}
 body{{background:{NOITE};color:#fff}}
-.foto{{left:0;top:0;width:1080px;height:1350px;background:url('file:///{foto}') no-repeat;background-size:{d.get('tam', '1080px auto')};background-position:{d.get('pos', '0 -20px')}}}
+.foto{{left:0;top:0;width:1080px;height:1350px;background:url('file:///{foto}') no-repeat 0 0/1080px 1350px}}
+{css_rostos(foto, rostos, 1080, 1350)}
 .tinge{{left:0;top:0;width:1080px;height:1350px;mix-blend-mode:color;
   background:radial-gradient(ellipse {ew}% {eh}% at {cx}% {cy}%,rgba(142,39,55,0) 0%,rgba(142,39,55,0) 62%,rgba(142,39,55,.85) 100%)}}
 .vinheta{{left:0;top:0;width:1080px;height:1350px;mix-blend-mode:multiply;
   background:radial-gradient(ellipse {ew + 10}% {eh + 4}% at {cx}% {cy}%,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 58%,rgba(120,40,52,.75) 100%)}}
-.veu{{left:0;top:0;width:1080px;height:1350px;background:
-  linear-gradient(to bottom,rgba(34,8,13,.35) 0%,rgba(34,8,13,0) 16%,rgba(34,8,13,0) 46%,rgba(34,8,13,.72) 65%,rgba(34,8,13,.95) 83%,{NOITE} 100%)}}
+.veu{{left:0;top:0;width:1080px;height:1350px;background:{css_veu(rostos, 1350, d.get('rampa', 0.18))}}}
 .orbita{{left:-560px;top:90px;width:1000px;height:1000px;border:1.5px solid rgba(246,239,234,.30);border-radius:50%}}
 .ic{{width:66px;height:66px;border-radius:50%;background:rgba(246,239,234,.16);border:1px solid rgba(246,239,234,.45);
   color:{CREME};display:flex;align-items:center;justify-content:center}}
@@ -83,7 +163,8 @@ body{{background:{NOITE};color:#fff}}
 .rod b{{font-weight:600;color:#fff;font-size:22px}}
 .cw{{text-align:right;line-height:1.1}} .cw b{{font-size:44px;letter-spacing:2px;font-weight:300}}
 </style></head><body>
-<div class="abs foto"></div><div class="abs tinge"></div><div class="abs vinheta"></div><div class="abs veu"></div><div class="abs orbita"></div>
+<div class="abs foto"></div><div class="abs tinge"></div><div class="abs vinheta"></div><div class="abs veu"></div>{'<div class="abs rostos"></div>' if rostos else ''}<div class="abs orbita"></div>
+{js_rostos(rostos)}
 <div class="abs ic" style="left:{d.get('ic1', (300, 150))[0]}px;top:{d.get('ic1', (300, 150))[1]}px">{ICONE_CORACAO}</div>
 <div class="abs ic" style="left:{d.get('ic2', (405, 560))[0]}px;top:{d.get('ic2', (405, 560))[1]}px">{ICONE_DENTE}</div>
 <div class="abs tags nb" style="{d.get('tags_css', '')}">{tags}</div>
@@ -105,8 +186,10 @@ DATAS = [
          pre="Dia Mundial da", titulo=["Prematuridade"], dia="17", mes="NOVEMBRO", ic1=(130, 200), ic2=(70, 520),
          frases=["Meu pai passou a vida", "cuidando de quem chega ao mundo.", "Eu cuido do sorriso da mãe:",
                  "gengiva também é pré-natal."]),
-    dict(slug="2026-11/20-consciencia-negra", foto="2026-07-27_11360", tam="auto 1700px", pos="-375px 0", elipse=(50, 40, 40, 64),
-         pre="Dia Nacional de Zumbi e da", pre_tam=50, titulo=["Consciência", "Negra"], dia="20", mes="NOVEMBRO",
+    # foto: Ministério da Cultura, CC BY 2.0 (Wikimedia Commons), estátua no Parque Memorial Quilombo dos Palmares
+    dict(slug="2026-11/20-consciencia-negra", foto="commons-zumbi-estatua", tratada=False, tam="1080px auto", pos="0 -60px",
+         elipse=(42, 26, 56, 50), pre="Dia Nacional de Zumbi e da", pre_tam=50, titulo=["Consciência", "Negra"], dia="20", mes="NOVEMBRO",
+         ic1=(860, 120), ic2=(960, 420),
          frases=["Toda quinta eu chego", "à terra de Zumbi dos Palmares.", "Uma cidade que ensina", "o Brasil a resistir."]),
     dict(slug="2026-12/08-dia-da-familia", foto="2020-12-25_07558", tam="1080px auto", pos="0 0", elipse=(48, 34, 64, 66),
          pre="Dia Nacional da", titulo=["Família"], dia="08", mes="DEZEMBRO", ic1=(860, 120), ic2=(960, 420),
@@ -117,14 +200,16 @@ DATAS = [
 ]
 
 
-def render(html, pasta):
+def render(html, pasta, nome="01", altura=1350):
     os.makedirs(pasta, exist_ok=True)
-    hp = f"{pasta}/01.html"
+    hp = f"{pasta}/{nome}.html"
     open(hp, "w", encoding="utf-8").write(html)
+    if os.path.exists(f"{pasta}/{nome}.png"):  # o Chrome às vezes não sobrescreve: apaga antes
+        os.remove(f"{pasta}/{nome}.png")
     subprocess.run([CHROME, "--headless=new", f"--user-data-dir={AQUI}/.chrome", "--hide-scrollbars", "--force-device-scale-factor=1",
-                    "--window-size=1080,1350", "--virtual-time-budget=8000", f"--screenshot={pasta}/01.png", "file:///" + hp], capture_output=True)
+                    f"--window-size=1080,{altura}", "--virtual-time-budget=8000", f"--screenshot={pasta}/{nome}.png", "file:///" + hp], capture_output=True)
     os.remove(hp)
-    print(pasta)
+    print(pasta, nome)
 
 
 if __name__ == "__main__":

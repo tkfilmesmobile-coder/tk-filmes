@@ -33,7 +33,7 @@
   quintas 24/12 e 31/12, se o Dr. Jadson entra no post da família. (2026-10-24)
 - **Posts de datas nov/dez (2026-10-24):** 6 artes na estética homenagem, com legenda, em `posts/2026-11/` e `posts/2026-12/`
   e no Drive. Antes de publicar: confirmar as frases sobre o pai (17/11 e 08/12) e se a filha pode aparecer (08/12, foto de
-  2020); faltam os 3 stories de cada e os stories de Maceió (05/12) e Réveillon (31/12). Pedir foto recente com o pai.
+  2020). Stories prontos (3 por data, mais Maceió 05/12 e Réveillon 31/12), também no Drive. Pedir foto recente com o pai.
 - Falta foto da doutora sozinha no banco (retrato, sem paciente): pedir na próxima diária. (2026-10-24)
 - Os 19 B-rolls no Drive estão sem o color grade novo; refazer com `grade.py` se forem usados. (2026-10-23)
 - Reels "Depoimento da Mari" v4 (close da boca, pós aparelho, fotos do casamento) só existe no notebook; postar quando ligar. (2026-10-23)
