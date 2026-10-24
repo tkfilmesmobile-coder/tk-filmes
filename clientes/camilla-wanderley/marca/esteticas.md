@@ -65,7 +65,12 @@ só no chat; salvar o arquivo em `referencias/stories-clinico-claro/` quando che
 - Uso: stories educativos (motivos, mitos, etapas). Atenção à regra de não usar tópicos numerados no feed: aqui a
   numeração é a sequência dos stories, não uma lista dentro da arte.
 
-## 5 · Homenagem 🟡 conceito aprovado, amostras em revisão (2026-10-24, só datas comemorativas)
+## 5 · Homenagem ✅ aprovada na amostra de Natal (2026-10-24, só datas comemorativas)
+
+**Aprovada:** só a versão escura, com uma correção: a doutora fica com a **cor natural da foto, tratada** (color grade
+CAMILLA, `grade.py`); o vinho fica só no ambiente (bordas tingidas em modo cor, vinheta e véu no rodapé). Nada de foto
+monocromática. **Versão clara (cards) recusada.** Gerador: `posts/_estetica-datas/gera_datas.py`, função `homenagem()`.
+O histórico do teste segue abaixo.
 
 Referências que a Talyta amou ("só adaptar as cores"): `referencias/datas-comemorativas/ref-1-dia-do-dentista-cinema.webp`,
 `ref-2-dia-do-obstetra-cards.webp`, `ref-3-dia-do-medico-colagem.webp`. Amostras e gerador: `posts/_estetica-datas/`
