@@ -18,7 +18,7 @@
   `VÍDEOS EDITADOS/2026-10`: vlog, feedback Robervânia, feedback colaboradora da CIP, clareamento da noiva, clareamento
   caseiro (com gráficos em vidro) e espaço entre os dentes (resina). Edição em `edicao/2026-10-22/`.
 
-- 2026-10-24 · 6 carrosséis + 3 stories cada dos conteúdos da diária de 22/10 (posts 11 a 16, `posts/2026-10/`),
+- 2026-10-24 · 6 carrosséis + 3 stories cada dos conteúdos da diária de 22/10 (posts 11 a 16, `posts/2026-10/`; v2 com os feedbacks como tema: 12 atendimento humanizado, 13 medo de dentista),
   com legenda; no Drive em `POSTS/2026-10`. Aguardam datas de publicação.
 
 ## Em aberto
