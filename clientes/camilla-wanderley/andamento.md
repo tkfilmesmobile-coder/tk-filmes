@@ -19,7 +19,8 @@
   caseiro (com gráficos em vidro) e espaço entre os dentes (resina). Edição em `edicao/2026-10-22/`.
 
 - 2026-10-24 · 6 carrosséis + 3 stories cada dos conteúdos da diária de 22/10 (posts 11 a 16, `posts/2026-10/`; v2 com os feedbacks como tema: 12 atendimento humanizado, 13 medo de dentista),
-  com legenda; no Drive em `POSTS/2026-10`. Aguardam datas de publicação.
+  com legenda; no Drive em `POSTS/2026-10`. Aguardam datas de publicação. O 16 foi refeito no mesmo dia só com a
+  paciente do vídeo (6624/6625).
 
 ## Em aberto
 - **Vídeo do implante (diária 22/10):** falta a animação realista (FLUX + Wan 2.2, cota grátis diária do Hugging Face,
@@ -27,6 +28,7 @@
 - **Antes de publicar os vídeos de 22/10:** termo de autorização de imagem da Robervânia, da colaboradora da CIP, da noiva e da
   mãe, da paciente do espelho (6624), da paciente da resina (6625) e da foto 6577. CRO da doutora na assinatura. (2026-10-23)
 - Conferir na legenda da colaboradora a palavra "abraçada" (a transcrição ouviu "apressada"). (2026-10-23)
+- Falta foto da doutora sozinha no banco (retrato, sem paciente): pedir na próxima diária. (2026-10-24)
 - Os 19 B-rolls no Drive estão sem o color grade novo; refazer com `grade.py` se forem usados. (2026-10-23)
 - Reels "Depoimento da Mari" v4 (close da boca, pós aparelho, fotos do casamento) só existe no notebook; postar quando ligar. (2026-10-23)
 - Calendário de outubro/2026 (10 posts, 2 por semana) escrito em `calendarios/2026-10-calendario.md`; falta o PDF e as artes.

@@ -211,12 +211,13 @@ POSTS_DEF["16-espaco-entre-dentes"] = dict(
         foto(Q("IMG_6624_003-0"), "center 55%") + sombra(BAIXO_FORTE) + TOPO
         + B(820, "Com resina,<br>dá pra fechar", "", None, 84)
         + '<div class="nota sh" style="position:absolute;left:100px;top:1060px;width:660px">e ajustar o tamanho e a posição dos dentes, quando faz sentido pro seu sorriso</div>' + ARROBA,
-        foto(BANCO("0924-0372"), "center 25%") + sombra(BAIXO_FORTE)
+        # 2026-10-24: carrossel inteiro com a mesma paciente (vídeos 6624 e 6625), sem outros pacientes do banco
+        foto(Q("IMG_6624_t700-0"), "center 40%") + sombra(BAIXO_FORTE)
         + C(880, "CADA SORRISO TEM <b>O SEU PLANO</b>", "o seu começa<br>na avaliação", "me chama no direct", 108) + ARROBA,
     ],
-    stories=[(Q("IMG_6624_003-0"), "center 55%", "post novo", "aquele espacinho entre os dentes", "tem solução"),
-             (BANCO("0924-0355"), "center 25%", "resina", "dá pra fechar com resina", "quando faz sentido pro seu sorriso"),
-             (BANCO("0903-0163"), "center 25%", "avaliação", "me chama no direct", "e vem conversar comigo")],
+    stories=[(Q("IMG_6624_t550-0"), "center 50%", "post novo", "aquele espacinho entre os dentes", "tem solução"),
+             (Q("IMG_6625_020-0"), "center 50%", "resina", "dá pra fechar com resina", "quando faz sentido pro seu sorriso"),
+             (Q("IMG_6624_t390-0"), "center 50%", "avaliação", "me chama no direct", "e vem conversar comigo")],
 )
 
 
