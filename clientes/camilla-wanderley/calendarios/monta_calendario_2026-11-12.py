@@ -19,6 +19,7 @@ DATAS = {  # feed, dia fixo
     dt.date(2026, 12, 8): ("post de data", "Dia Nacional da Família", "posts/2026-12/08-dia-da-familia"),
     dt.date(2026, 12, 25): ("post de data", "Natal", "posts/2026-12/25-natal"),
 }
+BLOQUEADOS = {dt.date(2026, 11, 2)}  # Finados: sem post de vídeo/carrossel (pedido da Talyta, 2026-10-24)
 SO_STORIES = {
     dt.date(2026, 12, 5): ("só stories", "211 anos de Maceió", "posts/2026-12/05-maceio-211-anos"),
     dt.date(2026, 12, 31): ("só stories", "Réveillon", "posts/2026-12/31-reveillon"),
@@ -94,7 +95,7 @@ def agenda():
     feed = {d: (*v, None) for d, v in DATAS.items()}
     dia = INICIO
     for fmt, tema, fonte, leg in SEQUENCIA:
-        while dia in DATAS:  # caiu em data comemorativa: pula pro dia seguinte
+        while dia in DATAS or dia in BLOQUEADOS:  # caiu em data comemorativa ou feriado bloqueado: pula pro dia seguinte
             dia += dt.timedelta(days=1)
         feed[dia] = (fmt, tema, fonte, leg)
         dia += dt.timedelta(days=2)  # um dia livre
@@ -137,8 +138,7 @@ if __name__ == "__main__":
           "- Confirmar com a doutora as frases sobre o pai (17/11 e 08/12) e se a filha pode aparecer (08/12 e stories de Natal).",
           "- Conferir a palavra \"abraçada\" na legenda do vídeo da colaboradora.",
           "- Token do Instagram da Camilla vence por volta de 27/11: renovar antes.",
-          "- 02/11 é Finados: o carrossel da noiva cai nesse dia pela regra. Se preferir não postar tema festivo no feriado,",
-          "  ele vai pro 03/11 e o resto anda um dia.", "",
+          "- 02/11 (Finados) fica sem post: o carrossel da noiva foi pro 03/11 e o resto andou com um dia de espaço.", "",
           "## Vagas livres", "",
           "Depois de 21/11 o feed só tem as datas (08/12 e 25/12). Cabem aí: o vídeo do implante (falta a animação), o reels",
           "\"Depoimento da Mari\" v4 (está no notebook) e o conteúdo da próxima diária.", ""]

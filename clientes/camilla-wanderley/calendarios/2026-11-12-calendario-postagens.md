@@ -13,12 +13,12 @@ o resto segue com um dia de espaço. Gerado por `monta_calendario_2026-11-12.py`
 | qua 28/10 | carrossel | Bastidores de uma quinta na CIP | 3 (do post) |
 | sex 30/10 | reels | Clareamento antes do casamento | repostar o reels |
 | dom 01/11 | post de data | Novembro Azul + Semana de Prevenção do Câncer Bucal | 3 (do post) |
-| seg 02/11 | carrossel | Vai casar? Comece o clareamento antes | 3 (do post) |
-| qua 04/11 | reels | Feedback · Robervânia | repostar o reels |
-| sex 06/11 | carrossel | Trauma de dentista e atendimento humanizado | 3 (do post) |
-| dom 08/11 | reels | Clareamento caseiro · o erro que zera tudo | repostar o reels |
-| ter 10/11 | carrossel | O erro que zera o clareamento caseiro | 3 (do post) |
-| qui 12/11 | reels | Feedback · colaboradora da CIP | repostar o reels |
+| ter 03/11 | carrossel | Vai casar? Comece o clareamento antes | 3 (do post) |
+| qui 05/11 | reels | Feedback · Robervânia | repostar o reels |
+| sáb 07/11 | carrossel | Trauma de dentista e atendimento humanizado | 3 (do post) |
+| seg 09/11 | reels | Clareamento caseiro · o erro que zera tudo | repostar o reels |
+| qua 11/11 | carrossel | O erro que zera o clareamento caseiro | 3 (do post) |
+| sex 13/11 | reels | Feedback · colaboradora da CIP | repostar o reels |
 | sáb 14/11 | post de data | Dia Mundial do Diabetes | 3 (do post) |
 | dom 15/11 | carrossel | Medo de dentista? Você não está sozinha | 3 (do post) |
 | ter 17/11 | post de data | Dia Mundial da Prematuridade (com o pai) | 3 (do post) |
@@ -109,7 +109,7 @@ Se você conhece um homem que "só vai ao dentista quando dói", manda isso pra 
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### seg 02/11 · carrossel · Vai casar? Comece o clareamento antes
+### ter 03/11 · carrossel · Vai casar? Comece o clareamento antes
 
 - Arquivo: `posts/2026-10/14-clareamento-casamento`
 - Legenda:
@@ -131,7 +131,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #clareamentodental #noivas #uniaodospalmares #sorriso
 ```
 
-### qua 04/11 · reels · Feedback · Robervânia
+### qui 05/11 · reels · Feedback · Robervânia
 
 - Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Feedback · Robervânia.mp4
 - Legenda:
@@ -148,7 +148,7 @@ Obrigada pela confiança, Robervânia, e por trazer a sua família e as suas ami
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### sex 06/11 · carrossel · Trauma de dentista e atendimento humanizado
+### sáb 07/11 · carrossel · Trauma de dentista e atendimento humanizado
 
 - Arquivo: `posts/2026-10/12-atendimento-humanizado`
 - Legenda:
@@ -170,7 +170,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #atendimentohumanizado #medodedentista #odontologia #uniaodospalmares
 ```
 
-### dom 08/11 · reels · Clareamento caseiro · o erro que zera tudo
+### seg 09/11 · reels · Clareamento caseiro · o erro que zera tudo
 
 - Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Clareamento caseiro · o erro que zera tudo.mp4
 - Legenda:
@@ -189,7 +189,7 @@ Está clareando em casa? Salva esse vídeo pra lembrar. 🤍
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### ter 10/11 · carrossel · O erro que zera o clareamento caseiro
+### qua 11/11 · carrossel · O erro que zera o clareamento caseiro
 
 - Arquivo: `posts/2026-10/15-clareamento-caseiro-erro`
 - Legenda:
@@ -211,7 +211,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #clareamentodental #clareamentocaseiro #odontologia #uniaodospalmares
 ```
 
-### qui 12/11 · reels · Feedback · colaboradora da CIP
+### sex 13/11 · reels · Feedback · colaboradora da CIP
 
 - Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Feedback · colaboradora da CIP.mp4
 - Legenda:
@@ -392,8 +392,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, Uni
 - Confirmar com a doutora as frases sobre o pai (17/11 e 08/12) e se a filha pode aparecer (08/12 e stories de Natal).
 - Conferir a palavra "abraçada" na legenda do vídeo da colaboradora.
 - Token do Instagram da Camilla vence por volta de 27/11: renovar antes.
-- 02/11 é Finados: o carrossel da noiva cai nesse dia pela regra. Se preferir não postar tema festivo no feriado,
-  ele vai pro 03/11 e o resto anda um dia.
+- 02/11 (Finados) fica sem post: o carrossel da noiva foi pro 03/11 e o resto andou com um dia de espaço.
 
 ## Vagas livres
 
