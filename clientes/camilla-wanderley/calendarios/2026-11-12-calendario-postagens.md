@@ -28,13 +28,13 @@ o resto segue com um dia de espaço. Gerado por `monta_calendario_2026-11-12.py`
 | seg 23/11 | carrossel | Aquele espacinho entre os dentes tem solução | 3 (do post) |
 | ter 01/12 | reels | Canal dói? (vídeo de setembro) | repostar o reels |
 | qui 03/12 | reels | Sensibilidade ou canal? (vídeo de setembro) | repostar o reels |
-| sáb 05/12 | só stories | 211 anos de Maceió | 3 (só stories) |
+| sáb 05/12 | post de data | 211 anos de Maceió | 3 (do post) |
 | dom 06/12 | reels | Acompanhamento de 6 em 6 meses (vídeo de setembro) | repostar o reels |
 | ter 08/12 | post de data | Dia Nacional da Família | 3 (do post) |
 | sex 25/12 | post de data | Natal | 3 (do post) |
-| qui 31/12 | só stories | Réveillon | 3 (só stories) |
+| qui 31/12 | post de data | Réveillon | 3 (do post) |
 
-Feed: 3 em outubro (26 a 31), 14 em novembro, 5 em dezembro. Contrato: 5 posts fixos por mês.
+Feed: 3 em outubro (26 a 31), 14 em novembro, 7 em dezembro. Contrato: 5 posts fixos por mês.
 
 ## Cada postagem
 
@@ -387,9 +387,24 @@ Quem diferencia uma da outra é a avaliação. Sentiu algo assim? Me chama no di
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### sáb 05/12 · só stories · 211 anos de Maceió
+### sáb 05/12 · post de data · 211 anos de Maceió
 
 - Arquivo: `posts/2026-12/05-maceio-211-anos`
+- Legenda:
+
+```
+211 anos de Maceió. 🤍
+
+Moro em Maceió e toda quinta pego a estrada até União dos Palmares. Duas cidades que fazem parte da minha rotina e da minha história.
+
+Parabéns, Maceió. Que venham muitos anos de mar, sol e sorrisos.
+
+#maceio #maceio211anos #alagoas
+
+Foto: Marinelson Almeida, orla de Ponta Verde (CC BY 2.0, Wikimedia Commons).
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
 
 ### dom 06/12 · reels · Acompanhamento de 6 em 6 meses (vídeo de setembro)
 
@@ -442,9 +457,22 @@ Obrigada por cada quinta, cada conversa e cada sorriso confiado a mim neste ano.
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### qui 31/12 · só stories · Réveillon
+### qui 31/12 · post de data · Réveillon
 
 - Arquivo: `posts/2026-12/31-reveillon`
+- Legenda:
+
+```
+Que 2027 venha leve, com saúde e muitos motivos pra sorrir.
+
+Obrigada por cada quinta deste ano e por cada sorriso confiado a mim. Nos vemos em janeiro.
+
+Feliz Ano-Novo! 🤍
+
+#reveillon #feliz2027 #anonovo
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
 
 ## Antes de publicar
 
@@ -457,5 +485,5 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, Uni
 
 ## Vagas livres
 
-Dezembro tem os três vídeos de setembro (canal dói, sensibilidade x canal, 6 em 6 meses) e as datas (08/12 e 25/12):
-5 posts, como no contrato. Ainda cabem: o vídeo do implante (falta a animação) e a próxima diária.
+Dezembro tem os três vídeos de setembro (canal dói, sensibilidade x canal, 6 em 6 meses) e 4 datas (05, 08, 25 e 31/12):
+7 posts. Ainda cabem: o vídeo do implante (falta a animação) e a próxima diária.

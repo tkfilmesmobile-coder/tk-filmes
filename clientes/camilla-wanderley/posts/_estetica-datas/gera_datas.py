@@ -70,7 +70,31 @@ def montar(nome, W, H, tam="cover", pos="center top", tratada=True, chave=None):
     det = cv2.FaceDetectorYN.create(YUNET, "", (W, H), 0.6)
     _, fs = det.detect(bgr)
     rostos = [tuple(int(v) for v in f[:4]) for f in (fs if fs is not None else [])]
+    if chave and chave in SEM_ROSTOS:  # foto sem pessoa em destaque (multidão miúda): o degradê segue o padrão
+        rostos = []
     return caminho, rostos
+
+
+SEM_ROSTOS = {"2026-12_31-reveillon"}
+
+# Data com cor forte própria usa a cor dela no lugar do vinho (pedido da Talyta, 2026-10-24): ex. Ano-Novo dourado,
+# Novembro Azul azul. Troca as cores do tema vinho (tom, vinheta, fundo, faixas e degradê do título) pelas da data.
+TEMAS = {
+    "azul": {"142,39,55": "34,86,170", "120,40,52": "28,62,128", "110,28,42": "24,52,110", "34,8,13": "6,18,42",
+             "#22080D": "#06122A", "#EADBD3": "#DCE8F7", "#D99AA5": "#8DB6E8", "#c25a6e": "#3D7BD0"},
+    "roxo": {"142,39,55": "112,56,160", "120,40,52": "82,42,120", "110,28,42": "70,34,104", "34,8,13": "20,9,34",
+             "#22080D": "#140922", "#EADBD3": "#EBDDF6", "#D99AA5": "#BC96E2", "#c25a6e": "#8452BC"},
+    "dourado": {"142,39,55": "168,124,36", "120,40,52": "120,88,26", "110,28,42": "104,76,22", "34,8,13": "20,14,4",
+                "#22080D": "#140E04", "#EADBD3": "#F6E8C4", "#D99AA5": "#E4C16C", "#c25a6e": "#B8892E"},
+}
+TEMA_DA_DATA = {"2026-11/02-semana-cancer-bucal": "azul", "2026-11/14-dia-mundial-do-diabetes": "azul",
+                "2026-11/17-prematuridade": "roxo", "2026-12/31-reveillon": "dourado"}
+
+
+def aplica_tema(html, slug):
+    for a, b in TEMAS.get(TEMA_DA_DATA.get(slug), {}).items():
+        html = html.replace(a, b)
+    return html
 
 
 def css_veu(rostos, H, rampa=0.18, topo_escuro=False):
@@ -195,6 +219,14 @@ DATAS = [
          pre="Dia Nacional da", titulo=["Família"], dia="08", mes="DEZEMBRO", ic1=(860, 120), ic2=(960, 420),
          tags_css="left:92px",
          frases=["Na minha casa, cuidar de gente", "sempre foi assunto de mesa.", "Que a sua família tenha", "sempre quem cuide dela."]),
+    # foto: Marinelson Almeida, CC BY 2.0 (Wikimedia Commons), orla de Ponta Verde
+    dict(slug="2026-12/05-maceio-211-anos", foto="commons-maceio-ponta-verde", tratada=False, tam="auto 1350px", pos="center 0",
+         elipse=(50, 40, 60, 66), pre="Parabéns,", titulo=["Maceió"], dia="05", mes="DEZEMBRO",
+         frases=["Moro em Maceió e toda quinta", "pego a estrada até União.", "Parabéns pelos 211 anos,", "cidade que é casa."]),
+    # foto: Minerva97, CC0 (Wikimedia Commons), virada do ano
+    dict(slug="2026-12/31-reveillon", foto="commons-reveillon-fogos", tratada=False, tam="1080px auto", pos="0 -230px",
+         elipse=(50, 36, 60, 60), pre="Feliz", titulo=["2027"], dia="31", mes="DEZEMBRO",
+         frases=["Que o novo ano venha leve,", "com saúde e muitos", "motivos pra sorrir."]),
     dict(slug="2026-12/25-natal", foto="2025-09-29_75784_1", pre="Feliz", titulo=["Natal"], dia="25", mes="DEZEMBRO",
          frases=["Que o seu Natal tenha", "mesa cheia, gente querida", "e muitos motivos", "pra sorrir de verdade."]),
 ]
@@ -217,4 +249,4 @@ if __name__ == "__main__":
     so = set(sys.argv[1:])
     for d in DATAS:
         if not so or d["slug"] in so:
-            render(homenagem(d), f"{POSTS}/{d['slug']}")
+            render(aplica_tema(homenagem(d), d["slug"]), f"{POSTS}/{d['slug']}")

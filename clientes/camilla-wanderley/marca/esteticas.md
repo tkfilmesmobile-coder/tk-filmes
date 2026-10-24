@@ -73,6 +73,9 @@ monocromática. **Versão clara (cards) recusada.** Gerador: `posts/_estetica-da
 (lista `DATAS`: foto, título por linhas, data, frases; o título encolhe sozinho pra caber; frases sobem pra cima do título;
 nada de texto em cima de rosto, ajustar `tags_css`/`pos` por foto). Primeiro uso: 6 datas de nov/dez (2026-10-24).
 Stories: `stories_datas.py` (1080×1920, zona segura; story 1 com foto diferente da do post, 2 e 3 tipográficos).
+**Cor da data (2026-10-24):** data com identidade de cor forte troca o vinho pela cor dela (`TEMAS` e `TEMA_DA_DATA` no
+gerador): azul no Novembro Azul e no Dia Mundial do Diabetes, roxo na Prematuridade (Novembro Roxo), dourado no Ano-Novo.
+Sem cor forte própria (Natal, Família, Consciência Negra, Maceió), fica o vinho. **Toda data vai pro feed e pros stories.**
 **Degradê nunca cobre rosto (2026-10-24):** `montar()` enquadra a foto e acha os rostos (YuNet); o escuro de baixo começa
 abaixo do último rosto, o véu de cima some se há rosto no alto, e uma camada devolve a foto natural na região de cada rosto.
 O histórico do teste segue abaixo.

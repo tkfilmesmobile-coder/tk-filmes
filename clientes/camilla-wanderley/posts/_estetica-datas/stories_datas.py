@@ -3,7 +3,7 @@ Em cada data: story 1 com foto dela (diferente da foto do post), stories 2 e 3 t
 repetir dentro da mesma data. Texto dentro da zona segura (x 60–920, y 250–1500, `clientes/_regras.md`).
 Palavra nunca dividida em duas linhas. Uso: python stories_datas.py [slug ...]"""
 import os, sys
-from gera_datas import montar, css_veu, css_rostos, js_rostos, render, POSTS, NOITE, NUDE, CREME, ROSE, VINHO, ICONE_CORACAO, ICONE_DENTE
+from gera_datas import montar, css_veu, css_rostos, js_rostos, render, aplica_tema, POSTS, NOITE, NUDE, CREME, ROSE, VINHO, ICONE_CORACAO, ICONE_DENTE
 
 BASE = """@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
@@ -178,5 +178,5 @@ if __name__ == "__main__":
             continue
         for i, s in enumerate(lista, 1):
             s["chave"] = f"{slug.replace('/', '_')}-story{i}"
-            html = story_foto(s) if s["tipo"] == "foto" else story_tipo(s)
+            html = aplica_tema(story_foto(s) if s["tipo"] == "foto" else story_tipo(s), slug)
             render(html, f"{POSTS}/{slug}", f"story-{i:02d}", 1920)

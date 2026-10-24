@@ -16,14 +16,14 @@ DATAS = {  # feed, dia fixo
     dt.date(2026, 11, 14): ("post de data", "Dia Mundial do Diabetes", "posts/2026-11/14-dia-mundial-do-diabetes"),
     dt.date(2026, 11, 17): ("post de data", "Dia Mundial da Prematuridade (com o pai)", "posts/2026-11/17-prematuridade"),
     dt.date(2026, 11, 20): ("post de data", "Dia de Zumbi e da Consciência Negra", "posts/2026-11/20-consciencia-negra"),
+    dt.date(2026, 12, 5): ("post de data", "211 anos de Maceió", "posts/2026-12/05-maceio-211-anos"),
     dt.date(2026, 12, 8): ("post de data", "Dia Nacional da Família", "posts/2026-12/08-dia-da-familia"),
     dt.date(2026, 12, 25): ("post de data", "Natal", "posts/2026-12/25-natal"),
+    dt.date(2026, 12, 31): ("post de data", "Réveillon", "posts/2026-12/31-reveillon"),
 }
+# Toda data comemorativa vai pro feed também (pedido da Talyta, 2026-10-24): não sobra data só de stories.
 BLOQUEADOS = {dt.date(2026, 11, 2)}  # Finados: sem post de vídeo/carrossel (pedido da Talyta, 2026-10-24)
-SO_STORIES = {
-    dt.date(2026, 12, 5): ("só stories", "211 anos de Maceió", "posts/2026-12/05-maceio-211-anos"),
-    dt.date(2026, 12, 31): ("só stories", "Réveillon", "posts/2026-12/31-reveillon"),
-}
+SO_STORIES = {}
 V = "Drive: VÍDEOS EDITADOS/2026-10/"
 SEQUENCIA = [  # vídeo → carrossel dele
     # 26/10: o reels da Mari sai na segunda (pedido da Talyta, 2026-10-24); o carrossel dela já saiu em 22/10
@@ -177,8 +177,8 @@ if __name__ == "__main__":
           "- Token do Instagram da Camilla vence por volta de 27/11: renovar antes.",
           "- 02/11 (Finados) fica sem post: o carrossel da noiva foi pro 03/11 e o resto andou com um dia de espaço.", "",
           "## Vagas livres", "",
-          "Dezembro tem os três vídeos de setembro (canal dói, sensibilidade x canal, 6 em 6 meses) e as datas (08/12 e 25/12):",
-          "5 posts, como no contrato. Ainda cabem: o vídeo do implante (falta a animação) e a próxima diária.", ""]
+          "Dezembro tem os três vídeos de setembro (canal dói, sensibilidade x canal, 6 em 6 meses) e 4 datas (05, 08, 25 e 31/12):",
+          "7 posts. Ainda cabem: o vídeo do implante (falta a animação) e a próxima diária.", ""]
     open(os.path.join(AQUI, "2026-11-12-calendario-postagens.md"), "w", encoding="utf-8").write("\n".join(L))
     for d, v in tudo.items():
         print(f"{DIAS[d.weekday()]} {d:%d/%m}  {v[0]:18} {v[1]}")

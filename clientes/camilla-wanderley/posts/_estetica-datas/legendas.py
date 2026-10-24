@@ -53,6 +53,24 @@ Feliz Dia Nacional da Família. Que a sua tenha sempre quem cuide dela. 🤍
 
 #diadafamilia #familia #uniaodospalmares""",
 
+    "2026-12/05-maceio-211-anos": """211 anos de Maceió. 🤍
+
+Moro em Maceió e toda quinta pego a estrada até União dos Palmares. Duas cidades que fazem parte da minha rotina e da minha história.
+
+Parabéns, Maceió. Que venham muitos anos de mar, sol e sorrisos.
+
+#maceio #maceio211anos #alagoas
+
+Foto: Marinelson Almeida, orla de Ponta Verde (CC BY 2.0, Wikimedia Commons).""",
+
+    "2026-12/31-reveillon": """Que 2027 venha leve, com saúde e muitos motivos pra sorrir.
+
+Obrigada por cada quinta deste ano e por cada sorriso confiado a mim. Nos vemos em janeiro.
+
+Feliz Ano-Novo! 🤍
+
+#reveillon #feliz2027 #anonovo""",
+
     "2026-12/25-natal": """Que o seu Natal tenha mesa cheia, gente querida e muitos motivos pra sorrir de verdade.
 
 Obrigada por cada quinta, cada conversa e cada sorriso confiado a mim neste ano. Feliz Natal! 🤍
