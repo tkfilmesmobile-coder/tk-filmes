@@ -27,6 +27,10 @@ Modelo pronto: `modelos/carrossel-foto-editorial.py` (HTML → PNG no Chrome hea
   trabalhando, mãos e instrumentos, planos fechados e desfocados (clima de cinema); retrato dela
   sorrindo no slide de fechamento/chamada.
 
+- **Atualização (2026-10-24):** sem procedimento em andamento nem instrumental nas fotos (CFO 196/2019, escolha da Talyta em
+  2026-10-23). Fonte de foto: quadros dos vídeos da diária já com o color grade + fotos sem procedimento. Stories dos posts
+  na mesma linguagem, 1080×1920, texto no terço de baixo. Gerador com os 6 posts de 22/10: `posts/2026-10/_diaria-22-10/gera.py`.
+
 ## 2 · Rosé editorial 🟡 parcial (2026-10-06)
 
 A capa "Canal dói" foi a que mais chegou perto; as outras duas amostras não. Referência:

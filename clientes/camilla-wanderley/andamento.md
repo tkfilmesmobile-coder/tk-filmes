@@ -18,6 +18,9 @@
   `VÍDEOS EDITADOS/2026-10`: vlog, feedback Robervânia, feedback colaboradora da CIP, clareamento da noiva, clareamento
   caseiro (com gráficos em vidro) e espaço entre os dentes (resina). Edição em `edicao/2026-10-22/`.
 
+- 2026-10-24 · 6 carrosséis + 3 stories cada dos conteúdos da diária de 22/10 (posts 11 a 16, `posts/2026-10/`),
+  com legenda; no Drive em `POSTS/2026-10`. Aguardam datas de publicação.
+
 ## Em aberto
 - **Vídeo do implante (diária 22/10):** falta a animação realista (FLUX + Wan 2.2, cota grátis diária do Hugging Face,
   plano em `edicao/motion-veo/PLANO-2026-10-22.md`). Já prontas: implante final, implante pela gengiva, alvéolo. (2026-10-23)
