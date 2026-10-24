@@ -1,0 +1,55 @@
+{
+ "arquivo": "IMG_6572",
+ "duracao": 14.85,
+ "segmentos": [
+  {
+   "ini": 6.26,
+   "fim": 7.5,
+   "texto": "Então, eu vou dar um negócio aqui.",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 6.26,
+     "fim": 6.48,
+     "conf": 0.15
+    },
+    {
+     "p": "eu",
+     "ini": 6.54,
+     "fim": 6.58,
+     "conf": 0.4
+    },
+    {
+     "p": "vou",
+     "ini": 6.58,
+     "fim": 6.7,
+     "conf": 0.18
+    },
+    {
+     "p": "dar",
+     "ini": 6.7,
+     "fim": 6.78,
+     "conf": 0.24
+    },
+    {
+     "p": "um",
+     "ini": 6.78,
+     "fim": 6.9,
+     "conf": 0.4
+    },
+    {
+     "p": "negócio",
+     "ini": 6.9,
+     "fim": 7.24,
+     "conf": 0.13
+    },
+    {
+     "p": "aqui.",
+     "ini": 7.24,
+     "fim": 7.5,
+     "conf": 0.67
+    }
+   ]
+  }
+ ]
+}

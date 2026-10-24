@@ -1,0 +1,313 @@
+{
+ "arquivo": "IMG_6612",
+ "duracao": 26.37,
+ "segmentos": [
+  {
+   "ini": 1.57,
+   "fim": 3.55,
+   "texto": "Isso, que é um cilom.",
+   "palavras": [
+    {
+     "p": "Isso,",
+     "ini": 1.57,
+     "fim": 2.03,
+     "conf": 0.12
+    },
+    {
+     "p": "que",
+     "ini": 2.67,
+     "fim": 2.79,
+     "conf": 0.96
+    },
+    {
+     "p": "é",
+     "ini": 2.79,
+     "fim": 2.91,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 2.91,
+     "fim": 3.07,
+     "conf": 0.99
+    },
+    {
+     "p": "cilom.",
+     "ini": 3.07,
+     "fim": 3.55,
+     "conf": 0.53
+    }
+   ]
+  },
+  {
+   "ini": 4.17,
+   "fim": 5.71,
+   "texto": "Aqui, a cilomata, né?",
+   "palavras": [
+    {
+     "p": "Aqui,",
+     "ini": 4.17,
+     "fim": 4.63,
+     "conf": 0.46
+    },
+    {
+     "p": "a",
+     "ini": 4.79,
+     "fim": 4.85,
+     "conf": 0.73
+    },
+    {
+     "p": "cilomata,",
+     "ini": 4.85,
+     "fim": 5.55,
+     "conf": 0.55
+    },
+    {
+     "p": "né?",
+     "ini": 5.61,
+     "fim": 5.71,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 5.79,
+   "fim": 7.39,
+   "texto": "É, parece uma areinha.",
+   "palavras": [
+    {
+     "p": "É,",
+     "ini": 5.79,
+     "fim": 5.93,
+     "conf": 0.94
+    },
+    {
+     "p": "parece",
+     "ini": 6.23,
+     "fim": 6.77,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 6.77,
+     "fim": 6.97,
+     "conf": 1.0
+    },
+    {
+     "p": "areinha.",
+     "ini": 6.97,
+     "fim": 7.39,
+     "conf": 0.73
+    }
+   ]
+  },
+  {
+   "ini": 7.73,
+   "fim": 8.45,
+   "texto": "É, pronto.",
+   "palavras": [
+    {
+     "p": "É,",
+     "ini": 7.73,
+     "fim": 7.77,
+     "conf": 0.22
+    },
+    {
+     "p": "pronto.",
+     "ini": 8.07,
+     "fim": 8.45,
+     "conf": 0.91
+    }
+   ]
+  },
+  {
+   "ini": 14.14,
+   "fim": 18.36,
+   "texto": "Se passar ela, é um três vezes ao dia após a higienização, tá?",
+   "palavras": [
+    {
+     "p": "Se",
+     "ini": 14.14,
+     "fim": 14.38,
+     "conf": 0.21
+    },
+    {
+     "p": "passar",
+     "ini": 14.38,
+     "fim": 14.66,
+     "conf": 0.74
+    },
+    {
+     "p": "ela,",
+     "ini": 14.66,
+     "fim": 14.86,
+     "conf": 0.88
+    },
+    {
+     "p": "é",
+     "ini": 14.88,
+     "fim": 14.96,
+     "conf": 0.86
+    },
+    {
+     "p": "um",
+     "ini": 14.96,
+     "fim": 15.02,
+     "conf": 0.48
+    },
+    {
+     "p": "três",
+     "ini": 15.02,
+     "fim": 15.24,
+     "conf": 0.67
+    },
+    {
+     "p": "vezes",
+     "ini": 15.24,
+     "fim": 15.42,
+     "conf": 0.98
+    },
+    {
+     "p": "ao",
+     "ini": 15.42,
+     "fim": 15.62,
+     "conf": 0.98
+    },
+    {
+     "p": "dia",
+     "ini": 15.62,
+     "fim": 15.74,
+     "conf": 1.0
+    },
+    {
+     "p": "após",
+     "ini": 15.74,
+     "fim": 16.04,
+     "conf": 0.95
+    },
+    {
+     "p": "a",
+     "ini": 16.04,
+     "fim": 16.48,
+     "conf": 1.0
+    },
+    {
+     "p": "higienização,",
+     "ini": 16.48,
+     "fim": 17.52,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 18.26,
+     "fim": 18.36,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 20.82,
+   "fim": 24.2,
+   "texto": "Principalmente, antes de dormir, que é pra ela dormir no local, tá?",
+   "palavras": [
+    {
+     "p": "Principalmente,",
+     "ini": 20.82,
+     "fim": 21.28,
+     "conf": 1.0
+    },
+    {
+     "p": "antes",
+     "ini": 21.28,
+     "fim": 21.74,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 21.74,
+     "fim": 21.9,
+     "conf": 1.0
+    },
+    {
+     "p": "dormir,",
+     "ini": 21.9,
+     "fim": 22.22,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 22.28,
+     "fim": 22.4,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 22.4,
+     "fim": 22.48,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 22.48,
+     "fim": 22.58,
+     "conf": 0.74
+    },
+    {
+     "p": "ela",
+     "ini": 22.58,
+     "fim": 22.72,
+     "conf": 1.0
+    },
+    {
+     "p": "dormir",
+     "ini": 22.72,
+     "fim": 23.08,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 23.08,
+     "fim": 23.26,
+     "conf": 0.99
+    },
+    {
+     "p": "local,",
+     "ini": 23.26,
+     "fim": 23.58,
+     "conf": 0.99
+    },
+    {
+     "p": "tá?",
+     "ini": 23.8,
+     "fim": 24.2,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 24.5,
+   "fim": 25.16,
+   "texto": "Pra não sair.",
+   "palavras": [
+    {
+     "p": "Pra",
+     "ini": 24.5,
+     "fim": 24.74,
+     "conf": 0.99
+    },
+    {
+     "p": "não",
+     "ini": 24.74,
+     "fim": 24.9,
+     "conf": 1.0
+    },
+    {
+     "p": "sair.",
+     "ini": 24.9,
+     "fim": 25.16,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

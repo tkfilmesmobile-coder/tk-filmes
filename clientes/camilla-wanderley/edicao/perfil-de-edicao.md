@@ -87,3 +87,19 @@ legenda limpa, quase nada na tela).
   sem CSS animation e sem `useFrame`. Vídeo como textura: `<Video headless onVideoFrame>`.
 - Render com `--gl=angle`. Referência de tempo: ~50 s de vídeo em ~6 min.
 - Verificar sempre no arquivo final: quadros-chave, voz presente e no nível, pico, duração.
+
+## Padrão novo (2026-10-23, diária de 2026-10-22)
+- **Color grade fixo** (`perfil-video/scripts/grade.py`, look `CAMILLA` v2): clínica clara e limpa, branco neutro, cor contida,
+  contraste firme, realce segurado, pele protegida pela máscara do rosto e separação leve do fundo. Referências da Talyta no
+  Cosmos (favorita: @mvocadental). Branco de referência só no que é branco de verdade; clipe claro não sobe de exposição;
+  exposição também pelo rosto. Aplicar só nos trechos usados (`2026-10-22/gradear.py`). Recusados: look quente e o v1
+  "estourado e pesado".
+- **Legenda menor:** Nunito 700, 40 px, até ~30 letras por página, a 1380 px do topo, com sombra suave atrás.
+- **Música (kit em `marca/audio/_origem.md`):** vlog = Stylish Funk; feedback = Chill R&B; explicativo = Fresh. Música bem
+  abaixo da fala (desce ~16 dB quando alguém fala). Recusadas: trilhas sintetizadas e piano genérico.
+- **Gráficos explicativos:** vidro escuro translúcido, menores (~60%), na faixa entre o peito e a legenda, **nunca cobrindo o
+  rosto**; o vídeo escurece só de leve. Vídeo de atendimento ou feedback não leva animação.
+- **Animação realista** (implante, dente em corte): imagem gerada no FLUX + vídeo no Wan 2.2 (`motion-veo`), nunca 3D feito à
+  mão no Remotion (recusado: "grotesco"). Plano: `motion-veo/PLANO-2026-10-22.md`.
+- **CFO 196/2019:** nada de procedimento em andamento nos vídeos; cena de cadeira fica como B-roll.
+- **Vlog:** música animada e moderna, mais cenas de atendimento (sem procedimento).

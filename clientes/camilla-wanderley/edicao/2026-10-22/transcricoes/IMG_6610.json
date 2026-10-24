@@ -1,0 +1,19 @@
+{
+ "arquivo": "IMG_6610",
+ "duracao": 2.94,
+ "segmentos": [
+  {
+   "ini": 1.94,
+   "fim": 2.62,
+   "texto": "Obrigada.",
+   "palavras": [
+    {
+     "p": "Obrigada.",
+     "ini": 1.94,
+     "fim": 2.62,
+     "conf": 0.35
+    }
+   ]
+  }
+ ]
+}

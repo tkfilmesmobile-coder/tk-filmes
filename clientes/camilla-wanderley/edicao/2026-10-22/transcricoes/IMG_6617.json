@@ -1,0 +1,373 @@
+{
+ "arquivo": "IMG_6617",
+ "duracao": 38.85,
+ "segmentos": [
+  {
+   "ini": 1.2,
+   "fim": 2.92,
+   "texto": "Júlia sendo Júlia",
+   "palavras": [
+    {
+     "p": "Júlia",
+     "ini": 1.2,
+     "fim": 1.88,
+     "conf": 0.77
+    },
+    {
+     "p": "sendo",
+     "ini": 1.88,
+     "fim": 2.2,
+     "conf": 0.98
+    },
+    {
+     "p": "Júlia",
+     "ini": 2.2,
+     "fim": 2.92,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 5.5,
+   "fim": 7.66,
+   "texto": "Olha, você está",
+   "palavras": [
+    {
+     "p": "Olha,",
+     "ini": 5.5,
+     "fim": 6.18,
+     "conf": 0.04
+    },
+    {
+     "p": "você",
+     "ini": 7.54,
+     "fim": 7.54,
+     "conf": 0.24
+    },
+    {
+     "p": "está",
+     "ini": 7.54,
+     "fim": 7.66,
+     "conf": 0.14
+    }
+   ]
+  },
+  {
+   "ini": 8.52,
+   "fim": 10.02,
+   "texto": "É o oposto, né?",
+   "palavras": [
+    {
+     "p": "É",
+     "ini": 8.52,
+     "fim": 8.88,
+     "conf": 0.44
+    },
+    {
+     "p": "o",
+     "ini": 8.88,
+     "fim": 9.4,
+     "conf": 1.0
+    },
+    {
+     "p": "oposto,",
+     "ini": 9.4,
+     "fim": 9.84,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 9.92,
+     "fim": 10.02,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 11.12,
+   "fim": 11.94,
+   "texto": "Você está",
+   "palavras": [
+    {
+     "p": "Você",
+     "ini": 11.12,
+     "fim": 11.28,
+     "conf": 0.99
+    },
+    {
+     "p": "está",
+     "ini": 11.28,
+     "fim": 11.94,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 11.94,
+   "fim": 13.98,
+   "texto": "Ferrada com Júlia",
+   "palavras": [
+    {
+     "p": "Ferrada",
+     "ini": 11.94,
+     "fim": 13.16,
+     "conf": 0.56
+    },
+    {
+     "p": "com",
+     "ini": 13.16,
+     "fim": 13.46,
+     "conf": 1.0
+    },
+    {
+     "p": "Júlia",
+     "ini": 13.46,
+     "fim": 13.98,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 13.98,
+   "fim": 16.56,
+   "texto": "Porque Júlia vai-se embora",
+   "palavras": [
+    {
+     "p": "Porque",
+     "ini": 13.98,
+     "fim": 14.26,
+     "conf": 0.81
+    },
+    {
+     "p": "Júlia",
+     "ini": 14.26,
+     "fim": 14.96,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 14.96,
+     "fim": 16.06,
+     "conf": 0.67
+    },
+    {
+     "p": "-se",
+     "ini": 16.06,
+     "fim": 16.24,
+     "conf": 0.78
+    },
+    {
+     "p": "embora",
+     "ini": 16.24,
+     "fim": 16.56,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 16.56,
+   "fim": 18.52,
+   "texto": "Essa foi, que quietinha",
+   "palavras": [
+    {
+     "p": "Essa",
+     "ini": 16.56,
+     "fim": 17.2,
+     "conf": 0.87
+    },
+    {
+     "p": "foi,",
+     "ini": 17.2,
+     "fim": 17.8,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 17.92,
+     "fim": 17.96,
+     "conf": 0.33
+    },
+    {
+     "p": "quietinha",
+     "ini": 17.96,
+     "fim": 18.52,
+     "conf": 0.81
+    }
+   ]
+  },
+  {
+   "ini": 18.52,
+   "fim": 19.22,
+   "texto": "É, né?",
+   "palavras": [
+    {
+     "p": "É,",
+     "ini": 18.52,
+     "fim": 19.06,
+     "conf": 0.36
+    },
+    {
+     "p": "né?",
+     "ini": 19.1,
+     "fim": 19.22,
+     "conf": 0.79
+    }
+   ]
+  },
+  {
+   "ini": 19.8,
+   "fim": 21.44,
+   "texto": "Foi direitinho, né?",
+   "palavras": [
+    {
+     "p": "Foi",
+     "ini": 19.8,
+     "fim": 20.48,
+     "conf": 0.71
+    },
+    {
+     "p": "direitinho,",
+     "ini": 20.48,
+     "fim": 21.28,
+     "conf": 0.98
+    },
+    {
+     "p": "né?",
+     "ini": 21.3,
+     "fim": 21.44,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 22.2,
+   "fim": 22.32,
+   "texto": "Foi",
+   "palavras": [
+    {
+     "p": "Foi",
+     "ini": 22.2,
+     "fim": 22.32,
+     "conf": 0.29
+    }
+   ]
+  },
+  {
+   "ini": 26.19,
+   "fim": 28.07,
+   "texto": "Esses dois são um pouco mais escuros",
+   "palavras": [
+    {
+     "p": "Esses",
+     "ini": 26.19,
+     "fim": 26.87,
+     "conf": 0.56
+    },
+    {
+     "p": "dois",
+     "ini": 26.87,
+     "fim": 27.05,
+     "conf": 1.0
+    },
+    {
+     "p": "são",
+     "ini": 27.05,
+     "fim": 27.21,
+     "conf": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 27.21,
+     "fim": 27.31,
+     "conf": 1.0
+    },
+    {
+     "p": "pouco",
+     "ini": 27.31,
+     "fim": 27.45,
+     "conf": 1.0
+    },
+    {
+     "p": "mais",
+     "ini": 27.45,
+     "fim": 27.65,
+     "conf": 0.98
+    },
+    {
+     "p": "escuros",
+     "ini": 27.65,
+     "fim": 28.07,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 29.13,
+   "fim": 30.73,
+   "texto": "A gente pensa nisso depois",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 29.13,
+     "fim": 29.81,
+     "conf": 0.71
+    },
+    {
+     "p": "gente",
+     "ini": 29.81,
+     "fim": 29.89,
+     "conf": 1.0
+    },
+    {
+     "p": "pensa",
+     "ini": 29.89,
+     "fim": 30.19,
+     "conf": 0.99
+    },
+    {
+     "p": "nisso",
+     "ini": 30.19,
+     "fim": 30.39,
+     "conf": 1.0
+    },
+    {
+     "p": "depois",
+     "ini": 30.39,
+     "fim": 30.73,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 36.44,
+   "fim": 38.4,
+   "texto": "A Joana ficou louca.",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 36.44,
+     "fim": 37.2,
+     "conf": 0.43
+    },
+    {
+     "p": "Joana",
+     "ini": 37.2,
+     "fim": 37.54,
+     "conf": 0.64
+    },
+    {
+     "p": "ficou",
+     "ini": 37.54,
+     "fim": 37.92,
+     "conf": 0.97
+    },
+    {
+     "p": "louca.",
+     "ini": 37.92,
+     "fim": 38.4,
+     "conf": 0.96
+    }
+   ]
+  }
+ ]
+}

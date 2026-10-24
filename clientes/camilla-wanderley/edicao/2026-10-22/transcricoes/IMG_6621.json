@@ -1,0 +1,128 @@
+{
+ "arquivo": "IMG_6621",
+ "duracao": 8.34,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 4.5,
+   "texto": "ele é todo, sabe aquelas flores vazadas que faz um vestido?",
+   "palavras": [
+    {
+     "p": "ele",
+     "ini": 0.0,
+     "fim": 0.44,
+     "conf": 0.12
+    },
+    {
+     "p": "é",
+     "ini": 0.44,
+     "fim": 0.58,
+     "conf": 0.82
+    },
+    {
+     "p": "todo,",
+     "ini": 0.58,
+     "fim": 0.8,
+     "conf": 0.89
+    },
+    {
+     "p": "sabe",
+     "ini": 1.06,
+     "fim": 1.42,
+     "conf": 0.99
+    },
+    {
+     "p": "aquelas",
+     "ini": 1.42,
+     "fim": 1.74,
+     "conf": 1.0
+    },
+    {
+     "p": "flores",
+     "ini": 1.74,
+     "fim": 2.1,
+     "conf": 1.0
+    },
+    {
+     "p": "vazadas",
+     "ini": 2.1,
+     "fim": 2.68,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 2.68,
+     "fim": 3.42,
+     "conf": 0.68
+    },
+    {
+     "p": "faz",
+     "ini": 3.42,
+     "fim": 3.7,
+     "conf": 0.57
+    },
+    {
+     "p": "um",
+     "ini": 3.7,
+     "fim": 3.88,
+     "conf": 0.67
+    },
+    {
+     "p": "vestido?",
+     "ini": 3.88,
+     "fim": 4.5,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 5.34,
+   "fim": 7.2,
+   "texto": "Só que o fundo dele era bege.",
+   "palavras": [
+    {
+     "p": "Só",
+     "ini": 5.34,
+     "fim": 5.94,
+     "conf": 0.36
+    },
+    {
+     "p": "que",
+     "ini": 5.94,
+     "fim": 6.08,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 6.08,
+     "fim": 6.16,
+     "conf": 1.0
+    },
+    {
+     "p": "fundo",
+     "ini": 6.16,
+     "fim": 6.38,
+     "conf": 1.0
+    },
+    {
+     "p": "dele",
+     "ini": 6.38,
+     "fim": 6.56,
+     "conf": 0.96
+    },
+    {
+     "p": "era",
+     "ini": 6.56,
+     "fim": 6.74,
+     "conf": 0.98
+    },
+    {
+     "p": "bege.",
+     "ini": 6.74,
+     "fim": 7.2,
+     "conf": 0.87
+    }
+   ]
+  }
+ ]
+}

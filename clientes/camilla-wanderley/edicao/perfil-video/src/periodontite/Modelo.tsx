@@ -15,17 +15,17 @@ const DENTES = [-0.84, -0.28, 0.28, 0.84];
 const META = 0.28; // meia distância entre dentes
 
 // ---------- utilidades determinísticas ----------
-const semente = (s: number) => () => {
+export const semente = (s: number) => () => {
   s = (s * 16807) % 2147483647;
   return (s - 1) / 2147483646;
 };
-const suave = (a: number, b: number, x: number) => {
+export const suave = (a: number, b: number, x: number) => {
   const t = Math.max(0, Math.min(1, (x - a) / (b - a)));
   return t * t * (3 - 2 * t);
 };
 
 // textura de ruído (bump) gerada em canvas, sempre igual
-const texturaRuido = (seed: number, escala: number, poros: boolean) => {
+export const texturaRuido = (seed: number, escala: number, poros: boolean) => {
   const N = 256;
   const c = new OffscreenCanvas(N, N);
   const g = c.getContext("2d")!;
@@ -69,7 +69,7 @@ const PERFIL_COROA: [number, number][] = [
 const ESMALTE = new THREE.Color("#F8F4EC");
 const DENTINA = new THREE.Color("#EAD7B5");
 
-const geoCoroa = () => {
+export const geoCoroa = () => {
   const g = new THREE.LatheGeometry(PERFIL_COROA.map(([r, y]) => new THREE.Vector2(r, y)), 96, 0, Math.PI * 2);
   const p = g.attributes.position as THREE.BufferAttribute;
   const cores = new Float32Array(p.count * 3);
@@ -96,7 +96,7 @@ const geoCoroa = () => {
   return g;
 };
 
-const geoRaiz = () => {
+export const geoRaiz = () => {
   const perfil: [number, number][] = [
     [0.0, -1.02],
     [0.035, -0.98],

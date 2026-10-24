@@ -1,0 +1,633 @@
+{
+ "arquivo": "IMG_6589",
+ "duracao": 38.53,
+ "segmentos": [
+  {
+   "ini": 4.98,
+   "fim": 18.72,
+   "texto": "Eu vou pegar meu capacete e colocar, porque se alguém bater em mim, não é isso, não é isso, não é isso, vem pra cima, é porque a gente tem uma mania aqui de não usar capacete, de botar cilho, né, a gente tem uma mania da força.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 4.98,
+     "fim": 5.3,
+     "conf": 0.04
+    },
+    {
+     "p": "vou",
+     "ini": 5.3,
+     "fim": 5.44,
+     "conf": 0.19
+    },
+    {
+     "p": "pegar",
+     "ini": 5.44,
+     "fim": 6.34,
+     "conf": 0.66
+    },
+    {
+     "p": "meu",
+     "ini": 6.34,
+     "fim": 7.46,
+     "conf": 0.81
+    },
+    {
+     "p": "capacete",
+     "ini": 7.46,
+     "fim": 7.96,
+     "conf": 0.99
+    },
+    {
+     "p": "e",
+     "ini": 7.96,
+     "fim": 8.08,
+     "conf": 0.29
+    },
+    {
+     "p": "colocar,",
+     "ini": 8.08,
+     "fim": 8.22,
+     "conf": 0.87
+    },
+    {
+     "p": "porque",
+     "ini": 8.38,
+     "fim": 8.46,
+     "conf": 0.82
+    },
+    {
+     "p": "se",
+     "ini": 8.46,
+     "fim": 8.62,
+     "conf": 0.97
+    },
+    {
+     "p": "alguém",
+     "ini": 8.62,
+     "fim": 8.78,
+     "conf": 0.99
+    },
+    {
+     "p": "bater",
+     "ini": 8.78,
+     "fim": 9.08,
+     "conf": 0.97
+    },
+    {
+     "p": "em",
+     "ini": 9.08,
+     "fim": 9.26,
+     "conf": 0.18
+    },
+    {
+     "p": "mim,",
+     "ini": 9.26,
+     "fim": 9.56,
+     "conf": 0.99
+    },
+    {
+     "p": "não",
+     "ini": 9.8,
+     "fim": 9.92,
+     "conf": 0.26
+    },
+    {
+     "p": "é",
+     "ini": 9.92,
+     "fim": 10.0,
+     "conf": 0.99
+    },
+    {
+     "p": "isso,",
+     "ini": 10.0,
+     "fim": 10.38,
+     "conf": 0.96
+    },
+    {
+     "p": "não",
+     "ini": 10.5,
+     "fim": 10.62,
+     "conf": 0.82
+    },
+    {
+     "p": "é",
+     "ini": 10.62,
+     "fim": 10.62,
+     "conf": 0.98
+    },
+    {
+     "p": "isso,",
+     "ini": 10.62,
+     "fim": 10.96,
+     "conf": 0.89
+    },
+    {
+     "p": "não",
+     "ini": 11.04,
+     "fim": 11.16,
+     "conf": 0.71
+    },
+    {
+     "p": "é",
+     "ini": 11.16,
+     "fim": 11.44,
+     "conf": 0.9
+    },
+    {
+     "p": "isso,",
+     "ini": 11.44,
+     "fim": 11.64,
+     "conf": 0.54
+    },
+    {
+     "p": "vem",
+     "ini": 11.84,
+     "fim": 11.86,
+     "conf": 0.38
+    },
+    {
+     "p": "pra",
+     "ini": 11.86,
+     "fim": 12.08,
+     "conf": 0.68
+    },
+    {
+     "p": "cima,",
+     "ini": 12.08,
+     "fim": 12.42,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 12.58,
+     "fim": 12.78,
+     "conf": 0.23
+    },
+    {
+     "p": "porque",
+     "ini": 12.78,
+     "fim": 13.58,
+     "conf": 0.95
+    },
+    {
+     "p": "a",
+     "ini": 13.58,
+     "fim": 13.68,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 13.68,
+     "fim": 13.76,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 13.76,
+     "fim": 13.9,
+     "conf": 0.98
+    },
+    {
+     "p": "uma",
+     "ini": 13.9,
+     "fim": 14.02,
+     "conf": 0.87
+    },
+    {
+     "p": "mania",
+     "ini": 14.02,
+     "fim": 14.28,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 14.28,
+     "fim": 14.42,
+     "conf": 0.87
+    },
+    {
+     "p": "de",
+     "ini": 14.42,
+     "fim": 14.54,
+     "conf": 0.98
+    },
+    {
+     "p": "não",
+     "ini": 14.54,
+     "fim": 14.74,
+     "conf": 0.99
+    },
+    {
+     "p": "usar",
+     "ini": 14.74,
+     "fim": 15.0,
+     "conf": 1.0
+    },
+    {
+     "p": "capacete,",
+     "ini": 15.0,
+     "fim": 15.48,
+     "conf": 0.92
+    },
+    {
+     "p": "de",
+     "ini": 15.54,
+     "fim": 15.6,
+     "conf": 0.82
+    },
+    {
+     "p": "botar",
+     "ini": 15.6,
+     "fim": 15.96,
+     "conf": 0.91
+    },
+    {
+     "p": "cilho,",
+     "ini": 15.96,
+     "fim": 16.28,
+     "conf": 0.48
+    },
+    {
+     "p": "né,",
+     "ini": 16.68,
+     "fim": 17.02,
+     "conf": 0.67
+    },
+    {
+     "p": "a",
+     "ini": 17.56,
+     "fim": 17.78,
+     "conf": 0.79
+    },
+    {
+     "p": "gente",
+     "ini": 17.78,
+     "fim": 17.78,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 17.78,
+     "fim": 17.86,
+     "conf": 0.92
+    },
+    {
+     "p": "uma",
+     "ini": 17.86,
+     "fim": 17.94,
+     "conf": 0.99
+    },
+    {
+     "p": "mania",
+     "ini": 17.94,
+     "fim": 18.32,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 18.32,
+     "fim": 18.48,
+     "conf": 0.61
+    },
+    {
+     "p": "força.",
+     "ini": 18.48,
+     "fim": 18.72,
+     "conf": 0.42
+    }
+   ]
+  },
+  {
+   "ini": 18.78,
+   "fim": 25.64,
+   "texto": "Se eu tenho capacete, eu vou usar, né, tem o povo aqui, isso é melhor, que não assanhe o cabelo.",
+   "palavras": [
+    {
+     "p": "Se",
+     "ini": 18.78,
+     "fim": 18.9,
+     "conf": 0.77
+    },
+    {
+     "p": "eu",
+     "ini": 18.9,
+     "fim": 18.96,
+     "conf": 0.98
+    },
+    {
+     "p": "tenho",
+     "ini": 18.96,
+     "fim": 19.1,
+     "conf": 0.69
+    },
+    {
+     "p": "capacete,",
+     "ini": 19.1,
+     "fim": 19.64,
+     "conf": 0.84
+    },
+    {
+     "p": "eu",
+     "ini": 19.78,
+     "fim": 19.78,
+     "conf": 1.0
+    },
+    {
+     "p": "vou",
+     "ini": 19.78,
+     "fim": 19.84,
+     "conf": 1.0
+    },
+    {
+     "p": "usar,",
+     "ini": 19.84,
+     "fim": 20.12,
+     "conf": 1.0
+    },
+    {
+     "p": "né,",
+     "ini": 20.24,
+     "fim": 20.3,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 20.46,
+     "fim": 21.74,
+     "conf": 0.52
+    },
+    {
+     "p": "o",
+     "ini": 23.06,
+     "fim": 23.16,
+     "conf": 0.67
+    },
+    {
+     "p": "povo",
+     "ini": 23.16,
+     "fim": 23.4,
+     "conf": 0.99
+    },
+    {
+     "p": "aqui,",
+     "ini": 23.4,
+     "fim": 23.76,
+     "conf": 1.0
+    },
+    {
+     "p": "isso",
+     "ini": 23.9,
+     "fim": 24.12,
+     "conf": 0.51
+    },
+    {
+     "p": "é",
+     "ini": 24.12,
+     "fim": 24.2,
+     "conf": 0.96
+    },
+    {
+     "p": "melhor,",
+     "ini": 24.2,
+     "fim": 24.46,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 24.66,
+     "fim": 24.66,
+     "conf": 0.86
+    },
+    {
+     "p": "não",
+     "ini": 24.66,
+     "fim": 24.8,
+     "conf": 0.98
+    },
+    {
+     "p": "assanhe",
+     "ini": 24.8,
+     "fim": 25.12,
+     "conf": 0.59
+    },
+    {
+     "p": "o",
+     "ini": 25.12,
+     "fim": 25.22,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo.",
+     "ini": 25.22,
+     "fim": 25.64,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 30.25,
+   "fim": 38.49,
+   "texto": "Primeiro que você dirige isso em volta, eu andava, vou botar cilho, aí a gente na rua, a família disse, olha aí, você bateu, você me ajuda, não, você não vai bater não.",
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "ini": 30.25,
+     "fim": 30.57,
+     "conf": 0.54
+    },
+    {
+     "p": "que",
+     "ini": 30.57,
+     "fim": 30.69,
+     "conf": 0.57
+    },
+    {
+     "p": "você",
+     "ini": 30.69,
+     "fim": 30.79,
+     "conf": 0.75
+    },
+    {
+     "p": "dirige",
+     "ini": 30.79,
+     "fim": 30.99,
+     "conf": 0.91
+    },
+    {
+     "p": "isso",
+     "ini": 30.99,
+     "fim": 31.17,
+     "conf": 0.25
+    },
+    {
+     "p": "em",
+     "ini": 31.17,
+     "fim": 31.25,
+     "conf": 0.77
+    },
+    {
+     "p": "volta,",
+     "ini": 31.25,
+     "fim": 31.35,
+     "conf": 0.31
+    },
+    {
+     "p": "eu",
+     "ini": 31.47,
+     "fim": 31.49,
+     "conf": 0.34
+    },
+    {
+     "p": "andava,",
+     "ini": 31.49,
+     "fim": 31.63,
+     "conf": 0.74
+    },
+    {
+     "p": "vou",
+     "ini": 31.81,
+     "fim": 31.81,
+     "conf": 0.72
+    },
+    {
+     "p": "botar",
+     "ini": 31.81,
+     "fim": 31.99,
+     "conf": 1.0
+    },
+    {
+     "p": "cilho,",
+     "ini": 31.99,
+     "fim": 32.99,
+     "conf": 0.83
+    },
+    {
+     "p": "aí",
+     "ini": 33.09,
+     "fim": 33.25,
+     "conf": 0.87
+    },
+    {
+     "p": "a",
+     "ini": 33.25,
+     "fim": 33.45,
+     "conf": 0.92
+    },
+    {
+     "p": "gente",
+     "ini": 33.45,
+     "fim": 33.45,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 33.45,
+     "fim": 33.57,
+     "conf": 0.68
+    },
+    {
+     "p": "rua,",
+     "ini": 33.57,
+     "fim": 33.75,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 33.81,
+     "fim": 33.93,
+     "conf": 0.74
+    },
+    {
+     "p": "família",
+     "ini": 33.93,
+     "fim": 34.09,
+     "conf": 0.69
+    },
+    {
+     "p": "disse,",
+     "ini": 34.09,
+     "fim": 34.33,
+     "conf": 0.27
+    },
+    {
+     "p": "olha",
+     "ini": 34.53,
+     "fim": 34.65,
+     "conf": 0.96
+    },
+    {
+     "p": "aí,",
+     "ini": 34.65,
+     "fim": 35.63,
+     "conf": 0.33
+    },
+    {
+     "p": "você",
+     "ini": 35.79,
+     "fim": 35.79,
+     "conf": 0.4
+    },
+    {
+     "p": "bateu,",
+     "ini": 35.79,
+     "fim": 36.17,
+     "conf": 0.89
+    },
+    {
+     "p": "você",
+     "ini": 36.19,
+     "fim": 36.27,
+     "conf": 0.85
+    },
+    {
+     "p": "me",
+     "ini": 36.27,
+     "fim": 36.45,
+     "conf": 0.99
+    },
+    {
+     "p": "ajuda,",
+     "ini": 36.45,
+     "fim": 36.67,
+     "conf": 0.89
+    },
+    {
+     "p": "não,",
+     "ini": 36.95,
+     "fim": 37.13,
+     "conf": 0.88
+    },
+    {
+     "p": "você",
+     "ini": 37.69,
+     "fim": 37.85,
+     "conf": 0.98
+    },
+    {
+     "p": "não",
+     "ini": 37.85,
+     "fim": 37.95,
+     "conf": 0.97
+    },
+    {
+     "p": "vai",
+     "ini": 37.95,
+     "fim": 38.03,
+     "conf": 1.0
+    },
+    {
+     "p": "bater",
+     "ini": 38.03,
+     "fim": 38.31,
+     "conf": 0.99
+    },
+    {
+     "p": "não.",
+     "ini": 38.31,
+     "fim": 38.49,
+     "conf": 0.74
+    }
+   ]
+  }
+ ]
+}

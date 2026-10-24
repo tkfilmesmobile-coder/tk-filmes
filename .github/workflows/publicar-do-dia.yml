@@ -1,0 +1,56 @@
+# Publica sozinho o post do dia da @tk.filmes, sem depender de PC ligado.
+# Script: sistema/scripts/publicar-do-dia.ps1 (nunca duplica: confere o perfil antes).
+# Autorizacao da Talyta (2026-10-23): post do calendario aprovado sai sem perguntar.
+# Se falhar, o GitHub manda email pra conta e o registro fica em tk-filmes/posts/<mes>/<id>-publicacao.log.
+name: Publicar post do dia
+
+on:
+  schedule:
+    - cron: '20 15 * * *'   # 12h20 em Brasilia
+    - cron: '20 18 * * *'   # 15h20, segunda chance se a primeira falhou
+  workflow_dispatch:
+    inputs:
+      simular:
+        description: 'So simular (nao publica nada)'
+        type: boolean
+        default: true
+      data:
+        description: 'Data AAAA-MM-DD (vazio = hoje)'
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-do-dia
+  cancel-in-progress: false
+
+jobs:
+  tk-filmes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publicar na @tk.filmes
+        shell: pwsh
+        env:
+          INSTAGRAM_ACCESS_TOKEN_TK_FILMES: ${{ secrets.INSTAGRAM_ACCESS_TOKEN_TK_FILMES }}
+          INSTAGRAM_USER_ID_TK_FILMES: ${{ secrets.INSTAGRAM_USER_ID_TK_FILMES }}
+          SIMULAR: ${{ github.event_name == 'workflow_dispatch' && inputs.simular }}
+          DATA: ${{ inputs.data }}
+        run: |
+          $a = @{ Conta = 'TK_FILMES'; Pasta = 'tk-filmes/posts' }
+          if ($env:DATA) { $a.Data = $env:DATA }
+          if ($env:SIMULAR -eq 'true') { ./sistema/scripts/publicar-do-dia.ps1 @a -DryRun } else { ./sistema/scripts/publicar-do-dia.ps1 @a }
+
+      - name: Guardar o registro no sistema
+        if: always()
+        run: |
+          git config user.name "robo-publicacao"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*-publicacao.log' || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "robo-publicacao: registro do post do dia"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 10; done
+          echo "nao consegui guardar o registro no GitHub (o post ja saiu)"

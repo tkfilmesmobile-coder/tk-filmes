@@ -1,0 +1,981 @@
+{
+ "arquivo": "IMG_6625",
+ "duracao": 43.52,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 2.32,
+   "texto": "espaçozinho aqui, ó. Entre canino",
+   "palavras": [
+    {
+     "p": "espaçozinho",
+     "ini": 0.0,
+     "fim": 0.58,
+     "conf": 0.53
+    },
+    {
+     "p": "aqui,",
+     "ini": 0.58,
+     "fim": 0.82,
+     "conf": 0.98
+    },
+    {
+     "p": "ó.",
+     "ini": 0.96,
+     "fim": 0.96,
+     "conf": 0.81
+    },
+    {
+     "p": "Entre",
+     "ini": 1.38,
+     "fim": 1.8,
+     "conf": 0.98
+    },
+    {
+     "p": "canino",
+     "ini": 1.8,
+     "fim": 2.32,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 2.32,
+   "fim": 4.12,
+   "texto": "e lateral. A Gi também tinha. O que a gente",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 2.32,
+     "fim": 2.4,
+     "conf": 1.0
+    },
+    {
+     "p": "lateral.",
+     "ini": 2.4,
+     "fim": 2.74,
+     "conf": 1.0
+    },
+    {
+     "p": "A",
+     "ini": 2.86,
+     "fim": 2.98,
+     "conf": 0.76
+    },
+    {
+     "p": "Gi",
+     "ini": 2.98,
+     "fim": 3.14,
+     "conf": 0.57
+    },
+    {
+     "p": "também",
+     "ini": 3.14,
+     "fim": 3.4,
+     "conf": 1.0
+    },
+    {
+     "p": "tinha.",
+     "ini": 3.4,
+     "fim": 3.66,
+     "conf": 1.0
+    },
+    {
+     "p": "O",
+     "ini": 3.78,
+     "fim": 3.84,
+     "conf": 0.96
+    },
+    {
+     "p": "que",
+     "ini": 3.84,
+     "fim": 3.84,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 3.84,
+     "fim": 4.0,
+     "conf": 0.95
+    },
+    {
+     "p": "gente",
+     "ini": 4.0,
+     "fim": 4.12,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 4.12,
+   "fim": 5.52,
+   "texto": "fez? Aumentou um pouquinho o lateral",
+   "palavras": [
+    {
+     "p": "fez?",
+     "ini": 4.12,
+     "fim": 4.32,
+     "conf": 1.0
+    },
+    {
+     "p": "Aumentou",
+     "ini": 4.36,
+     "fim": 4.7,
+     "conf": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 4.7,
+     "fim": 4.8,
+     "conf": 1.0
+    },
+    {
+     "p": "pouquinho",
+     "ini": 4.8,
+     "fim": 5.02,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 5.02,
+     "fim": 5.14,
+     "conf": 0.9
+    },
+    {
+     "p": "lateral",
+     "ini": 5.14,
+     "fim": 5.52,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 6.04,
+   "fim": 7.94,
+   "texto": "pra diminuir um pouco esse V aqui.",
+   "palavras": [
+    {
+     "p": "pra",
+     "ini": 6.04,
+     "fim": 6.46,
+     "conf": 0.91
+    },
+    {
+     "p": "diminuir",
+     "ini": 6.46,
+     "fim": 6.88,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 6.88,
+     "fim": 7.0,
+     "conf": 1.0
+    },
+    {
+     "p": "pouco",
+     "ini": 7.0,
+     "fim": 7.16,
+     "conf": 0.99
+    },
+    {
+     "p": "esse",
+     "ini": 7.16,
+     "fim": 7.36,
+     "conf": 1.0
+    },
+    {
+     "p": "V",
+     "ini": 7.36,
+     "fim": 7.62,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui.",
+     "ini": 7.62,
+     "fim": 7.94,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 8.76,
+   "fim": 10.34,
+   "texto": "Certo? Isso tudo com resina.",
+   "palavras": [
+    {
+     "p": "Certo?",
+     "ini": 8.76,
+     "fim": 9.18,
+     "conf": 1.0
+    },
+    {
+     "p": "Isso",
+     "ini": 9.46,
+     "fim": 9.68,
+     "conf": 0.57
+    },
+    {
+     "p": "tudo",
+     "ini": 9.68,
+     "fim": 9.82,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 9.82,
+     "fim": 9.96,
+     "conf": 1.0
+    },
+    {
+     "p": "resina.",
+     "ini": 9.96,
+     "fim": 10.34,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 11.16,
+   "fim": 12.18,
+   "texto": "Aí, no",
+   "palavras": [
+    {
+     "p": "Aí,",
+     "ini": 11.16,
+     "fim": 11.58,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 11.78,
+     "fim": 12.18,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 12.18,
+   "fim": 14.04,
+   "texto": "dela, a gente fechou esse black space",
+   "palavras": [
+    {
+     "p": "dela,",
+     "ini": 12.18,
+     "fim": 12.46,
+     "conf": 0.96
+    },
+    {
+     "p": "a",
+     "ini": 12.54,
+     "fim": 12.68,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 12.68,
+     "fim": 12.76,
+     "conf": 1.0
+    },
+    {
+     "p": "fechou",
+     "ini": 12.76,
+     "fim": 13.18,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 13.18,
+     "fim": 13.34,
+     "conf": 1.0
+    },
+    {
+     "p": "black",
+     "ini": 13.34,
+     "fim": 13.56,
+     "conf": 0.96
+    },
+    {
+     "p": "space",
+     "ini": 13.56,
+     "fim": 14.04,
+     "conf": 0.93
+    }
+   ]
+  },
+  {
+   "ini": 14.04,
+   "fim": 16.5,
+   "texto": "que aí fez uma capinha de resina",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 14.04,
+     "fim": 14.5,
+     "conf": 0.29
+    },
+    {
+     "p": "aí",
+     "ini": 14.5,
+     "fim": 14.6,
+     "conf": 1.0
+    },
+    {
+     "p": "fez",
+     "ini": 14.6,
+     "fim": 14.88,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 14.88,
+     "fim": 15.1,
+     "conf": 1.0
+    },
+    {
+     "p": "capinha",
+     "ini": 15.1,
+     "fim": 15.78,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 15.78,
+     "fim": 15.94,
+     "conf": 1.0
+    },
+    {
+     "p": "resina",
+     "ini": 15.94,
+     "fim": 16.5,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 17.04,
+   "fim": 18.24,
+   "texto": "no dela, não foi assim,",
+   "palavras": [
+    {
+     "p": "no",
+     "ini": 17.04,
+     "fim": 17.46,
+     "conf": 0.2
+    },
+    {
+     "p": "dela,",
+     "ini": 17.46,
+     "fim": 17.68,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 17.76,
+     "fim": 17.9,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 17.9,
+     "fim": 18.08,
+     "conf": 1.0
+    },
+    {
+     "p": "assim,",
+     "ini": 18.08,
+     "fim": 18.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 18.32,
+   "fim": 20.3,
+   "texto": "no dela foi só o meio. O seu pode fazer uma capinha",
+   "palavras": [
+    {
+     "p": "no",
+     "ini": 18.32,
+     "fim": 18.36,
+     "conf": 0.71
+    },
+    {
+     "p": "dela",
+     "ini": 18.36,
+     "fim": 18.42,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 18.42,
+     "fim": 18.6,
+     "conf": 1.0
+    },
+    {
+     "p": "só",
+     "ini": 18.6,
+     "fim": 18.74,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 18.74,
+     "fim": 18.88,
+     "conf": 0.98
+    },
+    {
+     "p": "meio.",
+     "ini": 18.88,
+     "fim": 19.04,
+     "conf": 0.99
+    },
+    {
+     "p": "O",
+     "ini": 19.22,
+     "fim": 19.24,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 19.24,
+     "fim": 19.34,
+     "conf": 1.0
+    },
+    {
+     "p": "pode",
+     "ini": 19.34,
+     "fim": 19.58,
+     "conf": 0.99
+    },
+    {
+     "p": "fazer",
+     "ini": 19.58,
+     "fim": 19.88,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 19.88,
+     "fim": 20.02,
+     "conf": 0.98
+    },
+    {
+     "p": "capinha",
+     "ini": 20.02,
+     "fim": 20.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 20.3,
+   "fim": 21.92,
+   "texto": "até pra clarear um pouco esse dente.",
+   "palavras": [
+    {
+     "p": "até",
+     "ini": 20.3,
+     "fim": 20.58,
+     "conf": 0.39
+    },
+    {
+     "p": "pra",
+     "ini": 20.58,
+     "fim": 20.78,
+     "conf": 0.99
+    },
+    {
+     "p": "clarear",
+     "ini": 20.78,
+     "fim": 21.14,
+     "conf": 0.89
+    },
+    {
+     "p": "um",
+     "ini": 21.14,
+     "fim": 21.24,
+     "conf": 1.0
+    },
+    {
+     "p": "pouco",
+     "ini": 21.24,
+     "fim": 21.4,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 21.4,
+     "fim": 21.6,
+     "conf": 0.98
+    },
+    {
+     "p": "dente.",
+     "ini": 21.6,
+     "fim": 21.92,
+     "conf": 0.89
+    }
+   ]
+  },
+  {
+   "ini": 22.32,
+   "fim": 24.06,
+   "texto": "Faz uma capinha de resina mais",
+   "palavras": [
+    {
+     "p": "Faz",
+     "ini": 22.32,
+     "fim": 22.74,
+     "conf": 0.99
+    },
+    {
+     "p": "uma",
+     "ini": 22.74,
+     "fim": 22.88,
+     "conf": 0.95
+    },
+    {
+     "p": "capinha",
+     "ini": 22.88,
+     "fim": 23.22,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 23.22,
+     "fim": 23.36,
+     "conf": 1.0
+    },
+    {
+     "p": "resina",
+     "ini": 23.36,
+     "fim": 23.72,
+     "conf": 1.0
+    },
+    {
+     "p": "mais",
+     "ini": 23.72,
+     "fim": 24.06,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 24.06,
+   "fim": 26.26,
+   "texto": "clara e aí já consegue preencher",
+   "palavras": [
+    {
+     "p": "clara",
+     "ini": 24.06,
+     "fim": 24.6,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 24.6,
+     "fim": 25.32,
+     "conf": 0.98
+    },
+    {
+     "p": "aí",
+     "ini": 25.32,
+     "fim": 25.44,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 25.44,
+     "fim": 25.58,
+     "conf": 1.0
+    },
+    {
+     "p": "consegue",
+     "ini": 25.58,
+     "fim": 25.92,
+     "conf": 1.0
+    },
+    {
+     "p": "preencher",
+     "ini": 25.92,
+     "fim": 26.26,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 26.26,
+   "fim": 28.26,
+   "texto": "isso aqui. Esse aqui",
+   "palavras": [
+    {
+     "p": "isso",
+     "ini": 26.26,
+     "fim": 26.46,
+     "conf": 0.99
+    },
+    {
+     "p": "aqui.",
+     "ini": 26.46,
+     "fim": 26.7,
+     "conf": 1.0
+    },
+    {
+     "p": "Esse",
+     "ini": 27.66,
+     "fim": 28.08,
+     "conf": 0.98
+    },
+    {
+     "p": "aqui",
+     "ini": 28.08,
+     "fim": 28.26,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 28.26,
+   "fim": 30.14,
+   "texto": "ele é mais pra fora do que esse, esse é mais",
+   "palavras": [
+    {
+     "p": "ele",
+     "ini": 28.26,
+     "fim": 28.36,
+     "conf": 0.44
+    },
+    {
+     "p": "é",
+     "ini": 28.36,
+     "fim": 28.46,
+     "conf": 0.97
+    },
+    {
+     "p": "mais",
+     "ini": 28.46,
+     "fim": 28.64,
+     "conf": 0.99
+    },
+    {
+     "p": "pra",
+     "ini": 28.64,
+     "fim": 28.78,
+     "conf": 0.58
+    },
+    {
+     "p": "fora",
+     "ini": 28.78,
+     "fim": 29.14,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 29.14,
+     "fim": 29.3,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 29.3,
+     "fim": 29.46,
+     "conf": 1.0
+    },
+    {
+     "p": "esse,",
+     "ini": 29.46,
+     "fim": 29.78,
+     "conf": 0.9
+    },
+    {
+     "p": "esse",
+     "ini": 29.8,
+     "fim": 29.94,
+     "conf": 0.88
+    },
+    {
+     "p": "é",
+     "ini": 29.94,
+     "fim": 30.02,
+     "conf": 0.99
+    },
+    {
+     "p": "mais",
+     "ini": 30.02,
+     "fim": 30.14,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 30.14,
+   "fim": 32.3,
+   "texto": "pra dentro. Aí a gente deixa esse",
+   "palavras": [
+    {
+     "p": "pra",
+     "ini": 30.14,
+     "fim": 30.3,
+     "conf": 1.0
+    },
+    {
+     "p": "dentro.",
+     "ini": 30.3,
+     "fim": 30.62,
+     "conf": 1.0
+    },
+    {
+     "p": "Aí",
+     "ini": 31.22,
+     "fim": 31.28,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 31.28,
+     "fim": 31.38,
+     "conf": 0.99
+    },
+    {
+     "p": "gente",
+     "ini": 31.38,
+     "fim": 31.54,
+     "conf": 1.0
+    },
+    {
+     "p": "deixa",
+     "ini": 31.54,
+     "fim": 31.9,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 31.9,
+     "fim": 32.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 32.3,
+   "fim": 34.3,
+   "texto": "na mesma altura desse",
+   "palavras": [
+    {
+     "p": "na",
+     "ini": 32.3,
+     "fim": 32.66,
+     "conf": 0.93
+    },
+    {
+     "p": "mesma",
+     "ini": 32.66,
+     "fim": 33.12,
+     "conf": 1.0
+    },
+    {
+     "p": "altura",
+     "ini": 33.12,
+     "fim": 33.98,
+     "conf": 1.0
+    },
+    {
+     "p": "desse",
+     "ini": 33.98,
+     "fim": 34.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 34.3,
+   "fim": 36.38,
+   "texto": "aqui. Entendeu? E provavelmente",
+   "palavras": [
+    {
+     "p": "aqui.",
+     "ini": 34.3,
+     "fim": 34.56,
+     "conf": 1.0
+    },
+    {
+     "p": "Entendeu?",
+     "ini": 35.38,
+     "fim": 35.7,
+     "conf": 0.98
+    },
+    {
+     "p": "E",
+     "ini": 35.82,
+     "fim": 35.84,
+     "conf": 0.56
+    },
+    {
+     "p": "provavelmente",
+     "ini": 35.84,
+     "fim": 36.38,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 36.38,
+   "fim": 38.06,
+   "texto": "já fecha isso aqui, esse espaço.",
+   "palavras": [
+    {
+     "p": "já",
+     "ini": 36.38,
+     "fim": 36.54,
+     "conf": 1.0
+    },
+    {
+     "p": "fecha",
+     "ini": 36.54,
+     "fim": 36.86,
+     "conf": 1.0
+    },
+    {
+     "p": "isso",
+     "ini": 36.86,
+     "fim": 37.02,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui,",
+     "ini": 37.02,
+     "fim": 37.28,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 37.46,
+     "fim": 37.68,
+     "conf": 0.99
+    },
+    {
+     "p": "espaço.",
+     "ini": 37.68,
+     "fim": 38.06,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 38.42,
+   "fim": 40.48,
+   "texto": "Isso aqui é porque tá assim, ó. Um é pra frente",
+   "palavras": [
+    {
+     "p": "Isso",
+     "ini": 38.42,
+     "fim": 38.74,
+     "conf": 0.44
+    },
+    {
+     "p": "aqui",
+     "ini": 38.74,
+     "fim": 38.9,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 38.9,
+     "fim": 38.98,
+     "conf": 1.0
+    },
+    {
+     "p": "porque",
+     "ini": 38.98,
+     "fim": 39.14,
+     "conf": 1.0
+    },
+    {
+     "p": "tá",
+     "ini": 39.14,
+     "fim": 39.28,
+     "conf": 0.98
+    },
+    {
+     "p": "assim,",
+     "ini": 39.28,
+     "fim": 39.56,
+     "conf": 0.99
+    },
+    {
+     "p": "ó.",
+     "ini": 39.66,
+     "fim": 39.66,
+     "conf": 0.97
+    },
+    {
+     "p": "Um",
+     "ini": 39.78,
+     "fim": 39.92,
+     "conf": 0.88
+    },
+    {
+     "p": "é",
+     "ini": 39.92,
+     "fim": 40.04,
+     "conf": 0.61
+    },
+    {
+     "p": "pra",
+     "ini": 40.04,
+     "fim": 40.18,
+     "conf": 0.99
+    },
+    {
+     "p": "frente",
+     "ini": 40.18,
+     "fim": 40.48,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 40.48,
+   "fim": 41.26,
+   "texto": "e o outro é pra trás.",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 40.48,
+     "fim": 40.62,
+     "conf": 0.71
+    },
+    {
+     "p": "o",
+     "ini": 40.62,
+     "fim": 40.68,
+     "conf": 0.62
+    },
+    {
+     "p": "outro",
+     "ini": 40.68,
+     "fim": 40.76,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 40.76,
+     "fim": 40.88,
+     "conf": 0.82
+    },
+    {
+     "p": "pra",
+     "ini": 40.88,
+     "fim": 41.06,
+     "conf": 0.99
+    },
+    {
+     "p": "trás.",
+     "ini": 41.06,
+     "fim": 41.26,
+     "conf": 0.95
+    }
+   ]
+  }
+ ]
+}

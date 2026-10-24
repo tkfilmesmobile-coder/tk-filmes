@@ -1,0 +1,135 @@
+{
+ "arquivo": "IMG_6599",
+ "duracao": 14.78,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 2.2,
+   "texto": "Tá reclamando que o pessoal não pegou o pé de ano.",
+   "palavras": [
+    {
+     "p": "Tá",
+     "ini": 0.0,
+     "fim": 0.3,
+     "conf": 0.41
+    },
+    {
+     "p": "reclamando",
+     "ini": 0.3,
+     "fim": 0.86,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 0.86,
+     "fim": 0.96,
+     "conf": 0.95
+    },
+    {
+     "p": "o",
+     "ini": 0.96,
+     "fim": 1.0,
+     "conf": 0.95
+    },
+    {
+     "p": "pessoal",
+     "ini": 1.0,
+     "fim": 1.24,
+     "conf": 0.7
+    },
+    {
+     "p": "não",
+     "ini": 1.24,
+     "fim": 1.38,
+     "conf": 0.3
+    },
+    {
+     "p": "pegou",
+     "ini": 1.38,
+     "fim": 1.7,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 1.7,
+     "fim": 1.74,
+     "conf": 0.5
+    },
+    {
+     "p": "pé",
+     "ini": 1.74,
+     "fim": 1.9,
+     "conf": 0.98
+    },
+    {
+     "p": "de",
+     "ini": 1.9,
+     "fim": 2.0,
+     "conf": 0.3
+    },
+    {
+     "p": "ano.",
+     "ini": 2.0,
+     "fim": 2.2,
+     "conf": 0.7
+    }
+   ]
+  },
+  {
+   "ini": 10.64,
+   "fim": 12.78,
+   "texto": "Na cabeça eu tenho...",
+   "palavras": [
+    {
+     "p": "Na",
+     "ini": 10.64,
+     "fim": 11.22,
+     "conf": 0.96
+    },
+    {
+     "p": "cabeça",
+     "ini": 11.22,
+     "fim": 11.64,
+     "conf": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 11.64,
+     "fim": 12.1,
+     "conf": 0.75
+    },
+    {
+     "p": "tenho...",
+     "ini": 12.1,
+     "fim": 12.78,
+     "conf": 0.69
+    }
+   ]
+  },
+  {
+   "ini": 12.78,
+   "fim": 14.3,
+   "texto": "Eu estou dormindo.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 12.78,
+     "fim": 13.36,
+     "conf": 0.2
+    },
+    {
+     "p": "estou",
+     "ini": 13.36,
+     "fim": 13.64,
+     "conf": 0.27
+    },
+    {
+     "p": "dormindo.",
+     "ini": 13.64,
+     "fim": 14.3,
+     "conf": 0.76
+    }
+   ]
+  }
+ ]
+}

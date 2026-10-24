@@ -1,0 +1,25 @@
+{
+ "arquivo": "IMG_6571",
+ "duracao": 19.28,
+ "segmentos": [
+  {
+   "ini": 0.88,
+   "fim": 1.7,
+   "texto": "Tchau, tchau.",
+   "palavras": [
+    {
+     "p": "Tchau,",
+     "ini": 0.88,
+     "fim": 1.32,
+     "conf": 0.27
+    },
+    {
+     "p": "tchau.",
+     "ini": 1.32,
+     "fim": 1.7,
+     "conf": 0.76
+    }
+   ]
+  }
+ ]
+}
