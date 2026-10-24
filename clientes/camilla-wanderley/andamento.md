@@ -40,7 +40,10 @@
   2020). Stories prontos (3 por data, mais Maceió 05/12 e Réveillon 31/12), também no Drive. Pedir foto recente com o pai.
 - Falta foto da doutora sozinha no banco (retrato, sem paciente): pedir na próxima diária. (2026-10-24)
 - Os 19 B-rolls no Drive estão sem o color grade novo; refazer com `grade.py` se forem usados. (2026-10-23)
-- Reels "Depoimento da Mari" v4 (close da boca, pós aparelho, fotos do casamento) só existe no notebook; postar quando ligar. (2026-10-23)
+- Reels "Depoimento da Mari" v4 (close da boca, pós aparelho, fotos do casamento) só existe no notebook; **sai seg 26/10**
+  (abre o calendário de postagens). (2026-10-24)
+- Vídeos de setembro que nunca saíram (Drive `VÍDEOS EDITADOS/2026-09`): Fazer canal dói (v1), Sensibilidade x Canal (v2),
+  Acompanhamento 6 em 6 meses, Atendimento e manchas e talvez Atendimento Gi. Bons pra completar dezembro. (2026-10-24)
 - Calendário de outubro/2026 (10 posts, 2 por semana) escrito em `calendarios/2026-10-calendario.md`; falta o PDF e as artes.
 - Termos de autorização das crianças do ensaio: assinados (confirmado em 2026-09-29).
 - CRO dela pro termo de autorização.

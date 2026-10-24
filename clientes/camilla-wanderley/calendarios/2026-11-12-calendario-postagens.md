@@ -9,32 +9,37 @@ o resto segue com um dia de espaço. Gerado por `monta_calendario_2026-11-12.py`
 
 | data | formato | conteúdo | stories |
 |---|---|---|---|
-| seg 26/10 | reels | Vlog · uma quinta na CIP | repostar o reels |
-| qua 28/10 | carrossel | Bastidores de uma quinta na CIP | 3 (do post) |
-| sex 30/10 | reels | Clareamento antes do casamento | repostar o reels |
+| seg 26/10 | reels | Depoimento da Mari · 7 anos de sorriso | repostar o reels |
+| qua 28/10 | reels | Vlog · uma quinta na CIP | repostar o reels |
+| sex 30/10 | carrossel | Bastidores de uma quinta na CIP | 3 (do post) |
 | dom 01/11 | post de data | Novembro Azul + Semana de Prevenção do Câncer Bucal | 3 (do post) |
-| ter 03/11 | carrossel | Vai casar? Comece o clareamento antes | 3 (do post) |
-| qui 05/11 | reels | Feedback · Robervânia | repostar o reels |
-| sáb 07/11 | carrossel | Trauma de dentista e atendimento humanizado | 3 (do post) |
-| seg 09/11 | reels | Clareamento caseiro · o erro que zera tudo | repostar o reels |
-| qua 11/11 | carrossel | O erro que zera o clareamento caseiro | 3 (do post) |
-| sex 13/11 | reels | Feedback · colaboradora da CIP | repostar o reels |
+| ter 03/11 | reels | Clareamento antes do casamento | repostar o reels |
+| qui 05/11 | carrossel | Vai casar? Comece o clareamento antes | 3 (do post) |
+| sáb 07/11 | reels | Feedback · Robervânia | repostar o reels |
+| seg 09/11 | carrossel | Trauma de dentista e atendimento humanizado | 3 (do post) |
+| qua 11/11 | reels | Clareamento caseiro · o erro que zera tudo | repostar o reels |
+| sex 13/11 | carrossel | O erro que zera o clareamento caseiro | 3 (do post) |
 | sáb 14/11 | post de data | Dia Mundial do Diabetes | 3 (do post) |
-| dom 15/11 | carrossel | Medo de dentista? Você não está sozinha | 3 (do post) |
+| dom 15/11 | reels | Feedback · colaboradora da CIP | repostar o reels |
 | ter 17/11 | post de data | Dia Mundial da Prematuridade (com o pai) | 3 (do post) |
-| qua 18/11 | reels | Espaço entre os dentes · resina | repostar o reels |
+| qua 18/11 | carrossel | Medo de dentista? Você não está sozinha | 3 (do post) |
 | sex 20/11 | post de data | Dia de Zumbi e da Consciência Negra | 3 (do post) |
-| sáb 21/11 | carrossel | Aquele espacinho entre os dentes tem solução | 3 (do post) |
+| sáb 21/11 | reels | Espaço entre os dentes · resina | repostar o reels |
+| seg 23/11 | carrossel | Aquele espacinho entre os dentes tem solução | 3 (do post) |
 | sáb 05/12 | só stories | 211 anos de Maceió | 3 (só stories) |
 | ter 08/12 | post de data | Dia Nacional da Família | 3 (do post) |
 | sex 25/12 | post de data | Natal | 3 (do post) |
 | qui 31/12 | só stories | Réveillon | 3 (só stories) |
 
-Feed: 3 em outubro (26 a 31), 13 em novembro, 2 em dezembro. Contrato: 5 posts fixos por mês.
+Feed: 3 em outubro (26 a 31), 14 em novembro, 2 em dezembro. Contrato: 5 posts fixos por mês.
 
 ## Cada postagem
 
-### seg 26/10 · reels · Vlog · uma quinta na CIP
+### seg 26/10 · reels · Depoimento da Mari · 7 anos de sorriso
+
+- Arquivo: Notebook: reels "Depoimento da Mari" v4 (legenda vai com o arquivo)
+
+### qua 28/10 · reels · Vlog · uma quinta na CIP
 
 - Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Vlog · uma quinta na CIP.mp4
 - Legenda:
@@ -51,7 +56,7 @@ Obrigada a cada pessoa que confia o sorriso a mim e à Joana. 🤍
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### qua 28/10 · carrossel · Bastidores de uma quinta na CIP
+### sex 30/10 · carrossel · Bastidores de uma quinta na CIP
 
 - Arquivo: `posts/2026-10/11-bastidores-quinta-cip`
 - Legenda:
@@ -69,25 +74,6 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 Às quintas na CIP, União dos Palmares
 
 #uniaodospalmares #odontologia #bastidores #sorrisosaudavel
-```
-
-### sex 30/10 · reels · Clareamento antes do casamento
-
-- Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Clareamento antes do casamento.mp4
-- Legenda:
-
-```
-Vai casar? Comece o clareamento antes.
-
-Só o caseiro leva cerca de 21 dias, e começar com um gel forte demais pode trazer sensibilidade. Quando a data está perto, dá pra associar o clareamento de consultório com o caseiro e planejar cada etapa até o grande dia.
-
-Sensibilidade pode aparecer, sim. Com acompanhamento, ela é controlável.
-
-Tem uma data importante chegando? Me chama no direct que a gente planeja junto. 🤍
-
-#clareamentodental #noiva #casamento #uniaodospalmares
-
-Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
 ### dom 01/11 · post de data · Novembro Azul + Semana de Prevenção do Câncer Bucal
@@ -109,7 +95,26 @@ Se você conhece um homem que "só vai ao dentista quando dói", manda isso pra 
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### ter 03/11 · carrossel · Vai casar? Comece o clareamento antes
+### ter 03/11 · reels · Clareamento antes do casamento
+
+- Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Clareamento antes do casamento.mp4
+- Legenda:
+
+```
+Vai casar? Comece o clareamento antes.
+
+Só o caseiro leva cerca de 21 dias, e começar com um gel forte demais pode trazer sensibilidade. Quando a data está perto, dá pra associar o clareamento de consultório com o caseiro e planejar cada etapa até o grande dia.
+
+Sensibilidade pode aparecer, sim. Com acompanhamento, ela é controlável.
+
+Tem uma data importante chegando? Me chama no direct que a gente planeja junto. 🤍
+
+#clareamentodental #noiva #casamento #uniaodospalmares
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
+
+### qui 05/11 · carrossel · Vai casar? Comece o clareamento antes
 
 - Arquivo: `posts/2026-10/14-clareamento-casamento`
 - Legenda:
@@ -131,7 +136,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #clareamentodental #noivas #uniaodospalmares #sorriso
 ```
 
-### qui 05/11 · reels · Feedback · Robervânia
+### sáb 07/11 · reels · Feedback · Robervânia
 
 - Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Feedback · Robervânia.mp4
 - Legenda:
@@ -148,7 +153,7 @@ Obrigada pela confiança, Robervânia, e por trazer a sua família e as suas ami
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### sáb 07/11 · carrossel · Trauma de dentista e atendimento humanizado
+### seg 09/11 · carrossel · Trauma de dentista e atendimento humanizado
 
 - Arquivo: `posts/2026-10/12-atendimento-humanizado`
 - Legenda:
@@ -170,7 +175,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #atendimentohumanizado #medodedentista #odontologia #uniaodospalmares
 ```
 
-### seg 09/11 · reels · Clareamento caseiro · o erro que zera tudo
+### qua 11/11 · reels · Clareamento caseiro · o erro que zera tudo
 
 - Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Clareamento caseiro · o erro que zera tudo.mp4
 - Legenda:
@@ -189,7 +194,7 @@ Está clareando em casa? Salva esse vídeo pra lembrar. 🤍
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### qua 11/11 · carrossel · O erro que zera o clareamento caseiro
+### sex 13/11 · carrossel · O erro que zera o clareamento caseiro
 
 - Arquivo: `posts/2026-10/15-clareamento-caseiro-erro`
 - Legenda:
@@ -211,23 +216,6 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #clareamentodental #clareamentocaseiro #odontologia #uniaodospalmares
 ```
 
-### sex 13/11 · reels · Feedback · colaboradora da CIP
-
-- Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Feedback · colaboradora da CIP.mp4
-- Legenda:
-
-```
-"Eu tinha muito medo de ir ao dentista."
-
-Ela é paciente há dois anos e também trabalha aqui na CIP. Ver o medo dar lugar à confiança, consulta após consulta, é uma das partes mais bonitas do meu trabalho.
-
-Se o medo é o que te segura, me conta no direct. A gente começa pela conversa. 🤍
-
-#medodedentista #depoimento #atendimentohumanizado #uniaodospalmares
-
-Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
-```
-
 ### sáb 14/11 · post de data · Dia Mundial do Diabetes
 
 - Arquivo: `posts/2026-11/14-dia-mundial-do-diabetes`
@@ -247,7 +235,43 @@ Neste Dia Mundial do Diabetes, se você ou alguém da sua casa tem o diagnóstic
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### dom 15/11 · carrossel · Medo de dentista? Você não está sozinha
+### dom 15/11 · reels · Feedback · colaboradora da CIP
+
+- Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Feedback · colaboradora da CIP.mp4
+- Legenda:
+
+```
+"Eu tinha muito medo de ir ao dentista."
+
+Ela é paciente há dois anos e também trabalha aqui na CIP. Ver o medo dar lugar à confiança, consulta após consulta, é uma das partes mais bonitas do meu trabalho.
+
+Se o medo é o que te segura, me conta no direct. A gente começa pela conversa. 🤍
+
+#medodedentista #depoimento #atendimentohumanizado #uniaodospalmares
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
+
+### ter 17/11 · post de data · Dia Mundial da Prematuridade (com o pai)
+
+- Arquivo: `posts/2026-11/17-prematuridade`
+- Legenda:
+
+```
+Meu pai passou a vida cuidando de quem chega ao mundo.
+
+Hoje, Dia Mundial da Prematuridade, eu penso nele e em tantas mães que ele acompanhou aqui em União. E penso no meu pedaço desse cuidado: o sorriso da mãe.
+
+A gengiva inflamada na gestação é estudada como um dos fatores que podem estar ligados ao parto prematuro. A ciência ainda debate o tamanho dessa relação, mas uma coisa é certa: dentista também faz parte do pré-natal.
+
+Se você está grávida ou planejando, me chama no direct. 🤍
+
+#novembroroxo #prematuridade #prenatal #gestante
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
+
+### qua 18/11 · carrossel · Medo de dentista? Você não está sozinha
 
 - Arquivo: `posts/2026-10/13-medo-de-dentista`
 - Legenda:
@@ -270,42 +294,6 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #medodedentista #odontologia #uniaodospalmares #sorrisosaudavel
 ```
 
-### ter 17/11 · post de data · Dia Mundial da Prematuridade (com o pai)
-
-- Arquivo: `posts/2026-11/17-prematuridade`
-- Legenda:
-
-```
-Meu pai passou a vida cuidando de quem chega ao mundo.
-
-Hoje, Dia Mundial da Prematuridade, eu penso nele e em tantas mães que ele acompanhou aqui em União. E penso no meu pedaço desse cuidado: o sorriso da mãe.
-
-A gengiva inflamada na gestação é estudada como um dos fatores que podem estar ligados ao parto prematuro. A ciência ainda debate o tamanho dessa relação, mas uma coisa é certa: dentista também faz parte do pré-natal.
-
-Se você está grávida ou planejando, me chama no direct. 🤍
-
-#novembroroxo #prematuridade #prenatal #gestante
-
-Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
-```
-
-### qua 18/11 · reels · Espaço entre os dentes · resina
-
-- Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Espaço entre os dentes · resina.mp4
-- Legenda:
-
-```
-Aquele espacinho entre os dentes tem solução.
-
-Com resina, dá pra fechar pequenos espaços e ajustar o tamanho e a posição dos dentes, quando faz sentido pro seu sorriso. Cada caso tem o seu plano, e ele começa na avaliação.
-
-Me chama no direct. 🤍
-
-#resina #diastema #sorriso #uniaodospalmares
-
-Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
-```
-
 ### sex 20/11 · post de data · Dia de Zumbi e da Consciência Negra
 
 - Arquivo: `posts/2026-11/20-consciencia-negra`
@@ -325,7 +313,24 @@ Foto: Ministério da Cultura, Parque Memorial Quilombo dos Palmares (CC BY 2.0, 
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### sáb 21/11 · carrossel · Aquele espacinho entre os dentes tem solução
+### sáb 21/11 · reels · Espaço entre os dentes · resina
+
+- Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Espaço entre os dentes · resina.mp4
+- Legenda:
+
+```
+Aquele espacinho entre os dentes tem solução.
+
+Com resina, dá pra fechar pequenos espaços e ajustar o tamanho e a posição dos dentes, quando faz sentido pro seu sorriso. Cada caso tem o seu plano, e ele começa na avaliação.
+
+Me chama no direct. 🤍
+
+#resina #diastema #sorriso #uniaodospalmares
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
+
+### seg 23/11 · carrossel · Aquele espacinho entre os dentes tem solução
 
 - Arquivo: `posts/2026-10/16-espaco-entre-dentes`
 - Legenda:
@@ -396,5 +401,5 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, Uni
 
 ## Vagas livres
 
-Depois de 21/11 o feed só tem as datas (08/12 e 25/12). Cabem aí: o vídeo do implante (falta a animação), o reels
-"Depoimento da Mari" v4 (está no notebook) e o conteúdo da próxima diária.
+Depois da última postagem da sequência, o feed só tem as datas (08/12 e 25/12). Cabem aí: o vídeo do implante
+(falta a animação), os vídeos de setembro que não saíram (canal dói, sensibilidade x canal e outros) e a próxima diária.

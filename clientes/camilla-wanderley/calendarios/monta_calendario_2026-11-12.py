@@ -26,6 +26,8 @@ SO_STORIES = {
 }
 V = "Drive: VÍDEOS EDITADOS/2026-10/"
 SEQUENCIA = [  # vídeo → carrossel dele
+    # 26/10: o reels da Mari sai na segunda (pedido da Talyta, 2026-10-24); o carrossel dela já saiu em 22/10
+    ("reels", "Depoimento da Mari · 7 anos de sorriso", "Notebook: reels \"Depoimento da Mari\" v4 (legenda vai com o arquivo)", "mari"),
     ("reels", "Vlog · uma quinta na CIP", V + "2026-10-22 · Vlog · uma quinta na CIP.mp4", "vlog"),
     ("carrossel", "Bastidores de uma quinta na CIP", "posts/2026-10/11-bastidores-quinta-cip", None),
     ("reels", "Clareamento antes do casamento", V + "2026-10-22 · Clareamento antes do casamento.mp4", "noiva"),
@@ -42,6 +44,7 @@ SEQUENCIA = [  # vídeo → carrossel dele
 
 ASSINA = "\n\nDra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares"
 LEG_VIDEO = {
+    "mari": "",  # a legenda está com o arquivo no notebook
     "vlog": """Uma quinta inteira na CIP, do primeiro ao último atendimento.
 
 Toda semana eu pego a estrada de Maceió até União, e cada quinta tem um pouco de tudo: conversa, cuidado, mãe e filha com o mesmo sorriso, noiva planejando o clareamento e paciente de anos contando a própria história.
@@ -128,7 +131,7 @@ if __name__ == "__main__":
           "## Cada postagem", ""]
     for d, (fmt, tema, fonte, leg) in tudo.items():
         L += [f"### {DIAS[d.weekday()]} {d:%d/%m} · {fmt} · {tema}", "", f"- Arquivo: `{fonte}`" if fonte.startswith("posts/") else f"- Arquivo: {fonte}"]
-        legenda = LEG_VIDEO[leg] + ASSINA if leg else ler(fonte)
+        legenda = (LEG_VIDEO[leg] + ASSINA if LEG_VIDEO[leg] else "") if leg else ler(fonte)
         if legenda:
             L += ["- Legenda:", "", "```", legenda, "```"]
         L.append("")
@@ -140,8 +143,8 @@ if __name__ == "__main__":
           "- Token do Instagram da Camilla vence por volta de 27/11: renovar antes.",
           "- 02/11 (Finados) fica sem post: o carrossel da noiva foi pro 03/11 e o resto andou com um dia de espaço.", "",
           "## Vagas livres", "",
-          "Depois de 21/11 o feed só tem as datas (08/12 e 25/12). Cabem aí: o vídeo do implante (falta a animação), o reels",
-          "\"Depoimento da Mari\" v4 (está no notebook) e o conteúdo da próxima diária.", ""]
+          "Depois da última postagem da sequência, o feed só tem as datas (08/12 e 25/12). Cabem aí: o vídeo do implante",
+          "(falta a animação), os vídeos de setembro que não saíram (canal dói, sensibilidade x canal e outros) e a próxima diária.", ""]
     open(os.path.join(AQUI, "2026-11-12-calendario-postagens.md"), "w", encoding="utf-8").write("\n".join(L))
     for d, v in tudo.items():
         print(f"{DIAS[d.weekday()]} {d:%d/%m}  {v[0]:18} {v[1]}")
