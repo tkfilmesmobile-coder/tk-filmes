@@ -31,7 +31,7 @@
 - **Calendários de novembro e dezembro/2026:** base pronta em `calendarios/2026-11-12-datas-comemorativas.md`.
   Antes de montar, confirmar com a doutora: nome do pai e se ele topa aparecer (fotos dos dois), atendimento nas
   quintas 24/12 e 31/12, se o Dr. Jadson entra no post da família. (2026-10-24)
-- **Posts de datas nov/dez (2026-10-24):** 6 artes na estética homenagem, com legenda, em `posts/2026-11/` e `posts/2026-12/`
+- **Posts de datas nov/dez (2026-10-24, aprovados pela Talyta com os stories):** 6 artes na estética homenagem, com legenda, em `posts/2026-11/` e `posts/2026-12/`
   e no Drive. Antes de publicar: confirmar as frases sobre o pai (17/11 e 08/12) e se a filha pode aparecer (08/12, foto de
   2020). Stories prontos (3 por data, mais Maceió 05/12 e Réveillon 31/12), também no Drive. Pedir foto recente com o pai.
 - Falta foto da doutora sozinha no banco (retrato, sem paciente): pedir na próxima diária. (2026-10-24)
