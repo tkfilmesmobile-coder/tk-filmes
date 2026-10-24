@@ -43,8 +43,8 @@
 - Reels "Depoimento da Mari" v4 (close da boca, pós aparelho, fotos do casamento) só existe no notebook; **sai seg 26/10**
   (abre o calendário de postagens). (2026-10-24)
 - Vídeos de setembro que nunca saíram (Drive `VÍDEOS EDITADOS/2026-09`): **canal dói (01/12) e sensibilidade x canal (03/12)
-  entraram no calendário**. Em revisão com a Talyta (https://claude.ai/artifact/9aYN2WG8XFTMnYrrDJBpFL): 6 em 6 meses (fala com
-  adulto; sugeri como 5º post de dezembro), Atendimento e manchas e Atendimento Gi (procedimento com criança: não entram como estão). (2026-10-24)
+  entraram no calendário**, e o **6 em 6 meses (06/12)**: dezembro com 5 posts. Atendimento e manchas e Atendimento Gi ficam de
+  fora (procedimento com criança). Revisão: https://claude.ai/artifact/9aYN2WG8XFTMnYrrDJBpFL (2026-10-24)
 - Calendário de outubro/2026 (10 posts, 2 por semana) escrito em `calendarios/2026-10-calendario.md`; falta o PDF e as artes.
 - Termos de autorização das crianças do ensaio: assinados (confirmado em 2026-09-29).
 - CRO dela pro termo de autorização.

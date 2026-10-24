@@ -48,6 +48,7 @@ V9 = "Drive: VÍDEOS EDITADOS/2026-09/"
 SEQUENCIA_DEZ = [
     ("reels", "Canal dói? (vídeo de setembro)", V9 + "Fazer canal dói (v1).mp4", "canal"),
     ("reels", "Sensibilidade ou canal? (vídeo de setembro)", V9 + "Sensibilidade x Canal (v2).mp4", "sensibilidade"),
+    ("reels", "Acompanhamento de 6 em 6 meses (vídeo de setembro)", V9 + "acompanhamento 6 em 6 meses .mp4", "seis"),
 ]
 
 ASSINA = "\n\nDra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares"
@@ -60,6 +61,15 @@ Quase sempre, quem chega pra fazer canal já chega com dor, e essa dor vem da in
 Se o medo de canal te faz adiar aquele dente, me chama no direct que eu te explico tudo antes. 🤍
 
 #canal #endodontia #tratamentodecanal #uniaodospalmares""",
+    "seis": """Se você quer me ver feliz, é chegar na cadeira e não ter nada pra fazer além da limpeza.
+
+A consulta de 6 em 6 meses evita problema de gengiva e cárie. E se aparece alguma coisa, a gente pega no começo, quando o tratamento ainda é simples.
+
+É assim que a gente cria vínculo, e você cria o hábito de se cuidar.
+
+Quando foi a sua última limpeza? Me chama no direct. 🤍
+
+#limpezadental #prevencao #saudebucal #uniaodospalmares""",
     "sensibilidade": """Sensibilidade ou canal?
 
 A sensibilidade dá aquela dor aguda com o gelado e passa assim que o estímulo sai. Já a dor que pode indicar canal costuma ser mais intensa, pode aparecer com o quente e às vezes até melhora com o gelado.
@@ -122,7 +132,7 @@ def agenda():
     for inicio, seq in ((INICIO, SEQUENCIA), (INICIO_DEZ, SEQUENCIA_DEZ)):
         dia = max(dia, inicio)
         for fmt, tema, fonte, leg in seq:
-            while dia in DATAS or dia in BLOQUEADOS:  # caiu em data comemorativa ou feriado bloqueado: pula pro dia seguinte
+            while dia in DATAS or dia in SO_STORIES or dia in BLOQUEADOS:  # data comemorativa (mesmo só de stories) ou feriado bloqueado: pula
                 dia += dt.timedelta(days=1)
             feed[dia] = (fmt, tema, fonte, leg)
             dia += dt.timedelta(days=2)  # um dia livre
@@ -167,8 +177,8 @@ if __name__ == "__main__":
           "- Token do Instagram da Camilla vence por volta de 27/11: renovar antes.",
           "- 02/11 (Finados) fica sem post: o carrossel da noiva foi pro 03/11 e o resto andou com um dia de espaço.", "",
           "## Vagas livres", "",
-          "Dezembro tem os dois vídeos de canal de setembro e as datas (08/12 e 25/12). Ainda cabem: o vídeo do implante",
-          "(falta a animação), o vídeo \"acompanhamento de 6 em 6 meses\" (em revisão) e a próxima diária.", ""]
+          "Dezembro tem os três vídeos de setembro (canal dói, sensibilidade x canal, 6 em 6 meses) e as datas (08/12 e 25/12):",
+          "5 posts, como no contrato. Ainda cabem: o vídeo do implante (falta a animação) e a próxima diária.", ""]
     open(os.path.join(AQUI, "2026-11-12-calendario-postagens.md"), "w", encoding="utf-8").write("\n".join(L))
     for d, v in tudo.items():
         print(f"{DIAS[d.weekday()]} {d:%d/%m}  {v[0]:18} {v[1]}")

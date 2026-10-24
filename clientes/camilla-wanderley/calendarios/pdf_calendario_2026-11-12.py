@@ -102,12 +102,13 @@ pre{{white-space:pre-wrap;font-family:'Open Sans',sans-serif;font-size:7.8pt;lin
 <h1>Dra. Camilla<br>Wanderley</h1><div class="fio"></div>
 <p>@dra.camillawanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares<br>
 {len(feed)} posts no feed ({n(10)} no fim de outubro, {n(11)} em novembro, {n(12)} em dezembro) e 2 datas só nos stories.
-O reels do depoimento da Mari, os vídeos e carrosséis da diária de 22/10, dois vídeos de canal gravados em setembro e as datas comemorativas de novembro e dezembro.</p>
+O reels do depoimento da Mari, os vídeos e carrosséis da diária de 22/10, três vídeos gravados em setembro e as datas comemorativas de novembro e dezembro.</p>
 <div class="rodape"><span>TK FILMES</span><span>PRODUÇÃO AUDIOVISUAL E CRIATIVA</span></div></div>
 <div class="pag"><h2><small>VISÃO GERAL</small>A agenda</h2>
 <table><tr><td><b>#</b></td><td><b>data</b></td><td><b>formato</b></td><td><b>conteúdo</b></td><td><b>stories</b></td></tr>{''.join(linhas)}</table>
 <p class="leg">Regras: data comemorativa sai no dia dela. Cada vídeo é seguido do carrossel feito em cima dele. Um dia livre entre um post
-e outro. Se um vídeo ou carrossel cai em dia de data comemorativa, ele pula pro dia seguinte e o resto segue com um dia de espaço.
+e outro. Se um vídeo ou carrossel cai em dia de data comemorativa (mesmo as que vão só nos stories), ele pula pro dia seguinte e o
+resto segue com um dia de espaço.
 Finados (02/11) fica sem post. Cada post leva 3 stories; nos reels, o próprio vídeo vai pro story.</p>
 <div class="rodape"><span>TK FILMES</span><span>DRA. CAMILLA WANDERLEY · NOV/DEZ 2026</span></div></div>
 <div class="pag">{''.join(blocos)}</div>
@@ -116,7 +117,7 @@ Finados (02/11) fica sem post. Cada post leva 3 stories; nos reels, o próprio v
 <li>Confirmar com a doutora as frases sobre o pai (17/11 e 08/12) e se a filha pode aparecer (08/12 e stories de Natal).</li>
 <li>Conferir a palavra "abraçada" na legenda do vídeo da colaboradora.</li>
 <li>Renovar o acesso do Instagram da doutora antes de 27/11.</li>
-<li>Dezembro tem 4 posts no feed, um a menos que os 5 do contrato. Ainda cabem: o vídeo do implante, o vídeo "acompanhamento de 6 em 6 meses" (em revisão) e a próxima diária.</li>
+<li>Dezembro tem 5 posts no feed, como no contrato. Ainda cabem: o vídeo do implante (falta a animação) e a próxima diária.</li>
 <li>Consciência Negra: fotos do Ministério da Cultura (CC BY 2.0), com o crédito na legenda.</li></ul>
 <div class="rodape"><span>TK FILMES</span><span>DRA. CAMILLA WANDERLEY · NOV/DEZ 2026</span></div></div>
 </body></html>"""

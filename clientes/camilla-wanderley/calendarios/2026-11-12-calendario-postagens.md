@@ -29,11 +29,12 @@ o resto segue com um dia de espaço. Gerado por `monta_calendario_2026-11-12.py`
 | ter 01/12 | reels | Canal dói? (vídeo de setembro) | repostar o reels |
 | qui 03/12 | reels | Sensibilidade ou canal? (vídeo de setembro) | repostar o reels |
 | sáb 05/12 | só stories | 211 anos de Maceió | 3 (só stories) |
+| dom 06/12 | reels | Acompanhamento de 6 em 6 meses (vídeo de setembro) | repostar o reels |
 | ter 08/12 | post de data | Dia Nacional da Família | 3 (do post) |
 | sex 25/12 | post de data | Natal | 3 (do post) |
 | qui 31/12 | só stories | Réveillon | 3 (só stories) |
 
-Feed: 3 em outubro (26 a 31), 14 em novembro, 4 em dezembro. Contrato: 5 posts fixos por mês.
+Feed: 3 em outubro (26 a 31), 14 em novembro, 5 em dezembro. Contrato: 5 posts fixos por mês.
 
 ## Cada postagem
 
@@ -390,6 +391,25 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, Uni
 
 - Arquivo: `posts/2026-12/05-maceio-211-anos`
 
+### dom 06/12 · reels · Acompanhamento de 6 em 6 meses (vídeo de setembro)
+
+- Arquivo: Drive: VÍDEOS EDITADOS/2026-09/acompanhamento 6 em 6 meses .mp4
+- Legenda:
+
+```
+Se você quer me ver feliz, é chegar na cadeira e não ter nada pra fazer além da limpeza.
+
+A consulta de 6 em 6 meses evita problema de gengiva e cárie. E se aparece alguma coisa, a gente pega no começo, quando o tratamento ainda é simples.
+
+É assim que a gente cria vínculo, e você cria o hábito de se cuidar.
+
+Quando foi a sua última limpeza? Me chama no direct. 🤍
+
+#limpezadental #prevencao #saudebucal #uniaodospalmares
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
+
 ### ter 08/12 · post de data · Dia Nacional da Família
 
 - Arquivo: `posts/2026-12/08-dia-da-familia`
@@ -437,5 +457,5 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, Uni
 
 ## Vagas livres
 
-Dezembro tem os dois vídeos de canal de setembro e as datas (08/12 e 25/12). Ainda cabem: o vídeo do implante
-(falta a animação), o vídeo "acompanhamento de 6 em 6 meses" (em revisão) e a próxima diária.
+Dezembro tem os três vídeos de setembro (canal dói, sensibilidade x canal, 6 em 6 meses) e as datas (08/12 e 25/12):
+5 posts, como no contrato. Ainda cabem: o vídeo do implante (falta a animação) e a próxima diária.
