@@ -42,8 +42,9 @@
 - Os 19 B-rolls no Drive estão sem o color grade novo; refazer com `grade.py` se forem usados. (2026-10-23)
 - Reels "Depoimento da Mari" v4 (close da boca, pós aparelho, fotos do casamento) só existe no notebook; **sai seg 26/10**
   (abre o calendário de postagens). (2026-10-24)
-- Vídeos de setembro que nunca saíram (Drive `VÍDEOS EDITADOS/2026-09`): Fazer canal dói (v1), Sensibilidade x Canal (v2),
-  Acompanhamento 6 em 6 meses, Atendimento e manchas e talvez Atendimento Gi. Bons pra completar dezembro. (2026-10-24)
+- Vídeos de setembro que nunca saíram (Drive `VÍDEOS EDITADOS/2026-09`): **canal dói (01/12) e sensibilidade x canal (03/12)
+  entraram no calendário**. Em revisão com a Talyta (https://claude.ai/artifact/9aYN2WG8XFTMnYrrDJBpFL): 6 em 6 meses (fala com
+  adulto; sugeri como 5º post de dezembro), Atendimento e manchas e Atendimento Gi (procedimento com criança: não entram como estão). (2026-10-24)
 - Calendário de outubro/2026 (10 posts, 2 por semana) escrito em `calendarios/2026-10-calendario.md`; falta o PDF e as artes.
 - Termos de autorização das crianças do ensaio: assinados (confirmado em 2026-09-29).
 - CRO dela pro termo de autorização.

@@ -42,9 +42,31 @@ SEQUENCIA = [  # vídeo → carrossel dele
     ("carrossel", "Aquele espacinho entre os dentes tem solução", "posts/2026-10/16-espaco-entre-dentes", None),
 ]
 
+# Dezembro: vídeos de setembro que nunca saíram e falam com adulto (pedido da Talyta, 2026-10-24); mesmas regras
+INICIO_DEZ = dt.date(2026, 12, 1)
+V9 = "Drive: VÍDEOS EDITADOS/2026-09/"
+SEQUENCIA_DEZ = [
+    ("reels", "Canal dói? (vídeo de setembro)", V9 + "Fazer canal dói (v1).mp4", "canal"),
+    ("reels", "Sensibilidade ou canal? (vídeo de setembro)", V9 + "Sensibilidade x Canal (v2).mp4", "sensibilidade"),
+]
+
 ASSINA = "\n\nDra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares"
 LEG_VIDEO = {
     "mari": "",  # a legenda está com o arquivo no notebook
+    "canal": """"Canal dói?"
+
+Quase sempre, quem chega pra fazer canal já chega com dor, e essa dor vem da inflamação dentro do dente, não do tratamento. O canal é feito com anestesia, com calma e com cuidado em cada etapa.
+
+Se o medo de canal te faz adiar aquele dente, me chama no direct que eu te explico tudo antes. 🤍
+
+#canal #endodontia #tratamentodecanal #uniaodospalmares""",
+    "sensibilidade": """Sensibilidade ou canal?
+
+A sensibilidade dá aquela dor aguda com o gelado e passa assim que o estímulo sai. Já a dor que pode indicar canal costuma ser mais intensa, pode aparecer com o quente e às vezes até melhora com o gelado.
+
+Quem diferencia uma da outra é a avaliação. Sentiu algo assim? Me chama no direct. 🤍
+
+#sensibilidade #canal #endodontia #dicadedentista""",
     "vlog": """Uma quinta inteira na CIP, do primeiro ao último atendimento.
 
 Toda semana eu pego a estrada de Maceió até União, e cada quinta tem um pouco de tudo: conversa, cuidado, mãe e filha com o mesmo sorriso, noiva planejando o clareamento e paciente de anos contando a própria história.
@@ -97,11 +119,13 @@ Me chama no direct. 🤍
 def agenda():
     feed = {d: (*v, None) for d, v in DATAS.items()}
     dia = INICIO
-    for fmt, tema, fonte, leg in SEQUENCIA:
-        while dia in DATAS or dia in BLOQUEADOS:  # caiu em data comemorativa ou feriado bloqueado: pula pro dia seguinte
-            dia += dt.timedelta(days=1)
-        feed[dia] = (fmt, tema, fonte, leg)
-        dia += dt.timedelta(days=2)  # um dia livre
+    for inicio, seq in ((INICIO, SEQUENCIA), (INICIO_DEZ, SEQUENCIA_DEZ)):
+        dia = max(dia, inicio)
+        for fmt, tema, fonte, leg in seq:
+            while dia in DATAS or dia in BLOQUEADOS:  # caiu em data comemorativa ou feriado bloqueado: pula pro dia seguinte
+                dia += dt.timedelta(days=1)
+            feed[dia] = (fmt, tema, fonte, leg)
+            dia += dt.timedelta(days=2)  # um dia livre
     return dict(sorted(feed.items()))
 
 
@@ -143,8 +167,8 @@ if __name__ == "__main__":
           "- Token do Instagram da Camilla vence por volta de 27/11: renovar antes.",
           "- 02/11 (Finados) fica sem post: o carrossel da noiva foi pro 03/11 e o resto andou com um dia de espaço.", "",
           "## Vagas livres", "",
-          "Depois da última postagem da sequência, o feed só tem as datas (08/12 e 25/12). Cabem aí: o vídeo do implante",
-          "(falta a animação), os vídeos de setembro que não saíram (canal dói, sensibilidade x canal e outros) e a próxima diária.", ""]
+          "Dezembro tem os dois vídeos de canal de setembro e as datas (08/12 e 25/12). Ainda cabem: o vídeo do implante",
+          "(falta a animação), o vídeo \"acompanhamento de 6 em 6 meses\" (em revisão) e a próxima diária.", ""]
     open(os.path.join(AQUI, "2026-11-12-calendario-postagens.md"), "w", encoding="utf-8").write("\n".join(L))
     for d, v in tudo.items():
         print(f"{DIAS[d.weekday()]} {d:%d/%m}  {v[0]:18} {v[1]}")

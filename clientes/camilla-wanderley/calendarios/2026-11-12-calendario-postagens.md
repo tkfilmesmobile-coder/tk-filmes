@@ -26,12 +26,14 @@ o resto segue com um dia de espaço. Gerado por `monta_calendario_2026-11-12.py`
 | sex 20/11 | post de data | Dia de Zumbi e da Consciência Negra | 3 (do post) |
 | sáb 21/11 | reels | Espaço entre os dentes · resina | repostar o reels |
 | seg 23/11 | carrossel | Aquele espacinho entre os dentes tem solução | 3 (do post) |
+| ter 01/12 | reels | Canal dói? (vídeo de setembro) | repostar o reels |
+| qui 03/12 | reels | Sensibilidade ou canal? (vídeo de setembro) | repostar o reels |
 | sáb 05/12 | só stories | 211 anos de Maceió | 3 (só stories) |
 | ter 08/12 | post de data | Dia Nacional da Família | 3 (do post) |
 | sex 25/12 | post de data | Natal | 3 (do post) |
 | qui 31/12 | só stories | Réveillon | 3 (só stories) |
 
-Feed: 3 em outubro (26 a 31), 14 em novembro, 2 em dezembro. Contrato: 5 posts fixos por mês.
+Feed: 3 em outubro (26 a 31), 14 em novembro, 4 em dezembro. Contrato: 5 posts fixos por mês.
 
 ## Cada postagem
 
@@ -350,6 +352,40 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #resina #sorrisoharmonico #odontologia #uniaodospalmares
 ```
 
+### ter 01/12 · reels · Canal dói? (vídeo de setembro)
+
+- Arquivo: Drive: VÍDEOS EDITADOS/2026-09/Fazer canal dói (v1).mp4
+- Legenda:
+
+```
+"Canal dói?"
+
+Quase sempre, quem chega pra fazer canal já chega com dor, e essa dor vem da inflamação dentro do dente, não do tratamento. O canal é feito com anestesia, com calma e com cuidado em cada etapa.
+
+Se o medo de canal te faz adiar aquele dente, me chama no direct que eu te explico tudo antes. 🤍
+
+#canal #endodontia #tratamentodecanal #uniaodospalmares
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
+
+### qui 03/12 · reels · Sensibilidade ou canal? (vídeo de setembro)
+
+- Arquivo: Drive: VÍDEOS EDITADOS/2026-09/Sensibilidade x Canal (v2).mp4
+- Legenda:
+
+```
+Sensibilidade ou canal?
+
+A sensibilidade dá aquela dor aguda com o gelado e passa assim que o estímulo sai. Já a dor que pode indicar canal costuma ser mais intensa, pode aparecer com o quente e às vezes até melhora com o gelado.
+
+Quem diferencia uma da outra é a avaliação. Sentiu algo assim? Me chama no direct. 🤍
+
+#sensibilidade #canal #endodontia #dicadedentista
+
+Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
+```
+
 ### sáb 05/12 · só stories · 211 anos de Maceió
 
 - Arquivo: `posts/2026-12/05-maceio-211-anos`
@@ -401,5 +437,5 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, Uni
 
 ## Vagas livres
 
-Depois da última postagem da sequência, o feed só tem as datas (08/12 e 25/12). Cabem aí: o vídeo do implante
-(falta a animação), os vídeos de setembro que não saíram (canal dói, sensibilidade x canal e outros) e a próxima diária.
+Dezembro tem os dois vídeos de canal de setembro e as datas (08/12 e 25/12). Ainda cabem: o vídeo do implante
+(falta a animação), o vídeo "acompanhamento de 6 em 6 meses" (em revisão) e a próxima diária.
