@@ -33,7 +33,8 @@
   quintas 24/12 e 31/12, se o Dr. Jadson entra no post da família. (2026-10-24)
 - **Calendário de postagens 26/10 a 31/12 (2026-10-24):** `calendarios/2026-11-12-calendario-postagens.md` (gerado por
   `monta_calendario_2026-11-12.py`). Começa seg 26/10 com o vlog. Dezembro só tem 2 posts no feed: completar com o implante,
-  o reels da Mari e a próxima diária. PDF de entrega: só depois do "pode gerar".
+  o reels da Mari e a próxima diária. Finados (02/11) sem post. **PDF de entrega gerado** (13 páginas,
+  `calendarios/2026-11-12-calendario-camilla-wanderley.pdf`, pelo `pdf_calendario_2026-11-12.py`) e no Drive em `POSTS/`.
 - **Posts de datas nov/dez (2026-10-24, aprovados pela Talyta com os stories):** 6 artes na estética homenagem, com legenda, em `posts/2026-11/` e `posts/2026-12/`
   e no Drive. Antes de publicar: confirmar as frases sobre o pai (17/11 e 08/12) e se a filha pode aparecer (08/12, foto de
   2020). Stories prontos (3 por data, mais Maceió 05/12 e Réveillon 31/12), também no Drive. Pedir foto recente com o pai.
