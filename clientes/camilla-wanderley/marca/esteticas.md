@@ -32,8 +32,8 @@ Modelo pronto: `modelos/carrossel-foto-editorial.py` (HTML → PNG no Chrome hea
   na mesma linguagem, 1080×1920, texto no terço de baixo. Gerador com os 6 posts de 22/10: `posts/2026-10/_diaria-22-10/gera.py`.
 
 - **Regra (2026-10-24, Talyta):** data comemorativa **não** usa a foto editorial: ganha uma estética própria, diferente
-  do resto do feed. Em outubro as 5 datas saíram no mesmo visual dos posts comuns. Proposta em aberto: partir do rosé
-  editorial (claro, data grande em serifa, sem itálico). Levantamento visual: https://claude.ai/artifact/F26YfmQyXgm9UW1TZ3CuV3
+  do resto do feed. Em outubro as 5 datas saíram no mesmo visual dos posts comuns. Definida no mesmo dia: a **homenagem**
+  (seção 5). Levantamento visual: https://claude.ai/artifact/F26YfmQyXgm9UW1TZ3CuV3
 
 ## 2 · Rosé editorial 🟡 parcial (2026-10-06)
 
@@ -64,6 +64,23 @@ só no chat; salvar o arquivo em `referencias/stories-clinico-claro/` quando che
   Seta num círculo preto chamando o próximo story. Numeração simples, um ponto por story.
 - Uso: stories educativos (motivos, mitos, etapas). Atenção à regra de não usar tópicos numerados no feed: aqui a
   numeração é a sequência dos stories, não uma lista dentro da arte.
+
+## 5 · Homenagem 🟡 conceito aprovado, amostras em revisão (2026-10-24, só datas comemorativas)
+
+Referências que a Talyta amou ("só adaptar as cores"): `referencias/datas-comemorativas/ref-1-dia-do-dentista-cinema.webp`,
+`ref-2-dia-do-obstetra-cards.webp`, `ref-3-dia-do-medico-colagem.webp`. Amostras e gerador: `posts/_estetica-datas/`
+(`gera_datas.py`, HTML → PNG 1080×1350).
+- **Versão escura** (refs 1 e 3): foto inteira dela com mapa de cor no vinho (monocromática), véu escuro embaixo; "Feliz" pequeno
+  + **nome da data enorme numa linha só** (Outfit 800) com degradê branco → nude → rosé; data pequena empilhada ao lado
+  ("25 / DEZEMBRO"); frase em faixas escuras, uma linha por faixa; arco fino e dois ícones em círculo translúcido (dente, coração);
+  rodapé "às quintas na CIP / União dos Palmares" e CW + @.
+- **Versão clara** (ref 2): fundo creme, card vinho com a frase e pílula da data, card nude com o título grande (vinho + branco),
+  card vinho escuro no rodapé; foto inteira dela na coluna da direita, sem recorte e sem card em cima do rosto.
+- Cores: vinho `#8E2737`, vinho escuro `#4A1019`, noite `#22080D`, nude `#EADBD3`, creme `#F6EFEA`, rosé `#D99AA5`.
+- **Regras da Talyta (2026-10-24):** palavra nunca dividida em duas linhas (nem a data); foto dela **inteira**, trabalhando,
+  com a assistente ou retrato na clínica, nunca um pedaço recortado de foto de grupo. Boas fontes: retratos profissionais do
+  Instagram (2025-09-29) e ela na mesa do consultório (2025-06-26), em `posts/_estetica-datas/ig/`. As refs usam ícone em
+  círculo e cards arredondados, recusados em 2026-09 no feed: aqui valem só pras datas, porque ela pediu esse conceito.
 
 ## Recusadas (não repetir)
 
