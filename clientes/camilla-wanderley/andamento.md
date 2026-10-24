@@ -31,6 +31,9 @@
 - **Calendários de novembro e dezembro/2026:** base pronta em `calendarios/2026-11-12-datas-comemorativas.md`.
   Antes de montar, confirmar com a doutora: nome do pai e se ele topa aparecer (fotos dos dois), atendimento nas
   quintas 24/12 e 31/12, se o Dr. Jadson entra no post da família. (2026-10-24)
+- **Publicação automática (2026-10-24):** as 24 postagens saem sozinhas às 12h (Agendador do Windows neste PC, ver
+  `_contexto/automacoes.md`). **Pendente pra 26/10:** colocar o reels v4 da Mari no Drive (`VÍDEOS EDITADOS/2026-10`, nome
+  com "Mari"). Termos de autorização dos pacientes e confirmações sobre o pai e a filha precisam estar ok antes das datas.
 - **Calendário de postagens 26/10 a 31/12 (2026-10-24):** `calendarios/2026-11-12-calendario-postagens.md` (gerado por
   `monta_calendario_2026-11-12.py`). Começa seg 26/10 com o vlog. Dezembro só tem 2 posts no feed: completar com o implante,
   o reels da Mari e a próxima diária. Finados (02/11) sem post. **PDF de entrega gerado** (13 páginas,
