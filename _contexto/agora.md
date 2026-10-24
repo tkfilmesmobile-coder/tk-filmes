@@ -17,6 +17,8 @@ computador principal; a tarefa do outro PC foi cancelada. Em 2026-10-23 o Galegu
 em dia até novembro (maio a outubro confirmados pela Talyta); comprovante no Drive dele, `DOCUMENTAÇÃO/Comprovante pagamento/2026/NOVEMBRO`.
 
 Em 2026-10-23, diária de 22/10 da Dra. Camilla: 6 vídeos aprovados no Drive (`VÍDEOS EDITADOS/2026-10`), 19 B-rolls, color grade fixo e kit de música dela; falta o vídeo do implante (animação realista na cota grátis diária do Hugging Face, ver `clientes/camilla-wanderley/andamento.md`).
+Em 2026-10-24: 6 carrosséis da diária prontos (16 refeito só com a mesma paciente) e levantamento de datas de nov/dez
+(`clientes/camilla-wanderley/calendarios/2026-11-12-datas-comemorativas.md`). Próximo: confirmar com a doutora o pai e as quintas de fim de ano, e montar os calendários.
 
 ## Pendências
 - **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)

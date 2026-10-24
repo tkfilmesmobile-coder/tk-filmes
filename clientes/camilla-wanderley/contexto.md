@@ -12,6 +12,10 @@
 - **Urgência:** não atende (informado em 2026-09-29). Post nenhum promete atendimento fora de hora.
 - **Nicho:** odontologia / odontopediatria
 - Divide o atendimento com outra dentista (aparece nas fotos do ensaio); nome [a definir].
+- **Família (2026-10-24):** o pai é ginecologista e obstetra muito conhecido e antigo em União dos Palmares,
+  provavelmente o Dr. José Alberto de Carvalho Barros (@_josealbertobarros; a confirmar). O marido é o
+  Dr. Jadson Wanderley (@jadsonwanderley), dentista de prótese e estética, também na CIP. Pedido da Talyta: toda
+  data que permita ligar a imagem dela à do pai (Dia do Médico, do Ginecologista, prematuridade, família) entra no calendário.
 
 ## Redes
 - **Instagram:** @dra.camillawanderley (conta profissional, tipo Criador de conteúdo; 1.991 seguidores em 2026-09-29)
