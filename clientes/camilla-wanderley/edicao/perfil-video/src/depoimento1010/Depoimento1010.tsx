@@ -34,6 +34,10 @@ export const T1010 = {
   exemploAte: 40.95,
   caninoDe: 48.6, // "por conta do canino… fora de posição"
   caninoAte: 53.2,
+  casamentoDe: 79.0, // "duas semanas antes do casamento tirou o aparelho, fez o clareamento"
+  retratoDe: 83.4, // "eu estava radiante no dia… sorrindo mesmo, muito confiante… realizada"
+  retratoAte: 88.5,
+  // sem foto na fala da gravidez (não há foto dela); a selfie 03 virou o "antes"
   gravidezDe: 112.5, // "a gravidez de Jade e Arthur… ficou sendo acompanhada aqui"
   gravidezAte: 116.0,
   familiaDe: 141.0, // "indico você… toda a minha família está em suas mãos"
@@ -200,7 +204,7 @@ const FotoCheia: React.FC<{ src: string; dur: number; pos?: string; etiqueta?: s
   );
 };
 
-// antes → depois: as duas fotos clínicas na mesma moldura; a cortina abre o "depois" da esquerda pra direita
+// pós aparelho → depois (clareamento e resina): as duas fotos clínicas na mesma moldura; a cortina abre o "depois" da esquerda pra direita
 const AntesDepois: React.FC<{ dur: number; revela: number }> = ({ dur, revela }) => {
   const f = useCurrentFrame();
   const vis = interpolate(f, [0, 7, dur - 7, dur], [0, 1, 1, 0], clamp);
@@ -211,13 +215,52 @@ const AntesDepois: React.FC<{ dur: number; revela: number }> = ({ dur, revela })
   );
   return (
     <AbsoluteFill style={{ opacity: vis, background: "#1a1012" }}>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 560, height: 800, overflow: "hidden" }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 470, height: 800, overflow: "hidden" }}>
         {foto("fotos-1010/02.jpg")}
         <div style={{ position: "absolute", inset: 0, clipPath: `inset(0 ${100 - c}% 0 0)` }}>{foto("fotos-1010/07.jpg")}</div>
         <div style={{ position: "absolute", top: 0, bottom: 0, left: `${c}%`, width: 4, background: "#FFFFFF", opacity: c > 0 && c < 100 ? 0.9 : 0, boxShadow: "0 0 18px rgba(255,255,255,0.8)" }} />
       </div>
-      <Etiqueta texto="ANTES" p={interpolate(f, [6, 16, revela, revela + 6], [0, 1, 1, 0], clamp)} topo={440} />
-      <Etiqueta texto="DEPOIS" p={interpolate(f, [revela + 10, revela + 20], [0, 1], { ...clamp, easing: REVELA })} topo={440} />
+      <Etiqueta texto="PÓS APARELHO" p={interpolate(f, [6, 16, revela, revela + 6], [0, 1, 1, 0], clamp)} topo={350} />
+      <Etiqueta texto="DEPOIS" p={interpolate(f, [revela + 10, revela + 20], [0, 1], { ...clamp, easing: REVELA })} topo={350} />
+    </AbsoluteFill>
+  );
+};
+
+// antes em close na boca (recorte ampliado da selfie 03): zoom lento puxando pro canino fora de posição,
+// que ganha um círculo desenhado pra marcar o defeito
+const BocaAntes: React.FC<{ dur: number }> = ({ dur }) => {
+  const f = useCurrentFrame();
+  const vis = interpolate(f, [0, 7, dur - 7, dur], [0, 1, 1, 0], clamp);
+  const z = interpolate(f, [0, dur], [1.0, 1.14], clamp);
+  const traco = interpolate(f, [12, 30], [0, 1], { ...clamp, easing: SUAVE });
+  const R = 78;
+  const C = 2 * Math.PI * R;
+  // posição do canino dentro da faixa de 1080×800
+  const cx = 340;
+  const cy = 318;
+  return (
+    <AbsoluteFill style={{ opacity: vis, background: "#1a1012" }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 470, height: 800, overflow: "hidden" }}>
+        <div style={{ position: "absolute", inset: 0, scale: z, transformOrigin: `${cx}px ${cy}px` }}>
+          <Img src={staticFile("fotos-1010/03-boca.jpg")} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+          <svg width={1080} height={800} style={{ position: "absolute", inset: 0 }}>
+            <circle
+              cx={cx}
+              cy={cy}
+              r={R}
+              fill="none"
+              stroke="#FFFFFF"
+              strokeWidth={5}
+              strokeLinecap="round"
+              strokeDasharray={C}
+              strokeDashoffset={C * (1 - traco)}
+              transform={`rotate(-90 ${cx} ${cy})`}
+              style={{ filter: "drop-shadow(0 0 10px rgba(255,255,255,0.7))" }}
+            />
+          </svg>
+        </div>
+      </div>
+      <Etiqueta texto="ANTES" p={interpolate(f, [6, 16], [0, 1], { ...clamp, easing: REVELA })} topo={350} />
     </AbsoluteFill>
   );
 };
@@ -262,8 +305,8 @@ export const Depoimento1010: React.FC<{ fim: number; estilo?: EstiloHeadline }> 
       <Sequence name="Headline" from={F(T.headlineDe)} durationInFrames={d(T.headlineDe, T.headlineAte)}>
         {estilo === "rose" ? <Headline /> : <HeadlineFoto estilo={estilo} />}
       </Sequence>
-      <Sequence name="Foto · antes (afastador)" from={F(T.antesDe)} durationInFrames={d(T.antesDe, T.antesAte)}>
-        <FotoCheia src="fotos-1010/02.jpg" dur={d(T.antesDe, T.antesAte)} etiqueta="ANTES" />
+      <Sequence name="Foto · antes (close na boca, da selfie)" from={F(T.antesDe)} durationInFrames={d(T.antesDe, T.antesAte)}>
+        <BocaAntes dur={d(T.antesDe, T.antesAte)} />
       </Sequence>
       <Sequence name="Antes → depois" from={F(T.compDe)} durationInFrames={d(T.compDe, T.compAte)}>
         <AntesDepois dur={d(T.compDe, T.compAte)} revela={F(T.compRevela) - F(T.compDe)} />
@@ -278,8 +321,11 @@ export const Depoimento1010: React.FC<{ fim: number; estilo?: EstiloHeadline }> 
       <Sequence name="Foto · canino (de lado)" from={F(T.caninoDe)} durationInFrames={d(T.caninoDe, T.caninoAte)}>
         <FotoCheia src="fotos-1010/01.jpg" dur={d(T.caninoDe, T.caninoAte)} zoom={[1.04, 1.14]} />
       </Sequence>
-      <Sequence name="Foto · selfie com o filho" from={F(T.gravidezDe)} durationInFrames={d(T.gravidezDe, T.gravidezAte)}>
-        <FotoCheia src="fotos-1010/03.jpg" dur={d(T.gravidezDe, T.gravidezAte)} pos="center 30%" fundo={false} zoom={[1.0, 1.07]} />
+      <Sequence name="Foto · casamento (entrada com o pai)" from={F(T.casamentoDe)} durationInFrames={d(T.casamentoDe, T.retratoDe)}>
+        <FotoCheia src="fotos-1010/08-casamento-entrada.jpg" dur={d(T.casamentoDe, T.retratoDe)} zoom={[1.0, 1.06]} />
+      </Sequence>
+      <Sequence name="Foto · casamento (retrato sorrindo)" from={F(T.retratoDe)} durationInFrames={d(T.retratoDe, T.retratoAte)}>
+        <FotoCheia src="fotos-1010/09-casamento-retrato.jpg" dur={d(T.retratoDe, T.retratoAte)} zoom={[1.02, 1.1]} />
       </Sequence>
       <Sequence name="Foto · com a doutora e o Dr. Jadson" from={F(T.familiaDe)} durationInFrames={d(T.familiaDe, T.familiaAte)}>
         <FotoCheia src="fotos-1010/05.jpg" dur={d(T.familiaDe, T.familiaAte)} pos="center 25%" fundo={false} zoom={[1.0, 1.07]} />
@@ -309,7 +355,9 @@ export const Depoimento1010: React.FC<{ fim: number; estilo?: EstiloHeadline }> 
       <Sfx em={T.exemploDe - 0.25} nome="whoosh-grave-impacto" volume={0.6} />
       <Sfx em={T.caninoDe - 0.25} nome="whoosh-grave" volume={0.6} />
       <Sfx em={T.caninoAte - 0.25} nome="whoosh-grave" volume={0.45} />
-      <Sfx em={T.gravidezDe - 0.25} nome="whoosh-grave" volume={0.6} />
+      <Sfx em={T.casamentoDe - 0.25} nome="whoosh-grave" volume={0.6} />
+      <Sfx em={T.retratoDe - 0.2} nome="whoosh-grave" volume={0.5} />
+      <Sfx em={T.retratoAte - 0.25} nome="whoosh-grave" volume={0.45} />
       <Sfx em={T.familiaDe - 0.25} nome="whoosh-grave-cards" volume={0.65} />
       <Sfx em={T.familiaAte - 0.25} nome="whoosh-grave" volume={0.45} />
       <Sfx em={T.assinaturaDe} nome="whoosh-grave-impacto" volume={0.65} />
