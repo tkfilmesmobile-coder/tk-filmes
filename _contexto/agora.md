@@ -23,7 +23,7 @@ Em 2026-10-27: reel "Meu dia de princesa" (trend da Rapunzel) da Marielly Makeup
 dela, magia com brilhos na revelação, áudio da trend) está em `clientes/marielly-makeup/edicao/2026-10-trend-rapunzel/out/` esperando aprovação da Talyta.
 
 ## Pendências
-- **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos; se o Instagram silenciar, usar a v1 muda + "Usar áudio" no app); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entrega no Drive `Marielly Makeup/POSTS/2026-10` (com e sem áudio). (2026-10-27)
+- **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entregue no Drive `Marielly Makeup/Dia de princesa (trend Rapunzel).mp4`. (2026-10-27)
 - **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
 - **Dra. Melissa Morais:** aprovar o antes e depois de frente (3ª edição, Drive `POSTS/POST 3`, 2026-10-24); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-24)
