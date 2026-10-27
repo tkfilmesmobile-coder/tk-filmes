@@ -19,11 +19,14 @@ em dia até novembro (maio a outubro confirmados pela Talyta); comprovante no Dr
 Em 2026-10-23, diária de 22/10 da Dra. Camilla: 6 vídeos aprovados no Drive (`VÍDEOS EDITADOS/2026-10`), 19 B-rolls, color grade fixo e kit de música dela; falta o vídeo do implante (animação realista na cota grátis diária do Hugging Face, ver `clientes/camilla-wanderley/andamento.md`).
 Em 2026-10-24: 6 carrosséis da diária prontos (16 refeito só com a mesma paciente) e levantamento de datas de nov/dez
 (`clientes/camilla-wanderley/calendarios/2026-11-12-datas-comemorativas.md`). Próximo: confirmar com a doutora o pai e as quintas de fim de ano, e montar os calendários.
+Em 2026-10-27: reel "Meu dia de princesa" (trend da Rapunzel) da Marielly Makeup editado, 36 s, sem som
+(`clientes/marielly-makeup/edicao/2026-10-trend-rapunzel/out/`), esperando aprovação da Talyta.
 
 ## Pendências
+- **Marielly Makeup:** aprovar o reel da trend da Rapunzel; ao postar, pôr o áudio da trend pelo app (o vídeo sai mudo, cortes nos tempos da referência); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente` e criar a pasta dela no Drive pra entrega. (2026-10-27)
 - **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
-- **Dra. Melissa Morais:** número do CRO (entra no fecho do vídeo e na legenda); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-17)
+- **Dra. Melissa Morais:** aprovar o antes e depois de frente (3ª edição, Drive `POSTS/POST 3`, 2026-10-24); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-24)
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)
 - Ary: preço da sobrancelha e dos kits de tratamento; prints reais de depoimentos (post 10/11); oferta de Black Friday (24/11); se o salão abre em 20/11. (2026-10-12)
 - Ary: postar pelo celular os stories de União (13/10) e AGENDA (27/10), com localização e link do WhatsApp (Drive `POSTS/2026-10/STORIES`). (2026-10-12)
