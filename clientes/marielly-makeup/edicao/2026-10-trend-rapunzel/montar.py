@@ -1,10 +1,13 @@
 """Reel "Meu dia de princesa" (trend da Rapunzel) da Marielly Makeup. Montado em 2026-10-27.
 
-Referência: instagram.com/reel/DV4Lc5BkfGp (36,3 s). Os cortes seguem os tempos dela pra casar com o áudio
-da trend, que entra pelo app do Instagram na hora de postar (o vídeo sai sem som):
-  0,0 a 25,0 s  noiva de roupão pondo colar, brincos e tiara (no lugar do Pascal, close no rosto em 7,1 e 14,5 s)
-  25,0 s        corte seco pra noiva de vestido (a revelação)
-  até ~36 s     vestido no carro, buquê, entrada com o pai
+Referência: instagram.com/reel/DV4Lc5BkfGp (36,27 s, 30 fps). A Talyta mandou o arquivo dela
+(brutos/referencia/referencia-trend.mp4, baixado por ela): dele saem os 3 trechos do Pascal e o áudio da trend.
+Os cortes caem no mesmo quadro da referência, então o áudio casa sem ajuste:
+  0 a 24,97 s      noiva de roupão pondo colar, brincos e tiara (Pascal em 7,0–8,3 e 14,43–15,6 s)
+  24,97 s          corte seco pra noiva de vestido (a revelação)
+  30,7–32,33 s     Pascal reagindo
+  32,33–36,1 s     entrada com o pai; 36,1–36,27 s preto, como na referência
+v1 (2026-10-27, sem Pascal nem áudio, closes no rosto no lugar) ficou em out/ com o nome antigo.
 
 O vídeo do roupão é HDR (HLG) do iPhone: aqui ele vira SDR (BT.709) e ganha pele mais quente.
 Os vídeos de vestido já chegam editados e em SDR (WhatsApp): entram sem mexer na cor.
@@ -23,22 +26,27 @@ FF = os.path.expandvars(r"%LOCALAPPDATA%\CapCut\Apps\9.6.0.4097\ffmpeg.exe")  # 
 W, H, FPS = 1080, 1920, 30
 
 ROUPAO, V1, V2 = "roupao-acessorios.MOV", "vestido-1.mp4", "vestido-2.mp4"
+REF, PRETO = "referencia/referencia-trend.mp4", None
+AUDIO_REF = os.path.join(BRUTOS, REF)
+TOTAL_QUADROS = 1088  # 36,27 s, igual à referência
 
-# (arquivo, de, até, duração na timeline, recorte x,y,w,h no quadro já em pé ou None)
-# Roupão: 21,85 s esticados pra 25 s (velocidade ~0,87, câmera lenta leve) pra revelação cair em 25,0 s.
-CLOSE1 = (150, 250, 636, 1130)   # rosto + colar (rosto em ~x 470, y 620)
-CLOSE2 = (130, 290, 636, 1130)   # rosto + brinco (rosto em ~x 440, y 680)
+# (arquivo, de, até, QUADROS na timeline, recorte x,y,w,h no quadro já em pé ou None)
+# Roupão em câmera lenta bem leve (~0,92); o Pascal esconde os pulos de 6,6→7,0 s e 12,6→13,2 s do bruto.
+CLOSE1 = (150, 250, 636, 1130)   # (v1) rosto + colar
+CLOSE2 = (130, 290, 636, 1130)   # (v1) rosto + brinco
 VERT_V1 = (84, 0, 324, 576)      # 464x576 -> 9:16, noiva no centro, pai à esquerda
 CORTES = [
-    (ROUPAO, 0.00, 6.20, 7.10, None),     # colar, virada de rosto
-    (ROUPAO, 6.20, 7.30, 1.30, CLOSE1),   # close: maquiagem + colar  (Pascal 1 na referência)
-    (ROUPAO, 7.30, 12.60, 6.10, None),    # brincos
-    (ROUPAO, 12.60, 13.65, 1.20, CLOSE2), # close: brinco             (Pascal 2 na referência)
-    (ROUPAO, 13.65, 21.85, 9.30, None),   # acessórios e tiara -> 25,0 s
-    (V2, 0.00, 2.85, 2.85, None),         # REVELAÇÃO: sorrindo no carro (o clarão do vídeo dela começa em 2,87 s)
-    (V2, 5.13, 6.97, 1.84, None),         # sorriso de lado
-    (V2, 7.03, 8.83, 1.80, None),         # buquê sobre o vestido
-    (V1, 0.50, 4.99, 4.49, VERT_V1),      # entrada com o pai (fecho de corpo inteiro)
+    (ROUPAO, 0.00, 6.60, 210, None),      # 0,00  colar, virada de rosto
+    (REF, 7.00, 8.30, 39, None),          # 7,00  Pascal 1 (quadros 210–248 da referência)
+    (ROUPAO, 7.00, 12.60, 184, None),     # 8,30  brincos
+    (REF, 14.4333, 15.60, 35, None),      # 14,43 Pascal 2 (quadros 433–467)
+    (ROUPAO, 13.20, 21.85, 281, None),    # 15,60 acessórios e tiara
+    (V2, 0.00, 2.85, 86, None),           # 24,97 REVELAÇÃO: sorrindo no carro (o clarão do vídeo dela começa em 2,87 s)
+    (V2, 5.13, 6.97, 55, None),           # 27,83 sorriso de lado
+    (V2, 7.03, 8.07, 31, None),           # 29,67 buquê sobre o vestido
+    (REF, 30.70, 32.3333, 49, None),      # 30,70 Pascal 3 (quadros 921–969)
+    (V1, 0.50, 4.27, 113, VERT_V1),       # 32,33 entrada com o pai
+    (PRETO, 0, 0, 5, None),               # 36,10 preto até 36,27
 ]
 
 # ---------------- cor do roupão: HLG (BT.2020) -> SDR (BT.709) + look ----------------
@@ -83,20 +91,29 @@ def cor_hlg(rgb16):
 
 
 # ---------------- leitura dos trechos ----------------
-def frames_do_trecho(arq, de, ate, dur, rec):
+def frames_do_trecho(arq, de, ate, n, rec):
+    if arq is PRETO:
+        for _ in range(n):
+            yield np.zeros((H, W, 3), np.uint8)
+        return
     hdr = arq == ROUPAO
-    n = round(dur * FPS)
-    vel = (ate - de) / dur
+    vel = (ate - de) / (n / FPS)
     vf = []
     if rec:
         x, y, w, h = rec
         vf.append(f"crop={w}:{h}:{x}:{y}")
     mat = "bt2020" if hdr else "bt709"
+    if arq == REF:  # referência: corte pelo número do quadro (pelo tempo vazava 1 quadro da outra noiva)
+        vf.insert(0, f"trim=start_frame={round(de * FPS)}:end_frame={round(ate * FPS)},setpts=PTS-STARTPTS")
+        busca = []
+    else:
+        busca = ["-ss", f"{de:.3f}", "-t", f"{ate - de:.3f}"]
     vf.append(f"scale={W}:{H}:flags=lanczos:in_color_matrix={mat}:in_range=tv:out_range=pc")
-    vf.append(f"setpts=(PTS-STARTPTS)/{vel:.6f}")
-    vf.append(f"fps={FPS}")
+    if arq != REF:
+        vf.append(f"setpts=(PTS-STARTPTS)/{vel:.6f}")
+        vf.append(f"fps={FPS}")
     pix, bpp, dt = ("rgb48le", 6, np.uint16) if hdr else ("rgb24", 3, np.uint8)
-    cmd = [FF, "-v", "error", "-ss", f"{de:.3f}", "-t", f"{ate - de:.3f}", "-i", os.path.join(BRUTOS, arq),
+    cmd = [FF, "-v", "error", *busca, "-i", os.path.join(BRUTOS, arq),
            "-vf", ",".join(vf), "-frames:v", str(n), "-f", "rawvideo", "-pix_fmt", pix, "-"]
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE)
     tam = W * H * bpp
@@ -113,9 +130,12 @@ def frames_do_trecho(arq, de, ate, dur, rec):
 
 def render():
     os.makedirs(OUT, exist_ok=True)
-    saida = os.path.join(OUT, "2026-10-27-marielly-dia-de-princesa.mp4")
+    assert sum(c[3] for c in CORTES) == TOTAL_QUADROS
+    saida = os.path.join(OUT, "2026-10-27-marielly-dia-de-princesa-v2.mp4")
     enc = subprocess.Popen([FF, "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-                            "-r", str(FPS), "-i", "-",
+                            "-r", str(FPS), "-i", "-", "-i", AUDIO_REF,
+                            "-map", "0:v", "-map", "1:a", "-c:a", "aac", "-b:a", "192k",
+                            "-t", f"{TOTAL_QUADROS / FPS:.4f}",
                             "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
                             "-c:v", "h264_nvenc", "-preset", "p7", "-rc", "vbr", "-cq", "17", "-b:v", "0",
                             "-maxrate", "25M", "-bufsize", "50M",
@@ -126,7 +146,7 @@ def render():
         print(f"{t:6.2f}s  {c[0]} {c[1]:.2f}-{c[2]:.2f}", flush=True)
         for f in frames_do_trecho(*c):
             enc.stdin.write(f.tobytes())
-        t += round(c[3] * FPS) / FPS
+        t += c[3] / FPS
     enc.stdin.close()
     enc.wait()
     print(f"fim em {t:.2f}s -> {saida}")
@@ -136,7 +156,7 @@ def amostra():
     os.makedirs(OUT, exist_ok=True)
     import cv2
     for i, (de, rec) in enumerate([(0.4, None), (6.6, CLOSE1), (13.0, CLOSE2), (21.4, None)]):
-        f = next(frames_do_trecho(ROUPAO, de, de + 0.2, 0.2, rec))
+        f = next(frames_do_trecho(ROUPAO, de, de + 0.2, 6, rec))
         cv2.imwrite(os.path.join(OUT, f"amostra-{i}.jpg"), cv2.cvtColor(f, cv2.COLOR_RGB2BGR)[::2, ::2])
 
 
