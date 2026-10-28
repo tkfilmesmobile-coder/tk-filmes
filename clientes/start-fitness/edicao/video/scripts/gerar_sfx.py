@@ -220,6 +220,86 @@ partes = [(e, (np.sin(2 * np.pi * 3200 * t(0.02)) * np.exp(-t(0.02) / 0.003) + f
 partes.append((tempos[-1] + 0.08, junta(kick(200, 70, 0.02, 0.25, 0.06) * 0.8, clique(0.004, 3000))))
 grava("contador", *reverb(mistura(partes, 1.4), 0.5, 0.1), alvo=0.75)
 
+# ---------- v3 (2026-10-28, Talyta: "o mesmo efeito sonoro pra tudo não gosto"): cada momento com seu som ----------
+
+# PRATO REVERSO: o ar "sugando" antes da primeira pancada (DESAFIO)
+x = t(1.0)
+prato = filtro(ruido(1.0), "high", 3500) * np.exp(-x / 0.35) + filtro(ruido(1.0), "band", [6000, 12000]) * np.exp(-x / 0.2) * 0.6
+L, R = reverb(prato, 1.0, 0.3, 9000)
+grava("prato-reverso", L[::-1][-int(0.95 * SR):], R[::-1][-int(0.95 * SR):], alvo=0.75)
+
+# TAMBOR grave (estilo taiko): DESAFIO, DIA 1º
+x = t(1.2)
+tambor = junta(np.sin(2 * np.pi * np.cumsum(62 + 70 * np.exp(-x / 0.04)) / SR) * np.exp(-x / 0.45),
+               filtro(ruido(1.2), "low", 900) * np.exp(-x / 0.05) * 0.9, clique(0.008, 1200) * 0.6)
+grava("tambor", *reverb(satura(tambor, 2.2), 1.6, 0.3, 3500))
+
+# PALMAS (MARCADA): 4 estalos de mão bem juntinhos
+pal = mistura([(k * 0.009, filtro(ruido(0.12), "band", [900, 2600]) * np.exp(-t(0.12) / (0.012 if k < 3 else 0.04))) for k in range(4)], 0.3)
+grava("palmas", *reverb(pal, 0.7, 0.25, 7000), alvo=0.8)
+
+# PASSOS (CORRENDO): pisadas de corrida acelerando, uma de cada lado
+L = np.zeros(int(1.0 * SR)); R = np.zeros_like(L); em = 0.0; k = 0
+while em < 0.75:
+    p = junta(kick(95, 48, 0.012, 0.12, 0.035) * 0.9, filtro(ruido(0.06), "band", [300, 1800]) * np.exp(-t(0.06) / 0.012) * 0.7)
+    i = int(em * SR); n = min(len(p), len(L) - i)
+    (L if k % 2 == 0 else R)[i:i + n] += p[:n]; (R if k % 2 == 0 else L)[i:i + n] += p[:n] * 0.35
+    em += 0.115 * 0.9 ** k; k += 1
+grava("passos", L, R, alvo=0.8)
+
+# TIRO DE LARGADA (2ª CORRIDA): estampido + eco de rua
+x = t(0.4)
+tiro = junta(filtro(ruido(0.4), "high", 300) * np.exp(-x / 0.018) * 1.2, np.sin(2 * np.pi * 70 * x) * np.exp(-x / 0.06) * 0.8, clique(0.003, 2000))
+grava("tiro", *reverb(satura(tiro, 3.0), 2.4, 0.45, 5000))
+
+# METAL (START FITNESS): pancada metálica de academia (anilha batendo)
+x = t(1.4)
+metal = sum(w * np.sin(2 * np.pi * f * x) * np.exp(-x / d) for f, w, d in ((233, 1, 0.5), (587, 0.6, 0.35), (1213, 0.4, 0.22), (2160, 0.25, 0.12), (3480, 0.15, 0.07)))
+grava("metal", *reverb(junta(metal * 0.8, clique(0.004, 2500) * 0.8, kick(120, 50, 0.02, 0.3, 0.08) * 0.5), 1.2, 0.2, 8000), alvo=0.85)
+
+# OBTURADOR (DIA 1º, DIA 29): clique de câmera, duas lâminas
+def lamina():
+    return junta(filtro(ruido(0.03), "band", [1500, 7000]) * np.exp(-t(0.03) / 0.004), np.sin(2 * np.pi * 900 * t(0.03)) * np.exp(-t(0.03) / 0.006) * 0.4)
+grava("obturador", *reverb(mistura([(0, lamina()), (0.075, lamina() * 0.8)], 0.2), 0.4, 0.12), alvo=0.75)
+
+# PÁGINA (DE NOVEMBRO): folha de calendário virando
+x = t(0.3)
+pag = filtro(ruido(0.3), "band", [1800, 7000]) * np.sin(np.pi * np.minimum(1, x / 0.26)) ** 2 * (0.6 + 0.4 * np.sin(2 * np.pi * 38 * x))
+grava("pagina", *reverb(pag, 0.4, 0.1), alvo=0.65)
+
+# PERGUNTA (MELHOR?): subidinha de suspense que termina num ponto
+x = t(0.7); p = x / 0.7
+sub = np.sin(2 * np.pi * np.cumsum(260 + 700 * p ** 2) / SR) * p ** 1.5 * 0.5 + varre(ruido(0.7), 800, 8000, 0.8) * p ** 2 * 0.6
+grava("pergunta", *reverb(junta(sub, np.zeros(int(0.75 * SR))) + mistura([(0.69, sino(1568, 0.4, 0.15, (1, 2.01), (1, 0.3)) * 0.5)], 0.75), 0.8, 0.2), alvo=0.7)
+
+# 1, 2, 3: plins subindo (dó, mi, sol) com um grave por baixo
+for nome, f in (("um", 523.25), ("dois", 659.25), ("tres", 783.99)):
+    x = t(0.6)
+    plin = (np.sin(2 * np.pi * f * x) + 0.35 * np.sign(np.sin(2 * np.pi * f * x)) * 0.3 + 0.25 * np.sin(2 * np.pi * 2 * f * x)) * np.exp(-x / 0.18)
+    grava(nome, *reverb(junta(plin, kick(130, 55, 0.02, 0.3, 0.07) * 0.7), 0.8, 0.2), alvo=0.8)
+
+# ARRANHÃO de disco (ACABOU?): "pera aí"
+x = t(0.42); p = x / 0.42
+curva = np.interp(p, [0, 0.3, 0.55, 1], [200, 1100, 380, 120])
+tom = (2 * ((np.cumsum(curva) / SR) % 1) - 1)
+arr = junta(filtro(tom, "band", [150, 3500]) * 0.6, filtro(ruido(0.42), "band", [1500, 6000]) * 0.35) * np.sin(np.pi * p) ** 0.6
+grava("arranhao", *reverb(satura(arr, 2.0), 0.3, 0.08), alvo=0.8)
+
+# SINO (17H): "din" de horário marcado
+grava("sino", *reverb(junta(sino(1046.5, 1.6, 0.8, (1, 2.0, 3.0, 4.16), (1, 0.4, 0.2, 0.15)), sino(1568, 1.2, 0.5) * 0.4), 1.4, 0.3, 9000), alvo=0.7)
+
+# CAIXA (bateria): batida seca curta
+x = t(0.3)
+grava("caixa", *reverb(junta(filtro(ruido(0.3), "band", [1200, 7000]) * np.exp(-x / 0.06), np.sin(2 * np.pi * 190 * x) * np.exp(-x / 0.03) * 0.7), 0.7, 0.2), alvo=0.8)
+
+# APITO (fim): apito de juiz, trinado
+x = t(0.75)
+env = np.minimum(1, x / 0.02) * np.minimum(1, (0.75 - x) / 0.08)
+trinado = 0.55 + 0.45 * np.sin(2 * np.pi * 32 * x)
+ap = (np.sin(2 * np.pi * np.cumsum(2950 + 70 * np.sin(2 * np.pi * 32 * x)) / SR) + 0.2 * np.sin(2 * np.pi * 5900 * x)) * trinado * env
+ap += filtro(ruido(0.75), "band", [2200, 4200]) * env * 0.25
+grava("apito", *reverb(ap, 1.0, 0.2, 8000), alvo=0.6)
+
 # BRILHO final (cintilante, com cauda)
 notas = [1318.5, 1568.0, 1975.5, 2637.0, 3136.0]
 v = mistura([(i * 0.05, sino(f, 1.4, 0.5, (1, 2.01), (1, 0.3)) * (0.9 - i * 0.12)) for i, f in enumerate(notas)], 1.8)

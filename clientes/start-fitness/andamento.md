@@ -16,8 +16,14 @@
   mandou). 2º "R$ 4.000": vermelho com brilho + "em premiação" manuscrita branca + degradê escuro embaixo (print
   "$30,000 Business" que ela mandou). Curadoria: palavras ok (o "joga o kit" é incerto até no original), −14,6 LUFS.
 
+- **2026-10-28 · Vídeo 1, v3** (Talyta: headlines quase cobrindo o rosto; mesmo efeito sonoro pra tudo). Mesmo Drive,
+  `… (v3).mp4`. Rosto rastreado quadro a quadro (`rosto.py`, YuNet): toda headline fica abaixo do queixo (encolhe se
+  não couber) e a coluna do kit afina pra não encostar no rosto. Sons diferentes por momento (tambor, palmas,
+  passos, tiro de largada, anilha, câmera, página, plins 1-2-3, arranhão de disco, sino das 17h, apito), 42 no
+  total em vez de 56 iguais. Curadoria ok, −14,5 LUFS.
+
 ## Em aberto
-- Aprovação da v2 pela Talyta.
+- Aprovação da v3 pela Talyta.
 - **Confirmar a fala de 24,4 s** ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
 - Vídeo 2: material e assunto [a definir].
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].

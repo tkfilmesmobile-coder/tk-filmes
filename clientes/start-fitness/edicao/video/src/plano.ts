@@ -87,7 +87,8 @@ export const BLOCOS: Bloco[] = [
     { t: "O KIT!", em: 24.56, estilo: "faixa", max: 240 },
   ] },
   // distribuição do kit: coluna da esquerda, em cima da parede (o rosto fica no centro e a sacola embaixo)
-  { id: "distribuicao", de: 27.5, ate: 36.24, x: 70, y: 262, larg: 330, alinha: "esq", linhas: [
+  // sai em 35,85: logo depois ele chega o rosto pra esquerda (x ≈ 290 em 35,96 s)
+  { id: "distribuicao", de: 27.5, ate: 35.85, x: 60, y: 262, larg: 330, alinha: "esq", linhas: [
     { t: "DISTRIBUIÇÃO", em: 31.5, estilo: "tagVermelho", max: 44 },
     { t: "DO KIT", em: 31.6, estilo: "tagVermelho", max: 44 },
     { t: "NESSA", em: 27.5, estilo: "tag", max: 40 },
@@ -95,11 +96,11 @@ export const BLOCOS: Bloco[] = [
     { t: "DIA 29", em: 28.3, estilo: "mega", max: 130 },
     { t: "17H", em: 29.92, estilo: "vermelho", max: 250 },
   ], pulsos: [{ em: 33.76, linha: 5 }, { em: 35.12, linha: 3 }] },
-  { id: "fim", de: 36.28, ate: 37.67, x: 70, y: 290, larg: 330, alinha: "esq", linhas: [
+  // fim: na parte lisa de cima da sacola (abaixo do queixo, acima da estampa dos patrocinadores)
+  { id: "fim", de: 36.28, ate: 37.67, x: 540, y: 980, larg: 640, linhas: [
     { t: "ESPERAMOS", em: 36.3, estilo: "mega", max: 120 },
-    { t: "VOCÊS!", em: 36.84, estilo: "faixa", max: 130 },
-    { t: "2ª CORRIDA START FITNESS", em: 36.95, estilo: "tag", max: 28 },
-    { t: "1º DE NOVEMBRO", em: 37.02, estilo: "tag", max: 28 },
+    { t: "VOCÊS!", em: 36.84, estilo: "faixa", max: 120 },
+    { t: "2ª CORRIDA · 1º DE NOVEMBRO", em: 36.95, estilo: "tag", max: 30 },
   ] },
 ];
 
@@ -113,7 +114,7 @@ export const VOANDO = { em: 9.98, ate: 10.88 };
 // contador de roleta no 1º "R$ 4.000" (referência: tutorial de number counter no Cosmos, 2026-10-28).
 // Cada dígito gira e trava em sequência no "4.000" (16,58–16,96 s); fica em cima da cabeça (topo dela em y ≈ 380)
 export const CONTADOR = {
-  de: 15.8, ate: 18.3, y: 180, tam: 150,
+  de: 15.8, ate: 18.3, y: 1150, tam: 150, // desce pra baixo do queixo se precisar (rosto.json)
   partes: ["R$", " ", "4", ".", "0", "0", "0"],
   trava: [16.62, 16.74, 16.83, 16.92], // um tempo por dígito, na ordem
   premiacao: 17.4, // "em premiação" entra embaixo
@@ -139,63 +140,66 @@ export const IMPACTOS: { em: number; forca: number }[] = [
 ];
 
 export const SFX: { em: number; nome: string; vol?: number }[] = [
-  // o "O" de "O seu próximo" sai junto com o começo: abertura só com grave baixo, sem chiado por cima
-  { em: 1.0, nome: "hit", vol: 0.95 },
-  { em: 1.62, nome: "whoosh-saida", vol: 0.55 },
-  { em: 1.68, nome: "hit-leve", vol: 0.7 },
-  { em: 2.25, nome: "hit", vol: 0.85 },
-  { em: 3.02, nome: "relogio", vol: 0.75 },
-  { em: 3.7, nome: "letras", vol: 0.7 },
-  { em: 3.78, nome: "hit-leve", vol: 0.7 },
-  { em: 4.62, nome: "whoosh", vol: 0.55 },
-  { em: 4.79, nome: "hit", vol: 0.75 },
-  { em: 5.62, nome: "hit", vol: 0.9 },
-  { em: 6.9, nome: "hit", vol: 0.85 },
+  // v3 (Talyta, 2026-10-28: "o mesmo efeito sonoro pra tudo não gosto"): cada momento com o seu som, ligado ao
+  // que ele fala (corrida, tempo, data, dinheiro), e bem menos efeito no total. Nada de chiado em cima de palavra.
+  // O SEU PRÓXIMO DESAFIO: prato ao contrário "sugando" e tambor grave na palavra
+  { em: 0.06, nome: "prato-reverso", vol: 0.3 },
+  { em: 1.0, nome: "tambor", vol: 0.9 },
+  // JÁ TEM DATA MARCADA: caixa seca e palmas
+  { em: 1.68, nome: "caixa", vol: 0.5 },
+  { em: 2.25, nome: "palmas", vol: 0.8 },
+  // O TEMPO ESTÁ CORRENDO: relógio e passos de corrida
+  { em: 3.02, nome: "relogio", vol: 0.7 },
+  { em: 3.7, nome: "passos", vol: 0.75 },
+  // corte pra academia
+  { em: 4.7, nome: "whoosh", vol: 0.5 },
+  // 2ª CORRIDA: tiro de largada · START FITNESS: anilha de metal
+  { em: 5.62, nome: "tiro", vol: 0.75 },
+  { em: 6.9, nome: "metal", vol: 0.65 },
+  // INSCRIÇÕES ABERTAS
   { em: 7.86, nome: "carimbo", vol: 1.0 },
-  { em: 8.36, nome: "whoosh-saida", vol: 0.5 },
-  { em: 8.42, nome: "hit-leve", vol: 0.6 },
-  { em: 9.0, nome: "swish", vol: 0.5 },
-  { em: 9.9, nome: "whoosh-forte", vol: 0.85 },
-  { em: 9.98, nome: "letras", vol: 0.7 },
-  { em: 10.82, nome: "whoosh-saida", vol: 0.5 },
-  { em: 10.92, nome: "boom-leve", vol: 0.85 },
-  { em: 10.98, nome: "hit", vol: 0.9 },
-  { em: 11.44, nome: "hit", vol: 0.75 },
-  { em: 12.2, nome: "swish", vol: 0.4 },
-  { em: 14.52, nome: "swish", vol: 0.5 },
-  { em: 15.22, nome: "hit", vol: 0.95 },
-  { em: 15.8, nome: "swish", vol: 0.45 },
+  { em: 8.42, nome: "swish", vol: 0.4 },
+  // AS VAGAS ESTÃO VOANDO: vento forte e as letras passando
+  // (o vento forte entra logo depois do "voando", 10,08–10,54: em cima da palavra ele engolia o som)
+  { em: 9.98, nome: "letras", vol: 0.35 },
+  { em: 10.52, nome: "whoosh-forte", vol: 0.7 },
+  // corte + DIA 1º: grave e clique de câmera · DE NOVEMBRO: folha do calendário virando
+  { em: 10.92, nome: "boom-leve", vol: 0.7 },
+  { em: 10.98, nome: "obturador", vol: 0.8 },
+  { em: 11.44, nome: "pagina", vol: 0.75 },
+  // E SABE O QUE É MELHOR?: subidinha de suspense que termina no "melhor"
+  { em: 14.58, nome: "pergunta", vol: 0.55 },
+  // contador de roleta e a trava
   { em: 15.86, nome: "contador", vol: 0.75 },
-  { em: 16.62, nome: "hit", vol: 0.8 },
-  { em: 17.4, nome: "swish", vol: 0.5 },
-  { em: 18.6, nome: "hit", vol: 0.95 },
-  { em: 18.9, nome: "riser", vol: 0.85 },
-  { em: 19.1, nome: "hit", vol: 0.95 },
-  { em: 19.58, nome: "hit", vol: 1.0 },
-  { em: 20.08, nome: "hit-leve", vol: 0.7 },
+  { em: 16.62, nome: "hit-leve", vol: 0.45 },
+  { em: 17.4, nome: "swish", vol: 0.4 },
+  // 1, 2, 3: plins subindo (dó, mi, sol) por baixo do riser
+  { em: 18.6, nome: "um", vol: 0.8 },
+  { em: 18.9, nome: "riser", vol: 0.8 },
+  { em: 19.12, nome: "dois", vol: 0.8 },
+  { em: 19.66, nome: "tres", vol: 0.85 },
+  // R$ 4.000: caixa registradora + boom; "em premiação" com brilho
   { em: 20.43, nome: "dinheiro", vol: 1.0 },
   { em: 20.5, nome: "boom", vol: 1.0 },
-  { em: 21.0, nome: "swish", vol: 0.6 },
+  { em: 21.0, nome: "swish", vol: 0.45 },
   { em: 21.02, nome: "brilho", vol: 0.45 },
-  { em: 21.86, nome: "whoosh-saida", vol: 0.6 },
-  { em: 22.16, nome: "swish", vol: 0.5 },
-  { em: 22.78, nome: "hit", vol: 0.95 },
-  { em: 23.42, nome: "whoosh-saida", vol: 0.5 },
-  // "joga o kit": a voz real vai de 24,4 a 25,0 s (medido na energia; a transcrição marcou antes) e sai mais
-  // baixa. Só toques curtos e baixos; o impacto grande fica no corte pro preto e branco (25,38)
-  { em: 24.04, nome: "hit-leve", vol: 0.3 },
+  { em: 21.86, nome: "whoosh-saida", vol: 0.5 },
+  // TÁ ACHANDO QUE ACABOU?: arranhão de disco logo depois do "acabou"
+  { em: 23.02, nome: "arranhao", vol: 0.75 },
+  // "joga o kit": a voz real vai de 24,4 a 25,0 s e sai mais baixa. Só toques curtos e baixos
   { em: 24.25, nome: "swish", vol: 0.25 },
+  // corte pro preto e branco
   { em: 25.38, nome: "boom", vol: 0.8 },
-  { em: 27.5, nome: "hit", vol: 0.8 },
-  { em: 28.3, nome: "hit-leve", vol: 0.7 },
-  { em: 29.92, nome: "hit", vol: 0.95 },
-  { em: 31.5, nome: "hit-leve", vol: 0.7 },
-  { em: 33.76, nome: "hit-leve", vol: 0.55 },
-  { em: 35.12, nome: "hit-leve", vol: 0.55 },
-  { em: 36.2, nome: "whoosh", vol: 0.55 },
-  // "esperamos vocês" (36,30–37,04): o boom final espera a fala acabar
-  { em: 36.3, nome: "hit", vol: 0.6 },
-  { em: 36.84, nome: "hit-leve", vol: 0.35 },
-  { em: 37.28, nome: "boom", vol: 0.85 },
-  { em: 37.3, nome: "brilho", vol: 0.5 },
+  // volta pra cor + QUINTA · DIA 29: câmera · 17H: sino de horário · DISTRIBUIÇÃO DO KIT: caixa
+  { em: 27.42, nome: "whoosh", vol: 0.45 },
+  { em: 27.5, nome: "caixa", vol: 0.45 },
+  { em: 28.3, nome: "obturador", vol: 0.6 },
+  { em: 29.92, nome: "sino", vol: 0.65 },
+  { em: 31.5, nome: "caixa", vol: 0.4 },
+  // ESPERAMOS VOCÊS!: tambor, e o apito + boom só depois da fala
+  { em: 36.22, nome: "whoosh", vol: 0.4 },
+  { em: 36.3, nome: "tambor", vol: 0.6 },
+  { em: 37.1, nome: "apito", vol: 0.5 },
+  { em: 37.28, nome: "boom", vol: 0.6 },
+  { em: 37.3, nome: "brilho", vol: 0.35 },
 ];

@@ -4,6 +4,23 @@ import { ANTON, BARLOW, COR, F, FPS, INCLINA, MANUSCRITA, MONTSERRAT, REVELA, SU
 import { BLOCOS, CARIMBO, CONTADOR, CORTES, FALA, IMPACTOS, PREMIO, RAIOS, RELOGIO, SFX, TOTAL, VOANDO, type Bloco, type Linha } from "./plano";
 import rastreio from "./rastreio.json";
 import musica from "./musica.json";
+import rosto from "./rosto.json";
+
+// caixa do rosto por quadro (YuNet, edicao/2026-10-corrida-2a-edicao/rosto.py). Regra da Talyta (2026-10-28):
+// headline nunca chega perto do rosto. Cada bloco olha o rosto durante TODO o tempo em que fica na tela.
+const ROSTO = rosto as { x0: number[]; y0: number[]; x1: number[]; y1: number[] };
+function rostoNoTrecho(de: number, ate: number) {
+  const a = Math.max(0, F(de)), b = Math.min(ROSTO.y1.length - 1, F(ate));
+  let baixo = 0, esq = 1080, cima = 1920;
+  for (let i = a; i <= b; i++) {
+    baixo = Math.max(baixo, ROSTO.y1[i]);
+    esq = Math.min(esq, ROSTO.x0[i]);
+    cima = Math.min(cima, ROSTO.y0[i]);
+  }
+  return { baixo, esq, cima };
+}
+const FOLGA = 45; // px entre o queixo (ou a lateral do rosto) e o texto
+const CHAO = 1560; // até onde o texto pode descer
 
 // Chamada da 2ª Corrida Start Fitness (1º/11/2026), v2 "adrenalina". O vídeo chega cortado e com cor: aqui entram
 // headlines, assets, som (trilha com ducking + efeitos pesados) e a câmera (soco, tremida, flash, pulso na batida).
@@ -39,8 +56,11 @@ function camera(s: number) {
 }
 
 // ---------- uma linha ----------
+// etiqueta (Barlow condensada, espaçada) também cabe na largura: ~0,52 em por letra + o respiro da caixa
 const tamanho = (l: Linha, larg: number) =>
-  l.estilo === "tag" || l.estilo === "tagVermelho" ? l.max ?? 50 : cabe(l.t, larg * (l.estilo === "faixa" ? 0.86 : 1), l.max ?? 400);
+  l.estilo === "tag" || l.estilo === "tagVermelho"
+    ? Math.min(l.max ?? 50, larg / (l.t.length * 0.52 + 0.9))
+    : cabe(l.t, larg * (l.estilo === "faixa" ? 0.86 : 1), l.max ?? 400);
 const altura = (l: Linha, tam: number) => (l.estilo.startsWith("tag") ? tam * 1.45 : tam * 0.9 + (l.estilo === "faixa" ? tam * 0.22 : 0));
 
 const LinhaTexto: React.FC<{ l: Linha; s: number; alinha: "centro" | "esq"; larg: number; pulso: number }> = ({ l, s, alinha, larg, pulso }) => {
@@ -117,9 +137,21 @@ const LinhaTexto: React.FC<{ l: Linha; s: number; alinha: "centro" | "esq"; larg
 const BlocoTexto: React.FC<{ b: Bloco }> = ({ b }) => {
   const s = useCurrentFrame() / FPS + b.de;
   const alinha = b.alinha ?? "centro";
-  const larg = b.larg ?? 840;
+  let larg = b.larg ?? 840;
   const sai = interpolate(s, [b.ate - 0.13, b.ate], [0, 1], { ...clamp, easing: (x) => x * x });
-  let x = b.x, y = b.y;
+  let x = b.x, y = b.y, escala = 1;
+  if (!b.rastreio) {
+    const r = rostoNoTrecho(b.de, b.ate);
+    if (alinha === "esq") {
+      // a coluna afina pra não encostar no rosto (sem contar a entrada e a saída, quando o texto está em movimento)
+      const rl = rostoNoTrecho(b.de + 0.15, b.ate - 0.15);
+      larg = Math.min(larg, rl.esq - 30 - b.x);
+    } else {
+      y = Math.max(b.y, r.baixo + FOLGA); // desce pra baixo do queixo
+      const H = b.linhas.reduce((a, l) => a + altura(l, tamanho(l, larg)), 0) + 8 * (b.linhas.length - 1);
+      escala = Math.min(1, (CHAO - y) / H); // e encolhe se não couber
+    }
+  }
   if (b.rastreio) {
     const tr = TRECHOS[b.rastreio.trecho];
     const n = tr.x.length;
@@ -142,7 +174,7 @@ const BlocoTexto: React.FC<{ b: Bloco }> = ({ b }) => {
     <div style={{
       position: "absolute", top: y, left: alinha === "esq" ? x : x - 540, width: alinha === "esq" ? 900 : 1080,
       display: "flex", flexDirection: "column", alignItems: alinha === "esq" ? "flex-start" : "center", gap: 8,
-      opacity: 1 - sai, transform: `translateX(${-sai * 260}px) scaleX(${1 + sai * 0.25})`, filter: sai > 0 ? `blur(${sai * 14}px)` : undefined,
+      opacity: 1 - sai, transform: `translateX(${-sai * 260}px) scale(${escala}) scaleX(${1 + sai * 0.25})`, transformOrigin: alinha === "esq" ? "left top" : "center top", filter: sai > 0 ? `blur(${sai * 14}px)` : undefined,
     }}>
       {b.linhas.map((l, i) => <LinhaTexto key={i} l={l} s={s} alinha={alinha} larg={larg} pulso={pulsoDe(i)} />)}
     </div>
@@ -255,9 +287,10 @@ const Contador: React.FC = () => {
   const sai = interpolate(s, [CONTADOR.ate - 0.14, CONTADOR.ate], [0, 1], { ...clamp, easing: (x) => x * x });
   const pPrem = interpolate(s, [CONTADOR.premiacao, CONTADOR.premiacao + 0.18], [0, 1], { ...clamp, easing: REVELA });
   let d = -1;
+  const topo = Math.max(CONTADOR.y, rostoNoTrecho(CONTADOR.de, CONTADOR.ate).baixo + FOLGA);
   const estilo: React.CSSProperties = { fontFamily: MONTSERRAT, fontWeight: 800, fontSize: tam, lineHeight: 1, color: COR.branco, textShadow: "0 6px 22px rgba(0,0,0,0.55)" };
   return (
-    <div style={{ position: "absolute", left: 0, width: 990, top: CONTADOR.y, display: "flex", flexDirection: "column", alignItems: "center", opacity: entra * (1 - sai), transform: `translateX(${-sai * 240}px) scale(${0.9 + 0.1 * entra})`, filter: sai > 0 ? `blur(${sai * 12}px)` : undefined }}>
+    <div style={{ position: "absolute", left: 0, width: 990, top: topo, display: "flex", flexDirection: "column", alignItems: "center", opacity: entra * (1 - sai), transform: `translateX(${-sai * 240}px) scale(${0.9 + 0.1 * entra})`, filter: sai > 0 ? `blur(${sai * 12}px)` : undefined }}>
       <div style={{ display: "flex", alignItems: "center", height: lh }}>
         {CONTADOR.partes.map((c, i) => {
           if (!/\d/.test(c)) return <div key={i} style={{ ...estilo, width: c === " " ? tam * 0.22 : undefined, padding: c === "." ? "0 0.02em" : undefined }}>{c === " " ? "" : c}</div>;
@@ -340,7 +373,7 @@ const Premio: React.FC = () => {
           <div key={i} style={{ position: "absolute", left: x - 45, top: y - 45, width: 90, height: 90, borderRadius: 45, background: "radial-gradient(circle at 35% 30%,#FFF6C2,#F7C844 45%,#A8740A)", border: "4px solid #FFE58A", transform: `rotate(${rot}deg) scale(${esc}) scaleX(${0.3 + 0.7 * Math.abs(Math.cos(t0 * 14 + i))})`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: ANTON, fontSize: 44, color: "#7A4E00", boxShadow: "0 8px 18px rgba(0,0,0,0.4)" }}>$</div>
         );
       })}
-      <div style={{ position: "absolute", left: 0, width: 990, top: 1110, display: "flex", flexDirection: "column", alignItems: "center", opacity: kRs >= 0 ? 1 : 0 }}>
+      <div style={{ position: "absolute", left: 0, width: 990, top: Math.max(1110, rostoNoTrecho(PREMIO.de, PREMIO.ate).baixo + FOLGA), display: "flex", flexDirection: "column", alignItems: "center", opacity: kRs >= 0 ? 1 : 0 }}>
         {/* R$4.000 vermelho com brilho */}
         <div style={{ position: "relative", transform: `scale(${sc})`, filter: kMil >= 0 && kMil < 2 ? `blur(${(2 - kMil) * 8}px)` : undefined }}>
           <div style={{ fontFamily: MONTSERRAT, fontWeight: 900, fontSize: T, lineHeight: 1, letterSpacing: "-0.02em", color: "#FF1F1F", textShadow: brilhoVermelho(g), whiteSpace: "nowrap" }}>{texto}</div>
