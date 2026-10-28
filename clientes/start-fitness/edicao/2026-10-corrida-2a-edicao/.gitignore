@@ -1,0 +1,5 @@
+# quadros de análise e áudio de trabalho: ficam no PC
+analise/*.jpg
+analise/*.png
+analise/*.wav
+bruto/
