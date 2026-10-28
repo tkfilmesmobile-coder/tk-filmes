@@ -8,7 +8,9 @@ New-Item -ItemType Directory -Force out\final | Out-Null
 $t0 = Get-Date
 npx remotion render chamada-corrida out/final/_chamada.mp4 --concurrency=6 --crf=17 --log=error 2>&1 | Select-Object -Last 5
 $saida = "out\final\2026-10-28 · Chamada 2ª Corrida Start Fitness ($versao).mp4"
-& $ff -v error -y -i out\final\_chamada.mp4 -c:v copy -af "loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000" -c:a aac -b:a 256k -movflags +faststart $saida
+# o Remotion sai em yuvj420p (faixa cheia, bt601): converte pra yuv420p bt709 faixa de TV, que é como o bruto veio
+# e como todo player (Instagram, WhatsApp, Windows) lê; sem isso o rosto aparece mais vermelho (2026-10-28)
+& $ff -v error -y -i out\final\_chamada.mp4 -vf "scale=in_range=pc:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p" -c:v h264_nvenc -preset p7 -rc vbr -cq 15 -b:v 18M -color_range tv -colorspace bt709 -color_primaries bt709 -color_trc bt709 -af "loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000" -c:a aac -b:a 256k -movflags +faststart $saida
 if (Test-Path $saida) { Remove-Item out\final\_chamada.mp4 -Confirm:$false }
 "render: {0:N0}s -> {1}" -f ((Get-Date) - $t0).TotalSeconds, $saida
 if ($drive) {

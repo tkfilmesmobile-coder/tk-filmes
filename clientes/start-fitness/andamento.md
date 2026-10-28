@@ -22,8 +22,10 @@
   passos, tiro de largada, anilha, câmera, página, plins 1-2-3, arranhão de disco, sino das 17h, apito), 42 no
   total em vez de 56 iguais. Curadoria ok, −14,5 LUFS.
 
+- **2026-10-28 · v3 APROVADA pela Talyta** e entregue: `H:\Meu Drive\Start Fitnes\POSTS\2026-10\2026-10-28 · Chamada 2ª Corrida Start Fitness.mp4`
+  (convertida pra yuv420p bt709, cor igual ao bruto). v1 e v2 em `_ARQUIVO\versoes-anteriores\`.
+
 ## Em aberto
-- Aprovação da v3 pela Talyta.
 - **Confirmar a fala de 24,4 s** ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
 - Vídeo 2: material e assunto [a definir].
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].
