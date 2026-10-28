@@ -8,8 +8,17 @@
   PREMIAÇÃO" com soco de câmera, flash, tremida, chuva de dinheiro e som de caixa registradora (20,5 s).
   Curadoria: 99/99 palavras, −14,3 LUFS, pico −1,4 dBFS.
 
+- **2026-10-28 · Vídeo 1, v2 "adrenalina"** (a Talyta achou a v1 fraca: "sem força, sem adrenalina"). Mesmo Drive,
+  `… (v2).mp4`. Headlines em Anton inclinada com extrusão 3D e entrada em pancada (soco de câmera, tremida, flash,
+  separação de cor, contorno que expande); pulso na batida da música; luz vazando nos 5 cortes internos; grão.
+  Efeitos refeitos com sub, ataque, saturação e reverb, riser antes do prêmio. 1, 2, 3 cada um em cima do seu dedo
+  (`dedos.py`, pontas marcadas quadro a quadro). 1º "R$ 4.000": contador de roleta (referência do Cosmos que ela
+  mandou). 2º "R$ 4.000": vermelho com brilho + "em premiação" manuscrita branca + degradê escuro embaixo (print
+  "$30,000 Business" que ela mandou). Curadoria: palavras ok (o "joga o kit" é incerto até no original), −14,6 LUFS.
+
 ## Em aberto
-- Aprovação da v1 pela Talyta. A inspiração de edição que ela ia mandar ainda não chegou: quando chegar, ajustar a v1.
+- Aprovação da v2 pela Talyta.
+- **Confirmar a fala de 24,4 s** ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
 - Vídeo 2: material e assunto [a definir].
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].
 - Brand book: perguntar se se aplica (serviço só de edição).
