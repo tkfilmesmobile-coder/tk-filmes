@@ -25,8 +25,18 @@
 - **2026-10-28 · v3 APROVADA pela Talyta** e entregue: `H:\Meu Drive\Start Fitnes\POSTS\2026-10\2026-10-28 · Chamada 2ª Corrida Start Fitness.mp4`
   (convertida pra yuv420p bt709, cor igual ao bruto). v1 e v2 em `_ARQUIVO\versoes-anteriores\`.
 
+- **2026-10-28 · Vídeo 2, entrevista "expectativas pra 2ª Corrida" (v1)**, pra aprovação.
+  `H:\Meu Drive\Start Fitnes\POSTS\2026-10\2026-10-28 · Entrevista Expectativas 2ª Corrida (v1).mp4` (75,9 s).
+  Bruto: `copy_BE9B9824-….mov` (2min10) na raiz do Drive; a pasta `Bruto\` (IMG_05xx.MOV) são takes soltos do
+  apresentador, não usados. Corte em `edicao/2026-10-entrevista-expectativas/cortar.py`: abertura + 4 perguntas
+  (cada uma uma vez, respostas dos três em seguida) + convite. Fora: "Roda aí!", 1º take do Wendel, apresentações,
+  "você já corre?", "Pronto"/"Muito bem", e o "chega logo dia 1º de..." da Nisse (fim embolado; a transcrição
+  ouve "fevereiro"). Mesma identidade do vídeo 1, cartão "PERGUNTA 0X", "+DINHEIRO" na estética do prêmio,
+  cartela final "INSCRIÇÕES ABERTAS · 1º DE NOVEMBRO". Música do vídeo 1 estendida (emenda no ponto que mais
+  combina). Curadoria: palavras ok, −14,5 LUFS, pico −1,3 dBFS.
+
 ## Em aberto
 - **Confirmar a fala de 24,4 s** ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
-- Vídeo 2: material e assunto [a definir].
+- Vídeo 2: aprovação da v1. Nomes dos entrevistados (Nisse? Wendel? o de verde não aparece) se ela quiser nome na tela.
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].
 - Brand book: perguntar se se aplica (serviço só de edição).

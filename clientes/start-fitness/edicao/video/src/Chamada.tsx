@@ -57,13 +57,13 @@ function camera(s: number) {
 
 // ---------- uma linha ----------
 // etiqueta (Barlow condensada, espaçada) também cabe na largura: ~0,52 em por letra + o respiro da caixa
-const tamanho = (l: Linha, larg: number) =>
+export const tamanho = (l: Linha, larg: number) =>
   l.estilo === "tag" || l.estilo === "tagVermelho"
     ? Math.min(l.max ?? 50, larg / (l.t.length * 0.52 + 0.9))
     : cabe(l.t, larg * (l.estilo === "faixa" ? 0.86 : 1), l.max ?? 400);
-const altura = (l: Linha, tam: number) => (l.estilo.startsWith("tag") ? tam * 1.45 : tam * 0.9 + (l.estilo === "faixa" ? tam * 0.22 : 0));
+export const altura = (l: Linha, tam: number) => (l.estilo.startsWith("tag") ? tam * 1.45 : tam * 0.9 + (l.estilo === "faixa" ? tam * 0.22 : 0));
 
-const LinhaTexto: React.FC<{ l: Linha; s: number; alinha: "centro" | "esq"; larg: number; pulso: number }> = ({ l, s, alinha, larg, pulso }) => {
+export const LinhaTexto: React.FC<{ l: Linha; s: number; alinha: "centro" | "esq"; larg: number; pulso: number }> = ({ l, s, alinha, larg, pulso }) => {
   const tam = tamanho(l, larg);
   const h = altura(l, tam);
   const k = (s - l.em) * FPS; // quadros desde a entrada
@@ -243,7 +243,7 @@ const Rastro: React.FC = () => {
 };
 
 // ---------- linhas de velocidade radiais ----------
-const Raios: React.FC<{ dur: number; cx?: number; cy?: number }> = ({ dur, cx = 540, cy = 1150 }) => {
+export const Raios: React.FC<{ dur: number; cx?: number; cy?: number }> = ({ dur, cx = 540, cy = 1150 }) => {
   const f = useCurrentFrame();
   const d = f / FPS;
   const op = interpolate(d, [0, 0.04, dur * 0.6, dur], [0, 0.85, 0.5, 0], clamp);
@@ -263,7 +263,7 @@ const Raios: React.FC<{ dur: number; cx?: number; cy?: number }> = ({ dur, cx = 
 };
 
 // ---------- luz vazando nos cortes ----------
-const Vazamento: React.FC<{ semente: number }> = ({ semente }) => {
+export const Vazamento: React.FC<{ semente: number }> = ({ semente }) => {
   const d = useCurrentFrame() / FPS;
   const op = interpolate(d, [0, 0.05, 0.42], [0, 0.95, 0], clamp);
   const x = interpolate(d, [0, 0.42], [-300, 1300]);
@@ -334,7 +334,7 @@ const Contador: React.FC = () => {
 
 // ---------- prêmio: "R$ 4.000 em premiação" (estética do print "$30,000 Business") ----------
 // número grosso vermelho com brilho forte + palavra manuscrita branca com brilho por cima, degradê escuro embaixo
-const brilhoVermelho = (g: number) =>
+export const brilhoVermelho = (g: number) =>
   `0 0 ${8 * g}px rgba(255,60,50,0.95), 0 0 ${24 * g}px rgba(255,20,20,0.85), 0 0 ${56 * g}px rgba(255,0,0,0.6), 0 0 ${110 * g}px rgba(255,0,0,0.4)`;
 const Premio: React.FC = () => {
   const s = useCurrentFrame() / FPS + PREMIO.de;
@@ -389,7 +389,7 @@ const Premio: React.FC = () => {
 };
 
 // ---------- grão de filme + vinheta (textura de comercial esportivo) ----------
-const Textura: React.FC = () => {
+export const Textura: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>

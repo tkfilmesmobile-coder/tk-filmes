@@ -304,3 +304,12 @@ grava("apito", *reverb(ap, 1.0, 0.2, 8000), alvo=0.6)
 notas = [1318.5, 1568.0, 1975.5, 2637.0, 3136.0]
 v = mistura([(i * 0.05, sino(f, 1.4, 0.5, (1, 2.01), (1, 0.3)) * (0.9 - i * 0.12)) for i, f in enumerate(notas)], 1.8)
 grava("brilho", *reverb(v, 1.6, 0.35, 9000), alvo=0.6)
+
+# ---------- vídeo 2 (entrevista, 2026-10-28) ----------
+# PORTA: duas batidas de nó do dedo em madeira ("está batendo na porta")
+def toc():
+    x = t(0.16)
+    madeira = sum(np.sin(2 * np.pi * f * x) * np.exp(-x / d) * p for f, d, p in ((190, 0.05, 1), (410, 0.03, 0.6), (870, 0.015, 0.35)))
+    return junta(madeira, filtro(ruido(0.02), "band", [900, 3500]) * np.exp(-t(0.02) / 0.004) * 0.6)
+v = mistura([(0.0, toc()), (0.17, toc() * 0.85)], 0.45)
+grava("porta", *reverb(v, 0.35, 0.12, 4000), alvo=0.8)
