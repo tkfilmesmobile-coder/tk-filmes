@@ -1,0 +1,31 @@
+=== selagem-3-coisas · 105.6s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_6481   23.87-  30.57  Minha maravilhosa, cheguei. Cheguei pra te dizer três coisas que você faz em casa que acabam com a tua celade.
+[02]   6.70s  IMG_6481   66.18-  66.97  Primeira,
+[03]   7.49s  IMG_6481   78.84-  80.65  usar chapim e secador, meu amor,
+[04]   9.30s  IMG_6481   80.80-  84.68  sem proteção térmica. Não faça isso, pelo amor de Deus.
+[05]  13.18s  IMG_6481   86.64-  99.38  O protetor térmico, ele ajuda a proteger, ele faz aquela camada na fibra do seu cabelo, que protege daquela temperatura que a chapinha e o secador
+[06]  25.92s  IMG_6481   99.97- 101.59  ocasiona no seu cabelo.
+[07]  27.54s  IMG_6481  106.46- 116.64  Fora o aspecto, né, meu amor? Fica aquele aspecto poroso. O cabelo fica com mais frizz e com aquela sensação de espigado.
+[08]  37.72s  IMG_6481  117.04- 118.53  Vocês me entendem, né?
+[09]  39.21s  IMG_6481  142.45- 147.80  Segundo, esquecer do cronograma capilar Minha diva, não faça isso
+[10]  44.56s  IMG_6481  147.84- 157.36  Como é que você colocou uma química no seu cabelo E você não vai dar o tratamento devido e necessário dessas pontas, pelo amor de Deus
+[11]  54.08s  IMG_6481  157.40- 166.81  Muitas das vezes se fala que a selagem afina o comprimento do cabelo E na maioria das vezes isso é mentira É falta de cuidado
+[12]  63.49s  IMG_6481  178.99- 184.80  Terceiro, dormir com o cabelo molhado Pelo amor de Deus Essa é a praga do Egito   ⚠ termina com voz (-38/-35 dB)
+[13]  69.30s  IMG_6481  186.56- 200.46  Um cabelo molhado, ele fica muito mais fragilizado do que um cabelo seco Então imagina aí A gente já está com o cabelo molhado E dormir com ele dessa forma Dormir lembrando que a gente não tem noção do nosso movimento.   ⚠ termina com voz (-40/-39 dB)
+[14]  83.20s  IMG_6481  200.64- 205.10  Então o atrito entre o travesseiro e o cabelo, meu amor,
+[15]  87.66s  IMG_6481  205.42- 207.82  com certeza vai acabar com o teu cabelo.
+[16]  90.06s  IMG_6481  234.79- 243.56  E não adianta você sair do meu salão com o cabelo perfeito, impecável, e não fazer a sua parte em casa. É fundamental,
+[17]  98.83s  IMG_6481  243.71- 247.72  tanto aqui no salão quanto em casa, você dar continuidade a esse tratamento.
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Minha maravilhosa, cheguei. Cheguei pra te dizer três coisas que você faz em casa que acabam com a tua selagem. Primeira, usar chapinha e secador, meu amor, sem proteção térmica. Não faça isso, pelo amor de Deus. O protetor térmico, ele ajuda a proteger, ele faz aquela camada na fibra do seu cabelo que protege daquela temperatura que a chapinha e o secador ocasionam no seu cabelo. Fora o aspecto, né meu amor? Fica aquele aspecto poroso, o cabelo fica com mais frise e com aquela sensação de espigado. Vocês me entendem, né? Segundo, esquecer do cronograma capilar. Minha diva, não faça isso. Como é que você colocou uma química no seu cabelo e você não vai dar o tratamento devido e necessário dessas pontas, pelo amor de Deus? Muitas das vezes se fala que a selagem afina o comprimento do cabelo. E na maioria das vezes isso é mentira. É falta de cuidado. Terceiro, dormir com o cabelo molhado. Pelo amor de Deus, essa é a praga do Egito. Um cabelo molhado ele fica muito mais fragilizado do que um cabelo seco. Então imagina aí, a gente já está com o cabelo molhado e dormir com ele dessa forma. Dormir lembrando que a gente não tem noção do nosso movimento. Então o atrito entre o travesseiro e o cabelo, meu amor, com certeza vai acabar com o teu cabelo. E não adianta você sair do meu salão com o cabelo perfeito, impecável e não fazer a sua parte em casa. É fundamental, tanto aqui no salão quanto em casa, você dar continuidade a esse tratamento.
+
+DIFERENÇAS E CORTES SUSPEITOS (6):
+trecho 12 (63.5s, IMG_6481 178.99s): termina com voz (-38/-35 dB)
+trecho 13 (69.3s, IMG_6481 186.56s): termina com voz (-40/-39 dB)
+   6.1s  esperado «celade.»  ouvido «selagem.»
+   7.8s  esperado «chapim»  ouvido «chapinha»
+  26.1s  esperado «ocasiona»  ouvido «ocasionam»
+  33.7s  esperado «frizz»  ouvido «frise»

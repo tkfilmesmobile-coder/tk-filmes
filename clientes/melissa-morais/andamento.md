@@ -11,14 +11,18 @@
 
 - 2026-10-21 · Reel "autocuidado" (2ª edição), 27,6 s, estilo da referência da @drajullinelacet, a partir dos takes de 11/09:
   **aprovado na v2** → Drive `POSTS/POST 2/2026-10-21-autocuidado-RASCUNHO-v2.mp4` (composição `Autocuidado`).
+- 2026-10-24 · Antes e depois de frente (3ª edição), imagem 1080x1350 no padrão do slide principal do carrossel, sem marcação
+  (a explicação vai na legenda dela) → Drive `POSTS/POST 3/antes e depois.png` (v2: par maior e
+  centralizado, sombra leve do rosto do antes sobre o cabelo do depois; v1 em `_ARQUIVO`). Antes = cabelo preso,
+  depois = cabelo solto. As fotos chegaram já recortadas. Feito no PC sem Python/Node: `edicao/scripts/post3-antes-depois.ps1`.
 
 ## Edições do pacote (4 contratadas)
 Registrar aqui, no preenchimento semanal do `/contratos`, cada edição entregue.
 - Em 2026-10-21: 2 aprovadas, o carrossel (2026-10-17) e o reel "autocuidado" (2026-10-21). Se o carrossel conta como edição do pacote: [a confirmar].
+- Em 2026-10-24: 3ª edição entregue (antes e depois de frente), esperando aprovação.
 
-## Em aberto (2026-10-21)
-- Número do CRO: entra no fecho dos vídeos (testa e "autocuidado") e na legenda (obrigatório pelo CFO).
-- Ela insere os textos do carrossel; o "RASCUNHO" sai do nome da pasta quando o CRO e o texto estiverem fechados.
+## Em aberto (2026-10-24)
+- Ela insere os textos do carrossel; o "RASCUNHO" sai do nome da pasta quando o texto estiver fechado.
 - O vídeo segue? Ela trocou pelo carrossel; a v6 fica no Drive até ela dizer.
 - `IMG_6842` (perfil de camiseta preta) não foi usado: veio sem recorte.
 - Contato (telefone, email), cidade e @ do Instagram.

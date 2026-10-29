@@ -30,6 +30,18 @@ Stories diários com b-roll (regra da Talyta, 21/10/2026):
   pasta `CONTEÚDO/B-ROLL` do Drive (subpastas e cuidados no `_LEIA-ME.txt` de lá). Somados aos 4 stories do Reels
   das 16h, batem a meta de 10 por dia. O lote fica em `stories/AAAA-MM-DD-b-roll/` com um `ordem.txt` e é
   **produzido no dia anterior**; a tarefa `modelos/publicar-stories-dia.ps1` publica na ordem (ver `_contexto/automacoes.md`).
+- **Curadoria antes de subir qualquer vídeo, de feed ou de stories** (regra da Talyta, 27/10/2026; detalhe em
+  `clientes/_regras.md`): só a fala aprovada. Sem tentativa, erro, pedaço da tentativa anterior, orientação de quem
+  grava ou frase incompleta. Antes de publicar: tempo de cada palavra com o whisper (faster-whisper, modelo small,
+  no processador), corte no silêncio antes da 1ª palavra aprovada e depois da última, legenda palavra a palavra com o
+  texto exato da fala, e quadros do início, meio e fim conferidos. Os vídeos do `04_EQUIPE-FALANDO` quase sempre têm
+  2 tentativas no mesmo arquivo (ex.: `FALA_moca_mesa` da Rita: só vale de 4,45 a 8,18 s).
+- **Variar os stories** (regra da Talyta, 27/10/2026): o lote do dia não repete foto do dia anterior, e quem fala
+  de bom dia, horário, online e localização muda de um dia pro outro (rapaz de branco, rapaz de preto, Rita). Antes
+  de montar, olhar o `stories/b-roll/banco.md` (trechos já conferidos e o que foi usado quando) e o material novo do
+  Drive. Vídeo de fala com curadoria: `modelos/stories_fala.py` (legenda palavra a palavra, só converte HDR quando é HDR).
+- **O B-roll se reaproveita várias vezes** (regra da Talyta, 22/10/2026): foto ou trecho já usado pode voltar em
+  outro dia. O "já usado" do `stories/b-roll/banco.md` serve pra variar, não pra bloquear.
 - **Estrutura do dia segue a planilha do marketing** (`controle-marketing.xlsx`, aba Checklist Diário), mesclando
   foto, vídeo com fala e vídeo com música: bom dia (foto) · vídeo de localização · bastidores (foto e vídeo, meta de 8
   por dia) · vídeo com funcionário falando · conteúdo da estrutura ou do serviço · novidade das fontes oficiais ·

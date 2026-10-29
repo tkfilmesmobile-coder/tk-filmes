@@ -1,0 +1,511 @@
+{
+ "arquivo": "IMG_6494",
+ "duracao": 55.02,
+ "segmentos": [
+  {
+   "ini": 4.2,
+   "fim": 9.32,
+   "texto": "Beleza, não precisa de excesso de química e nem de procedimentos feitos.",
+   "palavras": [
+    {
+     "p": "Beleza,",
+     "ini": 4.2,
+     "fim": 4.96,
+     "conf": 0.69
+    },
+    {
+     "p": "não",
+     "ini": 4.96,
+     "fim": 5.72,
+     "conf": 0.94
+    },
+    {
+     "p": "precisa",
+     "ini": 5.72,
+     "fim": 6.12,
+     "conf": 0.95
+    },
+    {
+     "p": "de",
+     "ini": 6.12,
+     "fim": 6.3,
+     "conf": 0.98
+    },
+    {
+     "p": "excesso",
+     "ini": 6.3,
+     "fim": 6.78,
+     "conf": 0.96
+    },
+    {
+     "p": "de",
+     "ini": 6.78,
+     "fim": 6.9,
+     "conf": 0.98
+    },
+    {
+     "p": "química",
+     "ini": 6.9,
+     "fim": 7.46,
+     "conf": 0.98
+    },
+    {
+     "p": "e",
+     "ini": 7.46,
+     "fim": 7.68,
+     "conf": 0.91
+    },
+    {
+     "p": "nem",
+     "ini": 7.68,
+     "fim": 7.9,
+     "conf": 0.91
+    },
+    {
+     "p": "de",
+     "ini": 7.9,
+     "fim": 8.02,
+     "conf": 0.47
+    },
+    {
+     "p": "procedimentos",
+     "ini": 8.02,
+     "fim": 8.64,
+     "conf": 0.97
+    },
+    {
+     "p": "feitos.",
+     "ini": 8.64,
+     "fim": 9.32,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 10.4,
+   "fim": 13.84,
+   "texto": "Não, não acho interessante, porque eu estou desvendendo correndo.",
+   "palavras": [
+    {
+     "p": "Não,",
+     "ini": 10.4,
+     "fim": 10.78,
+     "conf": 0.92
+    },
+    {
+     "p": "não",
+     "ini": 10.86,
+     "fim": 11.06,
+     "conf": 0.67
+    },
+    {
+     "p": "acho",
+     "ini": 11.06,
+     "fim": 11.24,
+     "conf": 0.52
+    },
+    {
+     "p": "interessante,",
+     "ini": 11.24,
+     "fim": 11.72,
+     "conf": 0.98
+    },
+    {
+     "p": "porque",
+     "ini": 11.92,
+     "fim": 12.2,
+     "conf": 0.97
+    },
+    {
+     "p": "eu",
+     "ini": 12.2,
+     "fim": 12.32,
+     "conf": 0.97
+    },
+    {
+     "p": "estou",
+     "ini": 12.32,
+     "fim": 12.62,
+     "conf": 0.56
+    },
+    {
+     "p": "desvendendo",
+     "ini": 12.62,
+     "fim": 13.32,
+     "conf": 1.0
+    },
+    {
+     "p": "correndo.",
+     "ini": 13.32,
+     "fim": 13.84,
+     "conf": 0.67
+    }
+   ]
+  },
+  {
+   "ini": 19.37,
+   "fim": 21.65,
+   "texto": "Beleza é construção e constância.",
+   "palavras": [
+    {
+     "p": "Beleza",
+     "ini": 19.37,
+     "fim": 20.13,
+     "conf": 0.89
+    },
+    {
+     "p": "é",
+     "ini": 20.13,
+     "fim": 20.29,
+     "conf": 0.63
+    },
+    {
+     "p": "construção",
+     "ini": 20.29,
+     "fim": 20.83,
+     "conf": 0.99
+    },
+    {
+     "p": "e",
+     "ini": 20.83,
+     "fim": 20.95,
+     "conf": 0.83
+    },
+    {
+     "p": "constância.",
+     "ini": 20.95,
+     "fim": 21.65,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 22.07,
+   "fim": 23.19,
+   "texto": "Então agente seu horário.",
+   "palavras": [
+    {
+     "p": "Então",
+     "ini": 22.07,
+     "fim": 22.27,
+     "conf": 0.81
+    },
+    {
+     "p": "agente",
+     "ini": 22.27,
+     "fim": 22.59,
+     "conf": 0.59
+    },
+    {
+     "p": "seu",
+     "ini": 22.59,
+     "fim": 22.81,
+     "conf": 0.82
+    },
+    {
+     "p": "horário.",
+     "ini": 22.81,
+     "fim": 23.19,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 25.19,
+   "fim": 26.09,
+   "texto": "Fechou o vídeo.",
+   "palavras": [
+    {
+     "p": "Fechou",
+     "ini": 25.19,
+     "fim": 25.73,
+     "conf": 0.96
+    },
+    {
+     "p": "o",
+     "ini": 25.73,
+     "fim": 25.89,
+     "conf": 0.98
+    },
+    {
+     "p": "vídeo.",
+     "ini": 25.89,
+     "fim": 26.09,
+     "conf": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 27.73,
+   "fim": 29.99,
+   "texto": "Beleza é construção e constância.",
+   "palavras": [
+    {
+     "p": "Beleza",
+     "ini": 27.73,
+     "fim": 28.49,
+     "conf": 0.94
+    },
+    {
+     "p": "é",
+     "ini": 28.49,
+     "fim": 28.79,
+     "conf": 0.98
+    },
+    {
+     "p": "construção",
+     "ini": 28.79,
+     "fim": 29.27,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 29.27,
+     "fim": 29.37,
+     "conf": 1.0
+    },
+    {
+     "p": "constância.",
+     "ini": 29.37,
+     "fim": 29.99,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 30.13,
+   "fim": 31.15,
+   "texto": "Agente seu horário.",
+   "palavras": [
+    {
+     "p": "Agente",
+     "ini": 30.13,
+     "fim": 30.51,
+     "conf": 0.98
+    },
+    {
+     "p": "seu",
+     "ini": 30.51,
+     "fim": 30.73,
+     "conf": 1.0
+    },
+    {
+     "p": "horário.",
+     "ini": 30.73,
+     "fim": 31.15,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 35.86,
+   "fim": 37.94,
+   "texto": "Eu já até esqueci",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 35.86,
+     "fim": 36.56,
+     "conf": 0.74
+    },
+    {
+     "p": "já",
+     "ini": 36.56,
+     "fim": 37.26,
+     "conf": 0.98
+    },
+    {
+     "p": "até",
+     "ini": 37.26,
+     "fim": 37.48,
+     "conf": 1.0
+    },
+    {
+     "p": "esqueci",
+     "ini": 37.48,
+     "fim": 37.94,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 37.94,
+   "fim": 40.12,
+   "texto": "Vocês falam e começam a conversar",
+   "palavras": [
+    {
+     "p": "Vocês",
+     "ini": 37.94,
+     "fim": 38.16,
+     "conf": 0.03
+    },
+    {
+     "p": "falam",
+     "ini": 38.16,
+     "fim": 38.64,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 38.64,
+     "fim": 38.82,
+     "conf": 0.98
+    },
+    {
+     "p": "começam",
+     "ini": 38.82,
+     "fim": 39.22,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 39.22,
+     "fim": 39.28,
+     "conf": 0.99
+    },
+    {
+     "p": "conversar",
+     "ini": 39.28,
+     "fim": 40.12,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 47.04,
+   "fim": 48.92,
+   "texto": "Beleza é construção",
+   "palavras": [
+    {
+     "p": "Beleza",
+     "ini": 47.04,
+     "fim": 47.74,
+     "conf": 0.81
+    },
+    {
+     "p": "é",
+     "ini": 47.74,
+     "fim": 48.04,
+     "conf": 0.85
+    },
+    {
+     "p": "construção",
+     "ini": 48.04,
+     "fim": 48.92,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 48.92,
+   "fim": 50.1,
+   "texto": "E constância",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 48.92,
+     "fim": 49.28,
+     "conf": 0.56
+    },
+    {
+     "p": "constância",
+     "ini": 49.28,
+     "fim": 50.1,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 50.1,
+   "fim": 52.3,
+   "texto": "Então agenda o seu horário",
+   "palavras": [
+    {
+     "p": "Então",
+     "ini": 50.1,
+     "fim": 50.7,
+     "conf": 0.97
+    },
+    {
+     "p": "agenda",
+     "ini": 50.7,
+     "fim": 51.68,
+     "conf": 0.42
+    },
+    {
+     "p": "o",
+     "ini": 51.68,
+     "fim": 51.84,
+     "conf": 0.99
+    },
+    {
+     "p": "seu",
+     "ini": 51.84,
+     "fim": 51.94,
+     "conf": 1.0
+    },
+    {
+     "p": "horário",
+     "ini": 51.94,
+     "fim": 52.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 52.3,
+   "fim": 54.32,
+   "texto": "E venha manter a sua beleza em dia",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 52.3,
+     "fim": 52.4,
+     "conf": 0.62
+    },
+    {
+     "p": "venha",
+     "ini": 52.4,
+     "fim": 52.58,
+     "conf": 0.7
+    },
+    {
+     "p": "manter",
+     "ini": 52.58,
+     "fim": 52.82,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 52.82,
+     "fim": 53.04,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 53.04,
+     "fim": 53.24,
+     "conf": 1.0
+    },
+    {
+     "p": "beleza",
+     "ini": 53.24,
+     "fim": 53.7,
+     "conf": 0.99
+    },
+    {
+     "p": "em",
+     "ini": 53.7,
+     "fim": 53.98,
+     "conf": 0.97
+    },
+    {
+     "p": "dia",
+     "ini": 53.98,
+     "fim": 54.32,
+     "conf": 0.84
+    }
+   ]
+  }
+ ]
+}

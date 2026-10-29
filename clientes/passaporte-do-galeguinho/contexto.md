@@ -44,6 +44,14 @@ dele em União dos Palmares, enquanto a lanchonete fica em São José da Laje. C
   direcionamento de roteiro, capas personalizadas, legendas, análise de métricas, criação de persona,
   planejamento das redes, posicionamento de marca e programação de postagens.
 - **Valor:** R$ 3.200,00 pelos 120 dias, ou seja **R$ 800/mês**. Pagamento por PIX ou dinheiro.
+- **Pagamentos recebidos** (comprovantes no Drive do cliente, em `DOCUMENTAÇÃO/Comprovante pagamento/2026/<MÊS>/`;
+  lá estão janeiro, fevereiro, março, abril e novembro):
+  | mês de referência | pago em | valor | como |
+  |---|---|---|---|
+  | janeiro a abril/2026 | [data no comprovante] | R$ 800,00/mês | comprovante no Drive, na pasta de cada mês |
+  | maio a outubro/2026 | [sem data] | R$ 800,00/mês | pagos, confirmado pela Talyta em 2026-10-23; sem comprovante na pasta |
+  | novembro/2026 | 23/10/2026 às 15:17 | R$ 800,00 | Pix do Aelenildo Francisco Silva (BB), comprovante na pasta NOVEMBRO |
+  Em dia até novembro/2026. Próximos: dezembro/2026 e janeiro/2027 (fim da renovação em 17/02/2027).
 - **Vigência:** 23/01/2026 a 23/05/2026. Primeiros 30 dias de experiência (saída com aviso de 7 dias);
   depois renovação automática por 90 dias, com vigência mínima obrigatória; daí em diante **renova sozinho
   a cada 90 dias**, salvo aviso prévio de 30 dias por escrito.
@@ -110,3 +118,4 @@ de produção `C:\Users\tamar\cliente-passaporte-do-galeguinho\` (`_contexto/emp
 ## Regras gerais aplicadas
 
 - **Brand book (2026-10-13):** Identidade travada na pasta de trabalho (`marca/design-guide.md`, `marca/fotos/CATALOGO.md`, ver 'Marca'). Brand book: **pendente**. Partir da identidade travada, do persona e do posicionamento já registrados na ficha; nada da identidade visual muda.
+- **B-roll de toda diária (2026-10-23):** B-rolls qualificados em `BRUTO/B-ROLL/AAAA-MM-DD · <gravação>/` no Drive do cliente (chapa, montagem do lanche, salão, fachada, clientes comendo só com autorização). Ajuda a quitar os vídeos em atraso. Depois o vlog geral e os vídeos por tema.

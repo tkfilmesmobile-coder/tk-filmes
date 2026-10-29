@@ -1,0 +1,136 @@
+{
+ "arquivo": "IMG_6624",
+ "duracao": 8.98,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 2.1,
+   "texto": "Tá ótimo, tô igual, muito, muito",
+   "palavras": [
+    {
+     "p": "Tá",
+     "ini": 0.0,
+     "fim": 0.66,
+     "conf": 0.53
+    },
+    {
+     "p": "ótimo,",
+     "ini": 0.66,
+     "fim": 1.04,
+     "conf": 1.0
+    },
+    {
+     "p": "tô",
+     "ini": 1.22,
+     "fim": 1.36,
+     "conf": 0.63
+    },
+    {
+     "p": "igual,",
+     "ini": 1.36,
+     "fim": 1.62,
+     "conf": 1.0
+    },
+    {
+     "p": "muito,",
+     "ini": 1.66,
+     "fim": 1.9,
+     "conf": 0.96
+    },
+    {
+     "p": "muito",
+     "ini": 2.08,
+     "fim": 2.1,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 3.34,
+   "fim": 4.34,
+   "texto": "Eu melhoro",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 3.34,
+     "fim": 3.84,
+     "conf": 0.03
+    },
+    {
+     "p": "melhoro",
+     "ini": 3.84,
+     "fim": 4.34,
+     "conf": 0.72
+    }
+   ]
+  },
+  {
+   "ini": 5.22,
+   "fim": 6.28,
+   "texto": "Esse aqui do meio",
+   "palavras": [
+    {
+     "p": "Esse",
+     "ini": 5.22,
+     "fim": 5.72,
+     "conf": 0.98
+    },
+    {
+     "p": "aqui",
+     "ini": 5.72,
+     "fim": 5.9,
+     "conf": 0.97
+    },
+    {
+     "p": "do",
+     "ini": 5.9,
+     "fim": 6.06,
+     "conf": 0.95
+    },
+    {
+     "p": "meio",
+     "ini": 6.06,
+     "fim": 6.28,
+     "conf": 0.52
+    }
+   ]
+  },
+  {
+   "ini": 7.36,
+   "fim": 8.96,
+   "texto": "Esse aí já é o",
+   "palavras": [
+    {
+     "p": "Esse",
+     "ini": 7.36,
+     "fim": 7.86,
+     "conf": 0.99
+    },
+    {
+     "p": "aí",
+     "ini": 7.86,
+     "fim": 8.16,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 8.16,
+     "fim": 8.48,
+     "conf": 0.97
+    },
+    {
+     "p": "é",
+     "ini": 8.48,
+     "fim": 8.84,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 8.84,
+     "fim": 8.96,
+     "conf": 0.86
+    }
+   ]
+  }
+ ]
+}

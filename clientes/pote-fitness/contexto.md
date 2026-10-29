@@ -53,3 +53,4 @@ Cadastrado em 2026-10-11, a partir da conversa com a Talyta.
 ## Regras gerais aplicadas
 
 - **Brand book (2026-10-13):** Brand book v1 já existe: `marca/brand-book-v1.pdf` (com `design-guide.md` e brandboard). Atende a regra. Revisar quando faltar definição de cardápio, dias e entrega (hoje `[a definir]` na ficha).
+- **B-roll de toda diária (2026-10-23):** separar os B-rolls qualificados de cada gravação numa pasta de B-roll por diária. Pasta no Drive: **[a definir]** (não há pasta da Pote Fitness no Drive da TK).

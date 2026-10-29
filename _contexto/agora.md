@@ -12,14 +12,33 @@ Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): 2 ediç
 e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo v6 ficou como rascunho (`clientes/melissa-morais/`).
 Em 2026-10-20 entrou a Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): contrato pronto, esperando
 assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.
-Dra. Camilla Wanderley (2026-10-26): Reels do depoimento da Mari refeito (v4, fotos na ordem certa) e publicado;
-carrossel da Mari saiu em 22/10; post 4 pronto sem data (`clientes/camilla-wanderley/andamento.md`).
+Em 2026-10-22 o carrossel "o caso da Mari" da Dra. Camilla não saiu pela tarefa das 12h e foi publicado à mão às 14h, do
+computador principal; a tarefa do outro PC foi cancelada. Em 2026-10-26 o Reels do depoimento da Mari refeito (v4, fotos na
+ordem certa) foi publicado à mão pelo PC do escritório (a publicação automática deste PC não achou o vídeo e não postou);
+post 4 pronto sem data (`clientes/camilla-wanderley/andamento.md`). Em 2026-10-23 o Galeguinho pagou novembro (Pix de R$ 800) e ficou
+em dia até novembro (maio a outubro confirmados pela Talyta); comprovante no Drive dele, `DOCUMENTAÇÃO/Comprovante pagamento/2026/NOVEMBRO`.
+
+Em 2026-10-23, diária de 22/10 da Dra. Camilla: 6 vídeos aprovados no Drive (`VÍDEOS EDITADOS/2026-10`), 19 B-rolls, color grade fixo e kit de música dela; falta o vídeo do implante (animação realista na cota grátis diária do Hugging Face, ver `clientes/camilla-wanderley/andamento.md`).
+Em 2026-10-24: 6 carrosséis da diária prontos (16 refeito só com a mesma paciente) e levantamento de datas de nov/dez
+(`clientes/camilla-wanderley/calendarios/2026-11-12-datas-comemorativas.md`). Próximo: confirmar com a doutora o pai e as quintas de fim de ano, e montar os calendários.
+Em 2026-10-27: reel "Meu dia de princesa" (trend da Rapunzel) da Marielly Makeup editado; a v3 (cor refeita, Pascal no olhar
+dela, magia com brilhos na revelação, áudio da trend) está em `clientes/marielly-makeup/edicao/2026-10-trend-rapunzel/out/` esperando aprovação da Talyta.
+Em 2026-10-28 entrou a Start Fitness (academia, edição avulsa de 2 vídeos, `clientes/start-fitness/`): os dois foram aprovados
+e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada da 2ª Corrida (1º/11) e a entrevista de expectativas.
+TK (2026-10-29): reels "Um dia na TK" (só b-roll) e o V10 da eleição estão na raiz do Drive com as legendas; o V10 foi aprovado, mas
+o token da TK foi invalidado e só posta com token novo. Site em `tk-filmes/site/` todo em marrom, com a Talyta na abertura (`tk-filmes/andamento.md`).
+Tamara (2026-10-29): o PC do escritório parou em 23/10 e a Talyta não vai ligá-lo; Reels e stories dela saem do PC kumyt, por
+tarefas que não repetem publicação (`_contexto/automacoes.md`). Publicados daqui: pensão por morte (27/10) e cirurgia estética
+(28/10), com os stories; a carta negada sai sex 30/10 às 16h. Semana em 3 de 5 Reels (feira EP. 3 e "Trabalhador rural" só existem
+no PC do escritório). Regras novas na ficha dela: curadoria de toda fala (feed e stories) e variar fotos e quem fala nos stories.
 
 ## Pendências
 - **Dra. Camilla:** decidir se apaga o Reels v1 da Mari (21/10) e o carrossel de 22/10 (slide 3 chama a foto pós aparelho de "ANTES"); data do post 4; autorização de imagem da Mari e da paciente do Periodontite. Detalhes em `clientes/camilla-wanderley/andamento.md`. (2026-10-26)
+- **Start Fitness:** confirmar a fala de 24 s da chamada ("joga o kit"?); valor, contato, cidade, @ e logo. (2026-10-28)
+- **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entregue no Drive `Marielly Makeup/Dia de princesa (trend Rapunzel).mp4`. (2026-10-27)
 - **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
-- **Dra. Melissa Morais:** número do CRO (entra no fecho do vídeo e na legenda); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-17)
+- **Dra. Melissa Morais:** aprovar o antes e depois de frente (3ª edição, Drive `POSTS/POST 3`, 2026-10-24); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-24)
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)
 - Ary: preço da sobrancelha e dos kits de tratamento; prints reais de depoimentos (post 10/11); oferta de Black Friday (24/11); se o salão abre em 20/11. (2026-10-12)
 - Ary: postar pelo celular os stories de União (13/10) e AGENDA (27/10), com localização e link do WhatsApp (Drive `POSTS/2026-10/STORIES`). (2026-10-12)
@@ -34,9 +53,13 @@ carrossel da Mari saiu em 22/10; post 4 pronto sem data (`clientes/camilla-wande
 - Fixar no perfil da TK, pelo app, os posts de 05, 09 e 23/10 depois que saírem. (2026-09-29)
 - Trocar o @ antigo (@tkfilmesmobile) no papel timbrado, nas assinaturas e no material impresso. (2026-09-29)
 - Conferir se os posts agendados saíram: `*-publicacao.log` em `tk-filmes/posts/2026-10/` e nos posts da Tamara. Só saem com o PC ligado no horário, e a conexão precisa aguentar o processamento do vídeo. (2026-09-29)
-- Tamara: agendar os posts 15 a 18 do calendário (2º turno em 25/10) ou os temas alternativos. (2026-09-29)
+- **Tamara: montar o lote de stories de cada dia útil na véspera** (`stories/AAAA-MM-DD-b-roll/` com `ordem.txt`; a tarefa das 8h do PC kumyt publica até as 11h). O de 29/10 não foi montado. (2026-10-29)
+- Tamara: confirmar o nome certo da rua e da clínica em frente ao escritório (até lá, as falas de localização saem sem o nome da rua). (2026-10-27)
+- Tamara: os vídeos do EP. 03 do Vlog de Natal não apareceram no Drive (busca em 28/10). (2026-10-28)
+- Tamara: apagar pelo app o story v1 da Rita (27/10, 8h20; o v2 já saiu às 8h34). (2026-10-27)
+- Tamara: se o PC do escritório voltar, desativar lá antes as tarefas da pensão, carta negada, cirurgia e stories das 8h. (2026-10-27)
 - A cada post da Tamara, aceitar o convite de colaboração no app, logado no @dra.tamarachagas_. (2026-09-29)
-- Tokens do Instagram vencem por volta de 27/11/2026 (Tamara e Camilla) 28/11/2026 (TK e Galeguinho) e 08/12/2026 (Ary): renovar antes. (2026-09-29)
+- Tokens do Instagram vencem por volta de 27/11/2026 (Tamara e Camilla) 28/11/2026 (Galeguinho) e 08/12/2026 (Ary): renovar antes. O da TK já caiu (ver acima). (2026-09-29)
 - Tamara: confirmar o tom de fala dela nos vídeos e, se existir, o manual de marca com fontes e cores oficiais. (2026-09-28)
 - Galeguinho: conferir se o cliente confirmou os ingredientes do Passaporte de frango, o preço "a partir de R$ 16" (post de 31/10) e se o hambúrguer sai no delivery; o prazo era 03/10. (2026-09-29)
 - Galeguinho: o Maycon (@maycondequipapaof) precisa aceitar o convite de colaboração do reels de 05/10 no app. (2026-10-05)
@@ -45,16 +68,16 @@ carrossel da Mari saiu em 22/10; post 4 pronto sem data (`clientes/camilla-wande
 - Os 5 posts de sábado do Galeguinho (03, 10, 17, 24 e 31/10) só saem no horário com este PC ligado ao meio-dia. (2026-09-29)
 - **Passaporte do Galeguinho: 8 vídeos em atraso, com plano de quitação.** Ritmo de 3 vídeos por semana de 18/09 a 19/11/2026 (26 no total). Conferir a cada registro semanal. (2026-09-17)
 - Cadastrar os clientes que faltam com `/cliente`: Eduarda Pereira, Força & Vigor, Anna Walleska. (2026-09-17)
-- Conferir se junho a setembro de 2026 do Passaporte do Galeguinho foram pagos: o contrato renovou sozinho, R$ 800/mês. (2026-09-17)
 - Decidir se a pasta de produção `cliente-passaporte-do-galeguinho` (89 MB, com as skills de carrossel e post) entra pro sistema. (2026-09-17)
 - Rever a diária de cobertura extra de R$ 100: está bem abaixo da diária avulsa de R$ 300. (2026-09-17)
 - Decidir conectores: Notion e conferir se o conector do Google Drive da conta é o da TK (em 2026-09-29 ele não enxergou o Drive da TK; pasta compartilhada por link funciona pelo navegador). (2026-09-17)
 - Mapear as artes e peças visuais dos clientes (posts, stories, capas, peças de evento): ficou de fora do `/mapear`. (2026-09-17)
-- Site em tkfilme.com.br: domínio registrado, nada no ar. (2026-09-17)
+- **Site tkfilme.com.br:** pronto localmente (`tk-filmes/site/`), não está no ar. Falta preencher o "Quem dirige", o vídeo de boas-vindas da abertura e publicar no Cloudflare. (2026-10-28)
+- **TK:** gerar token novo do Instagram (o atual deu erro 190 em 27/10 e de novo em 29/10) pra postar os dois reels aprovados: o V10 da eleição e o "Um dia na TK". (2026-10-29)
 
 ## Quente agora
-- Ter 20/10 e 27/10 ao meio-dia: carrosséis da Ary (valores e agenda). Ter 27/10: stories de AGENDA da Ary pelo celular.
-- 2º turno das eleições em 25/10: define os posts 15 a 18 da Tamara.
+- Sex 30/10, 16h: Reels "Carta negada" da Tamara (PC kumyt ligado).
+- Stories da Tamara montados na véspera de cada dia útil.
 - Contratos pra assinar: Dra. Annalibya e a renovação do Galeguinho.
 
 ## Detalhe de operação

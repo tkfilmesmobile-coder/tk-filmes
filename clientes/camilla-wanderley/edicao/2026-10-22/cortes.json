@@ -1,0 +1,631 @@
+{
+ "_como": "Cortes da diária de 2026-10-22. Cada vídeo é uma lista de trechos na ordem da montagem. tipo: voz (fala com legenda), natural (som ambiente baixo, sem legenda), musica (sem som original). foco: ponto aproximado do rosto no vídeo original (1080x1920) pra seguir com o detector; zoom: escala. Tempos em segundos do arquivo. Regra CFO 196/2019 art. 3º: nada de procedimento em andamento.",
+ "correcoes": {
+  "Camila": "Camilla",
+  "Camila,": "Camilla,",
+  "Camila.": "Camilla.",
+  "Camila?": "Camilla?",
+  "Camila!": "Camilla!",
+  "CIT": "CIP",
+  "profissionária": "funcionária",
+  "apressada": "abraçada",
+  "dedo": "dente",
+  "resgulhante,": "refrigerante,",
+  "atira": "tira"
+ },
+ "videos": [
+  {
+   "id": "vlog-2026-10-22",
+   "nome": "Vlog · uma quinta na CIP",
+   "musica": "vlog",
+   "_v2": "2026-10-23: trilha animada e mais atendimento (sem procedimento em andamento, pedido da Talyta).",
+   "headline": {
+    "caps": "UMA QUINTA",
+    "serifa": "na CIP",
+    "selo": "União dos Palmares",
+    "ate": 3.2
+   },
+   "destaques": [
+    "medo",
+    "agradável",
+    "pessoa",
+    "noivinha",
+    "iguais",
+    "pomadinha",
+    "luz"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6610",
+     "de": 0.0,
+     "ate": 2.9,
+     "tipo": "musica",
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6589",
+     "de": 1.5,
+     "ate": 5.6,
+     "tipo": "musica",
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6582",
+     "de": 3.9,
+     "ate": 7.9,
+     "tipo": "voz",
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6582",
+     "de": 14.9,
+     "ate": 16.2,
+     "tipo": "voz",
+     "foco": [
+      500,
+      650
+     ],
+     "zoom": 1.08
+    },
+    {
+     "arq": "IMG_6589",
+     "de": 5.6,
+     "ate": 10.5,
+     "tipo": "musica",
+     "zoom": 1.06
+    },
+    {
+     "arq": "IMG_6611",
+     "de": 7.86,
+     "ate": 18.0,
+     "tipo": "voz",
+     "zoom": 1.05
+    },
+    {
+     "arq": "IMG_6615",
+     "de": 52.1,
+     "ate": 62.8,
+     "tipo": "voz",
+     "foco": [
+      430,
+      790
+     ],
+     "zoom": 1.4
+    },
+    {
+     "arq": "IMG_6615",
+     "de": 119.5,
+     "ate": 124.5,
+     "tipo": "voz",
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6627",
+     "de": 0.0,
+     "ate": 2.9,
+     "tipo": "musica",
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6616",
+     "de": 74.7,
+     "ate": 79.2,
+     "tipo": "voz",
+     "foco": [
+      560,
+      770
+     ],
+     "zoom": 1.2
+    },
+    {
+     "arq": "IMG_6624",
+     "de": 0.0,
+     "ate": 7.0,
+     "tipo": "musica",
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6582",
+     "de": 58.4,
+     "ate": 68.5,
+     "tipo": "voz",
+     "foco": [
+      500,
+      650
+     ],
+     "zoom": 1.1
+    },
+    {
+     "arq": "IMG_6582",
+     "de": 99.5,
+     "ate": 106.5,
+     "tipo": "natural",
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6569",
+     "de": 23.2,
+     "ate": 33.2,
+     "tipo": "voz",
+     "foco": [
+      550,
+      700
+     ],
+     "zoom": 1.08
+    }
+   ],
+   "fotoFinal": {
+    "src": "midia/2026-10-23/fotos/IMG_6577.jpg",
+    "dur": 3.4
+   },
+   "assinatura": 3.0
+  },
+  {
+   "id": "feedback-robervania",
+   "nome": "Feedback · Robervânia",
+   "musica": "feedback",
+   "headline": {
+    "caps": "NÃO FUI TRATADA",
+    "serifa": "só como paciente",
+    "selo": "o depoimento da Robervânia",
+    "ate": 3.4
+   },
+   "destaques": [
+    "humanizado",
+    "pessoa",
+    "excelente",
+    "soluções",
+    "segura",
+    "medo",
+    "feliz",
+    "indico"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6569",
+     "de": 9.7,
+     "ate": 33.2,
+     "tipo": "voz",
+     "foco": [
+      550,
+      700
+     ],
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6569",
+     "de": 44.7,
+     "ate": 60.9,
+     "tipo": "voz",
+     "foco": [
+      550,
+      700
+     ],
+     "zoom": 1.07
+    },
+    {
+     "arq": "IMG_6569",
+     "de": 61.8,
+     "ate": 90.8,
+     "tipo": "voz",
+     "foco": [
+      550,
+      700
+     ],
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6569",
+     "de": 99.2,
+     "ate": 109.4,
+     "tipo": "voz",
+     "foco": [
+      550,
+      700
+     ],
+     "zoom": 1.07
+    },
+    {
+     "arq": "IMG_6569",
+     "de": 176.7,
+     "ate": 212.4,
+     "tipo": "voz",
+     "foco": [
+      550,
+      700
+     ],
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6569",
+     "de": 167.9,
+     "ate": 176.4,
+     "tipo": "voz",
+     "foco": [
+      550,
+      700
+     ],
+     "zoom": 1.08
+    }
+   ],
+   "assinatura": 3.0
+  },
+  {
+   "id": "feedback-colaboradora-cip",
+   "nome": "Feedback · colaboradora da CIP",
+   "musica": "feedback",
+   "headline": {
+    "caps": "EU TINHA MEDO",
+    "serifa": "de ir ao dentista",
+    "selo": "paciente há 2 anos",
+    "ate": 3.4
+   },
+   "destaques": [
+    "medo",
+    "vergonha",
+    "paciência",
+    "carinho",
+    "autoestima",
+    "grata"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6582",
+     "de": 41.8,
+     "ate": 57.9,
+     "tipo": "voz",
+     "foco": [
+      500,
+      650
+     ],
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6582",
+     "de": 58.4,
+     "ate": 95.8,
+     "tipo": "voz",
+     "foco": [
+      500,
+      650
+     ],
+     "zoom": 1.08
+    },
+    {
+     "arq": "IMG_6582",
+     "de": 99.0,
+     "ate": 112.0,
+     "tipo": "natural",
+     "zoom": 1.0
+    }
+   ],
+   "assinatura": 3.0
+  },
+  {
+   "id": "clareamento-noiva",
+   "nome": "Clareamento antes do casamento",
+   "musica": "explicativo",
+   "headline": {
+    "caps": "VAI CASAR?",
+    "serifa": "e o clareamento?",
+    "selo": "consultório + caseiro",
+    "ate": 3.2
+   },
+   "destaques": [
+    "21",
+    "consultório",
+    "caseiro",
+    "sensibilidade",
+    "controlável",
+    "planejar",
+    "casamento",
+    "noivinha"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6615",
+     "de": 37.4,
+     "ate": 50.0,
+     "tipo": "voz",
+     "foco": [
+      550,
+      770
+     ],
+     "zoom": 1.8
+    },
+    {
+     "arq": "IMG_6615",
+     "de": 52.1,
+     "ate": 70.4,
+     "tipo": "voz",
+     "foco": [
+      430,
+      790
+     ],
+     "zoom": 1.5
+    },
+    {
+     "arq": "IMG_6615",
+     "de": 198.9,
+     "ate": 225.2,
+     "tipo": "voz",
+     "foco": [
+      430,
+      790
+     ],
+     "zoom": 1.4
+    },
+    {
+     "arq": "IMG_6615",
+     "de": 226.5,
+     "ate": 241.1,
+     "tipo": "voz",
+     "foco": [
+      430,
+      790
+     ],
+     "zoom": 1.5
+    },
+    {
+     "arq": "IMG_6615",
+     "de": 89.0,
+     "ate": 105.5,
+     "tipo": "voz",
+     "foco": [
+      430,
+      790
+     ],
+     "zoom": 1.4
+    },
+    {
+     "arq": "IMG_6615",
+     "de": 119.5,
+     "ate": 124.5,
+     "tipo": "voz",
+     "zoom": 1.0
+    }
+   ],
+   "assinatura": 3.0,
+   "motions": [
+    {
+     "tipo": "vinte-um-dias",
+     "de": 3.3,
+     "ate": 8.6,
+     "foco": 0.28
+    },
+    {
+     "tipo": "dois-juntos",
+     "de": 8.7,
+     "ate": 13,
+     "caseiro": 11.6,
+     "consultorio": 12.2,
+     "foco": 0.28
+    },
+    {
+     "tipo": "plano-casamento",
+     "parte": "calendario",
+     "de": 32.1,
+     "ate": 40.9,
+     "datas": 32.6,
+     "acelera": 99,
+     "demora": 99,
+     "dia11": 43.9,
+     "foco": 0.28
+    },
+    {
+     "tipo": "plano-comparacao",
+     "parte": "barras",
+     "de": 41.0,
+     "ate": 51.4,
+     "datas": 0,
+     "demora": 41.4,
+     "acelera": 46.4,
+     "dia11": 0,
+     "foco": 0.28
+    },
+    {
+     "tipo": "medidor-sensibilidade",
+     "de": 65.9,
+     "ate": 72.2,
+     "controlavel": 71.1,
+     "foco": 0.28
+    }
+   ]
+  },
+  {
+   "id": "clareamento-caseiro-erro",
+   "nome": "Clareamento caseiro · o erro que zera tudo",
+   "musica": "explicativo",
+   "headline": {
+    "caps": "O ERRO QUE",
+    "serifa": "zera o clareamento",
+    "selo": "clareamento caseiro",
+    "ate": 3.2
+   },
+   "destaques": [
+    "duas horas",
+    "dentina",
+    "esquecimento",
+    "zero",
+    "corante",
+    "café",
+    "evitar",
+    "saliva"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6626",
+     "de": 6.3,
+     "ate": 34.6,
+     "tipo": "voz",
+     "foco": [
+      640,
+      750
+     ],
+     "zoom": 1.4
+    },
+    {
+     "arq": "IMG_6626",
+     "de": 35.1,
+     "ate": 44.4,
+     "tipo": "voz",
+     "foco": [
+      640,
+      750
+     ],
+     "zoom": 1.5
+    },
+    {
+     "arq": "IMG_6626",
+     "de": 44.9,
+     "ate": 81.8,
+     "tipo": "voz",
+     "foco": [
+      640,
+      750
+     ],
+     "zoom": 1.4
+    },
+    {
+     "arq": "IMG_6626",
+     "de": 96.2,
+     "ate": 107.8,
+     "tipo": "voz",
+     "foco": [
+      640,
+      750
+     ],
+     "zoom": 1.5
+    },
+    {
+     "arq": "IMG_6626",
+     "de": 113.0,
+     "ate": 118.2,
+     "tipo": "voz",
+     "foco": [
+      640,
+      750
+     ],
+     "zoom": 1.4
+    }
+   ],
+   "assinatura": 3.0,
+   "motions": [
+    {
+     "tipo": "semana-placa",
+     "de": 12.4,
+     "ate": 28.6,
+     "dias": [
+      18.2,
+      19.6,
+      20.5,
+      20.9
+     ],
+     "aumenta": 25.2,
+     "noite": 26.8,
+     "foco": 0.28
+    },
+    {
+     "tipo": "dias-esquecidos",
+     "de": 29.7,
+     "ate": 38.4,
+     "feitos": [
+      30.3,
+      31.2,
+      31.8,
+      32.1
+     ],
+     "esqueceu": 32.6,
+     "zero": 37.2,
+     "foco": 0.28
+    }
+   ]
+  },
+  {
+   "id": "implante-sem-abrir-gengiva",
+   "nome": "Implante · como é feito hoje",
+   "musica": "explicativo",
+   "headline": {
+    "caps": "IMPLANTE",
+    "serifa": "sem abrir a gengiva",
+    "selo": "como é feito hoje",
+    "ate": 2.2
+   },
+   "motions": [],
+   "destaques": [
+    "prótese",
+    "cirúrgica",
+    "anestesiado",
+    "gengiva",
+    "osso",
+    "tecnologia",
+    "raiz"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6615",
+     "de": 370.3,
+     "ate": 376.5,
+     "tipo": "voz",
+     "foco": [
+      850,
+      620
+     ],
+     "zoom": 1.35
+    },
+    {
+     "arq": "IMG_6616",
+     "de": 98.6,
+     "ate": 113.1,
+     "tipo": "voz",
+     "foco": [
+      560,
+      770
+     ],
+     "zoom": 1.4
+    },
+    {
+     "arq": "IMG_6616",
+     "de": 117.0,
+     "ate": 139.2,
+     "tipo": "voz",
+     "foco": [
+      560,
+      770
+     ],
+     "zoom": 1.5
+    }
+   ],
+   "assinatura": 3.0
+  },
+  {
+   "id": "espaco-entre-dentes-resina",
+   "nome": "Espaço entre os dentes · resina",
+   "musica": "explicativo",
+   "headline": {
+    "caps": "AQUELE ESPAÇO",
+    "serifa": "entre os dentes",
+    "selo": "dá pra fechar com resina",
+    "ate": 3.0
+   },
+   "destaques": [
+    "resina",
+    "espaço",
+    "lateral",
+    "capinha",
+    "clarear",
+    "altura"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6625",
+     "de": 0.0,
+     "ate": 41.3,
+     "tipo": "voz",
+     "zoom": 1.0
+    }
+   ],
+   "assinatura": 3.0
+  }
+ ]
+}

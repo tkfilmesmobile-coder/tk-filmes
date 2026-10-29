@@ -1,0 +1,80 @@
+{
+ "arquivo": "IMG_6591",
+ "duracao": 24.77,
+ "segmentos": [
+  {
+   "ini": 0.37,
+   "fim": 1.39,
+   "texto": "Eu não estou tentando.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 0.37,
+     "fim": 0.81,
+     "conf": 0.26
+    },
+    {
+     "p": "não",
+     "ini": 0.81,
+     "fim": 0.89,
+     "conf": 0.7
+    },
+    {
+     "p": "estou",
+     "ini": 0.89,
+     "fim": 1.01,
+     "conf": 0.2
+    },
+    {
+     "p": "tentando.",
+     "ini": 1.01,
+     "fim": 1.39,
+     "conf": 0.73
+    }
+   ]
+  },
+  {
+   "ini": 9.74,
+   "fim": 10.96,
+   "texto": "Você deu até a vez, viu?",
+   "palavras": [
+    {
+     "p": "Você",
+     "ini": 9.74,
+     "fim": 10.1,
+     "conf": 0.48
+    },
+    {
+     "p": "deu",
+     "ini": 10.1,
+     "fim": 10.24,
+     "conf": 0.89
+    },
+    {
+     "p": "até",
+     "ini": 10.24,
+     "fim": 10.42,
+     "conf": 0.91
+    },
+    {
+     "p": "a",
+     "ini": 10.42,
+     "fim": 10.54,
+     "conf": 0.96
+    },
+    {
+     "p": "vez,",
+     "ini": 10.54,
+     "fim": 10.68,
+     "conf": 0.26
+    },
+    {
+     "p": "viu?",
+     "ini": 10.94,
+     "fim": 10.96,
+     "conf": 0.52
+    }
+   ]
+  }
+ ]
+}

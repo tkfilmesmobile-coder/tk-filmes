@@ -2,3 +2,7 @@
 .env
 saidas/
 __pycache__/
+
+entradas/*.webp
+entradas/_*.jpg
+saidas/

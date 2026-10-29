@@ -1,0 +1,19 @@
+{
+ "arquivo": "IMG_6583",
+ "duracao": 0.38,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 0.36,
+   "texto": "Obrigada.",
+   "palavras": [
+    {
+     "p": "Obrigada.",
+     "ini": 0.0,
+     "fim": 0.36,
+     "conf": 0.58
+    }
+   ]
+  }
+ ]
+}

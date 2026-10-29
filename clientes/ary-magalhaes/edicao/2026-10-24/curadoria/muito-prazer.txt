@@ -1,0 +1,23 @@
+=== muito-prazer · 55.6s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_6502    1.51-   4.52  Se você é novo por aqui, muito prazer.
+[02]   3.01s  IMG_6502    4.95-   6.32  Eu sou a Ari Magalhães,
+[03]   4.38s  IMG_6502    6.53-   7.87  sou mãe,
+[04]   5.72s  IMG_6502    8.15-  11.44  esposa e cabeleireira há mais de 14 anos.
+[05]   9.01s  IMG_6502   11.61-  15.15  E há mais ou menos um ano eu vim para cá,
+[06]  12.55s  IMG_6502   15.33-  19.53  para a Praça Padre Cícero, para ampliar o nosso salão.
+[07]  16.75s  IMG_6502   25.51-  33.60  Hoje nós estamos localizados no prédio acima da ANP Advocacia, próximo à Salgaderia Palmarina.
+[08]  24.84s  IMG_6502   43.06-  46.71  Eu acredito que cuidar do cabelo vai muito além da estética.
+[09]  28.49s  IMG_6502   88.50-  92.65  Aqui, cada cliente é atendida com muito carinho,
+[10]  32.64s  IMG_6502   92.84- 101.74  com muita atenção. E isso é em todos os aspectos, não só no cabelo, mas também na ouvidoria, te escutando,
+[11]  41.54s  IMG_6502  102.24- 105.93  tirando tuas dúvidas e te deixando cada vez mais bela.
+[12]  45.23s  IMG_6502  130.13- 134.05  se você é nova por aqui e não me conhecia, aproveite,
+[13]  49.15s  IMG_6502  134.37- 137.99  agende o seu horário e venha ter o seu autocuidado com a gente.
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Se você é novo por aqui, muito prazer. Eu sou a Ari Magalhães, sou mãe, esposa e cabeleireira há mais de 14 anos. E há mais ou menos um ano eu vim para cá, para a Praça Padre Cícero, para ampliar o nosso salão. Hoje nós estamos localizados no prédio acima da ANP Advocacia, próximo à Salgaderia Palmarina. Eu acredito que cuidar do cabelo vai muito além da estética. Aqui, cada cliente é atendida com muito carinho, com muita atenção. Isso é em todos os aspectos, não só no cabelo, mas também na ouvidoria, te escutando, tirando tuas dúvidas e te deixando cada vez mais bela. E se você é nova por aqui e não me conhecia, aproveite, agende o seu horário e venha ter o seu autocuidado com a gente.
+
+DIFERENÇAS E CORTES SUSPEITOS (2):
+  33.6s  esperado «E»  ouvido «»
+  45.4s  esperado «»  ouvido «E»

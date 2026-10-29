@@ -1,0 +1,28 @@
+=== mechas-antes-ou-depois · 52.6s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_6484    1.94-   6.63  Ai, eu tô doida pra fazer minhas mechas, só que eu tenho que fazer o meu alisamento também.
+[02]   4.69s  IMG_6484    6.85-  10.77  Ai, eu não sei se eu faço o primeiro alisamento ou se eu faço logo as mechas.
+[03]   8.61s  IMG_6484   12.81-  14.76  Você também tem essa dúvida?
+[04]  10.56s  IMG_6484   15.25-  16.80  Vamos tirar ela hoje?
+[05]  12.11s  IMG_6484   17.53-  18.29  Bora lá.
+[06]  12.87s  IMG_6484   53.11-  56.38  Essa dúvida é muito comum aqui no nosso salão.
+[07]  16.14s  IMG_6484   56.57-  57.19  Principalmente   ⚠ termina com voz (-29/-23 dB)
+[08]  16.76s  IMG_6484   58.54-  61.84  as minhas maravilhosas, que usufruem já as duas químicas.   ⚠ começa com voz (-29/-26 dB)
+[09]  20.06s  IMG_6484   63.03-  65.27  Ari, antes ou depois, e aí?
+[10]  22.30s  IMG_6484   66.03-  66.73  Bem,
+[11]  23.00s  IMG_6484   67.34-  79.44  eu Ari, sempre recomendo a minha cliente a vir fazer primeiramente as suas mechas para depois, se o cabelo estiver saudável, a gente fazer o nosso retoque. Por quê?   ⚠ começa com voz (-31/-37 dB)
+[12]  35.10s  IMG_6484   79.57-  94.26  A selagem, ela tem o poder de alinhar e fechar a cutícula do cabelo. Então, para quem vai abrir essa cutícula para entrar uma nova cor, não seria tão interessante assim fazer após a sua selagem.
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Ari, eu tô doida pra fazer minhas mechas, só que eu tenho que fazer o meu alisamento também. Aí eu não sei se eu faço o primeiro alisamento ou se eu faço logo as mechas. Você também tem essa dúvida? Vamos tirar ela hoje? Bora lá! Essa dúvida é muito comum aqui no nosso salão. Principalmente as minhas maravilhosas que usufruem já as duas químicas. Ari, antes ou depois, e aí? Bem, eu, Ari, sempre recomendo a minha cliente a vir fazer primeiramente as suas mechas pra depois. Depois, se o cabelo estiver saudável, a gente fazer o nosso retoque. Por quê? A selagem, ela tem o poder de alinhar e fechar a cutícula do cabelo. Então, pra quem vai abrir essa cutícula pra entrar uma nova cor, não seria tão interessante assim fazer após a sua selagem.
+
+DIFERENÇAS E CORTES SUSPEITOS (8):
+trecho 7 (16.1s, IMG_6484 56.57s): termina com voz (-29/-23 dB)
+trecho 8 (16.8s, IMG_6484 58.54s): começa com voz (-29/-26 dB)
+trecho 11 (23.0s, IMG_6484 67.34s): começa com voz (-31/-37 dB)
+   0.4s  esperado «Ai,»  ouvido «Ari,»
+   4.8s  esperado «Ai,»  ouvido «Aí»
+  28.0s  esperado «para»  ouvido «pra depois.»
+  41.4s  esperado «para»  ouvido «pra»
+  44.0s  esperado «para»  ouvido «pra»

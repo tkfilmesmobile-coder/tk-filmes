@@ -1,0 +1,242 @@
+{
+ "arquivo": "IMG_6611",
+ "duracao": 19.52,
+ "segmentos": [
+  {
+   "ini": 7.86,
+   "fim": 12.94,
+   "texto": "Eu vou passar um fio aqui só pra essa fase agora que tá muito inflamada, pra não machucar tanto, tá?",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 7.86,
+     "fim": 8.3,
+     "conf": 0.1
+    },
+    {
+     "p": "vou",
+     "ini": 8.3,
+     "fim": 8.74,
+     "conf": 0.78
+    },
+    {
+     "p": "passar",
+     "ini": 8.74,
+     "fim": 8.98,
+     "conf": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 8.98,
+     "fim": 9.12,
+     "conf": 0.9
+    },
+    {
+     "p": "fio",
+     "ini": 9.12,
+     "fim": 9.38,
+     "conf": 0.99
+    },
+    {
+     "p": "aqui",
+     "ini": 9.38,
+     "fim": 9.54,
+     "conf": 0.94
+    },
+    {
+     "p": "só",
+     "ini": 9.54,
+     "fim": 9.72,
+     "conf": 0.76
+    },
+    {
+     "p": "pra",
+     "ini": 9.72,
+     "fim": 9.88,
+     "conf": 0.53
+    },
+    {
+     "p": "essa",
+     "ini": 9.88,
+     "fim": 10.06,
+     "conf": 0.87
+    },
+    {
+     "p": "fase",
+     "ini": 10.06,
+     "fim": 10.4,
+     "conf": 0.98
+    },
+    {
+     "p": "agora",
+     "ini": 10.4,
+     "fim": 10.62,
+     "conf": 0.83
+    },
+    {
+     "p": "que",
+     "ini": 10.62,
+     "fim": 10.8,
+     "conf": 0.32
+    },
+    {
+     "p": "tá",
+     "ini": 10.8,
+     "fim": 10.88,
+     "conf": 0.74
+    },
+    {
+     "p": "muito",
+     "ini": 10.88,
+     "fim": 11.1,
+     "conf": 0.91
+    },
+    {
+     "p": "inflamada,",
+     "ini": 11.1,
+     "fim": 11.66,
+     "conf": 0.95
+    },
+    {
+     "p": "pra",
+     "ini": 11.7,
+     "fim": 11.86,
+     "conf": 0.83
+    },
+    {
+     "p": "não",
+     "ini": 11.86,
+     "fim": 12.04,
+     "conf": 0.92
+    },
+    {
+     "p": "machucar",
+     "ini": 12.04,
+     "fim": 12.48,
+     "conf": 0.97
+    },
+    {
+     "p": "tanto,",
+     "ini": 12.48,
+     "fim": 12.72,
+     "conf": 0.95
+    },
+    {
+     "p": "tá?",
+     "ini": 12.86,
+     "fim": 12.94,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 13.5,
+   "fim": 18.22,
+   "texto": "Vou passar uma pomadinha pra você passar nessa região e um bochechinho pra dar uma aliviada, tá?",
+   "palavras": [
+    {
+     "p": "Vou",
+     "ini": 13.5,
+     "fim": 13.94,
+     "conf": 0.93
+    },
+    {
+     "p": "passar",
+     "ini": 13.94,
+     "fim": 14.16,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 14.16,
+     "fim": 14.28,
+     "conf": 0.98
+    },
+    {
+     "p": "pomadinha",
+     "ini": 14.28,
+     "fim": 14.8,
+     "conf": 0.94
+    },
+    {
+     "p": "pra",
+     "ini": 14.8,
+     "fim": 14.94,
+     "conf": 0.98
+    },
+    {
+     "p": "você",
+     "ini": 14.94,
+     "fim": 15.12,
+     "conf": 0.99
+    },
+    {
+     "p": "passar",
+     "ini": 15.12,
+     "fim": 15.36,
+     "conf": 1.0
+    },
+    {
+     "p": "nessa",
+     "ini": 15.36,
+     "fim": 15.56,
+     "conf": 0.98
+    },
+    {
+     "p": "região",
+     "ini": 15.56,
+     "fim": 16.06,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 16.06,
+     "fim": 16.34,
+     "conf": 0.7
+    },
+    {
+     "p": "um",
+     "ini": 16.34,
+     "fim": 16.4,
+     "conf": 0.89
+    },
+    {
+     "p": "bochechinho",
+     "ini": 16.4,
+     "fim": 16.94,
+     "conf": 0.98
+    },
+    {
+     "p": "pra",
+     "ini": 16.94,
+     "fim": 17.1,
+     "conf": 0.97
+    },
+    {
+     "p": "dar",
+     "ini": 17.1,
+     "fim": 17.24,
+     "conf": 0.99
+    },
+    {
+     "p": "uma",
+     "ini": 17.24,
+     "fim": 17.32,
+     "conf": 0.9
+    },
+    {
+     "p": "aliviada,",
+     "ini": 17.32,
+     "fim": 17.8,
+     "conf": 0.93
+    },
+    {
+     "p": "tá?",
+     "ini": 17.8,
+     "fim": 18.22,
+     "conf": 0.99
+    }
+   ]
+  }
+ ]
+}

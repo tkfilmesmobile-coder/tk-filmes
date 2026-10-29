@@ -12,6 +12,10 @@
 - **Urgência:** não atende (informado em 2026-09-29). Post nenhum promete atendimento fora de hora.
 - **Nicho:** odontologia / odontopediatria
 - Divide o atendimento com outra dentista (aparece nas fotos do ensaio); nome [a definir].
+- **Família (2026-10-24):** o pai é ginecologista e obstetra muito conhecido e antigo em União dos Palmares,
+  provavelmente o Dr. José Alberto de Carvalho Barros (@_josealbertobarros; a confirmar). O marido é o
+  Dr. Jadson Wanderley (@jadsonwanderley), dentista de prótese e estética, também na CIP. Pedido da Talyta: toda
+  data que permita ligar a imagem dela à do pai (Dia do Médico, do Ginecologista, prematuridade, família) entra no calendário.
 
 ## Redes
 - **Instagram:** @dra.camillawanderley (conta profissional, tipo Criador de conteúdo; 1.991 seguidores em 2026-09-29)
@@ -73,20 +77,22 @@ sem preenchimento. Faltam: qualificação dela, diárias/mês, prazo de aprovaç
 antecedência pra remarcar, vencimento, valor da diária extra e data de início.
 Proposta original (planos de R$ 400, 600 e 800): `contrato/proposta-clinica-camilla.pdf`.
 **Contrato assinado pelas duas partes** (arquivado em 2026-10-20): Drive da TK,
-`Dra. Camilla Wanderlley/DOCUMENTAÇÃO/CONTRATO TK Filmes - Dra Camilla Wanderley - assinado pelas duas partes.pdf`.
+`Dra. Camilla Wanderlley/DOCUMENTAÇÃO/CONTRATO/CONTRATO TK Filmes - Dra Camilla Wanderley - assinado pelas duas partes.pdf`.
 Tem CPF e endereço dela: fica só no Drive, fora do git.
 
 ## Acessos
 - **Publicação no Instagram:** conectado pela skill `publicar-social-ratos` (Graph API), conta
   `DRA_CAMILLAWANDERLEY`. O token fica no `.env` da raiz, fora do git. Conectado em 2026-09-29,
   vence por volta de 28/11/2026.
-- **Banco de mídia no Drive da TK** (tkfilmesmobile@gmail.com), pasta "Dra. Camilla Wanderlley" → "EDIÇÃO":
-  https://drive.google.com/drive/folders/1mC-qbywUO9-uFhCxVxdx4kSZjb0sQZVs
-  - `FOTOS/AAAA-MM-DD · Diária consultório/`: uma pasta por diária
-  - `VÍDEOS/BRUTOS/AAAA-MM-DD · Diária consultório/` e `VÍDEOS/EDITADOS/`
-  - Organizado em 2026-09-30. Regra: cada gravação nova ganha a pasta com a data, no mesmo padrão.
-- **Fotos da diária de 2026-09-03 (115 fotos, 118 MB):** ainda em `C:\Users\tamar\Downloads\Fotos Dra Camilla\FOTOS`
-  neste PC; sobem pro Drive em `FOTOS/2026-09-03 · Diária consultório/`.
+- **Pasta dela no Drive da TK** (tkfilmesmobile@gmail.com): "Dra. Camilla Wanderlley" (reorganizada em 2026-10-23):
+  - `DOCUMENTAÇÃO/CONTRATO/` e `DOCUMENTAÇÃO/Comprovantes de pagamento/`
+  - `IDENTIDADE VISUAL/`: logo original quando chegar
+  - `BRUTO/FOTOS/AAAA-MM-DD · Diária consultório/` e `BRUTO/VÍDEOS/AAAA-MM-DD · Diária consultório/`: uma pasta por diária
+  - `VÍDEOS EDITADOS/AAAA-MM/`
+  - `POSTS/AAAA-MM/<nn-nome-do-post>/`: artes finais (+ `legenda.txt` quando houver)
+  - `Para edição/`: material que chega pra editar (criada em 2026-10-23)
+  - Regra: cada gravação nova ganha a pasta com a data, no mesmo padrão.
+- **Fotos da diária de 2026-09-03 (115 fotos):** já no Drive, em `BRUTO/FOTOS/2026-09-03 · Diária consultório/`.
 
 ## Marca
 - **Cores:** vinho (cor da logo) e creme/nude; rosa bem clarinho em peça infantil.
@@ -114,3 +120,4 @@ proposta e posts), da leitura do Instagram dela e do que a Talyta respondeu na s
 ## Regras gerais aplicadas
 
 - **Brand book (2026-10-13):** Só há `marca/esteticas.md` (opções de estética com status) e referências. Brand book: **pendente**. Partir da estética aprovada pro feed e das regras do CFO/CRO sobre publicidade em odontologia (conferir fonte oficial do ano, ver `_regras.md`).
+- **B-roll de toda diária (2026-10-23):** B-rolls qualificados em `BRUTO/B-ROLL/AAAA-MM-DD · Diária consultório/` no Drive dela (consultório, instrumentos, mãos, fachada da CIP, a doutora atendendo); fotos em `BRUTO/FOTOS/<mesma data>`. Depois o vlog geral de atendimento e um vídeo por tema. Paciente só com termo de autorização assinado. Primeira aplicação: a diária enviada em 2026-10-23 em `Para edição/`.

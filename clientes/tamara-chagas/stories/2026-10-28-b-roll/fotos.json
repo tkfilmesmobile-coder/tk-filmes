@@ -1,0 +1,11 @@
+[
+ {"id": "02-pagamento", "foto": "b-roll/equipe-05-dupla-papeis-b.jpg", "kicker": "PAGAMENTO DO INSS", "pos": "baixo", "tam": 60,
+  "texto": "Recebe até um salário mínimo e o benefício termina em 3? <b>Hoje é o seu dia.</b>",
+  "sub": "Confira a data do seu no aplicativo <b>Meu INSS</b>.",
+  "fonte": "INSS · Tabela de Pagamento de Benefícios 2026"},
+ {"id": "04-hoje-16h", "foto": "tamara/tamara-estudio-0145.jpg", "kicker": "HOJE, 16H", "pos": "baixo", "posicao": "50% 25%", "tam": 58,
+  "texto": "Fez cirurgia estética e não consegue trabalhar? <b>Pode ter direito.</b>",
+  "sub": "Vídeo novo da Dra. Tamara no feed."},
+ {"id": "06-ate-amanha", "foto": "b-roll/equipe-08-recepcao-logo.jpg", "kicker": "ATÉ AMANHÃ", "pos": "baixo",
+  "texto": "Ficou com alguma dúvida?<br><b>Pergunte a quem entende.</b>"}
+]

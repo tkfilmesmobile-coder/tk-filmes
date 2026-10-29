@@ -53,6 +53,10 @@
 - Gerador HTML das artes e 3 peças reserva ("15 anos", Alerta, "bacon com cheddar") em
   `C:\Users\tamar\cliente-passaporte-do-galeguinho\conteudo\2026-10\`.
 
+**Pagamentos (2026-10-23)**
+- Em dia até novembro/2026: janeiro a outubro pagos (maio a outubro confirmados pela Talyta, sem comprovante),
+  novembro pago por Pix de R$ 800,00 em 23/10/2026 (comprovante no Drive, `DOCUMENTAÇÃO/Comprovante pagamento/2026/NOVEMBRO`).
+
 **Relatórios**
 - Relatório de Instagram do trimestre mar-abr/2026: 379.224 visualizações, 23.880 contas alcançadas,
   4.624 seguidores.
@@ -71,7 +75,6 @@ Os arquivos (PNGs e legendas) estão na pasta de produção
   encerramento por nenhuma das partes, então a cláusula 2 renovou o contrato em 23/05/2026 e de novo em
   21/08/2026. O ciclo atual vai até por volta de 19/11/2026, e os R$ 800/mês seguem devidos. Pra sair,
   qualquer das partes precisa avisar por escrito com 30 dias de antecedência.
-- Conferir se os meses de junho a setembro de 2026 foram pagos (2026-09-17)
 - Formato Lançamento/lanche estrela (meio) ainda não criado
 - Trocar as 7 capas de destaque pelo app (Editar destaque → Editar capa). (2026-09-30)
 - O Maycon precisa aceitar o convite de colaboração do reels de 05/10. (2026-10-05)

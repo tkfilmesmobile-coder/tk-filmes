@@ -1,0 +1,17 @@
+=== sobrancelha · 28.0s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_6489    2.87-   7.63  Você sabia que aqui no nosso salão também fornecemos serviços de sobrancelha?
+[02]   4.76s  IMG_6489   21.45-  29.26  Porque não adianta estarmos com o cabelo impecável e a sobrancelha não acompanhar, né? Está desalinhada.
+[03]  12.57s  IMG_6489   29.46-  32.12  Então aqui nós fornecemos os dois serviços.
+[04]  15.23s  IMG_6489   55.16-  58.99  Aqui você vai ter a sua sobrancelha Que valoriza a sua beleza natural
+[05]  19.06s  IMG_6489   59.78-  61.76  Acompanhando o formato do seu rosto
+[06]  21.04s  IMG_6489   93.44-  97.62  Então se eu fosse você Eu já agendava o seu dia de beleza completo Perfeito.
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Você sabia que aqui no nosso salão também fornecemos serviços de sobrancelha? Porque não adianta estarmos com o cabelo impecável e a sobrancelha não acompanhar, né? Está desalinhada. Então aqui nós fornecemos os dois serviços. Aqui você vai ter sua sobrancelha que valoriza sua beleza natural, acompanhando o formato do seu rosto. Então se eu fosse você, eu já agendava o seu dia de beleza completo.
+
+DIFERENÇAS E CORTES SUSPEITOS (3):
+  16.2s  esperado «a»  ouvido «»
+  17.8s  esperado «a»  ouvido «»
+  25.1s  esperado «Perfeito.»  ouvido «»

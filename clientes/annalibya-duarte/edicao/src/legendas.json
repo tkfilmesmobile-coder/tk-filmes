@@ -1,0 +1,750 @@
+{
+ "v1": [
+  {
+   "texto": "e",
+   "de": 101,
+   "ate": 109,
+   "quebra": false
+  },
+  {
+   "texto": "hoje",
+   "de": 109,
+   "ate": 114,
+   "quebra": false
+  },
+  {
+   "texto": "eu",
+   "de": 114,
+   "ate": 117,
+   "quebra": false
+  },
+  {
+   "texto": "quero",
+   "de": 117,
+   "ate": 132,
+   "quebra": true
+  },
+  {
+   "texto": "me",
+   "de": 120,
+   "ate": 123,
+   "quebra": false
+  },
+  {
+   "texto": "apresentar",
+   "de": 123,
+   "ate": 147,
+   "quebra": true
+  },
+  {
+   "texto": "um",
+   "de": 135,
+   "ate": 137,
+   "quebra": false
+  },
+  {
+   "texto": "pouquinho",
+   "de": 137,
+   "ate": 143,
+   "quebra": false
+  },
+  {
+   "texto": "para",
+   "de": 143,
+   "ate": 148,
+   "quebra": false
+  },
+  {
+   "texto": "vocês",
+   "de": 148,
+   "ate": 163,
+   "quebra": true
+  },
+  {
+   "texto": "Sou",
+   "de": 152,
+   "ate": 152,
+   "quebra": false
+  },
+  {
+   "texto": "especialista",
+   "de": 152,
+   "ate": 181,
+   "quebra": true
+  },
+  {
+   "texto": "em",
+   "de": 169,
+   "ate": 173,
+   "quebra": false
+  },
+  {
+   "texto": "endodontia",
+   "de": 173,
+   "ate": 209,
+   "quebra": true
+  },
+  {
+   "texto": "mais",
+   "de": 200,
+   "ate": 211,
+   "quebra": false
+  },
+  {
+   "texto": "conhecido",
+   "de": 211,
+   "ate": 221,
+   "quebra": false
+  },
+  {
+   "texto": "como",
+   "de": 221,
+   "ate": 226,
+   "quebra": false
+  },
+  {
+   "texto": "canal",
+   "de": 226,
+   "ate": 246,
+   "quebra": true
+  },
+  {
+   "texto": "mas",
+   "de": 240,
+   "ate": 252,
+   "quebra": false
+  },
+  {
+   "texto": "aqui",
+   "de": 252,
+   "ate": 257,
+   "quebra": false
+  },
+  {
+   "texto": "eu",
+   "de": 257,
+   "ate": 262,
+   "quebra": false
+  },
+  {
+   "texto": "cuido",
+   "de": 262,
+   "ate": 279,
+   "quebra": true
+  },
+  {
+   "texto": "muito",
+   "de": 267,
+   "ate": 274,
+   "quebra": false
+  },
+  {
+   "texto": "mais",
+   "de": 274,
+   "ate": 280,
+   "quebra": false
+  },
+  {
+   "texto": "do",
+   "de": 280,
+   "ate": 283,
+   "quebra": false
+  },
+  {
+   "texto": "que",
+   "de": 283,
+   "ate": 286,
+   "quebra": false
+  },
+  {
+   "texto": "isso",
+   "de": 286,
+   "ate": 303,
+   "quebra": true
+  },
+  {
+   "texto": "Eu",
+   "de": 297,
+   "ate": 303,
+   "quebra": false
+  },
+  {
+   "texto": "atendo",
+   "de": 303,
+   "ate": 312,
+   "quebra": false
+  },
+  {
+   "texto": "desde",
+   "de": 312,
+   "ate": 319,
+   "quebra": false
+  },
+  {
+   "texto": "a",
+   "de": 319,
+   "ate": 324,
+   "quebra": false
+  },
+  {
+   "texto": "criança",
+   "de": 324,
+   "ate": 344,
+   "quebra": true
+  },
+  {
+   "texto": "até",
+   "de": 332,
+   "ate": 349,
+   "quebra": false
+  },
+  {
+   "texto": "o",
+   "de": 349,
+   "ate": 352,
+   "quebra": false
+  },
+  {
+   "texto": "idoso",
+   "de": 352,
+   "ate": 373,
+   "quebra": true
+  },
+  {
+   "texto": "Aqui",
+   "de": 365,
+   "ate": 377,
+   "quebra": false
+  },
+  {
+   "texto": "você",
+   "de": 377,
+   "ate": 382,
+   "quebra": false
+  },
+  {
+   "texto": "vai",
+   "de": 382,
+   "ate": 387,
+   "quebra": false
+  },
+  {
+   "texto": "encontrar",
+   "de": 387,
+   "ate": 408,
+   "quebra": true
+  },
+  {
+   "texto": "Eu",
+   "de": 629,
+   "ate": 636,
+   "quebra": false
+  },
+  {
+   "texto": "quero",
+   "de": 636,
+   "ate": 641,
+   "quebra": false
+  },
+  {
+   "texto": "que",
+   "de": 641,
+   "ate": 644,
+   "quebra": false
+  },
+  {
+   "texto": "você",
+   "de": 644,
+   "ate": 660,
+   "quebra": true
+  },
+  {
+   "texto": "sinta",
+   "de": 648,
+   "ate": 658,
+   "quebra": false
+  },
+  {
+   "texto": "bem",
+   "de": 658,
+   "ate": 663,
+   "quebra": false
+  },
+  {
+   "texto": "à",
+   "de": 663,
+   "ate": 666,
+   "quebra": false
+  },
+  {
+   "texto": "vontade",
+   "de": 666,
+   "ate": 686,
+   "quebra": true
+  },
+  {
+   "texto": "aqui",
+   "de": 674,
+   "ate": 680,
+   "quebra": false
+  },
+  {
+   "texto": "comigo",
+   "de": 680,
+   "ate": 699,
+   "quebra": true
+  },
+  {
+   "texto": "Eu",
+   "de": 687,
+   "ate": 703,
+   "quebra": false
+  },
+  {
+   "texto": "sei",
+   "de": 703,
+   "ate": 708,
+   "quebra": false
+  },
+  {
+   "texto": "que",
+   "de": 708,
+   "ate": 711,
+   "quebra": false
+  },
+  {
+   "texto": "é",
+   "de": 711,
+   "ate": 713,
+   "quebra": false
+  },
+  {
+   "texto": "comum",
+   "de": 713,
+   "ate": 733,
+   "quebra": true
+  },
+  {
+   "texto": "ter",
+   "de": 721,
+   "ate": 733,
+   "quebra": false
+  },
+  {
+   "texto": "medo",
+   "de": 733,
+   "ate": 740,
+   "quebra": false
+  },
+  {
+   "texto": "de",
+   "de": 740,
+   "ate": 743,
+   "quebra": false
+  },
+  {
+   "texto": "dentista",
+   "de": 743,
+   "ate": 768,
+   "quebra": true
+  },
+  {
+   "texto": "mas",
+   "de": 757,
+   "ate": 768,
+   "quebra": false
+  },
+  {
+   "texto": "eu",
+   "de": 768,
+   "ate": 770,
+   "quebra": false
+  },
+  {
+   "texto": "prometo",
+   "de": 770,
+   "ate": 793,
+   "quebra": true
+  },
+  {
+   "texto": "que",
+   "de": 781,
+   "ate": 783,
+   "quebra": false
+  },
+  {
+   "texto": "vou",
+   "de": 783,
+   "ate": 787,
+   "quebra": false
+  },
+  {
+   "texto": "fazer",
+   "de": 787,
+   "ate": 794,
+   "quebra": false
+  },
+  {
+   "texto": "você",
+   "de": 794,
+   "ate": 811,
+   "quebra": true
+  },
+  {
+   "texto": "mudar",
+   "de": 799,
+   "ate": 806,
+   "quebra": false
+  },
+  {
+   "texto": "de",
+   "de": 806,
+   "ate": 811,
+   "quebra": false
+  },
+  {
+   "texto": "opinião",
+   "de": 811,
+   "ate": 834,
+   "quebra": true
+  },
+  {
+   "texto": "Já",
+   "de": 824,
+   "ate": 830,
+   "quebra": false
+  },
+  {
+   "texto": "que",
+   "de": 830,
+   "ate": 834,
+   "quebra": false
+  },
+  {
+   "texto": "agora",
+   "de": 834,
+   "ate": 840,
+   "quebra": false
+  },
+  {
+   "texto": "você",
+   "de": 840,
+   "ate": 860,
+   "quebra": true
+  },
+  {
+   "texto": "me",
+   "de": 848,
+   "ate": 852,
+   "quebra": false
+  },
+  {
+   "texto": "conhece",
+   "de": 852,
+   "ate": 864,
+   "quebra": false
+  },
+  {
+   "texto": "um",
+   "de": 864,
+   "ate": 867,
+   "quebra": false
+  },
+  {
+   "texto": "pouquinho",
+   "de": 867,
+   "ate": 888,
+   "quebra": true
+  },
+  {
+   "texto": "eu",
+   "de": 883,
+   "ate": 894,
+   "quebra": false
+  },
+  {
+   "texto": "espero",
+   "de": 894,
+   "ate": 912,
+   "quebra": true
+  },
+  {
+   "texto": "te",
+   "de": 900,
+   "ate": 904,
+   "quebra": false
+  },
+  {
+   "texto": "encontrar",
+   "de": 904,
+   "ate": 912,
+   "quebra": false
+  },
+  {
+   "texto": "aqui",
+   "de": 912,
+   "ate": 937,
+   "quebra": true
+  },
+  {
+   "texto": "Clica",
+   "de": 933,
+   "ate": 947,
+   "quebra": false
+  },
+  {
+   "texto": "no",
+   "de": 947,
+   "ate": 948,
+   "quebra": false
+  },
+  {
+   "texto": "link",
+   "de": 948,
+   "ate": 953,
+   "quebra": false
+  },
+  {
+   "texto": "da",
+   "de": 953,
+   "ate": 958,
+   "quebra": false
+  },
+  {
+   "texto": "bio",
+   "de": 958,
+   "ate": 977,
+   "quebra": true
+  },
+  {
+   "texto": "e",
+   "de": 965,
+   "ate": 974,
+   "quebra": false
+  },
+  {
+   "texto": "vem!",
+   "de": 974,
+   "ate": 994,
+   "quebra": true
+  }
+ ],
+ "v2": [
+  {
+   "texto": "A",
+   "de": 62,
+   "ate": 66,
+   "quebra": false
+  },
+  {
+   "texto": "nossa",
+   "de": 66,
+   "ate": 71,
+   "quebra": false
+  },
+  {
+   "texto": "localização",
+   "de": 71,
+   "ate": 97,
+   "quebra": true
+  },
+  {
+   "texto": "é",
+   "de": 85,
+   "ate": 93,
+   "quebra": false
+  },
+  {
+   "texto": "bem",
+   "de": 93,
+   "ate": 98,
+   "quebra": false
+  },
+  {
+   "texto": "facinho",
+   "de": 98,
+   "ate": 124,
+   "quebra": true
+  },
+  {
+   "texto": "Esse",
+   "de": 723,
+   "ate": 738,
+   "quebra": false
+  },
+  {
+   "texto": "espaço",
+   "de": 738,
+   "ate": 747,
+   "quebra": false
+  },
+  {
+   "texto": "foi",
+   "de": 747,
+   "ate": 755,
+   "quebra": false
+  },
+  {
+   "texto": "projetado",
+   "de": 755,
+   "ate": 781,
+   "quebra": true
+  },
+  {
+   "texto": "com",
+   "de": 769,
+   "ate": 773,
+   "quebra": false
+  },
+  {
+   "texto": "todo",
+   "de": 773,
+   "ate": 780,
+   "quebra": false
+  },
+  {
+   "texto": "amor",
+   "de": 780,
+   "ate": 787,
+   "quebra": false
+  },
+  {
+   "texto": "e",
+   "de": 787,
+   "ate": 792,
+   "quebra": false
+  },
+  {
+   "texto": "carinho",
+   "de": 792,
+   "ate": 813,
+   "quebra": true
+  },
+  {
+   "texto": "pensando",
+   "de": 802,
+   "ate": 809,
+   "quebra": false
+  },
+  {
+   "texto": "no",
+   "de": 809,
+   "ate": 815,
+   "quebra": false
+  },
+  {
+   "texto": "seu",
+   "de": 815,
+   "ate": 822,
+   "quebra": false
+  },
+  {
+   "texto": "conforto",
+   "de": 822,
+   "ate": 851,
+   "quebra": true
+  },
+  {
+   "texto": "Vai",
+   "de": 1214,
+   "ate": 1229,
+   "quebra": false
+  },
+  {
+   "texto": "ser",
+   "de": 1229,
+   "ate": 1232,
+   "quebra": false
+  },
+  {
+   "texto": "um",
+   "de": 1232,
+   "ate": 1235,
+   "quebra": false
+  },
+  {
+   "texto": "prazer",
+   "de": 1235,
+   "ate": 1242,
+   "quebra": false
+  },
+  {
+   "texto": "imenso",
+   "de": 1242,
+   "ate": 1267,
+   "quebra": true
+  },
+  {
+   "texto": "te",
+   "de": 1265,
+   "ate": 1266,
+   "quebra": false
+  },
+  {
+   "texto": "receber",
+   "de": 1266,
+   "ate": 1273,
+   "quebra": false
+  },
+  {
+   "texto": "aqui",
+   "de": 1273,
+   "ate": 1291,
+   "quebra": true
+  },
+  {
+   "texto": "Clica",
+   "de": 1287,
+   "ate": 1299,
+   "quebra": false
+  },
+  {
+   "texto": "no",
+   "de": 1299,
+   "ate": 1302,
+   "quebra": false
+  },
+  {
+   "texto": "link",
+   "de": 1302,
+   "ate": 1307,
+   "quebra": false
+  },
+  {
+   "texto": "da",
+   "de": 1307,
+   "ate": 1312,
+   "quebra": false
+  },
+  {
+   "texto": "bio",
+   "de": 1312,
+   "ate": 1330,
+   "quebra": true
+  },
+  {
+   "texto": "e",
+   "de": 1318,
+   "ate": 1326,
+   "quebra": false
+  },
+  {
+   "texto": "agenda",
+   "de": 1326,
+   "ate": 1332,
+   "quebra": false
+  },
+  {
+   "texto": "teu",
+   "de": 1332,
+   "ate": 1338,
+   "quebra": false
+  },
+  {
+   "texto": "horário",
+   "de": 1338,
+   "ate": 1357,
+   "quebra": true
+  }
+ ]
+}

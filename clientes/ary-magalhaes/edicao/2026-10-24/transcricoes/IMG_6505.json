@@ -1,0 +1,801 @@
+{
+ "arquivo": "IMG_6505",
+ "duracao": 92.76,
+ "segmentos": [
+  {
+   "ini": 1.33,
+   "fim": 3.85,
+   "texto": "E se liga agora nessa dica que eu vou passar pra você.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 1.33,
+     "fim": 1.79,
+     "conf": 0.9
+    },
+    {
+     "p": "se",
+     "ini": 1.79,
+     "fim": 1.93,
+     "conf": 1.0
+    },
+    {
+     "p": "liga",
+     "ini": 1.93,
+     "fim": 2.11,
+     "conf": 1.0
+    },
+    {
+     "p": "agora",
+     "ini": 2.11,
+     "fim": 2.33,
+     "conf": 0.99
+    },
+    {
+     "p": "nessa",
+     "ini": 2.33,
+     "fim": 2.59,
+     "conf": 0.95
+    },
+    {
+     "p": "dica",
+     "ini": 2.59,
+     "fim": 2.85,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 2.85,
+     "fim": 2.97,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 2.97,
+     "fim": 3.05,
+     "conf": 1.0
+    },
+    {
+     "p": "vou",
+     "ini": 3.05,
+     "fim": 3.13,
+     "conf": 1.0
+    },
+    {
+     "p": "passar",
+     "ini": 3.13,
+     "fim": 3.37,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 3.37,
+     "fim": 3.53,
+     "conf": 0.61
+    },
+    {
+     "p": "você.",
+     "ini": 3.53,
+     "fim": 3.85,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 4.57,
+   "fim": 6.67,
+   "texto": "Como manter um cabelo de salão em casa?",
+   "palavras": [
+    {
+     "p": "Como",
+     "ini": 4.57,
+     "fim": 4.67,
+     "conf": 0.95
+    },
+    {
+     "p": "manter",
+     "ini": 4.67,
+     "fim": 5.09,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 5.09,
+     "fim": 5.39,
+     "conf": 0.59
+    },
+    {
+     "p": "cabelo",
+     "ini": 5.39,
+     "fim": 5.73,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 5.73,
+     "fim": 5.89,
+     "conf": 1.0
+    },
+    {
+     "p": "salão",
+     "ini": 5.89,
+     "fim": 6.19,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 6.19,
+     "fim": 6.35,
+     "conf": 1.0
+    },
+    {
+     "p": "casa?",
+     "ini": 6.35,
+     "fim": 6.67,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 7.09,
+   "fim": 10.43,
+   "texto": "Primeiro, um protetor térmico de boa qualidade.",
+   "palavras": [
+    {
+     "p": "Primeiro,",
+     "ini": 7.09,
+     "fim": 7.69,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 8.45,
+     "fim": 8.75,
+     "conf": 0.99
+    },
+    {
+     "p": "protetor",
+     "ini": 8.75,
+     "fim": 9.31,
+     "conf": 1.0
+    },
+    {
+     "p": "térmico",
+     "ini": 9.31,
+     "fim": 9.65,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 9.65,
+     "fim": 9.79,
+     "conf": 1.0
+    },
+    {
+     "p": "boa",
+     "ini": 9.79,
+     "fim": 9.99,
+     "conf": 1.0
+    },
+    {
+     "p": "qualidade.",
+     "ini": 9.99,
+     "fim": 10.43,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 11.29,
+   "fim": 18.43,
+   "texto": "Segundo, não dormir, pelo amor de Deus, com o cabelo molhado e seguir a risca o seu cronograma capilar.",
+   "palavras": [
+    {
+     "p": "Segundo,",
+     "ini": 11.29,
+     "fim": 11.89,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 12.47,
+     "fim": 12.81,
+     "conf": 1.0
+    },
+    {
+     "p": "dormir,",
+     "ini": 12.81,
+     "fim": 13.17,
+     "conf": 1.0
+    },
+    {
+     "p": "pelo",
+     "ini": 13.27,
+     "fim": 13.41,
+     "conf": 1.0
+    },
+    {
+     "p": "amor",
+     "ini": 13.41,
+     "fim": 13.75,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 13.75,
+     "fim": 13.95,
+     "conf": 1.0
+    },
+    {
+     "p": "Deus,",
+     "ini": 13.95,
+     "fim": 14.19,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 14.33,
+     "fim": 14.51,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 14.51,
+     "fim": 14.63,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 14.63,
+     "fim": 14.95,
+     "conf": 1.0
+    },
+    {
+     "p": "molhado",
+     "ini": 14.95,
+     "fim": 15.49,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 15.49,
+     "fim": 15.99,
+     "conf": 0.86
+    },
+    {
+     "p": "seguir",
+     "ini": 15.99,
+     "fim": 16.41,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 16.41,
+     "fim": 16.61,
+     "conf": 0.54
+    },
+    {
+     "p": "risca",
+     "ini": 16.61,
+     "fim": 16.99,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 16.99,
+     "fim": 17.23,
+     "conf": 0.53
+    },
+    {
+     "p": "seu",
+     "ini": 17.23,
+     "fim": 17.39,
+     "conf": 1.0
+    },
+    {
+     "p": "cronograma",
+     "ini": 17.39,
+     "fim": 18.03,
+     "conf": 1.0
+    },
+    {
+     "p": "capilar.",
+     "ini": 18.03,
+     "fim": 18.43,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 28.05,
+   "fim": 34.27,
+   "texto": "Ter todo esse cuidado em casa ajuda bastante pra você manter o cabelo de salão em casa.",
+   "palavras": [
+    {
+     "p": "Ter",
+     "ini": 28.05,
+     "fim": 28.61,
+     "conf": 1.0
+    },
+    {
+     "p": "todo",
+     "ini": 28.61,
+     "fim": 28.91,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 28.91,
+     "fim": 29.19,
+     "conf": 1.0
+    },
+    {
+     "p": "cuidado",
+     "ini": 29.19,
+     "fim": 29.59,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 29.59,
+     "fim": 29.81,
+     "conf": 1.0
+    },
+    {
+     "p": "casa",
+     "ini": 29.81,
+     "fim": 30.25,
+     "conf": 1.0
+    },
+    {
+     "p": "ajuda",
+     "ini": 30.25,
+     "fim": 31.01,
+     "conf": 0.98
+    },
+    {
+     "p": "bastante",
+     "ini": 31.01,
+     "fim": 31.63,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 31.63,
+     "fim": 32.17,
+     "conf": 0.99
+    },
+    {
+     "p": "você",
+     "ini": 32.17,
+     "fim": 32.45,
+     "conf": 1.0
+    },
+    {
+     "p": "manter",
+     "ini": 32.45,
+     "fim": 32.75,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 32.75,
+     "fim": 32.89,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 32.89,
+     "fim": 33.25,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 33.25,
+     "fim": 33.41,
+     "conf": 1.0
+    },
+    {
+     "p": "salão",
+     "ini": 33.41,
+     "fim": 33.75,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 33.75,
+     "fim": 33.89,
+     "conf": 1.0
+    },
+    {
+     "p": "casa.",
+     "ini": 33.89,
+     "fim": 34.27,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 34.27,
+   "fim": 61.25,
+   "texto": "E, consequentemente, retornar para fazer o seu retoque e também manter o seu tratamento de salão no tempo certo",
+   "palavras": [
+    {
+     "p": "E,",
+     "ini": 34.27,
+     "fim": 34.81,
+     "conf": 0.82
+    },
+    {
+     "p": "consequentemente,",
+     "ini": 35.01,
+     "fim": 36.15,
+     "conf": 1.0
+    },
+    {
+     "p": "retornar",
+     "ini": 36.47,
+     "fim": 37.13,
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "ini": 37.13,
+     "fim": 37.21,
+     "conf": 0.52
+    },
+    {
+     "p": "fazer",
+     "ini": 37.21,
+     "fim": 37.53,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 37.53,
+     "fim": 37.73,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 37.73,
+     "fim": 38.03,
+     "conf": 1.0
+    },
+    {
+     "p": "retoque",
+     "ini": 38.03,
+     "fim": 38.67,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 38.67,
+     "fim": 41.63,
+     "conf": 0.14
+    },
+    {
+     "p": "também",
+     "ini": 41.63,
+     "fim": 43.17,
+     "conf": 0.98
+    },
+    {
+     "p": "manter",
+     "ini": 57.09,
+     "fim": 57.57,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 57.57,
+     "fim": 58.17,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 58.17,
+     "fim": 58.29,
+     "conf": 1.0
+    },
+    {
+     "p": "tratamento",
+     "ini": 58.29,
+     "fim": 58.83,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 58.83,
+     "fim": 58.99,
+     "conf": 0.68
+    },
+    {
+     "p": "salão",
+     "ini": 58.99,
+     "fim": 59.47,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 59.47,
+     "fim": 60.41,
+     "conf": 1.0
+    },
+    {
+     "p": "tempo",
+     "ini": 60.41,
+     "fim": 60.77,
+     "conf": 1.0
+    },
+    {
+     "p": "certo",
+     "ini": 60.77,
+     "fim": 61.25,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 61.25,
+   "fim": 66.57,
+   "texto": "para que você consiga o seu próximo retoque de selagem sem consequência.",
+   "palavras": [
+    {
+     "p": "para",
+     "ini": 61.25,
+     "fim": 61.79,
+     "conf": 0.78
+    },
+    {
+     "p": "que",
+     "ini": 61.79,
+     "fim": 61.97,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 61.97,
+     "fim": 62.25,
+     "conf": 1.0
+    },
+    {
+     "p": "consiga",
+     "ini": 62.25,
+     "fim": 62.95,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 62.95,
+     "fim": 63.81,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 63.81,
+     "fim": 63.99,
+     "conf": 1.0
+    },
+    {
+     "p": "próximo",
+     "ini": 63.99,
+     "fim": 64.39,
+     "conf": 1.0
+    },
+    {
+     "p": "retoque",
+     "ini": 64.39,
+     "fim": 64.91,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 64.91,
+     "fim": 65.03,
+     "conf": 1.0
+    },
+    {
+     "p": "selagem",
+     "ini": 65.03,
+     "fim": 65.55,
+     "conf": 0.99
+    },
+    {
+     "p": "sem",
+     "ini": 65.55,
+     "fim": 65.85,
+     "conf": 0.94
+    },
+    {
+     "p": "consequência.",
+     "ini": 65.85,
+     "fim": 66.57,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 83.55,
+   "fim": 88.77,
+   "texto": "Então, faça o seguinte, procure um local que cuide bem, não só dos seus cabelos mais cheios de você.",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 83.55,
+     "fim": 83.75,
+     "conf": 1.0
+    },
+    {
+     "p": "faça",
+     "ini": 83.83,
+     "fim": 84.01,
+     "conf": 0.97
+    },
+    {
+     "p": "o",
+     "ini": 84.01,
+     "fim": 84.11,
+     "conf": 1.0
+    },
+    {
+     "p": "seguinte,",
+     "ini": 84.11,
+     "fim": 84.41,
+     "conf": 1.0
+    },
+    {
+     "p": "procure",
+     "ini": 84.85,
+     "fim": 85.15,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 85.15,
+     "fim": 85.31,
+     "conf": 0.94
+    },
+    {
+     "p": "local",
+     "ini": 85.31,
+     "fim": 85.69,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 85.69,
+     "fim": 86.31,
+     "conf": 1.0
+    },
+    {
+     "p": "cuide",
+     "ini": 86.31,
+     "fim": 86.59,
+     "conf": 1.0
+    },
+    {
+     "p": "bem,",
+     "ini": 86.59,
+     "fim": 86.87,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 86.89,
+     "fim": 87.17,
+     "conf": 1.0
+    },
+    {
+     "p": "só",
+     "ini": 87.17,
+     "fim": 87.43,
+     "conf": 0.94
+    },
+    {
+     "p": "dos",
+     "ini": 87.43,
+     "fim": 87.55,
+     "conf": 0.89
+    },
+    {
+     "p": "seus",
+     "ini": 87.55,
+     "fim": 87.67,
+     "conf": 0.94
+    },
+    {
+     "p": "cabelos",
+     "ini": 87.67,
+     "fim": 87.97,
+     "conf": 0.99
+    },
+    {
+     "p": "mais",
+     "ini": 87.97,
+     "fim": 88.21,
+     "conf": 0.83
+    },
+    {
+     "p": "cheios",
+     "ini": 88.21,
+     "fim": 88.37,
+     "conf": 0.32
+    },
+    {
+     "p": "de",
+     "ini": 88.37,
+     "fim": 88.51,
+     "conf": 0.64
+    },
+    {
+     "p": "você.",
+     "ini": 88.51,
+     "fim": 88.77,
+     "conf": 0.74
+    }
+   ]
+  },
+  {
+   "ini": 88.97,
+   "fim": 91.35,
+   "texto": "E vocês já sabem, né? Esse lugar é aqui.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 88.97,
+     "fim": 89.07,
+     "conf": 0.99
+    },
+    {
+     "p": "vocês",
+     "ini": 89.07,
+     "fim": 89.25,
+     "conf": 0.88
+    },
+    {
+     "p": "já",
+     "ini": 89.25,
+     "fim": 89.45,
+     "conf": 1.0
+    },
+    {
+     "p": "sabem,",
+     "ini": 89.45,
+     "fim": 89.73,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 89.83,
+     "fim": 89.89,
+     "conf": 1.0
+    },
+    {
+     "p": "Esse",
+     "ini": 90.37,
+     "fim": 90.67,
+     "conf": 1.0
+    },
+    {
+     "p": "lugar",
+     "ini": 90.67,
+     "fim": 90.93,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 90.93,
+     "fim": 91.11,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui.",
+     "ini": 91.11,
+     "fim": 91.35,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

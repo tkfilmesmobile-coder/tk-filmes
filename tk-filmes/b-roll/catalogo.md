@@ -37,6 +37,9 @@
 | código | o que mostra | plano | duração | bom para frases sobre | nome original |
 |---|---|---|---|---|---|
 | BR-021 | Mãos editando um vídeo no celular; linha do tempo roxa e um vídeo de lancha na tela. | close, tela | 6.2 s | edição, tecnologia, o que acontece depois da gravação | FFD6D4D4-447B-47AC-973A-5967464D3DDA.mp4 |
+| BR-022 | Talyta de lado no escritório editando no computador: teclado, mouse roxo, monitor e luz no tripé ao fundo. Bons trechos (aprox.): 0:00–0:40 digitando e no mouse · 2:24–3:12 pensando com a mão no queixo · 3:24–3:50 linha do tempo da edição na tela. Os últimos ~6 s são a câmera sendo pega (cortar). Gravado em pé (4K). | médio lateral | 4 min 43 s | edição, rotina, foco, o trabalho que ninguém vê, pensar antes de fazer | IMG_0487.MOV |
+| BR-023 | Notebook aberto numa mesa clara, com uma aula online na tela (professor em vídeo). Gravado em 13/10. Cuidado: a tela mostra conteúdo e rosto de terceiros; usar desfocado ou de longe. | médio, tela | 47 s | estudo, atualização, aprender sempre | IMG_6420.MOV |
+| BR-024 | Close baixo dos dedos da Talyta no touchpad do notebook, site na tela ao fundo, desfocado. Gravado em 13/10. | close, tela | 34 s | detalhe, pesquisa, estudo, tecnologia | IMG_6421.MOV |
 
 ## Saiu do banco
 

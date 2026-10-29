@@ -1,0 +1,1135 @@
+{
+ "arquivo": "IMG_6570",
+ "duracao": 89.88,
+ "segmentos": [
+  {
+   "ini": 2.24,
+   "fim": 9.32,
+   "texto": "Durante o meu tratamento, visualizamos que eu precisava de uma prótese.",
+   "palavras": [
+    {
+     "p": "Durante",
+     "ini": 2.24,
+     "fim": 3.22,
+     "conf": 0.75
+    },
+    {
+     "p": "o",
+     "ini": 3.22,
+     "fim": 3.36,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 3.36,
+     "fim": 3.52,
+     "conf": 1.0
+    },
+    {
+     "p": "tratamento,",
+     "ini": 3.52,
+     "fim": 4.76,
+     "conf": 1.0
+    },
+    {
+     "p": "visualizamos",
+     "ini": 4.82,
+     "fim": 6.3,
+     "conf": 0.95
+    },
+    {
+     "p": "que",
+     "ini": 6.3,
+     "fim": 6.78,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 6.78,
+     "fim": 7.42,
+     "conf": 0.99
+    },
+    {
+     "p": "precisava",
+     "ini": 7.42,
+     "fim": 8.24,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 8.24,
+     "fim": 8.44,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 8.44,
+     "fim": 8.62,
+     "conf": 1.0
+    },
+    {
+     "p": "prótese.",
+     "ini": 8.62,
+     "fim": 9.32,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 9.78,
+   "fim": 15.14,
+   "texto": "E a doutora Camila, quando apontou essa necessidade,",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 9.78,
+     "fim": 10.36,
+     "conf": 0.97
+    },
+    {
+     "p": "a",
+     "ini": 10.36,
+     "fim": 10.64,
+     "conf": 1.0
+    },
+    {
+     "p": "doutora",
+     "ini": 10.64,
+     "fim": 10.98,
+     "conf": 0.99
+    },
+    {
+     "p": "Camila,",
+     "ini": 10.98,
+     "fim": 11.58,
+     "conf": 0.99
+    },
+    {
+     "p": "quando",
+     "ini": 11.84,
+     "fim": 13.24,
+     "conf": 1.0
+    },
+    {
+     "p": "apontou",
+     "ini": 13.24,
+     "fim": 13.92,
+     "conf": 1.0
+    },
+    {
+     "p": "essa",
+     "ini": 13.92,
+     "fim": 14.16,
+     "conf": 1.0
+    },
+    {
+     "p": "necessidade,",
+     "ini": 14.16,
+     "fim": 15.14,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 15.42,
+   "fim": 20.84,
+   "texto": "ela também indicou o esposo dela, que trabalha com prótese, com a estética.",
+   "palavras": [
+    {
+     "p": "ela",
+     "ini": 15.42,
+     "fim": 15.5,
+     "conf": 0.97
+    },
+    {
+     "p": "também",
+     "ini": 15.5,
+     "fim": 15.88,
+     "conf": 1.0
+    },
+    {
+     "p": "indicou",
+     "ini": 15.88,
+     "fim": 16.48,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 16.48,
+     "fim": 16.84,
+     "conf": 0.98
+    },
+    {
+     "p": "esposo",
+     "ini": 16.84,
+     "fim": 17.58,
+     "conf": 1.0
+    },
+    {
+     "p": "dela,",
+     "ini": 17.58,
+     "fim": 17.9,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 17.9,
+     "fim": 18.14,
+     "conf": 1.0
+    },
+    {
+     "p": "trabalha",
+     "ini": 18.14,
+     "fim": 18.66,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 18.66,
+     "fim": 18.94,
+     "conf": 1.0
+    },
+    {
+     "p": "prótese,",
+     "ini": 18.94,
+     "fim": 19.88,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 20.08,
+     "fim": 20.14,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 20.14,
+     "fim": 20.18,
+     "conf": 0.75
+    },
+    {
+     "p": "estética.",
+     "ini": 20.18,
+     "fim": 20.84,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 21.44,
+   "fim": 27.28,
+   "texto": "Então, ele me atendeu e eu fiquei muito satisfeita",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 21.44,
+     "fim": 22.26,
+     "conf": 0.95
+    },
+    {
+     "p": "ele",
+     "ini": 22.54,
+     "fim": 23.26,
+     "conf": 1.0
+    },
+    {
+     "p": "me",
+     "ini": 23.26,
+     "fim": 23.76,
+     "conf": 1.0
+    },
+    {
+     "p": "atendeu",
+     "ini": 23.76,
+     "fim": 24.44,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 24.44,
+     "fim": 25.3,
+     "conf": 0.67
+    },
+    {
+     "p": "eu",
+     "ini": 25.3,
+     "fim": 25.42,
+     "conf": 1.0
+    },
+    {
+     "p": "fiquei",
+     "ini": 25.42,
+     "fim": 25.7,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 25.7,
+     "fim": 26.28,
+     "conf": 1.0
+    },
+    {
+     "p": "satisfeita",
+     "ini": 26.28,
+     "fim": 27.28,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 27.28,
+   "fim": 30.6,
+   "texto": "com a prótese que ele preparou para mim.",
+   "palavras": [
+    {
+     "p": "com",
+     "ini": 27.28,
+     "fim": 28.04,
+     "conf": 0.84
+    },
+    {
+     "p": "a",
+     "ini": 28.04,
+     "fim": 28.16,
+     "conf": 1.0
+    },
+    {
+     "p": "prótese",
+     "ini": 28.16,
+     "fim": 28.64,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 28.64,
+     "fim": 28.92,
+     "conf": 1.0
+    },
+    {
+     "p": "ele",
+     "ini": 28.92,
+     "fim": 29.28,
+     "conf": 1.0
+    },
+    {
+     "p": "preparou",
+     "ini": 29.28,
+     "fim": 30.0,
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "ini": 30.0,
+     "fim": 30.24,
+     "conf": 0.99
+    },
+    {
+     "p": "mim.",
+     "ini": 30.24,
+     "fim": 30.6,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 30.92,
+   "fim": 35.36,
+   "texto": "Ele também tem esse atendimento humanizado que nos tranquiliza,",
+   "palavras": [
+    {
+     "p": "Ele",
+     "ini": 30.92,
+     "fim": 31.32,
+     "conf": 1.0
+    },
+    {
+     "p": "também",
+     "ini": 31.32,
+     "fim": 31.7,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 31.7,
+     "fim": 32.02,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 32.02,
+     "fim": 32.34,
+     "conf": 1.0
+    },
+    {
+     "p": "atendimento",
+     "ini": 32.34,
+     "fim": 32.98,
+     "conf": 1.0
+    },
+    {
+     "p": "humanizado",
+     "ini": 32.98,
+     "fim": 33.94,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 33.94,
+     "fim": 34.24,
+     "conf": 0.8
+    },
+    {
+     "p": "nos",
+     "ini": 34.24,
+     "fim": 34.5,
+     "conf": 1.0
+    },
+    {
+     "p": "tranquiliza,",
+     "ini": 34.5,
+     "fim": 35.36,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 35.6,
+   "fim": 38.64,
+   "texto": "que é o doutor Jadson, né?",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 35.6,
+     "fim": 36.02,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 36.02,
+     "fim": 36.14,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 36.14,
+     "fim": 36.24,
+     "conf": 1.0
+    },
+    {
+     "p": "doutor",
+     "ini": 36.24,
+     "fim": 36.82,
+     "conf": 0.96
+    },
+    {
+     "p": "Jadson,",
+     "ini": 36.82,
+     "fim": 38.44,
+     "conf": 0.87
+    },
+    {
+     "p": "né?",
+     "ini": 38.52,
+     "fim": 38.64,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 39.12,
+   "fim": 40.54,
+   "texto": "Um, dois, três, três.",
+   "palavras": [
+    {
+     "p": "Um,",
+     "ini": 39.12,
+     "fim": 39.52,
+     "conf": 0.68
+    },
+    {
+     "p": "dois,",
+     "ini": 39.66,
+     "fim": 39.78,
+     "conf": 1.0
+    },
+    {
+     "p": "três,",
+     "ini": 40.0,
+     "fim": 40.14,
+     "conf": 0.99
+    },
+    {
+     "p": "três.",
+     "ini": 40.36,
+     "fim": 40.54,
+     "conf": 0.33
+    }
+   ]
+  },
+  {
+   "ini": 41.2,
+   "fim": 45.02,
+   "texto": "Durante o meu tratamento aqui com a doutora Camila,",
+   "palavras": [
+    {
+     "p": "Durante",
+     "ini": 41.2,
+     "fim": 41.92,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 41.92,
+     "fim": 42.06,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 42.06,
+     "fim": 42.26,
+     "conf": 1.0
+    },
+    {
+     "p": "tratamento",
+     "ini": 42.26,
+     "fim": 43.36,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 43.36,
+     "fim": 43.78,
+     "conf": 0.48
+    },
+    {
+     "p": "com",
+     "ini": 43.78,
+     "fim": 43.96,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 43.96,
+     "fim": 44.02,
+     "conf": 1.0
+    },
+    {
+     "p": "doutora",
+     "ini": 44.02,
+     "fim": 44.42,
+     "conf": 1.0
+    },
+    {
+     "p": "Camila,",
+     "ini": 44.42,
+     "fim": 45.02,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 46.3,
+   "fim": 50.18,
+   "texto": "ela visualizou que eu precisava usar uma coroa.",
+   "palavras": [
+    {
+     "p": "ela",
+     "ini": 46.3,
+     "fim": 47.02,
+     "conf": 0.91
+    },
+    {
+     "p": "visualizou",
+     "ini": 47.02,
+     "fim": 47.74,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 47.74,
+     "fim": 47.92,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 47.92,
+     "fim": 48.0,
+     "conf": 1.0
+    },
+    {
+     "p": "precisava",
+     "ini": 48.0,
+     "fim": 48.62,
+     "conf": 1.0
+    },
+    {
+     "p": "usar",
+     "ini": 48.62,
+     "fim": 48.96,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 48.96,
+     "fim": 49.5,
+     "conf": 1.0
+    },
+    {
+     "p": "coroa.",
+     "ini": 49.5,
+     "fim": 50.18,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 50.7,
+   "fim": 54.74,
+   "texto": "E quem faria esse complemento, né?",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 50.7,
+     "fim": 51.38,
+     "conf": 0.98
+    },
+    {
+     "p": "quem",
+     "ini": 51.38,
+     "fim": 52.46,
+     "conf": 1.0
+    },
+    {
+     "p": "faria",
+     "ini": 52.46,
+     "fim": 52.96,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 52.96,
+     "fim": 53.24,
+     "conf": 1.0
+    },
+    {
+     "p": "complemento,",
+     "ini": 53.24,
+     "fim": 54.56,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 54.62,
+     "fim": 54.74,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 54.74,
+   "fim": 65.24,
+   "texto": "Então, o doutor Jadson, que é o esposo da doutora Camila, ele quem fez todo o meu atendimento e a experiência foi maravilhosa,",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 54.74,
+     "fim": 55.16,
+     "conf": 0.8
+    },
+    {
+     "p": "o",
+     "ini": 55.32,
+     "fim": 55.38,
+     "conf": 1.0
+    },
+    {
+     "p": "doutor",
+     "ini": 55.38,
+     "fim": 55.7,
+     "conf": 0.94
+    },
+    {
+     "p": "Jadson,",
+     "ini": 55.7,
+     "fim": 56.34,
+     "conf": 0.76
+    },
+    {
+     "p": "que",
+     "ini": 56.78,
+     "fim": 57.08,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 57.08,
+     "fim": 57.14,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 57.14,
+     "fim": 57.22,
+     "conf": 1.0
+    },
+    {
+     "p": "esposo",
+     "ini": 57.22,
+     "fim": 57.58,
+     "conf": 0.99
+    },
+    {
+     "p": "da",
+     "ini": 57.58,
+     "fim": 57.72,
+     "conf": 1.0
+    },
+    {
+     "p": "doutora",
+     "ini": 57.72,
+     "fim": 58.1,
+     "conf": 1.0
+    },
+    {
+     "p": "Camila,",
+     "ini": 58.1,
+     "fim": 58.76,
+     "conf": 0.99
+    },
+    {
+     "p": "ele",
+     "ini": 59.28,
+     "fim": 59.48,
+     "conf": 1.0
+    },
+    {
+     "p": "quem",
+     "ini": 59.48,
+     "fim": 59.68,
+     "conf": 0.78
+    },
+    {
+     "p": "fez",
+     "ini": 59.68,
+     "fim": 60.18,
+     "conf": 1.0
+    },
+    {
+     "p": "todo",
+     "ini": 60.18,
+     "fim": 60.86,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 60.86,
+     "fim": 61.06,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 61.06,
+     "fim": 61.24,
+     "conf": 1.0
+    },
+    {
+     "p": "atendimento",
+     "ini": 61.24,
+     "fim": 62.18,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 62.18,
+     "fim": 62.6,
+     "conf": 0.88
+    },
+    {
+     "p": "a",
+     "ini": 62.6,
+     "fim": 62.82,
+     "conf": 1.0
+    },
+    {
+     "p": "experiência",
+     "ini": 62.82,
+     "fim": 63.3,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 63.3,
+     "fim": 63.92,
+     "conf": 1.0
+    },
+    {
+     "p": "maravilhosa,",
+     "ini": 63.92,
+     "fim": 65.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 65.24,
+   "fim": 77.7,
+   "texto": "porque assim como ela, ele também tem esse atendimento que nos tranquiliza, que nos deixa sentir segura e de que o trabalho vai ser realmente humanizado,",
+   "palavras": [
+    {
+     "p": "porque",
+     "ini": 65.24,
+     "fim": 65.66,
+     "conf": 1.0
+    },
+    {
+     "p": "assim",
+     "ini": 65.66,
+     "fim": 65.96,
+     "conf": 0.8
+    },
+    {
+     "p": "como",
+     "ini": 65.96,
+     "fim": 66.3,
+     "conf": 1.0
+    },
+    {
+     "p": "ela,",
+     "ini": 66.3,
+     "fim": 66.68,
+     "conf": 1.0
+    },
+    {
+     "p": "ele",
+     "ini": 66.86,
+     "fim": 66.94,
+     "conf": 1.0
+    },
+    {
+     "p": "também",
+     "ini": 66.94,
+     "fim": 67.34,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 67.34,
+     "fim": 67.6,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 67.6,
+     "fim": 67.84,
+     "conf": 1.0
+    },
+    {
+     "p": "atendimento",
+     "ini": 67.84,
+     "fim": 68.86,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 68.86,
+     "fim": 69.04,
+     "conf": 1.0
+    },
+    {
+     "p": "nos",
+     "ini": 69.04,
+     "fim": 69.22,
+     "conf": 1.0
+    },
+    {
+     "p": "tranquiliza,",
+     "ini": 69.22,
+     "fim": 70.1,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 70.22,
+     "fim": 70.32,
+     "conf": 1.0
+    },
+    {
+     "p": "nos",
+     "ini": 70.32,
+     "fim": 70.66,
+     "conf": 1.0
+    },
+    {
+     "p": "deixa",
+     "ini": 70.66,
+     "fim": 71.14,
+     "conf": 1.0
+    },
+    {
+     "p": "sentir",
+     "ini": 71.14,
+     "fim": 72.2,
+     "conf": 0.66
+    },
+    {
+     "p": "segura",
+     "ini": 72.2,
+     "fim": 73.06,
+     "conf": 0.95
+    },
+    {
+     "p": "e",
+     "ini": 73.06,
+     "fim": 73.7,
+     "conf": 0.89
+    },
+    {
+     "p": "de",
+     "ini": 73.7,
+     "fim": 73.84,
+     "conf": 0.98
+    },
+    {
+     "p": "que",
+     "ini": 73.84,
+     "fim": 73.98,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 73.98,
+     "fim": 74.16,
+     "conf": 1.0
+    },
+    {
+     "p": "trabalho",
+     "ini": 74.16,
+     "fim": 74.72,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 74.72,
+     "fim": 75.04,
+     "conf": 1.0
+    },
+    {
+     "p": "ser",
+     "ini": 75.04,
+     "fim": 75.46,
+     "conf": 1.0
+    },
+    {
+     "p": "realmente",
+     "ini": 75.46,
+     "fim": 76.3,
+     "conf": 1.0
+    },
+    {
+     "p": "humanizado,",
+     "ini": 76.3,
+     "fim": 77.7,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 78.84,
+   "fim": 80.18,
+   "texto": "deficiente, que você não vai",
+   "palavras": [
+    {
+     "p": "deficiente,",
+     "ini": 78.84,
+     "fim": 79.36,
+     "conf": 0.53
+    },
+    {
+     "p": "que",
+     "ini": 79.36,
+     "fim": 79.58,
+     "conf": 0.92
+    },
+    {
+     "p": "você",
+     "ini": 79.58,
+     "fim": 79.88,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 79.88,
+     "fim": 80.04,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 80.04,
+     "fim": 80.18,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 80.18,
+   "fim": 82.48,
+   "texto": "se arrepender, não é aquele tratamento",
+   "palavras": [
+    {
+     "p": "se",
+     "ini": 80.18,
+     "fim": 80.32,
+     "conf": 0.88
+    },
+    {
+     "p": "arrepender,",
+     "ini": 80.32,
+     "fim": 80.94,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 81.04,
+     "fim": 81.22,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 81.22,
+     "fim": 81.32,
+     "conf": 1.0
+    },
+    {
+     "p": "aquele",
+     "ini": 81.32,
+     "fim": 81.64,
+     "conf": 1.0
+    },
+    {
+     "p": "tratamento",
+     "ini": 81.64,
+     "fim": 82.48,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 82.48,
+   "fim": 84.5,
+   "texto": "que você diz, eita, devia não ter",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 82.48,
+     "fim": 82.64,
+     "conf": 0.99
+    },
+    {
+     "p": "você",
+     "ini": 82.64,
+     "fim": 82.86,
+     "conf": 1.0
+    },
+    {
+     "p": "diz,",
+     "ini": 82.86,
+     "fim": 83.12,
+     "conf": 0.89
+    },
+    {
+     "p": "eita,",
+     "ini": 83.24,
+     "fim": 83.44,
+     "conf": 0.79
+    },
+    {
+     "p": "devia",
+     "ini": 83.86,
+     "fim": 84.24,
+     "conf": 0.76
+    },
+    {
+     "p": "não",
+     "ini": 84.24,
+     "fim": 84.36,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 84.36,
+     "fim": 84.5,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 84.5,
+   "fim": 85.0,
+   "texto": "feito",
+   "palavras": [
+    {
+     "p": "feito",
+     "ini": 84.5,
+     "fim": 85.0,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 86.12,
+   "fim": 88.22,
+   "texto": "você com certeza vai querer",
+   "palavras": [
+    {
+     "p": "você",
+     "ini": 86.12,
+     "fim": 86.64,
+     "conf": 0.44
+    },
+    {
+     "p": "com",
+     "ini": 86.64,
+     "fim": 87.16,
+     "conf": 0.96
+    },
+    {
+     "p": "certeza",
+     "ini": 87.16,
+     "fim": 87.7,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 87.7,
+     "fim": 87.96,
+     "conf": 1.0
+    },
+    {
+     "p": "querer",
+     "ini": 87.96,
+     "fim": 88.22,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 88.22,
+   "fim": 89.02,
+   "texto": "voltar aqui",
+   "palavras": [
+    {
+     "p": "voltar",
+     "ini": 88.22,
+     "fim": 88.6,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 88.6,
+     "fim": 89.02,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

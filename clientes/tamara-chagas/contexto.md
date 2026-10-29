@@ -99,3 +99,4 @@ Cadastro: 2026-09-28, a partir da conversa em que a conta do Instagram foi conec
 ## Regras gerais aplicadas
 
 - **Brand book (2026-10-13):** Só há logos e símbolo em `marca/`; a ficha já pedia manual com fontes e cores oficiais (2026-09-28). A fonte e a estética dos posts estão fixadas na skill `post-tamara`. Brand book: **pendente**. Partir dos posts aprovados e das regras da OAB (Cuidados), e pedir à Dra. Tamara a aprovação do que for recomendação.
+- **B-roll de toda diária (2026-10-23):** a pasta já existe: `CONTEÚDO/B-ROLL/` no Drive dela, uma subpasta por diária (`AAAA-MM-DD · <lugar>`). É de lá que saem os stories diários das 8h, então o B-roll novo alimenta também os stories. Depois o vlog geral e os vídeos por tema.

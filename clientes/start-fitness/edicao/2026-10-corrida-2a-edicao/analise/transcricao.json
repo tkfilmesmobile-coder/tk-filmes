@@ -1,0 +1,611 @@
+{
+ "texto": "O seu próximo desafio já tem data marcada e o tempo está correndo. As inscrições para a segunda edição da Correio de Start Fitness estão abertas, mas as vagas estão voando. Dia 1º de novembro estaremos todos reunidos nesse novo desafio. E sabe o que é melhor? São R$ 4.000 em premiação. Não é 1, não é 2, não é 3, é R$ 4.000 em premiação. Tá achando que acabou? Joga o kit. Nessa quinta-feira, dia 29, às 5 horas da tarde, tem a distribuição do kit. A partir das 17 horas, quinta-feira. Esperamos vocês.",
+ "palavras": [
+  {
+   "p": "O",
+   "ini": 0.0,
+   "fim": 0.6,
+   "prob": 0.78
+  },
+  {
+   "p": "seu",
+   "ini": 0.6,
+   "fim": 0.74,
+   "prob": 1.0
+  },
+  {
+   "p": "próximo",
+   "ini": 0.74,
+   "fim": 1.06,
+   "prob": 1.0
+  },
+  {
+   "p": "desafio",
+   "ini": 1.06,
+   "fim": 1.68,
+   "prob": 1.0
+  },
+  {
+   "p": "já",
+   "ini": 1.68,
+   "fim": 1.8,
+   "prob": 0.99
+  },
+  {
+   "p": "tem",
+   "ini": 1.8,
+   "fim": 2.02,
+   "prob": 1.0
+  },
+  {
+   "p": "data",
+   "ini": 2.02,
+   "fim": 2.28,
+   "prob": 1.0
+  },
+  {
+   "p": "marcada",
+   "ini": 2.28,
+   "fim": 2.88,
+   "prob": 1.0
+  },
+  {
+   "p": "e",
+   "ini": 2.88,
+   "fim": 3.06,
+   "prob": 0.93
+  },
+  {
+   "p": "o",
+   "ini": 3.06,
+   "fim": 3.18,
+   "prob": 1.0
+  },
+  {
+   "p": "tempo",
+   "ini": 3.18,
+   "fim": 3.44,
+   "prob": 1.0
+  },
+  {
+   "p": "está",
+   "ini": 3.44,
+   "fim": 3.74,
+   "prob": 1.0
+  },
+  {
+   "p": "correndo.",
+   "ini": 3.74,
+   "fim": 4.54,
+   "prob": 0.93
+  },
+  {
+   "p": "As",
+   "ini": 4.72,
+   "fim": 4.86,
+   "prob": 1.0
+  },
+  {
+   "p": "inscrições",
+   "ini": 4.86,
+   "fim": 5.34,
+   "prob": 1.0
+  },
+  {
+   "p": "para",
+   "ini": 5.34,
+   "fim": 5.56,
+   "prob": 1.0
+  },
+  {
+   "p": "a",
+   "ini": 5.56,
+   "fim": 5.66,
+   "prob": 1.0
+  },
+  {
+   "p": "segunda",
+   "ini": 5.66,
+   "fim": 5.98,
+   "prob": 0.93
+  },
+  {
+   "p": "edição",
+   "ini": 5.98,
+   "fim": 6.34,
+   "prob": 1.0
+  },
+  {
+   "p": "da",
+   "ini": 6.34,
+   "fim": 6.52,
+   "prob": 1.0
+  },
+  {
+   "p": "Correio",
+   "ini": 6.52,
+   "fim": 6.8,
+   "prob": 0.85
+  },
+  {
+   "p": "de",
+   "ini": 6.8,
+   "fim": 6.92,
+   "prob": 0.96
+  },
+  {
+   "p": "Start",
+   "ini": 6.92,
+   "fim": 7.12,
+   "prob": 0.94
+  },
+  {
+   "p": "Fitness",
+   "ini": 7.12,
+   "fim": 7.44,
+   "prob": 0.99
+  },
+  {
+   "p": "estão",
+   "ini": 7.44,
+   "fim": 7.92,
+   "prob": 1.0
+  },
+  {
+   "p": "abertas,",
+   "ini": 7.92,
+   "fim": 8.52,
+   "prob": 1.0
+  },
+  {
+   "p": "mas",
+   "ini": 8.52,
+   "fim": 9.04,
+   "prob": 1.0
+  },
+  {
+   "p": "as",
+   "ini": 9.04,
+   "fim": 9.22,
+   "prob": 1.0
+  },
+  {
+   "p": "vagas",
+   "ini": 9.22,
+   "fim": 9.7,
+   "prob": 1.0
+  },
+  {
+   "p": "estão",
+   "ini": 9.7,
+   "fim": 10.08,
+   "prob": 1.0
+  },
+  {
+   "p": "voando.",
+   "ini": 10.08,
+   "fim": 10.54,
+   "prob": 1.0
+  },
+  {
+   "p": "Dia",
+   "ini": 10.76,
+   "fim": 10.98,
+   "prob": 0.99
+  },
+  {
+   "p": "1º",
+   "ini": 10.98,
+   "fim": 11.36,
+   "prob": 0.96
+  },
+  {
+   "p": "de",
+   "ini": 11.36,
+   "fim": 11.44,
+   "prob": 1.0
+  },
+  {
+   "p": "novembro",
+   "ini": 11.44,
+   "fim": 11.92,
+   "prob": 0.99
+  },
+  {
+   "p": "estaremos",
+   "ini": 11.92,
+   "fim": 12.22,
+   "prob": 0.99
+  },
+  {
+   "p": "todos",
+   "ini": 12.22,
+   "fim": 12.58,
+   "prob": 1.0
+  },
+  {
+   "p": "reunidos",
+   "ini": 12.58,
+   "fim": 13.1,
+   "prob": 1.0
+  },
+  {
+   "p": "nesse",
+   "ini": 13.1,
+   "fim": 13.34,
+   "prob": 0.56
+  },
+  {
+   "p": "novo",
+   "ini": 13.34,
+   "fim": 13.74,
+   "prob": 1.0
+  },
+  {
+   "p": "desafio.",
+   "ini": 13.74,
+   "fim": 14.48,
+   "prob": 1.0
+  },
+  {
+   "p": "E",
+   "ini": 14.52,
+   "fim": 14.78,
+   "prob": 1.0
+  },
+  {
+   "p": "sabe",
+   "ini": 14.78,
+   "fim": 14.98,
+   "prob": 1.0
+  },
+  {
+   "p": "o",
+   "ini": 14.98,
+   "fim": 15.12,
+   "prob": 1.0
+  },
+  {
+   "p": "que",
+   "ini": 15.12,
+   "fim": 15.16,
+   "prob": 1.0
+  },
+  {
+   "p": "é",
+   "ini": 15.16,
+   "fim": 15.22,
+   "prob": 1.0
+  },
+  {
+   "p": "melhor?",
+   "ini": 15.22,
+   "fim": 15.5,
+   "prob": 1.0
+  },
+  {
+   "p": "São",
+   "ini": 15.8,
+   "fim": 16.32,
+   "prob": 1.0
+  },
+  {
+   "p": "R",
+   "ini": 16.32,
+   "fim": 16.58,
+   "prob": 0.66
+  },
+  {
+   "p": "$",
+   "ini": 16.58,
+   "fim": 16.58,
+   "prob": 1.0
+  },
+  {
+   "p": "4",
+   "ini": 16.58,
+   "fim": 16.58,
+   "prob": 0.66
+  },
+  {
+   "p": ".000",
+   "ini": 16.58,
+   "fim": 16.96,
+   "prob": 0.83
+  },
+  {
+   "p": "em",
+   "ini": 16.96,
+   "fim": 17.4,
+   "prob": 0.57
+  },
+  {
+   "p": "premiação.",
+   "ini": 17.4,
+   "fim": 18.24,
+   "prob": 1.0
+  },
+  {
+   "p": "Não",
+   "ini": 18.38,
+   "fim": 18.54,
+   "prob": 0.94
+  },
+  {
+   "p": "é",
+   "ini": 18.54,
+   "fim": 18.64,
+   "prob": 1.0
+  },
+  {
+   "p": "1,",
+   "ini": 18.64,
+   "fim": 18.86,
+   "prob": 0.45
+  },
+  {
+   "p": "não",
+   "ini": 18.96,
+   "fim": 19.12,
+   "prob": 0.99
+  },
+  {
+   "p": "é",
+   "ini": 19.12,
+   "fim": 19.12,
+   "prob": 1.0
+  },
+  {
+   "p": "2,",
+   "ini": 19.12,
+   "fim": 19.4,
+   "prob": 1.0
+  },
+  {
+   "p": "não",
+   "ini": 19.48,
+   "fim": 19.58,
+   "prob": 1.0
+  },
+  {
+   "p": "é",
+   "ini": 19.58,
+   "fim": 19.6,
+   "prob": 1.0
+  },
+  {
+   "p": "3,",
+   "ini": 19.6,
+   "fim": 19.86,
+   "prob": 1.0
+  },
+  {
+   "p": "é",
+   "ini": 19.94,
+   "fim": 20.08,
+   "prob": 1.0
+  },
+  {
+   "p": "R",
+   "ini": 20.08,
+   "fim": 20.2,
+   "prob": 0.98
+  },
+  {
+   "p": "$",
+   "ini": 20.2,
+   "fim": 20.52,
+   "prob": 1.0
+  },
+  {
+   "p": "4",
+   "ini": 20.52,
+   "fim": 20.68,
+   "prob": 1.0
+  },
+  {
+   "p": ".000",
+   "ini": 20.68,
+   "fim": 20.98,
+   "prob": 1.0
+  },
+  {
+   "p": "em",
+   "ini": 20.98,
+   "fim": 21.24,
+   "prob": 1.0
+  },
+  {
+   "p": "premiação.",
+   "ini": 21.24,
+   "fim": 21.88,
+   "prob": 1.0
+  },
+  {
+   "p": "Tá",
+   "ini": 22.16,
+   "fim": 22.42,
+   "prob": 0.77
+  },
+  {
+   "p": "achando",
+   "ini": 22.42,
+   "fim": 22.7,
+   "prob": 1.0
+  },
+  {
+   "p": "que",
+   "ini": 22.7,
+   "fim": 22.78,
+   "prob": 1.0
+  },
+  {
+   "p": "acabou?",
+   "ini": 22.78,
+   "fim": 23.0,
+   "prob": 1.0
+  },
+  {
+   "p": "Joga",
+   "ini": 24.04,
+   "fim": 24.56,
+   "prob": 0.88
+  },
+  {
+   "p": "o",
+   "ini": 24.56,
+   "fim": 24.7,
+   "prob": 0.99
+  },
+  {
+   "p": "kit.",
+   "ini": 24.7,
+   "fim": 24.92,
+   "prob": 0.84
+  },
+  {
+   "p": "Nessa",
+   "ini": 26.8,
+   "fim": 27.46,
+   "prob": 0.84
+  },
+  {
+   "p": "quinta",
+   "ini": 27.46,
+   "fim": 27.86,
+   "prob": 1.0
+  },
+  {
+   "p": "-feira,",
+   "ini": 27.86,
+   "fim": 28.26,
+   "prob": 1.0
+  },
+  {
+   "p": "dia",
+   "ini": 28.26,
+   "fim": 28.44,
+   "prob": 1.0
+  },
+  {
+   "p": "29,",
+   "ini": 28.44,
+   "fim": 29.12,
+   "prob": 0.98
+  },
+  {
+   "p": "às",
+   "ini": 29.5,
+   "fim": 29.92,
+   "prob": 1.0
+  },
+  {
+   "p": "5",
+   "ini": 29.92,
+   "fim": 30.18,
+   "prob": 0.91
+  },
+  {
+   "p": "horas",
+   "ini": 30.18,
+   "fim": 30.38,
+   "prob": 0.94
+  },
+  {
+   "p": "da",
+   "ini": 30.38,
+   "fim": 30.54,
+   "prob": 1.0
+  },
+  {
+   "p": "tarde,",
+   "ini": 30.54,
+   "fim": 30.94,
+   "prob": 1.0
+  },
+  {
+   "p": "tem",
+   "ini": 31.06,
+   "fim": 31.42,
+   "prob": 1.0
+  },
+  {
+   "p": "a",
+   "ini": 31.42,
+   "fim": 31.56,
+   "prob": 1.0
+  },
+  {
+   "p": "distribuição",
+   "ini": 31.56,
+   "fim": 32.32,
+   "prob": 1.0
+  },
+  {
+   "p": "do",
+   "ini": 32.32,
+   "fim": 32.58,
+   "prob": 1.0
+  },
+  {
+   "p": "kit.",
+   "ini": 32.58,
+   "fim": 32.8,
+   "prob": 0.9
+  },
+  {
+   "p": "A",
+   "ini": 33.0,
+   "fim": 33.16,
+   "prob": 1.0
+  },
+  {
+   "p": "partir",
+   "ini": 33.16,
+   "fim": 33.52,
+   "prob": 1.0
+  },
+  {
+   "p": "das",
+   "ini": 33.52,
+   "fim": 33.76,
+   "prob": 1.0
+  },
+  {
+   "p": "17",
+   "ini": 33.76,
+   "fim": 34.24,
+   "prob": 1.0
+  },
+  {
+   "p": "horas,",
+   "ini": 34.24,
+   "fim": 35.04,
+   "prob": 0.98
+  },
+  {
+   "p": "quinta",
+   "ini": 35.12,
+   "fim": 35.88,
+   "prob": 1.0
+  },
+  {
+   "p": "-feira.",
+   "ini": 35.88,
+   "fim": 36.26,
+   "prob": 1.0
+  },
+  {
+   "p": "Esperamos",
+   "ini": 36.3,
+   "fim": 36.84,
+   "prob": 1.0
+  },
+  {
+   "p": "vocês.",
+   "ini": 36.84,
+   "fim": 37.04,
+   "prob": 1.0
+  }
+ ]
+}

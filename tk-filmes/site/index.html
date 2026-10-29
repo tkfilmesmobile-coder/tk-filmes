@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="pt-BR" class="tema-marrom rodando-abertura">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TK Filmes · Agência de marketing em União dos Palmares/AL</title>
+<meta name="description" content="Estratégia antes da execução. A TK Filmes planeja, produz e acompanha a comunicação de negócios e profissionais: estratégia e redes, vídeos para o perfil, marca e sites.">
+<link rel="canonical" href="https://tkfilme.com.br/">
+<meta name="theme-color" content="#4A2F25">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="TK Filmes">
+<meta property="og:title" content="TK Filmes · Estratégia antes da execução.">
+<meta property="og:description" content="Agência de marketing em União dos Palmares/AL: estratégia e redes, vídeos para o perfil, marca e sites.">
+<meta property="og:url" content="https://tkfilme.com.br/">
+<meta property="og:image" content="https://tkfilme.com.br/assets/img/compartilhar.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="TK Filmes · Estratégia antes da execução.">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="modulepreload" href="/assets/js/vendor/three.module.min.js">
+<script>
+/* js ligado + composição vertical (K em cima, texto embaixo) em celular e telas estreitas ou em pé */
+(function () { var h = document.documentElement; h.classList.add('js');
+  function f() { var w = innerWidth, a = w / innerHeight; h.classList.toggle('layout-vertical', w < 768 || (w < 1100 && a < 1.2)); }
+  f(); addEventListener('resize', f); })();
+</script>
+<link rel="stylesheet" href="/assets/css/site.css?v=20261028g">
+<script type="importmap">{ "imports": { "three": "/assets/js/vendor/three.module.min.js" } }</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "TK Filmes",
+  "description": "Agência de marketing: estratégia e redes, vídeos para o perfil, marca e identidade, sites e landing pages.",
+  "url": "https://tkfilme.com.br/",
+  "logo": "https://tkfilme.com.br/assets/img/logo.svg",
+  "image": "https://tkfilme.com.br/assets/img/compartilhar.jpg",
+  "telephone": "+55-82-99120-2604",
+  "email": "tkfilmesmobile@gmail.com",
+  "taxID": "62.942.423/0001-88",
+  "founder": { "@type": "Person", "name": "Talyta Kumy" },
+  "address": { "@type": "PostalAddress", "addressLocality": "União dos Palmares", "addressRegion": "AL", "addressCountry": "BR" },
+  "areaServed": "BR",
+  "sameAs": ["https://www.instagram.com/tk.filmes/"]
+}
+</script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- Abertura de cinema: o K se desenha, o timecode corre, as peças se montam (pula com qualquer toque) -->
+<div id="abertura-filme" aria-hidden="true">
+  <svg class="k-traco" viewBox="264 66 390 654">
+    <path pathLength="1" d="M 633.35 627.11 L 459.48 531.71 C 418 508.95 395.73 465.43 397.37 421.17 L 397.37 366.37 C 392.46 319.42 415.48 271.91 459.48 247.78 L 633.35 152.39 C 665.48 210.92 644.07 284.41 585.52 316.54 L 452.08 389.75 L 585.52 462.97 C 644.07 495.09 665.48 568.58 633.35 627.11 Z"></path>
+    <path pathLength="1" d="M 391.65 189.69 L 395.95 387.96 L 395.91 387.96 C 329.13 389.41 273.79 336.44 272.34 269.69 L 268.03 71.34 L 268.08 71.34 C 334.84 69.89 390.2 122.93 391.65 189.69 Z"></path>
+    <path pathLength="1" d="M 395.3 591.5 L 390.99 393.22 L 390.94 393.22 C 324.17 394.67 271.18 450 272.63 516.75 L 276.93 715.1 L 276.98 715.1 C 343.74 713.65 396.75 658.25 395.3 591.5 Z"></path>
+    <path pathLength="1" d="M 393.72 86.3 L 393.72 669.1"></path>
+  </svg>
+  <p class="abertura-nome">TK Filmes</p>
+  <p class="timecode">00:00:00:00</p>
+  <span class="abertura-linha"></span>
+</div>
+
+<div id="cortina" aria-hidden="true"></div>
+<canvas id="palco" aria-hidden="true"></canvas>
+<div class="vinheta" aria-hidden="true"></div>
+<div class="grao" aria-hidden="true"></div>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="/" aria-label="TK Filmes, início"><img src="/assets/img/logo-creme.svg" alt="TK Filmes" width="118" height="34"></a>
+    <div class="topo-acoes">
+      <button type="button" class="som-botao" id="som" aria-pressed="false" aria-label="Ligar o som do site">
+        <span class="som-barras" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="som-texto">Som</span>
+      </button>
+      <a class="botao-contorno" data-whats="topo" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20TK%20Filmes.">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<section class="abertura" id="topo" data-cena="0">
+  <img class="k-estatico-img" src="/assets/img/k.svg" alt="" aria-hidden="true" width="512" height="512">
+  <!-- a Talyta na abertura: foto por enquanto; o vídeo de boas-vindas entra aqui no lugar da <picture> -->
+  <div class="abertura-retrato" data-revela="sobe">
+    <picture>
+      <source type="image/webp" srcset="/assets/img/talyta-abertura-recorte-600.webp 600w, /assets/img/talyta-abertura-recorte-940.webp 941w" sizes="(max-width: 767px) 130vw, 50vw">
+      <img src="/assets/img/talyta-abertura-recorte-940.png" width="941" height="1672" alt="Talyta Kumy, diretora da TK Filmes" fetchpriority="high" decoding="async">
+    </picture>
+  </div>
+  <div class="wrap">
+    <div class="abertura-texto">
+      <p class="rotulo" data-revela="sobe">Agência de marketing · União dos Palmares/AL</p>
+      <h1 data-revela="palavras">Estratégia antes da execução.</h1>
+      <p class="linha-fina" data-revela="sobe">A TK Filmes planeja, produz e acompanha a comunicação de negócios e profissionais que querem ser percebidos pelo valor que têm.</p>
+      <div class="acoes" data-revela="sobe">
+        <a class="botao" data-whats="abertura" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20TK%20Filmes%20e%20quero%20conversar%20sobre%20a%20comunica%C3%A7%C3%A3o%20do%20meu%20neg%C3%B3cio.">Conversar no WhatsApp</a>
+        <a class="link-sublinhado" href="#trabalhos">Ver trabalhos</a>
+      </div>
+      <p class="nota" data-revela="sobe">Atendimento em União dos Palmares e região, e à distância.</p>
+    </div>
+  </div>
+  <span class="role" aria-hidden="true">ROLE</span>
+</section>
+
+<section class="secao problema" data-cena="1" aria-labelledby="t-problema">
+  <div class="wrap">
+    <h2 class="rotulo" id="t-problema" data-revela="sobe">Quando não há direção</h2>
+    <div class="frases">
+      <p class="frase" data-revela="sobe">Você posta, mas não sabe o que cada post deveria fazer.</p>
+      <p class="frase" data-revela="sobe">Seu perfil não mostra o valor do trabalho que você entrega.</p>
+      <p class="frase" data-revela="sobe">Falta tempo pra manter constância, e o Instagram vira uma pendência.</p>
+    </div>
+    <p class="fecho" data-revela="sobe">Conteúdo bonito não substitui planejamento. As peças existem; falta o que une.</p>
+  </div>
+</section>
+
+<section class="secao frentes" id="frentes" data-cena="2" aria-labelledby="t-frentes">
+  <div class="wrap fixo">
+    <div class="cabeca-secao">
+      <p class="rotulo">O que a TK faz</p>
+      <h2 class="titulo-secao" id="t-frentes" data-revela="palavras">Quatro frentes, uma mesma direção.</h2>
+      <p class="contador" aria-hidden="true"><span class="contador-atual">01</span> / 04</p>
+    </div>
+    <div class="grade-4">
+      <article class="cartao ativo" data-peca="3">
+        <span class="peca">01 · a direção</span>
+        <h3>Estratégia e redes</h3>
+        <p>Diagnóstico, posicionamento, calendário, roteiros, legendas e gestão do perfil, com relatório do que os números mostram.</p>
+        <a class="link-sublinhado" data-whats="estrategia" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20sobre%20estrat%C3%A9gia%20e%20gest%C3%A3o%20de%20redes.">Falar sobre estratégia</a>
+      </article>
+      <article class="cartao" data-peca="2">
+        <span class="peca">02 · a presença</span>
+        <h3>Vídeos para o perfil</h3>
+        <p>Roteiro, direção, gravação e edição de vídeos em que você aparece com clareza e naturalidade, mesmo que nunca tenha gravado.</p>
+        <a class="link-sublinhado" data-whats="videos" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20sobre%20v%C3%ADdeos%20para%20o%20meu%20perfil.">Falar sobre vídeos</a>
+      </article>
+      <article class="cartao" data-peca="1">
+        <span class="peca">03 · a identidade</span>
+        <h3>Marca e identidade</h3>
+        <p>Logo, cores, tipografia e manual de uso, pra sua empresa ser reconhecida do mesmo jeito em todo lugar onde aparece.</p>
+        <a class="link-sublinhado" data-whats="marca" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20sobre%20marca%20e%20identidade%20visual.">Falar sobre marca</a>
+      </article>
+      <article class="cartao" data-peca="0">
+        <span class="peca">04 · a conversão</span>
+        <h3>Sites e landing pages</h3>
+        <p>Páginas rápidas, feitas primeiro pro celular, com um objetivo claro: transformar visita em conversa.</p>
+        <a class="link-sublinhado" data-whats="sites" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20sobre%20sites%20e%20landing%20pages.">Falar sobre sites</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Trabalhos: no computador, o trabalho aparece em holograma seguindo o cursor; no celular, cartões flutuantes de deslizar.
+     Pra incluir vídeo: data-video="/assets/video/arquivo.mp4" no <li>. Trabalho de cliente só com autorização. -->
+<section class="secao trabalhos" id="trabalhos" data-cena="3" aria-labelledby="t-trabalhos">
+  <div class="wrap">
+    <div class="cabeca-secao">
+      <p class="rotulo" data-revela="sobe">Trabalhos</p>
+      <h2 class="titulo-secao" id="t-trabalhos" data-revela="palavras">Direção que aparece.</h2>
+      <p class="trabalhos-dica" data-revela="sobe"><span class="dica-pc">Passe o cursor pelos trabalhos.</span><span class="dica-cel">Deslize pelos trabalhos.</span> Peças da própria TK, do roteiro à arte.</p>
+    </div>
+    <ol class="trabalhos-lista">
+      <li class="trabalho" data-formato="Frase · manifesto"><a href="https://www.instagram.com/p/DeReamsFsjM/" target="_blank" rel="noopener" data-cursor="Ver"><span class="t-num">01</span><span class="t-nome">Seu celular filma em 4K</span><span class="t-meta">Frase · out 2026</span><img src="/assets/img/trabalhos/manifesto.jpg" alt="Arte do post: Seu celular filma em 4K. O problema é o que você fala." width="640" height="800" loading="lazy" decoding="async"></a></li>
+      <li class="trabalho" data-formato="Bastidor · apresentação"><a href="https://www.instagram.com/p/DeR9qVelQ_Z/" target="_blank" rel="noopener" data-cursor="Ver"><span class="t-num">02</span><span class="t-nome">Chegou agora?</span><span class="t-meta">Bastidor · out 2026</span><img src="/assets/img/trabalhos/chegou-agora.jpg" alt="Arte do post Chegou agora, com fotos da Talyta gravando e planejando" width="640" height="800" loading="lazy" decoding="async"></a></li>
+      <li class="trabalho" data-formato="Carrossel · data local"><a href="https://www.instagram.com/p/DecILtCFVti/" target="_blank" rel="noopener" data-cursor="Ver"><span class="t-num">03</span><span class="t-nome">195 anos de União</span><span class="t-meta">Carrossel · out 2026</span><img src="/assets/img/trabalhos/feriados.jpg" alt="Capa do carrossel 195 anos de União dos Palmares" width="640" height="800" loading="lazy" decoding="async"></a></li>
+      <li class="trabalho" data-formato="Frase · percepção"><a href="https://www.instagram.com/p/Dewrg7Bkb7d/" target="_blank" rel="noopener" data-cursor="Ver"><span class="t-num">04</span><span class="t-nome">Seu cliente te stalkeia</span><span class="t-meta">Frase · out 2026</span><img src="/assets/img/trabalhos/stalkeia.jpg" alt="Arte do post: Seu cliente te stalkeia antes de te pagar." width="640" height="800" loading="lazy" decoding="async"></a></li>
+      <li class="trabalho" data-formato="Conversa · posicionamento"><a href="https://www.instagram.com/p/De2kgHtjyOA/" target="_blank" rel="noopener" data-cursor="Ver"><span class="t-num">05</span><span class="t-nome">Vídeo ou vender?</span><span class="t-meta">Conversa · out 2026</span><img src="/assets/img/trabalhos/video-ou-vender.jpg" alt="Arte do post em formato de conversa: você quer um vídeo ou quer vender?" width="640" height="800" loading="lazy" decoding="async"></a></li>
+      <li class="trabalho" data-formato="Tweet · constância"><a href="https://www.instagram.com/p/DeMpCznEd2X/" target="_blank" rel="noopener" data-cursor="Ver"><span class="t-num">06</span><span class="t-nome">Semana que vem eu começo</span><span class="t-meta">Tweet · out 2026</span><img src="/assets/img/trabalhos/semana-que-vem.jpg" alt="Arte do post: semana que vem eu começo a postar, eu há 3 anos" width="640" height="800" loading="lazy" decoding="async"></a></li>
+    </ol>
+  </div>
+  <div id="holograma" aria-hidden="true">
+    <div class="holo-quadro"><img alt=""><video muted loop playsinline hidden></video><span class="holo-varredura"></span><span class="holo-brilho"></span></div>
+    <span class="holo-legenda"></span>
+  </div>
+</section>
+
+<section class="secao" id="como-funciona" data-cena="4" aria-labelledby="t-como">
+  <div class="wrap">
+    <div class="cabeca-secao">
+      <p class="rotulo" data-revela="sobe">Como funciona</p>
+      <h2 class="titulo-secao" id="t-como" data-revela="palavras">Você sabe o que vai receber antes de começar.</h2>
+    </div>
+    <ol class="etapas">
+      <li data-revela="sobe"><span class="numero" aria-hidden="true">1</span><strong>Conversa</strong><span>Você conta o que faz, pra quem e o que quer melhorar.</span></li>
+      <li data-revela="sobe"><span class="numero" aria-hidden="true">2</span><strong>Diagnóstico</strong><span>Análise do seu perfil, do seu público e do que está travando a comunicação.</span></li>
+      <li data-revela="sobe"><span class="numero" aria-hidden="true">3</span><strong>Proposta</strong><span>Objetivo, entregas, prazos e investimento, por escrito.</span></li>
+      <li data-revela="sobe"><span class="numero" aria-hidden="true">4</span><strong>Execução</strong><span>Produção com pontos de aprovação: nada vai ao ar sem o seu ok.</span></li>
+      <li data-revela="sobe"><span class="numero" aria-hidden="true">5</span><strong>Acompanhamento</strong><span>Relatório do que foi feito e do que os dados permitem concluir.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="secao sobre" id="sobre" data-cena="5" aria-labelledby="t-quem">
+  <div class="wrap">
+    <div class="sobre-topo">
+      <div class="foto retrato" data-revela="sobe" data-olhar="/assets/img/olhar2/" data-olhar-capa="/assets/img/talyta-olhar-capa.jpg">
+        <div class="retrato-moldura">
+          <video class="retrato-video" src="/assets/video/talyta-retrato.mp4" poster="/assets/img/talyta-retrato.jpg" width="720" height="960" muted loop playsinline preload="none" disablepictureinpicture aria-label="Retrato de Talyta Kumy, sorrindo para a câmera"></video>
+          <span class="retrato-brilho" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="dupla-texto">
+        <p class="rotulo" data-revela="sobe">Quem dirige</p>
+        <h2 class="titulo-secao" id="t-quem" data-revela="palavras">Talyta Kumy</h2>
+        <p class="sobre-lide" data-revela="sobe">Diretora de conteúdo e fundadora da TK Filmes. Trabalho com audiovisual há [X ANOS], [COMO COMEÇOU: o primeiro trabalho, o que te levou à câmera].</p>
+        <p data-revela="sobe">[QUEM VOCÊ É: de onde vem, o que te move fora do trabalho, em duas ou três frases.]</p>
+        <dl class="sobre-numeros" data-revela="sobe">
+          <div><dt>[X]</dt><dd>anos de audiovisual</dd></div>
+          <div><dt>[N]</dt><dd>negócios atendidos</dd></div>
+          <div><dt>[N]</dt><dd>[outro número que você queira mostrar]</dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="abordagem">
+      <p class="rotulo" data-revela="sobe">A abordagem</p>
+      <ol class="principios">
+        <li data-revela="sobe"><span class="numero" aria-hidden="true">i</span><h3>Entender antes de filmar.</h3><p>Toda gravação começa com uma conversa sobre o negócio: o que você vende, pra quem e por que te escolhem. Sem isso, o vídeo pode ser bonito e não dizer nada.</p></li>
+        <li data-revela="sobe"><span class="numero" aria-hidden="true">ii</span><h3>Dirigir, não só gravar.</h3><p>Roteiro, ensaio e direção na hora da câmera. É o que faz quem diz que não sabe gravar aparecer com naturalidade.</p></li>
+        <li data-revela="sobe"><span class="numero" aria-hidden="true">iii</span><h3>Ensinar enquanto faço.</h3><p>Você entende o porquê de cada escolha. A presença no Instagram deixa de ser mistério e passa a ser um método seu.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="secao" data-cena="6" aria-labelledby="t-perguntas">
+  <div class="wrap perguntas">
+    <div class="cabeca-secao">
+      <p class="rotulo" data-revela="sobe">Perguntas frequentes</p>
+      <h2 class="titulo-secao" id="t-perguntas" data-revela="palavras">Antes de você perguntar.</h2>
+    </div>
+    <div class="lista-perguntas" data-revela="sobe">
+      <details open>
+        <summary>Não sei falar na câmera. Dá certo comigo?</summary>
+        <p>Dá. A direção existe pra isso: roteiro curto, ensaio antes de gravar e regravação sem pressa. Ninguém nasce pronto pra câmera.</p>
+      </details>
+      <details>
+        <summary>Quanto custa?</summary>
+        <p>Depende do que o seu negócio precisa. Depois da conversa de diagnóstico, você recebe uma proposta com objetivo, entregas, prazos e investimento.</p>
+      </details>
+      <details>
+        <summary>Vocês atendem fora de União dos Palmares?</summary>
+        <p>Sim. Estratégia, marca e sites são feitos à distância. As gravações presenciais acontecem em União dos Palmares e região.</p>
+      </details>
+      <details>
+        <summary>Em quanto tempo eu vejo resultado?</summary>
+        <p>Prazo de resultado ninguém sério promete. O que funciona é constância: os sinais aparecem com meses de trabalho contínuo, e todo mês você recebe o relatório do que os dados mostram.</p>
+      </details>
+      <details>
+        <summary>Vocês publicam por mim?</summary>
+        <p>Pode ser. A publicação entra conforme o plano combinado na proposta.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="chamada" id="contato" data-cena="7" aria-labelledby="t-chamada">
+  <div class="wrap">
+    <div class="chamada-texto">
+      <p class="rotulo" data-revela="sobe">Primeiro passo</p>
+      <h2 id="t-chamada" data-revela="palavras">Sua marca merece direção.</h2>
+      <p data-revela="sobe">Me conta o que você faz e o que quer melhorar. A primeira conversa é sem compromisso.</p>
+      <div data-revela="sobe"><a class="botao botao--claro" data-whats="chamada" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20TK%20Filmes%20e%20quero%20conversar%20sobre%20a%20comunica%C3%A7%C3%A3o%20do%20meu%20neg%C3%B3cio.">Conversar no WhatsApp</a></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div class="rodape-coluna">
+      <a class="marca" href="/" aria-label="TK Filmes, início"><img src="/assets/img/logo-creme.svg" alt="TK Filmes" width="118" height="34" loading="lazy"></a>
+      <p>Agência de marketing · União dos Palmares/AL<br>CNPJ 62.942.423/0001-88</p>
+    </div>
+    <div class="rodape-coluna">
+      <a data-whats="rodape" href="https://wa.me/5582991202604">WhatsApp (82) 9 9120-2604</a>
+      <a href="https://www.instagram.com/tk.filmes/">Instagram @tk.filmes</a>
+      <a href="mailto:tkfilmesmobile@gmail.com">tkfilmesmobile@gmail.com</a>
+    </div>
+    <div class="rodape-coluna">
+      <a href="/privacidade.html">Política de privacidade</a>
+      <button type="button" id="preferencias-cookies">Preferências de cookies</button>
+      <span>© 2026 TK Filmes</span>
+    </div>
+  </div>
+</footer>
+
+<a class="botao whats-fixo" data-whats="fixo" href="https://wa.me/5582991202604?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20TK%20Filmes%20e%20quero%20conversar%20sobre%20a%20comunica%C3%A7%C3%A3o%20do%20meu%20neg%C3%B3cio.">Conversar no WhatsApp</a>
+
+<div class="cookies" id="cookies" role="dialog" aria-label="Aviso de cookies" hidden>
+  <p>Usamos cookies de medição pra entender como a página é usada e melhorar o atendimento. Você escolhe. Detalhes na <a href="/privacidade.html">política de privacidade</a>.</p>
+  <div class="cookies-acoes">
+    <button type="button" class="aceitar">Aceitar</button>
+    <button type="button" class="recusar">Recusar</button>
+  </div>
+</div>
+
+<script src="/assets/js/vendor/lenis.min.js" defer></script>
+<script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/experiencia.js?v=20261028g" defer></script>
+<script src="/assets/js/som.js" defer></script>
+<script type="module" src="/assets/js/cena.js?v=20261028g"></script>
+</body>
+</html>

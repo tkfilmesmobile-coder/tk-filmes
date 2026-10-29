@@ -1,0 +1,92 @@
+{
+ "arquivo": "IMG_6594",
+ "duracao": 9.64,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 1.38,
+   "texto": "como troca de amargo, entendeu?",
+   "palavras": [
+    {
+     "p": "como",
+     "ini": 0.0,
+     "fim": 0.14,
+     "conf": 0.18
+    },
+    {
+     "p": "troca",
+     "ini": 0.14,
+     "fim": 0.44,
+     "conf": 0.89
+    },
+    {
+     "p": "de",
+     "ini": 0.44,
+     "fim": 0.54,
+     "conf": 0.99
+    },
+    {
+     "p": "amargo,",
+     "ini": 0.54,
+     "fim": 1.06,
+     "conf": 0.74
+    },
+    {
+     "p": "entendeu?",
+     "ini": 1.06,
+     "fim": 1.38,
+     "conf": 0.84
+    }
+   ]
+  },
+  {
+   "ini": 1.56,
+   "fim": 4.22,
+   "texto": "Se quiser trocar, existe a opção, né?",
+   "palavras": [
+    {
+     "p": "Se",
+     "ini": 1.56,
+     "fim": 1.72,
+     "conf": 0.91
+    },
+    {
+     "p": "quiser",
+     "ini": 1.72,
+     "fim": 2.12,
+     "conf": 0.98
+    },
+    {
+     "p": "trocar,",
+     "ini": 2.12,
+     "fim": 3.0,
+     "conf": 0.98
+    },
+    {
+     "p": "existe",
+     "ini": 3.22,
+     "fim": 3.56,
+     "conf": 0.76
+    },
+    {
+     "p": "a",
+     "ini": 3.56,
+     "fim": 3.74,
+     "conf": 0.92
+    },
+    {
+     "p": "opção,",
+     "ini": 3.74,
+     "fim": 4.08,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 4.16,
+     "fim": 4.22,
+     "conf": 0.95
+    }
+   ]
+  }
+ ]
+}

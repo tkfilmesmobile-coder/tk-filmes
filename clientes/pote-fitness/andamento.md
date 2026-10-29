@@ -25,3 +25,4 @@
 - Tom de voz (a definir com a Fernanda).
 - Definir os termos da parceria.
 - Email da Fernanda.
+- [ ] Definir a pasta da Pote Fitness no Drive pra B-roll das diárias (regra de 2026-10-23).

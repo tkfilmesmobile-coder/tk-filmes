@@ -1,0 +1,146 @@
+{
+ "arquivo": "IMG_6491",
+ "duracao": 10.84,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 5.66,
+   "texto": "Três e, afinal, cuidar do cabelo é estética ou saúde?",
+   "palavras": [
+    {
+     "p": "Três",
+     "ini": 0.0,
+     "fim": 0.6,
+     "conf": 0.52
+    },
+    {
+     "p": "e,",
+     "ini": 0.6,
+     "fim": 0.84,
+     "conf": 0.89
+    },
+    {
+     "p": "afinal,",
+     "ini": 1.4,
+     "fim": 2.04,
+     "conf": 0.98
+    },
+    {
+     "p": "cuidar",
+     "ini": 2.68,
+     "fim": 3.04,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 3.04,
+     "fim": 3.16,
+     "conf": 0.96
+    },
+    {
+     "p": "cabelo",
+     "ini": 3.16,
+     "fim": 3.7,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 3.7,
+     "fim": 4.12,
+     "conf": 0.9
+    },
+    {
+     "p": "estética",
+     "ini": 4.12,
+     "fim": 4.7,
+     "conf": 1.0
+    },
+    {
+     "p": "ou",
+     "ini": 4.7,
+     "fim": 5.26,
+     "conf": 1.0
+    },
+    {
+     "p": "saúde?",
+     "ini": 5.26,
+     "fim": 5.66,
+     "conf": 0.86
+    }
+   ]
+  },
+  {
+   "ini": 6.46,
+   "fim": 9.74,
+   "texto": "Os dois, meu amor, e eu vou lhe explicar o porquê.",
+   "palavras": [
+    {
+     "p": "Os",
+     "ini": 6.46,
+     "fim": 6.9,
+     "conf": 0.99
+    },
+    {
+     "p": "dois,",
+     "ini": 6.9,
+     "fim": 7.34,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 7.52,
+     "fim": 7.58,
+     "conf": 0.21
+    },
+    {
+     "p": "amor,",
+     "ini": 7.58,
+     "fim": 7.8,
+     "conf": 0.76
+    },
+    {
+     "p": "e",
+     "ini": 8.18,
+     "fim": 8.3,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 8.3,
+     "fim": 8.42,
+     "conf": 1.0
+    },
+    {
+     "p": "vou",
+     "ini": 8.42,
+     "fim": 8.54,
+     "conf": 1.0
+    },
+    {
+     "p": "lhe",
+     "ini": 8.54,
+     "fim": 8.7,
+     "conf": 0.98
+    },
+    {
+     "p": "explicar",
+     "ini": 8.7,
+     "fim": 9.08,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 9.08,
+     "fim": 9.32,
+     "conf": 1.0
+    },
+    {
+     "p": "porquê.",
+     "ini": 9.32,
+     "fim": 9.74,
+     "conf": 0.99
+    }
+   ]
+  }
+ ]
+}

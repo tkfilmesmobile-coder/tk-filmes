@@ -6,13 +6,18 @@ import { AbsoluteFill, Easing, Sequence, interpolate, staticFile, useCurrentFram
 // branca, num tamanho só, sem caixa, com sombra macia. Palavra-chave só muda pra rosé claro.
 const { fontFamily: NUNITO } = loadNunito("normal", { weights: ["700"], subsets: ["latin", "latin-ext"] });
 
-type Palavra = { text: string; startMs: number; endMs: number; destaque?: boolean };
+// quebra: a palavra começa um trecho novo da montagem (a página anterior fecha antes dela)
+type Palavra = { text: string; startMs: number; endMs: number; destaque?: boolean; quebra?: boolean };
 type Pagina = { palavras: Palavra[]; de: number; ate: number };
 export type Ancora = (frame: number) => { x: number; y: number; escura: boolean };
 
 const MAX_CARACTERES = 50; // duas linhas de ~25 letras
 
-const paginar = (ps: Palavra[]): Pagina[] => {
+// tamanho da legenda: o padrão é o de 2026-10-06; a diária de 2026-10-22 usa a menor (pedido da Talyta, 23/10)
+export type EstiloLegenda = { tamanho: number; maxCaracteres: number; largura: number };
+const PADRAO: EstiloLegenda = { tamanho: 52, maxCaracteres: MAX_CARACTERES, largura: 880 };
+
+const paginar = (ps: Palavra[], MAX_CARACTERES: number): Pagina[] => {
   const paginas: Pagina[] = [];
   let atual: Palavra[] = [];
   const fecha = () => {
@@ -21,17 +26,17 @@ const paginar = (ps: Palavra[]): Pagina[] => {
   };
   for (const p of ps) {
     const texto = (atual.map((x) => x.text).join("") + p.text).trim();
-    if (atual.length && texto.length > MAX_CARACTERES) fecha();
+    if (atual.length && (texto.length > MAX_CARACTERES || p.quebra)) fecha();
     atual.push(p);
     const agora = atual.map((x) => x.text).join("").trim();
     // frase termina: fecha; vírgula fecha só se a página já tem corpo
-    if (/[.?!]$/.test(p.text.trim()) || (/,$/.test(p.text.trim()) && agora.length > 22)) fecha();
+    if (/[.?!]$/.test(p.text.trim()) || (/,$/.test(p.text.trim()) && agora.length > MAX_CARACTERES * 0.45)) fecha();
   }
   fecha();
   return paginas.map((pg, i) => ({ ...pg, ate: Math.min(paginas[i + 1]?.de ?? Infinity, pg.ate + 450) }));
 };
 
-const PaginaLegenda: React.FC<{ pagina: Pagina; dur: number; ancora: Ancora; de: number }> = ({ pagina, dur, ancora, de }) => {
+const PaginaLegenda: React.FC<{ pagina: Pagina; dur: number; ancora: Ancora; de: number; estilo: EstiloLegenda }> = ({ pagina, dur, ancora, de, estilo }) => {
   const frame = useCurrentFrame();
   const { x, y, escura } = ancora(de + frame);
   const ease = { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.bezier(0.16, 1, 0.3, 1) } as const;
@@ -42,13 +47,13 @@ const PaginaLegenda: React.FC<{ pagina: Pagina; dur: number; ancora: Ancora; de:
       <div
         style={{
           position: "absolute",
-          left: x - 440,
-          width: 880,
+          left: x - estilo.largura / 2,
+          width: estilo.largura,
           top: y,
           textAlign: "center",
           fontFamily: NUNITO,
           fontWeight: 700,
-          fontSize: 52,
+          fontSize: estilo.tamanho,
           lineHeight: 1.18,
           letterSpacing: 0.2,
           translate: `0px ${(1 - entra) * 10}px`,
@@ -68,7 +73,7 @@ const PaginaLegenda: React.FC<{ pagina: Pagina; dur: number; ancora: Ancora; de:
   );
 };
 
-export const Legendas: React.FC<{ arquivo: string; ancora: Ancora; ocultar: [number, number][] }> = ({ arquivo, ancora, ocultar }) => {
+export const Legendas: React.FC<{ arquivo: string; ancora: Ancora; ocultar: [number, number][]; estilo?: EstiloLegenda }> = ({ arquivo, ancora, ocultar, estilo = PADRAO }) => {
   const { fps } = useVideoConfig();
   const [palavras, setPalavras] = useState<Palavra[] | null>(null);
   const { delayRender, continueRender, cancelRender } = useDelayRender();
@@ -82,7 +87,7 @@ export const Legendas: React.FC<{ arquivo: string; ancora: Ancora; ocultar: [num
       })
       .catch((e) => cancelRender(e));
   }, [arquivo, continueRender, cancelRender, h]);
-  const paginas = useMemo(() => (palavras ? paginar(palavras) : []), [palavras]);
+  const paginas = useMemo(() => (palavras ? paginar(palavras, estilo.maxCaracteres) : []), [palavras, estilo.maxCaracteres]);
   return (
     <AbsoluteFill>
       {paginas.map((pg, i) => {
@@ -93,7 +98,7 @@ export const Legendas: React.FC<{ arquivo: string; ancora: Ancora; ocultar: [num
         if (dur < 2) return null;
         return (
           <Sequence key={i} name={`Legenda · ${pg.palavras.map((p) => p.text).join("").trim()}`} from={de} durationInFrames={dur}>
-            <PaginaLegenda pagina={pg} dur={dur} ancora={ancora} de={de} />
+            <PaginaLegenda pagina={pg} dur={dur} ancora={ancora} de={de} estilo={estilo} />
           </Sequence>
         );
       })}

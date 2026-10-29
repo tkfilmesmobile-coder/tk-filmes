@@ -1,0 +1,55 @@
+{
+ "arquivo": "IMG_6600",
+ "duracao": 13.76,
+ "segmentos": [
+  {
+   "ini": 7.92,
+   "fim": 9.9,
+   "texto": "Só descobre por que vem pra cá.",
+   "palavras": [
+    {
+     "p": "Só",
+     "ini": 7.92,
+     "fim": 8.36,
+     "conf": 0.84
+    },
+    {
+     "p": "descobre",
+     "ini": 8.36,
+     "fim": 9.04,
+     "conf": 0.99
+    },
+    {
+     "p": "por",
+     "ini": 9.04,
+     "fim": 9.26,
+     "conf": 0.48
+    },
+    {
+     "p": "que",
+     "ini": 9.26,
+     "fim": 9.32,
+     "conf": 0.95
+    },
+    {
+     "p": "vem",
+     "ini": 9.32,
+     "fim": 9.54,
+     "conf": 0.67
+    },
+    {
+     "p": "pra",
+     "ini": 9.54,
+     "fim": 9.7,
+     "conf": 0.72
+    },
+    {
+     "p": "cá.",
+     "ini": 9.7,
+     "fim": 9.9,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

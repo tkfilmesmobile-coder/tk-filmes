@@ -57,7 +57,16 @@ type Figura =
   | { tipo: "chips"; from: number; durationInFrames: number; pos: "alto" | "baixo"; linhas: Linha[]; segue?: boolean }
   | { tipo: "fecho"; from: number; durationInFrames: number; titulo: string; sub?: string; fala?: number }
   // headline: palavras grandes, fonte arredondada, surgindo ATRÁS da cabeça (o rosto é recortado por cima), uma por vez
-  | { tipo: "headline"; from: number; durationInFrames: number; palavras: { texto: string; fala: number }[]; pessoa?: string }
+  | { tipo: "headline"; from: number; durationInFrames: number; palavras: { texto: string; fala: number; cor?: string }[]; pessoa?: string; pos?: "alto" | "baixo" }
+  // palco: o fundo da sala vira um cenário da marca com um dado grande (contador + duas barras); a apresentadora
+  // recortada (pessoa) diminui e vai pro canto direito. Inspirado nas landing pages com a protagonista recortada.
+  | { tipo: "palco"; from: number; durationInFrames: number; pessoa: string; titulo: string; fonte: string; numero: number; unidade: string; sub: string; falaNumero: number; barras: { rotulo: string; valor: number; texto: string }[]; falaBarras: number }
+  // escuro: a sala apaga, fica uma luz na apresentadora e um alvo atrás dela, com tiros errando em volta
+  | { tipo: "escuro"; from: number; durationInFrames: number; pessoa: string; rotulo?: string; tiros: number[] }
+  // manchete: recorte de jornal (veículo, data e título) subindo na parte de baixo, como prova do que se fala
+  | { tipo: "manchete"; from: number; durationInFrames: number; veiculo: string; data: string; texto: string; fala?: number }
+  // celular: o passo a passo no Instagram (painel → insights → público), uma tela por fala
+  | { tipo: "celular"; from: number; durationInFrames: number; telas: { tela: "painel" | "publico" | "pessoa"; fala: number }[] }
   // titulo: título em fonte arredondada acima da cabeça, com brilho varrendo e som "brilho"
   | { tipo: "titulo"; from: number; durationInFrames: number; texto: string; sub?: string; fala?: number }
   // sutil: uma linha pequena em caps, sem pílula, com fio caramelo
@@ -91,7 +100,9 @@ type Reenquadramento = { from: number; durationInFrames: number; escala: number 
 
 export type Estilo = "sans" | "serif" | "caps" | "legenda";
 export type Grade = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I";
-export type VolteiProps = { clipes: Clipe[]; textos: Texto[]; figuras?: Figura[]; legendas?: Legenda[]; zooms?: Zoom[]; reenquadramentos?: Reenquadramento[]; rosto?: PontoRosto[]; etapa: Etapa; grade?: Grade; estilo?: Estilo; fonte?: string; forcar?: { etapa?: Etapa; grade?: Grade; estilo?: Estilo } };
+// legendaPos: "alto" (padrão, acima da cabeça) ou "baixo" (abaixo do queixo, pra quando o enquadramento é fechado
+// e a cabeça encosta no topo: a legenda no alto cobriria a testa)
+export type VolteiProps = { clipes: Clipe[]; textos: Texto[]; figuras?: Figura[]; legendas?: Legenda[]; zooms?: Zoom[]; reenquadramentos?: Reenquadramento[]; rosto?: PontoRosto[]; etapa: Etapa; grade?: Grade; estilo?: Estilo; fonte?: string; legendaPos?: "alto" | "baixo"; sombraBase?: boolean; forcar?: { etapa?: Etapa; grade?: Grade; estilo?: Estilo } };
 
 // Cada vídeo mora em public/<pasta>/ (edicao.json, rosto.json, mídia). O componente é o mesmo pra todos.
 export const calcularVideo = (pasta: string): CalculateMetadataFunction<VolteiProps> => async ({ props }) => {
@@ -103,7 +114,7 @@ export const calcularVideo = (pasta: string): CalculateMetadataFunction<VolteiPr
   return {
     durationInFrames: d.previa ? Math.min(total, d.previa) : total,
     fps: d.fps ?? 30,
-    props: { clipes: d.clipes, textos: d.textos ?? [], figuras: d.figuras ?? [], legendas: d.legendas ?? [], zooms: d.zooms ?? [], reenquadramentos: d.reenquadramentos ?? [], rosto, etapa: props.forcar?.etapa ?? d.etapa ?? "cortes", grade: props.forcar?.grade ?? d.grade ?? "A", estilo: props.forcar?.estilo ?? d.estilo ?? "sans", fonte: d.fonte ?? "voltei/IMG_0511.mp4" },
+    props: { clipes: d.clipes, textos: d.textos ?? [], figuras: d.figuras ?? [], legendas: d.legendas ?? [], zooms: d.zooms ?? [], reenquadramentos: d.reenquadramentos ?? [], rosto, etapa: props.forcar?.etapa ?? d.etapa ?? "cortes", grade: props.forcar?.grade ?? d.grade ?? "A", estilo: props.forcar?.estilo ?? d.estilo ?? "sans", fonte: d.fonte ?? "voltei/IMG_0511.mp4", legendaPos: d.legendaPos ?? "alto", sombraBase: d.sombraBase ?? false },
   };
 };
 
@@ -272,6 +283,7 @@ const LARG_UTIL = ZONA.dir - ZONA.esq; // 860
 // Topo de um texto na zona da legenda: logo abaixo do queixo, nunca sobre o rosto, nunca fora da área útil.
 let TOPO_CABECA: number | null = null; // ponto mais alto da cabeça no vídeo inteiro: a legenda fica parada logo acima
 let QUEIXO_FIXO: number | null = null; // queixo mais baixo do vídeo inteiro: a legenda fica parada abaixo dele
+let LEGENDA_BAIXO = false; // legendaPos "baixo" (ver VolteiProps)
 const abaixoDoQueixo = (rosto: Rosto | null, altura: number) => {
   const queixo = QUEIXO_FIXO ?? (rosto ? rosto.y + (rosto.w * 1.3) / 2 : ZONA.legenda[0]);
   return Math.max(ZONA.legenda[0] + 20, Math.min(queixo + 40, ZONA.base - altura));
@@ -392,7 +404,8 @@ const Headline: React.FC<{ f: Extract<Figura, { tipo: "headline" }>; rosto: Rost
   const { fps } = useVideoConfig();
   const atual = [...f.palavras].reverse().find((p) => frame >= p.fala);
   const topo = rosto ? rosto.topo : 300;
-  const yTexto = Math.max(ZONA.topo + 115, topo - 200); // acima da cabeça, mas nunca fora da área útil
+  // "baixo": no terço de baixo (enquadramento fechado, sem espaço acima da cabeça); senão, acima da cabeça
+  const yTexto = f.pos === "baixo" ? 1330 : Math.max(ZONA.topo + 115, topo - 200);
   let texto: React.ReactNode = null;
   if (atual) {
     const fr = frame - atual.fala;
@@ -401,7 +414,7 @@ const Headline: React.FC<{ f: Extract<Figura, { tipo: "headline" }>; rosto: Rost
     // cabe sempre no quadro: o tamanho vem da largura da palavra (com folga pra escala de entrada)
     const tamanho = Math.min(220, Math.floor((LARG_UTIL - 40) / (atual.texto.length * 0.6)));
     texto = (
-      <div style={{ position: "absolute", left: ZONA.esq, width: LARG_UTIL, top: yTexto - 115, textAlign: "center", fontFamily: redonda, fontWeight: 900, fontSize: tamanho, letterSpacing: "-0.02em", color: "#FBF4EC", textShadow: "0 6px 30px rgba(20,12,8,.35)", transform: `scale(${escala})`, opacity: e, textTransform: "uppercase", whiteSpace: "nowrap" }}>
+      <div style={{ position: "absolute", left: ZONA.esq, width: LARG_UTIL, top: yTexto - 115, textAlign: "center", fontFamily: redonda, fontWeight: 900, fontSize: tamanho, letterSpacing: "-0.02em", color: atual.cor ?? "#FBF4EC", textShadow: f.pos === "baixo" ? "0 6px 30px rgba(20,12,8,.55), 0 2px 8px rgba(20,12,8,.4)" : "0 6px 30px rgba(20,12,8,.35)", transform: `scale(${escala})`, opacity: e, textTransform: "uppercase", whiteSpace: "nowrap" }}>
         {atual.texto}
       </div>
     );
@@ -468,9 +481,11 @@ const LegendaNormal: React.FC<{ l: Legenda; rosto: Rosto | null }> = ({ l }) => 
   // Estilo da referência da Talyta (2026-10-13): serif seminegrito branca, sem caixa nem contorno, sombra leve,
   // de duas a três palavras por vez, parada no alto, logo acima da cabeça (nunca acima da área útil).
   const tamanho = 46;
-  const top = Math.max(ZONA.topo, (TOPO_CABECA ?? 420) - tamanho * 1.25 - 36);
+  const top = LEGENDA_BAIXO ? abaixoDoQueixo(null, tamanho * 2.6) : Math.max(ZONA.topo, (TOPO_CABECA ?? 420) - tamanho * 1.25 - 36);
+  // abaixo do queixo a legenda cai sobre a roupa (às vezes clara): sombra mais encorpada pra continuar legível
+  const sombra = LEGENDA_BAIXO ? "0 2px 10px rgba(20,12,8,.7), 0 0 28px rgba(20,12,8,.45)" : "0 1px 6px rgba(0,0,0,.35)";
   return (
-    <div style={{ position: "absolute", left: ZONA.esq + 40, right: 1080 - ZONA.dir + 40, top, textAlign: "center", fontFamily: lora, fontWeight: 600, fontSize: tamanho, lineHeight: 1.2, color: "#FFFFFF", textShadow: "0 1px 6px rgba(0,0,0,.35)" }}>
+    <div style={{ position: "absolute", left: ZONA.esq + 40, right: 1080 - ZONA.dir + 40, top, textAlign: "center", fontFamily: lora, fontWeight: 600, fontSize: tamanho, lineHeight: 1.2, color: "#FFFFFF", textShadow: sombra }}>
       {l.texto}
     </div>
   );
@@ -722,8 +737,9 @@ const Logo: React.FC<{ f: Extract<Figura, { tipo: "logo" }> }> = ({ f }) => {
     <>
     <AbsoluteFill style={{ background: "#F4EBE1", opacity: fundo }} />
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: fundo }}>
-      <Img src={staticFile("marca/logo.svg")} style={{ width: 620, height: 620, opacity: e, transform: `scale(${0.86 + 0.14 * e})` }} />
-      <div style={{ ...CAPS, fontSize: 24, color: "#8D6545", marginTop: -40, opacity: texto, transform: `translateY(${(1 - texto) * 10}px)` }}>@tk.filmes</div>
+      {/* logo 2.0 vertical (K + "TK / FILMES"), aprovada em 2026-10-26 */}
+      <Img src={staticFile("marca/logo-2.0.svg")} style={{ height: 440, width: "auto", opacity: e, transform: `scale(${0.86 + 0.14 * e})` }} />
+      <div style={{ ...CAPS, fontSize: 24, color: "#8D6545", marginTop: 44, opacity: texto, transform: `translateY(${(1 - texto) * 10}px)` }}>@tk.filmes</div>
     </AbsoluteFill>
     </>
   );
@@ -837,6 +853,187 @@ const Porta: React.FC<{ f: Extract<Figura, { tipo: "porta" }>; rosto: Rosto | nu
   );
 };
 
+// ---------- Cenas com a apresentadora recortada e artes de prova (2026-10-27, reels da eleição) ----------
+const quadroPessoa = (pasta: string, frameAbs: number) => staticFile(`${pasta}/f${String(frameAbs).padStart(5, "0")}.png`);
+const fmt = (n: number, casas = 1) => n.toFixed(casas).replace(".", ",");
+
+const Palco: React.FC<{ f: Extract<Figura, { tipo: "palco" }>; frameAbs: number; grade: Grade }> = ({ f, frameAbs, grade }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const entra = spring({ frame, fps, config: { damping: 20, stiffness: 120 } });
+  const sai = interpolate(frame, [f.durationInFrames - 12, f.durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const k = Math.min(entra, sai);
+  const fundo = Math.min(1, k * 1.8);
+  const escala = 1 - 0.4 * k;
+  const nF = frame - f.falaNumero;
+  const n = interpolate(nF, [0, 22], [0, f.numero], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const eNum = spring({ frame: Math.max(0, nF), fps, config: { damping: 12, stiffness: 140 } });
+  const ALT = 430;
+  return (
+    <>
+      <Sequence from={0} durationInFrames={14}><Audio src={staticFile("sfx/sopro.wav")} volume={0.3} /></Sequence>
+      <Sequence from={f.falaNumero} durationInFrames={20}><Audio src={staticFile("sfx/impacto.wav")} volume={0.4} /></Sequence>
+      {f.barras.map((_, i) => <Sequence key={i} from={f.falaBarras + i * 9} durationInFrames={14}><Audio src={staticFile("sfx/positivo.wav")} volume={0.28} /></Sequence>)}
+      <AbsoluteFill style={{ opacity: fundo, background: "radial-gradient(ellipse at 18% 12%, #FBF6EF 0%, #F1E6DA 55%, #E6D6C6 100%)" }}>
+        <AbsoluteFill style={{ backgroundImage: "linear-gradient(rgba(141,101,69,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(141,101,69,.07) 1px, transparent 1px)", backgroundSize: "90px 90px" }} />
+      </AbsoluteFill>
+      <AbsoluteFill style={{ opacity: fundo }}>
+        <div style={{ position: "absolute", left: 80, top: 270, ...CAPS, fontSize: 22, color: "#8D6545" }}>{f.titulo}</div>
+        <div style={{ position: "absolute", left: 72, top: 320, display: "flex", alignItems: "baseline", gap: 18, transform: `scale(${0.85 + 0.15 * eNum})`, transformOrigin: "left bottom", opacity: nF >= 0 ? 1 : 0 }}>
+          <span style={{ fontFamily: redonda, fontWeight: 900, fontSize: 230, lineHeight: 0.9, color: "#5A3A2E", letterSpacing: "-0.03em" }}>+{fmt(n)}</span>
+          <span style={{ fontFamily: redonda, fontWeight: 900, fontSize: 84, color: "#CD9365", textTransform: "uppercase" }}>{f.unidade}</span>
+        </div>
+        <div style={{ position: "absolute", left: 80, top: 560, width: 860, fontFamily: redonda, fontWeight: 800, fontSize: 40, color: "#5A3A2E", opacity: interpolate(nF, [10, 20], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>{f.sub}</div>
+        {/* barras: comparecimento no 1º e no 2º turno */}
+        <div style={{ position: "absolute", left: 64, bottom: 1920 - 1440, display: "flex", alignItems: "flex-end", gap: 26 }}>
+          {f.barras.map((b, i) => {
+            const e = spring({ frame: Math.max(0, frame - f.falaBarras - i * 9), fps, config: { damping: 16, stiffness: 110 } });
+            const vis = frame >= f.falaBarras + i * 9 ? 1 : 0;
+            return (
+              <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14, opacity: vis }}>
+                <div style={{ fontFamily: redonda, fontWeight: 900, fontSize: 50, color: i === f.barras.length - 1 ? "#B4744A" : "#8D6545" }}>{b.texto}</div>
+                <div style={{ width: 120, height: (b.valor / 100) * ALT * e, borderRadius: "18px 18px 4px 4px", background: i === f.barras.length - 1 ? "linear-gradient(180deg, #D9A273, #B97F55)" : "#CBB59F", boxShadow: "0 14px 30px rgba(90,58,46,.18)" }} />
+                <div style={{ ...CAPS, fontSize: 20, color: "#8D6545" }}>{b.rotulo}</div>
+              </div>
+            );
+          })}
+        </div>
+        <div style={{ position: "absolute", left: 90, top: 1478, fontFamily: inter, fontWeight: 600, fontSize: 20, color: "#8D6545", opacity: 0.85 }}>{f.fonte}</div>
+      </AbsoluteFill>
+      <AbsoluteFill style={{ transform: `scale(${escala})`, transformOrigin: "96% 100%", pointerEvents: "none" }}>
+        <PessoaRecortada src={quadroPessoa(f.pessoa, frameAbs)} grade={grade} transformVideo={{}} />
+      </AbsoluteFill>
+    </>
+  );
+};
+
+const Escuro: React.FC<{ f: Extract<Figura, { tipo: "escuro" }>; frameAbs: number; grade: Grade; transformVideo: React.CSSProperties }> = ({ f, frameAbs, grade, transformVideo }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const apaga = Math.min(interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" }), interpolate(frame, [f.durationInFrames - 8, f.durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
+  // tiros espalhados, fora do centro do alvo (errando)
+  const POS = [[150, 420], [930, 300], [880, 760], [190, 900], [990, 560], [110, 640], [800, 160], [260, 220]];
+  return (
+    <>
+      <Sequence from={0} durationInFrames={14}><Audio src={staticFile("sfx/sopro.wav")} volume={0.3} /></Sequence>
+      {f.tiros.map((t, i) => <Sequence key={i} from={t} durationInFrames={12}><Audio src={staticFile("sfx/tique.wav")} volume={0.5} /></Sequence>)}
+      <AbsoluteFill style={{ opacity: apaga, background: "#0b0806" }}>
+        <AbsoluteFill style={{ background: "radial-gradient(ellipse 46% 38% at 50% 36%, rgba(255,226,196,.30) 0%, rgba(255,226,196,.08) 55%, rgba(0,0,0,0) 100%)" }} />
+        <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+          {[520, 400, 280, 160].map((r, i) => <circle key={i} cx={540} cy={560} r={r} fill="none" stroke="rgba(227,180,140,.28)" strokeWidth={i === 3 ? 3 : 2} />)}
+          <line x1={540} y1={0} x2={540} y2={1120} stroke="rgba(227,180,140,.14)" strokeWidth={2} />
+          <line x1={0} y1={560} x2={1080} y2={560} stroke="rgba(227,180,140,.14)" strokeWidth={2} />
+          {f.tiros.map((t, i) => {
+            const fr = frame - t; if (fr < 0) return null;
+            const e = spring({ frame: fr, fps, config: { damping: 10, stiffness: 220 } });
+            const [x, y] = POS[i % POS.length];
+            return <g key={i} transform={`translate(${x} ${y}) scale(${0.4 + 0.6 * e})`} opacity={e}>
+              <line x1={-16} y1={-16} x2={16} y2={16} stroke="#E3B48C" strokeWidth={5} strokeLinecap="round" />
+              <line x1={16} y1={-16} x2={-16} y2={16} stroke="#E3B48C" strokeWidth={5} strokeLinecap="round" />
+            </g>;
+          })}
+        </svg>
+      </AbsoluteFill>
+      <PessoaRecortada src={quadroPessoa(f.pessoa, frameAbs)} grade={grade} transformVideo={transformVideo} />
+      {f.rotulo ? <div style={{ position: "absolute", left: 0, right: 0, top: 1300, textAlign: "center", fontFamily: redonda, fontWeight: 900, fontSize: 64, letterSpacing: "-0.01em", textTransform: "uppercase", color: "#F3D2B3", opacity: apaga * interpolate(frame, [f.tiros[0] ?? 0, (f.tiros[0] ?? 0) + 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), textShadow: "0 4px 24px rgba(0,0,0,.9), 0 0 2px rgba(0,0,0,.6)" }}>{f.rotulo}</div> : null}
+    </>
+  );
+};
+
+const Manchete: React.FC<{ f: Extract<Figura, { tipo: "manchete" }> }> = ({ f }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const e = spring({ frame, fps, config: { damping: 15, stiffness: 120 } });
+  const sai = interpolate(frame, [f.durationInFrames - 10, f.durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const pulso = usePulso(f.fala, frame, fps);
+  return (
+    <>
+      <Audio src={staticFile("sfx/vidro.wav")} volume={0.3} />
+      <div style={{ position: "absolute", left: 80, right: 80, top: 1090, opacity: e * sai, transform: `translateY(${(1 - e) * 120}px) rotate(-2deg) scale(${pulso.escala * 0.98 + 0.02})`, background: "#FBF8F3", borderRadius: 6, padding: "30px 36px 34px", boxShadow: "0 30px 70px rgba(20,12,8,.45)", backgroundImage: "linear-gradient(180deg, rgba(0,0,0,.02), rgba(0,0,0,0) 30%)" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", borderBottom: "2px solid #2B1D16", paddingBottom: 12, marginBottom: 16 }}>
+          <span style={{ fontFamily: lora, fontWeight: 600, fontSize: 28, color: "#2B1D16" }}>{f.veiculo}</span>
+          <span style={{ fontFamily: inter, fontWeight: 600, fontSize: 20, color: "#6B5446", alignSelf: "center" }}>{f.data}</span>
+        </div>
+        <div style={{ fontFamily: lora, fontWeight: 600, fontSize: 42, lineHeight: 1.18, color: "#1F1510" }}>{f.texto}</div>
+      </div>
+    </>
+  );
+};
+
+// Celular com a interface do painel profissional (desenhada, sem marca de terceiros), uma tela por fala
+const Celular: React.FC<{ f: Extract<Figura, { tipo: "celular" }> }> = ({ f }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const e = spring({ frame, fps, config: { damping: 16, stiffness: 120 } });
+  const sai = interpolate(frame, [f.durationInFrames - 10, f.durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const atual = [...f.telas].reverse().find((t) => frame >= t.fala) ?? f.telas[0];
+  const fr = frame - atual.fala;
+  const troca = spring({ frame: Math.max(0, fr), fps, config: { damping: 18, stiffness: 160 } });
+  const UI: React.CSSProperties = { fontFamily: inter, color: "#1b1b1b" };
+  const barra = (rot: string, pct: number, forte: boolean, atraso: number) => {
+    const b = spring({ frame: Math.max(0, fr - atraso), fps, config: { damping: 16, stiffness: 120 } });
+    return (
+      <div style={{ marginBottom: 14 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 19, fontWeight: forte ? 700 : 500, marginBottom: 6 }}><span>{rot}</span><span>{pct}%</span></div>
+        <div style={{ height: 12, borderRadius: 6, background: "#ececec" }}><div style={{ width: `${pct * b}%`, height: "100%", borderRadius: 6, background: forte ? "#B97F55" : "#c9c9c9" }} /></div>
+      </div>
+    );
+  };
+  let tela: React.ReactNode = null;
+  if (atual.tela === "painel") {
+    const toque = interpolate(fr, [10, 16, 26], [0, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+    tela = (
+      <div style={{ ...UI, padding: "26px 24px" }}>
+        <div style={{ fontSize: 28, fontWeight: 700, marginBottom: 22 }}>Painel profissional</div>
+        {["Insights da conta", "Ferramentas e controles", "Anúncios", "Monetização"].map((t, i) => (
+          <div key={t} style={{ position: "relative", padding: "20px 18px", marginBottom: 10, borderRadius: 14, fontSize: 22, fontWeight: i === 0 ? 700 : 500, background: i === 0 ? "#F5E7DA" : "#f5f5f5", border: i === 0 ? "2px solid #CD9365" : "2px solid transparent" }}>
+            {t}
+            {i === 0 ? <div style={{ position: "absolute", right: 30, top: "50%", width: 54, height: 54, marginTop: -27, borderRadius: 27, background: "rgba(205,147,101,.45)", transform: `scale(${0.5 + toque})`, opacity: toque }} /> : null}
+          </div>
+        ))}
+      </div>
+    );
+  } else if (atual.tela === "publico") {
+    tela = (
+      <div style={{ ...UI, padding: "26px 24px" }}>
+        <div style={{ fontSize: 28, fontWeight: 700, marginBottom: 6 }}>Público</div>
+        <div style={{ fontSize: 17, color: "#777", marginBottom: 22 }}>Quem te assiste</div>
+        <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 10 }}>Principais cidades</div>
+        {barra("União dos Palmares", 61, true, 2)}
+        {barra("Outras cidades", 39, false, 6)}
+        <div style={{ fontSize: 18, fontWeight: 700, margin: "18px 0 10px" }}>Gênero</div>
+        {barra("Mulheres", 75, true, 10)}
+        {barra("Homens", 25, false, 14)}
+      </div>
+    );
+  } else {
+    const c = spring({ frame: Math.max(0, fr - 4), fps, config: { damping: 14, stiffness: 140 } });
+    tela = (
+      <div style={{ ...UI, padding: "26px 24px" }}>
+        <div style={{ fontSize: 28, fontWeight: 700, marginBottom: 22 }}>Seu público</div>
+        <div style={{ borderRadius: 18, padding: 22, background: "linear-gradient(160deg, #F5E7DA, #EBD5C0)", border: "2px solid #CD9365", transform: `scale(${0.9 + 0.1 * c})`, opacity: c }}>
+          <div style={{ width: 70, height: 70, borderRadius: 35, background: "#CD9365", marginBottom: 14, display: "grid", placeItems: "center", color: "#fff", fontSize: 34, fontWeight: 800 }}>♀</div>
+          <div style={{ fontSize: 24, fontWeight: 700, lineHeight: 1.3 }}>Mulher, 25 a 34 anos, de União dos Palmares</div>
+          <div style={{ fontSize: 18, color: "#6B5446", marginTop: 12 }}>É com ela que o próximo post vai falar.</div>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <>
+      <Audio src={staticFile("sfx/vidro.wav")} volume={0.3} />
+      {f.telas.map((t, i) => (i > 0 ? <Sequence key={i} from={t.fala} durationInFrames={12}><Audio src={staticFile("sfx/tique.wav")} volume={0.35} /></Sequence> : null))}
+      {/* abaixo do queixo, à esquerda: não cobre o rosto; a tela é desenhada em 390 px e reduzida pra caber */}
+      <div style={{ position: "absolute", left: 66, top: 990, width: 330, height: 560, borderRadius: 46, background: "#141010", padding: 10, boxShadow: "0 40px 80px rgba(20,12,8,.5)", opacity: e * sai, transform: `translateX(${(1 - e) * -140}px) rotate(-3deg)` }}>
+        <div style={{ width: "100%", height: "100%", borderRadius: 38, background: "#ffffff", overflow: "hidden", position: "relative" }}>
+          <div style={{ height: 34, display: "flex", alignItems: "center", justifyContent: "center" }}><div style={{ width: 90, height: 22, borderRadius: 11, background: "#141010" }} /></div>
+          <div style={{ width: 390, transform: `scale(${310 / 390}) translateX(${(1 - troca) * 40}px)`, transformOrigin: "top left", opacity: troca }}>{tela}</div>
+        </div>
+      </div>
+    </>
+  );
+};
+
 const FiguraNaTela: React.FC<{ f: Figura; rosto: Rosto | null; frameAbs: number; transformVideo: React.CSSProperties; grade: Grade }> = ({ f, rosto, frameAbs, transformVideo, grade }) =>
   f.tipo === "cartao" ? <Cartao f={f} rosto={rosto} />
   : f.tipo === "chips" ? <Chips f={f} rosto={rosto} />
@@ -854,6 +1051,10 @@ const FiguraNaTela: React.FC<{ f: Figura; rosto: Rosto | null; frameAbs: number;
   : f.tipo === "assets" ? <Assets f={f} />
   : f.tipo === "comentario" ? <Comentario f={f} />
   : f.tipo === "porta" ? <Porta f={f} rosto={rosto} frameAbs={frameAbs} transformVideo={transformVideo} grade={grade} />
+  : f.tipo === "palco" ? <Palco f={f} frameAbs={frameAbs} grade={grade} />
+  : f.tipo === "escuro" ? <Escuro f={f} frameAbs={frameAbs} grade={grade} transformVideo={transformVideo} />
+  : f.tipo === "manchete" ? <Manchete f={f} />
+  : f.tipo === "celular" ? <Celular f={f} />
   : <Fecho f={f} />;
 
 // Posição do rosto no frame atual (px), suavizada com média de ±0,35 s sobre os pontos do rastreio.
@@ -873,7 +1074,8 @@ const rostoNoFrame = (pontos: PontoRosto[], frame: number, fps: number): Rosto |
   return { x: (x / sw) * 1080, y: (y / sw) * 1920, w: (w / sw) * 1080, topo: (topo / sw) * 1920 };
 };
 
-export const Voltei: React.FC<VolteiProps> = ({ clipes, textos, figuras = [], legendas = [], zooms = [], reenquadramentos = [], rosto = [], etapa, grade = "A", estilo = "sans", fonte = "voltei/IMG_0511.mp4" }) => {
+export const Voltei: React.FC<VolteiProps> = ({ clipes, textos, figuras = [], legendas = [], zooms = [], reenquadramentos = [], rosto = [], etapa, grade = "A", estilo = "sans", fonte = "voltei/IMG_0511.mp4", legendaPos = "alto", sombraBase = false }) => {
+  LEGENDA_BAIXO = legendaPos === "baixo";
   const cor = etapa !== "cortes";
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -924,6 +1126,8 @@ export const Voltei: React.FC<VolteiProps> = ({ clipes, textos, figuras = [], le
       </AbsoluteFill>
       {cor ? <Vinheta /> : null}
       {cor ? <Grao /> : null}
+      {/* sombraBase: escurece de leve a metade de baixo (roupa clara atrás dos textos), como uma luz de cinema caindo */}
+      {cor && sombraBase ? <AbsoluteFill style={{ background: "linear-gradient(to top, rgba(28,19,15,.48) 0%, rgba(28,19,15,.30) 26%, rgba(28,19,15,.08) 46%, rgba(28,19,15,0) 58%)", pointerEvents: "none" }} /> : null}
       {etapa === "completo"
         ? zooms.map((z, i) => (
             <Sequence key={`z${i}`} from={z.from} durationInFrames={12} name="Sopro">

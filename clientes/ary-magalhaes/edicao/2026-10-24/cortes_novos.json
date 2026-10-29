@@ -1,0 +1,137 @@
+[
+ {
+  "id": "selagem-3-coisas",
+  "nome": "2 · 3 coisas que você faz em casa e acabam com a sua selagem",
+  "correcoes": {"celade.": "selagem.", "celade,": "selagem,", "chapim": "chapinha"},
+  "destaques": ["selagem.", "selagem", "protetor", "térmico", "térmica.", "chapinha", "secador,", "cronograma", "capilar", "molhado", "travesseiro", "atrito", "poroso.", "frizz", "espigado.", "cuidado", "casa."],
+  "trechos": [
+   {"arq": "IMG_6481", "tipo": "voz", "de": 24.02, "ate": 30.6, "zoom": 1.0},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 66.15, "ate": 68.2, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 78.88, "ate": 84.7, "zoom": 1.0},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 86.68, "ate": 101.7, "zoom": 1.0, "quebra": true},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 106.5, "ate": 115.9, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 117.08, "ate": 118.5, "zoom": 1.1},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 142.6, "ate": 147.6, "zoom": 1.0, "quebra": true},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 147.82, "ate": 157.25, "zoom": 1.06},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 157.38, "ate": 166.7, "zoom": 1.0, "quebra": true},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 179.28, "ate": 184.7, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 186.54, "ate": 207.7, "zoom": 1.0},
+   {"arq": "IMG_6481", "tipo": "voz", "de": 234.99, "ate": 247.6, "zoom": 1.06, "quebra": true}
+  ],
+  "headline": {"caps": "SE VOCÊ FAZ SELAGEM", "titulo": "Três coisas que acabam", "italico": "com a sua selagem", "de": 24.02, "ate": 28.2},
+  "passosTitulo": [
+   {"de": 66.15, "ate": 80.6, "num": "1", "titulo": "Protetor térmico"},
+   {"de": 142.6, "ate": 145.6, "num": "2", "titulo": "Cronograma capilar"},
+   {"de": 179.28, "ate": 182.0, "num": "3", "titulo": "Cabelo molhado na cama"}
+  ],
+  "cartoes": [
+   {"de": 81.0, "ate": 82.9, "foto": "banco/chapinha-andrea-donato-unsplash.jpg", "rotulo": "CHAPINHA", "lado": "esq"},
+   {"de": 81.2, "ate": 82.9, "foto": "drive/atend-quadro-IMG_6328-6s.jpg", "rotulo": "SECADOR", "lado": "dir"}
+  ],
+  "brolls": [
+   {"de": 147.82, "ate": 151.1, "video": "IMG_6333", "srcDe": 6.0},
+   {"de": 153.5, "ate": 157.25, "video": "IMG_6276", "srcDe": 20.0},
+   {"de": 237.0, "ate": 240.0, "video": "IMG_6341", "srcDe": 1.0},
+   {"de": 243.75, "ate": 247.4, "video": "IMG_6236", "srcDe": 14.0}
+  ],
+  "zooms": [
+   {"de": 82.16, "ate": 84.4, "z": 1.12},
+   {"de": 145.62, "ate": 147.5, "z": 1.12},
+   {"de": 183.32, "ate": 184.6, "z": 1.14}
+  ],
+  "motions": [
+   {"tipo": "protetor", "passos": {"entra": 86.68, "camada": 91.68, "calor": 96.14, "sem": 106.5, "poroso": 109.78, "frizz": 112.58, "espigado": 115.16, "sai": 118.5}},
+   {"tipo": "mito", "passos": {"entra": 157.38, "mentira": 164.24, "verdade": 164.94, "sai": 166.7}},
+   {"tipo": "molhado", "passos": {"entra": 186.54, "atrito": 201.3, "sai": 207.7}}
+  ],
+  "sfx": [],
+  "fotoFinal": {"foto": "IMG_6486.jpg", "dur": 2.8, "titulo": "Faça a sua parte em casa", "chamada": "Me chama no WhatsApp", "pos": "center 15%"}
+ },
+ {
+  "id": "cabelo-de-salao-em-casa",
+  "nome": "9 · Como manter o cabelo de salão em casa",
+  "correcoes": {"mais": "mas", "cheios": "sim"},
+  "destaques": ["protetor", "térmico", "molhado", "cronograma", "capilar.", "retoque", "selagem", "salão", "aqui."],
+  "trechos": [
+   {"arq": "IMG_6505", "tipo": "voz", "de": 1.79, "ate": 6.5, "zoom": 1.0},
+   {"arq": "IMG_6505", "tipo": "voz", "de": 7.09, "ate": 10.2, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6505", "tipo": "voz", "de": 11.29, "ate": 18.25, "zoom": 1.0, "quebra": true},
+   {"arq": "IMG_6505", "tipo": "voz", "de": 28.05, "ate": 38.68, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6505", "tipo": "voz", "de": 57.09, "ate": 66.0, "zoom": 1.0},
+   {"arq": "IMG_6505", "tipo": "voz", "de": 83.55, "ate": 91.35, "zoom": 1.06, "quebra": true}
+  ],
+  "headline": {"caps": "SE LIGA NESSA DICA", "titulo": "Cabelo de salão", "italico": "em casa", "de": 1.79, "ate": 5.6},
+  "cartoes": [],
+  "brolls": [
+   {"de": 30.2, "ate": 33.95, "video": "IMG_6333", "srcDe": 9.0},
+   {"de": 35.0, "ate": 38.6, "video": "IMG_6240", "srcDe": 2.0},
+   {"de": 62.0, "ate": 66.0, "video": "IMG_6328", "srcDe": 1.0},
+   {"de": 89.9, "ate": 91.35, "video": "IMG_6236", "srcDe": 14.0}
+  ],
+  "zooms": [
+   {"de": 13.27, "ate": 14.0, "z": 1.12},
+   {"de": 83.55, "ate": 84.7, "z": 1.08}
+  ],
+  "motions": [
+   {"tipo": "lista", "passos": {"entra": 7.09, "i1": 8.75, "i2": 12.47, "i3": 15.99, "sai": 18.25}}
+  ],
+  "sfx": [],
+  "fotoFinal": {"foto": "IMG_6482.jpg", "dur": 2.8, "titulo": "Esse lugar é aqui", "chamada": "Agende pelo WhatsApp", "pos": "center 18%"}
+ },
+ {
+  "id": "sobrancelha",
+  "nome": "6 · Sabia que eu também faço sobrancelha?",
+  "destaques": ["sobrancelha?", "sobrancelha", "impecável", "desalinhada.", "rosto", "natural", "completo"],
+  "trechos": [
+   {"arq": "IMG_6489", "tipo": "voz", "de": 2.91, "ate": 7.0, "zoom": 1.0},
+   {"arq": "IMG_6489", "tipo": "voz", "de": 21.49, "ate": 28.9, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6489", "tipo": "voz", "de": 29.51, "ate": 31.7, "zoom": 1.0},
+   {"arq": "IMG_6489", "tipo": "voz", "de": 55.2, "ate": 61.75, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6489", "tipo": "voz", "de": 93.48, "ate": 97.2, "zoom": 1.0, "quebra": true}
+  ],
+  "headline": {"caps": "POUCA GENTE SABE", "titulo": "Eu também faço", "italico": "sobrancelha", "de": 2.91, "ate": 6.9},
+  "cartoes": [
+   {"de": 24.15, "ate": 26.0, "foto": "drive/atend-quadro-IMG_6333-12s.jpg", "rotulo": "CABELO", "lado": "esq"},
+   {"de": 26.13, "ate": 28.9, "foto": "banco/sobrancelha-kt-leung-unsplash.jpg", "rotulo": "SOBRANCELHA", "lado": "dir"}
+  ],
+  "brolls": [
+   {"de": 29.51, "ate": 31.7, "video": "IMG_6233", "srcDe": 4.0}
+  ],
+  "zooms": [
+   {"de": 27.87, "ate": 28.9, "z": 1.12}
+  ],
+  "motions": [
+   {"tipo": "rosto", "passos": {"entra": 55.2, "formato": 59.92, "sai": 61.75}}
+  ],
+  "sfx": [],
+  "fotoFinal": {"foto": "IMG_6485.jpg", "dur": 2.8, "titulo": "Seu dia de beleza completo", "chamada": "Agende pelo WhatsApp", "pos": "center 18%"}
+ },
+ {
+  "id": "estetica-ou-saude",
+  "nome": "8 · Cabelo bonito é cabelo saudável",
+  "correcoes": {"pulvos": "fios"},
+  "destaques": ["estética", "saúde?", "saúde", "brilho,", "glamour,", "hidratado.", "resistência", "consequência.", "construção", "constância"],
+  "trechos": [
+   {"arq": "IMG_6493", "tipo": "voz", "de": 0.94, "ate": 8.75, "zoom": 1.0},
+   {"arq": "IMG_6493", "tipo": "voz", "de": 63.0, "ate": 63.7, "zoom": 1.0, "quebra": true},
+   {"arq": "IMG_6493", "tipo": "voz", "de": 65.84, "ate": 76.0, "zoom": 1.0},
+   {"arq": "IMG_6493", "tipo": "voz", "de": 85.15, "ate": 93.1, "zoom": 1.06, "quebra": true},
+   {"arq": "IMG_6493", "tipo": "voz", "de": 113.34, "ate": 117.6, "zoom": 1.0, "quebra": true},
+   {"arq": "IMG_6494", "tipo": "voz", "de": 47.04, "ate": 54.1, "zoom": 1.06, "quebra": true}
+  ],
+  "headline": {"caps": "CUIDAR DO CABELO É", "titulo": "Estética ou saúde?", "italico": "", "de": 0.94, "ate": 5.0},
+  "cartoes": [],
+  "brolls": [
+   {"de": 73.0, "ate": 76.0, "video": "IMG_6341", "srcDe": 5.0},
+   {"arq": "IMG_6494", "de": 47.04, "ate": 49.9, "video": "IMG_6276", "srcDe": 4.0}
+  ],
+  "zooms": [
+   {"de": 5.98, "ate": 8.75, "z": 1.1}
+  ],
+  "motions": [
+   {"tipo": "saude", "passos": {"entra": 67.44, "brilho": 69.78, "glamour": 70.52, "hidratado": 71.46, "saude": 85.15, "resistencia": 89.05, "interna": 91.57, "consequencia": 113.34, "sai": 117.6}}
+  ],
+  "sfx": [],
+  "fotoFinal": {"foto": "IMG_6506.jpg", "dur": 2.8, "titulo": "Agende o seu horário", "chamada": "Me chama no WhatsApp", "pos": "center 18%"}
+ }
+]

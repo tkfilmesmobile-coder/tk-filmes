@@ -15,6 +15,8 @@ function parseArgs() {
     else if (args[i] === "--caption-file") opts.caption = fs.readFileSync(args[++i], "utf8").trim();
     else if (args[i] === "--colaboradores") opts.colaboradores = args[++i].split(",").map(s => s.trim().replace(/^@/, "")).filter(Boolean);
     else if (args[i] === "--story") opts.story = true;
+    // TK Filmes (28/10/2026): capa do reels (jpg 9:16). Sem ela o Instagram usa um quadro do vídeo.
+    else if (args[i] === "--cover") opts.cover = args[++i];
   }
   return opts;
 }
@@ -92,13 +94,14 @@ async function createSingleImageContainer(imageUrl, caption) {
 }
 
 // --- Criar container de video (Reels) ---
-async function createVideoContainer(videoUrl, caption) {
+async function createVideoContainer(videoUrl, caption, coverUrl) {
   const body = new URLSearchParams({
     media_type: "REELS",
     video_url: videoUrl,
     caption,
     access_token: TOKEN,
   });
+  if (coverUrl) body.append("cover_url", coverUrl);
   if (OPTS.colaboradores && OPTS.colaboradores.length) body.append("collaborators", JSON.stringify(OPTS.colaboradores));
   const res = await fetch(`${GRAPH}/${USER_ID}/media`, { method: "POST", body });
   const json = await res.json();
@@ -212,6 +215,11 @@ async function main() {
     console.log(`Fazendo upload do video pro catbox...`);
     const videoUrl = uploadFile(opts.video);
     console.log(`  OK: ${videoUrl}`);
+    let coverUrl = "";
+    if (opts.cover && !opts.story) {
+      coverUrl = uploadFile(opts.cover);
+      console.log(`  capa OK: ${path.basename(opts.cover)}`);
+    }
 
     if (opts.dryRun) {
       console.log(`\nDRY RUN — video pronto mas nao publicado`);
@@ -237,7 +245,13 @@ async function main() {
     }
 
     console.log(`\nCriando container de video...`);
-    const containerId = await createVideoContainer(videoUrl, opts.caption);
+    let containerId;
+    try { containerId = await createVideoContainer(videoUrl, opts.caption, coverUrl); }
+    catch (e) {
+      if (!coverUrl) throw e;
+      console.log(`  a capa foi recusada (${e.message}); sigo sem capa`);
+      containerId = await createVideoContainer(videoUrl, opts.caption, "");
+    }
     console.log(`  Container: ${containerId}`);
 
     console.log(`Aguardando processamento (pode levar ate 2 min)...`);
