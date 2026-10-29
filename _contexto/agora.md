@@ -13,7 +13,9 @@ e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo
 Em 2026-10-20 entrou a Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): contrato pronto, esperando
 assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.
 Em 2026-10-22 o carrossel "o caso da Mari" da Dra. Camilla não saiu pela tarefa das 12h e foi publicado à mão às 14h, do
-computador principal; a tarefa do outro PC foi cancelada. Em 2026-10-23 o Galeguinho pagou novembro (Pix de R$ 800) e ficou
+computador principal; a tarefa do outro PC foi cancelada. Em 2026-10-26 o Reels do depoimento da Mari refeito (v4, fotos na
+ordem certa) foi publicado à mão pelo PC do escritório (a publicação automática deste PC não achou o vídeo e não postou);
+post 4 pronto sem data (`clientes/camilla-wanderley/andamento.md`). Em 2026-10-23 o Galeguinho pagou novembro (Pix de R$ 800) e ficou
 em dia até novembro (maio a outubro confirmados pela Talyta); comprovante no Drive dele, `DOCUMENTAÇÃO/Comprovante pagamento/2026/NOVEMBRO`.
 
 Em 2026-10-23, diária de 22/10 da Dra. Camilla: 6 vídeos aprovados no Drive (`VÍDEOS EDITADOS/2026-10`), 19 B-rolls, color grade fixo e kit de música dela; falta o vídeo do implante (animação realista na cota grátis diária do Hugging Face, ver `clientes/camilla-wanderley/andamento.md`).
@@ -21,11 +23,12 @@ Em 2026-10-24: 6 carrosséis da diária prontos (16 refeito só com a mesma paci
 (`clientes/camilla-wanderley/calendarios/2026-11-12-datas-comemorativas.md`). Próximo: confirmar com a doutora o pai e as quintas de fim de ano, e montar os calendários.
 Em 2026-10-27: reel "Meu dia de princesa" (trend da Rapunzel) da Marielly Makeup editado; a v3 (cor refeita, Pascal no olhar
 dela, magia com brilhos na revelação, áudio da trend) está em `clientes/marielly-makeup/edicao/2026-10-trend-rapunzel/out/` esperando aprovação da Talyta.
-Em 2026-10-28 entrou a Start Fitness (academia, edição avulsa de 2 vídeos, `clientes/start-fitness/`): a v1 da chamada da 2ª Corrida
-(1º/11) está no Drive dela (`Start Fitnes/POSTS/2026-10`), esperando aprovação e a inspiração de edição que a Talyta ia mandar.
+Em 2026-10-28 entrou a Start Fitness (academia, edição avulsa de 2 vídeos, `clientes/start-fitness/`): os dois foram aprovados
+e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada da 2ª Corrida (1º/11) e a entrevista de expectativas.
 
 ## Pendências
-- **Start Fitness:** aprovar a v1 da chamada da 2ª Corrida (a distribuição do kit é quinta 29/10 às 17h, então o vídeo precisa sair antes); mandar a inspiração de edição; material do vídeo 2; valor, contato, cidade, @ e logo. (2026-10-28)
+- **Dra. Camilla:** decidir se apaga o Reels v1 da Mari (21/10) e o carrossel de 22/10 (slide 3 chama a foto pós aparelho de "ANTES"); data do post 4; autorização de imagem da Mari e da paciente do Periodontite. Detalhes em `clientes/camilla-wanderley/andamento.md`. (2026-10-26)
+- **Start Fitness:** confirmar a fala de 24 s da chamada ("joga o kit"?); valor, contato, cidade, @ e logo. (2026-10-28)
 - **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entregue no Drive `Marielly Makeup/Dia de princesa (trend Rapunzel).mp4`. (2026-10-27)
 - **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)

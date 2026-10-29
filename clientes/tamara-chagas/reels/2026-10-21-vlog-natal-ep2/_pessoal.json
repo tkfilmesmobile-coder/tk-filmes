@@ -1,0 +1,28 @@
+[
+ {
+  "id": "1-card",
+  "foto": "vlog-natal/ep02-6635.jpg",
+  "kicker": "NOVO NO FEED",
+  "pos": "baixo",
+  "tam": 54,
+  "texto": "Saiu o EP. 02 do nosso vlog de Natal: hoje foi dia de testar onde fica cada decoração."
+ },
+ {
+  "id": "2-notas",
+  "foto": "vlog-natal/ep02-6641.jpg",
+  "kicker": "DECORAÇÃO DE NATAL · EP. 02",
+  "pos": "baixo",
+  "tam": 42,
+  "texto": "1. Trouxemos as decorações <b>de casa</b><br>2. Testamos o <b>Papai Noel</b> e o <b>Grinch</b><br>3. E a <b>sala de reunião</b> ganhou o seu lugar",
+  "fonte": ""
+ },
+ {
+  "id": "3-conversa",
+  "foto": "vlog-natal/ep02-6643.jpg",
+  "kicker": "DÚVIDA COMUM",
+  "pos": "baixo",
+  "tam": 50,
+  "texto": "“Esse ano a decoração vai ser a mais bonita de todas?”",
+  "sub": "Estamos caprichando em cada detalhe. Acompanha os episódios!"
+ }
+]

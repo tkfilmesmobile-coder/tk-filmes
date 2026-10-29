@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "vlog-natal/ep02-6637.jpg",
+  "kicker": "VLOG DE NATAL · EP. 02",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Testando a <b>decoração.</b>",
+  "sub": "O segundo episódio já está no feed."
+ },
+ {
+  "id": "02",
+  "foto": "vlog-natal/ep02-6640.jpg",
+  "kicker": "HOJE",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Tudo <b>de casa</b> pro escritório.",
+  "sub": "Papai Noel, Grinch e muita ideia pra cada cantinho.",
+  "fonte": ""
+ },
+ {
+  "id": "03",
+  "foto": "vlog-natal/ep02-6647.jpg",
+  "kicker": "PRÓXIMO EPISÓDIO",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Tem muito mais <b>vindo aí.</b>",
+  "sub": "Conta nos comentários o que você quer ver no EP. 03.",
+  "fonte": ""
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0110.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Feito com carinho <b>pra vocês.</b>",
+  "sub": "Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]
