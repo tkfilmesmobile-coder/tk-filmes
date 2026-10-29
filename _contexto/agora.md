@@ -10,8 +10,8 @@ no Drive dele esperando a troca pelo app. Cliente nova Ary Magalhães (@cabelosm
 novembro prontos e agendados, stories do Dia das Crianças publicados em 12/10; faltam os roteiros dos reels (`clientes/ary-magalhaes/`).
 Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): 2 edições aprovadas, o carrossel de antes e depois (2026-10-17) e o reel "autocuidado" (2026-10-21, Drive `POSTS/POST 2`); o carrossel foi aprovado
 e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo v6 ficou como rascunho (`clientes/melissa-morais/`).
-Em 2026-10-20 entrou a Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): contrato pronto, esperando
-assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.
+Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): 1ª diária em 28/10 e os 2 primeiros vídeos
+(apresentação e consultório) entregues em 29/10 no Drive, com nome "Dra. Anna Líbya", CRO-AL 3773 e @draannalibyaduarte; contrato esperando assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.
 Em 2026-10-22 o carrossel "o caso da Mari" da Dra. Camilla não saiu pela tarefa das 12h e foi publicado à mão às 14h, do
 computador principal; a tarefa do outro PC foi cancelada. Em 2026-10-26 o Reels do depoimento da Mari refeito (v4, fotos na
 ordem certa) foi publicado à mão pelo PC do escritório (a publicação automática deste PC não achou o vídeo e não postou);
@@ -36,7 +36,7 @@ no PC do escritório). Regras novas na ficha dela: curadoria de toda fala (feed 
 - **Dra. Camilla:** decidir se apaga o Reels v1 da Mari (21/10) e o carrossel de 22/10 (slide 3 chama a foto pós aparelho de "ANTES"); data do post 4; autorização de imagem da Mari e da paciente do Periodontite. Detalhes em `clientes/camilla-wanderley/andamento.md`. (2026-10-26)
 - **Start Fitness:** confirmar a fala de 24 s da chamada ("joga o kit"?); valor, contato, cidade, @ e logo. (2026-10-28)
 - **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entregue no Drive `Marielly Makeup/Dia de princesa (trend Rapunzel).mp4`. (2026-10-27)
-- **Dra. Annalibya:** assinar o contrato (ela preenche nacionalidade, estado civil, CRO e endereço); número do CRO; confirmar o telefone ((82) 9 9444-7753?); email, especialidade e objetivo; criar o Instagram dela; brand book; marcar a 1ª diária. (2026-10-20)
+- **Dra. Annalibya:** assinar o contrato; confirmar o telefone de contato ((82) 99151-6831 da bio ou 9444-7753) e se o CRO é do AL; email e objetivo; brand book; ouvir os sons refeitos nos vídeos v3. (2026-10-29)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
 - **Dra. Melissa Morais:** aprovar o antes e depois de frente (3ª edição, Drive `POSTS/POST 3`, 2026-10-24); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-24)
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)

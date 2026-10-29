@@ -1,17 +1,17 @@
 # Dra. Annalibya · ficha do cliente
 
 ## Identificação e contato
-- **Nome:** Anna Libya Barbosa Duarte Galvão (Dra. Annalibya)
+- **Nome:** Anna Libya Barbosa Duarte Galvão (Dra. Annalibya). Nas peças: **Dra. Anna Líbya Duarte**, com acento no í (como no letreiro e no jaleco; Talyta, 2026-10-29)
 - **Negócio:** consultório odontológico, cirurgiã-dentista
-- **Nicho:** odontologia. Especialidade: [a definir]
-- **Telefone/WhatsApp:** (82) 9444-7753, como a Talyta passou. Tem 8 dígitos depois do DDD: confirmar se é (82) 9 9444-7753
+- **Nicho:** odontologia. Especialidade: Clínica Geral e Endodontista (bio do Instagram, 2026-10-29)
+- **Telefone/WhatsApp:** (82) 99151-6831 é o WhatsApp do link da bio do Instagram (2026-10-29). Em 2026-10-20 a Talyta passou (82) 9444-7753: confirmar qual é o de contato
 - **Email:** [a definir]
 - **Cidade e estado:** União dos Palmares/AL (feriado local em 13/10)
-- **Conselho:** CRO. Número: [a definir]
+- **Conselho:** **CRO-AL 3773** (número passado pela Talyta em 2026-10-29; o "AL" foi deduzido por ela atender em Alagoas, confirmar). Entra em toda peça
 - **CPF:** não fica na ficha. Está no contrato.
 
 ## Redes
-- **Instagram:** ainda não tem perfil (2026-10-20). Criar é a primeira pendência.
+- **Instagram:** **@draannalibyaduarte** (nome no perfil: Dra.AnnalibyaDuarte). Bio: "Clínica Geral | Endodontista · Cuidando do seu sorriso com excelência! · Seu novo sorriso começa aqui!", link wa.me/+5582991516831. Foto de perfil em `marca/foto-perfil-instagram.jpg` (2026-10-29).
 - Site e outras redes: [a definir]
 
 ## O que vende e público
@@ -48,6 +48,8 @@ endereço ficaram em branco pra ela preencher à mão.
 
 ## Marca
 Identidade visual, paleta, fontes, logo, linguagem, tom e personalidade: [a definir]. Vale a marca dela, não a da TK.
+Linha visual dos vídeos (2026-10-28): elegante e clean, Cormorant Garamond itálico + Montserrat, marfim e champanhe (`edicao/src/estilo.tsx`).
+Foto de perfil oficial (jaleco com o logo de dente dourado e "Dra. Anna Líbya Duarte" bordado): `marca/foto-perfil-instagram.jpg`.
 Brand book: pendente (regra geral de 2026-10-13).
 
 Ficha criada em 2026-10-20, a partir da conversa com a Talyta no chat, do comprovante do Pix e do print da proposta.
