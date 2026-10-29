@@ -1,0 +1,1016 @@
+[
+{
+"texto": "Domingo",
+"ini": 0.0,
+"fim": 1.02,
+"prob": 0.967
+},
+{
+"texto": "a",
+"ini": 1.02,
+"fim": 1.14,
+"prob": 0.918
+},
+{
+"texto": "gente",
+"ini": 1.14,
+"fim": 1.26,
+"prob": 1.0
+},
+{
+"texto": "conseguiu",
+"ini": 1.26,
+"fim": 1.76,
+"prob": 1.0
+},
+{
+"texto": "ver",
+"ini": 1.76,
+"fim": 2.06,
+"prob": 0.995
+},
+{
+"texto": "uma",
+"ini": 2.06,
+"fim": 2.28,
+"prob": 0.991
+},
+{
+"texto": "grande",
+"ini": 2.28,
+"fim": 2.78,
+"prob": 0.999
+},
+{
+"texto": "virada",
+"ini": 2.78,
+"fim": 3.16,
+"prob": 0.999
+},
+{
+"texto": "nas",
+"ini": 3.16,
+"fim": 3.36,
+"prob": 0.996
+},
+{
+"texto": "eleições",
+"ini": 3.36,
+"fim": 3.96,
+"prob": 1.0
+},
+{
+"texto": "e",
+"ini": 3.96,
+"fim": 4.86,
+"prob": 0.658
+},
+{
+"texto": "isso",
+"ini": 4.86,
+"fim": 5.04,
+"prob": 0.999
+},
+{
+"texto": "é",
+"ini": 5.04,
+"fim": 5.12,
+"prob": 0.999
+},
+{
+"texto": "uma",
+"ini": 5.12,
+"fim": 5.28,
+"prob": 0.998
+},
+{
+"texto": "ótima",
+"ini": 5.28,
+"fim": 5.82,
+"prob": 0.999
+},
+{
+"texto": "aula",
+"ini": 5.82,
+"fim": 6.1,
+"prob": 0.998
+},
+{
+"texto": "de",
+"ini": 6.1,
+"fim": 6.32,
+"prob": 0.984
+},
+{
+"texto": "estratégia.",
+"ini": 6.32,
+"fim": 6.92,
+"prob": 0.998
+},
+{
+"texto": "Calma,",
+"ini": 7.08,
+"fim": 7.28,
+"prob": 0.997
+},
+{
+"texto": "não",
+"ini": 7.34,
+"fim": 7.46,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 7.46,
+"fim": 7.58,
+"prob": 1.0
+},
+{
+"texto": "sobre",
+"ini": 7.58,
+"fim": 7.88,
+"prob": 0.994
+},
+{
+"texto": "o",
+"ini": 7.88,
+"fim": 8.04,
+"prob": 0.489
+},
+{
+"texto": "lado.",
+"ini": 8.04,
+"fim": 8.28,
+"prob": 0.999
+},
+{
+"texto": "É",
+"ini": 8.52,
+"fim": 8.8,
+"prob": 1.0
+},
+{
+"texto": "como",
+"ini": 8.8,
+"fim": 9.0,
+"prob": 1.0
+},
+{
+"texto": "decidir",
+"ini": 9.0,
+"fim": 9.72,
+"prob": 1.0
+},
+{
+"texto": "onde",
+"ini": 9.72,
+"fim": 10.0,
+"prob": 1.0
+},
+{
+"texto": "colocar",
+"ini": 10.0,
+"fim": 10.46,
+"prob": 1.0
+},
+{
+"texto": "a",
+"ini": 10.46,
+"fim": 10.68,
+"prob": 1.0
+},
+{
+"texto": "energia",
+"ini": 10.68,
+"fim": 11.02,
+"prob": 1.0
+},
+{
+"texto": "do",
+"ini": 11.02,
+"fim": 11.24,
+"prob": 1.0
+},
+{
+"texto": "seu",
+"ini": 11.24,
+"fim": 11.46,
+"prob": 1.0
+},
+{
+"texto": "negócio.",
+"ini": 11.46,
+"fim": 12.0,
+"prob": 1.0
+},
+{
+"texto": "Depois",
+"ini": 12.26,
+"fim": 12.68,
+"prob": 1.0
+},
+{
+"texto": "do",
+"ini": 12.68,
+"fim": 12.82,
+"prob": 0.977
+},
+{
+"texto": "primeiro",
+"ini": 12.82,
+"fim": 13.12,
+"prob": 0.998
+},
+{
+"texto": "turno",
+"ini": 13.12,
+"fim": 13.56,
+"prob": 0.999
+},
+{
+"texto": "ficou",
+"ini": 13.56,
+"fim": 13.82,
+"prob": 0.632
+},
+{
+"texto": "claro",
+"ini": 13.82,
+"fim": 14.28,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 14.28,
+"fim": 14.68,
+"prob": 0.998
+},
+{
+"texto": "convencer",
+"ini": 14.68,
+"fim": 15.32,
+"prob": 0.987
+},
+{
+"texto": "quem",
+"ini": 15.32,
+"fim": 15.72,
+"prob": 0.998
+},
+{
+"texto": "votou",
+"ini": 15.72,
+"fim": 16.12,
+"prob": 0.998
+},
+{
+"texto": "no",
+"ini": 16.12,
+"fim": 16.26,
+"prob": 0.999
+},
+{
+"texto": "aniversário",
+"ini": 16.26,
+"fim": 16.96,
+"prob": 0.874
+},
+{
+"texto": "era",
+"ini": 16.96,
+"fim": 17.22,
+"prob": 1.0
+},
+{
+"texto": "muito",
+"ini": 17.22,
+"fim": 17.6,
+"prob": 1.0
+},
+{
+"texto": "difícil.",
+"ini": 17.6,
+"fim": 18.1,
+"prob": 1.0
+},
+{
+"texto": "Mas",
+"ini": 18.36,
+"fim": 18.96,
+"prob": 1.0
+},
+{
+"texto": "tinha",
+"ini": 18.96,
+"fim": 19.38,
+"prob": 0.919
+},
+{
+"texto": "milhões",
+"ini": 19.38,
+"fim": 19.82,
+"prob": 1.0
+},
+{
+"texto": "de",
+"ini": 19.82,
+"fim": 20.04,
+"prob": 1.0
+},
+{
+"texto": "pessoas",
+"ini": 20.04,
+"fim": 20.48,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 20.48,
+"fim": 20.84,
+"prob": 1.0
+},
+{
+"texto": "nem",
+"ini": 20.84,
+"fim": 21.12,
+"prob": 1.0
+},
+{
+"texto": "tinham",
+"ini": 21.12,
+"fim": 21.42,
+"prob": 0.994
+},
+{
+"texto": "ido",
+"ini": 21.42,
+"fim": 21.6,
+"prob": 0.998
+},
+{
+"texto": "votar.",
+"ini": 21.6,
+"fim": 22.1,
+"prob": 0.999
+},
+{
+"texto": "E",
+"ini": 22.4,
+"fim": 22.66,
+"prob": 1.0
+},
+{
+"texto": "aí",
+"ini": 22.66,
+"fim": 22.8,
+"prob": 0.998
+},
+{
+"texto": "o",
+"ini": 22.8,
+"fim": 22.96,
+"prob": 0.995
+},
+{
+"texto": "que",
+"ini": 22.96,
+"fim": 23.06,
+"prob": 1.0
+},
+{
+"texto": "foi",
+"ini": 23.06,
+"fim": 23.44,
+"prob": 1.0
+},
+{
+"texto": "decidido?",
+"ini": 23.44,
+"fim": 24.1,
+"prob": 0.998
+},
+{
+"texto": "Que",
+"ini": 24.34,
+"fim": 24.72,
+"prob": 0.998
+},
+{
+"texto": "o",
+"ini": 24.72,
+"fim": 24.92,
+"prob": 0.998
+},
+{
+"texto": "foco",
+"ini": 24.92,
+"fim": 25.36,
+"prob": 0.999
+},
+{
+"texto": "seria",
+"ini": 25.36,
+"fim": 25.66,
+"prob": 0.941
+},
+{
+"texto": "esse",
+"ini": 25.66,
+"fim": 26.36,
+"prob": 0.997
+},
+{
+"texto": "público.",
+"ini": 26.36,
+"fim": 26.9,
+"prob": 1.0
+},
+{
+"texto": "Toda",
+"ini": 26.9,
+"fim": 27.7,
+"prob": 0.966
+},
+{
+"texto": "a",
+"ini": 27.7,
+"fim": 27.8,
+"prob": 0.97
+},
+{
+"texto": "energia",
+"ini": 27.8,
+"fim": 28.2,
+"prob": 1.0
+},
+{
+"texto": "foi",
+"ini": 28.2,
+"fim": 28.5,
+"prob": 0.997
+},
+{
+"texto": "para",
+"ini": 28.5,
+"fim": 28.66,
+"prob": 0.674
+},
+{
+"texto": "trazer",
+"ini": 28.66,
+"fim": 29.02,
+"prob": 1.0
+},
+{
+"texto": "essas",
+"ini": 29.02,
+"fim": 29.42,
+"prob": 0.995
+},
+{
+"texto": "pessoas",
+"ini": 29.42,
+"fim": 29.94,
+"prob": 1.0
+},
+{
+"texto": "para",
+"ini": 29.94,
+"fim": 30.2,
+"prob": 0.989
+},
+{
+"texto": "votarem.",
+"ini": 30.2,
+"fim": 30.74,
+"prob": 0.971
+},
+{
+"texto": "O",
+"ini": 31.0,
+"fim": 31.06,
+"prob": 1.0
+},
+{
+"texto": "resultado",
+"ini": 31.06,
+"fim": 31.48,
+"prob": 1.0
+},
+{
+"texto": "foi",
+"ini": 31.48,
+"fim": 31.9,
+"prob": 1.0
+},
+{
+"texto": "uns",
+"ini": 31.9,
+"fim": 32.36,
+"prob": 0.998
+},
+{
+"texto": "3",
+"ini": 32.36,
+"fim": 32.74,
+"prob": 0.975
+},
+{
+"texto": "milhões",
+"ini": 32.74,
+"fim": 33.18,
+"prob": 1.0
+},
+{
+"texto": "de",
+"ini": 33.18,
+"fim": 33.42,
+"prob": 1.0
+},
+{
+"texto": "pessoas",
+"ini": 33.42,
+"fim": 34.08,
+"prob": 1.0
+},
+{
+"texto": "a",
+"ini": 34.08,
+"fim": 34.7,
+"prob": 0.681
+},
+{
+"texto": "mais",
+"ini": 34.7,
+"fim": 35.22,
+"prob": 1.0
+},
+{
+"texto": "do",
+"ini": 35.22,
+"fim": 35.46,
+"prob": 0.999
+},
+{
+"texto": "que",
+"ini": 35.46,
+"fim": 35.6,
+"prob": 1.0
+},
+{
+"texto": "no",
+"ini": 35.6,
+"fim": 35.72,
+"prob": 0.999
+},
+{
+"texto": "primeiro",
+"ini": 35.72,
+"fim": 36.06,
+"prob": 0.997
+},
+{
+"texto": "turno.",
+"ini": 36.06,
+"fim": 36.6,
+"prob": 0.992
+},
+{
+"texto": "E",
+"ini": 36.82,
+"fim": 37.24,
+"prob": 1.0
+},
+{
+"texto": "aí",
+"ini": 37.24,
+"fim": 37.5,
+"prob": 0.999
+},
+{
+"texto": "veio",
+"ini": 37.5,
+"fim": 37.98,
+"prob": 0.973
+},
+{
+"texto": "a",
+"ini": 37.98,
+"fim": 38.12,
+"prob": 0.998
+},
+{
+"texto": "virada.",
+"ini": 38.12,
+"fim": 38.6,
+"prob": 1.0
+},
+{
+"texto": "Agora",
+"ini": 38.86,
+"fim": 39.46,
+"prob": 1.0
+},
+{
+"texto": "olha",
+"ini": 39.46,
+"fim": 39.7,
+"prob": 0.961
+},
+{
+"texto": "só,",
+"ini": 39.7,
+"fim": 40.06,
+"prob": 1.0
+},
+{
+"texto": "preste",
+"ini": 40.32,
+"fim": 40.78,
+"prob": 0.948
+},
+{
+"texto": "atenção",
+"ini": 40.78,
+"fim": 41.2,
+"prob": 1.0
+},
+{
+"texto": "nessa",
+"ini": 41.2,
+"fim": 41.56,
+"prob": 0.999
+},
+{
+"texto": "situação",
+"ini": 41.56,
+"fim": 42.0,
+"prob": 1.0
+},
+{
+"texto": "e",
+"ini": 42.0,
+"fim": 42.28,
+"prob": 0.609
+},
+{
+"texto": "imagina",
+"ini": 42.28,
+"fim": 42.66,
+"prob": 0.86
+},
+{
+"texto": "no",
+"ini": 42.66,
+"fim": 42.88,
+"prob": 0.996
+},
+{
+"texto": "seu",
+"ini": 42.88,
+"fim": 43.1,
+"prob": 1.0
+},
+{
+"texto": "Instagram.",
+"ini": 43.1,
+"fim": 43.54,
+"prob": 0.992
+},
+{
+"texto": "Você",
+"ini": 43.8,
+"fim": 44.32,
+"prob": 1.0
+},
+{
+"texto": "posta",
+"ini": 44.32,
+"fim": 44.76,
+"prob": 0.999
+},
+{
+"texto": "para",
+"ini": 44.76,
+"fim": 44.96,
+"prob": 0.977
+},
+{
+"texto": "todo",
+"ini": 44.96,
+"fim": 45.52,
+"prob": 1.0
+},
+{
+"texto": "mundo",
+"ini": 45.52,
+"fim": 45.88,
+"prob": 1.0
+},
+{
+"texto": "e",
+"ini": 45.88,
+"fim": 46.04,
+"prob": 0.998
+},
+{
+"texto": "torce",
+"ini": 46.04,
+"fim": 46.34,
+"prob": 0.971
+},
+{
+"texto": "para",
+"ini": 46.34,
+"fim": 46.52,
+"prob": 0.999
+},
+{
+"texto": "alguém",
+"ini": 46.52,
+"fim": 46.78,
+"prob": 1.0
+},
+{
+"texto": "comprar?",
+"ini": 46.78,
+"fim": 47.2,
+"prob": 0.999
+},
+{
+"texto": "Isso",
+"ini": 47.46,
+"fim": 47.8,
+"prob": 0.999
+},
+{
+"texto": "tem",
+"ini": 47.8,
+"fim": 48.0,
+"prob": 1.0
+},
+{
+"texto": "nome,",
+"ini": 48.0,
+"fim": 48.38,
+"prob": 0.948
+},
+{
+"texto": "atirar",
+"ini": 48.46,
+"fim": 48.96,
+"prob": 0.818
+},
+{
+"texto": "no",
+"ini": 48.96,
+"fim": 49.16,
+"prob": 0.998
+},
+{
+"texto": "escuro.",
+"ini": 49.16,
+"fim": 49.6,
+"prob": 0.997
+},
+{
+"texto": "Mas",
+"ini": 49.94,
+"fim": 50.38,
+"prob": 0.998
+},
+{
+"texto": "entendam",
+"ini": 50.38,
+"fim": 50.9,
+"prob": 0.733
+},
+{
+"texto": "uma",
+"ini": 50.9,
+"fim": 51.06,
+"prob": 0.888
+},
+{
+"texto": "coisa,",
+"ini": 51.06,
+"fim": 51.44,
+"prob": 1.0
+},
+{
+"texto": "estratégia",
+"ini": 51.76,
+"fim": 52.66,
+"prob": 0.998
+},
+{
+"texto": "não",
+"ini": 52.66,
+"fim": 53.08,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 53.08,
+"fim": 53.44,
+"prob": 1.0
+},
+{
+"texto": "fazer",
+"ini": 53.44,
+"fim": 53.84,
+"prob": 1.0
+},
+{
+"texto": "mais.",
+"ini": 53.84,
+"fim": 54.42,
+"prob": 1.0
+},
+{
+"texto": "É",
+"ini": 54.42,
+"fim": 54.94,
+"prob": 0.775
+},
+{
+"texto": "olhar",
+"ini": 54.94,
+"fim": 55.48,
+"prob": 1.0
+},
+{
+"texto": "os",
+"ini": 55.48,
+"fim": 55.98,
+"prob": 0.994
+},
+{
+"texto": "lados",
+"ini": 55.98,
+"fim": 56.48,
+"prob": 0.996
+},
+{
+"texto": "e",
+"ini": 56.48,
+"fim": 56.94,
+"prob": 0.821
+},
+{
+"texto": "escolher",
+"ini": 56.94,
+"fim": 57.52,
+"prob": 1.0
+},
+{
+"texto": "para",
+"ini": 57.52,
+"fim": 57.76,
+"prob": 0.784
+},
+{
+"texto": "quem",
+"ini": 57.76,
+"fim": 58.26,
+"prob": 1.0
+},
+{
+"texto": "você",
+"ini": 58.26,
+"fim": 58.58,
+"prob": 0.999
+},
+{
+"texto": "vai",
+"ini": 58.58,
+"fim": 58.74,
+"prob": 1.0
+},
+{
+"texto": "falar",
+"ini": 58.74,
+"fim": 59.12,
+"prob": 1.0
+},
+{
+"texto": "e",
+"ini": 59.12,
+"fim": 59.3,
+"prob": 0.94
+},
+{
+"texto": "concentrar",
+"ini": 59.3,
+"fim": 60.02,
+"prob": 0.999
+},
+{
+"texto": "tudo",
+"ini": 60.02,
+"fim": 60.42,
+"prob": 1.0
+},
+{
+"texto": "ali",
+"ini": 60.42,
+"fim": 60.72,
+"prob": 0.997
+},
+{
+"texto": "Começa",
+"ini": 60.72,
+"fim": 61.88,
+"prob": 0.641
+},
+{
+"texto": "pelos",
+"ini": 61.88,
+"fim": 62.16,
+"prob": 0.998
+},
+{
+"texto": "seus",
+"ini": 62.16,
+"fim": 62.5,
+"prob": 0.999
+},
+{
+"texto": "insights,",
+"ini": 62.5,
+"fim": 63.22,
+"prob": 0.99
+},
+{
+"texto": "você",
+"ini": 63.32,
+"fim": 63.62,
+"prob": 0.999
+},
+{
+"texto": "vê",
+"ini": 63.62,
+"fim": 63.8,
+"prob": 0.994
+},
+{
+"texto": "quem",
+"ini": 63.8,
+"fim": 64.02,
+"prob": 0.991
+},
+{
+"texto": "mais",
+"ini": 64.02,
+"fim": 64.38,
+"prob": 1.0
+},
+{
+"texto": "te",
+"ini": 64.38,
+"fim": 64.48,
+"prob": 0.987
+},
+{
+"texto": "assiste",
+"ini": 64.48,
+"fim": 65.2,
+"prob": 0.999
+},
+{
+"texto": "E",
+"ini": 65.2,
+"fim": 65.7,
+"prob": 0.689
+},
+{
+"texto": "fala",
+"ini": 65.7,
+"fim": 66.16,
+"prob": 0.998
+},
+{
+"texto": "diretamente",
+"ini": 66.16,
+"fim": 66.84,
+"prob": 0.999
+},
+{
+"texto": "com",
+"ini": 66.84,
+"fim": 67.04,
+"prob": 0.999
+},
+{
+"texto": "essas",
+"ini": 67.04,
+"fim": 67.18,
+"prob": 0.954
+},
+{
+"texto": "pessoas",
+"ini": 67.18,
+"fim": 67.72,
+"prob": 0.999
+}
+]

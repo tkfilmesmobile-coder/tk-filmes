@@ -13,6 +13,7 @@ Enrolação, introdução longa, repetir o que ela já disse.
 Resposta curta, com o próximo passo claro. Uma pergunta por vez; se ela não entender, reformular com exemplo concreto.
 
 ## Preferências adicionais
+- Sempre em português, inclusive nas mensagens curtas de andamento no meio do trabalho. (2026-10-27)
 - Entregas de contrato: ela registra uma vez por semana, tudo de uma vez. Não contar pelo Instagram nem cobrar entrega por entrega.
 - Slides de fotos: .pptx vertical 9:16, fundo degradê nude → rosado, foto inteira centralizada com sombra suave, transição fade, ordem cronológica.
 - Edição de vídeo (Remotion, 2026-09-29): legenda leve, sem caixa, palavra a palavra; imagens ao lado da cabeça no enquadramento original (nada de reenquadrar nem fundo desfocado), seguindo o rosto, com brilho ou desfoque em volta e som na entrada, uma por vez, presas à palavra falada.

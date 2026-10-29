@@ -25,6 +25,8 @@ Em 2026-10-27: reel "Meu dia de princesa" (trend da Rapunzel) da Marielly Makeup
 dela, magia com brilhos na revelação, áudio da trend) está em `clientes/marielly-makeup/edicao/2026-10-trend-rapunzel/out/` esperando aprovação da Talyta.
 Em 2026-10-28 entrou a Start Fitness (academia, edição avulsa de 2 vídeos, `clientes/start-fitness/`): os dois foram aprovados
 e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada da 2ª Corrida (1º/11) e a entrevista de expectativas.
+TK (2026-10-29): reels "Um dia na TK" (só b-roll) e o V10 da eleição estão na raiz do Drive com as legendas; o V10 foi aprovado, mas
+o token da TK foi invalidado e só posta com token novo. Site em `tk-filmes/site/` todo em marrom, com a Talyta na abertura (`tk-filmes/andamento.md`).
 
 ## Pendências
 - **Dra. Camilla:** decidir se apaga o Reels v1 da Mari (21/10) e o carrossel de 22/10 (slide 3 chama a foto pós aparelho de "ANTES"); data do post 4; autorização de imagem da Mari e da paciente do Periodontite. Detalhes em `clientes/camilla-wanderley/andamento.md`. (2026-10-26)
@@ -49,7 +51,7 @@ e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada
 - Conferir se os posts agendados saíram: `*-publicacao.log` em `tk-filmes/posts/2026-10/` e nos posts da Tamara. Só saem com o PC ligado no horário, e a conexão precisa aguentar o processamento do vídeo. (2026-09-29)
 - Tamara: agendar os posts 15 a 18 do calendário (2º turno em 25/10) ou os temas alternativos. (2026-09-29)
 - A cada post da Tamara, aceitar o convite de colaboração no app, logado no @dra.tamarachagas_. (2026-09-29)
-- Tokens do Instagram vencem por volta de 27/11/2026 (Tamara e Camilla) 28/11/2026 (TK e Galeguinho) e 08/12/2026 (Ary): renovar antes. (2026-09-29)
+- Tokens do Instagram vencem por volta de 27/11/2026 (Tamara e Camilla) 28/11/2026 (Galeguinho) e 08/12/2026 (Ary): renovar antes. O da TK já caiu (ver acima). (2026-09-29)
 - Tamara: confirmar o tom de fala dela nos vídeos e, se existir, o manual de marca com fontes e cores oficiais. (2026-09-28)
 - Galeguinho: conferir se o cliente confirmou os ingredientes do Passaporte de frango, o preço "a partir de R$ 16" (post de 31/10) e se o hambúrguer sai no delivery; o prazo era 03/10. (2026-09-29)
 - Galeguinho: o Maycon (@maycondequipapaof) precisa aceitar o convite de colaboração do reels de 05/10 no app. (2026-10-05)
@@ -62,7 +64,8 @@ e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada
 - Rever a diária de cobertura extra de R$ 100: está bem abaixo da diária avulsa de R$ 300. (2026-09-17)
 - Decidir conectores: Notion e conferir se o conector do Google Drive da conta é o da TK (em 2026-09-29 ele não enxergou o Drive da TK; pasta compartilhada por link funciona pelo navegador). (2026-09-17)
 - Mapear as artes e peças visuais dos clientes (posts, stories, capas, peças de evento): ficou de fora do `/mapear`. (2026-09-17)
-- Site em tkfilme.com.br: domínio registrado, nada no ar. (2026-09-17)
+- **Site tkfilme.com.br:** pronto localmente (`tk-filmes/site/`), não está no ar. Falta preencher o "Quem dirige", o vídeo de boas-vindas da abertura e publicar no Cloudflare. (2026-10-28)
+- **TK:** gerar token novo do Instagram (o atual deu erro 190 em 27/10) pra postar o V10; aprovar o "Um dia na TK". (2026-10-29)
 
 ## Quente agora
 - Ter 20/10 e 27/10 ao meio-dia: carrosséis da Ary (valores e agenda). Ter 27/10: stories de AGENDA da Ary pelo celular.

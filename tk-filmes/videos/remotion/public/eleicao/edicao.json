@@ -1,0 +1,324 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "B",
+ "estilo": "caps",
+ "fonte": "eleicao/bruto.mp4",
+ "legendaPos": "baixo",
+ "sombraBase": true,
+ "clipes": [
+  {
+   "id": "cortado",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 1701,
+   "zoom": 1.0
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "headline",
+   "from": 62,
+   "durationInFrames": 101,
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "a virada",
+     "fala": 5
+    },
+    {
+     "texto": "aula de estratégia",
+     "fala": 78,
+     "cor": "#E3B48C"
+    }
+   ]
+  },
+  {
+   "tipo": "sutil",
+   "from": 169,
+   "durationInFrames": 28,
+   "texto": "não é sobre lado"
+  },
+  {
+   "tipo": "frase",
+   "from": 203,
+   "durationInFrames": 86,
+   "texto": "Onde colocar a energia do seu negócio?",
+   "pos": "baixo",
+   "fala": 53
+  },
+  {
+   "tipo": "manchete",
+   "from": 458,
+   "durationInFrames": 128,
+   "veiculo": "Correio da Manhã",
+   "data": "06/10/2026",
+   "texto": "Lula muda estratégia e mira 33 milhões de ausentes para tentar virar eleição no 2º turno",
+   "fala": 7
+  },
+  {
+   "tipo": "headline",
+   "from": 592,
+   "durationInFrames": 51,
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "o foco:",
+     "fala": 6
+    },
+    {
+     "texto": "quem não votou",
+     "fala": 24,
+     "cor": "#E3B48C"
+    }
+   ]
+  },
+  {
+   "tipo": "palco",
+   "from": 741,
+   "durationInFrames": 137,
+   "pessoa": "eleicao/pessoa",
+   "titulo": "comparecimento · presidente 2026",
+   "numero": 2.9,
+   "unidade": "milhões",
+   "sub": "de pessoas a mais foram votar no 2º turno (125,3 → 128,2 milhões)",
+   "falaNumero": 36,
+   "barras": [
+    {
+     "rotulo": "1º turno",
+     "valor": 78.9,
+     "texto": "78,9%"
+    },
+    {
+     "rotulo": "2º turno",
+     "valor": 80.8,
+     "texto": "80,8%"
+    }
+   ],
+   "falaBarras": 61,
+   "fonte": "Fonte: TSE"
+  },
+  {
+   "tipo": "headline",
+   "from": 884,
+   "durationInFrames": 46,
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "veio a virada",
+     "fala": 16
+    }
+   ]
+  },
+  {
+   "tipo": "sutil",
+   "from": 1012,
+   "durationInFrames": 37,
+   "texto": "e no seu Instagram?"
+  },
+  {
+   "tipo": "escuro",
+   "from": 1138,
+   "durationInFrames": 58,
+   "pessoa": "eleicao/pessoa",
+   "rotulo": "atirar no escuro",
+   "tiros": [
+    25,
+    30,
+    34,
+    39,
+    43,
+    48
+   ]
+  },
+  {
+   "tipo": "frase",
+   "from": 1239,
+   "durationInFrames": 63,
+   "texto": "Estratégia não é fazer mais.",
+   "pos": "baixo",
+   "fala": 3
+  },
+  {
+   "tipo": "headline",
+   "from": 1314,
+   "durationInFrames": 136,
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "olhar os dados",
+     "fala": 5
+    },
+    {
+     "texto": "escolher pra quem",
+     "fala": 53
+    },
+    {
+     "texto": "concentrar tudo",
+     "fala": 109,
+     "cor": "#E3B48C"
+    }
+   ]
+  },
+  {
+   "tipo": "celular",
+   "from": 1456,
+   "durationInFrames": 178,
+   "telas": [
+    {
+     "tela": "painel",
+     "fala": 0
+    },
+    {
+     "tela": "publico",
+     "fala": 71
+    },
+    {
+     "tela": "pessoa",
+     "fala": 121
+    }
+   ]
+  },
+  {
+   "tipo": "logo",
+   "from": 1634,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 0,
+   "durationInFrames": 29,
+   "texto": "Domingo a gente"
+  },
+  {
+   "from": 30,
+   "durationInFrames": 24,
+   "texto": "conseguiu ver uma"
+  },
+  {
+   "from": 55,
+   "durationInFrames": 4,
+   "texto": "grande"
+  },
+  {
+   "from": 294,
+   "durationInFrames": 20,
+   "texto": "Depois do primeiro"
+  },
+  {
+   "from": 315,
+   "durationInFrames": 27,
+   "texto": "turno ficou claro"
+  },
+  {
+   "from": 343,
+   "durationInFrames": 33,
+   "texto": "que convencer quem"
+  },
+  {
+   "from": 377,
+   "durationInFrames": 29,
+   "texto": "votou no adversário"
+  },
+  {
+   "from": 407,
+   "durationInFrames": 31,
+   "texto": "era muito difícil."
+  },
+  {
+   "from": 441,
+   "durationInFrames": 14,
+   "texto": "Mas"
+  },
+  {
+   "from": 646,
+   "durationInFrames": 30,
+   "texto": "Toda a energia"
+  },
+  {
+   "from": 677,
+   "durationInFrames": 18,
+   "texto": "foi para trazer"
+  },
+  {
+   "from": 696,
+   "durationInFrames": 28,
+   "texto": "essas pessoas para"
+  },
+  {
+   "from": 725,
+   "durationInFrames": 13,
+   "texto": "votarem."
+  },
+  {
+   "from": 933,
+   "durationInFrames": 32,
+   "texto": "Agora olha só,"
+  },
+  {
+   "from": 968,
+   "durationInFrames": 28,
+   "texto": "preste atenção nessa"
+  },
+  {
+   "from": 997,
+   "durationInFrames": 12,
+   "texto": "situação"
+  },
+  {
+   "from": 1051,
+   "durationInFrames": 27,
+   "texto": "Você posta para"
+  },
+  {
+   "from": 1079,
+   "durationInFrames": 25,
+   "texto": "todo mundo e"
+  },
+  {
+   "from": 1105,
+   "durationInFrames": 17,
+   "texto": "torce para alguém"
+  },
+  {
+   "from": 1123,
+   "durationInFrames": 12,
+   "texto": "comprar?"
+  },
+  {
+   "from": 1199,
+   "durationInFrames": 25,
+   "texto": "Mas entendam uma"
+  },
+  {
+   "from": 1225,
+   "durationInFrames": 11,
+   "texto": "coisa,"
+  },
+  {
+   "from": 1306,
+   "durationInFrames": 5,
+   "texto": "É"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 66,
+   "durationInFrames": 19,
+   "escala": 1.06
+  },
+  {
+   "from": 597,
+   "durationInFrames": 19,
+   "escala": 1.05
+  },
+  {
+   "from": 914,
+   "durationInFrames": 19,
+   "escala": 1.06
+  }
+ ],
+ "reenquadramentos": []
+}
