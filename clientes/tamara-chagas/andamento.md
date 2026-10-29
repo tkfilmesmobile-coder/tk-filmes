@@ -26,7 +26,12 @@
   Talyta), mais os 4 do escritório do Reels da pensão. "Cirurgia estética" e "Carta negada" renderizados de novo
   no PC kumyt (curadoria feita: fala conferida, ícone 🪪 trocado por 📋) e programados neste PC: qua 28/10 e sex 30/10, 16h.
 
+- 2026-10-28 · Pelas tarefas do PC kumyt: 6 stories às 8h e o Reels "Cirurgia estética" às 16h, com os 7 stories →
+  https://www.instagram.com/reel/DfDIwyEjWdw/
+
 ## Em aberto
+- **EP. 03 do Vlog de Natal:** a Talyta diz que subiu os vídeos em 28/10, mas eles não apareceram no Drive (busca
+  completa às 12h). Esperar o envio terminar ou ela dizer a pasta. (2026-10-28)
 - **Meta da semana (26 a 30/10): 3 de 5 Reels** (pensão, cirurgia, carta negada). Episódio 3 da feira e
   "Trabalhador rural" dependem de arquivos que só existem no PC do escritório, que a Talyta não vai ligar. (2026-10-27)
 - **Stories diários:** tarefa das 8h ligada no PC kumyt (27/10). O lote de cada dia precisa ser produzido na véspera; o de 28/10 está pronto. (2026-10-27)
