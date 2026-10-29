@@ -54,7 +54,7 @@ export const Apresentacao: React.FC = () => (
       <Sequence name="Vídeo" durationInFrames={V1} layout="none">
         <Fundo src="brutos/video1.mp4" tipo="video" />
       </Sequence>
-      {/* o título é a própria fala: "Muito prazer, eu sou a Anna Libya, sou cirurgiã-dentista há 12 anos" */}
+      {/* o título é a própria fala: "Muito prazer, eu sou a Anna Líbya, sou cirurgiã-dentista há 12 anos" */}
       <Sequence name="Título" durationInFrames={v1(4.4)} layout="none">
         <Titulo acima="Muito prazer, eu sou a" principal={NOME} abaixo="Cirurgiã-dentista há 12 anos" dur={v1(4.4)} />
       </Sequence>

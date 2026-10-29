@@ -1,4 +1,4 @@
-﻿# Tamara Chagas Advocacia · andamento
+# Tamara Chagas Advocacia · andamento
 
 ## Entregue
 - 2026-09-28 · Instagram do escritório (@tamarachagas_prev) e pessoal (@dra.tamarachagas_)
@@ -28,6 +28,17 @@
 
 - 2026-10-28 · Pelas tarefas do PC kumyt: 6 stories às 8h e o Reels "Cirurgia estética" às 16h, com os 7 stories →
   https://www.instagram.com/reel/DfDIwyEjWdw/
+
+- 2026-10-29 · PC do escritório: stories do dia no @tamarachagas_prev, 8 no ar (a Talyta apagou "HOJE, 16H" da cirurgia,
+  que já tinha saído em 28/10, e a foto da equipe com papéis na mesa: documento na cena não pode, nem borrado).
+  Lote em `stories/2026-10-29-b-roll/`. Desligadas neste PC as tarefas da cirurgia (29/10), da carta negada (30/10) e
+  dos stories das 8h, que rodam no PC kumyt. **Programados neste PC:** Reels "Trabalhador rural" hoje 29/10 às 16h e
+  episódio 3 da feira sex 30/10 às 11h. Só saem com este PC ligado (os vídeos .mp4 não vão pro GitHub).
+- 2026-10-29 · **Vlog de Natal EP. 03 em andamento** (`reels/2026-10-29-vlog-natal-ep3/`): bruto IMG_0707 (7 min:
+  veludo vermelho, árvore, Papai Noel inflável, arranjo da mesa, com um ajudante) e IMG_0708 (Tamara com o Papai Noel),
+  em `Downloads/Mobile Devices` deste PC. Projeto Remotion montado no modelo do EP02 (falta o Vlog.tsx e a EDL);
+  a transcrição de 0708 está em `bruto/t0708.json`; a do 0707 foi interrompida (medium é lento demais aqui: usar small).
+  Autorização de imagem do ajudante: pendente.
 
 ## Em aberto
 - **EP. 03 do Vlog de Natal:** a Talyta diz que subiu os vídeos em 28/10, mas eles não apareceram no Drive (busca

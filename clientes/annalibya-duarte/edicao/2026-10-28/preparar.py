@@ -10,10 +10,14 @@ import os
 import subprocess
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
+# o Drive é H: num PC e G: no outro; o PC do escritório não tem NVIDIA e codifica pelo Intel (Quick Sync)
 FF = os.path.join(os.environ["LOCALAPPDATA"], "CapCut", "Apps", "9.6.0.4097", "ffmpeg.exe")
-BRUTO = r"H:\Meu Drive\Dra. Annalibya\Bruto"
+BRUTO = next(d for d in (r"H:\Meu Drive\Dra. Annalibya\Bruto", r"G:\Meu Drive\Dra. Annalibya\Bruto") if os.path.isdir(d))
 PUB = os.path.join(AQUI, "..", "public")
-ENC = ["-c:v", "h264_nvenc", "-preset", "p7", "-rc", "vbr", "-cq", "16", "-b:v", "16M", "-pix_fmt", "yuv420p",
+TEM_NVIDIA = os.path.exists(r"C:\Windows\System32\nvcuda.dll")
+VIDEO = (["-c:v", "h264_nvenc", "-preset", "p7", "-rc", "vbr", "-cq", "16", "-b:v", "16M", "-pix_fmt", "yuv420p"] if TEM_NVIDIA
+         else ["-c:v", "h264_qsv", "-global_quality", "16", "-pix_fmt", "nv12"])
+ENC = VIDEO + [
        "-color_range", "tv", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
        "-c:a", "aac", "-b:a", "256k", "-ar", "48000"]
 

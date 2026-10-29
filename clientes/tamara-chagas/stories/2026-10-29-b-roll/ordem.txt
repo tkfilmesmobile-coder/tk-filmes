@@ -3,6 +3,9 @@
 02-horario.mp4
 03-pagamento.jpg
 04-localizacao.mp4
-05-hoje-16h.jpg
-08-equipe.jpg
+# 05-hoje-16h.jpg (apagado pela Talyta: o Reel já tinha saído em 28/10)
+# 08-equipe.jpg (apagado pela Talyta: documento na cena, fora do combinado)
 06-online.mp4
+09-bastidores.mp4
+10-recurso.jpg
+11-aposentado-trabalha.jpg

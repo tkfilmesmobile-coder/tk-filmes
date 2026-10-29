@@ -11,9 +11,9 @@ import { loadFont as loadMontserrat } from "@remotion/google-fonts/Montserrat";
 // os vídeos dela vêm do iPhone a 24 fps: a edição segue no mesmo ritmo
 export const FPS = 24;
 
-// nome como está no letreiro do consultório: "Dra. Anna Libya Duarte"
-export const NOME = "Dra. Anna Libya";
-export const NOME_COMPLETO = "Anna Libya Duarte";
+// nome como está no letreiro do consultório: "Dra. Anna Líbya Duarte" (com acento no í, Talyta 2026-10-29)
+export const NOME = "Dra. Anna Líbya";
+export const NOME_COMPLETO = "Anna Líbya Duarte";
 
 export const COR = {
   branco: "#FFFFFF",
@@ -29,8 +29,8 @@ export const sans = loadMontserrat("normal", { weights: ["400", "500", "600"], s
 // Zonas seguras do reels (regra geral de 2026-10-12): x 60–920, y 250–1500.
 export const ZONA = { x0: 60, x1: 920, y0: 250, y1: 1500, centroX: 490 };
 
-// CRO obrigatório em toda peça de cirurgião-dentista (CFO). Sem o número, o rascunho mostra o aviso.
-export const CRO = "CRO [nº a confirmar]";
+// CRO obrigatório em toda peça de cirurgião-dentista (CFO). Número passado pela Talyta em 2026-10-29.
+export const CRO = "CRO-AL 3773";
 
 export const suave = Easing.bezier(0.16, 1, 0.3, 1);
 export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;

@@ -6,8 +6,8 @@ import { COR, FPS, NOME_COMPLETO, clamp, entrada, sans, serif, sombra, suave } f
 const s = (seg: number) => Math.round(seg * FPS);
 
 // ── Cartão estilo perfil do Instagram com um toque no link da bio ("Clica no link da bio")
-// Mostra só o que é dela e confirmado: foto, nome, profissão, cidade. Sem @ (o perfil ainda não existe)
-// e sem endereço de link inventado: o link aparece como "Agende seu horário".
+// Mostra só o que é dela e confirmado: a foto de perfil e o @ do Instagram dela (@draannalibyaduarte, 2026-10-29),
+// nome, profissão e cidade. O link da bio é o WhatsApp dela: aparece como "Agende seu horário".
 // `toque`: quadro (relativo à Sequence) em que o dedo toca o link, junto com a palavra "link".
 export const CartaoInstagram: React.FC<{ dur: number; toque: number }> = ({ dur, toque }) => {
   const frame = useCurrentFrame();
@@ -63,8 +63,8 @@ export const CartaoInstagram: React.FC<{ dur: number; toque: number }> = ({ dur,
             </div>
           </div>
           <div style={{ lineHeight: 1.3 }}>
-            <div style={{ fontWeight: 600, fontSize: 31 }}>Dra. {NOME_COMPLETO}</div>
-            <div style={{ fontSize: 23, color: "#737373", marginTop: 2 }}>Dentista</div>
+            <div style={{ fontWeight: 600, fontSize: 31 }}>draannalibyaduarte</div>
+            <div style={{ fontSize: 23, color: "#737373", marginTop: 2 }}>Dra. {NOME_COMPLETO}</div>
             <div style={{ fontSize: 23, marginTop: 6 }}>Cirurgiã-dentista · União dos Palmares/AL</div>
           </div>
         </div>
