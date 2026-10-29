@@ -1,0 +1,285 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,100"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 100
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,100",
+				"to": "00:00:00,150"
+			},
+			"offsets": {
+				"from": 100,
+				"to": 150
+			},
+			"text": " A"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,150",
+				"to": "00:00:00,620"
+			},
+			"offsets": {
+				"from": 150,
+				"to": 620
+			},
+			"text": " nossa"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,620",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 620,
+				"to": 2000
+			},
+			"text": " localização"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,000",
+				"to": "00:00:02,260"
+			},
+			"offsets": {
+				"from": 2000,
+				"to": 2260
+			},
+			"text": " é"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,260",
+				"to": "00:00:02,900"
+			},
+			"offsets": {
+				"from": 2260,
+				"to": 2900
+			},
+			"text": " aqui"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,900",
+				"to": "00:00:03,040"
+			},
+			"offsets": {
+				"from": 2900,
+				"to": 3040
+			},
+			"text": " na"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,040",
+				"to": "00:00:03,440"
+			},
+			"offsets": {
+				"from": 3040,
+				"to": 3440
+			},
+			"text": " rua"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,440",
+				"to": "00:00:03,560"
+			},
+			"offsets": {
+				"from": 3440,
+				"to": 3560
+			},
+			"text": " do"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,560",
+				"to": "00:00:03,880"
+			},
+			"offsets": {
+				"from": 3560,
+				"to": 3880
+			},
+			"text": " Dr."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,880",
+				"to": "00:00:04,460"
+			},
+			"offsets": {
+				"from": 3880,
+				"to": 4460
+			},
+			"text": " Antônio"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,460",
+				"to": "00:00:04,970"
+			},
+			"offsets": {
+				"from": 4460,
+				"to": 4970
+			},
+			"text": " Arecibo,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,970",
+				"to": "00:00:05,470"
+			},
+			"offsets": {
+				"from": 4970,
+				"to": 5470
+			},
+			"text": " número"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,470",
+				"to": "00:00:06,520"
+			},
+			"offsets": {
+				"from": 5470,
+				"to": 6520
+			},
+			"text": " 268"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,520",
+				"to": "00:00:07,320"
+			},
+			"offsets": {
+				"from": 6520,
+				"to": 7320
+			},
+			"text": " Centro,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,320",
+				"to": "00:00:07,620"
+			},
+			"offsets": {
+				"from": 7320,
+				"to": 7620
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,620",
+				"to": "00:00:07,630"
+			},
+			"offsets": {
+				"from": 7620,
+				"to": 7630
+			},
+			"text": " frente"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,630",
+				"to": "00:00:07,720"
+			},
+			"offsets": {
+				"from": 7630,
+				"to": 7720
+			},
+			"text": " à"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,720",
+				"to": "00:00:08,530"
+			},
+			"offsets": {
+				"from": 7720,
+				"to": 8530
+			},
+			"text": " Clínica"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,530",
+				"to": "00:00:09,020"
+			},
+			"offsets": {
+				"from": 8530,
+				"to": 9020
+			},
+			"text": " Fácil."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,020",
+				"to": "00:00:09,270"
+			},
+			"offsets": {
+				"from": 9020,
+				"to": 9270
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,270",
+				"to": "00:00:09,530"
+			},
+			"offsets": {
+				"from": 9270,
+				"to": 9530
+			},
+			"text": " Não"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,530",
+				"to": "00:00:11,020"
+			},
+			"offsets": {
+				"from": 9530,
+				"to": 11020
+			},
+			"text": " saca..."
+		}
+	]
+}

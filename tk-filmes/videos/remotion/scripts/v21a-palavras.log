@@ -1,6 +1,6 @@
 Whisper already exists at C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp
 Model already exists at C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin
-(node:36632) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(node:21820) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
 whisper_model_load: loading model
@@ -106,15 +106,15 @@ main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cac
 whisper_print_progress_callback: progress =  99%
 output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
 
-whisper_print_timings:     load time = 33523.21 ms
+whisper_print_timings:     load time =  6234.49 ms
 whisper_print_timings:     fallbacks =   0 p /   0 h
-whisper_print_timings:      mel time =   209.61 ms
-whisper_print_timings:   sample time =  8751.47 ms /   380 runs (   23.03 ms per run)
-whisper_print_timings:   encode time = 124025.94 ms /     1 runs (124025.94 ms per run)
+whisper_print_timings:      mel time =    32.65 ms
+whisper_print_timings:   sample time =  2804.83 ms /   380 runs (    7.38 ms per run)
+whisper_print_timings:   encode time = 45716.77 ms /     1 runs (45716.77 ms per run)
 whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
-whisper_print_timings:   batchd time = 5462923.50 ms /   378 runs (14452.18 ms per run)
-whisper_print_timings:   prompt time =  6402.24 ms /    72 runs (   88.92 ms per run)
-whisper_print_timings:    total time = 5636207.00 ms
+whisper_print_timings:   batchd time = 24697.83 ms /   378 runs (   65.34 ms per run)
+whisper_print_timings:   prompt time =  3828.56 ms /    72 runs (   53.17 ms per run)
+whisper_print_timings:    total time = 83429.21 ms
 
 trecho 0 6.38-22.50: O Botox é um dos nossos grandes aliados para suavizar as linhas de expressões. Porém, ele não consegue fazer tudo sozinho. Algumas marcas e linhas de expressões precisam de outras abordagens, como, por exemplo, o preenchimento com ácido ialurônico.
 whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
@@ -148,3 +148,138 @@ system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NE
 
 main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\v21a-p01.wav' (456320 samples, 28.5 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
 
+
+[00:00:00.000 --> 00:00:00.120]  
+[00:00:00.120 --> 00:00:00.520]   Então
+[00:00:00.520 --> 00:00:00.690]  ,
+[00:00:00.690 --> 00:00:00.960]   é
+[00:00:00.960 --> 00:00:01.470]   durante
+[00:00:01.470 --> 00:00:01.550]   a
+[00:00:01.550 --> 00:00:01.720]   av
+[00:00:01.720 --> 00:00:02.080]  alia
+[00:00:02.080 --> 00:00:02.770]  ção
+[00:00:02.770 --> 00:00:02.780]   que
+[00:00:02.780 --> 00:00:03.190]   entend
+[00:00:03.190 --> 00:00:03.490]  emos
+[00:00:03.490 --> 00:00:03.560]   a
+[00:00:03.560 --> 00:00:04.350]   individual
+[00:00:04.350 --> 00:00:04.750]  idade
+[00:00:04.750 --> 00:00:05.010]   de
+[00:00:05.010 --> 00:00:05.390]   cada
+[00:00:05.390 --> 00:00:05.490]   r
+[00:00:05.490 --> 00:00:05.940]  osto
+[00:00:05.940 --> 00:00:06.110]   e
+[00:00:06.110 --> 00:00:06.500]   podemos
+[00:00:06.500 --> 00:00:07.050]   associ
+[00:00:07.050 --> 00:00:07.060]  ar
+[00:00:07.060 --> 00:00:07.200]   os
+[00:00:07.200 --> 00:00:07.480]   trat
+[00:00:07.480 --> 00:00:08.120]  amentos
+[00:00:08.120 --> 00:00:08.230]   para
+[00:00:08.230 --> 00:00:08.350]   ob
+[00:00:08.350 --> 00:00:08.540]  ter
+[00:00:08.540 --> 00:00:08.660]   os
+[00:00:08.660 --> 00:00:09.170]   melhores
+[00:00:09.170 --> 00:00:09.880]   resultados
+[00:00:09.880 --> 00:00:09.880]  .
+[00:00:09.880 --> 00:00:09.990]   No
+[00:00:09.990 --> 00:00:10.210]   caso
+[00:00:10.210 --> 00:00:10.580]   desse
+[00:00:10.580 --> 00:00:10.640]   pac
+[00:00:10.640 --> 00:00:10.910]  iente
+[00:00:10.910 --> 00:00:11.100]  ,
+[00:00:11.100 --> 00:00:11.310]   como
+[00:00:11.310 --> 00:00:11.510]   já
+[00:00:11.510 --> 00:00:11.920]   existe
+[00:00:11.920 --> 00:00:12.400]   profund
+[00:00:12.400 --> 00:00:12.740]  idade
+[00:00:12.740 --> 00:00:13.150]   dessas
+[00:00:13.150 --> 00:00:13.210]   l
+[00:00:13.210 --> 00:00:13.580]  inhas
+[00:00:13.580 --> 00:00:13.580]  ,
+[00:00:13.580 --> 00:00:13.670]   o
+[00:00:13.670 --> 00:00:13.980]   ideal
+[00:00:13.980 --> 00:00:14.110]   é
+[00:00:14.110 --> 00:00:14.310]   que
+[00:00:14.310 --> 00:00:14.370]   a
+[00:00:14.370 --> 00:00:14.840]   gente
+[00:00:14.840 --> 00:00:14.860]   fa
+[00:00:14.860 --> 00:00:15.090]  ça
+[00:00:15.090 --> 00:00:15.100]   a
+[00:00:15.100 --> 00:00:15.440]   estim
+[00:00:15.440 --> 00:00:15.640]  ula
+[00:00:15.640 --> 00:00:16.080]  ção
+[00:00:16.080 --> 00:00:16.110]   de
+[00:00:16.110 --> 00:00:16.310]   col
+[00:00:16.310 --> 00:00:16.430]  á
+[00:00:16.430 --> 00:00:16.640]  gen
+[00:00:16.640 --> 00:00:16.980]  o
+[00:00:16.980 --> 00:00:17.060]   com
+[00:00:17.060 --> 00:00:17.270]   os
+[00:00:17.270 --> 00:00:17.310]   f
+[00:00:17.310 --> 00:00:17.570]  ios
+[00:00:17.570 --> 00:00:17.740]   de
+[00:00:17.740 --> 00:00:17.820]   P
+[00:00:17.820 --> 00:00:18.040]  DO
+[00:00:18.040 --> 00:00:18.040]  .
+[00:00:18.040 --> 00:00:18.310]   Os
+[00:00:18.310 --> 00:00:18.310]   f
+[00:00:18.310 --> 00:00:18.570]  ios
+[00:00:18.570 --> 00:00:18.750]   de
+[00:00:18.750 --> 00:00:18.840]   P
+[00:00:18.840 --> 00:00:19.010]  DO
+[00:00:19.010 --> 00:00:19.180]  ,
+[00:00:19.180 --> 00:00:19.540]   eles
+[00:00:19.540 --> 00:00:19.900]   são
+[00:00:19.900 --> 00:00:20.340]   ins
+[00:00:20.340 --> 00:00:20.390]  er
+[00:00:20.390 --> 00:00:20.830]  idos
+[00:00:20.830 --> 00:00:21.130]   sobre
+[00:00:21.130 --> 00:00:21.220]   a
+[00:00:21.220 --> 00:00:21.710]   pele
+[00:00:21.710 --> 00:00:21.800]   e
+[00:00:21.800 --> 00:00:21.920]   aí
+[00:00:21.920 --> 00:00:22.190]   eles
+[00:00:22.190 --> 00:00:22.480]   vão
+[00:00:22.480 --> 00:00:22.830]   estim
+[00:00:22.830 --> 00:00:23.190]  ular
+[00:00:23.190 --> 00:00:23.200]   o
+[00:00:23.200 --> 00:00:23.440]   col
+[00:00:23.440 --> 00:00:23.600]  á
+[00:00:23.600 --> 00:00:23.840]  gen
+[00:00:23.840 --> 00:00:24.100]  o
+[00:00:24.100 --> 00:00:24.100]  ,
+[00:00:24.100 --> 00:00:24.330]   su
+[00:00:24.330 --> 00:00:24.420]  av
+[00:00:24.420 --> 00:00:24.760]  izar
+[00:00:24.760 --> 00:00:24.900]   as
+[00:00:24.900 --> 00:00:24.980]   l
+[00:00:24.980 --> 00:00:25.380]  inhas
+[00:00:25.380 --> 00:00:25.720]   fin
+[00:00:25.720 --> 00:00:25.780]  as
+[00:00:25.780 --> 00:00:25.860]   e
+[00:00:25.860 --> 00:00:26.440]   traz
+[00:00:26.440 --> 00:00:26.500]  endo
+[00:00:26.500 --> 00:00:26.820]   mais
+[00:00:26.820 --> 00:00:27.060]   fir
+[00:00:27.060 --> 00:00:27.220]  me
+[00:00:27.220 --> 00:00:27.380]  za
+[00:00:27.380 --> 00:00:27.700]   para
+[00:00:27.700 --> 00:00:27.780]   a
+[00:00:27.780 --> 00:00:28.100]   pele
+[00:00:28.100 --> 00:00:28.380]  .
+whisper_print_progress_callback: progress =  99%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  2711.91 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    39.36 ms
+whisper_print_timings:   sample time =  4841.44 ms /   644 runs (    7.52 ms per run)
+whisper_print_timings:   encode time = 49497.92 ms /     1 runs (49497.92 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time = 42604.60 ms /   642 runs (   66.36 ms per run)
+whisper_print_timings:   prompt time =  6273.53 ms /   122 runs (   51.42 ms per run)
+whisper_print_timings:    total time = 106233.13 ms
+
+trecho 1 22.88-51.40: Então, é durante a avaliação que entendemos a individualidade de cada rosto e podemos associar os tratamentos para obter os melhores resultados. No caso desse paciente, como já existe profundidade dessas linhas, o ideal é que a gente faça a estimulação de colágeno com os fios de PDO. Os fios de PDO, eles são inseridos sobre a pele e aí eles vão estimular o colágeno, suavizar as linhas finas e trazendo mais firmeza para a pele.
+6.46:O 6.53:Botox 6.86:é 6.99:um 7.31:dos 7.42:nossos 7.9:grandes 8.46:aliados 9.15:para 9.45:suavizar 10.03:as 10.07:linhas 10.34:de 10.47:expressões. 11.5:Porém, 12.14:ele 12.38:não 12.73:consegue 13.37:fazer 13.78:tudo 14.11:sozinho. 14.82:Algumas 15.34:marcas 15.76:e 15.9:linhas 16.27:de 16.41:expressões 17.4:precisam 17.8:de 17.94:outras 18.38:abordagens, 19.26:como, 19.6:por 19.78:exemplo, 20.28:o 20.33:preenchimento 21.07:com 21.34:ácido 21.63:ialurônico. 23:Então, 23.57:é 23.84:durante 24.35:a 24.43:avaliação 25.65:que 25.66:entendemos 26.37:a 26.44:individualidade 27.63:de 27.89:cada 28.27:rosto 28.82:e 28.99:podemos 29.38:associar 29.94:os 30.08:tratamentos 31:para 31.11:obter 31.42:os 31.54:melhores 32.05:resultados. 32.76:No 32.87:caso 33.09:desse 33.46:paciente, 33.98:como 34.19:já 34.39:existe 34.8:profundidade 35.62:dessas 36.03:linhas, 36.46:o 36.55:ideal 36.86:é 36.99:que 37.19:a 37.25:gente 37.72:faça 37.97:a 37.98:estimulação 38.96:de 38.99:colágeno 39.86:com 39.94:os 40.15:fios 40.45:de 40.62:PDO. 40.92:Os 41.19:fios 41.45:de 41.63:PDO, 42.06:eles 42.42:são 42.78:inseridos 43.71:sobre 44.01:a 44.1:pele 44.59:e 44.68:aí 44.8:eles 45.07:vão 45.36:estimular 46.07:o 46.08:colágeno, 46.98:suavizar 47.64:as 47.78:linhas 48.26:finas 48.66:e 48.74:trazendo 49.38:mais 49.7:firmeza 50.26:para 50.58:a 50.66:pele.

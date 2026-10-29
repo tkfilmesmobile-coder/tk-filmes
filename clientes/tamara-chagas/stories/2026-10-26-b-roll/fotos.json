@@ -1,0 +1,27 @@
+[
+ {
+  "id": "01-bom-dia",
+  "foto": "vlog-natal/ep02-6643-20.jpg",
+  "kicker": "SEGUNDA-FEIRA",
+  "pos": "baixo",
+  "texto": "Bom dia.<br>Começando a semana <b>de portas abertas</b>."
+ },
+ {
+  "id": "03-prova-de-vida",
+  "foto": "senhor-jardim-kawe-rodrigues-unsplash.jpg",
+  "kicker": "VOTOU ONTEM?",
+  "pos": "baixo",
+  "tam": 58,
+  "texto": "O seu voto no 2º turno <b>vale como prova de vida</b> do INSS.",
+  "sub": "A atualização é automática. Se houver falha, o INSS avisa, e dá pra regularizar pelo Meu INSS ou no banco.",
+  "fonte": "INSS · Agência Brasil, outubro de 2026"
+ },
+ {
+  "id": "08-hoje-16h",
+  "foto": "stock/mae-filho-brincando-pexels-31559971.jpg",
+  "kicker": "HOJE, 16H, NO FEED",
+  "pos": "baixo",
+  "tam": 56,
+  "texto": "Filho maior de idade com autismo <b>tem direito à pensão por morte?</b>"
+ }
+]

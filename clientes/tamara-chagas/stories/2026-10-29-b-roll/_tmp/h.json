@@ -1,0 +1,318 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,140"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 140
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,140",
+				"to": "00:00:00,180"
+			},
+			"offsets": {
+				"from": 140,
+				"to": 180
+			},
+			"text": " Bom"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,180",
+				"to": "00:00:00,480"
+			},
+			"offsets": {
+				"from": 180,
+				"to": 480
+			},
+			"text": " dia,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,480",
+				"to": "00:00:00,980"
+			},
+			"offsets": {
+				"from": 480,
+				"to": 980
+			},
+			"text": " passando"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,980",
+				"to": "00:00:01,230"
+			},
+			"offsets": {
+				"from": 980,
+				"to": 1230
+			},
+			"text": " para"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,230",
+				"to": "00:00:01,820"
+			},
+			"offsets": {
+				"from": 1230,
+				"to": 1820
+			},
+			"text": " informar"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,820",
+				"to": "00:00:01,880"
+			},
+			"offsets": {
+				"from": 1820,
+				"to": 1880
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,880",
+				"to": "00:00:01,920"
+			},
+			"offsets": {
+				"from": 1880,
+				"to": 1920
+			},
+			"text": " o"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,920",
+				"to": "00:00:02,130"
+			},
+			"offsets": {
+				"from": 1920,
+				"to": 2130
+			},
+			"text": " nosso"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,130",
+				"to": "00:00:02,580"
+			},
+			"offsets": {
+				"from": 2130,
+				"to": 2580
+			},
+			"text": " atendimento"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,580",
+				"to": "00:00:02,760"
+			},
+			"offsets": {
+				"from": 2580,
+				"to": 2760
+			},
+			"text": " aqui"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,760",
+				"to": "00:00:02,830"
+			},
+			"offsets": {
+				"from": 2760,
+				"to": 2830
+			},
+			"text": " no"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,830",
+				"to": "00:00:03,240"
+			},
+			"offsets": {
+				"from": 2830,
+				"to": 3240
+			},
+			"text": " escritório"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,240",
+				"to": "00:00:03,480"
+			},
+			"offsets": {
+				"from": 3240,
+				"to": 3480
+			},
+			"text": " já"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,480",
+				"to": "00:00:04,360"
+			},
+			"offsets": {
+				"from": 3480,
+				"to": 4360
+			},
+			"text": " iniciaram,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,360",
+				"to": "00:00:04,890"
+			},
+			"offsets": {
+				"from": 4360,
+				"to": 4890
+			},
+			"text": " horário"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,890",
+				"to": "00:00:05,020"
+			},
+			"offsets": {
+				"from": 4890,
+				"to": 5020
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,020",
+				"to": "00:00:05,740"
+			},
+			"offsets": {
+				"from": 5020,
+				"to": 5740
+			},
+			"text": " funcionamento"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,740",
+				"to": "00:00:05,870"
+			},
+			"offsets": {
+				"from": 5740,
+				"to": 5870
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,870",
+				"to": "00:00:06,100"
+			},
+			"offsets": {
+				"from": 5870,
+				"to": 6100
+			},
+			"text": " 8h"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,100",
+				"to": "00:00:06,220"
+			},
+			"offsets": {
+				"from": 6100,
+				"to": 6220
+			},
+			"text": " da"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,220",
+				"to": "00:00:06,580"
+			},
+			"offsets": {
+				"from": 6220,
+				"to": 6580
+			},
+			"text": " manhã"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,580",
+				"to": "00:00:06,640"
+			},
+			"offsets": {
+				"from": 6580,
+				"to": 6640
+			},
+			"text": " a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,640",
+				"to": "00:00:06,880"
+			},
+			"offsets": {
+				"from": 6640,
+				"to": 6880
+			},
+			"text": " 1h"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,880",
+				"to": "00:00:07,070"
+			},
+			"offsets": {
+				"from": 6880,
+				"to": 7070
+			},
+			"text": " da"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,070",
+				"to": "00:00:07,360"
+			},
+			"offsets": {
+				"from": 7070,
+				"to": 7360
+			},
+			"text": " tarde."
+		}
+	]
+}

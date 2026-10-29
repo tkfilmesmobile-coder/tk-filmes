@@ -1,0 +1,18 @@
+﻿[2026-10-26 18:42:08] publicando 2026-10-26-conversa-viral...
+[18:42:09] sem internet, tentando de novo em 30 s
+Fazendo upload da imagem pro catbox...
+  OK: 2026-10-26-conversa-viral.png
+
+Criando container...
+node : Container: Error validating access token: The session has been invalidated because the user changed their 
+password or Facebook has changed the session for security reasons.
+No C:\Users\tamar\TK FILMES\tk-filmes\modelos\publicar-agendado.ps1:23 caractere:12
++   $saida = node --env-file=.env .claude/skills/publicar-social-ratos/ ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Container: Erro...curity reasons.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76
+
+[09:15:05] falhou depois de criar o container: não repito pra não duplicar
+[2026-10-29 09:15:05] fim (código -1073740791)

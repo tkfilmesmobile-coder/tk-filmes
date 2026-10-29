@@ -300,3 +300,147 @@ Fazendo upload do story...
 
 Story publicado! (media 17914529145499875)
 
+[2026-10-23 09:10:35] 2026-10-23 01-bom-dia.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18035083292899574)
+
+[2026-10-23 09:11:54] 2026-10-23 02-horario.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/hgdy9w.mp4
+
+Story em video publicado! (media 17874602634639002)
+
+[2026-10-23 09:12:33] 2026-10-23 03-segundo-turno.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18113124917150703)
+
+[2026-10-23 09:14:17] 2026-10-23 04-localizacao.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/qkqzib.mp4
+
+Story em video publicado! (media 18140552164620081)
+
+[2026-10-23 09:14:54] 2026-10-23 07-vlog.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18002385335806583)
+
+[2026-10-23 09:16:08] 2026-10-23 05-online.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/31185g.mp4
+
+Story em video publicado! (media 18398195521165891)
+
+[2026-10-23 09:18:48] 2026-10-23 06-bastidores-decoracao.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/lysi3w.mp4
+
+Story em video publicado! (media 17903829276604856)
+
+[2026-10-23 09:19:25] 2026-10-23 08-fim-de-semana.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18125053870722108)
+
+[2026-10-26 08:54:40] SEM STORIES: clientes/tamara-chagas/stories/2026-10-26-b-roll/ordem.txt não existe
+[2026-10-26 09:19:29] 2026-10-26 01-bom-dia.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18147680632567645)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-26 09:20:53] 2026-10-26 02-horario.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://d.uguu.se/PXBbllHm.mp4
+
+Story em video publicado! (media 17956987659272578)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-26 09:21:31] 2026-10-26 03-prova-de-vida.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18386978464231943)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-26 09:22:42] 2026-10-26 04-localizacao.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://d.uguu.se/FitvxZUp.mp4
+
+Story em video publicado! (media 18434586970149658)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-26 09:23:15] 2026-10-26 08-hoje-16h.jpg (tentativa 1)
+Fazendo upload do story...
+node.exe : Story container: Only photo or video can be accepted as media type.
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:24 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Story container... as media type.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76
+
+[2026-10-26 09:24:18] 2026-10-26 08-hoje-16h.jpg (tentativa 2)
+Fazendo upload do story...
+node.exe : Story container: Only photo or video can be accepted as media type.
+No C:\Users\tamar\TK FILMES\clientes\tamara-chagas\modelos\publicar-stories-dia.ps1:24 caractere:15
++ ...   $saida = (& node --env-file=.env $js --conta $Conta $tipo "$pasta/$ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Story container... as media type.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76
+
+[2026-10-26 09:25:35] 2026-10-26 08-hoje-16h.jpg (tentativa 3)
+Fazendo upload do story...
+
+Story publicado! (media 18132642217765676)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-26 09:27:21] 2026-10-26 06-online.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://n.uguu.se/ZdCUiwqy.mp4
+
+Story em video publicado! (media 18101557412636322)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-29 09:38:31] 2026-10-29 01-bom-dia.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18109356800108268)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-29 09:39:33] 2026-10-29 02-horario.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/gek40h.mp4
+
+Story em video publicado! (media 18170081632486452)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-29 09:40:14] 2026-10-29 03-pagamento.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 17947306803346866)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-29 09:41:22] 2026-10-29 04-localizacao.mp4 (tentativa 1)
+Fazendo upload do video pro catbox...
+  OK: https://files.catbox.moe/7886s6.mp4
+
+Story em video publicado! (media 18036466640896117)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-29 09:41:56] 2026-10-29 05-hoje-16h.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18127543360808182)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+
+[2026-10-29 09:42:31] 2026-10-29 08-equipe.jpg (tentativa 1)
+Fazendo upload do story...
+
+Story publicado! (media 18090649232265442)
+  arquivado no Drive: G:\Meu Drive\Tamara Chagas\CONTE├ÜDO\2026-10 OUTUBRO\STORIES
+

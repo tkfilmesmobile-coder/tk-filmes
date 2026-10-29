@@ -1,5 +1,5 @@
 ﻿# Publica o vídeo da Dra. Tamara "Carta negada no INSS: quando judicializar" no perfil pessoal @dra.tamarachagas_ com colaboração do @tamarachagas_prev (regra de 15/10: Tamara falando pra câmera vai no pessoal)
-# + 3 stories no pessoal e 4 no escritório. Uma vez só, pedido da Talyta em 15/10/2026 (sexta 23/10, 16h).
+# + 3 stories no pessoal e 4 no escritório. Uma vez só, pedido da Talyta em 15/10/2026 (remarcado pra sexta 30/10, 16h).
 Set-Location "C:\Users\tamar\TK FILMES"
 $p = "clientes/tamara-chagas/reels/2026-10-15-cliente-negado-inss"
 $js = ".claude/skills/publicar-social-ratos/scripts/publish-graph-api.js"

@@ -20,7 +20,7 @@ const FPS = 24;
 const COBRE = "#F0B391"; // cobre/rosé da sacola da Alana, clareado pra ler sobre vídeo
 
 type Estilo = "gancho" | "normal" | "citado" | "forte";
-type Trecho = {
+export type Trecho = {
   texto: string; // palavras entre *asteriscos* ficam em cobre itálico
   de: number; // segundos
   ate: number;
@@ -70,7 +70,7 @@ const Texto: React.FC<{ texto: string; tam: number; cor?: string }> = ({ texto, 
   </>
 );
 
-const Legenda: React.FC<{ t: Trecho; duracao: number }> = ({ t, duracao }) => {
+export const Legenda: React.FC<{ t: Trecho; duracao: number }> =({ t, duracao }) => {
   const frame = useCurrentFrame();
   const estilo = t.estilo ?? "normal";
   const entra = interpolate(frame, [0, 6], [0, 1], { ...TRAVA, easing: SUAVE });

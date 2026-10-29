@@ -1,0 +1,307 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,130"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 130
+			},
+			"text": " E"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,130",
+				"to": "00:00:00,340"
+			},
+			"offsets": {
+				"from": 130,
+				"to": 340
+			},
+			"text": " para"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,340",
+				"to": "00:00:00,540"
+			},
+			"offsets": {
+				"from": 340,
+				"to": 540
+			},
+			"text": " quem"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,540",
+				"to": "00:00:00,780"
+			},
+			"offsets": {
+				"from": 540,
+				"to": 780
+			},
+			"text": " não"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,780",
+				"to": "00:00:01,260"
+			},
+			"offsets": {
+				"from": 780,
+				"to": 1260
+			},
+			"text": " sabe,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,260",
+				"to": "00:00:01,490"
+			},
+			"offsets": {
+				"from": 1260,
+				"to": 1490
+			},
+			"text": " nossa"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,490",
+				"to": "00:00:02,610"
+			},
+			"offsets": {
+				"from": 1490,
+				"to": 2610
+			},
+			"text": " localização,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,610",
+				"to": "00:00:02,930"
+			},
+			"offsets": {
+				"from": 2610,
+				"to": 2930
+			},
+			"text": " ficamos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,930",
+				"to": "00:00:03,600"
+			},
+			"offsets": {
+				"from": 2930,
+				"to": 3600
+			},
+			"text": " localizados"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,600",
+				"to": "00:00:04,090"
+			},
+			"offsets": {
+				"from": 3600,
+				"to": 4090
+			},
+			"text": " aqui"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,090",
+				"to": "00:00:04,140"
+			},
+			"offsets": {
+				"from": 4090,
+				"to": 4140
+			},
+			"text": " no"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,140",
+				"to": "00:00:04,360"
+			},
+			"offsets": {
+				"from": 4140,
+				"to": 4360
+			},
+			"text": " centro"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,360",
+				"to": "00:00:04,800"
+			},
+			"offsets": {
+				"from": 4360,
+				"to": 4800
+			},
+			"text": " de"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,800",
+				"to": "00:00:05,700"
+			},
+			"offsets": {
+				"from": 4800,
+				"to": 5700
+			},
+			"text": " Nantes-Palmares,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,700",
+				"to": "00:00:05,830"
+			},
+			"offsets": {
+				"from": 5700,
+				"to": 5830
+			},
+			"text": " na"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,830",
+				"to": "00:00:06,020"
+			},
+			"offsets": {
+				"from": 5830,
+				"to": 6020
+			},
+			"text": " Rua"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,020",
+				"to": "00:00:06,410"
+			},
+			"offsets": {
+				"from": 6020,
+				"to": 6410
+			},
+			"text": " Doutor"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,410",
+				"to": "00:00:07,030"
+			},
+			"offsets": {
+				"from": 6410,
+				"to": 7030
+			},
+			"text": " Antônio"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,030",
+				"to": "00:00:07,720"
+			},
+			"offsets": {
+				"from": 7030,
+				"to": 7720
+			},
+			"text": " Arecibo,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,720",
+				"to": "00:00:08,220"
+			},
+			"offsets": {
+				"from": 7720,
+				"to": 8220
+			},
+			"text": " número"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,220",
+				"to": "00:00:09,160"
+			},
+			"offsets": {
+				"from": 8220,
+				"to": 9160
+			},
+			"text": " 268,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,160",
+				"to": "00:00:09,840"
+			},
+			"offsets": {
+				"from": 9160,
+				"to": 9840
+			},
+			"text": " próximo"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,840",
+				"to": "00:00:10,010"
+			},
+			"offsets": {
+				"from": 9840,
+				"to": 10010
+			},
+			"text": " ao"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,010",
+				"to": "00:00:10,740"
+			},
+			"offsets": {
+				"from": 10010,
+				"to": 10740
+			},
+			"text": " Aquarius."
+		}
+	]
+}

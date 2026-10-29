@@ -1,0 +1,12 @@
+[
+ {"id": "01-bom-dia", "foto": "vlog-natal/ep02-6640.jpg", "kicker": "SEXTA-FEIRA", "pos": "baixo",
+  "texto": "Bom dia.<br>Sexta de <b>atendimento</b> e de decoração de Natal por aqui."},
+ {"id": "03-segundo-turno", "foto": "tamara/tamara-estudio-0029.jpg", "kicker": "LEMBRETE · DOMINGO, 25/10", "pos": "baixo", "tam": 56,
+  "texto": "Vai votar no 2º turno? O voto <b>vale como prova de vida</b> do INSS.",
+  "sub": "Quem já votou no 1º turno também teve a prova de vida atualizada.",
+  "fonte": "INSS · Agência Brasil, outubro de 2026"},
+ {"id": "07-vlog", "foto": "vlog-natal/ep02-6643.jpg", "kicker": "VLOG DE NATAL · EP. 02", "pos": "baixo",
+  "texto": "Já viu o episódio de ontem? <b>Está no feed.</b>"},
+ {"id": "08-fim-de-semana", "foto": "vlog-natal/ep02-6637.jpg", "kicker": "ATÉ SEGUNDA", "pos": "baixo",
+  "texto": "Bom fim de semana.<br><b>Cada caso é único.</b>"}
+]

@@ -1,0 +1,12 @@
+[
+ {"id": "01-bom-dia", "foto": "b-roll/equipe-rapaz-recepcao-07.jpg", "kicker": "QUINTA-FEIRA", "pos": "baixo",
+  "texto": "Bom dia.<br>A recepção já está <b>de portas abertas</b>."},
+ {"id": "03-pagamento", "foto": "senhora-oculos-felipe-queiroz-alves-unsplash.jpg", "kicker": "PAGAMENTO DE OUTUBRO", "pos": "baixo", "tam": 58,
+  "texto": "A folha de outubro do INSS <b>começou em 26/10 e vai até 9/11</b>.",
+  "sub": "O dia depende do final do número do benefício. Confira no Meu INSS ou no app.",
+  "fonte": "Calendário de pagamentos do INSS 2026"},
+ {"id": "05-hoje-16h", "foto": "stock/cirurgia-pexels-14513059.jpg", "kicker": "HOJE, 16H, NO FEED", "pos": "baixo", "tam": 58,
+  "texto": "Cirurgia estética <b>dá direito a benefício do INSS?</b>"},
+ {"id": "08-equipe", "foto": "b-roll/equipe-dupla-papeis-04-borrado.jpg", "kicker": "NOSSA EQUIPE", "pos": "baixo",
+  "texto": "Cada documento é <b>conferido a quatro mãos</b> antes de seguir."}
+]

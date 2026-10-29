@@ -1,0 +1,164 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp/ggml-medium.bin",
+		"language": "pt",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,090"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 90
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,090",
+				"to": "00:00:00,140"
+			},
+			"offsets": {
+				"from": 90,
+				"to": 140
+			},
+			"text": " só"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,140",
+				"to": "00:00:00,560"
+			},
+			"offsets": {
+				"from": 140,
+				"to": 560
+			},
+			"text": " lembrando"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,560",
+				"to": "00:00:00,720"
+			},
+			"offsets": {
+				"from": 560,
+				"to": 720
+			},
+			"text": " que"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,720",
+				"to": "00:00:01,050"
+			},
+			"offsets": {
+				"from": 720,
+				"to": 1050
+			},
+			"text": " nossos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,050",
+				"to": "00:00:01,690"
+			},
+			"offsets": {
+				"from": 1050,
+				"to": 1690
+			},
+			"text": " atendimentos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,690",
+				"to": "00:00:01,880"
+			},
+			"offsets": {
+				"from": 1690,
+				"to": 1880
+			},
+			"text": " são"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,880",
+				"to": "00:00:02,800"
+			},
+			"offsets": {
+				"from": 1880,
+				"to": 2800
+			},
+			"text": " presenciais,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,800",
+				"to": "00:00:03,000"
+			},
+			"offsets": {
+				"from": 2800,
+				"to": 3000
+			},
+			"text": " mas"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,000",
+				"to": "00:00:03,370"
+			},
+			"offsets": {
+				"from": 3000,
+				"to": 3370
+			},
+			"text": " também"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,370",
+				"to": "00:00:03,600"
+			},
+			"offsets": {
+				"from": 3370,
+				"to": 3600
+			},
+			"text": " temos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,600",
+				"to": "00:00:04,100"
+			},
+			"offsets": {
+				"from": 3600,
+				"to": 4100
+			},
+			"text": " atendimentos"
+		}
+	]
+}

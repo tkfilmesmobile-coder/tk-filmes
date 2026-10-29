@@ -151,6 +151,36 @@ async function getPermalink(mediaId) {
 }
 
 // =======================================================================
+
+// --- TK Filmes (23/10/2026): arquivo no Drive do cliente + registro de cada publicação ---
+// Regra da Talyta: todo vídeo/arte que vai pras redes vai pro Drive do cliente, organizado por mês,
+// e entra no registro que alimenta os relatórios mensal e trimestral.
+const CLIENTES = {
+  TAMARACHAGAS_PREV: { drive: "G:/Meu Drive/Tamara Chagas/CONTEÚDO", registro: "clientes/tamara-chagas/relatorios/publicacoes.csv" },
+  DRA_TAMARACHAGAS_: { drive: "G:/Meu Drive/Tamara Chagas/CONTEÚDO", registro: "clientes/tamara-chagas/relatorios/publicacoes.csv" },
+};
+const MESES = ["JANEIRO","FEVEREIRO","MARÇO","ABRIL","MAIO","JUNHO","JULHO","AGOSTO","SETEMBRO","OUTUBRO","NOVEMBRO","DEZEMBRO"];
+function registrarPublicacao(tipo, arquivos, mediaId, link) {
+  const c = CLIENTES[CONTA]; if (!c) return;
+  const agora = new Date(); const ano = agora.getFullYear(), m = agora.getMonth();
+  const mm = String(m + 1).padStart(2, "0");
+  const dia = `${ano}-${mm}-${String(agora.getDate()).padStart(2, "0")}`;
+  const pasta = path.join(c.drive, `${ano}-${mm} ${MESES[m]}`, tipo);
+  try {
+    fs.mkdirSync(pasta, { recursive: true });
+    arquivos.forEach((a, i) => {
+      const nome = `${dia}_${CONTA.toLowerCase()}_${arquivos.length > 1 ? String(i + 1).padStart(2, "0") + "_" : ""}${path.basename(a)}`;
+      fs.copyFileSync(path.resolve(a), path.join(pasta, nome));
+    });
+    console.log(`  arquivado no Drive: ${pasta}`);
+  } catch (e) { console.log(`  (não consegui copiar pro Drive: ${e.message})`); }
+  try {
+    const reg = path.resolve(c.registro); fs.mkdirSync(path.dirname(reg), { recursive: true });
+    if (!fs.existsSync(reg)) fs.writeFileSync(reg, "data_hora;conta;tipo;media_id;link;arquivos" + "\n");
+    fs.appendFileSync(reg, `${agora.toISOString()};${CONTA};${tipo};${mediaId || ""};${link || ""};${arquivos.map(a => path.basename(a)).join("|")}` + "\n");
+  } catch (e) { console.log(`  (não consegui registrar: ${e.message})`); }
+}
+
 async function main() {
   const opts = parseArgs();
   if (!TOKEN || !USER_ID) {
@@ -202,6 +232,7 @@ async function main() {
         catch (e) { if (t === 6 || !/not available/i.test(e.message)) throw e; }
       }
       console.log(`\nStory em video publicado! (media ${mediaId})`);
+      registrarPublicacao("STORIES", [opts.video], mediaId, "");
       return;
     }
 
@@ -217,6 +248,7 @@ async function main() {
     const link = await getPermalink(mediaId);
     console.log(`\nPublicado como Reels!`);
     if (link) console.log(`Link: ${link}`);
+    registrarPublicacao("REELS", [opts.video], mediaId, link);
     return;
   }
 
@@ -238,6 +270,7 @@ async function main() {
       catch (e) { if (t === 6 || !/not available/i.test(e.message)) throw e; }
     }
     console.log(`\nStory publicado! (media ${mediaId})`);
+    registrarPublicacao("STORIES", [opts.images[0]], mediaId, "");
     return;
   }
 
@@ -261,6 +294,7 @@ async function main() {
     const link = await getPermalink(mediaId);
     console.log(`\nPublicado!`);
     if (link) console.log(`Link: ${link}`);
+    registrarPublicacao("FEED", [opts.images[0]], mediaId, link);
     return;
   }
 
@@ -296,6 +330,7 @@ async function main() {
   const link = await getPermalink(mediaId);
   console.log(`\nPublicado!`);
   if (link) console.log(`Link: ${link}`);
+  registrarPublicacao("FEED", opts.images, mediaId, link);
 }
 
 main().catch(e => { console.error(e.message); process.exit(1); });
