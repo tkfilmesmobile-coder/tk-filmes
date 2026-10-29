@@ -27,10 +27,10 @@ Em 2026-10-28 entrou a Start Fitness (academia, edição avulsa de 2 vídeos, `c
 e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada da 2ª Corrida (1º/11) e a entrevista de expectativas.
 TK (2026-10-29): reels "Um dia na TK" (só b-roll) e o V10 da eleição estão na raiz do Drive com as legendas; o V10 foi aprovado, mas
 o token da TK foi invalidado e só posta com token novo. Site em `tk-filmes/site/` todo em marrom, com a Talyta na abertura (`tk-filmes/andamento.md`).
-Tamara (2026-10-29): o PC do escritório parou em 23/10 e a Talyta não vai ligá-lo; Reels e stories dela saem do PC kumyt, por
-tarefas que não repetem publicação (`_contexto/automacoes.md`). Publicados daqui: pensão por morte (27/10) e cirurgia estética
-(28/10), com os stories; a carta negada sai sex 30/10 às 16h. Semana em 3 de 5 Reels (feira EP. 3 e "Trabalhador rural" só existem
-no PC do escritório). Regras novas na ficha dela: curadoria de toda fala (feed e stories) e variar fotos e quem fala nos stories.
+Tamara (2026-10-29): o PC do escritório voltou em 29/10 e postou 8 stories do dia. Sex 30/10 saem 3 Reels: feira EP. 3 às 11h e
+"Trabalhador rural" às 13h30 (pelo PC do escritório, que precisa estar ligado) e a carta negada às 16h (PC kumyt). Com isso a semana
+fecha 5 de 5. Vlog de Natal EP. 03 começado (`clientes/tamara-chagas/reels/2026-10-29-vlog-natal-ep3/`); o bruto só está no Downloads
+do PC do escritório. Regras novas na ficha dela: curadoria de toda fala (feed e stories) e variar fotos e quem fala nos stories.
 
 ## Pendências
 - **Dra. Camilla:** decidir se apaga o Reels v1 da Mari (21/10) e o carrossel de 22/10 (slide 3 chama a foto pós aparelho de "ANTES"); data do post 4; autorização de imagem da Mari e da paciente do Periodontite. Detalhes em `clientes/camilla-wanderley/andamento.md`. (2026-10-26)
@@ -53,11 +53,10 @@ no PC do escritório). Regras novas na ficha dela: curadoria de toda fala (feed 
 - Fixar no perfil da TK, pelo app, os posts de 05, 09 e 23/10 depois que saírem. (2026-09-29)
 - Trocar o @ antigo (@tkfilmesmobile) no papel timbrado, nas assinaturas e no material impresso. (2026-09-29)
 - Conferir se os posts agendados saíram: `*-publicacao.log` em `tk-filmes/posts/2026-10/` e nos posts da Tamara. Só saem com o PC ligado no horário, e a conexão precisa aguentar o processamento do vídeo. (2026-09-29)
-- **Tamara: montar o lote de stories de cada dia útil na véspera** (`stories/AAAA-MM-DD-b-roll/` com `ordem.txt`; a tarefa das 8h do PC kumyt publica até as 11h). O de 29/10 não foi montado. (2026-10-29)
+- **Tamara: montar o lote de stories de cada dia útil na véspera** (`stories/AAAA-MM-DD-b-roll/` com `ordem.txt`; a tarefa das 8h do PC kumyt publica até as 11h). O de 30/10 ainda não foi montado. (2026-10-29)
 - Tamara: confirmar o nome certo da rua e da clínica em frente ao escritório (até lá, as falas de localização saem sem o nome da rua). (2026-10-27)
-- Tamara: os vídeos do EP. 03 do Vlog de Natal não apareceram no Drive (busca em 28/10). (2026-10-28)
+- Tamara: subir pro Drive o bruto do EP. 03 do Vlog de Natal (IMG_0707 e IMG_0708, hoje só no Downloads do PC do escritório) pra editar em outro PC; autorização de imagem do ajudante que aparece. (2026-10-29)
 - Tamara: apagar pelo app o story v1 da Rita (27/10, 8h20; o v2 já saiu às 8h34). (2026-10-27)
-- Tamara: se o PC do escritório voltar, desativar lá antes as tarefas da pensão, carta negada, cirurgia e stories das 8h. (2026-10-27)
 - A cada post da Tamara, aceitar o convite de colaboração no app, logado no @dra.tamarachagas_. (2026-09-29)
 - Tokens do Instagram vencem por volta de 27/11/2026 (Tamara e Camilla) 28/11/2026 (Galeguinho) e 08/12/2026 (Ary): renovar antes. O da TK já caiu (ver acima). (2026-09-29)
 - Tamara: confirmar o tom de fala dela nos vídeos e, se existir, o manual de marca com fontes e cores oficiais. (2026-09-28)

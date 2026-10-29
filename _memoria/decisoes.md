@@ -94,3 +94,7 @@ regra de trabalho. O que não entra: tarefa feita (isso é o diário).
 - **2026-10-28** (Talyta) [site tk]: o retrato do "Quem dirige" só segue o mouse (lados e cima/baixo); não troca pro vídeo do sorriso quando o mouse para. Por quê: escolha dela; a troca entre dois vídeos gerados separadamente aparecia.
 - **2026-10-27** (Talyta) [tamara-chagas]: enquanto o PC do escritório estiver parado, Reels e stories da Tamara saem do PC kumyt (tarefas próprias, que não repetem publicação). Por quê: ela não vai ligar o PC do escritório; ele parou em 23/10 e três Reels deixaram de sair.
 - **2026-10-27** (agente) [tamara-chagas]: fala de localização sai sem o nome da rua, cortada nas pausas, até a Talyta confirmar o endereço. Por quê: cada gravação diz o nome de um jeito, e a legenda tem que repetir a fala exata.
+
+- **2026-10-29** (Talyta) [tamara-chagas]: stories não mostram papel, tela ou documento na cena, nem borrado. Por quê: ela apagou a foto da equipe conferindo papéis ("não condiz com o que foi acordado"); a planilha proíbe gravar documento sem autorização.
+- **2026-10-29** (Talyta) [tamara-chagas]: foto de story nunca sai de quadro congelado de vídeo com a Tamara; foto dela só posada. Por quê: o quadro do vlog pegou a Tamara no meio de uma expressão (reprovado em 26/10).
+- **2026-10-29** (Talyta) [tamara-chagas]: o PC do escritório volta a publicar os Reels cujos vídeos só existem nele (feira EP. 3 e "Trabalhador rural", ambos sex 30/10); stories das 8h e carta negada seguem no PC kumyt. Substitui em parte: 2026-10-27.

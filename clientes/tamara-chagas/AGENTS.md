@@ -40,6 +40,9 @@ Stories diários com b-roll (regra da Talyta, 21/10/2026):
   de bom dia, horário, online e localização muda de um dia pro outro (rapaz de branco, rapaz de preto, Rita). Antes
   de montar, olhar o `stories/b-roll/banco.md` (trechos já conferidos e o que foi usado quando) e o material novo do
   Drive. Vídeo de fala com curadoria: `modelos/stories_fala.py` (legenda palavra a palavra, só converte HDR quando é HDR).
+- **Nada de documento na cena** (regra da Talyta, 29/10/2026): papel, tela de computador com processo ou documento não
+  entram em story, nem borrados. Equipe só em cena sem documento (recepção, parede do logo, falando pra câmera).
+- **Foto da Tamara só posada** (regra da Talyta, 26/10/2026): nunca quadro congelado de vídeo (pega no meio da fala).
 - **O B-roll se reaproveita várias vezes** (regra da Talyta, 22/10/2026): foto ou trecho já usado pode voltar em
   outro dia. O "já usado" do `stories/b-roll/banco.md` serve pra variar, não pra bloquear.
 - **Estrutura do dia segue a planilha do marketing** (`controle-marketing.xlsx`, aba Checklist Diário), mesclando
