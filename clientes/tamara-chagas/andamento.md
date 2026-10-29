@@ -34,15 +34,16 @@
   Lote em `stories/2026-10-29-b-roll/`. Desligadas neste PC as tarefas da cirurgia (29/10), da carta negada (30/10) e
   dos stories das 8h, que rodam no PC kumyt. **Programados neste PC:** Reels "Trabalhador rural" sex 30/10 às 13h30 (adiado pela Talyta) e
   episódio 3 da feira sex 30/10 às 11h. Só saem com este PC ligado (os vídeos .mp4 não vão pro GitHub).
-- 2026-10-29 · **Vlog de Natal EP. 03 em andamento** (`reels/2026-10-29-vlog-natal-ep3/`): bruto IMG_0707 (7 min:
-  veludo vermelho, árvore, Papai Noel inflável, arranjo da mesa, com um ajudante) e IMG_0708 (Tamara com o Papai Noel),
-  em `Downloads/Mobile Devices` deste PC. Projeto Remotion montado no modelo do EP02 (falta o Vlog.tsx e a EDL);
-  a transcrição de 0708 está em `bruto/t0708.json`; a do 0707 foi interrompida (medium é lento demais aqui: usar small).
-  Autorização de imagem do ajudante: pendente.
+- 2026-10-29 · **Vlog de Natal EP. 03 "o Papai Noel chegou" PUBLICADO** às 19h07 do PC kumyt (a Talyta pediu "poste"):
+  https://www.instagram.com/reel/DfGDRKmkrVh/ · @dra.tamarachagas_ em colaboração com @tamarachagas_prev, 2min03,
+  + 3 stories no pessoal e 4 no escritório (log em `reels/2026-10-29-vlog-natal-ep3/publicacao.log`).
+  Edição em `reels/2026-10-29-vlog-natal-ep3/edicao/` (Remotion, `src/Vlog.tsx`; brutos IMG_0707 e IMG_0708 do backup
+  do notebook no Drive): 4 capítulos, Papai Noel enchendo em 4x, destaques "1,80 m" e "segunda-feira, tudo pronto",
+  cartão "continua no EP. 04". Curadoria: fora as tentativas da abertura, a conversa solta, "aí você tá sangrando" e
+  "é o que pega do…"; a mesa com papel e telas foi coberta com o IMG_0708. Autorização de imagem do ajudante: pendente.
 
 ## Em aberto
-- **EP. 03 do Vlog de Natal:** a Talyta diz que subiu os vídeos em 28/10, mas eles não apareceram no Drive (busca
-  completa às 12h). Esperar o envio terminar ou ela dizer a pasta. (2026-10-28)
+- **Autorização de imagem do ajudante** que aparece no Vlog de Natal EP. 03 (já publicado em 29/10). (2026-10-29)
 - **Meta da semana (26 a 30/10): 3 de 5 Reels** (pensão, cirurgia, carta negada). Episódio 3 da feira e
   "Trabalhador rural" dependem de arquivos que só existem no PC do escritório, que a Talyta não vai ligar. (2026-10-27)
 - **Stories diários:** tarefa das 8h ligada no PC kumyt (27/10). O lote de cada dia precisa ser produzido na véspera; o de 28/10 está pronto. (2026-10-27)

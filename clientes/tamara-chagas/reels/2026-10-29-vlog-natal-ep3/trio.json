@@ -1,0 +1,19 @@
+{
+ "data": "29 de outubro de 2026",
+ "card": "Saiu o EP. 03 do nosso vlog de Natal: <b>o Papai Noel chegou.</b>",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "decoração de natal · ep. 03",
+  "linhas": [
+   "1. Veludo vermelho pros <b>laços</b>",
+   "2. Um Papai Noel inflável de <b>1,80 m</b>",
+   "3. E a árvore da mesa no <b>tom do vinho</b>"
+  ],
+  "marca": "1,80 m"
+ },
+ "conversa": [
+  ["in", "Vai dar tempo de deixar tudo pronto até segunda?", "16:03"],
+  ["out", "Esse é o plano! Acompanha o EP. 04 pra ver.", "16:04"]
+ ],
+ "fonte": ""
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "id": "1-card",
+  "foto": "tamara/tamara-estudio-0040.jpg",
+  "kicker": "NOVO NO FEED",
+  "pos": "baixo",
+  "tam": 54,
+  "texto": "Saiu o EP. 03 do nosso vlog de Natal: <b>o Papai Noel chegou.</b>"
+ },
+ {
+  "id": "2-notas",
+  "foto": "vlog-natal/ep03-0707-268.jpg",
+  "kicker": "DECORAÇÃO DE NATAL · EP. 03",
+  "pos": "baixo",
+  "tam": 42,
+  "texto": "1. Veludo vermelho pros <b>laços</b><br>2. Um Papai Noel inflável de <b>1,80 m</b><br>3. E a árvore da mesa no <b>tom do vinho</b>",
+  "fonte": ""
+ },
+ {
+  "id": "3-conversa",
+  "foto": "vlog-natal/ep03-0707-128.jpg",
+  "kicker": "DÚVIDA COMUM",
+  "pos": "baixo",
+  "tam": 50,
+  "texto": "“Vai dar tempo de deixar tudo pronto até segunda?”",
+  "sub": "Esse é o plano! Acompanha o EP. 04 pra ver."
+ }
+]

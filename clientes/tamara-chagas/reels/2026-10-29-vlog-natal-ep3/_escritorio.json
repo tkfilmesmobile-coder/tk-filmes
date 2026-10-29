@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "vlog-natal/ep03-0707-300.jpg",
+  "kicker": "VLOG DE NATAL · EP. 03",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "O Papai Noel <b>chegou.</b>",
+  "sub": "O terceiro episódio já está no feed."
+ },
+ {
+  "id": "02",
+  "foto": "vlog-natal/ep03-0707-242.jpg",
+  "kicker": "HOJE",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Nada menos que <b>1,80 m.</b>",
+  "sub": "Enchemos o Papai Noel inflável e agora falta achar o lugar dele.",
+  "fonte": ""
+ },
+ {
+  "id": "03",
+  "foto": "vlog-natal/ep03-0707-120.jpg",
+  "kicker": "PRÓXIMO EPISÓDIO",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Segunda-feira, <b>tudo pronto.</b>",
+  "sub": "Veludo, laços e a árvore no tom do vinho. Será que dá tempo?",
+  "fonte": ""
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0094.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Feito com carinho <b>pra vocês.</b>",
+  "sub": "Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]
