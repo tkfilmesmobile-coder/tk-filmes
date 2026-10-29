@@ -32,7 +32,7 @@
 - 2026-10-29 · PC do escritório: stories do dia no @tamarachagas_prev, 8 no ar (a Talyta apagou "HOJE, 16H" da cirurgia,
   que já tinha saído em 28/10, e a foto da equipe com papéis na mesa: documento na cena não pode, nem borrado).
   Lote em `stories/2026-10-29-b-roll/`. Desligadas neste PC as tarefas da cirurgia (29/10), da carta negada (30/10) e
-  dos stories das 8h, que rodam no PC kumyt. **Programados neste PC:** Reels "Trabalhador rural" hoje 29/10 às 16h e
+  dos stories das 8h, que rodam no PC kumyt. **Programados neste PC:** Reels "Trabalhador rural" sex 30/10 às 13h30 (adiado pela Talyta) e
   episódio 3 da feira sex 30/10 às 11h. Só saem com este PC ligado (os vídeos .mp4 não vão pro GitHub).
 - 2026-10-29 · **Vlog de Natal EP. 03 em andamento** (`reels/2026-10-29-vlog-natal-ep3/`): bruto IMG_0707 (7 min:
   veludo vermelho, árvore, Papai Noel inflável, arranjo da mesa, com um ajudante) e IMG_0708 (Tamara com o Papai Noel),
