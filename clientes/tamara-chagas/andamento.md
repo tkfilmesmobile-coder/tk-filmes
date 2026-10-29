@@ -1,4 +1,4 @@
-# Tamara Chagas Advocacia · andamento
+﻿# Tamara Chagas Advocacia · andamento
 
 ## Entregue
 - 2026-09-28 · Instagram do escritório (@tamarachagas_prev) e pessoal (@dra.tamarachagas_)
@@ -17,8 +17,24 @@
   Posts 6, 7 e 12 aprovados pela Dra. Tamara.
 - 2026-09-29 · Reels "prova de vida × voto" (IMG_0397, editado no Remotion) publicado às 11h59 →
   https://www.instagram.com/reel/Dd4B5zYjKVv/ · legenda em `posts/2026-09-29-reels-prova-de-vida-voto/`.
+- 2026-10-27 · Reels "Pensão por morte pro filho maior de idade com autismo" (era seg 26/10, 16h; a tarefa
+  não rodou com o PC do escritório parado) publicado à mão às 8h10 no @dra.tamarachagas_ com colaboração do
+  @tamarachagas_prev → https://www.instagram.com/reel/De_t5sAiAbj/ · 3 stories no pessoal publicados.
+  Vídeo renderizado de novo no PC kumyt a partir do bruto do Drive (dois sons "thump" refeitos e um ícone trocado).
+
+- 2026-10-27 · Stories do dia publicados à mão do PC kumyt (Rita bom dia refeito em v2 depois da crítica da
+  Talyta), mais os 4 do escritório do Reels da pensão. "Cirurgia estética" e "Carta negada" renderizados de novo
+  no PC kumyt (curadoria feita: fala conferida, ícone 🪪 trocado por 📋) e programados neste PC: qua 28/10 e sex 30/10, 16h.
 
 ## Em aberto
+- **Meta da semana (26 a 30/10): 3 de 5 Reels** (pensão, cirurgia, carta negada). Episódio 3 da feira e
+  "Trabalhador rural" dependem de arquivos que só existem no PC do escritório, que a Talyta não vai ligar. (2026-10-27)
+- **Stories diários:** tarefa das 8h ligada no PC kumyt (27/10). O lote de cada dia precisa ser produzido na véspera; o de 28/10 está pronto. (2026-10-27)
+- Confirmar o nome da rua e da clínica em frente (as falas de localização saem sem o nome da rua até lá). (2026-10-27)
+- Se o PC do escritório for religado: antes, desativar lá as tarefas da pensão (26/10), carta negada (23/10),
+  cirurgia (29/10) e stories das 8h, que agora rodam no PC kumyt. (2026-10-27)
+- Lote de stories de sex 23/10 (`stories/2026-10-23-b-roll/`) não saiu (a data passou); as fotos e falas dele podem
+  voltar em outro dia. A música padrão dos vídeos sem fala está só no PC do escritório. (2026-10-27)
 - 05/10: conferir se há 2º turno e agendar os posts 15 a 18 (ou os alternativos).
 - Aceitar os convites de colaboração no app, entrando no @dra.tamarachagas_.
 - Ficha: faltam outras redes (site, YouTube etc.) e o tom de fala da Tamara nos vídeos.

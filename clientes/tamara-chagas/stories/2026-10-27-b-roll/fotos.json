@@ -1,0 +1,13 @@
+[
+ {"id": "01-bom-dia", "foto": "b-roll/equipe-03-dupla.jpg", "kicker": "TERÇA-FEIRA", "pos": "baixo",
+  "texto": "Bom dia.<br>Mais um dia de <b>atendimento</b> por aqui."},
+ {"id": "03-pagamento", "foto": "b-roll/estrutura-03-teclado.jpg", "kicker": "PAGAMENTO DO INSS", "pos": "meio", "tam": 62,
+  "texto": "Recebe até um salário mínimo e o benefício termina em 2? <b>Hoje é o seu dia.</b>",
+  "sub": "O pagamento de outubro segue até <b>9 de novembro</b>, pelo final do benefício.",
+  "fonte": "INSS · Tabela de Pagamento de Benefícios 2026"},
+ {"id": "05-no-feed", "foto": "tamara/tamara-estudio-0029.jpg", "kicker": "NOVO NO FEED", "pos": "baixo", "posicao": "50% 30%", "tam": 58,
+  "texto": "Filho maior de idade com autismo tem direito à <b>pensão por morte?</b>",
+  "sub": "Vídeo novo da Dra. Tamara."},
+ {"id": "07-ate-amanha", "foto": "b-roll/estrutura-02-prateleira.jpg", "kicker": "ATÉ AMANHÃ", "pos": "baixo",
+  "texto": "Na dúvida, pergunte a quem entende.<br><b>Cada caso é único.</b>"}
+]

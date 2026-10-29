@@ -110,7 +110,7 @@ export const Pensao: React.FC = () => {
       <AbsoluteFill style={camera(f)}><OffthreadVideo src={staticFile("video.mp4")} /></AbsoluteFill>
       {Q(0.1, 2.45, <Headline kicker="PENSÃO POR MORTE" fino="olha que caso" forte="INTERESSANTE." dur={2.35} />)}
       {Q(9.7, 15.95, <Headline kicker="PENSÃO POR MORTE" fino="filho maior de idade," forte="COM AUTISMO." dur={6.25} />)}
-      {Q(18.8, 25.6, <Cards titulo="PRA TER DIREITO" dur={6.8} itens={[["🧾", "Qualidade de dependente"], ["🪪", "Pai segurado na data do óbito"], ["🩺", "Laudo da deficiência"], ["📄", "Certidão de óbito"]]} />)}
+      {Q(18.8, 25.6, <Cards titulo="PRA TER DIREITO" dur={6.8} itens={[["🧾", "Qualidade de dependente"], ["📋", "Pai segurado na data do óbito"], ["🩺", "Laudo da deficiência"], ["📄", "Certidão de óbito"]]} />)}
       {Q(25.75, 31.1, <Headline kicker="NESSE CASO" fino="a pensão é devida" forte="E PODE SER VITALÍCIA." dur={5.35} />)}
       {Q(33.45, 41.2, <Headline kicker="ATENÇÃO" fino="muita gente acha que" forte="NÃO TEM DIREITO." dur={7.75} />)}
       {Q(38.9, 41.2, <SeloINSS dur={2.3} />)}

@@ -3,11 +3,13 @@
 ## Identificação e contato
 - **Nome:** Melissa Emilly Pereira de Moraes (nome no perfil: Dra. Melissa Morais | Harmonização Facial)
 - **Negócio:** harmonização facial
-- **Paciente das fotos de antes e depois:** autorização de imagem assinada (Talyta, 2026-10-17).
+- **Pacientes das fotos de antes e depois:** autorização de imagem é com a Dra. Melissa. A TK não pergunta quem é a paciente
+  nem abre pendência sobre isso (Talyta, 2026-10-24).
 - **Telefone/WhatsApp:** [a definir] (o acordo foi feito por WhatsApp)
 - **Email:** [a definir]
 - **Cidade e estado:** [a definir]
-- **Conselho:** CRO (cirurgiã-dentista), confirmado pela Talyta em 2026-10-17. Número: [a definir]
+- **Conselho:** CRO (cirurgiã-dentista), confirmado pela Talyta em 2026-10-17. O número do CRO **não entra** em nenhuma
+  postagem: decisão da cliente (Talyta, 2026-10-24). Não é pendência.
 
 ## Redes
 - **Instagram:** [a definir o @]
@@ -57,7 +59,6 @@ Ficha criada em 2026-10-16, a partir do pedido da Talyta no chat e do comprovant
 - **Informação que não temos não entra (2026-10-10):** vale. CPF, endereço, telefone e @ ficam fora de
   qualquer peça até serem confirmados.
 - **Profissão regulamentada (2026-10-08):** harmonização facial é da saúde. Conselho dela: CRO, segue o CFO
-  (antes e depois só pelo próprio dentista, com TCLE; nome + número do CRO em toda peça; sem preço). Antes de editar vídeo com procedimento, resultado ou antes e
-  depois, conferir `tk-filmes/referencias/publicidade-conselhos.md`, com identificação (nome + número
-  do conselho) quando a norma pedir.
+  (antes e depois só pelo próprio dentista, com TCLE; sem preço). Ajuste deste cliente (2026-10-24): o número do CRO
+  não entra nas peças e a autorização das pacientes é com ela; a TK não cobra nem abre pendência dessas duas coisas.
 - **B-roll de toda diária (2026-10-23):** ela manda os takes e a TK só edita: dos takes recebidos, os B-rolls bons vão pra `B-ROLL/AAAA-MM-DD/` no Drive dela. Paciente só com autorização (a dos takes de 11/09 está assinada). Vlog geral e unitários só se o material e o pacote de edições permitirem.

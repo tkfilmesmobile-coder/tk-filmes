@@ -1,0 +1,23 @@
+=== cabelo-de-salao-em-casa · 46.0s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_6505    1.81-   3.97  se liga agora nessa dica que eu vou passar pra você.
+[02]   2.16s  IMG_6505    4.47-   6.79  Como manter um cabelo de salão em casa?
+[03]   4.48s  IMG_6505    7.05-   7.89  Primeiro,
+[04]   5.32s  IMG_6505    8.41-  10.83  um protetor térmico de boa qualidade.
+[05]   7.74s  IMG_6505   11.25-  12.19  Segundo,
+[06]   8.68s  IMG_6505   12.43-  18.54  não dormir, pelo amor de Deus, com o cabelo molhado e seguir a risca o seu cronograma capilar.
+[07]  14.79s  IMG_6505   28.01-  36.36  Ter todo esse cuidado em casa ajuda bastante pra você manter o cabelo de salão em casa. E, consequentemente,
+[08]  23.14s  IMG_6505   36.43-  38.90  retornar para fazer o seu retoque e
+[09]  25.61s  IMG_6505   56.74-  66.64  manter o seu tratamento de salão no tempo certo para que você consiga o seu próximo retoque de selagem sem consequência.
+[10]  35.51s  IMG_6505   83.51-  84.75  Então, faça o seguinte,
+[11]  36.75s  IMG_6505   84.81-  90.04  procure um local que cuide bem, não só dos seus cabelos mais cheios de você. E vocês já sabem, né?
+[12]  41.98s  IMG_6505   90.33-  91.52  Esse lugar é aqui.
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Se liga agora nessa dica que eu vou passar pra você. Como manter o cabelo de salão em casa? Primeiro, um protetor térmico de boa qualidade. Segundo, não dormir, pelo amor de Deus, com o cabelo molhado e seguir a risca o seu cronograma capilar. Ter todo esse cuidado em casa ajuda bastante pra você manter o cabelo de salão em casa. E, consequentemente, retornar pra fazer o seu retoque e também manter o seu tratamento de salão no tempo certo para que você consiga o seu próximo retoque de selagem sem consequência. Então, faça o seguinte, procure um local que cuide bem, não só dos seus cabelos mais cheios de você. E vocês já sabem, né? Esse lugar é aqui.
+
+DIFERENÇAS E CORTES SUSPEITOS (3):
+   2.8s  esperado «um»  ouvido «o»
+  23.8s  esperado «para»  ouvido «pra»
+  26.0s  esperado «»  ouvido «também»

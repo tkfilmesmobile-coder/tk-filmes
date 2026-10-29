@@ -1,0 +1,2624 @@
+{
+ "arquivo": "IMG_6481",
+ "duracao": 248.7,
+ "segmentos": [
+  {
+   "ini": 5.24,
+   "fim": 10.38,
+   "texto": "Minha maravilhosa, vou te dizer três coisas que você faz em casa que acabam com a tua celade.",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 5.24,
+     "fim": 5.68,
+     "conf": 0.94
+    },
+    {
+     "p": "maravilhosa,",
+     "ini": 5.68,
+     "fim": 6.12,
+     "conf": 0.99
+    },
+    {
+     "p": "vou",
+     "ini": 6.42,
+     "fim": 6.7,
+     "conf": 0.84
+    },
+    {
+     "p": "te",
+     "ini": 6.7,
+     "fim": 6.82,
+     "conf": 0.99
+    },
+    {
+     "p": "dizer",
+     "ini": 6.82,
+     "fim": 7.06,
+     "conf": 1.0
+    },
+    {
+     "p": "três",
+     "ini": 7.06,
+     "fim": 7.48,
+     "conf": 0.93
+    },
+    {
+     "p": "coisas",
+     "ini": 7.48,
+     "fim": 7.88,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 7.88,
+     "fim": 8.06,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 8.06,
+     "fim": 8.26,
+     "conf": 1.0
+    },
+    {
+     "p": "faz",
+     "ini": 8.26,
+     "fim": 8.64,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 8.64,
+     "fim": 8.86,
+     "conf": 1.0
+    },
+    {
+     "p": "casa",
+     "ini": 8.86,
+     "fim": 9.06,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 9.06,
+     "fim": 9.22,
+     "conf": 0.93
+    },
+    {
+     "p": "acabam",
+     "ini": 9.22,
+     "fim": 9.56,
+     "conf": 0.86
+    },
+    {
+     "p": "com",
+     "ini": 9.56,
+     "fim": 9.72,
+     "conf": 0.98
+    },
+    {
+     "p": "a",
+     "ini": 9.72,
+     "fim": 9.74,
+     "conf": 0.99
+    },
+    {
+     "p": "tua",
+     "ini": 9.74,
+     "fim": 9.86,
+     "conf": 0.37
+    },
+    {
+     "p": "celade.",
+     "ini": 9.86,
+     "fim": 10.38,
+     "conf": 0.6
+    }
+   ]
+  },
+  {
+   "ini": 24.02,
+   "fim": 25.56,
+   "texto": "Minha maravilhosa, cheguei.",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 24.02,
+     "fim": 24.46,
+     "conf": 1.0
+    },
+    {
+     "p": "maravilhosa,",
+     "ini": 24.46,
+     "fim": 24.9,
+     "conf": 1.0
+    },
+    {
+     "p": "cheguei.",
+     "ini": 25.08,
+     "fim": 25.56,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 25.76,
+   "fim": 30.5,
+   "texto": "Cheguei pra te dizer três coisas que você faz em casa que acabam com a tua celade.",
+   "palavras": [
+    {
+     "p": "Cheguei",
+     "ini": 25.76,
+     "fim": 26.2,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 26.2,
+     "fim": 26.32,
+     "conf": 0.79
+    },
+    {
+     "p": "te",
+     "ini": 26.32,
+     "fim": 26.48,
+     "conf": 1.0
+    },
+    {
+     "p": "dizer",
+     "ini": 26.48,
+     "fim": 26.76,
+     "conf": 1.0
+    },
+    {
+     "p": "três",
+     "ini": 26.76,
+     "fim": 27.3,
+     "conf": 1.0
+    },
+    {
+     "p": "coisas",
+     "ini": 27.3,
+     "fim": 27.92,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 27.92,
+     "fim": 28.66,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 28.66,
+     "fim": 28.84,
+     "conf": 1.0
+    },
+    {
+     "p": "faz",
+     "ini": 28.84,
+     "fim": 29.06,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 29.06,
+     "fim": 29.16,
+     "conf": 1.0
+    },
+    {
+     "p": "casa",
+     "ini": 29.16,
+     "fim": 29.36,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 29.36,
+     "fim": 29.54,
+     "conf": 1.0
+    },
+    {
+     "p": "acabam",
+     "ini": 29.54,
+     "fim": 29.76,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 29.76,
+     "fim": 29.92,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 29.92,
+     "fim": 29.92,
+     "conf": 1.0
+    },
+    {
+     "p": "tua",
+     "ini": 29.92,
+     "fim": 30.0,
+     "conf": 1.0
+    },
+    {
+     "p": "celade.",
+     "ini": 30.0,
+     "fim": 30.5,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 36.95,
+   "fim": 38.37,
+   "texto": "Primeira coisa que você...",
+   "palavras": [
+    {
+     "p": "Primeira",
+     "ini": 36.95,
+     "fim": 37.39,
+     "conf": 0.95
+    },
+    {
+     "p": "coisa",
+     "ini": 37.39,
+     "fim": 37.61,
+     "conf": 0.86
+    },
+    {
+     "p": "que",
+     "ini": 37.61,
+     "fim": 37.79,
+     "conf": 0.94
+    },
+    {
+     "p": "você...",
+     "ini": 37.79,
+     "fim": 38.37,
+     "conf": 0.93
+    }
+   ]
+  },
+  {
+   "ini": 38.37,
+   "fim": 40.81,
+   "texto": "Primeira, se você usa...",
+   "palavras": [
+    {
+     "p": "Primeira,",
+     "ini": 38.37,
+     "fim": 39.13,
+     "conf": 0.8
+    },
+    {
+     "p": "se",
+     "ini": 39.29,
+     "fim": 39.45,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 39.45,
+     "fim": 39.75,
+     "conf": 1.0
+    },
+    {
+     "p": "usa...",
+     "ini": 39.75,
+     "fim": 40.81,
+     "conf": 0.86
+    }
+   ]
+  },
+  {
+   "ini": 40.81,
+   "fim": 41.61,
+   "texto": "Tá.",
+   "palavras": [
+    {
+     "p": "Tá.",
+     "ini": 40.81,
+     "fim": 41.61,
+     "conf": 0.87
+    }
+   ]
+  },
+  {
+   "ini": 42.17,
+   "fim": 43.75,
+   "texto": "Chapinha sem protetorferro.",
+   "palavras": [
+    {
+     "p": "Chapinha",
+     "ini": 42.17,
+     "fim": 42.61,
+     "conf": 0.79
+    },
+    {
+     "p": "sem",
+     "ini": 42.61,
+     "fim": 42.95,
+     "conf": 0.93
+    },
+    {
+     "p": "protetorferro.",
+     "ini": 42.95,
+     "fim": 43.75,
+     "conf": 0.71
+    }
+   ]
+  },
+  {
+   "ini": 43.87,
+   "fim": 43.97,
+   "texto": "Tá.",
+   "palavras": [
+    {
+     "p": "Tá.",
+     "ini": 43.87,
+     "fim": 43.97,
+     "conf": 0.86
+    }
+   ]
+  },
+  {
+   "ini": 44.73,
+   "fim": 46.13,
+   "texto": "Você pode colocar chapinha sem cabelo.",
+   "palavras": [
+    {
+     "p": "Você",
+     "ini": 44.73,
+     "fim": 44.89,
+     "conf": 0.33
+    },
+    {
+     "p": "pode",
+     "ini": 44.89,
+     "fim": 45.05,
+     "conf": 0.72
+    },
+    {
+     "p": "colocar",
+     "ini": 45.05,
+     "fim": 45.25,
+     "conf": 0.3
+    },
+    {
+     "p": "chapinha",
+     "ini": 45.25,
+     "fim": 45.57,
+     "conf": 0.85
+    },
+    {
+     "p": "sem",
+     "ini": 45.57,
+     "fim": 45.73,
+     "conf": 0.62
+    },
+    {
+     "p": "cabelo.",
+     "ini": 45.73,
+     "fim": 46.13,
+     "conf": 0.62
+    }
+   ]
+  },
+  {
+   "ini": 46.43,
+   "fim": 46.87,
+   "texto": "Aí, Jô.",
+   "palavras": [
+    {
+     "p": "Aí,",
+     "ini": 46.43,
+     "fim": 46.61,
+     "conf": 0.07
+    },
+    {
+     "p": "Jô.",
+     "ini": 46.71,
+     "fim": 46.87,
+     "conf": 0.47
+    }
+   ]
+  },
+  {
+   "ini": 47.17,
+   "fim": 51.19,
+   "texto": "Se você faz o celade, chega em casa, eu uso chapinha sem cabelo.",
+   "palavras": [
+    {
+     "p": "Se",
+     "ini": 47.17,
+     "fim": 47.61,
+     "conf": 0.84
+    },
+    {
+     "p": "você",
+     "ini": 47.61,
+     "fim": 47.95,
+     "conf": 1.0
+    },
+    {
+     "p": "faz",
+     "ini": 47.95,
+     "fim": 48.63,
+     "conf": 0.8
+    },
+    {
+     "p": "o",
+     "ini": 48.63,
+     "fim": 48.79,
+     "conf": 0.75
+    },
+    {
+     "p": "celade,",
+     "ini": 48.79,
+     "fim": 49.07,
+     "conf": 0.7
+    },
+    {
+     "p": "chega",
+     "ini": 49.21,
+     "fim": 49.37,
+     "conf": 0.47
+    },
+    {
+     "p": "em",
+     "ini": 49.37,
+     "fim": 49.45,
+     "conf": 1.0
+    },
+    {
+     "p": "casa,",
+     "ini": 49.45,
+     "fim": 49.67,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 49.83,
+     "fim": 49.87,
+     "conf": 0.41
+    },
+    {
+     "p": "uso",
+     "ini": 49.87,
+     "fim": 49.97,
+     "conf": 0.62
+    },
+    {
+     "p": "chapinha",
+     "ini": 49.97,
+     "fim": 50.49,
+     "conf": 0.97
+    },
+    {
+     "p": "sem",
+     "ini": 50.49,
+     "fim": 50.75,
+     "conf": 0.99
+    },
+    {
+     "p": "cabelo.",
+     "ini": 50.75,
+     "fim": 51.19,
+     "conf": 0.9
+    }
+   ]
+  },
+  {
+   "ini": 51.31,
+   "fim": 52.17,
+   "texto": "Sem protetorferro.",
+   "palavras": [
+    {
+     "p": "Sem",
+     "ini": 51.31,
+     "fim": 51.47,
+     "conf": 0.92
+    },
+    {
+     "p": "protetorferro.",
+     "ini": 51.47,
+     "fim": 52.17,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 52.29,
+   "fim": 55.29,
+   "texto": "Você está capando com a fibra do seu cabelo,",
+   "palavras": [
+    {
+     "p": "Você",
+     "ini": 52.29,
+     "fim": 53.11,
+     "conf": 0.17
+    },
+    {
+     "p": "está",
+     "ini": 53.11,
+     "fim": 53.27,
+     "conf": 0.55
+    },
+    {
+     "p": "capando",
+     "ini": 53.27,
+     "fim": 53.91,
+     "conf": 0.75
+    },
+    {
+     "p": "com",
+     "ini": 53.91,
+     "fim": 54.15,
+     "conf": 0.65
+    },
+    {
+     "p": "a",
+     "ini": 54.15,
+     "fim": 54.31,
+     "conf": 0.84
+    },
+    {
+     "p": "fibra",
+     "ini": 54.31,
+     "fim": 54.57,
+     "conf": 0.79
+    },
+    {
+     "p": "do",
+     "ini": 54.57,
+     "fim": 54.77,
+     "conf": 0.87
+    },
+    {
+     "p": "seu",
+     "ini": 54.77,
+     "fim": 54.95,
+     "conf": 0.97
+    },
+    {
+     "p": "cabelo,",
+     "ini": 54.95,
+     "fim": 55.29,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 55.43,
+   "fim": 58.49,
+   "texto": "e o aspecto que ela deixa.",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 55.43,
+     "fim": 55.67,
+     "conf": 0.03
+    },
+    {
+     "p": "o",
+     "ini": 55.67,
+     "fim": 57.25,
+     "conf": 0.83
+    },
+    {
+     "p": "aspecto",
+     "ini": 57.25,
+     "fim": 57.75,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 57.75,
+     "fim": 57.91,
+     "conf": 1.0
+    },
+    {
+     "p": "ela",
+     "ini": 57.91,
+     "fim": 58.07,
+     "conf": 0.98
+    },
+    {
+     "p": "deixa.",
+     "ini": 58.07,
+     "fim": 58.49,
+     "conf": 0.87
+    }
+   ]
+  },
+  {
+   "ini": 66.22,
+   "fim": 69.1,
+   "texto": "Primeira, proteção...",
+   "palavras": [
+    {
+     "p": "Primeira,",
+     "ini": 66.22,
+     "fim": 66.88,
+     "conf": 0.97
+    },
+    {
+     "p": "proteção...",
+     "ini": 68.38,
+     "fim": 69.1,
+     "conf": 0.9
+    }
+   ]
+  },
+  {
+   "ini": 69.1,
+   "fim": 80.48,
+   "texto": "A primeira, usar chapim e secador, meu amor,",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 69.1,
+     "fim": 69.62,
+     "conf": 0.48
+    },
+    {
+     "p": "primeira,",
+     "ini": 69.62,
+     "fim": 72.66,
+     "conf": 1.0
+    },
+    {
+     "p": "usar",
+     "ini": 78.88,
+     "fim": 79.18,
+     "conf": 1.0
+    },
+    {
+     "p": "chapim",
+     "ini": 79.18,
+     "fim": 79.58,
+     "conf": 0.72
+    },
+    {
+     "p": "e",
+     "ini": 79.58,
+     "fim": 79.7,
+     "conf": 0.65
+    },
+    {
+     "p": "secador,",
+     "ini": 79.7,
+     "fim": 80.06,
+     "conf": 0.92
+    },
+    {
+     "p": "meu",
+     "ini": 80.16,
+     "fim": 80.24,
+     "conf": 0.98
+    },
+    {
+     "p": "amor,",
+     "ini": 80.24,
+     "fim": 80.48,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 80.84,
+   "fim": 81.98,
+   "texto": "sem proteção térmica.",
+   "palavras": [
+    {
+     "p": "sem",
+     "ini": 80.84,
+     "fim": 81.06,
+     "conf": 1.0
+    },
+    {
+     "p": "proteção",
+     "ini": 81.06,
+     "fim": 81.48,
+     "conf": 1.0
+    },
+    {
+     "p": "térmica.",
+     "ini": 81.48,
+     "fim": 81.98,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 82.16,
+   "fim": 84.6,
+   "texto": "Não faça isso, pelo amor de Deus.",
+   "palavras": [
+    {
+     "p": "Não",
+     "ini": 82.16,
+     "fim": 82.42,
+     "conf": 1.0
+    },
+    {
+     "p": "faça",
+     "ini": 82.42,
+     "fim": 82.8,
+     "conf": 1.0
+    },
+    {
+     "p": "isso,",
+     "ini": 82.8,
+     "fim": 83.04,
+     "conf": 1.0
+    },
+    {
+     "p": "pelo",
+     "ini": 83.04,
+     "fim": 83.28,
+     "conf": 1.0
+    },
+    {
+     "p": "amor",
+     "ini": 83.28,
+     "fim": 83.8,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 83.8,
+     "fim": 84.28,
+     "conf": 1.0
+    },
+    {
+     "p": "Deus.",
+     "ini": 84.28,
+     "fim": 84.6,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 86.68,
+   "fim": 91.1,
+   "texto": "O protetor térmico, ele ajuda a proteger,",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 86.68,
+     "fim": 87.36,
+     "conf": 1.0
+    },
+    {
+     "p": "protetor",
+     "ini": 87.36,
+     "fim": 87.84,
+     "conf": 0.96
+    },
+    {
+     "p": "térmico,",
+     "ini": 87.84,
+     "fim": 88.36,
+     "conf": 0.94
+    },
+    {
+     "p": "ele",
+     "ini": 88.36,
+     "fim": 89.02,
+     "conf": 1.0
+    },
+    {
+     "p": "ajuda",
+     "ini": 89.02,
+     "fim": 89.94,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 89.94,
+     "fim": 90.5,
+     "conf": 1.0
+    },
+    {
+     "p": "proteger,",
+     "ini": 90.5,
+     "fim": 91.1,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 91.24,
+   "fim": 94.24,
+   "texto": "ele faz aquela camada na fibra do seu cabelo,",
+   "palavras": [
+    {
+     "p": "ele",
+     "ini": 91.24,
+     "fim": 91.26,
+     "conf": 0.99
+    },
+    {
+     "p": "faz",
+     "ini": 91.26,
+     "fim": 91.42,
+     "conf": 1.0
+    },
+    {
+     "p": "aquela",
+     "ini": 91.42,
+     "fim": 91.68,
+     "conf": 1.0
+    },
+    {
+     "p": "camada",
+     "ini": 91.68,
+     "fim": 92.54,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 92.54,
+     "fim": 93.04,
+     "conf": 1.0
+    },
+    {
+     "p": "fibra",
+     "ini": 93.04,
+     "fim": 93.36,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 93.36,
+     "fim": 93.5,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 93.5,
+     "fim": 93.68,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo,",
+     "ini": 93.68,
+     "fim": 94.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 94.24,
+   "fim": 96.14,
+   "texto": "que protege daquela",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 94.24,
+     "fim": 94.6,
+     "conf": 0.82
+    },
+    {
+     "p": "protege",
+     "ini": 94.6,
+     "fim": 95.2,
+     "conf": 0.99
+    },
+    {
+     "p": "daquela",
+     "ini": 95.2,
+     "fim": 96.14,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 96.14,
+   "fim": 98.24,
+   "texto": "temperatura que a chapinha",
+   "palavras": [
+    {
+     "p": "temperatura",
+     "ini": 96.14,
+     "fim": 97.0,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 97.0,
+     "fim": 97.7,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 97.7,
+     "fim": 97.84,
+     "conf": 1.0
+    },
+    {
+     "p": "chapinha",
+     "ini": 97.84,
+     "fim": 98.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 98.24,
+   "fim": 99.2,
+   "texto": "e o secador",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 98.24,
+     "fim": 98.5,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 98.5,
+     "fim": 98.62,
+     "conf": 1.0
+    },
+    {
+     "p": "secador",
+     "ini": 98.62,
+     "fim": 99.2,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 100.16,
+   "fim": 101.52,
+   "texto": "ocasiona no seu cabelo.",
+   "palavras": [
+    {
+     "p": "ocasiona",
+     "ini": 100.16,
+     "fim": 100.84,
+     "conf": 0.85
+    },
+    {
+     "p": "no",
+     "ini": 100.84,
+     "fim": 100.96,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 100.96,
+     "fim": 101.1,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo.",
+     "ini": 101.1,
+     "fim": 101.52,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 106.5,
+   "fim": 108.2,
+   "texto": "Fora o aspecto, né, meu amor?",
+   "palavras": [
+    {
+     "p": "Fora",
+     "ini": 106.5,
+     "fim": 107.18,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 107.18,
+     "fim": 107.26,
+     "conf": 1.0
+    },
+    {
+     "p": "aspecto,",
+     "ini": 107.26,
+     "fim": 107.78,
+     "conf": 1.0
+    },
+    {
+     "p": "né,",
+     "ini": 107.8,
+     "fim": 107.88,
+     "conf": 0.84
+    },
+    {
+     "p": "meu",
+     "ini": 107.92,
+     "fim": 108.06,
+     "conf": 0.96
+    },
+    {
+     "p": "amor?",
+     "ini": 108.06,
+     "fim": 108.2,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 108.3,
+   "fim": 110.6,
+   "texto": "Fica aquele aspecto poroso.",
+   "palavras": [
+    {
+     "p": "Fica",
+     "ini": 108.3,
+     "fim": 108.46,
+     "conf": 0.78
+    },
+    {
+     "p": "aquele",
+     "ini": 108.46,
+     "fim": 108.68,
+     "conf": 1.0
+    },
+    {
+     "p": "aspecto",
+     "ini": 108.68,
+     "fim": 109.78,
+     "conf": 1.0
+    },
+    {
+     "p": "poroso.",
+     "ini": 109.78,
+     "fim": 110.6,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 110.86,
+   "fim": 113.04,
+   "texto": "O cabelo fica com mais frizz",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 110.86,
+     "fim": 111.14,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 111.14,
+     "fim": 111.46,
+     "conf": 1.0
+    },
+    {
+     "p": "fica",
+     "ini": 111.46,
+     "fim": 111.82,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 111.82,
+     "fim": 112.3,
+     "conf": 1.0
+    },
+    {
+     "p": "mais",
+     "ini": 112.3,
+     "fim": 112.58,
+     "conf": 1.0
+    },
+    {
+     "p": "frizz",
+     "ini": 112.58,
+     "fim": 113.04,
+     "conf": 0.65
+    }
+   ]
+  },
+  {
+   "ini": 113.04,
+   "fim": 114.92,
+   "texto": "e com aquela sensação",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 113.04,
+     "fim": 113.52,
+     "conf": 0.84
+    },
+    {
+     "p": "com",
+     "ini": 113.52,
+     "fim": 114.1,
+     "conf": 1.0
+    },
+    {
+     "p": "aquela",
+     "ini": 114.1,
+     "fim": 114.36,
+     "conf": 1.0
+    },
+    {
+     "p": "sensação",
+     "ini": 114.36,
+     "fim": 114.92,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 114.92,
+   "fim": 116.38,
+   "texto": "de espigado.",
+   "palavras": [
+    {
+     "p": "de",
+     "ini": 114.92,
+     "fim": 115.16,
+     "conf": 1.0
+    },
+    {
+     "p": "espigado.",
+     "ini": 115.16,
+     "fim": 116.38,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 117.08,
+   "fim": 118.28,
+   "texto": "Vocês me entendem, né?",
+   "palavras": [
+    {
+     "p": "Vocês",
+     "ini": 117.08,
+     "fim": 117.54,
+     "conf": 0.95
+    },
+    {
+     "p": "me",
+     "ini": 117.54,
+     "fim": 117.68,
+     "conf": 0.84
+    },
+    {
+     "p": "entendem,",
+     "ini": 117.68,
+     "fim": 118.1,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 118.16,
+     "fim": 118.28,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 120.72,
+   "fim": 132.27,
+   "texto": "Não, amor.",
+   "palavras": [
+    {
+     "p": "Não,",
+     "ini": 120.72,
+     "fim": 121.4,
+     "conf": 0.61
+    },
+    {
+     "p": "amor.",
+     "ini": 132.01,
+     "fim": 132.27,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 135.54,
+   "fim": 136.34,
+   "texto": "Não este.",
+   "palavras": [
+    {
+     "p": "Não",
+     "ini": 135.54,
+     "fim": 135.9,
+     "conf": 1.0
+    },
+    {
+     "p": "este.",
+     "ini": 135.9,
+     "fim": 136.34,
+     "conf": 0.48
+    }
+   ]
+  },
+  {
+   "ini": 136.54,
+   "fim": 137.62,
+   "texto": "O que eu vou pra academia?",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 136.54,
+     "fim": 136.66,
+     "conf": 0.63
+    },
+    {
+     "p": "que",
+     "ini": 136.66,
+     "fim": 136.78,
+     "conf": 0.95
+    },
+    {
+     "p": "eu",
+     "ini": 136.78,
+     "fim": 136.92,
+     "conf": 0.8
+    },
+    {
+     "p": "vou",
+     "ini": 136.92,
+     "fim": 137.04,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 137.04,
+     "fim": 137.16,
+     "conf": 0.9
+    },
+    {
+     "p": "academia?",
+     "ini": 137.16,
+     "fim": 137.62,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 142.6,
+   "fim": 145.62,
+   "texto": "Segundo, esquecer do cronograma capilar",
+   "palavras": [
+    {
+     "p": "Segundo,",
+     "ini": 142.6,
+     "fim": 143.34,
+     "conf": 0.6
+    },
+    {
+     "p": "esquecer",
+     "ini": 143.34,
+     "fim": 144.08,
+     "conf": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 144.08,
+     "fim": 144.34,
+     "conf": 1.0
+    },
+    {
+     "p": "cronograma",
+     "ini": 144.34,
+     "fim": 145.08,
+     "conf": 1.0
+    },
+    {
+     "p": "capilar",
+     "ini": 145.08,
+     "fim": 145.62,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 145.62,
+   "fim": 147.82,
+   "texto": "Minha diva, não faça isso",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 145.62,
+     "fim": 146.36,
+     "conf": 0.51
+    },
+    {
+     "p": "diva,",
+     "ini": 146.36,
+     "fim": 146.74,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 146.88,
+     "fim": 146.96,
+     "conf": 1.0
+    },
+    {
+     "p": "faça",
+     "ini": 146.96,
+     "fim": 147.36,
+     "conf": 1.0
+    },
+    {
+     "p": "isso",
+     "ini": 147.36,
+     "fim": 147.82,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 147.82,
+   "fim": 151.56,
+   "texto": "Como é que você colocou uma química no seu cabelo",
+   "palavras": [
+    {
+     "p": "Como",
+     "ini": 147.82,
+     "fim": 148.64,
+     "conf": 0.91
+    },
+    {
+     "p": "é",
+     "ini": 148.64,
+     "fim": 148.8,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 148.8,
+     "fim": 148.94,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 148.94,
+     "fim": 149.38,
+     "conf": 1.0
+    },
+    {
+     "p": "colocou",
+     "ini": 149.38,
+     "fim": 150.02,
+     "conf": 0.96
+    },
+    {
+     "p": "uma",
+     "ini": 150.02,
+     "fim": 150.2,
+     "conf": 0.99
+    },
+    {
+     "p": "química",
+     "ini": 150.2,
+     "fim": 150.72,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 150.72,
+     "fim": 150.88,
+     "conf": 0.98
+    },
+    {
+     "p": "seu",
+     "ini": 150.88,
+     "fim": 151.08,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 151.08,
+     "fim": 151.56,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 151.56,
+   "fim": 157.38,
+   "texto": "E você não vai dar o tratamento devido e necessário dessas pontas, pelo amor de Deus",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 151.56,
+     "fim": 152.08,
+     "conf": 0.69
+    },
+    {
+     "p": "você",
+     "ini": 152.08,
+     "fim": 152.32,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 152.32,
+     "fim": 152.56,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 152.56,
+     "fim": 152.9,
+     "conf": 1.0
+    },
+    {
+     "p": "dar",
+     "ini": 152.9,
+     "fim": 153.46,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 153.46,
+     "fim": 153.64,
+     "conf": 1.0
+    },
+    {
+     "p": "tratamento",
+     "ini": 153.64,
+     "fim": 154.28,
+     "conf": 1.0
+    },
+    {
+     "p": "devido",
+     "ini": 154.28,
+     "fim": 154.82,
+     "conf": 0.96
+    },
+    {
+     "p": "e",
+     "ini": 154.82,
+     "fim": 154.9,
+     "conf": 0.99
+    },
+    {
+     "p": "necessário",
+     "ini": 154.9,
+     "fim": 155.46,
+     "conf": 1.0
+    },
+    {
+     "p": "dessas",
+     "ini": 155.46,
+     "fim": 155.72,
+     "conf": 0.83
+    },
+    {
+     "p": "pontas,",
+     "ini": 155.72,
+     "fim": 156.18,
+     "conf": 0.76
+    },
+    {
+     "p": "pelo",
+     "ini": 156.24,
+     "fim": 156.4,
+     "conf": 1.0
+    },
+    {
+     "p": "amor",
+     "ini": 156.4,
+     "fim": 156.78,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 156.78,
+     "fim": 157.02,
+     "conf": 1.0
+    },
+    {
+     "p": "Deus",
+     "ini": 157.02,
+     "fim": 157.38,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 157.38,
+   "fim": 162.18,
+   "texto": "Muitas das vezes se fala que a selagem afina o comprimento do cabelo",
+   "palavras": [
+    {
+     "p": "Muitas",
+     "ini": 157.38,
+     "fim": 158.34,
+     "conf": 0.93
+    },
+    {
+     "p": "das",
+     "ini": 158.34,
+     "fim": 158.6,
+     "conf": 1.0
+    },
+    {
+     "p": "vezes",
+     "ini": 158.6,
+     "fim": 158.82,
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "ini": 158.82,
+     "fim": 159.06,
+     "conf": 1.0
+    },
+    {
+     "p": "fala",
+     "ini": 159.06,
+     "fim": 159.44,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 159.44,
+     "fim": 159.86,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 159.86,
+     "fim": 160.0,
+     "conf": 1.0
+    },
+    {
+     "p": "selagem",
+     "ini": 160.0,
+     "fim": 160.4,
+     "conf": 0.91
+    },
+    {
+     "p": "afina",
+     "ini": 160.4,
+     "fim": 160.98,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 160.98,
+     "fim": 161.12,
+     "conf": 1.0
+    },
+    {
+     "p": "comprimento",
+     "ini": 161.12,
+     "fim": 161.58,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 161.58,
+     "fim": 161.76,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 161.76,
+     "fim": 162.18,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 162.18,
+   "fim": 164.94,
+   "texto": "E na maioria das vezes isso é mentira",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 162.18,
+     "fim": 162.62,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 162.62,
+     "fim": 162.92,
+     "conf": 0.98
+    },
+    {
+     "p": "maioria",
+     "ini": 162.92,
+     "fim": 163.3,
+     "conf": 1.0
+    },
+    {
+     "p": "das",
+     "ini": 163.3,
+     "fim": 163.52,
+     "conf": 1.0
+    },
+    {
+     "p": "vezes",
+     "ini": 163.52,
+     "fim": 163.72,
+     "conf": 1.0
+    },
+    {
+     "p": "isso",
+     "ini": 163.72,
+     "fim": 164.02,
+     "conf": 0.99
+    },
+    {
+     "p": "é",
+     "ini": 164.02,
+     "fim": 164.24,
+     "conf": 1.0
+    },
+    {
+     "p": "mentira",
+     "ini": 164.24,
+     "fim": 164.94,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 164.94,
+   "fim": 166.72,
+   "texto": "É falta de cuidado",
+   "palavras": [
+    {
+     "p": "É",
+     "ini": 164.94,
+     "fim": 165.82,
+     "conf": 0.94
+    },
+    {
+     "p": "falta",
+     "ini": 165.82,
+     "fim": 166.12,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 166.12,
+     "fim": 166.3,
+     "conf": 1.0
+    },
+    {
+     "p": "cuidado",
+     "ini": 166.3,
+     "fim": 166.72,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 169.49,
+   "fim": 172.45,
+   "texto": "Terceiro, dormir com o cabelo molhado",
+   "palavras": [
+    {
+     "p": "Terceiro,",
+     "ini": 169.49,
+     "fim": 170.13,
+     "conf": 0.98
+    },
+    {
+     "p": "dormir",
+     "ini": 170.39,
+     "fim": 170.79,
+     "conf": 0.98
+    },
+    {
+     "p": "com",
+     "ini": 170.79,
+     "fim": 171.17,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 171.17,
+     "fim": 171.29,
+     "conf": 0.94
+    },
+    {
+     "p": "cabelo",
+     "ini": 171.29,
+     "fim": 171.71,
+     "conf": 1.0
+    },
+    {
+     "p": "molhado",
+     "ini": 171.71,
+     "fim": 172.45,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 172.45,
+   "fim": 173.99,
+   "texto": "Isso é a praga do Egito",
+   "palavras": [
+    {
+     "p": "Isso",
+     "ini": 172.45,
+     "fim": 172.71,
+     "conf": 0.05
+    },
+    {
+     "p": "é",
+     "ini": 172.71,
+     "fim": 172.89,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 172.89,
+     "fim": 173.11,
+     "conf": 1.0
+    },
+    {
+     "p": "praga",
+     "ini": 173.11,
+     "fim": 173.39,
+     "conf": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 173.39,
+     "fim": 173.55,
+     "conf": 1.0
+    },
+    {
+     "p": "Egito",
+     "ini": 173.55,
+     "fim": 173.99,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 173.99,
+   "fim": 175.29,
+   "texto": "Vou falar desse jeito, viu?",
+   "palavras": [
+    {
+     "p": "Vou",
+     "ini": 173.99,
+     "fim": 174.19,
+     "conf": 0.54
+    },
+    {
+     "p": "falar",
+     "ini": 174.19,
+     "fim": 174.43,
+     "conf": 1.0
+    },
+    {
+     "p": "desse",
+     "ini": 174.43,
+     "fim": 174.73,
+     "conf": 1.0
+    },
+    {
+     "p": "jeito,",
+     "ini": 174.73,
+     "fim": 175.01,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 175.01,
+     "fim": 175.29,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 179.28,
+   "fim": 182.06,
+   "texto": "Terceiro, dormir com o cabelo molhado",
+   "palavras": [
+    {
+     "p": "Terceiro,",
+     "ini": 179.28,
+     "fim": 179.92,
+     "conf": 0.79
+    },
+    {
+     "p": "dormir",
+     "ini": 179.92,
+     "fim": 180.56,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 180.56,
+     "fim": 180.86,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 180.86,
+     "fim": 180.98,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 180.98,
+     "fim": 181.4,
+     "conf": 1.0
+    },
+    {
+     "p": "molhado",
+     "ini": 181.4,
+     "fim": 182.06,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 182.06,
+   "fim": 183.32,
+   "texto": "Pelo amor de Deus",
+   "palavras": [
+    {
+     "p": "Pelo",
+     "ini": 182.06,
+     "fim": 182.5,
+     "conf": 0.99
+    },
+    {
+     "p": "amor",
+     "ini": 182.5,
+     "fim": 182.88,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 182.88,
+     "fim": 183.06,
+     "conf": 1.0
+    },
+    {
+     "p": "Deus",
+     "ini": 183.06,
+     "fim": 183.32,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 183.32,
+   "fim": 184.82,
+   "texto": "Essa é a praga do Egito",
+   "palavras": [
+    {
+     "p": "Essa",
+     "ini": 183.32,
+     "fim": 183.72,
+     "conf": 0.63
+    },
+    {
+     "p": "é",
+     "ini": 183.72,
+     "fim": 183.78,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 183.78,
+     "fim": 183.96,
+     "conf": 1.0
+    },
+    {
+     "p": "praga",
+     "ini": 183.96,
+     "fim": 184.28,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 184.28,
+     "fim": 184.42,
+     "conf": 1.0
+    },
+    {
+     "p": "Egito",
+     "ini": 184.42,
+     "fim": 184.82,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 184.82,
+   "fim": 186.54,
+   "texto": "Só pode negar",
+   "palavras": [
+    {
+     "p": "Só",
+     "ini": 184.82,
+     "fim": 185.44,
+     "conf": 0.99
+    },
+    {
+     "p": "pode",
+     "ini": 185.44,
+     "fim": 185.82,
+     "conf": 0.95
+    },
+    {
+     "p": "negar",
+     "ini": 185.82,
+     "fim": 186.54,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 186.54,
+   "fim": 191.5,
+   "texto": "Um cabelo molhado, ele fica muito mais fragilizado do que um cabelo seco",
+   "palavras": [
+    {
+     "p": "Um",
+     "ini": 186.54,
+     "fim": 186.84,
+     "conf": 0.82
+    },
+    {
+     "p": "cabelo",
+     "ini": 186.84,
+     "fim": 187.14,
+     "conf": 1.0
+    },
+    {
+     "p": "molhado,",
+     "ini": 187.14,
+     "fim": 187.62,
+     "conf": 1.0
+    },
+    {
+     "p": "ele",
+     "ini": 187.62,
+     "fim": 187.76,
+     "conf": 1.0
+    },
+    {
+     "p": "fica",
+     "ini": 187.76,
+     "fim": 188.04,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 188.04,
+     "fim": 188.78,
+     "conf": 0.95
+    },
+    {
+     "p": "mais",
+     "ini": 188.78,
+     "fim": 189.2,
+     "conf": 1.0
+    },
+    {
+     "p": "fragilizado",
+     "ini": 189.2,
+     "fim": 190.22,
+     "conf": 0.89
+    },
+    {
+     "p": "do",
+     "ini": 190.22,
+     "fim": 190.38,
+     "conf": 0.51
+    },
+    {
+     "p": "que",
+     "ini": 190.38,
+     "fim": 190.48,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 190.48,
+     "fim": 190.6,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 190.6,
+     "fim": 190.98,
+     "conf": 1.0
+    },
+    {
+     "p": "seco",
+     "ini": 190.98,
+     "fim": 191.5,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 191.5,
+   "fim": 192.62,
+   "texto": "Então imagina aí",
+   "palavras": [
+    {
+     "p": "Então",
+     "ini": 191.5,
+     "fim": 191.94,
+     "conf": 1.0
+    },
+    {
+     "p": "imagina",
+     "ini": 191.94,
+     "fim": 192.4,
+     "conf": 0.93
+    },
+    {
+     "p": "aí",
+     "ini": 192.4,
+     "fim": 192.62,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 192.62,
+   "fim": 194.86,
+   "texto": "A gente já está com o cabelo molhado",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 192.62,
+     "fim": 193.08,
+     "conf": 0.93
+    },
+    {
+     "p": "gente",
+     "ini": 193.08,
+     "fim": 193.22,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 193.22,
+     "fim": 193.4,
+     "conf": 1.0
+    },
+    {
+     "p": "está",
+     "ini": 193.4,
+     "fim": 193.6,
+     "conf": 0.72
+    },
+    {
+     "p": "com",
+     "ini": 193.6,
+     "fim": 193.82,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 193.82,
+     "fim": 193.92,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 193.92,
+     "fim": 194.22,
+     "conf": 1.0
+    },
+    {
+     "p": "molhado",
+     "ini": 194.22,
+     "fim": 194.86,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 194.86,
+   "fim": 197.5,
+   "texto": "E dormir com ele dessa forma",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 194.86,
+     "fim": 195.34,
+     "conf": 0.75
+    },
+    {
+     "p": "dormir",
+     "ini": 195.34,
+     "fim": 195.76,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 195.76,
+     "fim": 196.14,
+     "conf": 1.0
+    },
+    {
+     "p": "ele",
+     "ini": 196.14,
+     "fim": 196.46,
+     "conf": 1.0
+    },
+    {
+     "p": "dessa",
+     "ini": 196.46,
+     "fim": 197.08,
+     "conf": 0.98
+    },
+    {
+     "p": "forma",
+     "ini": 197.08,
+     "fim": 197.5,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 197.5,
+   "fim": 200.34,
+   "texto": "Dormir lembrando que a gente não tem noção do nosso movimento.",
+   "palavras": [
+    {
+     "p": "Dormir",
+     "ini": 197.5,
+     "fim": 197.94,
+     "conf": 0.8
+    },
+    {
+     "p": "lembrando",
+     "ini": 197.94,
+     "fim": 198.32,
+     "conf": 0.95
+    },
+    {
+     "p": "que",
+     "ini": 198.32,
+     "fim": 198.5,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 198.5,
+     "fim": 198.62,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 198.62,
+     "fim": 198.74,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 198.74,
+     "fim": 198.9,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 198.9,
+     "fim": 199.02,
+     "conf": 1.0
+    },
+    {
+     "p": "noção",
+     "ini": 199.02,
+     "fim": 199.46,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 199.46,
+     "fim": 199.64,
+     "conf": 0.92
+    },
+    {
+     "p": "nosso",
+     "ini": 199.64,
+     "fim": 199.88,
+     "conf": 1.0
+    },
+    {
+     "p": "movimento.",
+     "ini": 199.88,
+     "fim": 200.34,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 200.68,
+   "fim": 207.74,
+   "texto": "Então o atrito entre o travesseiro e o cabelo, meu amor, com certeza vai acabar com o teu cabelo.",
+   "palavras": [
+    {
+     "p": "Então",
+     "ini": 200.68,
+     "fim": 201.1,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 201.1,
+     "fim": 201.3,
+     "conf": 0.73
+    },
+    {
+     "p": "atrito",
+     "ini": 201.3,
+     "fim": 201.8,
+     "conf": 1.0
+    },
+    {
+     "p": "entre",
+     "ini": 201.8,
+     "fim": 202.24,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 202.24,
+     "fim": 203.0,
+     "conf": 1.0
+    },
+    {
+     "p": "travesseiro",
+     "ini": 203.0,
+     "fim": 203.76,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 203.76,
+     "fim": 203.86,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 203.86,
+     "fim": 203.94,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo,",
+     "ini": 203.94,
+     "fim": 204.38,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 204.5,
+     "fim": 204.58,
+     "conf": 1.0
+    },
+    {
+     "p": "amor,",
+     "ini": 204.58,
+     "fim": 204.88,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 205.46,
+     "fim": 205.62,
+     "conf": 1.0
+    },
+    {
+     "p": "certeza",
+     "ini": 205.62,
+     "fim": 206.06,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 206.06,
+     "fim": 206.32,
+     "conf": 1.0
+    },
+    {
+     "p": "acabar",
+     "ini": 206.32,
+     "fim": 206.86,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 206.86,
+     "fim": 207.16,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 207.16,
+     "fim": 207.24,
+     "conf": 0.98
+    },
+    {
+     "p": "teu",
+     "ini": 207.24,
+     "fim": 207.3,
+     "conf": 0.95
+    },
+    {
+     "p": "cabelo.",
+     "ini": 207.3,
+     "fim": 207.74,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 214.0,
+   "fim": 215.5,
+   "texto": "Vai, amiga, fórmula.",
+   "palavras": [
+    {
+     "p": "Vai,",
+     "ini": 214.0,
+     "fim": 214.54,
+     "conf": 0.98
+    },
+    {
+     "p": "amiga,",
+     "ini": 214.72,
+     "fim": 214.88,
+     "conf": 1.0
+    },
+    {
+     "p": "fórmula.",
+     "ini": 215.04,
+     "fim": 215.5,
+     "conf": 0.88
+    }
+   ]
+  },
+  {
+   "ini": 234.99,
+   "fim": 241.61,
+   "texto": "E não adianta você sair do meu salão com o cabelo perfeito, impecável, e não fazer a sua parte em casa.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 234.99,
+     "fim": 235.53,
+     "conf": 0.93
+    },
+    {
+     "p": "não",
+     "ini": 235.53,
+     "fim": 235.71,
+     "conf": 1.0
+    },
+    {
+     "p": "adianta",
+     "ini": 235.71,
+     "fim": 236.25,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 236.25,
+     "fim": 236.51,
+     "conf": 1.0
+    },
+    {
+     "p": "sair",
+     "ini": 236.51,
+     "fim": 236.87,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 236.87,
+     "fim": 237.03,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 237.03,
+     "fim": 237.19,
+     "conf": 1.0
+    },
+    {
+     "p": "salão",
+     "ini": 237.19,
+     "fim": 237.55,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 237.55,
+     "fim": 237.73,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 237.73,
+     "fim": 237.81,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 237.81,
+     "fim": 238.09,
+     "conf": 1.0
+    },
+    {
+     "p": "perfeito,",
+     "ini": 238.09,
+     "fim": 238.89,
+     "conf": 1.0
+    },
+    {
+     "p": "impecável,",
+     "ini": 239.01,
+     "fim": 239.65,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 239.81,
+     "fim": 240.31,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 240.31,
+     "fim": 240.47,
+     "conf": 1.0
+    },
+    {
+     "p": "fazer",
+     "ini": 240.47,
+     "fim": 240.71,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 240.71,
+     "fim": 240.83,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 240.83,
+     "fim": 240.91,
+     "conf": 1.0
+    },
+    {
+     "p": "parte",
+     "ini": 240.91,
+     "fim": 241.17,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 241.17,
+     "fim": 241.29,
+     "conf": 1.0
+    },
+    {
+     "p": "casa.",
+     "ini": 241.29,
+     "fim": 241.61,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 241.89,
+   "fim": 247.61,
+   "texto": "É fundamental, tanto aqui no salão quanto em casa, você dar continuidade a esse tratamento.",
+   "palavras": [
+    {
+     "p": "É",
+     "ini": 241.89,
+     "fim": 242.39,
+     "conf": 1.0
+    },
+    {
+     "p": "fundamental,",
+     "ini": 242.39,
+     "fim": 243.17,
+     "conf": 1.0
+    },
+    {
+     "p": "tanto",
+     "ini": 243.75,
+     "fim": 244.03,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 244.03,
+     "fim": 244.33,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 244.33,
+     "fim": 244.47,
+     "conf": 1.0
+    },
+    {
+     "p": "salão",
+     "ini": 244.47,
+     "fim": 244.83,
+     "conf": 1.0
+    },
+    {
+     "p": "quanto",
+     "ini": 244.83,
+     "fim": 245.07,
+     "conf": 0.68
+    },
+    {
+     "p": "em",
+     "ini": 245.07,
+     "fim": 245.39,
+     "conf": 1.0
+    },
+    {
+     "p": "casa,",
+     "ini": 245.39,
+     "fim": 245.61,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 245.77,
+     "fim": 245.81,
+     "conf": 1.0
+    },
+    {
+     "p": "dar",
+     "ini": 245.81,
+     "fim": 245.97,
+     "conf": 0.99
+    },
+    {
+     "p": "continuidade",
+     "ini": 245.97,
+     "fim": 246.75,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 246.75,
+     "fim": 246.93,
+     "conf": 0.96
+    },
+    {
+     "p": "esse",
+     "ini": 246.93,
+     "fim": 247.09,
+     "conf": 0.96
+    },
+    {
+     "p": "tratamento.",
+     "ini": 247.09,
+     "fim": 247.61,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

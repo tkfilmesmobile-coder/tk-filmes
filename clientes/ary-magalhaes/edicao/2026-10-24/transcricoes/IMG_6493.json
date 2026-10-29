@@ -1,0 +1,724 @@
+{
+ "arquivo": "IMG_6493",
+ "duracao": 122.09,
+ "segmentos": [
+  {
+   "ini": 0.94,
+   "fim": 5.32,
+   "texto": "Afinal, cuidar do cabelo é estética ou saúde?",
+   "palavras": [
+    {
+     "p": "Afinal,",
+     "ini": 0.94,
+     "fim": 1.78,
+     "conf": 0.83
+    },
+    {
+     "p": "cuidar",
+     "ini": 2.18,
+     "fim": 2.78,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 2.78,
+     "fim": 2.9,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 2.9,
+     "fim": 3.3,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 3.3,
+     "fim": 3.54,
+     "conf": 0.99
+    },
+    {
+     "p": "estética",
+     "ini": 3.54,
+     "fim": 4.2,
+     "conf": 1.0
+    },
+    {
+     "p": "ou",
+     "ini": 4.2,
+     "fim": 4.8,
+     "conf": 0.99
+    },
+    {
+     "p": "saúde?",
+     "ini": 4.8,
+     "fim": 5.32,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 5.98,
+   "fim": 7.4,
+   "texto": "Os dois, meu amor.",
+   "palavras": [
+    {
+     "p": "Os",
+     "ini": 5.98,
+     "fim": 6.54,
+     "conf": 0.99
+    },
+    {
+     "p": "dois,",
+     "ini": 6.54,
+     "fim": 6.88,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 7.04,
+     "fim": 7.12,
+     "conf": 0.98
+    },
+    {
+     "p": "amor.",
+     "ini": 7.12,
+     "fim": 7.4,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 7.54,
+   "fim": 8.94,
+   "texto": "E eu vou te explicar o porquê.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 7.54,
+     "fim": 7.66,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 7.66,
+     "fim": 7.76,
+     "conf": 1.0
+    },
+    {
+     "p": "vou",
+     "ini": 7.76,
+     "fim": 7.88,
+     "conf": 1.0
+    },
+    {
+     "p": "te",
+     "ini": 7.88,
+     "fim": 8.0,
+     "conf": 0.96
+    },
+    {
+     "p": "explicar",
+     "ini": 8.0,
+     "fim": 8.38,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 8.38,
+     "fim": 8.58,
+     "conf": 1.0
+    },
+    {
+     "p": "porquê.",
+     "ini": 8.58,
+     "fim": 8.94,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 19.29,
+   "fim": 20.09,
+   "texto": "Não é, amiga?",
+   "palavras": [
+    {
+     "p": "Não",
+     "ini": 19.29,
+     "fim": 19.59,
+     "conf": 0.96
+    },
+    {
+     "p": "é,",
+     "ini": 19.59,
+     "fim": 19.73,
+     "conf": 1.0
+    },
+    {
+     "p": "amiga?",
+     "ini": 19.83,
+     "fim": 20.09,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 20.49,
+   "fim": 21.31,
+   "texto": "Top, né?",
+   "palavras": [
+    {
+     "p": "Top,",
+     "ini": 20.49,
+     "fim": 21.05,
+     "conf": 0.99
+    },
+    {
+     "p": "né?",
+     "ini": 21.23,
+     "fim": 21.31,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 21.81,
+   "fim": 22.75,
+   "texto": "E a luz ajuda.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 21.81,
+     "fim": 21.99,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 21.99,
+     "fim": 22.11,
+     "conf": 1.0
+    },
+    {
+     "p": "luz",
+     "ini": 22.11,
+     "fim": 22.27,
+     "conf": 0.95
+    },
+    {
+     "p": "ajuda.",
+     "ini": 22.27,
+     "fim": 22.75,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 23.03,
+   "fim": 23.27,
+   "texto": "Dia.",
+   "palavras": [
+    {
+     "p": "Dia.",
+     "ini": 23.03,
+     "fim": 23.27,
+     "conf": 0.59
+    }
+   ]
+  },
+  {
+   "ini": 24.03,
+   "fim": 32.0,
+   "texto": "Porque noite, filha, é um amboste.",
+   "palavras": [
+    {
+     "p": "Porque",
+     "ini": 24.03,
+     "fim": 24.31,
+     "conf": 0.73
+    },
+    {
+     "p": "noite,",
+     "ini": 24.31,
+     "fim": 24.87,
+     "conf": 0.98
+    },
+    {
+     "p": "filha,",
+     "ini": 30.92,
+     "fim": 31.16,
+     "conf": 0.96
+    },
+    {
+     "p": "é",
+     "ini": 31.18,
+     "fim": 31.26,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 31.26,
+     "fim": 31.34,
+     "conf": 0.76
+    },
+    {
+     "p": "amboste.",
+     "ini": 31.34,
+     "fim": 32.0,
+     "conf": 0.58
+    }
+   ]
+  },
+  {
+   "ini": 32.4,
+   "fim": 54.75,
+   "texto": "Uma coisa...",
+   "palavras": [
+    {
+     "p": "Uma",
+     "ini": 32.4,
+     "fim": 32.76,
+     "conf": 0.98
+    },
+    {
+     "p": "coisa...",
+     "ini": 50.17,
+     "fim": 54.75,
+     "conf": 0.74
+    }
+   ]
+  },
+  {
+   "ini": 61.59,
+   "fim": 62.73,
+   "texto": "Anda junto, volta.",
+   "palavras": [
+    {
+     "p": "Anda",
+     "ini": 61.59,
+     "fim": 62.15,
+     "conf": 0.67
+    },
+    {
+     "p": "junto,",
+     "ini": 62.15,
+     "fim": 62.39,
+     "conf": 0.98
+    },
+    {
+     "p": "volta.",
+     "ini": 62.55,
+     "fim": 62.73,
+     "conf": 0.21
+    }
+   ]
+  },
+  {
+   "ini": 63.07,
+   "fim": 67.44,
+   "texto": "Uma coisa não existe sem a outra.",
+   "palavras": [
+    {
+     "p": "Uma",
+     "ini": 63.07,
+     "fim": 63.63,
+     "conf": 0.99
+    },
+    {
+     "p": "coisa",
+     "ini": 65.84,
+     "fim": 66.18,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 66.18,
+     "fim": 66.38,
+     "conf": 0.99
+    },
+    {
+     "p": "existe",
+     "ini": 66.38,
+     "fim": 66.78,
+     "conf": 1.0
+    },
+    {
+     "p": "sem",
+     "ini": 66.78,
+     "fim": 67.02,
+     "conf": 0.98
+    },
+    {
+     "p": "a",
+     "ini": 67.02,
+     "fim": 67.16,
+     "conf": 1.0
+    },
+    {
+     "p": "outra.",
+     "ini": 67.16,
+     "fim": 67.44,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 67.44,
+   "fim": 72.76,
+   "texto": "O lado da estética é o brilho, é o glamour, é o cabelo hidratado.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 67.44,
+     "fim": 68.3,
+     "conf": 0.99
+    },
+    {
+     "p": "lado",
+     "ini": 68.3,
+     "fim": 68.56,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 68.56,
+     "fim": 68.76,
+     "conf": 1.0
+    },
+    {
+     "p": "estética",
+     "ini": 68.76,
+     "fim": 69.26,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 69.26,
+     "fim": 69.66,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 69.66,
+     "fim": 69.78,
+     "conf": 1.0
+    },
+    {
+     "p": "brilho,",
+     "ini": 69.78,
+     "fim": 70.34,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 70.46,
+     "fim": 70.46,
+     "conf": 0.95
+    },
+    {
+     "p": "o",
+     "ini": 70.46,
+     "fim": 70.52,
+     "conf": 1.0
+    },
+    {
+     "p": "glamour,",
+     "ini": 70.52,
+     "fim": 71.16,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 71.32,
+     "fim": 71.4,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 71.4,
+     "fim": 71.46,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 71.46,
+     "fim": 71.86,
+     "conf": 1.0
+    },
+    {
+     "p": "hidratado.",
+     "ini": 71.86,
+     "fim": 72.76,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 73.02,
+   "fim": 76.18,
+   "texto": "Aquele cabelo bonito que ao passar chama a atenção.",
+   "palavras": [
+    {
+     "p": "Aquele",
+     "ini": 73.02,
+     "fim": 73.62,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 73.62,
+     "fim": 74.04,
+     "conf": 1.0
+    },
+    {
+     "p": "bonito",
+     "ini": 74.04,
+     "fim": 74.54,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 74.54,
+     "fim": 74.7,
+     "conf": 1.0
+    },
+    {
+     "p": "ao",
+     "ini": 74.7,
+     "fim": 74.82,
+     "conf": 0.81
+    },
+    {
+     "p": "passar",
+     "ini": 74.82,
+     "fim": 75.26,
+     "conf": 1.0
+    },
+    {
+     "p": "chama",
+     "ini": 75.26,
+     "fim": 75.78,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 75.78,
+     "fim": 75.9,
+     "conf": 0.73
+    },
+    {
+     "p": "atenção.",
+     "ini": 75.9,
+     "fim": 76.18,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 85.15,
+   "fim": 87.77,
+   "texto": "A saúde é que sustenta isso tudo.",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 85.15,
+     "fim": 85.83,
+     "conf": 0.99
+    },
+    {
+     "p": "saúde",
+     "ini": 85.83,
+     "fim": 86.33,
+     "conf": 0.93
+    },
+    {
+     "p": "é",
+     "ini": 86.33,
+     "fim": 86.53,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 86.53,
+     "fim": 86.67,
+     "conf": 0.99
+    },
+    {
+     "p": "sustenta",
+     "ini": 86.67,
+     "fim": 87.19,
+     "conf": 1.0
+    },
+    {
+     "p": "isso",
+     "ini": 87.19,
+     "fim": 87.37,
+     "conf": 1.0
+    },
+    {
+     "p": "tudo.",
+     "ini": 87.37,
+     "fim": 87.77,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 88.37,
+   "fim": 93.83,
+   "texto": "A resistência do fio, a saúde interna dos pulvos capilares.",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 88.37,
+     "fim": 89.05,
+     "conf": 0.94
+    },
+    {
+     "p": "resistência",
+     "ini": 89.05,
+     "fim": 90.21,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 90.21,
+     "fim": 90.41,
+     "conf": 1.0
+    },
+    {
+     "p": "fio,",
+     "ini": 90.41,
+     "fim": 90.91,
+     "conf": 0.74
+    },
+    {
+     "p": "a",
+     "ini": 91.25,
+     "fim": 91.57,
+     "conf": 1.0
+    },
+    {
+     "p": "saúde",
+     "ini": 91.57,
+     "fim": 92.01,
+     "conf": 1.0
+    },
+    {
+     "p": "interna",
+     "ini": 92.01,
+     "fim": 92.45,
+     "conf": 1.0
+    },
+    {
+     "p": "dos",
+     "ini": 92.45,
+     "fim": 92.67,
+     "conf": 1.0
+    },
+    {
+     "p": "pulvos",
+     "ini": 92.67,
+     "fim": 92.99,
+     "conf": 0.8
+    },
+    {
+     "p": "capilares.",
+     "ini": 92.99,
+     "fim": 93.83,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 113.34,
+   "fim": 118.2,
+   "texto": "Quando a saúde do seu cabelo está em dia, a estética é só consequência.",
+   "palavras": [
+    {
+     "p": "Quando",
+     "ini": 113.34,
+     "fim": 113.98,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 113.98,
+     "fim": 114.08,
+     "conf": 1.0
+    },
+    {
+     "p": "saúde",
+     "ini": 114.08,
+     "fim": 114.42,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 114.42,
+     "fim": 114.58,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 114.58,
+     "fim": 114.74,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 114.74,
+     "fim": 115.16,
+     "conf": 1.0
+    },
+    {
+     "p": "está",
+     "ini": 115.16,
+     "fim": 115.58,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 115.58,
+     "fim": 115.76,
+     "conf": 1.0
+    },
+    {
+     "p": "dia,",
+     "ini": 115.76,
+     "fim": 116.04,
+     "conf": 0.9
+    },
+    {
+     "p": "a",
+     "ini": 116.26,
+     "fim": 116.5,
+     "conf": 1.0
+    },
+    {
+     "p": "estética",
+     "ini": 116.5,
+     "fim": 116.98,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 116.98,
+     "fim": 117.28,
+     "conf": 1.0
+    },
+    {
+     "p": "só",
+     "ini": 117.28,
+     "fim": 117.44,
+     "conf": 0.71
+    },
+    {
+     "p": "consequência.",
+     "ini": 117.44,
+     "fim": 118.2,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

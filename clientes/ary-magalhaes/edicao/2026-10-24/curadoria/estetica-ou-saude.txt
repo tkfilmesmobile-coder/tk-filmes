@@ -1,0 +1,19 @@
+=== estetica-ou-saude · 42.1s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_6493    0.90-   2.00  Afinal,
+[02]   1.10s  IMG_6493    2.14-   5.50  cuidar do cabelo é estética ou saúde?
+[03]   4.46s  IMG_6493    5.94-   9.01  Os dois, meu amor. E eu vou te explicar o porquê.
+[04]   7.53s  IMG_6493   65.66-  76.42  coisa não existe sem a outra. O lado da estética é o brilho, é o glamour, é o cabelo hidratado. Aquele cabelo bonito que ao passar chama a atenção.
+[05]  18.29s  IMG_6493   85.11-  88.00  A saúde é que sustenta isso tudo.
+[06]  21.18s  IMG_6493   88.33-  91.22  A resistência do fio,
+[07]  24.07s  IMG_6493   91.21-  93.94  a saúde interna dos pulvos capilares.
+[08]  26.80s  IMG_6493  113.30- 118.36  Quando a saúde do seu cabelo está em dia, a estética é só consequência.
+[09]  31.86s  IMG_6494   47.00-  54.44  Beleza é construção E constância Então agenda o seu horário E venha manter a sua beleza em dia
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Afinal, cuidar do cabelo é estética ou saúde? Os dois, meu amor. E eu vou te explicar o porquê. Uma coisa não existe sem a outra. O lado da estética é o brilho, é o glamour, é o cabelo hidratado. Aquele cabelo bonito que ao passar chama a atenção. A saúde é que sustenta isso tudo. A resistência do pio, a saúde interna dos pulvos capilares. Quando a saúde do seu cabelo está em dia, a estética é só consequência. Beleza é construção e constância. Então, agenda o seu horário e venha manter a sua beleza em dia.
+
+DIFERENÇAS E CORTES SUSPEITOS (2):
+   7.7s  esperado «»  ouvido «Uma»
+  23.3s  esperado «fio,»  ouvido «pio,»

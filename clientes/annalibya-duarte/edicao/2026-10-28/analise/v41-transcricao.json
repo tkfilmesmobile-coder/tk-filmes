@@ -1,0 +1,731 @@
+{
+ "texto": "Muito prazer, eu sou a Ana Líbia, sou cirurgiã dentista há 12 anos e hoje eu quero me apresentar um pouquinho para vocês. Sou especialista em endodontia, mais conhecido como canal, mas aqui eu cuido muito mais do que isso. Eu atendo desde a criança até o idoso. Aqui você vai encontrar o seu tratamento completo, tudo em um só lugar. Tratamentos como restauração, limpeza, clareamento, prótese e muito mais, tudo aqui. Eu quero que você sinta bem à vontade aqui comigo. Eu sei que é comum ter medo de dentista, mas eu prometo que vou fazer você mudar de opinião. Já que agora você me conhece um pouquinho, eu espero te encontrar aqui. Clica no link da bio e vem!",
+ "palavras": [
+  {
+   "p": "Muito",
+   "ini": 0.0,
+   "fim": 0.26,
+   "prob": 0.83
+  },
+  {
+   "p": "prazer,",
+   "ini": 0.26,
+   "fim": 0.84,
+   "prob": 1.0
+  },
+  {
+   "p": "eu",
+   "ini": 0.92,
+   "fim": 1.18,
+   "prob": 0.99
+  },
+  {
+   "p": "sou",
+   "ini": 1.18,
+   "fim": 1.36,
+   "prob": 1.0
+  },
+  {
+   "p": "a",
+   "ini": 1.36,
+   "fim": 1.44,
+   "prob": 0.46
+  },
+  {
+   "p": "Ana",
+   "ini": 1.44,
+   "fim": 1.54,
+   "prob": 0.96
+  },
+  {
+   "p": "Líbia,",
+   "ini": 1.54,
+   "fim": 1.92,
+   "prob": 0.82
+  },
+  {
+   "p": "sou",
+   "ini": 2.02,
+   "fim": 2.42,
+   "prob": 0.99
+  },
+  {
+   "p": "cirurgiã",
+   "ini": 2.42,
+   "fim": 2.88,
+   "prob": 0.96
+  },
+  {
+   "p": "dentista",
+   "ini": 2.88,
+   "fim": 3.36,
+   "prob": 0.96
+  },
+  {
+   "p": "há",
+   "ini": 3.36,
+   "fim": 3.52,
+   "prob": 1.0
+  },
+  {
+   "p": "12",
+   "ini": 3.52,
+   "fim": 3.78,
+   "prob": 1.0
+  },
+  {
+   "p": "anos",
+   "ini": 3.78,
+   "fim": 4.22,
+   "prob": 1.0
+  },
+  {
+   "p": "e",
+   "ini": 4.22,
+   "fim": 4.56,
+   "prob": 0.86
+  },
+  {
+   "p": "hoje",
+   "ini": 4.56,
+   "fim": 4.76,
+   "prob": 1.0
+  },
+  {
+   "p": "eu",
+   "ini": 4.76,
+   "fim": 4.86,
+   "prob": 1.0
+  },
+  {
+   "p": "quero",
+   "ini": 4.86,
+   "fim": 5.0,
+   "prob": 1.0
+  },
+  {
+   "p": "me",
+   "ini": 5.0,
+   "fim": 5.14,
+   "prob": 1.0
+  },
+  {
+   "p": "apresentar",
+   "ini": 5.14,
+   "fim": 5.64,
+   "prob": 1.0
+  },
+  {
+   "p": "um",
+   "ini": 5.64,
+   "fim": 5.7,
+   "prob": 1.0
+  },
+  {
+   "p": "pouquinho",
+   "ini": 5.7,
+   "fim": 5.94,
+   "prob": 0.97
+  },
+  {
+   "p": "para",
+   "ini": 5.94,
+   "fim": 6.18,
+   "prob": 0.56
+  },
+  {
+   "p": "vocês.",
+   "ini": 6.18,
+   "fim": 6.3,
+   "prob": 0.86
+  },
+  {
+   "p": "Sou",
+   "ini": 6.32,
+   "fim": 6.34,
+   "prob": 0.77
+  },
+  {
+   "p": "especialista",
+   "ini": 6.34,
+   "fim": 7.04,
+   "prob": 1.0
+  },
+  {
+   "p": "em",
+   "ini": 7.04,
+   "fim": 7.22,
+   "prob": 1.0
+  },
+  {
+   "p": "endodontia,",
+   "ini": 7.22,
+   "fim": 8.22,
+   "prob": 0.99
+  },
+  {
+   "p": "mais",
+   "ini": 8.34,
+   "fim": 8.78,
+   "prob": 1.0
+  },
+  {
+   "p": "conhecido",
+   "ini": 8.78,
+   "fim": 9.22,
+   "prob": 0.99
+  },
+  {
+   "p": "como",
+   "ini": 9.22,
+   "fim": 9.4,
+   "prob": 1.0
+  },
+  {
+   "p": "canal,",
+   "ini": 9.4,
+   "fim": 9.74,
+   "prob": 0.98
+  },
+  {
+   "p": "mas",
+   "ini": 10.02,
+   "fim": 10.48,
+   "prob": 1.0
+  },
+  {
+   "p": "aqui",
+   "ini": 10.48,
+   "fim": 10.72,
+   "prob": 1.0
+  },
+  {
+   "p": "eu",
+   "ini": 10.72,
+   "fim": 10.9,
+   "prob": 1.0
+  },
+  {
+   "p": "cuido",
+   "ini": 10.9,
+   "fim": 11.14,
+   "prob": 1.0
+  },
+  {
+   "p": "muito",
+   "ini": 11.14,
+   "fim": 11.4,
+   "prob": 1.0
+  },
+  {
+   "p": "mais",
+   "ini": 11.4,
+   "fim": 11.68,
+   "prob": 1.0
+  },
+  {
+   "p": "do",
+   "ini": 11.68,
+   "fim": 11.8,
+   "prob": 1.0
+  },
+  {
+   "p": "que",
+   "ini": 11.8,
+   "fim": 11.9,
+   "prob": 1.0
+  },
+  {
+   "p": "isso.",
+   "ini": 11.9,
+   "fim": 12.14,
+   "prob": 1.0
+  },
+  {
+   "p": "Eu",
+   "ini": 12.36,
+   "fim": 12.64,
+   "prob": 1.0
+  },
+  {
+   "p": "atendo",
+   "ini": 12.64,
+   "fim": 13.0,
+   "prob": 1.0
+  },
+  {
+   "p": "desde",
+   "ini": 13.0,
+   "fim": 13.28,
+   "prob": 1.0
+  },
+  {
+   "p": "a",
+   "ini": 13.28,
+   "fim": 13.5,
+   "prob": 1.0
+  },
+  {
+   "p": "criança",
+   "ini": 13.5,
+   "fim": 13.82,
+   "prob": 1.0
+  },
+  {
+   "p": "até",
+   "ini": 13.82,
+   "fim": 14.56,
+   "prob": 1.0
+  },
+  {
+   "p": "o",
+   "ini": 14.56,
+   "fim": 14.66,
+   "prob": 1.0
+  },
+  {
+   "p": "idoso.",
+   "ini": 14.66,
+   "fim": 15.06,
+   "prob": 1.0
+  },
+  {
+   "p": "Aqui",
+   "ini": 15.22,
+   "fim": 15.7,
+   "prob": 1.0
+  },
+  {
+   "p": "você",
+   "ini": 15.7,
+   "fim": 15.92,
+   "prob": 1.0
+  },
+  {
+   "p": "vai",
+   "ini": 15.92,
+   "fim": 16.12,
+   "prob": 1.0
+  },
+  {
+   "p": "encontrar",
+   "ini": 16.12,
+   "fim": 16.48,
+   "prob": 1.0
+  },
+  {
+   "p": "o",
+   "ini": 16.48,
+   "fim": 16.64,
+   "prob": 1.0
+  },
+  {
+   "p": "seu",
+   "ini": 16.64,
+   "fim": 16.76,
+   "prob": 1.0
+  },
+  {
+   "p": "tratamento",
+   "ini": 16.76,
+   "fim": 17.24,
+   "prob": 1.0
+  },
+  {
+   "p": "completo,",
+   "ini": 17.24,
+   "fim": 17.64,
+   "prob": 1.0
+  },
+  {
+   "p": "tudo",
+   "ini": 17.86,
+   "fim": 18.06,
+   "prob": 1.0
+  },
+  {
+   "p": "em",
+   "ini": 18.06,
+   "fim": 18.22,
+   "prob": 1.0
+  },
+  {
+   "p": "um",
+   "ini": 18.22,
+   "fim": 18.26,
+   "prob": 1.0
+  },
+  {
+   "p": "só",
+   "ini": 18.26,
+   "fim": 18.44,
+   "prob": 1.0
+  },
+  {
+   "p": "lugar.",
+   "ini": 18.44,
+   "fim": 18.72,
+   "prob": 1.0
+  },
+  {
+   "p": "Tratamentos",
+   "ini": 19.06,
+   "fim": 19.54,
+   "prob": 1.0
+  },
+  {
+   "p": "como",
+   "ini": 19.54,
+   "fim": 19.78,
+   "prob": 1.0
+  },
+  {
+   "p": "restauração,",
+   "ini": 19.78,
+   "fim": 20.62,
+   "prob": 1.0
+  },
+  {
+   "p": "limpeza,",
+   "ini": 20.92,
+   "fim": 21.96,
+   "prob": 1.0
+  },
+  {
+   "p": "clareamento,",
+   "ini": 22.04,
+   "fim": 23.04,
+   "prob": 1.0
+  },
+  {
+   "p": "prótese",
+   "ini": 23.3,
+   "fim": 24.16,
+   "prob": 1.0
+  },
+  {
+   "p": "e",
+   "ini": 24.16,
+   "fim": 24.68,
+   "prob": 1.0
+  },
+  {
+   "p": "muito",
+   "ini": 24.68,
+   "fim": 24.94,
+   "prob": 1.0
+  },
+  {
+   "p": "mais,",
+   "ini": 24.94,
+   "fim": 25.4,
+   "prob": 1.0
+  },
+  {
+   "p": "tudo",
+   "ini": 25.5,
+   "fim": 25.84,
+   "prob": 1.0
+  },
+  {
+   "p": "aqui.",
+   "ini": 25.84,
+   "fim": 26.14,
+   "prob": 1.0
+  },
+  {
+   "p": "Eu",
+   "ini": 26.22,
+   "fim": 26.5,
+   "prob": 0.98
+  },
+  {
+   "p": "quero",
+   "ini": 26.5,
+   "fim": 26.7,
+   "prob": 1.0
+  },
+  {
+   "p": "que",
+   "ini": 26.7,
+   "fim": 26.82,
+   "prob": 1.0
+  },
+  {
+   "p": "você",
+   "ini": 26.82,
+   "fim": 27.02,
+   "prob": 1.0
+  },
+  {
+   "p": "sinta",
+   "ini": 27.02,
+   "fim": 27.4,
+   "prob": 1.0
+  },
+  {
+   "p": "bem",
+   "ini": 27.4,
+   "fim": 27.62,
+   "prob": 1.0
+  },
+  {
+   "p": "à",
+   "ini": 27.62,
+   "fim": 27.74,
+   "prob": 0.8
+  },
+  {
+   "p": "vontade",
+   "ini": 27.74,
+   "fim": 28.1,
+   "prob": 1.0
+  },
+  {
+   "p": "aqui",
+   "ini": 28.1,
+   "fim": 28.32,
+   "prob": 1.0
+  },
+  {
+   "p": "comigo.",
+   "ini": 28.32,
+   "fim": 28.62,
+   "prob": 1.0
+  },
+  {
+   "p": "Eu",
+   "ini": 28.62,
+   "fim": 29.28,
+   "prob": 0.31
+  },
+  {
+   "p": "sei",
+   "ini": 29.28,
+   "fim": 29.5,
+   "prob": 0.99
+  },
+  {
+   "p": "que",
+   "ini": 29.5,
+   "fim": 29.62,
+   "prob": 1.0
+  },
+  {
+   "p": "é",
+   "ini": 29.62,
+   "fim": 29.72,
+   "prob": 0.99
+  },
+  {
+   "p": "comum",
+   "ini": 29.72,
+   "fim": 30.04,
+   "prob": 0.99
+  },
+  {
+   "p": "ter",
+   "ini": 30.04,
+   "fim": 30.54,
+   "prob": 0.97
+  },
+  {
+   "p": "medo",
+   "ini": 30.54,
+   "fim": 30.84,
+   "prob": 1.0
+  },
+  {
+   "p": "de",
+   "ini": 30.84,
+   "fim": 30.94,
+   "prob": 0.8
+  },
+  {
+   "p": "dentista,",
+   "ini": 30.94,
+   "fim": 31.52,
+   "prob": 0.99
+  },
+  {
+   "p": "mas",
+   "ini": 31.56,
+   "fim": 32.0,
+   "prob": 0.99
+  },
+  {
+   "p": "eu",
+   "ini": 32.0,
+   "fim": 32.1,
+   "prob": 0.85
+  },
+  {
+   "p": "prometo",
+   "ini": 32.1,
+   "fim": 32.56,
+   "prob": 1.0
+  },
+  {
+   "p": "que",
+   "ini": 32.56,
+   "fim": 32.62,
+   "prob": 0.99
+  },
+  {
+   "p": "vou",
+   "ini": 32.62,
+   "fim": 32.78,
+   "prob": 0.97
+  },
+  {
+   "p": "fazer",
+   "ini": 32.78,
+   "fim": 33.08,
+   "prob": 1.0
+  },
+  {
+   "p": "você",
+   "ini": 33.08,
+   "fim": 33.28,
+   "prob": 1.0
+  },
+  {
+   "p": "mudar",
+   "ini": 33.28,
+   "fim": 33.58,
+   "prob": 1.0
+  },
+  {
+   "p": "de",
+   "ini": 33.58,
+   "fim": 33.78,
+   "prob": 0.97
+  },
+  {
+   "p": "opinião.",
+   "ini": 33.78,
+   "fim": 34.26,
+   "prob": 1.0
+  },
+  {
+   "p": "Já",
+   "ini": 34.32,
+   "fim": 34.6,
+   "prob": 0.98
+  },
+  {
+   "p": "que",
+   "ini": 34.6,
+   "fim": 34.74,
+   "prob": 1.0
+  },
+  {
+   "p": "agora",
+   "ini": 34.74,
+   "fim": 35.02,
+   "prob": 0.99
+  },
+  {
+   "p": "você",
+   "ini": 35.02,
+   "fim": 35.34,
+   "prob": 1.0
+  },
+  {
+   "p": "me",
+   "ini": 35.34,
+   "fim": 35.52,
+   "prob": 1.0
+  },
+  {
+   "p": "conhece",
+   "ini": 35.52,
+   "fim": 36.02,
+   "prob": 1.0
+  },
+  {
+   "p": "um",
+   "ini": 36.02,
+   "fim": 36.14,
+   "prob": 1.0
+  },
+  {
+   "p": "pouquinho,",
+   "ini": 36.14,
+   "fim": 36.48,
+   "prob": 0.98
+  },
+  {
+   "p": "eu",
+   "ini": 36.8,
+   "fim": 37.24,
+   "prob": 0.99
+  },
+  {
+   "p": "espero",
+   "ini": 37.24,
+   "fim": 37.52,
+   "prob": 1.0
+  },
+  {
+   "p": "te",
+   "ini": 37.52,
+   "fim": 37.68,
+   "prob": 0.99
+  },
+  {
+   "p": "encontrar",
+   "ini": 37.68,
+   "fim": 37.98,
+   "prob": 1.0
+  },
+  {
+   "p": "aqui.",
+   "ini": 37.98,
+   "fim": 38.56,
+   "prob": 1.0
+  },
+  {
+   "p": "Clica",
+   "ini": 38.88,
+   "fim": 39.44,
+   "prob": 0.98
+  },
+  {
+   "p": "no",
+   "ini": 39.44,
+   "fim": 39.52,
+   "prob": 1.0
+  },
+  {
+   "p": "link",
+   "ini": 39.52,
+   "fim": 39.72,
+   "prob": 1.0
+  },
+  {
+   "p": "da",
+   "ini": 39.72,
+   "fim": 39.92,
+   "prob": 1.0
+  },
+  {
+   "p": "bio",
+   "ini": 39.92,
+   "fim": 40.2,
+   "prob": 0.74
+  },
+  {
+   "p": "e",
+   "ini": 40.2,
+   "fim": 40.58,
+   "prob": 0.99
+  },
+  {
+   "p": "vem!",
+   "ini": 40.58,
+   "fim": 40.9,
+   "prob": 1.0
+  }
+ ]
+}

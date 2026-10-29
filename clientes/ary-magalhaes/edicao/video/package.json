@@ -1,0 +1,29 @@
+{
+  "name": "camilla-perfil-video",
+  "version": "1.0.0",
+  "description": "Perfil de edição de vídeo da Dra. Camilla Wanderley (projeto novo, 2026-10-06)",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@react-three/fiber": "9.8.1",
+    "@remotion/captions": "4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "@remotion/media": "4.0.529",
+    "@remotion/three": "4.0.529",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.529",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/three": "0.186.0",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "lint": "tsc"
+  }
+}

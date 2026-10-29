@@ -1,0 +1,742 @@
+{
+ "arquivo": "IMG_6489",
+ "duracao": 98.26,
+ "segmentos": [
+  {
+   "ini": 2.91,
+   "fim": 7.45,
+   "texto": "Você sabia que aqui no nosso salão também fornecemos serviços de sobrancelha?",
+   "palavras": [
+    {
+     "p": "Você",
+     "ini": 2.91,
+     "fim": 3.55,
+     "conf": 0.58
+    },
+    {
+     "p": "sabia",
+     "ini": 3.55,
+     "fim": 3.91,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 3.91,
+     "fim": 4.07,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 4.07,
+     "fim": 4.27,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 4.27,
+     "fim": 4.41,
+     "conf": 1.0
+    },
+    {
+     "p": "nosso",
+     "ini": 4.41,
+     "fim": 4.71,
+     "conf": 1.0
+    },
+    {
+     "p": "salão",
+     "ini": 4.71,
+     "fim": 5.01,
+     "conf": 1.0
+    },
+    {
+     "p": "também",
+     "ini": 5.01,
+     "fim": 5.29,
+     "conf": 0.98
+    },
+    {
+     "p": "fornecemos",
+     "ini": 5.29,
+     "fim": 5.91,
+     "conf": 1.0
+    },
+    {
+     "p": "serviços",
+     "ini": 5.91,
+     "fim": 6.51,
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 6.51,
+     "fim": 6.69,
+     "conf": 1.0
+    },
+    {
+     "p": "sobrancelha?",
+     "ini": 6.69,
+     "fim": 7.45,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 21.49,
+   "fim": 27.93,
+   "texto": "Porque não adianta estarmos com o cabelo impecável e a sobrancelha não acompanhar, né?",
+   "palavras": [
+    {
+     "p": "Porque",
+     "ini": 21.49,
+     "fim": 22.13,
+     "conf": 0.85
+    },
+    {
+     "p": "não",
+     "ini": 22.13,
+     "fim": 22.45,
+     "conf": 1.0
+    },
+    {
+     "p": "adianta",
+     "ini": 22.45,
+     "fim": 23.11,
+     "conf": 0.96
+    },
+    {
+     "p": "estarmos",
+     "ini": 23.11,
+     "fim": 23.87,
+     "conf": 0.99
+    },
+    {
+     "p": "com",
+     "ini": 23.87,
+     "fim": 24.03,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 24.03,
+     "fim": 24.15,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 24.15,
+     "fim": 24.51,
+     "conf": 1.0
+    },
+    {
+     "p": "impecável",
+     "ini": 24.51,
+     "fim": 25.41,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 25.41,
+     "fim": 26.01,
+     "conf": 0.96
+    },
+    {
+     "p": "a",
+     "ini": 26.01,
+     "fim": 26.13,
+     "conf": 1.0
+    },
+    {
+     "p": "sobrancelha",
+     "ini": 26.13,
+     "fim": 26.89,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 26.89,
+     "fim": 27.13,
+     "conf": 1.0
+    },
+    {
+     "p": "acompanhar,",
+     "ini": 27.13,
+     "fim": 27.77,
+     "conf": 0.97
+    },
+    {
+     "p": "né?",
+     "ini": 27.87,
+     "fim": 27.93,
+     "conf": 0.83
+    }
+   ]
+  },
+  {
+   "ini": 28.11,
+   "fim": 29.13,
+   "texto": "Está desalinhada.",
+   "palavras": [
+    {
+     "p": "Está",
+     "ini": 28.11,
+     "fim": 28.27,
+     "conf": 0.88
+    },
+    {
+     "p": "desalinhada.",
+     "ini": 28.27,
+     "fim": 29.13,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 29.51,
+   "fim": 32.05,
+   "texto": "Então aqui nós fornecemos os dois serviços.",
+   "palavras": [
+    {
+     "p": "Então",
+     "ini": 29.51,
+     "fim": 29.65,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 29.65,
+     "fim": 29.87,
+     "conf": 0.81
+    },
+    {
+     "p": "nós",
+     "ini": 29.87,
+     "fim": 30.13,
+     "conf": 1.0
+    },
+    {
+     "p": "fornecemos",
+     "ini": 30.13,
+     "fim": 30.87,
+     "conf": 1.0
+    },
+    {
+     "p": "os",
+     "ini": 30.87,
+     "fim": 31.21,
+     "conf": 1.0
+    },
+    {
+     "p": "dois",
+     "ini": 31.21,
+     "fim": 31.39,
+     "conf": 1.0
+    },
+    {
+     "p": "serviços.",
+     "ini": 31.39,
+     "fim": 32.05,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 33.13,
+   "fim": 49.99,
+   "texto": "Aqui você vai ter a sobrancelha.",
+   "palavras": [
+    {
+     "p": "Aqui",
+     "ini": 33.13,
+     "fim": 33.39,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 33.39,
+     "fim": 33.63,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 33.63,
+     "fim": 33.77,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 33.77,
+     "fim": 34.21,
+     "conf": 0.58
+    },
+    {
+     "p": "a",
+     "ini": 38.88,
+     "fim": 41.28,
+     "conf": 1.0
+    },
+    {
+     "p": "sobrancelha.",
+     "ini": 49.19,
+     "fim": 49.99,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 55.2,
+   "fim": 57.14,
+   "texto": "Aqui você vai ter a sua sobrancelha",
+   "palavras": [
+    {
+     "p": "Aqui",
+     "ini": 55.2,
+     "fim": 55.68,
+     "conf": 0.69
+    },
+    {
+     "p": "você",
+     "ini": 55.68,
+     "fim": 55.94,
+     "conf": 0.99
+    },
+    {
+     "p": "vai",
+     "ini": 55.94,
+     "fim": 56.08,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 56.08,
+     "fim": 56.18,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 56.18,
+     "fim": 56.38,
+     "conf": 0.58
+    },
+    {
+     "p": "sua",
+     "ini": 56.38,
+     "fim": 56.38,
+     "conf": 0.97
+    },
+    {
+     "p": "sobrancelha",
+     "ini": 56.38,
+     "fim": 57.14,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 57.14,
+   "fim": 58.72,
+   "texto": "Que valoriza a sua beleza natural",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 57.14,
+     "fim": 57.28,
+     "conf": 0.02
+    },
+    {
+     "p": "valoriza",
+     "ini": 57.28,
+     "fim": 57.74,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 57.74,
+     "fim": 57.9,
+     "conf": 0.87
+    },
+    {
+     "p": "sua",
+     "ini": 57.9,
+     "fim": 57.94,
+     "conf": 1.0
+    },
+    {
+     "p": "beleza",
+     "ini": 57.94,
+     "fim": 58.24,
+     "conf": 1.0
+    },
+    {
+     "p": "natural",
+     "ini": 58.24,
+     "fim": 58.72,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 59.92,
+   "fim": 61.78,
+   "texto": "Acompanhando o formato do seu rosto",
+   "palavras": [
+    {
+     "p": "Acompanhando",
+     "ini": 59.92,
+     "fim": 60.4,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 60.4,
+     "fim": 60.54,
+     "conf": 0.99
+    },
+    {
+     "p": "formato",
+     "ini": 60.54,
+     "fim": 60.98,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 60.98,
+     "fim": 61.16,
+     "conf": 0.76
+    },
+    {
+     "p": "seu",
+     "ini": 61.16,
+     "fim": 61.32,
+     "conf": 1.0
+    },
+    {
+     "p": "rosto",
+     "ini": 61.32,
+     "fim": 61.78,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 61.78,
+   "fim": 67.85,
+   "texto": "Eu vou falar o que mesmo",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 61.78,
+     "fim": 62.72,
+     "conf": 0.97
+    },
+    {
+     "p": "vou",
+     "ini": 67.11,
+     "fim": 67.23,
+     "conf": 1.0
+    },
+    {
+     "p": "falar",
+     "ini": 67.23,
+     "fim": 67.45,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 67.45,
+     "fim": 67.59,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 67.59,
+     "fim": 67.67,
+     "conf": 0.88
+    },
+    {
+     "p": "mesmo",
+     "ini": 67.67,
+     "fim": 67.85,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 67.85,
+   "fim": 68.53,
+   "texto": "Depois eu esqueci",
+   "palavras": [
+    {
+     "p": "Depois",
+     "ini": 67.85,
+     "fim": 68.05,
+     "conf": 0.01
+    },
+    {
+     "p": "eu",
+     "ini": 68.05,
+     "fim": 68.05,
+     "conf": 0.44
+    },
+    {
+     "p": "esqueci",
+     "ini": 68.05,
+     "fim": 68.53,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 68.53,
+   "fim": 78.0,
+   "texto": "Aqui você vai encontrar a sua sobrancelha",
+   "palavras": [
+    {
+     "p": "Aqui",
+     "ini": 68.53,
+     "fim": 69.33,
+     "conf": 0.97
+    },
+    {
+     "p": "você",
+     "ini": 69.33,
+     "fim": 72.53,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 76.24,
+     "fim": 76.42,
+     "conf": 1.0
+    },
+    {
+     "p": "encontrar",
+     "ini": 76.42,
+     "fim": 76.82,
+     "conf": 0.95
+    },
+    {
+     "p": "a",
+     "ini": 76.82,
+     "fim": 77.02,
+     "conf": 0.89
+    },
+    {
+     "p": "sua",
+     "ini": 77.02,
+     "fim": 77.14,
+     "conf": 1.0
+    },
+    {
+     "p": "sobrancelha",
+     "ini": 77.14,
+     "fim": 78.0,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 78.0,
+   "fim": 79.7,
+   "texto": "Que acompanha a sua beleza natural",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 78.0,
+     "fim": 78.38,
+     "conf": 1.0
+    },
+    {
+     "p": "acompanha",
+     "ini": 78.38,
+     "fim": 78.72,
+     "conf": 0.96
+    },
+    {
+     "p": "a",
+     "ini": 78.72,
+     "fim": 78.88,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 78.88,
+     "fim": 78.96,
+     "conf": 1.0
+    },
+    {
+     "p": "beleza",
+     "ini": 78.96,
+     "fim": 79.3,
+     "conf": 1.0
+    },
+    {
+     "p": "natural",
+     "ini": 79.3,
+     "fim": 79.7,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 79.7,
+   "fim": 82.48,
+   "texto": "E valoriza o formato do seu rosto",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 79.7,
+     "fim": 80.38,
+     "conf": 1.0
+    },
+    {
+     "p": "valoriza",
+     "ini": 80.38,
+     "fim": 81.0,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 81.0,
+     "fim": 81.42,
+     "conf": 0.94
+    },
+    {
+     "p": "formato",
+     "ini": 81.42,
+     "fim": 81.8,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 81.8,
+     "fim": 81.94,
+     "conf": 0.96
+    },
+    {
+     "p": "seu",
+     "ini": 81.94,
+     "fim": 82.08,
+     "conf": 1.0
+    },
+    {
+     "p": "rosto",
+     "ini": 82.08,
+     "fim": 82.48,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 93.48,
+   "fim": 94.82,
+   "texto": "Então se eu fosse você",
+   "palavras": [
+    {
+     "p": "Então",
+     "ini": 93.48,
+     "fim": 93.96,
+     "conf": 0.81
+    },
+    {
+     "p": "se",
+     "ini": 93.96,
+     "fim": 94.16,
+     "conf": 0.95
+    },
+    {
+     "p": "eu",
+     "ini": 94.16,
+     "fim": 94.24,
+     "conf": 1.0
+    },
+    {
+     "p": "fosse",
+     "ini": 94.24,
+     "fim": 94.46,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 94.46,
+     "fim": 94.82,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 94.82,
+   "fim": 97.48,
+   "texto": "Eu já agendava o seu dia de beleza completo",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 94.82,
+     "fim": 95.3,
+     "conf": 0.9
+    },
+    {
+     "p": "já",
+     "ini": 95.3,
+     "fim": 95.44,
+     "conf": 1.0
+    },
+    {
+     "p": "agendava",
+     "ini": 95.44,
+     "fim": 95.96,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 95.96,
+     "fim": 96.16,
+     "conf": 0.96
+    },
+    {
+     "p": "seu",
+     "ini": 96.16,
+     "fim": 96.3,
+     "conf": 1.0
+    },
+    {
+     "p": "dia",
+     "ini": 96.3,
+     "fim": 96.44,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 96.44,
+     "fim": 96.54,
+     "conf": 1.0
+    },
+    {
+     "p": "beleza",
+     "ini": 96.54,
+     "fim": 96.86,
+     "conf": 1.0
+    },
+    {
+     "p": "completo",
+     "ini": 96.86,
+     "fim": 97.48,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 97.48,
+   "fim": 97.7,
+   "texto": "Perfeito.",
+   "palavras": [
+    {
+     "p": "Perfeito.",
+     "ini": 97.48,
+     "fim": 97.7,
+     "conf": 0.73
+    }
+   ]
+  }
+ ]
+}

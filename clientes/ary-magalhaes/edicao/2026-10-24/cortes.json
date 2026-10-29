@@ -1,0 +1,1039 @@
+{
+ "correcoes": {
+  "Ari,": "Ary,",
+  "Ari": "Ary"
+ },
+ "videos": [
+  {
+   "id": "mechas-antes-ou-depois",
+   "nome": "4 · Mechas antes ou depois do alisamento?",
+   "destaques": [
+    "mechas",
+    "alisamento",
+    "selagem",
+    "cutícula",
+    "cor",
+    "saudável",
+    "químicas",
+    "dúvida"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 2.29,
+     "ate": 6.53,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 6.97,
+     "ate": 10.57,
+     "zoom": 1.06
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 12.85,
+     "ate": 14.51,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 15.29,
+     "ate": 16.57,
+     "zoom": 1.08
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 17.57,
+     "ate": 18.15,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 53.15,
+     "ate": 57.21,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 58.57,
+     "ate": 61.77,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 63.07,
+     "ate": 65.01,
+     "zoom": 1.1,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 66.07,
+     "ate": 66.51,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6484",
+     "tipo": "voz",
+     "de": 67.37,
+     "ate": 94.15,
+     "zoom": 1.0
+    }
+   ],
+   "headline": {
+    "caps": "A DÚVIDA QUE EU MAIS ESCUTO",
+    "titulo": "Mechas ou alisamento?",
+    "italico": "qual vem *primeiro*?",
+    "de": 2.29,
+    "ate": 6.0
+   },
+   "cartoes": [
+    {
+     "de": 4.15,
+     "ate": 5.5,
+     "foto": "drive/cliente-e77dfe99-56af-4e59-a927-e0e193f93a72.jpg",
+     "rotulo": "MECHAS",
+     "lado": "esq"
+    },
+    {
+     "de": 5.57,
+     "ate": 6.75,
+     "foto": "drive/atend-quadro-IMG_6333-12s.jpg",
+     "rotulo": "ALISAMENTO",
+     "lado": "esq"
+    },
+    {
+     "de": 61.03,
+     "ate": 63.75,
+     "foto": "drive/cliente-IMG_8332.jpg",
+     "rotulo": "MECHAS",
+     "lado": "esq"
+    },
+    {
+     "de": 61.19,
+     "ate": 63.75,
+     "foto": "drive/atend-quadro-IMG_6333-3s.jpg",
+     "rotulo": "SELAGEM",
+     "lado": "dir"
+    }
+   ],
+   "brolls": [
+    {
+     "de": 53.3,
+     "ate": 56.25,
+     "video": "IMG_6312",
+     "srcDe": 2.0
+    },
+    {
+     "de": 58.6,
+     "ate": 60.95,
+     "video": "IMG_6341",
+     "srcDe": 3.0
+    },
+    {
+     "de": 70.29,
+     "ate": 72.45,
+     "foto": "drive/cliente-IMG_0588.jpg",
+     "num": "1º",
+     "titulo": "Mechas",
+     "pos": "center 40%"
+    },
+    {
+     "de": 72.5,
+     "ate": 78.5,
+     "video": "IMG_6333",
+     "srcDe": 3.0,
+     "num": "2º",
+     "titulo": "Selagem",
+     "linha": "se o cabelo estiver *saudável*"
+    }
+   ],
+   "zooms": [
+    {
+     "de": 12.85,
+     "ate": 14.51,
+     "z": 1.1
+    },
+    {
+     "de": 78.67,
+     "ate": 79.35,
+     "z": 1.14
+    },
+    {
+     "de": 90.13,
+     "ate": 94.15,
+     "z": 1.06
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "fio",
+     "passos": {
+      "entra": 79.61,
+      "alinha": 82.05,
+      "brilho": 83.05,
+      "cuticula": 83.59,
+      "abre": 86.91,
+      "cor": 88.69,
+      "ordem": 90.13,
+      "certo": 92.6,
+      "sai": 94.3
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "em": 2.29,
+     "nome": "vibra",
+     "vol": 0.3
+    }
+   ],
+   "fotoFinal": {
+    "foto": "IMG_6486.jpg",
+    "dur": 2.8,
+    "titulo": "Quer fazer os dois?",
+    "chamada": "Me chama no *WhatsApp*",
+    "pos": "center 15%"
+   }
+  },
+  {
+   "id": "selagem-3-coisas",
+   "nome": "2 · 3 coisas que você faz em casa e acabam com a sua selagem",
+   "correcoes": {
+    "celade.": "selagem.",
+    "celade,": "selagem,",
+    "chapim": "chapinha"
+   },
+   "destaques": [
+    "selagem.",
+    "selagem",
+    "protetor",
+    "térmico",
+    "térmica.",
+    "chapinha",
+    "secador,",
+    "cronograma",
+    "capilar",
+    "molhado",
+    "travesseiro",
+    "atrito",
+    "poroso.",
+    "frizz",
+    "espigado.",
+    "cuidado",
+    "casa."
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 24.02,
+     "ate": 30.6,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 66.15,
+     "ate": 68.2,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 78.88,
+     "ate": 84.7,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 86.68,
+     "ate": 101.7,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 106.5,
+     "ate": 115.9,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 117.08,
+     "ate": 118.5,
+     "zoom": 1.1
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 142.6,
+     "ate": 147.6,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 147.82,
+     "ate": 157.25,
+     "zoom": 1.06
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 157.38,
+     "ate": 166.7,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 179.28,
+     "ate": 184.7,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 186.54,
+     "ate": 207.7,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6481",
+     "tipo": "voz",
+     "de": 234.99,
+     "ate": 247.6,
+     "zoom": 1.06,
+     "quebra": true
+    }
+   ],
+   "headline": {
+    "caps": "",
+    "titulo": "Selagem",
+    "italico": "três coisas que você faz em casa e *acabam com ela*",
+    "de": 24.02,
+    "ate": 28.2
+   },
+   "passosTitulo": [
+    {
+     "de": 66.15,
+     "ate": 80.6,
+     "num": "1",
+     "titulo": "Protetor térmico"
+    },
+    {
+     "de": 142.6,
+     "ate": 145.6,
+     "num": "2",
+     "titulo": "Cronograma capilar"
+    },
+    {
+     "de": 179.28,
+     "ate": 182.0,
+     "num": "3",
+     "titulo": "Cabelo molhado na cama"
+    }
+   ],
+   "cartoes": [
+    {
+     "de": 81.0,
+     "ate": 82.9,
+     "foto": "banco/chapinha-andrea-donato-unsplash.jpg",
+     "rotulo": "CHAPINHA",
+     "lado": "esq"
+    },
+    {
+     "de": 81.2,
+     "ate": 82.9,
+     "foto": "drive/atend-quadro-IMG_6328-6s.jpg",
+     "rotulo": "SECADOR",
+     "lado": "dir"
+    }
+   ],
+   "brolls": [
+    {
+     "de": 147.82,
+     "ate": 151.1,
+     "video": "IMG_6234",
+     "srcDe": 0.5
+    },
+    {
+     "de": 151.5,
+     "ate": 154.6,
+     "video": "ST",
+     "srcDe": 87.5
+    },
+    {
+     "de": 154.6,
+     "ate": 157.25,
+     "video": "IMG_6256",
+     "srcDe": 4.0
+    },
+    {
+     "de": 186.54,
+     "ate": 191.0,
+     "video": "ST",
+     "srcDe": 81.5
+    },
+    {
+     "de": 237.0,
+     "ate": 240.0,
+     "video": "ST",
+     "srcDe": 99.0
+    },
+    {
+     "de": 243.75,
+     "ate": 247.4,
+     "video": "IMG_6221",
+     "srcDe": 2.0
+    }
+   ],
+   "zooms": [
+    {
+     "de": 82.16,
+     "ate": 84.4,
+     "z": 1.12
+    },
+    {
+     "de": 145.62,
+     "ate": 147.5,
+     "z": 1.12
+    },
+    {
+     "de": 183.32,
+     "ate": 184.6,
+     "z": 1.14
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "protetor",
+     "passos": {
+      "entra": 86.68,
+      "camada": 91.68,
+      "calor": 96.14,
+      "sem": 106.5,
+      "poroso": 109.78,
+      "frizz": 112.58,
+      "espigado": 115.16,
+      "sai": 118.5
+     }
+    },
+    {
+     "tipo": "mito",
+     "passos": {
+      "entra": 157.38,
+      "mentira": 164.24,
+      "verdade": 164.94,
+      "sai": 166.7
+     }
+    },
+    {
+     "tipo": "molhado",
+     "passos": {
+      "entra": 191.5,
+      "atrito": 201.3,
+      "sai": 207.7
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": {
+    "foto": "IMG_6486.jpg",
+    "dur": 2.8,
+    "titulo": "Faça a sua parte em casa",
+    "chamada": "Me chama no *WhatsApp*",
+    "pos": "center 15%"
+   }
+  },
+  {
+   "id": "cabelo-de-salao-em-casa",
+   "nome": "9 · Como manter o cabelo de salão em casa",
+   "correcoes": {
+    "mais": "mas",
+    "cheios": "também"
+   },
+   "destaques": [
+    "protetor",
+    "térmico",
+    "molhado",
+    "cronograma",
+    "capilar.",
+    "retoque",
+    "selagem",
+    "salão",
+    "aqui."
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6505",
+     "tipo": "voz",
+     "de": 1.79,
+     "ate": 6.5,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6505",
+     "tipo": "voz",
+     "de": 7.09,
+     "ate": 10.2,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6505",
+     "tipo": "voz",
+     "de": 11.29,
+     "ate": 18.25,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6505",
+     "tipo": "voz",
+     "de": 28.05,
+     "ate": 38.68,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6505",
+     "tipo": "voz",
+     "de": 57.09,
+     "ate": 66.0,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6505",
+     "tipo": "voz",
+     "de": 83.55,
+     "ate": 91.35,
+     "zoom": 1.06,
+     "quebra": true
+    }
+   ],
+   "headline": {
+    "caps": "",
+    "titulo": "Cabelo de salão",
+    "italico": "como manter *em casa*",
+    "de": 1.79,
+    "ate": 5.6
+   },
+   "cartoes": [],
+   "brolls": [
+    {
+     "de": 30.2,
+     "ate": 33.95,
+     "video": "IMG_6290",
+     "srcDe": 35.0
+    },
+    {
+     "de": 35.0,
+     "ate": 38.6,
+     "video": "IMG_6240",
+     "srcDe": 2.0
+    },
+    {
+     "de": 62.0,
+     "ate": 66.0,
+     "video": "IMG_6328",
+     "srcDe": 1.0
+    },
+    {
+     "de": 89.9,
+     "ate": 91.35,
+     "video": "IMG_6236",
+     "srcDe": 14.0
+    }
+   ],
+   "zooms": [
+    {
+     "de": 13.27,
+     "ate": 14.0,
+     "z": 1.12
+    },
+    {
+     "de": 83.55,
+     "ate": 84.7,
+     "z": 1.08
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "lista",
+     "passos": {
+      "entra": 7.09,
+      "i1": 8.75,
+      "i2": 12.47,
+      "i3": 15.99,
+      "sai": 18.25
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": {
+    "foto": "IMG_6482.jpg",
+    "dur": 2.8,
+    "titulo": "Esse lugar é aqui",
+    "chamada": "Agende pelo *WhatsApp*",
+    "pos": "center 18%"
+   }
+  },
+  {
+   "id": "sobrancelha",
+   "nome": "6 · Sabia que eu também faço sobrancelha?",
+   "destaques": [
+    "sobrancelha?",
+    "sobrancelha",
+    "impecável",
+    "desalinhada.",
+    "rosto",
+    "natural",
+    "completo"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6489",
+     "tipo": "voz",
+     "de": 2.91,
+     "ate": 7.0,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6489",
+     "tipo": "voz",
+     "de": 21.49,
+     "ate": 28.9,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6489",
+     "tipo": "voz",
+     "de": 29.51,
+     "ate": 31.7,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6489",
+     "tipo": "voz",
+     "de": 55.2,
+     "ate": 61.75,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6489",
+     "tipo": "voz",
+     "de": 93.48,
+     "ate": 97.2,
+     "zoom": 1.0,
+     "quebra": true,
+     "fimForcado": 97.62
+    }
+   ],
+   "headline": {
+    "caps": "",
+    "titulo": "Sobrancelha",
+    "italico": "pouca gente sabe, mas *eu também faço*",
+    "de": 2.91,
+    "ate": 6.9
+   },
+   "cartoes": [
+    {
+     "de": 24.15,
+     "ate": 26.0,
+     "foto": "drive/atend-quadro-IMG_6333-12s.jpg",
+     "rotulo": "CABELO",
+     "lado": "esq"
+    },
+    {
+     "de": 26.13,
+     "ate": 28.9,
+     "foto": "banco/sobrancelha-kt-leung-unsplash.jpg",
+     "rotulo": "SOBRANCELHA",
+     "lado": "dir"
+    }
+   ],
+   "brolls": [
+    {
+     "de": 29.51,
+     "ate": 31.7,
+     "video": "IMG_6220",
+     "srcDe": 1.5
+    }
+   ],
+   "zooms": [
+    {
+     "de": 27.87,
+     "ate": 28.9,
+     "z": 1.12
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "rosto",
+     "passos": {
+      "entra": 55.2,
+      "formato": 59.92,
+      "sai": 61.75
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": {
+    "foto": "IMG_6485.jpg",
+    "dur": 2.8,
+    "titulo": "Seu dia de beleza completo",
+    "chamada": "Agende pelo *WhatsApp*",
+    "pos": "center 18%"
+   }
+  },
+  {
+   "id": "estetica-ou-saude",
+   "nome": "8 · Cabelo bonito é cabelo saudável",
+   "correcoes": {
+    "pulvos": "bulbos",
+    "coisa": "uma coisa"
+   },
+   "destaques": [
+    "estética",
+    "saúde?",
+    "saúde",
+    "brilho,",
+    "glamour,",
+    "hidratado.",
+    "resistência",
+    "consequência.",
+    "construção",
+    "constância"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6493",
+     "tipo": "voz",
+     "de": 0.94,
+     "ate": 8.75,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6493",
+     "tipo": "voz",
+     "de": 65.84,
+     "ate": 76.0,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6493",
+     "tipo": "voz",
+     "de": 85.15,
+     "ate": 93.1,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6493",
+     "tipo": "voz",
+     "de": 113.34,
+     "ate": 117.6,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6494",
+     "tipo": "voz",
+     "de": 47.04,
+     "ate": 54.1,
+     "zoom": 1.06,
+     "quebra": true
+    }
+   ],
+   "headline": {
+    "caps": "",
+    "titulo": "Estética ou saúde?",
+    "italico": "cuidar do cabelo é *os dois*, meu amor",
+    "de": 0.94,
+    "ate": 5.0
+   },
+   "cartoes": [],
+   "brolls": [
+    {
+     "de": 73.0,
+     "ate": 76.0,
+     "video": "IMG_6313",
+     "srcDe": 11.5
+    },
+    {
+     "arq": "IMG_6494",
+     "de": 47.04,
+     "ate": 49.9,
+     "video": "IMG_6233",
+     "srcDe": 4.0
+    }
+   ],
+   "zooms": [
+    {
+     "de": 5.98,
+     "ate": 8.75,
+     "z": 1.1
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "saude",
+     "passos": {
+      "entra": 67.44,
+      "brilho": 69.78,
+      "glamour": 70.52,
+      "hidratado": 71.46,
+      "saude": 85.15,
+      "resistencia": 89.05,
+      "interna": 91.57,
+      "consequencia": 113.34,
+      "sai": 117.6
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": {
+    "foto": "IMG_6483.jpg",
+    "dur": 2.8,
+    "titulo": "Agende o seu horário",
+    "chamada": "Me chama no *WhatsApp*",
+    "pos": "center 18%"
+   }
+  },
+  {
+   "id": "muito-prazer",
+   "nome": "7 · Muito prazer, Ary Magalhães",
+   "destaques": [
+    "prazer.",
+    "Magalhães,",
+    "mãe,",
+    "esposa",
+    "cabeleireira",
+    "anos.",
+    "Praça",
+    "salão.",
+    "estética.",
+    "carinho,",
+    "atenção.",
+    "bela.",
+    "autocuidado"
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_6502",
+     "tipo": "voz",
+     "de": 1.55,
+     "ate": 4.5,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_6502",
+     "tipo": "voz",
+     "de": 5.01,
+     "ate": 11.5,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6502",
+     "tipo": "voz",
+     "de": 11.65,
+     "ate": 19.6,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6502",
+     "tipo": "voz",
+     "de": 25.3,
+     "ate": 33.5,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6502",
+     "tipo": "voz",
+     "de": 43.1,
+     "ate": 47.0,
+     "zoom": 1.08,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6502",
+     "tipo": "voz",
+     "de": 88.54,
+     "ate": 106.5,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_6502",
+     "tipo": "voz",
+     "de": 130.28,
+     "ate": 138.9,
+     "zoom": 1.06,
+     "quebra": true,
+     "prefixo": "E"
+    }
+   ],
+   "headline": {
+    "caps": "SE VOCÊ CHEGOU AGORA",
+    "titulo": "Muito prazer",
+    "italico": "eu sou a *Ary Magalhães*",
+    "de": 1.55,
+    "ate": 4.4
+   },
+   "passosTitulo": [],
+   "cartoes": [
+    {
+     "de": 6.57,
+     "ate": 7.35,
+     "foto": "ig-2019-06-14-ary-e-filho.jpg",
+     "rotulo": "MÃE",
+     "lado": "esq",
+     "longe": true,
+     "tam": 0.8
+    },
+    {
+     "de": 7.35,
+     "ate": 8.15,
+     "foto": "ig-2019-03-10-familia-ary-everton-filhos.jpg",
+     "rotulo": "FILHOS",
+     "lado": "esq",
+     "longe": true,
+     "tam": 0.8
+    },
+    {
+     "de": 8.21,
+     "ate": 9.25,
+     "foto": "ig-2022-05-01-ary-e-everton.jpg",
+     "rotulo": "ESPOSA",
+     "lado": "esq",
+     "longe": true,
+     "tam": 0.8
+    },
+    {
+     "de": 9.29,
+     "ate": 9.95,
+     "foto": "drive/ensaio-IMG_2281.jpg",
+     "rotulo": "CABELEIREIRA",
+     "lado": "esq",
+     "longe": true,
+     "tam": 0.8
+    }
+   ],
+   "brolls": [
+    {
+     "de": 9.95,
+     "ate": 10.55,
+     "foto": "ig-2017-10-21-mechas-aluminio.jpg",
+     "num": "2017",
+     "titulo": "",
+     "pos": "center 40%"
+    },
+    {
+     "de": 10.55,
+     "ate": 11.15,
+     "foto": "ig-2018-06-14-mechas-piranhas.jpg",
+     "num": "2018",
+     "titulo": "",
+     "pos": "center 40%"
+    },
+    {
+     "de": 11.15,
+     "ate": 11.75,
+     "foto": "ig-2020-08-04-ary-e-clientes.jpg",
+     "num": "2020",
+     "titulo": "",
+     "pos": "center 30%"
+    },
+    {
+     "de": 11.8,
+     "ate": 14.4,
+     "foto": "post-1-ano-slide-1.jpg",
+     "pos": "center 30%",
+     "modo": "post"
+    },
+    {
+     "de": 44.2,
+     "ate": 46.6,
+     "video": "ST",
+     "srcDe": 41.0
+    },
+    {
+     "de": 90.9,
+     "ate": 93.4,
+     "video": "ST",
+     "srcDe": 76.5
+    },
+    {
+     "de": 99.5,
+     "ate": 102.2,
+     "foto": "drive/atend-IMG_6280.jpg",
+     "pos": "center 30%"
+    },
+    {
+     "de": 104.4,
+     "ate": 106.2,
+     "foto": "drive/cliente-IMG_0384.jpg",
+     "pos": "center 30%"
+    }
+   ],
+   "zooms": [
+    {
+     "de": 3.33,
+     "ate": 4.3,
+     "z": 1.1
+    },
+    {
+     "de": 93.82,
+     "ate": 96.0,
+     "z": 1.06
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "local",
+     "passos": {
+      "entra": 15.6,
+      "anp": 28.74,
+      "salgaderia": 31.62,
+      "sai": 33.3
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": {
+    "foto": "drive/ensaio-IMG_2252.jpg",
+    "dur": 2.8,
+    "titulo": "Agende o seu horário",
+    "chamada": "venha ter o seu *autocuidado* com a gente",
+    "pos": "center 20%"
+   }
+  }
+ ]
+}

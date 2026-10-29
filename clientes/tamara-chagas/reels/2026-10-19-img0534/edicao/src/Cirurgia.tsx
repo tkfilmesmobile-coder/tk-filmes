@@ -151,7 +151,7 @@ export const Cirurgia: React.FC = () => {
       {Q(42.5, 60.0, <Enfermeira dur={17.5} />)}
       {Q(o(86.6), o(91.3), <Headline kicker="ATENÇÃO" fino="muita gente acha que" forte="NÃO TEM DIREITO." dur={91.3 - 86.6} />)}
       {Q(o(91.9), o(97.4), <Headline kicker="A RESPOSTA" fino="benefício por incapacidade:" forte="TEM DIREITO, SIM." dur={97.4 - 91.9} />)}
-      {Q(o(98.0), o(119.2), <Cards titulo="2 REQUISITOS NO INSS" dur={119.2 - 98.0} itens={[["🪪", "1 · Qualidade de segurado"], ["📅", "2 · Carência: 12 contribuições"]]} />)}
+      {Q(o(98.0), o(119.2), <Cards titulo="2 REQUISITOS NO INSS" dur={119.2 - 98.0} itens={[["📋", "1 · Qualidade de segurado"], ["📅", "2 · Carência: 12 contribuições"]]} />)}
       {Q(o(101.4), o(105.5), <SeloINSS dur={4.1} />)}
       {/* sons fortes (regra de 14/10) */}
       {S(1.2, "notificacao", 0.65)}{S(5.6, "whoosh-grave", 0.6)}{S(18.1, "whoosh-grave", 0.6)} {/* whoosh grave na entrada e na saída do áudio */} {/* toque de notificação enviado pela Talyta (Download (8).mp4, 1,80–3,55 s); toca antes de ela olhar pro celular */}

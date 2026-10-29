@@ -1,0 +1,1201 @@
+{
+ "arquivo": "IMG_6502",
+ "duracao": 138.99,
+ "segmentos": [
+  {
+   "ini": 1.55,
+   "fim": 4.39,
+   "texto": "Se você é novo por aqui, muito prazer.",
+   "palavras": [
+    {
+     "p": "Se",
+     "ini": 1.55,
+     "fim": 1.97,
+     "conf": 0.99
+    },
+    {
+     "p": "você",
+     "ini": 1.97,
+     "fim": 2.19,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 2.19,
+     "fim": 2.33,
+     "conf": 1.0
+    },
+    {
+     "p": "novo",
+     "ini": 2.33,
+     "fim": 2.53,
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "ini": 2.53,
+     "fim": 2.77,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui,",
+     "ini": 2.77,
+     "fim": 3.03,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 3.33,
+     "fim": 3.97,
+     "conf": 1.0
+    },
+    {
+     "p": "prazer.",
+     "ini": 3.97,
+     "fim": 4.39,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 5.01,
+   "fim": 11.37,
+   "texto": "Eu sou a Ari Magalhães, sou mãe, esposa e cabeleireira há mais de 14 anos.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 5.01,
+     "fim": 5.09,
+     "conf": 1.0
+    },
+    {
+     "p": "sou",
+     "ini": 5.09,
+     "fim": 5.25,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 5.25,
+     "fim": 5.37,
+     "conf": 0.83
+    },
+    {
+     "p": "Ari",
+     "ini": 5.37,
+     "fim": 5.53,
+     "conf": 0.46
+    },
+    {
+     "p": "Magalhães,",
+     "ini": 5.53,
+     "fim": 6.25,
+     "conf": 0.99
+    },
+    {
+     "p": "sou",
+     "ini": 6.57,
+     "fim": 7.13,
+     "conf": 1.0
+    },
+    {
+     "p": "mãe,",
+     "ini": 7.13,
+     "fim": 7.49,
+     "conf": 1.0
+    },
+    {
+     "p": "esposa",
+     "ini": 8.21,
+     "fim": 8.83,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 8.83,
+     "fim": 9.29,
+     "conf": 1.0
+    },
+    {
+     "p": "cabeleireira",
+     "ini": 9.29,
+     "fim": 9.93,
+     "conf": 0.98
+    },
+    {
+     "p": "há",
+     "ini": 9.93,
+     "fim": 10.25,
+     "conf": 1.0
+    },
+    {
+     "p": "mais",
+     "ini": 10.25,
+     "fim": 10.49,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 10.49,
+     "fim": 10.61,
+     "conf": 1.0
+    },
+    {
+     "p": "14",
+     "ini": 10.61,
+     "fim": 10.91,
+     "conf": 0.99
+    },
+    {
+     "p": "anos.",
+     "ini": 10.91,
+     "fim": 11.37,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 11.65,
+   "fim": 19.45,
+   "texto": "E há mais ou menos um ano eu vim para cá, para a Praça Padre Cícero, para ampliar o nosso salão.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 11.65,
+     "fim": 12.09,
+     "conf": 1.0
+    },
+    {
+     "p": "há",
+     "ini": 12.09,
+     "fim": 12.25,
+     "conf": 1.0
+    },
+    {
+     "p": "mais",
+     "ini": 12.25,
+     "fim": 12.55,
+     "conf": 0.99
+    },
+    {
+     "p": "ou",
+     "ini": 12.55,
+     "fim": 12.67,
+     "conf": 1.0
+    },
+    {
+     "p": "menos",
+     "ini": 12.67,
+     "fim": 12.93,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 12.93,
+     "fim": 13.21,
+     "conf": 1.0
+    },
+    {
+     "p": "ano",
+     "ini": 13.21,
+     "fim": 13.51,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 13.51,
+     "fim": 14.25,
+     "conf": 0.69
+    },
+    {
+     "p": "vim",
+     "ini": 14.25,
+     "fim": 14.43,
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "ini": 14.43,
+     "fim": 14.67,
+     "conf": 0.99
+    },
+    {
+     "p": "cá,",
+     "ini": 14.67,
+     "fim": 14.95,
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "ini": 15.37,
+     "fim": 15.55,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 15.55,
+     "fim": 15.71,
+     "conf": 0.93
+    },
+    {
+     "p": "Praça",
+     "ini": 15.71,
+     "fim": 15.93,
+     "conf": 1.0
+    },
+    {
+     "p": "Padre",
+     "ini": 15.93,
+     "fim": 16.25,
+     "conf": 0.99
+    },
+    {
+     "p": "Cícero,",
+     "ini": 16.25,
+     "fim": 16.77,
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "ini": 16.87,
+     "fim": 17.29,
+     "conf": 1.0
+    },
+    {
+     "p": "ampliar",
+     "ini": 17.29,
+     "fim": 17.99,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 17.99,
+     "fim": 18.71,
+     "conf": 1.0
+    },
+    {
+     "p": "nosso",
+     "ini": 18.71,
+     "fim": 18.97,
+     "conf": 1.0
+    },
+    {
+     "p": "salão.",
+     "ini": 18.97,
+     "fim": 19.45,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 25.0,
+   "fim": 33.4,
+   "texto": "Hoje nós estamos localizados no prédio acima da ANP Advocacia, próximo à Salgaderia Palmarina.",
+   "palavras": [
+    {
+     "p": "Hoje",
+     "ini": 25.55,
+     "fim": 25.82,
+     "conf": 0.95
+    },
+    {
+     "p": "nós",
+     "ini": 25.82,
+     "fim": 26.02,
+     "conf": 0.89
+    },
+    {
+     "p": "estamos",
+     "ini": 26.02,
+     "fim": 26.3,
+     "conf": 1.0
+    },
+    {
+     "p": "localizados",
+     "ini": 26.3,
+     "fim": 27.32,
+     "conf": 0.99
+    },
+    {
+     "p": "no",
+     "ini": 27.32,
+     "fim": 27.82,
+     "conf": 1.0
+    },
+    {
+     "p": "prédio",
+     "ini": 27.82,
+     "fim": 28.18,
+     "conf": 0.98
+    },
+    {
+     "p": "acima",
+     "ini": 28.18,
+     "fim": 28.56,
+     "conf": 0.97
+    },
+    {
+     "p": "da",
+     "ini": 28.56,
+     "fim": 28.74,
+     "conf": 1.0
+    },
+    {
+     "p": "ANP",
+     "ini": 28.74,
+     "fim": 29.38,
+     "conf": 0.94
+    },
+    {
+     "p": "Advocacia,",
+     "ini": 29.38,
+     "fim": 30.64,
+     "conf": 0.89
+    },
+    {
+     "p": "próximo",
+     "ini": 30.92,
+     "fim": 31.26,
+     "conf": 1.0
+    },
+    {
+     "p": "à",
+     "ini": 31.26,
+     "fim": 31.62,
+     "conf": 0.86
+    },
+    {
+     "p": "Salgaderia",
+     "ini": 31.62,
+     "fim": 32.46,
+     "conf": 0.9
+    },
+    {
+     "p": "Palmarina.",
+     "ini": 32.46,
+     "fim": 33.4,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 43.1,
+   "fim": 46.64,
+   "texto": "Eu acredito que cuidar do cabelo vai muito além da estética.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 43.1,
+     "fim": 43.24,
+     "conf": 0.92
+    },
+    {
+     "p": "acredito",
+     "ini": 43.24,
+     "fim": 43.82,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 43.82,
+     "fim": 44.22,
+     "conf": 1.0
+    },
+    {
+     "p": "cuidar",
+     "ini": 44.22,
+     "fim": 44.68,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 44.68,
+     "fim": 44.86,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo",
+     "ini": 44.86,
+     "fim": 45.26,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 45.26,
+     "fim": 45.44,
+     "conf": 0.98
+    },
+    {
+     "p": "muito",
+     "ini": 45.44,
+     "fim": 45.7,
+     "conf": 1.0
+    },
+    {
+     "p": "além",
+     "ini": 45.7,
+     "fim": 45.94,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 45.94,
+     "fim": 46.1,
+     "conf": 1.0
+    },
+    {
+     "p": "estética.",
+     "ini": 46.1,
+     "fim": 46.64,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 57.6,
+   "fim": 64.54,
+   "texto": "Aqui, cada cliente é recebido com todo o carinho do mundo e cada...",
+   "palavras": [
+    {
+     "p": "Aqui,",
+     "ini": 57.6,
+     "fim": 58.46,
+     "conf": 0.99
+    },
+    {
+     "p": "cada",
+     "ini": 58.7,
+     "fim": 59.22,
+     "conf": 1.0
+    },
+    {
+     "p": "cliente",
+     "ini": 59.22,
+     "fim": 59.96,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 59.96,
+     "fim": 60.92,
+     "conf": 0.97
+    },
+    {
+     "p": "recebido",
+     "ini": 60.92,
+     "fim": 61.64,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 61.64,
+     "fim": 61.9,
+     "conf": 0.97
+    },
+    {
+     "p": "todo",
+     "ini": 61.9,
+     "fim": 62.46,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 62.46,
+     "fim": 62.62,
+     "conf": 0.4
+    },
+    {
+     "p": "carinho",
+     "ini": 62.62,
+     "fim": 63.0,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 63.0,
+     "fim": 63.18,
+     "conf": 1.0
+    },
+    {
+     "p": "mundo",
+     "ini": 63.18,
+     "fim": 63.5,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 63.5,
+     "fim": 63.7,
+     "conf": 0.39
+    },
+    {
+     "p": "cada...",
+     "ini": 63.7,
+     "fim": 64.54,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 64.54,
+   "fim": 66.0,
+   "texto": "Espera aí.",
+   "palavras": [
+    {
+     "p": "Espera",
+     "ini": 64.54,
+     "fim": 65.9,
+     "conf": 0.73
+    },
+    {
+     "p": "aí.",
+     "ini": 65.9,
+     "fim": 66.0,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 67.52,
+   "fim": 75.26,
+   "texto": "Aqui, cada cliente tem um atendimento individualizado, respeitando todas as suas...",
+   "palavras": [
+    {
+     "p": "Aqui,",
+     "ini": 67.52,
+     "fim": 68.38,
+     "conf": 1.0
+    },
+    {
+     "p": "cada",
+     "ini": 68.38,
+     "fim": 69.24,
+     "conf": 1.0
+    },
+    {
+     "p": "cliente",
+     "ini": 69.24,
+     "fim": 69.94,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 69.94,
+     "fim": 70.46,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 70.46,
+     "fim": 70.54,
+     "conf": 0.96
+    },
+    {
+     "p": "atendimento",
+     "ini": 70.54,
+     "fim": 71.02,
+     "conf": 1.0
+    },
+    {
+     "p": "individualizado,",
+     "ini": 71.02,
+     "fim": 72.36,
+     "conf": 1.0
+    },
+    {
+     "p": "respeitando",
+     "ini": 72.9,
+     "fim": 73.5,
+     "conf": 1.0
+    },
+    {
+     "p": "todas",
+     "ini": 73.5,
+     "fim": 74.14,
+     "conf": 1.0
+    },
+    {
+     "p": "as",
+     "ini": 74.14,
+     "fim": 74.46,
+     "conf": 1.0
+    },
+    {
+     "p": "suas...",
+     "ini": 74.46,
+     "fim": 75.26,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 88.54,
+   "fim": 93.82,
+   "texto": "Aqui, cada cliente é atendida com muito carinho, com muita atenção.",
+   "palavras": [
+    {
+     "p": "Aqui,",
+     "ini": 88.54,
+     "fim": 89.18,
+     "conf": 1.0
+    },
+    {
+     "p": "cada",
+     "ini": 89.48,
+     "fim": 89.8,
+     "conf": 1.0
+    },
+    {
+     "p": "cliente",
+     "ini": 89.8,
+     "fim": 90.46,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 90.46,
+     "fim": 90.96,
+     "conf": 1.0
+    },
+    {
+     "p": "atendida",
+     "ini": 90.96,
+     "fim": 91.4,
+     "conf": 0.9
+    },
+    {
+     "p": "com",
+     "ini": 91.4,
+     "fim": 91.68,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 91.68,
+     "fim": 92.02,
+     "conf": 1.0
+    },
+    {
+     "p": "carinho,",
+     "ini": 92.02,
+     "fim": 92.5,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 92.88,
+     "fim": 93.14,
+     "conf": 1.0
+    },
+    {
+     "p": "muita",
+     "ini": 93.14,
+     "fim": 93.4,
+     "conf": 1.0
+    },
+    {
+     "p": "atenção.",
+     "ini": 93.4,
+     "fim": 93.82,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 93.82,
+   "fim": 105.82,
+   "texto": "E isso é em todos os aspectos, não só no cabelo, mas também na ouvidoria, te escutando, tirando tuas dúvidas e te deixando cada vez mais bela.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 93.82,
+     "fim": 94.88,
+     "conf": 0.42
+    },
+    {
+     "p": "isso",
+     "ini": 94.88,
+     "fim": 95.1,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 95.1,
+     "fim": 95.26,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 95.26,
+     "fim": 95.46,
+     "conf": 1.0
+    },
+    {
+     "p": "todos",
+     "ini": 95.46,
+     "fim": 95.7,
+     "conf": 1.0
+    },
+    {
+     "p": "os",
+     "ini": 95.7,
+     "fim": 95.92,
+     "conf": 1.0
+    },
+    {
+     "p": "aspectos,",
+     "ini": 95.92,
+     "fim": 96.62,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 96.82,
+     "fim": 96.98,
+     "conf": 1.0
+    },
+    {
+     "p": "só",
+     "ini": 96.98,
+     "fim": 97.24,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 97.24,
+     "fim": 97.4,
+     "conf": 1.0
+    },
+    {
+     "p": "cabelo,",
+     "ini": 97.4,
+     "fim": 97.94,
+     "conf": 1.0
+    },
+    {
+     "p": "mas",
+     "ini": 98.14,
+     "fim": 98.52,
+     "conf": 1.0
+    },
+    {
+     "p": "também",
+     "ini": 98.52,
+     "fim": 98.92,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 98.92,
+     "fim": 99.58,
+     "conf": 1.0
+    },
+    {
+     "p": "ouvidoria,",
+     "ini": 99.58,
+     "fim": 100.3,
+     "conf": 1.0
+    },
+    {
+     "p": "te",
+     "ini": 100.6,
+     "fim": 100.64,
+     "conf": 0.99
+    },
+    {
+     "p": "escutando,",
+     "ini": 100.64,
+     "fim": 101.46,
+     "conf": 1.0
+    },
+    {
+     "p": "tirando",
+     "ini": 102.28,
+     "fim": 102.7,
+     "conf": 1.0
+    },
+    {
+     "p": "tuas",
+     "ini": 102.7,
+     "fim": 103.04,
+     "conf": 0.81
+    },
+    {
+     "p": "dúvidas",
+     "ini": 103.04,
+     "fim": 103.52,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 103.52,
+     "fim": 104.42,
+     "conf": 0.99
+    },
+    {
+     "p": "te",
+     "ini": 104.42,
+     "fim": 104.56,
+     "conf": 1.0
+    },
+    {
+     "p": "deixando",
+     "ini": 104.56,
+     "fim": 104.94,
+     "conf": 1.0
+    },
+    {
+     "p": "cada",
+     "ini": 104.94,
+     "fim": 105.14,
+     "conf": 1.0
+    },
+    {
+     "p": "vez",
+     "ini": 105.14,
+     "fim": 105.34,
+     "conf": 1.0
+    },
+    {
+     "p": "mais",
+     "ini": 105.34,
+     "fim": 105.56,
+     "conf": 1.0
+    },
+    {
+     "p": "bela.",
+     "ini": 105.56,
+     "fim": 105.82,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 115.11,
+   "fim": 124.27,
+   "texto": "E se você ainda não me conhecia e está me conhecendo por aqui, faz o seguinte, entre em contato com a gente e agenda o teu horário.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 115.11,
+     "fim": 115.63,
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "ini": 115.63,
+     "fim": 115.83,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 115.83,
+     "fim": 116.17,
+     "conf": 1.0
+    },
+    {
+     "p": "ainda",
+     "ini": 116.17,
+     "fim": 116.83,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 116.83,
+     "fim": 117.07,
+     "conf": 1.0
+    },
+    {
+     "p": "me",
+     "ini": 117.07,
+     "fim": 117.21,
+     "conf": 1.0
+    },
+    {
+     "p": "conhecia",
+     "ini": 117.21,
+     "fim": 117.77,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 117.77,
+     "fim": 118.03,
+     "conf": 1.0
+    },
+    {
+     "p": "está",
+     "ini": 118.03,
+     "fim": 118.29,
+     "conf": 1.0
+    },
+    {
+     "p": "me",
+     "ini": 118.29,
+     "fim": 118.47,
+     "conf": 1.0
+    },
+    {
+     "p": "conhecendo",
+     "ini": 118.47,
+     "fim": 118.87,
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "ini": 118.87,
+     "fim": 119.07,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui,",
+     "ini": 119.07,
+     "fim": 119.35,
+     "conf": 1.0
+    },
+    {
+     "p": "faz",
+     "ini": 119.71,
+     "fim": 119.93,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 119.93,
+     "fim": 120.05,
+     "conf": 1.0
+    },
+    {
+     "p": "seguinte,",
+     "ini": 120.05,
+     "fim": 120.43,
+     "conf": 1.0
+    },
+    {
+     "p": "entre",
+     "ini": 121.11,
+     "fim": 121.27,
+     "conf": 0.97
+    },
+    {
+     "p": "em",
+     "ini": 121.27,
+     "fim": 121.43,
+     "conf": 1.0
+    },
+    {
+     "p": "contato",
+     "ini": 121.43,
+     "fim": 121.73,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 121.73,
+     "fim": 121.89,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 121.89,
+     "fim": 122.01,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 122.01,
+     "fim": 123.05,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 123.05,
+     "fim": 123.39,
+     "conf": 1.0
+    },
+    {
+     "p": "agenda",
+     "ini": 123.39,
+     "fim": 123.67,
+     "conf": 0.93
+    },
+    {
+     "p": "o",
+     "ini": 123.67,
+     "fim": 123.83,
+     "conf": 1.0
+    },
+    {
+     "p": "teu",
+     "ini": 123.83,
+     "fim": 123.91,
+     "conf": 0.85
+    },
+    {
+     "p": "horário.",
+     "ini": 123.91,
+     "fim": 124.27,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 124.27,
+   "fim": 137.92,
+   "texto": "E se você é nova por aqui e não me conhecia, aproveite, agende o seu horário e venha ter o seu autocuidado com a gente.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 124.27,
+     "fim": 125.25,
+     "conf": 0.94
+    },
+    {
+     "p": "se",
+     "ini": 130.28,
+     "fim": 130.42,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 130.42,
+     "fim": 130.64,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 130.64,
+     "fim": 130.88,
+     "conf": 1.0
+    },
+    {
+     "p": "nova",
+     "ini": 130.88,
+     "fim": 131.18,
+     "conf": 0.95
+    },
+    {
+     "p": "por",
+     "ini": 131.18,
+     "fim": 131.4,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 131.4,
+     "fim": 131.68,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 131.68,
+     "fim": 132.12,
+     "conf": 0.95
+    },
+    {
+     "p": "não",
+     "ini": 132.12,
+     "fim": 132.3,
+     "conf": 1.0
+    },
+    {
+     "p": "me",
+     "ini": 132.3,
+     "fim": 132.44,
+     "conf": 1.0
+    },
+    {
+     "p": "conhecia,",
+     "ini": 132.44,
+     "fim": 133.06,
+     "conf": 1.0
+    },
+    {
+     "p": "aproveite,",
+     "ini": 133.24,
+     "fim": 133.98,
+     "conf": 1.0
+    },
+    {
+     "p": "agende",
+     "ini": 134.5,
+     "fim": 134.76,
+     "conf": 0.9
+    },
+    {
+     "p": "o",
+     "ini": 134.76,
+     "fim": 134.9,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 134.9,
+     "fim": 135.02,
+     "conf": 1.0
+    },
+    {
+     "p": "horário",
+     "ini": 135.02,
+     "fim": 135.44,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 135.44,
+     "fim": 135.9,
+     "conf": 0.99
+    },
+    {
+     "p": "venha",
+     "ini": 135.9,
+     "fim": 136.18,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 136.18,
+     "fim": 136.34,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 136.34,
+     "fim": 136.48,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 136.48,
+     "fim": 136.6,
+     "conf": 1.0
+    },
+    {
+     "p": "autocuidado",
+     "ini": 136.6,
+     "fim": 137.28,
+     "conf": 0.96
+    },
+    {
+     "p": "com",
+     "ini": 137.28,
+     "fim": 137.48,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 137.48,
+     "fim": 137.6,
+     "conf": 1.0
+    },
+    {
+     "p": "gente.",
+     "ini": 137.6,
+     "fim": 137.92,
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "revisado": "2026-10-25: palavras de 19,5 a 34,5 s refeitas (a 1a transcrição juntou a direção da filmmaker com a fala da Ary)"
+}

@@ -1,0 +1,12 @@
+node_modules
+dist
+out
+.DS_Store
+.env
+
+# Material bruto e de paciente: fica no computador/Drive, não no GitHub
+public/brutos/
+public/takes/
+
+# Referências de outros perfis (Cosmos): só pra prévia, nunca vão em peça entregue
+public/referencias/

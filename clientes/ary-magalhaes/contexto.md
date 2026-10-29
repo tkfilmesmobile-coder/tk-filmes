@@ -1,7 +1,9 @@
 # Ary Magalhães · ficha
 
 ## Identificação
-- **Negócio:** salão de beleza da Ary Magalhães, na Praça Padre Cícero, União dos Palmares/AL.
+- **Negócio:** salão de beleza da Ary Magalhães, na Praça Padre Cícero, União dos Palmares/AL, no prédio acima da ANP Advocacia, próximo à Salgaderia Palmarina (dito por ela no reel de apresentação, 2026-10-24).
+- **A Ary:** mãe, esposa e cabeleireira há **mais de 14 anos** (fala dela em 2026-10-24; a bio do Instagram ainda diz 12).
+  Marido: Everton (@evertonde7). Filhos: Matheus (o primogênito) e Murilo. Fotos de família e de carreira em `marca/acervo-instagram.md`.
 - **Inaugurado em 08/10/2025** (o reel da inauguração é o melhor do perfil: 11,6 mil visualizações, 80 compartilhamentos).
 - **Nicho:** cabelo, com foco em liso (selagem, progressiva, botox), mechas e loiros, tratamentos. Também faz sobrancelha.
 - **Contato:** WhatsApp pelo link da bio (wa.me/message/GBR3MHBF3EYHJ1). Telefone e email: [a definir].
@@ -24,11 +26,14 @@
 ## Contrato
 - Plano, valor e data de início: [a definir]. A TK grava no salão (a Talyta vai até lá).
 - Drive da cliente: `G:\Meu Drive\Ary Magalhães` · https://drive.google.com/drive/folders/1SZcsz3wTIQPxVAbGuHOQhRwiAn6Pv_hr
-- Brutos (a Talyta sobe aqui): `BRUTO` · https://drive.google.com/drive/folders/1Gz5i8vzhBGOaOMMN_eLRJ97-g7n5WuAt
-  Organizado em 2026-10-12 (guia em `_LEIA-ME.txt`): `00_ENTRADA` (sobe sem nome) · `01_ARY_ENSAIO-FOTOS_2025-10` (22 fotos, 4 looks) ·
-  `02_CLIENTES_RESULTADO-FOTOS` (11, inclui antes e depois) · `03_CLIENTES_RESULTADO-VIDEOS` · `04_ATENDIMENTO-<nº>_<serviço>`
-  com `PROCESSO`, `FINALIZACAO` e `BASTIDOR-REACOES`. Nomes de arquivo originais da câmera mantidos.
-- Estrutura do Drive (2026-10-12, guia em `_LEIA-ME.txt` na raiz): `BRUTO/` (entrada) · `POSTS/<ano-mês>/FEED/<dia-mês tema>/` e `POSTS/<ano-mês>/STORIES/` (o que já foi feito; stories de link e sticker vão pelo celular) · `IDENTIDADE VISUAL/` · `_ARQUIVO/`.
+- **Estrutura do Drive (reorganizada em 2026-10-24 a pedido da Talyta; guias `_LEIA-ME.txt`):**
+  - `BRUTO/` · https://drive.google.com/drive/folders/1Gz5i8vzhBGOaOMMN_eLRJ97-g7n5WuAt · **só entrada**: tudo sobe solto, sem
+    pasta. Sai daqui quando estiver pronto (vai pra `CONTEÚDOS`) ou vai pro `B-ROLL`. Fica vazio quando está tudo organizado.
+  - `CONTEÚDOS/<aaaa-mm · MÊS>/` (mês em que foi **feito**) com uma pasta por conteúdo: `<dd-mm> · Reel|Post · tema` (sem data
+    se ainda não tem dia), mais `STORIES/` e `ROTEIROS/` do mês.
+  - `B-ROLL/IMAGENS/<assunto>` e `B-ROLL/VÍDEOS/<assunto>`: ARY · ATENDIMENTO · RESULTADO DE CLIENTES · BASTIDOR E REAÇÕES
+    (FEEDBACK e outros quando houver). Nome original da câmera.
+  - `IDENTIDADE VISUAL/` · `_ARQUIVO/` (brutos de fala já editados, cópias, duplicados).
 
 ## Acessos
 - Token do Instagram no `.env` (`INSTAGRAM_ACCESS_TOKEN_CABELOSMAGALHAES`), gerado em 2026-10-09, vence por volta de 08/12/2026.
@@ -56,4 +61,4 @@ Ficha criada em 2026-10-10, a partir do Drive da TK, da sessão de identidade de
 ## Regras gerais aplicadas
 
 - **Brand book (2026-10-13):** Há `marca/design-guide.md` (preto, bege e dourado champagne; ela não gosta de rosa) e referências. Brand book: **pendente**. Partir do design guide e de 'Como a Ary fala'; preço, depoimentos e Black Friday seguem `[a definir]`.
-- **B-roll de toda diária (2026-10-23):** B-rolls qualificados em `BRUTO/B-ROLL/AAAA-MM-DD · <atendimento>/` no Drive dela (salão, produtos, mãos trabalhando, cabelo pronto). Cliente do salão só entra com autorização de imagem (pendência já aberta). Depois o vlog geral e os reels por tema.
+- **B-roll de toda diária (2026-10-23; pasta mudou em 2026-10-24):** B-rolls qualificados em `B-ROLL/IMAGENS|VÍDEOS/<assunto>/` no Drive dela (salão, produtos, mãos trabalhando, cabelo pronto). Cliente do salão só entra com autorização de imagem (pendência já aberta). Depois o vlog geral e os reels por tema.

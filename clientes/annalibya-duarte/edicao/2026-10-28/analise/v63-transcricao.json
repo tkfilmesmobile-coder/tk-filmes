@@ -1,0 +1,377 @@
+{
+ "texto": "Seja muito bem-vindo ao meu consultório. A nossa localização é bem facinho, fica na rua Costa Rego, número 278, no centro de União dos Palmares, aqui na famosa Praça do Rocha. Esse espaço foi projetado com todo amor e carinho, pensando no seu conforto. Vai ser um prazer imenso. E receber aqui. Clique no link da bio e agenda teu horário.",
+ "palavras": [
+  {
+   "p": "Seja",
+   "ini": 0.0,
+   "fim": 0.46,
+   "prob": 0.75
+  },
+  {
+   "p": "muito",
+   "ini": 0.46,
+   "fim": 0.68,
+   "prob": 0.99
+  },
+  {
+   "p": "bem",
+   "ini": 0.68,
+   "fim": 0.96,
+   "prob": 1.0
+  },
+  {
+   "p": "-vindo",
+   "ini": 0.96,
+   "fim": 1.34,
+   "prob": 0.93
+  },
+  {
+   "p": "ao",
+   "ini": 1.34,
+   "fim": 1.62,
+   "prob": 1.0
+  },
+  {
+   "p": "meu",
+   "ini": 1.62,
+   "fim": 1.78,
+   "prob": 0.99
+  },
+  {
+   "p": "consultório.",
+   "ini": 1.78,
+   "fim": 2.48,
+   "prob": 1.0
+  },
+  {
+   "p": "A",
+   "ini": 2.58,
+   "fim": 2.74,
+   "prob": 0.99
+  },
+  {
+   "p": "nossa",
+   "ini": 2.74,
+   "fim": 2.96,
+   "prob": 1.0
+  },
+  {
+   "p": "localização",
+   "ini": 2.96,
+   "fim": 3.54,
+   "prob": 1.0
+  },
+  {
+   "p": "é",
+   "ini": 3.54,
+   "fim": 3.86,
+   "prob": 1.0
+  },
+  {
+   "p": "bem",
+   "ini": 3.86,
+   "fim": 4.1,
+   "prob": 1.0
+  },
+  {
+   "p": "facinho,",
+   "ini": 4.1,
+   "fim": 4.68,
+   "prob": 0.88
+  },
+  {
+   "p": "fica",
+   "ini": 4.78,
+   "fim": 5.18,
+   "prob": 0.99
+  },
+  {
+   "p": "na",
+   "ini": 5.18,
+   "fim": 5.36,
+   "prob": 1.0
+  },
+  {
+   "p": "rua",
+   "ini": 5.36,
+   "fim": 5.54,
+   "prob": 0.55
+  },
+  {
+   "p": "Costa",
+   "ini": 5.54,
+   "fim": 5.88,
+   "prob": 0.99
+  },
+  {
+   "p": "Rego,",
+   "ini": 5.88,
+   "fim": 6.34,
+   "prob": 0.95
+  },
+  {
+   "p": "número",
+   "ini": 6.36,
+   "fim": 6.74,
+   "prob": 0.98
+  },
+  {
+   "p": "278,",
+   "ini": 6.74,
+   "fim": 7.68,
+   "prob": 1.0
+  },
+  {
+   "p": "no",
+   "ini": 7.78,
+   "fim": 8.26,
+   "prob": 1.0
+  },
+  {
+   "p": "centro",
+   "ini": 8.26,
+   "fim": 8.68,
+   "prob": 0.99
+  },
+  {
+   "p": "de",
+   "ini": 8.68,
+   "fim": 8.88,
+   "prob": 0.83
+  },
+  {
+   "p": "União",
+   "ini": 8.88,
+   "fim": 9.06,
+   "prob": 1.0
+  },
+  {
+   "p": "dos",
+   "ini": 9.06,
+   "fim": 9.18,
+   "prob": 1.0
+  },
+  {
+   "p": "Palmares,",
+   "ini": 9.18,
+   "fim": 9.52,
+   "prob": 1.0
+  },
+  {
+   "p": "aqui",
+   "ini": 9.76,
+   "fim": 10.14,
+   "prob": 1.0
+  },
+  {
+   "p": "na",
+   "ini": 10.14,
+   "fim": 10.3,
+   "prob": 1.0
+  },
+  {
+   "p": "famosa",
+   "ini": 10.3,
+   "fim": 10.66,
+   "prob": 1.0
+  },
+  {
+   "p": "Praça",
+   "ini": 10.66,
+   "fim": 11.02,
+   "prob": 1.0
+  },
+  {
+   "p": "do",
+   "ini": 11.02,
+   "fim": 11.12,
+   "prob": 0.99
+  },
+  {
+   "p": "Rocha.",
+   "ini": 11.12,
+   "fim": 11.42,
+   "prob": 0.99
+  },
+  {
+   "p": "Esse",
+   "ini": 37.44,
+   "fim": 38.04,
+   "prob": 0.81
+  },
+  {
+   "p": "espaço",
+   "ini": 38.04,
+   "fim": 38.44,
+   "prob": 1.0
+  },
+  {
+   "p": "foi",
+   "ini": 38.44,
+   "fim": 38.76,
+   "prob": 0.99
+  },
+  {
+   "p": "projetado",
+   "ini": 38.76,
+   "fim": 39.34,
+   "prob": 1.0
+  },
+  {
+   "p": "com",
+   "ini": 39.34,
+   "fim": 39.5,
+   "prob": 0.99
+  },
+  {
+   "p": "todo",
+   "ini": 39.5,
+   "fim": 39.82,
+   "prob": 1.0
+  },
+  {
+   "p": "amor",
+   "ini": 39.82,
+   "fim": 40.12,
+   "prob": 0.86
+  },
+  {
+   "p": "e",
+   "ini": 40.12,
+   "fim": 40.32,
+   "prob": 1.0
+  },
+  {
+   "p": "carinho,",
+   "ini": 40.32,
+   "fim": 40.7,
+   "prob": 1.0
+  },
+  {
+   "p": "pensando",
+   "ini": 40.72,
+   "fim": 41.02,
+   "prob": 1.0
+  },
+  {
+   "p": "no",
+   "ini": 41.02,
+   "fim": 41.28,
+   "prob": 1.0
+  },
+  {
+   "p": "seu",
+   "ini": 41.28,
+   "fim": 41.54,
+   "prob": 1.0
+  },
+  {
+   "p": "conforto.",
+   "ini": 41.54,
+   "fim": 42.26,
+   "prob": 1.0
+  },
+  {
+   "p": "Vai",
+   "ini": 57.9,
+   "fim": 58.5,
+   "prob": 0.94
+  },
+  {
+   "p": "ser",
+   "ini": 58.5,
+   "fim": 58.64,
+   "prob": 1.0
+  },
+  {
+   "p": "um",
+   "ini": 58.64,
+   "fim": 58.76,
+   "prob": 1.0
+  },
+  {
+   "p": "prazer",
+   "ini": 58.76,
+   "fim": 59.06,
+   "prob": 1.0
+  },
+  {
+   "p": "imenso.",
+   "ini": 59.06,
+   "fim": 59.62,
+   "prob": 1.0
+  },
+  {
+   "p": "E",
+   "ini": 60.0,
+   "fim": 60.08,
+   "prob": 0.16
+  },
+  {
+   "p": "receber",
+   "ini": 60.08,
+   "fim": 60.34,
+   "prob": 0.96
+  },
+  {
+   "p": "aqui.",
+   "ini": 60.34,
+   "fim": 60.62,
+   "prob": 1.0
+  },
+  {
+   "p": "Clique",
+   "ini": 60.94,
+   "fim": 61.44,
+   "prob": 0.7
+  },
+  {
+   "p": "no",
+   "ini": 61.44,
+   "fim": 61.54,
+   "prob": 1.0
+  },
+  {
+   "p": "link",
+   "ini": 61.54,
+   "fim": 61.76,
+   "prob": 1.0
+  },
+  {
+   "p": "da",
+   "ini": 61.76,
+   "fim": 61.96,
+   "prob": 1.0
+  },
+  {
+   "p": "bio",
+   "ini": 61.96,
+   "fim": 62.22,
+   "prob": 0.6
+  },
+  {
+   "p": "e",
+   "ini": 62.22,
+   "fim": 62.54,
+   "prob": 0.71
+  },
+  {
+   "p": "agenda",
+   "ini": 62.54,
+   "fim": 62.8,
+   "prob": 0.95
+  },
+  {
+   "p": "teu",
+   "ini": 62.8,
+   "fim": 63.04,
+   "prob": 0.84
+  },
+  {
+   "p": "horário.",
+   "ini": 63.04,
+   "fim": 63.36,
+   "prob": 1.0
+  }
+ ]
+}

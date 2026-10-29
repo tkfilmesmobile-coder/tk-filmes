@@ -1,0 +1,35 @@
+{
+ "texto": "é imenso te receber aqui.",
+ "palavras": [
+  {
+   "p": "é",
+   "ini": 0.0,
+   "fim": 0.1,
+   "prob": 0.28
+  },
+  {
+   "p": "imenso",
+   "ini": 0.1,
+   "fim": 0.68,
+   "prob": 0.99
+  },
+  {
+   "p": "te",
+   "ini": 0.68,
+   "fim": 1.0,
+   "prob": 0.96
+  },
+  {
+   "p": "receber",
+   "ini": 1.0,
+   "fim": 1.34,
+   "prob": 1.0
+  },
+  {
+   "p": "aqui.",
+   "ini": 1.34,
+   "fim": 1.6,
+   "prob": 1.0
+  }
+ ]
+}
