@@ -65,7 +65,7 @@ o token da TK foi invalidado e só posta com token novo. Site em `tk-filmes/site
 - Decidir conectores: Notion e conferir se o conector do Google Drive da conta é o da TK (em 2026-09-29 ele não enxergou o Drive da TK; pasta compartilhada por link funciona pelo navegador). (2026-09-17)
 - Mapear as artes e peças visuais dos clientes (posts, stories, capas, peças de evento): ficou de fora do `/mapear`. (2026-09-17)
 - **Site tkfilme.com.br:** pronto localmente (`tk-filmes/site/`), não está no ar. Falta preencher o "Quem dirige", o vídeo de boas-vindas da abertura e publicar no Cloudflare. (2026-10-28)
-- **TK:** gerar token novo do Instagram (o atual deu erro 190 em 27/10) pra postar o V10; aprovar o "Um dia na TK". (2026-10-29)
+- **TK:** gerar token novo do Instagram (o atual deu erro 190 em 27/10 e de novo em 29/10) pra postar os dois reels aprovados: o V10 da eleição e o "Um dia na TK". (2026-10-29)
 
 ## Quente agora
 - Ter 20/10 e 27/10 ao meio-dia: carrosséis da Ary (valores e agenda). Ter 27/10: stories de AGENDA da Ary pelo celular.
