@@ -16,12 +16,29 @@
   centralizado, sombra leve do rosto do antes sobre o cabelo do depois; v1 em `_ARQUIVO`). Antes = cabelo preso,
   depois = cabelo solto. As fotos chegaram já recortadas. Feito no PC sem Python/Node: `edicao/scripts/post3-antes-depois.ps1`.
 
+- 30-10-2026 · Antes e depois de perfil (4ª edição), 1080x1350, frente a frente no padrão do slide de perfis do carrossel
+  (antes à esquerda, depois espelhado à direita), sem marcação → Drive `POSTS/POST 4/antes e depois.png`.
+  Ordem confirmada pela Talyta. Script: `edicao/scripts/post4-perfis.ps1`.
+- 30-10-2026 · Mesma paciente, deitada → Drive `POSTS/POST 5/antes e depois.png`. Antes embaixo, depois em cima espelhado,
+  as duas deitadas e encostadas de lado a lado (formato escolhido pela Talyta depois de frente a frente, empilhado e
+  diagonal recusados).
+- 30-10-2026 · Rapaz de perfil (touca) → Drive `POSTS/POST 6/antes e depois.png`, no modelo da referência que a Talyta
+  mandou (post da @dra.mariialuiza): os dois olhando pro mesmo lado, antes atrás e mais baixo, depois na frente e mais
+  alto com sombra leve. Mandíbulas inteiras ("a mandíbula faz parte do resultado"). Centralizado pelos rostos, não
+  pela touca: a ponta de trás da touca do depois passa da borda (escolha da Talyta, em vez de rostos menores).
+  A versão frente a frente foi pro `_ARQUIVO`. Scripts: `edicao/scripts/post5-post6.ps1`.
+
 ## Edições do pacote (4 contratadas)
 Registrar aqui, no preenchimento semanal do `/contratos`, cada edição entregue.
 - Em 2026-10-21: 2 aprovadas, o carrossel (2026-10-17) e o reel "autocuidado" (2026-10-21). Se o carrossel conta como edição do pacote: [a confirmar].
 - Em 2026-10-24: 3ª edição entregue (antes e depois de frente), esperando aprovação.
+- Em 30-10-2026: 4ª edição entregue (antes e depois de perfil). Com o carrossel contando, o pacote de 4 fecha aqui.
+- Em 30-10-2026: entregues também o POST 5 (deitada) e o POST 6 (rapaz). Passam das 4 do pacote: [a confirmar com a
+  Talyta se é novo pacote ou cortesia].
 
-## Em aberto (2026-10-24)
+## Em aberto (30-10-2026)
+- Aprovação dos POSTs 3 a 6.
+- POSTs 5 e 6 passam das 4 do pacote: pacote novo ou cortesia?
 - Ela insere os textos do carrossel; o "RASCUNHO" sai do nome da pasta quando o texto estiver fechado.
 - O vídeo segue? Ela trocou pelo carrossel; a v6 fica no Drive até ela dizer.
 - `IMG_6842` (perfil de camiseta preta) não foi usado: veio sem recorte.

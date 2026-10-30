@@ -8,8 +8,8 @@ processamento): o arquivo está pronto, falta nova data. Faltam 6 vídeos de out
 eleições segue agendado (posts 1 a 14). No Galeguinho, posts e stories de outubro agendados ao meio-dia e capas de destaque
 no Drive dele esperando a troca pelo app. Cliente nova Ary Magalhães (@cabelosmagalhaes): posts de imagem de outubro e
 novembro prontos e agendados, stories do Dia das Crianças publicados em 12/10; faltam os roteiros dos reels (`clientes/ary-magalhaes/`).
-Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): 2 edições aprovadas, o carrossel de antes e depois (2026-10-17) e o reel "autocuidado" (2026-10-21, Drive `POSTS/POST 2`); o carrossel foi aprovado
-e está no Drive dela (`POSTS/POST 1/carrossel-antes-depois-RASCUNHO`); o vídeo v6 ficou como rascunho (`clientes/melissa-morais/`).
+Dra. Melissa Morais (harmonização facial, só edição, 4 por R$ 200): carrossel (POST 1) e reel "autocuidado" (POST 2) aprovados; em 24/10 e 30/10
+saíram os antes e depois dos POSTs 3 a 6 no Drive dela (`POSTS/POST N/antes e depois.png`), esperando aprovação (`clientes/melissa-morais/`).
 Dra. Annalibya (dentista, Plano Essencial R$ 400/mês, `clientes/annalibya-duarte/`): 1ª diária em 28/10 e os 2 primeiros vídeos
 (apresentação e consultório) entregues em 29/10 no Drive, com nome "Dra. Anna Líbya", CRO-AL 3773 e @draannalibyaduarte; contrato esperando assinatura. O contrato do Galeguinho foi renovado (19/11/2026 a 17/02/2027), e o documento de renovação espera assinatura.
 Em 2026-10-22 o carrossel "o caso da Mari" da Dra. Camilla não saiu pela tarefa das 12h e foi publicado à mão às 14h, do
@@ -33,12 +33,14 @@ fecha 5 de 5. Vlog de Natal EP. 03 começado (`clientes/tamara-chagas/reels/2026
 do PC do escritório. Regras novas na ficha dela: curadoria de toda fala (feed e stories) e variar fotos e quem fala nos stories.
 
 ## Pendências
+- **URGENTE · vírus no computador principal (kumyt):** o Defender bloqueia todo dia um trojan que tenta desligar o antivírus; há programas estranhos na inicialização desde 21/10 (detalhes no diário de 2026-10-30). Fazer a verificação offline do Defender ou chamar técnico; até lá, não copiar e colar Pix nem senha neste PC. Depois, trocar as senhas (Google, Instagram/Facebook, GitHub, banco) pelo celular e refazer os tokens do `.env` e o login do GitHub. (2026-10-30)
+- **Bastidor TK:** aprovar os 4 vídeos e as páginas 2 e 3 dos carrosséis na raiz do Drive (as capas foram aprovadas em 30/10) e pedir autorização por escrito da Start Fitness e da Dra. Anna Líbya antes de postar; falta o @ da Start. (2026-10-30)
 - **Dra. Camilla:** decidir se apaga o Reels v1 da Mari (21/10) e o carrossel de 22/10 (slide 3 chama a foto pós aparelho de "ANTES"); data do post 4; autorização de imagem da Mari e da paciente do Periodontite. Detalhes em `clientes/camilla-wanderley/andamento.md`. (2026-10-26)
 - **Start Fitness:** confirmar a fala de 24 s da chamada ("joga o kit"?); valor, contato, cidade, @ e logo. (2026-10-28)
 - **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entregue no Drive `Marielly Makeup/Dia de princesa (trend Rapunzel).mp4`. (2026-10-27)
 - **Dra. Annalibya:** assinar o contrato; confirmar o telefone de contato ((82) 99151-6831 da bio ou 9444-7753) e se o CRO é do AL; email e objetivo; brand book; ouvir os sons refeitos nos vídeos v3. (2026-10-29)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
-- **Dra. Melissa Morais:** aprovar o antes e depois de frente (3ª edição, Drive `POSTS/POST 3`, 2026-10-24); ela insere os textos do carrossel; confirmar se o carrossel conta como 1 das 4 edições; faltam contato, cidade e @. (2026-10-24)
+- **Dra. Melissa Morais:** aprovar os POSTs 3 a 6 (antes e depois no Drive); os POSTs 5 e 6 passam das 4 edições do pacote: decidir se é pacote novo ou cortesia; ela insere os textos do carrossel; faltam contato, cidade e @. (30-10-2026)
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)
 - Ary: preço da sobrancelha e dos kits de tratamento; prints reais de depoimentos (post 10/11); oferta de Black Friday (24/11); se o salão abre em 20/11. (2026-10-12)
 - Ary: postar pelo celular os stories de União (13/10) e AGENDA (27/10), com localização e link do WhatsApp (Drive `POSTS/2026-10/STORIES`). (2026-10-12)

@@ -116,6 +116,110 @@ public static class Ferr
         SalvaPng(bmp, saida);
     }
 
+    // Cena livre 1080x1350: camadas desenhadas na ordem. Cada camada: { s, x, y, espelha, someDe, someAte }:
+    // escala; canto esquerdo-superior da foto (se espelha=1, x é a borda direita); a foto some do opaco (someDe)
+    // ao transparente (someAte) de cima pra baixo (0, 0 = não some). Depois o pé no preto e a logo.
+    public static void Cena(string[] fotos, double[] c, string logo, double peDe, double peAte, string saida)
+    {
+        CenaSombra(fotos, c, 0, 0, logo, peDe, peAte, saida);
+    }
+
+    // Igual à Cena, com sombra leve (opacidade `sombra`, direção em graus: 0 = direita, 180 = esquerda)
+    // saindo da última camada sobre as de trás.
+    public static void CenaSombra(string[] fotos, double[] c, double sombra, double direcao, string logo,
+                                  double peDe, double peAte, string saida)
+    {
+        const int SW = 1080, SH = 1350;
+        var rtb = new RenderTargetBitmap(SW, SH, 96, 96, PixelFormats.Pbgra32);
+        var fundo = new DrawingVisual();
+        using (var f = fundo.RenderOpen()) f.DrawRectangle(Brushes.Black, null, new Rect(0, 0, SW, SH));
+        rtb.Render(fundo);
+        for (int i = 0; i < fotos.Length; i++)
+        {
+            var dv = new DrawingVisual();
+            RenderOptions.SetBitmapScalingMode(dv, BitmapScalingMode.HighQuality);
+            if (sombra > 0 && i == fotos.Length - 1)
+                dv.Effect = new System.Windows.Media.Effects.DropShadowEffect
+                { Color = Colors.Black, Direction = direcao, ShadowDepth = 8, BlurRadius = 38, Opacity = sombra, RenderingBias = System.Windows.Media.Effects.RenderingBias.Quality };
+            using (var dc = dv.RenderOpen())
+            {
+                var img = Abre(fotos[i]);
+                double s = c[i * 6], x = c[i * 6 + 1], y = c[i * 6 + 2];
+                // espelha: 0 = como veio; 1 = espelhada na horizontal (x é a borda direita);
+                // 2 = girada 180° (x, y são a borda direita e a de baixo)
+                int esp = (int)Math.Round(c[i * 6 + 3]);
+                double de = c[i * 6 + 4], ate = c[i * 6 + 5];
+                // de < ate: some de cima pra baixo; de > ate: some de baixo pra cima (transparente em ate, opaca em de)
+                bool some = Math.Abs(ate - de) > 0.5;
+                if (some)
+                {
+                    var m = new LinearGradientBrush { MappingMode = BrushMappingMode.Absolute, StartPoint = P(0, de), EndPoint = P(0, ate) };
+                    m.GradientStops.Add(new GradientStop(Colors.Black, 0));
+                    m.GradientStops.Add(new GradientStop(Color.FromArgb(0, 0, 0, 0), 1));
+                    dc.PushOpacityMask(m);
+                }
+                var mt = esp == 2 ? new MatrixTransform(-s, 0, 0, -s, x, y)
+                       : new MatrixTransform(esp == 1 ? -s : s, 0, 0, s, x, y);
+                dc.PushTransform(mt);
+                dc.DrawImage(img, new Rect(0, 0, img.PixelWidth, img.PixelHeight));
+                dc.Pop();
+                if (some) dc.Pop();
+            }
+            rtb.Render(dv);
+        }
+        var topo = new DrawingVisual();
+        using (var dc = topo.RenderOpen())
+        {
+            if (peAte > peDe)
+            {
+                var pe = new LinearGradientBrush { MappingMode = BrushMappingMode.Absolute, StartPoint = P(0, peDe), EndPoint = P(0, peAte) };
+                pe.GradientStops.Add(new GradientStop(Color.FromArgb(0, 0, 0, 0), 0));
+                pe.GradientStops.Add(new GradientStop(Color.FromArgb(255, 0, 0, 0), 1));
+                dc.DrawRectangle(pe, null, new Rect(0, peDe, SW, peAte - peDe));
+                dc.DrawRectangle(Brushes.Black, null, new Rect(0, peAte, SW, SH - peAte));
+            }
+            var Lg = Abre(logo);
+            double lw = 170;
+            dc.DrawImage(Lg, new Rect(40, 38, lw, lw * Lg.PixelHeight / Lg.PixelWidth));
+        }
+        rtb.Render(topo);
+        SalvaPng(rtb, saida);
+    }
+
+    // Perfis frente a frente (padrão do slide de perfis do carrossel): a foto da esquerda como veio, olhando
+    // pra direita; a da direita espelhada, olhando pra esquerda. Mesmo tamanho: distância olho-queixo = L.
+    // Cada foto: { olhoX, olhoY, queixoX, queixoY, narizX } em px da foto. Posição: ponta do nariz em x, olho em y.
+    public static void Perfis(string esq, double[] e, string dir, double[] d, string logo, double L,
+                              double narizEsq, double narizDir, double yOlho, double peDe, double peAte, string saida)
+    {
+        const int SW = 1080, SH = 1350;
+        var A = Abre(esq); var B = Abre(dir); var Lg = Abre(logo);
+        var dv = new DrawingVisual();
+        RenderOptions.SetBitmapScalingMode(dv, BitmapScalingMode.HighQuality);
+        using (var dc = dv.RenderOpen())
+        {
+            dc.DrawRectangle(Brushes.Black, null, new Rect(0, 0, SW, SH));
+            double sa = L / Math.Sqrt(Math.Pow(e[2] - e[0], 2) + Math.Pow(e[3] - e[1], 2));
+            dc.PushTransform(new MatrixTransform(sa, 0, 0, sa, narizEsq - e[4] * sa, yOlho - e[1] * sa));
+            dc.DrawImage(A, new Rect(0, 0, A.PixelWidth, A.PixelHeight));
+            dc.Pop();
+            double sb = L / Math.Sqrt(Math.Pow(d[2] - d[0], 2) + Math.Pow(d[3] - d[1], 2));
+            dc.PushTransform(new MatrixTransform(-sb, 0, 0, sb, narizDir + d[4] * sb, yOlho - d[1] * sb));
+            dc.DrawImage(B, new Rect(0, 0, B.PixelWidth, B.PixelHeight));
+            dc.Pop();
+            var pe = new LinearGradientBrush { MappingMode = BrushMappingMode.Absolute, StartPoint = P(0, peDe), EndPoint = P(0, peAte) };
+            pe.GradientStops.Add(new GradientStop(Color.FromArgb(0, 0, 0, 0), 0));
+            pe.GradientStops.Add(new GradientStop(Color.FromArgb(255, 0, 0, 0), 1));
+            dc.DrawRectangle(pe, null, new Rect(0, peDe, SW, peAte - peDe));
+            dc.DrawRectangle(Brushes.Black, null, new Rect(0, peAte, SW, SH - peAte));
+            double lw = 170;
+            dc.DrawImage(Lg, new Rect(40, 38, lw, lw * Lg.PixelHeight / Lg.PixelWidth));
+        }
+        var rtb = new RenderTargetBitmap(SW, SH, 96, 96, PixelFormats.Pbgra32);
+        rtb.Render(dv);
+        SalvaPng(rtb, saida);
+    }
+
     // Slide 1080x1350 no padrão do principal aprovado do carrossel: fundo preto, antes à esquerda e
     // depois à direita, alinhados pelos olhos e no mesmo tamanho (distância entre os olhos = D),
     // pé das fotos sumindo no preto, logo no canto. Sem marcação.
