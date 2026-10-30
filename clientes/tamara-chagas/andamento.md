@@ -48,7 +48,8 @@
   rural" (13h30) estavam no PC do escritório, desligado: não saíram.
   A Talyta apagou o bom dia da Rita e a localização do Salles (erros de gravação). Curadoria refeita: Rita v2
   (5,25–8,38 s, sem o fim da tentativa anterior) repostada; a localização do Salles não tem trecho limpo sem emenda
-  (regra mais extensa em `_regras.md` e na ficha). Hoje ficou sem story de localização.
+  (regra mais extensa em `_regras.md` e na ficha). No lugar dela, a pedido da Talyta, saiu a localização do rapaz
+  de preto gravada dentro do escritório (0670, 9,35–14,8 s, trecho contínuo).
 
 ## Em aberto
 - **Autorização de imagem do ajudante** que aparece no Vlog de Natal EP. 03 (já publicado em 29/10). (2026-10-29)

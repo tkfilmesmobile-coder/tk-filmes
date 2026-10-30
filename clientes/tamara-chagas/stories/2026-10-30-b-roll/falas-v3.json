@@ -1,0 +1,10 @@
+[
+ {"id": "05-localizacao-v2", "bruto": "FALA_preto_dentro_atendimento-online-localizacao_01.MOV", "kicker": "ONDE ESTAMOS",
+  "trechos": [[9.35, 14.8]],
+  "linhas": [
+   [["Para", 9.52], ["quem", 9.66], ["não", 9.84], ["sabe,", 10.0]],
+   [["a", 10.18], ["nossa", 10.32], ["localização:", 10.5]],
+   [["nós", 11.6], ["ficamos", 11.8], ["localizados", 11.98], ["aqui", 12.6]],
+   [["no", 13.22], ["Centro", 13.4], ["de", 13.74], ["União", 13.82], ["dos", 13.98], ["Palmares.", 14.14]]
+  ]}
+]

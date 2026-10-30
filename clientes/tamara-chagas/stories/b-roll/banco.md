@@ -11,6 +11,7 @@ A coluna "usado" serve pra escolher o que está há mais tempo sem sair.
 | quem | arquivo | trecho bom | fala exata | usado |
 |---|---|---|---|---|
 | preto | FALA_preto_dentro_..._01 (0670) | 0–9,3 s | "Bom dia, passando para avisar que já iniciamos nossos atendimentos aqui no escritório. Só lembrando que nossos atendimentos são presenciais e também online." | 21/10, 22/10, 29/10 |
+| preto | FALA_preto_dentro_..._01 (0670) · **localização** | **9,35–14,8 s** (silêncio antes e depois, sem emenda; fundo de porta, sem documento; conferido com o `medium`) | "Para quem não sabe, a nossa localização: nós ficamos localizados aqui no Centro de União dos Palmares." | 30/10 |
 | preto | FALA_preto_fachada_horario_02 (0674) | 4,3–7,6 s (o começo, 0–4 s, tem "Bom dia, passando para informar que o nosso atendimento aqui no escritório já é iniciado") | "Horário de funcionamento, de 8h da manhã a 1h da tarde." | 22/10, 27/10, 29/10 (inteiro) |
 | preto | FALA_preto_fachada-rua_localizacao_03 (0675) | 0–5,5 s + 7,55–10,77 s (sem o nome da rua; termina mostrando a rua) | "E para quem não sabe, nossa localização, ficamos localizados aqui no Centro de União dos Palmares, número 268, próximo ao Aquarius." | 22/10 (rua), 27/10, 29/10 |
 | preto | FALA_preto_presencial-e-online_04 (0676) | 0–4,8 s | "Só lembrando que nossos atendimentos são presenciais, mas também temos atendimentos online." | 28/10, 29/10 |
