@@ -41,11 +41,17 @@
   do notebook no Drive): 4 capítulos, Papai Noel enchendo em 4x, destaques "1,80 m" e "segunda-feira, tudo pronto",
   cartão "continua no EP. 04". Curadoria: fora as tentativas da abertura, a conversa solta, "aí você tá sangrando" e
   "é o que pega do…"; a mesa com papel e telas foi coberta com o IMG_0708. Autorização de imagem do ajudante: pendente.
+- 2026-10-30 · Stories do dia (`stories/2026-10-30-b-roll/`) feitos e publicados das 11h12 às 11h18 do PC kumyt (7 de 7) (a tarefa das 8h não
+  tinha lote): Rita no bom dia, rapaz de branco no horário e na localização, foto da recepção, "pedidos ao INSS são
+  gratuitos", chamada da carta negada das 16h e "bom fim de semana". O vídeo da carta negada tinha ido pra lixeira junto com
+  os outros vídeos do PC (noite de 29/10) e foi restaurado; a tarefa das 16h segue ligada. Feira EP3 (11h) e "Trabalhador
+  rural" (13h30) estavam no PC do escritório, desligado: não saíram.
 
 ## Em aberto
 - **Autorização de imagem do ajudante** que aparece no Vlog de Natal EP. 03 (já publicado em 29/10). (2026-10-29)
-- **Meta da semana (26 a 30/10): 3 de 5 Reels** (pensão, cirurgia, carta negada). Episódio 3 da feira e
-  "Trabalhador rural" dependem de arquivos que só existem no PC do escritório, que a Talyta não vai ligar. (2026-10-27)
+- **Meta da semana (26 a 30/10): 4 de 5 Reels** (pensão 26/10, cirurgia 28/10, Vlog de Natal EP. 03 29/10, carta negada
+  30/10 às 16h). Episódio 3 da feira e "Trabalhador rural" dependem de arquivos que só existem no PC do escritório. (2026-10-30)
+- **Seg 02/11 é Finados:** decidir se sai lote de stories (a tarefa das 8h deste PC roda segunda e não há lote). (2026-10-30)
 - **Stories diários:** tarefa das 8h ligada no PC kumyt (27/10). O lote de cada dia precisa ser produzido na véspera; o de 28/10 está pronto. (2026-10-27)
 - Confirmar o nome da rua e da clínica em frente (as falas de localização saem sem o nome da rua até lá). (2026-10-27)
 - Se o PC do escritório for religado: antes, desativar lá as tarefas da pensão (26/10), carta negada (23/10),

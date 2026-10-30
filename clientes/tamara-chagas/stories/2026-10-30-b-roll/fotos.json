@@ -1,0 +1,13 @@
+[
+ {"id": "02-sexta", "foto": "b-roll/equipe-06-recepcao-rapaz-a.jpg", "kicker": "SEXTA-FEIRA", "pos": "baixo", "posicao": "40% 50%",
+  "texto": "Último dia útil da semana,<br>e a recepção <b>segue de portas abertas</b>."},
+ {"id": "04-gratuito", "foto": "senhora-oculos-azul-roberto-huczek-unsplash.jpg", "kicker": "VOCÊ SABIA?", "pos": "baixo", "tam": 58,
+  "texto": "Os pedidos ao INSS <b>são gratuitos</b>.",
+  "sub": "Dá pra pedir pelo <b>Meu INSS</b> (site e aplicativo) ou pela Central <b>135</b>. Desconfie de quem cobra pra \"agilizar\" no INSS.",
+  "fonte": "INSS · gov.br/inss"},
+ {"id": "06-hoje-16h", "foto": "tamara/tamara-estudio-0110.jpg", "kicker": "HOJE, 16H, NO FEED", "pos": "baixo", "posicao": "50% 30%", "tam": 58,
+  "texto": "Carta negada do INSS: <b>quando vale entrar na Justiça?</b>",
+  "sub": "Vídeo novo da Dra. Tamara."},
+ {"id": "07-bom-fim-de-semana", "foto": "b-roll/estrutura-01-vaso.jpg", "kicker": "ATÉ SEGUNDA", "pos": "baixo",
+  "texto": "Bom fim de semana.<br><b>Segunda, às 8h, estamos de volta.</b>"}
+]

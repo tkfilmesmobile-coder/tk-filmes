@@ -1,0 +1,21 @@
+[
+ {"id": "01-bom-dia", "bruto": "FALA_moca_mesa_bom-dia-incompleto_07.MOV", "kicker": "BOM DIA",
+  "trechos": [[4.45, 8.18]],
+  "linhas": [
+   [["Bom", 4.72], ["dia!", 5.42]],
+   [["Já", 6.32], ["iniciamos", 6.5], ["o", 7.02], ["nosso", 7.1], ["atendimento.", 7.32]]
+  ]},
+ {"id": "03-horario", "bruto": "FALA_branco_entrada_horario_05.MOV", "kicker": "HORÁRIO DE ATENDIMENTO",
+  "trechos": [[2.62, 6.97]],
+  "linhas": [
+   [["Nosso", 2.74], ["atendimento", 2.88], ["já", 3.42], ["começou", 3.66]],
+   [["aqui", 4.08], ["no", 4.3], ["escritório,", 4.4]],
+   [["de", 5.2], ["8h", 5.36], ["da", 5.7], ["manhã", 5.75], ["até", 6.12], ["1h", 6.34], ["da", 6.58], ["tarde.", 6.64]]
+  ]},
+ {"id": "05-localizacao", "bruto": "FALA_branco_entrada_horario-localizacao-whatsapp_06.MOV", "kicker": "ONDE ESTAMOS",
+  "trechos": [[7.0, 8.41], [11.7, 13.92]],
+  "linhas": [
+   [["A", 7.1], ["nossa", 7.2], ["localização:", 7.4]],
+   [["número", 11.92], ["268,", 12.35], ["Centro.", 13.48]]
+  ]}
+]

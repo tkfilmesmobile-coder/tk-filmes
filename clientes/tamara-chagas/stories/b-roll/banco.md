@@ -10,13 +10,16 @@ A coluna "usado" serve pra escolher o que está há mais tempo sem sair.
 ## Falas (pasta 04) · trechos já conferidos (só a fala aprovada; tempos do bruto)
 | quem | arquivo | trecho bom | fala exata | usado |
 |---|---|---|---|---|
-| preto | FALA_preto_dentro_..._01 (0670) | 0–9,3 s | "Bom dia, passando para avisar que já iniciamos nossos atendimentos aqui no escritório. Só lembrando que nossos atendimentos são presenciais e também online." | 21/10, 22/10 |
-| preto | FALA_preto_fachada_horario_02 (0674) | 4,3–7,6 s | "Horário de funcionamento, de 8h da manhã a 1h da tarde." | 22/10, 27/10 |
-| preto | FALA_preto_fachada-rua_localizacao_03 (0675) | 0–5,5 s + 7,55–10,77 s (sem o nome da rua; termina mostrando a rua) | "E para quem não sabe, nossa localização, ficamos localizados aqui no Centro de União dos Palmares, número 268, próximo ao Aquarius." | 22/10 (rua), 27/10 |
-| preto | FALA_preto_presencial-e-online_04 (0676) | 0–4,8 s | "Só lembrando que nossos atendimentos são presenciais, mas também temos atendimentos online." | 28/10 |
-| branco | FALA_branco_entrada_horario_05 (0677) | 1,8–6,97 s | "Bom dia, nosso atendimento já começou aqui no escritório, de 8h da manhã até 1h da tarde." | 28/10 |
-| branco | FALA_branco_..._whatsapp_06 (0678) | 7,0–8,41 s + 11,7–13,92 s (sem rua e clínica) | "A nossa localização: número 268, Centro." | 28/10 |
-| Rita | FALA_moca_mesa_..._07 (0686) | 4,45–8,18 s (antes é tentativa errada; depois, frase incompleta) | "Bom dia! Já iniciamos o nosso atendimento." | 27/10 |
+| preto | FALA_preto_dentro_..._01 (0670) | 0–9,3 s | "Bom dia, passando para avisar que já iniciamos nossos atendimentos aqui no escritório. Só lembrando que nossos atendimentos são presenciais e também online." | 21/10, 22/10, 29/10 |
+| preto | FALA_preto_fachada_horario_02 (0674) | 4,3–7,6 s (o começo, 0–4 s, tem "Bom dia, passando para informar que o nosso atendimento aqui no escritório já é iniciado") | "Horário de funcionamento, de 8h da manhã a 1h da tarde." | 22/10, 27/10, 29/10 (inteiro) |
+| preto | FALA_preto_fachada-rua_localizacao_03 (0675) | 0–5,5 s + 7,55–10,77 s (sem o nome da rua; termina mostrando a rua) | "E para quem não sabe, nossa localização, ficamos localizados aqui no Centro de União dos Palmares, número 268, próximo ao Aquarius." | 22/10 (rua), 27/10, 29/10 |
+| preto | FALA_preto_presencial-e-online_04 (0676) | 0–4,8 s | "Só lembrando que nossos atendimentos são presenciais, mas também temos atendimentos online." | 28/10, 29/10 |
+| branco | FALA_branco_entrada_horario_05 (0677) | 1,8–6,97 s (sem o "bom dia": 2,62–6,97 s) | "Bom dia, nosso atendimento já começou aqui no escritório, de 8h da manhã até 1h da tarde." | 28/10, 30/10 (sem o bom dia) |
+| branco | FALA_branco_..._whatsapp_06 (0678) | 7,0–8,41 s + 11,7–13,92 s (sem rua e clínica) | "A nossa localização: número 268, Centro." | 28/10, 30/10 |
+| Rita | FALA_moca_mesa_..._07 (0686) | 4,45–8,18 s (antes é tentativa errada; depois, frase incompleta) | "Bom dia! Já iniciamos o nosso atendimento." | 27/10, 30/10 |
+
+**Falta fala nova (30/10):** com as 7 falas que existem, horário e localização já se repetem a cada 2 dias. Vale gravar
+mais (Rita com horário e localização, e qualquer um com "online/WhatsApp" bem dito).
 
 O 0678 também tem horário (0–6,7 s) e online/WhatsApp (15,96–25,1 s), mas a fala sai embolada no reconhecedor
 ("nós enchamos", "atendimento lá"): ouvir antes de usar.
@@ -34,7 +37,7 @@ O 0678 também tem horário (0–6,7 s) e online/WhatsApp (15,96–25,1 s), mas 
 ## Fotos (`marca/fotos/b-roll/`)
 | foto | origem | usado |
 |---|---|---|
-| estrutura-01-vaso | 06 | 21/10, 23/10 |
+| estrutura-01-vaso | 06 | 21/10, 23/10, 30/10 |
 | estrutura-02-prateleira | 06 | 21, 22 e 27/10 |
 | estrutura-03-teclado | 06 (0665) | 22/10, 27/10 |
 | equipe-01-mesas | 06 | 21/10 (telas ao fundo: cuidado) |
@@ -42,7 +45,7 @@ O 0678 também tem horário (0–6,7 s) e online/WhatsApp (15,96–25,1 s), mas 
 | equipe-03-dupla | 06 (0662) | 22/10, 27/10 |
 | equipe-04-dupla-papeis-a (IMG_0495) | 06, 27/10 | não |
 | equipe-05-dupla-papeis-b (IMG_0497) | 06, 27/10 | 28/10 |
-| equipe-06-recepcao-rapaz-a (IMG_0498) | 06, 27/10 | não |
+| equipe-06-recepcao-rapaz-a (IMG_0498) | 06, 27/10 | 30/10 |
 | equipe-07-recepcao-rapaz-b (IMG_0499) | 06, 27/10 | não |
 | equipe-08-recepcao-logo (quadro do IMG_0494) | 02, 27/10 | 28/10 |
 
