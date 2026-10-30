@@ -75,7 +75,14 @@ No fim, dizer à Talyta, cliente por cliente, o que mudou e o que ficou `[a defi
   com a fala aprovada: nenhuma tentativa, nenhum erro, nenhum pedaço da tentativa anterior, nenhuma orientação de
   quem está gravando e nenhuma frase incompleta. A legenda repete exatamente o que a pessoa falou (conferir com a
   retranscrição, nunca escrever de memória). Motivo: em 27/10 o story da Rita subiu com o fim de uma tentativa
-  errada e a legenda dizia "os nossos atendimentos" quando ela falou "o nosso atendimento". Aplicada em (2026-10-24):
+  errada e a legenda dizia "os nossos atendimentos" quando ela falou "o nosso atendimento". **Mais extensa em
+  2026-10-30 (Talyta apagou 2 stories com erro de gravação):** (9) nunca confiar em trecho anotado antes: medir de
+  novo o volume em fatias de 50 ms e só cortar onde há silêncio de verdade (volume no nível do fundo), com a tentativa
+  anterior já terminada; (10) quadros a cada 0,1 s nos dois pontos de corte (a pessoa já está na tentativa boa: postura,
+  câmera e olhar); (11) **sem emenda dentro da frase**: só trecho contínuo; se o único jeito de tirar algo (nome não
+  confirmado, hesitação) é emendar, a fala não sai, e se pede pra regravar; (12) confirmar a fala com o whisper
+  `medium` na gravação inteira (o `small` erra tempos, e no trecho curto qualquer modelo inventa palavra).
+  Aplicada em (2026-10-24):
   Ary (`clientes/ary-magalhaes/edicao/perfil-de-edicao.md`, `curadoria.py`, `broll-catalogo.md`); Tamara (2026-10-27,
   `clientes/tamara-chagas/AGENTS.md`); Start Fitness (2026-10-28, `edicao/2026-10-corrida-2a-edicao/curadoria.py`); Camilla, Galeguinho, Melissa, Annalibya, Pote Fitness: **pendente** (levar pro
   perfil de edição de cada um).

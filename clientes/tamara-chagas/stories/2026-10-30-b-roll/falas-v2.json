@@ -1,0 +1,8 @@
+[
+ {"id": "01-bom-dia-v2", "bruto": "FALA_moca_mesa_bom-dia-incompleto_07.MOV", "kicker": "BOM DIA",
+  "trechos": [[5.25, 8.38]],
+  "linhas": [
+   [["Bom", 5.3], ["dia!", 5.5]],
+   [["Já", 6.32], ["iniciamos", 6.5], ["o", 7.02], ["nosso", 7.1], ["atendimento.", 7.32]]
+  ]}
+]

@@ -46,6 +46,9 @@
   gratuitos", chamada da carta negada das 16h e "bom fim de semana". O vídeo da carta negada tinha ido pra lixeira junto com
   os outros vídeos do PC (noite de 29/10) e foi restaurado; a tarefa das 16h segue ligada. Feira EP3 (11h) e "Trabalhador
   rural" (13h30) estavam no PC do escritório, desligado: não saíram.
+  A Talyta apagou o bom dia da Rita e a localização do Salles (erros de gravação). Curadoria refeita: Rita v2
+  (5,25–8,38 s, sem o fim da tentativa anterior) repostada; a localização do Salles não tem trecho limpo sem emenda
+  (regra mais extensa em `_regras.md` e na ficha). Hoje ficou sem story de localização.
 
 ## Em aberto
 - **Autorização de imagem do ajudante** que aparece no Vlog de Natal EP. 03 (já publicado em 29/10). (2026-10-29)
@@ -54,6 +57,8 @@
 - **Seg 02/11 é Finados:** decidir se sai lote de stories (a tarefa das 8h deste PC roda segunda e não há lote). (2026-10-30)
 - **Stories diários:** tarefa das 8h ligada no PC kumyt (27/10). O lote de cada dia precisa ser produzido na véspera; o de 28/10 está pronto. (2026-10-27)
 - Confirmar o nome da rua e da clínica em frente (as falas de localização saem sem o nome da rua até lá). (2026-10-27)
+  Sem isso, nenhuma localização falada sai limpa: a do Salles é emenda e a do rapaz de preto já saiu em 29/10.
+  Melhor regravar: Rita e Salles dizendo a localização numa frase só, sem pausa. (2026-10-30)
 - Se o PC do escritório for religado: antes, desativar lá as tarefas da pensão (26/10), carta negada (23/10),
   cirurgia (29/10) e stories das 8h, que agora rodam no PC kumyt. (2026-10-27)
 - Lote de stories de sex 23/10 (`stories/2026-10-23-b-roll/`) não saiu (a data passou); as fotos e falas dele podem

@@ -35,7 +35,12 @@ Stories diários com b-roll (regra da Talyta, 21/10/2026):
   grava ou frase incompleta. Antes de publicar: tempo de cada palavra com o whisper (faster-whisper, modelo small,
   no processador), corte no silêncio antes da 1ª palavra aprovada e depois da última, legenda palavra a palavra com o
   texto exato da fala, e quadros do início, meio e fim conferidos. Os vídeos do `04_EQUIPE-FALANDO` quase sempre têm
-  2 tentativas no mesmo arquivo (ex.: `FALA_moca_mesa` da Rita: só vale de 4,45 a 8,18 s).
+  2 tentativas no mesmo arquivo (ex.: `FALA_moca_mesa` da Rita: só vale de 5,25 a 8,38 s; o 4,45 anotado antes
+  pegava o fim da tentativa anterior e a Rita ainda sentada).
+  **Mais extensa (Talyta, 30/10/2026, depois de apagar 2 stories):** medir o volume em fatias de 50 ms e cortar só
+  no silêncio de verdade; quadros a cada 0,1 s nos pontos de corte; **nada de emenda dentro da frase** (a localização
+  "A nossa localização… | número 268, Centro" do Salles era emenda e saiu com cara de erro); conferir com o whisper
+  `medium` na gravação inteira. Fala que só fica limpa com emenda não sai: pedir regravação.
 - **Variar os stories** (regra da Talyta, 27/10/2026): o lote do dia não repete foto do dia anterior, e quem fala
   de bom dia, horário, online e localização muda de um dia pro outro (rapaz de branco, rapaz de preto, Rita). Antes
   de montar, olhar o `stories/b-roll/banco.md` (trechos já conferidos e o que foi usado quando) e o material novo do

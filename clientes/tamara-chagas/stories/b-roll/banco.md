@@ -15,8 +15,8 @@ A coluna "usado" serve pra escolher o que está há mais tempo sem sair.
 | preto | FALA_preto_fachada-rua_localizacao_03 (0675) | 0–5,5 s + 7,55–10,77 s (sem o nome da rua; termina mostrando a rua) | "E para quem não sabe, nossa localização, ficamos localizados aqui no Centro de União dos Palmares, número 268, próximo ao Aquarius." | 22/10 (rua), 27/10, 29/10 |
 | preto | FALA_preto_presencial-e-online_04 (0676) | 0–4,8 s | "Só lembrando que nossos atendimentos são presenciais, mas também temos atendimentos online." | 28/10, 29/10 |
 | branco | FALA_branco_entrada_horario_05 (0677) | 1,8–6,97 s (sem o "bom dia": 2,62–6,97 s) | "Bom dia, nosso atendimento já começou aqui no escritório, de 8h da manhã até 1h da tarde." | 28/10, 30/10 (sem o bom dia) |
-| branco | FALA_branco_..._whatsapp_06 (0678) | 7,0–8,41 s + 11,7–13,92 s (sem rua e clínica) | "A nossa localização: número 268, Centro." | 28/10, 30/10 |
-| Rita | FALA_moca_mesa_..._07 (0686) | 4,45–8,18 s (antes é tentativa errada; depois, frase incompleta) | "Bom dia! Já iniciamos o nosso atendimento." | 27/10, 30/10 |
+| branco (Salles) | FALA_branco_..._whatsapp_06 (0678) | **NÃO USAR a localização** (30/10: a Talyta apagou). Só sai sem a rua emendando 7,0–8,41 + 11,7–13,92 s, e a emenda fica com cara de erro; a frase inteira (7,05–15,5 s) tem "é…" arrastado e o nome da rua e da clínica não confirmados | "A nossa localização é aqui na Rua Dr. Antônio A…, número 268, Centro, de frente à Clínica …" | 28/10, 30/10 (apagado) |
+| Rita | FALA_moca_mesa_..._07 (0686) | **5,25–8,38 s** (até 5,2 s ela está sentada e o som é o fim da tentativa anterior; "lembrando" começa em 8,72) | "Bom dia! Já iniciamos o nosso atendimento." | 27/10, 30/10 (v1 apagado; v2 com 5,25–8,38 no ar) |
 
 **Falta fala nova (30/10):** com as 7 falas que existem, horário e localização já se repetem a cada 2 dias. Vale gravar
 mais (Rita com horário e localização, e qualquer um com "online/WhatsApp" bem dito).
