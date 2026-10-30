@@ -27,6 +27,11 @@
   alto com sombra leve. Mandíbulas inteiras ("a mandíbula faz parte do resultado"). Centralizado pelos rostos, não
   pela touca: a ponta de trás da touca do depois passa da borda (escolha da Talyta, em vez de rostos menores).
   A versão frente a frente foi pro `_ARQUIVO`. Scripts: `edicao/scripts/post5-post6.ps1`.
+  Ajuste pedido pela Dra. Melissa (30-10-2026): linhas brancas finas no nariz e na mandíbula (curvas no antes, retas no
+  depois) e pele suavizada de leve, igual nos dois (a Talyta escolheu, depois do aviso sobre retoque em antes e depois).
+  A versão sem linhas foi pro `_ARQUIVO/POST 6 sem linhas.png`.
+- 30-10-2026 · Prévias feitas e não subidas (esperando a Talyta dizer onde vão): rapaz frente a frente com as duas
+  mandíbulas inteiras e a moça em pé no modelo "um atrás do outro".
 
 ## Edições do pacote (4 contratadas)
 Registrar aqui, no preenchimento semanal do `/contratos`, cada edição entregue.
