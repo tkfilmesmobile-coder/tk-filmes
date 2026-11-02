@@ -82,6 +82,15 @@ No fim, dizer à Talyta, cliente por cliente, o que mudou e o que ficou `[a defi
   câmera e olhar); (11) **sem emenda dentro da frase**: só trecho contínuo; se o único jeito de tirar algo (nome não
   confirmado, hesitação) é emendar, a fala não sai, e se pede pra regravar; (12) confirmar a fala com o whisper
   `medium` na gravação inteira (o `small` erra tempos, e no trecho curto qualquer modelo inventa palavra).
+  **Aprofundada em 2026-11-01 (Talyta, no feed da Start Fitness: "você corta antes mesmo de finalizar a frase"):**
+  (13) início e fim de cada fala vêm do **desenho do som** (espectrograma e detector de voz), nunca do tempo de palavra
+  da transcrição, que marca o fim 0,3–0,8 s cedo; quando a pessoa emenda sem pausa, o corte cai na fronteira entre as
+  palavras vista no espectrograma; (14) a conferência ouve **cada emenda no vídeo pronto**, com a janela terminando
+  exatamente no corte (a transcrição completa palavra comida pelo sentido, então conferir com ela só o texto inteiro
+  não basta); (15) a fala vai até o **fim do pensamento** (não parar no "parabéns" se continua "cadê as palmas..."),
+  mesmo que o vídeo fique mais longo; (16) efeito sonoro nunca em cima da última palavra de uma frase (nem com cauda
+  longa, tipo relógio ou riser) e a trilha fica baixa durante o trecho falado inteiro, do corte ao corte.
+  Ferramentas: `clientes/start-fitness/edicao/2026-11-corrida-feed/espectro.py`, `voz.py` e `fins.py`.
   Aplicada em (2026-10-24):
   Ary (`clientes/ary-magalhaes/edicao/perfil-de-edicao.md`, `curadoria.py`, `broll-catalogo.md`); Tamara (2026-10-27,
   `clientes/tamara-chagas/AGENTS.md`); Start Fitness (2026-10-28, `edicao/2026-10-corrida-2a-edicao/curadoria.py`); Camilla, Galeguinho, Melissa, Annalibya, Pote Fitness: **pendente** (levar pro

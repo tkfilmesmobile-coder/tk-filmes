@@ -22,7 +22,9 @@ Divulgar a corrida (inscrições e retirada do kit). Objetivo geral do perfil: [
 ## Serviço contratado
 - **Avulso: edição de 2 vídeos** (Talyta, 2026-10-28). Sem calendário, roteiro, artes nem gestão de perfil.
 - Vídeo 1: chamada da 2ª corrida (bruto no Drive em 28/10, já cortado e com color grade).
-- Vídeo 2: [a definir].
+- Vídeo 2: entrevista "expectativas pra 2ª Corrida" (bruto no Drive em 28/10; corte e curadoria feitos pela TK).
+- **Cobertura da 2ª Corrida (1º/11/2026):** stories feitos pela Talyta + 1 vídeo de feed editado pela TK a partir
+  das captações do dia (Talyta, 2026-11-01). Valor: [a definir].
 - **Valor, forma de pagamento, prazo e revisões:** [a definir]. Referência: edição avulsa a R$ 50/vídeo
   (Dra. Melissa, `propostas/precos.md`).
 

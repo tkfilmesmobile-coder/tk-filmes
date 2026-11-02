@@ -25,6 +25,7 @@ Em 2026-10-27: reel "Meu dia de princesa" (trend da Rapunzel) da Marielly Makeup
 dela, magia com brilhos na revelação, áudio da trend) está em `clientes/marielly-makeup/edicao/2026-10-trend-rapunzel/out/` esperando aprovação da Talyta.
 Em 2026-10-28 entrou a Start Fitness (academia, edição avulsa de 2 vídeos, `clientes/start-fitness/`): os dois foram aprovados
 e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada da 2ª Corrida (1º/11) e a entrevista de expectativas.
+Em 1º/11 a cobertura da corrida (stories pela Talyta, vídeo do feed pela TK): o feed foi aprovado em 2/11 na v3 (`Start Fitnes/POSTS/2026-11`).
 TK (2026-10-29): reels "Um dia na TK" (só b-roll) e o V10 da eleição estão na raiz do Drive com as legendas; o V10 foi aprovado, mas
 o token da TK foi invalidado e só posta com token novo. Site em `tk-filmes/site/` todo em marrom, com a Talyta na abertura (`tk-filmes/andamento.md`).
 Tamara (2026-10-29): o PC do escritório voltou em 29/10 e postou 8 stories do dia. Sex 30/10 saem 3 Reels: feira EP. 3 às 11h e
@@ -77,7 +78,6 @@ do PC do escritório. Regras novas na ficha dela: curadoria de toda fala (feed e
 - **TK:** gerar token novo do Instagram (o atual deu erro 190 em 27/10 e de novo em 29/10) pra postar os dois reels aprovados: o V10 da eleição e o "Um dia na TK". (2026-10-29)
 
 ## Quente agora
-- Sex 30/10, 16h: Reels "Carta negada" da Tamara (PC kumyt ligado).
 - Stories da Tamara montados na véspera de cada dia útil.
 - Contratos pra assinar: Dra. Annalibya e a renovação do Galeguinho.
 
