@@ -3,3 +3,6 @@ analise/*.jpg
 analise/*.png
 analise/*.wav
 bruto/
+analise/folhas/
+analise/trechos/
+analise/wav16k/
