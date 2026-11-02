@@ -60,8 +60,16 @@
   de lazer"). A chegada começa no "É o primeiro a chegar" (antes havia uma voz baixa de outra pessoa). Trilha baixa
   durante o trecho falado inteiro; nenhum efeito em cima de fim de frase. −13,4 LUFS, pico −1,1 dBFS.
 
+- **2026-11-02 · Feed v3** (Talyta: abertura mais longa até o 621 apontar pro céu; pôr a banheira de gelo, as frutas
+  e o açaí; não gostou da cartela "VALEU, GALERA!"). Mesmo Drive, `… (v3).mp4` (132,5 s). Abertura vai até 11,4 s
+  do IMG_0871, título sai antes do gesto. Entraram: frutas (0852, "a estrutura... está top. E aqui nós temos um
+  coffee break de frutas", com a mesa de frutas), banheira (0926, "Tem também a banheira de gelo" + o diálogo com o
+  menino), açaí (0885, a fala inteira). Cartela nova: "2ª CORRIDA / START FITNESS / 1º DE NOVEMBRO · 2026 /
+  obrigado!" (manuscrita). Sem headline na resposta final do menino (não dá pra garantir se é "um esforcinho").
+  Tirado o som de relógio do "NERVOSO" (embolava o "largada"). Emendas conferidas no som; −13,2 LUFS, pico −1,3 dBFS.
+
 ## Em aberto
-- **Feed da corrida:** aprovação da v2 (a v1 continua no Drive até aprovar; depois vai pro `_ARQUIVO`). O nome "Adriano Barbosa" entra na tela como o locutor anunciou (confirmar grafia).
+- **Feed da corrida:** aprovação da v3 (v1 e v2 continuam no Drive até aprovar; depois vão pro `_ARQUIVO`). O nome "Adriano Barbosa" entra na tela como o locutor anunciou (confirmar grafia).
 - **Confirmar a fala de 24,4 s** do vídeo 1 ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].
 - Brand book: perguntar se se aplica (serviço só de edição).

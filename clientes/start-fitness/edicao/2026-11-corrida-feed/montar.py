@@ -34,10 +34,14 @@ GRADE = "lutyuv=y='clip((val-128)*1.05+128,16,235)',hue=s=1.08"  # leve: as capt
 # (espectro.py, imagens em analise/espectro/), não do tempo de palavra da transcrição, que marca o fim 0,3–0,8 s
 # cedo. Cada fala termina na frase completa; onde a pessoa emenda sem pausa, o corte cai na fronteira entre as palavras.
 TRECHOS = [
-    dict(id="abre", txt="", dur=1.25, img=[("v", "IMG_0871", 8.6, None)]),
+    # v3 (Talyta, 2026-11-02): abertura mais longa, até ele apontar pro céu (o gesto começa em 9,75 s e segue)
+    dict(id="abre", txt="", dur=2.8, img=[("v", "IMG_0871", 8.6, None)]),
     # o "-ness" vai até 6,63 s; o clipe acaba em 6,72
     dict(id="gancho", txt="Uma corrida, muita energia e superação. Acompanha com a gente a segunda edição da corrida Start Fitness.",
          som=("IMG_0844", 0.00, 6.68), img=[("v", "IMG_0844", 0.0, 0.95), ("v", "IMG_0856", 0.4, 1.6), ("v", "IMG_0844", 2.55, None)]),
+    # v3: frutas (pedido da Talyta). O "-tas" de "frutas" acaba em 5,92; silêncio até 6,3 ("Sandra, fala...")
+    dict(id="frutas", txt="Gente, a estrutura, assim como ano passado, está top. E aqui nós temos um coffee break de frutas.",
+         som=("IMG_0852", 0.00, 6.05), img=[("v", "IMG_0852", 0.0, 3.1), ("v", "IMG_0853", 0.5, 1.5), ("v", "IMG_0848", 3.0, None)]),
     dict(id="ponte", txt="", dur=3.2, img=[("v", "IMG_0836", 1.4, 1.0), ("v", "IMG_0855", 6.0, 1.2), ("v", "IMG_0857", 1.0, None)]),
     # "A princípio" começa em 15,05; o "s" final de "erros" acaba em 23,99 ("Enfim" só em 24,53)
     dict(id="organizacao", txt="A princípio, quando eu vi a corrida pela primeira vez, foi a organização. Muito bem organizado, o percurso muito bem definido, sem erros.",
@@ -65,6 +69,17 @@ TRECHOS = [
     # a última sílaba de "fisioterapia" vai até 7,8
     dict(id="cuidar", txt="E a Corrida Start Fitness vocês sabem que sabe cuidar da galera. Tem essa estação aqui que é de fisioterapia.",
          som=("IMG_0926", 0.15, 7.84), img=[("v", "IMG_0926", 0.15, 4.75), ("v", "IMG_0925", 0.5, None)]),
+    # v3: banheira de gelo (pedido da Talyta). "Tem também a banheira de gelo" (16,09–18,18): o "-da" de "corrida" se
+    # arrasta até 15,9 e o "Tem" (nasal, baixo) começa em 16,1; termina antes do "Vem pra cá"
+    # e o diálogo com o menino na banheira (33,15–40,55): a pergunta, o "Muito", a 2ª pergunta e o "Um esforcinho"
+    dict(id="banheira", txt="Tem também a banheira de gelo.",
+         som=("IMG_0926", 16.09, 18.18), img=[("v", "IMG_0926", 16.09, 0.6), ("v", "IMG_0926", 26.2, None)]),
+    dict(id="banheira2", txt="E aí, a banheira, tá gelada mesmo? Muito. É de boa ou tem que fazer um esforço pra tá aí? Um esforcinho.",
+         som=("IMG_0926", 33.15, 40.55), img=[("v", "IMG_0926", 33.15, None)]),
+    # v3: açaí (pedido da Talyta). A fala dele não tem pausa antes do "E aqui": entra desde o começo do clipe;
+    # sai no vale de 11,85, antes do "Aí a galera vai chegando"
+    dict(id="acai", txt="Pessoal, a coisa tá acontecendo e eu vim mostrar a vocês o açaí. E aqui não é só açaí puro não, é açaí com todos os acompanhamentos, com fruta e tudo que é possível, cobertura também.",
+         som=("IMG_0885", 0.00, 11.85), img=[("v", "IMG_0885", 0.0, 8.3), ("v", "IMG_0927", 14.0, 1.6), ("v", "IMG_0885", 9.9, None)]),
     # a resposta inteira, desde "Assim, o diferencial é..." (25,82); o "não" final vai até 38,2 ("Peguei" em 38,4)
     dict(id="catiana", txt="Assim, o diferencial é porque de fato representa, foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
          som=("IMG_0929", 25.75, 38.30), img=[("v", "IMG_0929", 25.75, 5.7), ("v", "IMG_0885", 14.0, 1.1), ("v", "IMG_0888", 1.0, 1.1), ("v", "IMG_0929", 33.65, None)]),

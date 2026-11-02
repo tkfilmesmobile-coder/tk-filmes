@@ -111,34 +111,34 @@ const Contagem: React.FC = () => {
   );
 };
 
-// ---------- cartela final ----------
+// ---------- cartela final (v3: a Talyta não gostou do selo "VALEU, GALERA!") ----------
+// fecha repetindo o título da abertura, e o agradecimento vem na manuscrita com brilho (a mesma do "mãe atleta")
 const Cartela: React.FC = () => {
   const s = useCurrentFrame() / FPS;
   const k = s * FPS;
-  const sc = interpolate(k, [0, 2, 3, 4, 6], [3.2, 1, 0.94, 1.03, 1], clamp);
-  const anel = interpolate(k, [2, 10], [0, 1], clamp);
-  const pTag = interpolate(s, [0.35, 0.55], [0, 1], { ...clamp, easing: REVELA });
-  const pData = interpolate(s, [0.55, 0.75], [0, 1], { ...clamp, easing: REVELA });
+  const sc = interpolate(k, [0, 1, 2, 3, 4, 6], [2.3, 1.45, 1, 0.95, 1.02, 1], clamp);
+  const desfoque = interpolate(k, [0, 2], [16, 0], clamp);
+  const pFaixa = interpolate(s, [0.3, 0.45], [0, 1], { ...clamp, easing: REVELA });
+  const pTag = interpolate(s, [0.5, 0.65], [0, 1], { ...clamp, easing: REVELA });
+  const pEscrita = interpolate(s, [0.75, 1.35], [0, 1], { ...clamp, easing: SUAVE });
+  const onda = interpolate(k, [1, 10], [0, 1], clamp);
   return (
     <AbsoluteFill>
-      <AbsoluteFill style={{ background: "rgba(8,8,9,0.62)", opacity: interpolate(k, [0, 3], [0, 1], clamp) }} />
-      <div style={{ position: "absolute", left: 0, width: 990, top: 600, display: "flex", flexDirection: "column", alignItems: "center", gap: 34 }}>
-        <div style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}>
-          <div style={{ position: "absolute", width: 900 * anel, height: 900 * anel, borderRadius: "50%", border: `${14 * (1 - anel)}px solid rgba(255,255,255,${0.7 * (1 - anel)})` }} />
-          <div style={{
-            border: `12px solid ${COR.branco}`, background: COR.vermelho, padding: "16px 50px 10px", textAlign: "center",
-            transform: `rotate(${-8 + (1 - Math.min(1, k / 2)) * 10}deg) scale(${sc})`, boxShadow: "14px 14px 0 #000, 0 30px 60px rgba(0,0,0,0.5)",
-            filter: k < 2 ? `blur(${(2 - k) * 6}px)` : undefined,
-          }}>
-            <div style={{ fontFamily: BARLOW, fontWeight: 700, fontStyle: "italic", fontSize: 62, letterSpacing: "0.14em", color: COR.branco, lineHeight: 1 }}>VALEU,</div>
-            <div style={{ fontFamily: ANTON, fontSize: 190, color: COR.branco, lineHeight: 0.92, textShadow: "6px 6px 0 #5A0508" }}>GALERA!</div>
-          </div>
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(8,8,9,0.55) 0%, rgba(8,8,9,0.78) 55%, rgba(8,8,9,0.9) 100%)", opacity: interpolate(k, [0, 3], [0, 1], clamp) }} />
+      <div style={{ position: "absolute", left: 0, width: 990, top: 560, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+        <div style={{ position: "relative", transform: `skewX(${INCLINA}deg) scale(${sc})`, filter: desfoque ? `blur(${desfoque}px)` : undefined }}>
+          {onda < 1 ? <div style={{ position: "absolute", inset: 0, fontFamily: ANTON, fontSize: 230, lineHeight: 0.95, color: "transparent", WebkitTextStroke: `4px rgba(255,255,255,${0.8 * (1 - onda)})`, transform: `scale(${1 + onda * 0.4})`, whiteSpace: "nowrap" }}>2ª CORRIDA</div> : null}
+          <div style={{ fontFamily: ANTON, fontSize: 230, lineHeight: 0.95, color: COR.branco, textShadow: extrusao(230), whiteSpace: "nowrap" }}>2ª CORRIDA</div>
         </div>
-        <div style={{ clipPath: `inset(0 ${(1 - pTag) * 100}% 0 0)`, marginTop: 40 }}>
-          <div style={{ fontFamily: BARLOW, fontWeight: 700, fontStyle: "italic", fontSize: 54, letterSpacing: "0.08em", color: COR.branco, background: "rgba(8,8,9,0.9)", padding: "8px 26px 4px", transform: `skewX(${INCLINA}deg)`, boxShadow: "6px 6px 0 rgba(0,0,0,0.55)" }}>2ª CORRIDA START FITNESS</div>
+        <div style={{ position: "relative", padding: "14px 34px 8px", transform: `skewX(${INCLINA}deg)` }}>
+          <div style={{ position: "absolute", inset: 0, background: COR.vermelho, transform: `scaleX(${pFaixa})`, transformOrigin: "left", boxShadow: "12px 12px 0 #000" }} />
+          <div style={{ position: "relative", fontFamily: ANTON, fontSize: 120, lineHeight: 1, color: COR.branco, textShadow: "4px 4px 0 #5A0508", whiteSpace: "nowrap", clipPath: `inset(0 ${(1 - pFaixa) * 100}% 0 0)` }}>START FITNESS</div>
         </div>
-        <div style={{ clipPath: `inset(0 ${(1 - pData) * 100}% 0 0)` }}>
-          <div style={{ fontFamily: ANTON, fontSize: 110, lineHeight: 1, color: COR.branco, background: COR.vermelho, padding: "12px 30px 6px", transform: `skewX(${INCLINA}deg)`, boxShadow: "10px 10px 0 #000", textShadow: "4px 4px 0 #5A0508" }}>1º DE NOVEMBRO</div>
+        <div style={{ clipPath: `inset(0 ${(1 - pTag) * 100}% 0 0)`, marginTop: 10 }}>
+          <div style={{ fontFamily: BARLOW, fontWeight: 700, fontStyle: "italic", fontSize: 50, letterSpacing: "0.1em", color: COR.branco, background: "rgba(8,8,9,0.9)", padding: "8px 26px 4px", transform: `skewX(${INCLINA}deg)`, boxShadow: "6px 6px 0 rgba(0,0,0,0.55)" }}>1º DE NOVEMBRO · 2026</div>
+        </div>
+        <div style={{ clipPath: `inset(-40% ${(1 - pEscrita) * 100}% -40% -10%)`, transform: "rotate(-4deg)", marginTop: 30 }}>
+          <div style={{ fontFamily: MANUSCRITA, fontSize: 170, lineHeight: 1.15, color: COR.branco, whiteSpace: "nowrap", textShadow: "0 0 12px rgba(255,255,255,0.95), 0 0 32px rgba(255,255,255,0.55), 0 8px 22px rgba(0,0,0,0.7)" }}>obrigado!</div>
         </div>
       </div>
     </AbsoluteFill>

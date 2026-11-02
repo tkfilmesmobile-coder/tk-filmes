@@ -37,6 +37,8 @@ const C0 = T("contagem").de - 5.85;
 export const CONTAGEM = { numeros: [["5", 6.2], ["4", 7.6], ["3", 9.15], ["2", 10.65]].map(([n, t]) => ({ n: n as string, em: C0 + (t as number) })), largou: C0 + 11.8 };
 // o 621 cai de joelhos na chegada (IMG_0871, 8,1 s)
 export const JOELHOS = T("chegada").de + (8.1 - T("chegada").som![1]);
+// na abertura (IMG_0871 a partir de 8,6 s), ele levanta o braço e aponta pro céu em 9,75 s
+export const CEU = T("abre").de + (9.75 - 8.6);
 
 export type BlocoF = {
   id: string; de: number; ate: number; x: number; y: number; larg?: number;
@@ -47,7 +49,8 @@ export type BlocoF = {
 
 export const BLOCOS: BlocoF[] = [
   // abertura: o 621 de joelhos na chegada (flash-forward) + título no céu
-  { id: "titulo", de: 0.0, ate: T("abre").ate - 0.03, x: 495, y: 300, livre: true, linhas: [
+  // v3: o título fica só enquanto ele olha pra baixo e sai antes de ele apontar pro céu (o gesto fica limpo)
+  { id: "titulo", de: 0.0, ate: CEU - 0.05, x: 495, y: 300, livre: true, linhas: [
     { t: "1º DE NOVEMBRO · 2026", em: 0.02, estilo: "tag", max: 46 },
     { t: "2ª CORRIDA", em: 0.1, estilo: "mega", max: 230 },
     { t: "START FITNESS", em: 0.42, estilo: "faixa", max: 120 },
@@ -61,6 +64,15 @@ export const BLOCOS: BlocoF[] = [
     { t: "ACOMPANHA COM A GENTE A", em: w("gancho", 2.78), estilo: "tag", max: 44 },
     { t: "2ª EDIÇÃO", em: w("gancho", 4.04), estilo: "mega", max: 260 },
     { t: "CORRIDA START FITNESS", em: w("gancho", 4.82), estilo: "faixa", max: 96 },
+  ] },
+  // v3: frutas (coffee break antes da prova)
+  { id: "estrutura", de: T("frutas").de + 0.03, ate: img("frutas", 1) - 0.03, x: 495, y: 1120, linhas: [
+    { t: "A ESTRUTURA, ASSIM COMO ANO PASSADO,", em: T("frutas").de + 0.05, estilo: "tag", max: 38 },
+    { t: "ESTÁ TOP!", em: w("frutas", 2.0), estilo: "mega", max: 260 },
+  ] },
+  { id: "coffee", de: img("frutas", 1) + 0.03, ate: fim("frutas"), x: 495, y: 1250, livre: true, linhas: [
+    { t: "COFFEE BREAK DE", em: w("frutas", 4.28), estilo: "tag", max: 60 },
+    { t: "FRUTAS", em: w("frutas", 5.16), estilo: "vermelho", max: 280 },
   ] },
   { id: "aquecimento", de: img("ponte", 1) + 0.03, ate: fim("ponte"), x: 495, y: 1400, livre: true, linhas: [
     { t: "AQUECIMENTO", em: img("ponte", 1) + 0.05, estilo: "tagVermelho", max: 64 },
@@ -122,6 +134,33 @@ export const BLOCOS: BlocoF[] = [
   { id: "fisio", de: img("cuidar", 1) + 0.03, ate: fim("cuidar"), x: 495, y: 1250, livre: true, linhas: [
     { t: "FISIOTERAPIA", em: w("cuidar", 6.84) + 0.15, estilo: "faixa", max: 130 },
   ] },
+  // v3: banheira de gelo (tempos do diálogo tirados da transcrição só do trecho, mais precisa que a do clipe inteiro)
+  { id: "banheira", de: T("banheira").de + 0.05, ate: fim("banheira"), x: 495, y: 1150, linhas: [
+    { t: "TEM TAMBÉM A", em: T("banheira").de + 0.05, estilo: "tag", max: 60 },
+    { t: "BANHEIRA", em: w("banheira", 16.98), estilo: "mega", max: 260 },
+    { t: "DE GELO", em: w("banheira", 17.38), estilo: "faixa", max: 150 },
+  ] },
+  { id: "gelada", de: w("banheira2", 33.95), ate: w("banheira2", 35.5), x: 495, y: 1150, linhas: [
+    { t: "TÁ GELADA MESMO?", em: w("banheira2", 34.05), estilo: "tagVermelho", max: 56 },
+  ] },
+  { id: "muito", de: w("banheira2", 35.55), ate: w("banheira2", 36.6), x: 495, y: 1150, linhas: [
+    { t: "MUITO!", em: w("banheira2", 35.59), estilo: "vermelho", max: 280 },
+  ] },
+  // (sem headline na resposta final do menino: o áudio não deixa claro se é "um esforcinho" ou "mas só assim, ó")
+  // v3: açaí
+  { id: "acai", de: T("acai").de + 0.05, ate: w("acai", 4.6), x: 495, y: 1150, linhas: [
+    { t: "EU VIM MOSTRAR O", em: w("acai", 2.4), estilo: "tag", max: 60 },
+    { t: "AÇAÍ", em: w("acai", 3.52), estilo: "vermelho", max: 300 },
+  ] },
+  { id: "acai-puro", de: w("acai", 4.7), ate: img("acai", 1) - 0.03, x: 495, y: 1150, linhas: [
+    { t: "NÃO É SÓ AÇAÍ PURO", em: w("acai", 4.8), estilo: "tag", max: 56 },
+    { t: "TODOS OS", em: w("acai", 7.04), estilo: "mega", max: 240 },
+    { t: "ACOMPANHAMENTOS", em: w("acai", 7.44), estilo: "faixa", max: 96 },
+  ] },
+  { id: "cobertura", de: img("acai", 1) + 0.03, ate: fim("acai"), x: 495, y: 1300, livre: true, linhas: [
+    { t: "COM FRUTA", em: w("acai", 8.86), estilo: "tag", max: 64 },
+    { t: "E COBERTURA", em: w("acai", 10.42), estilo: "faixa", max: 130 },
+  ] },
   // Catiana: a resposta inteira
   { id: "diferencial", de: T("catiana").de + 0.03, ate: img("catiana", 1) - 0.03, x: 495, y: 1180, linhas: [
     { t: "QUAL O DIFERENCIAL?", em: T("catiana").de + 0.03, estilo: "tagVermelho", max: 50 },
@@ -159,6 +198,7 @@ export const BLOCOS: BlocoF[] = [
 ];
 
 export const RAIOS: { em: number; dur: number; cy?: number }[] = [
+  { em: CEU, dur: 0.5, cy: 500 },
   { em: CONTAGEM.largou, dur: 0.45, cy: 900 },
   { em: JOELHOS, dur: 0.4, cy: 1100 },
 ];
@@ -169,6 +209,7 @@ export const IMPACTOS: { em: number; forca: number }[] = [
   { em: CONTAGEM.largou, forca: 1.7 },
   { em: JOELHOS, forca: 1.1 },
   { em: 0.02, forca: 1.2 },
+  { em: CEU, forca: 1.0 },
   { em: FIM.de + 0.05, forca: 1.0 },
 ];
 
@@ -178,6 +219,9 @@ export const SFX: { em: number; nome: string; vol?: number }[] = [
   { em: 0.02, nome: "boom", vol: 0.85 },
   { em: 0.1, nome: "tambor", vol: 0.6 },
   { em: 0.42, nome: "metal", vol: 0.45 },
+  // ele aponta pro céu
+  { em: CEU - 0.02, nome: "boom-leve", vol: 0.6 },
+  { em: CEU, nome: "brilho", vol: 0.45 },
   { em: T("gancho").de - 0.1, nome: "whoosh", vol: 0.45 },
   { em: w("gancho", 0.62), nome: "hit-leve", vol: 0.25 },
   { em: w("gancho", 1.72), nome: "caixa", vol: 0.25 },
@@ -188,9 +232,9 @@ export const SFX: { em: number; nome: string; vol?: number }[] = [
   { em: img("ponte", 2) - 0.03, nome: "swish", vol: 0.4 },
   { em: T("organizacao").de - 0.05, nome: "whoosh", vol: 0.35 },
   { em: w("organizacao", 17.84), nome: "hit", vol: 0.25 },
-  { em: w("nervoso", 67.54), nome: "relogio", vol: 0.28 },
+  // (sem relógio no "NERVOSO": o tique-taque seguia por baixo e embolava o "largada" na mistura; v3)
   // o riser sobe só depois do "largada" (antes ele cobria o fim da frase)
-  { em: T("alinhados").de - 0.1, nome: "riser", vol: 0.55 },
+  { em: T("alinhados").de + 0.02, nome: "riser", vol: 0.55 },
   { em: T("alinhados").de, nome: "boom-leve", vol: 0.45 },
   ...CONTAGEM.numeros.map((c) => ({ em: c.em, nome: "hit-leve", vol: 0.3 })),
   { em: CONTAGEM.largou, nome: "tiro", vol: 0.75 },
@@ -210,13 +254,22 @@ export const SFX: { em: number; nome: string; vol?: number }[] = [
   { em: w("dedica", 79.98) + 0.1, nome: "brilho", vol: 0.28 },
   { em: w("cuidar", 3.48), nome: "caixa", vol: 0.22 },
   { em: img("cuidar", 1), nome: "swish", vol: 0.28 },
+  // frutas, banheira, açaí: só nos cortes de imagem (nada em cima do fim das frases)
+  { em: T("frutas").de - 0.05, nome: "swish", vol: 0.28 },
+  { em: img("frutas", 1), nome: "pagina", vol: 0.3 },
+  { em: T("banheira").de - 0.05, nome: "whoosh", vol: 0.3 },
+  { em: img("banheira", 1), nome: "swish", vol: 0.28 },
+  { em: T("acai").de - 0.05, nome: "swish", vol: 0.28 },
+  { em: img("acai", 1), nome: "swish", vol: 0.25 },
   { em: img("catiana", 1), nome: "swish", vol: 0.28 },
   { em: img("catiana", 2), nome: "metal", vol: 0.25 },
   { em: w("catiana", 34.93), nome: "boom-leve", vol: 0.28 },
   { em: w("gratidao", 22.3), nome: "brilho", vol: 0.3 },
   { em: w("gratidao", 28.24), nome: "hit-leve", vol: 0.22 },
-  // cartela final (sem fala)
-  { em: FIM.de + 0.05, nome: "carimbo", vol: 0.9 },
-  { em: FIM.de + 0.1, nome: "boom", vol: 0.6 },
-  { em: FIM.de + 0.6, nome: "apito", vol: 0.45 },
+  // cartela final (sem fala): pancada no título, folha da faixa, brilho na manuscrita, apito de fim de prova
+  { em: FIM.de + 0.02, nome: "boom", vol: 0.7 },
+  { em: FIM.de + 0.05, nome: "tambor", vol: 0.55 },
+  { em: FIM.de + 0.3, nome: "swish", vol: 0.35 },
+  { em: FIM.de + 0.75, nome: "brilho", vol: 0.45 },
+  { em: FIM.de + 1.5, nome: "apito", vol: 0.4 },
 ];

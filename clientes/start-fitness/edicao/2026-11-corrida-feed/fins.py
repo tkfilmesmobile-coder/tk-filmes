@@ -43,4 +43,4 @@ for t in edl["trechos"]:
     print(f"   começo esperado: {' '.join(pal[:5])}")
     print(f"   começo ouvido:   {ouve(t['de'], min(t['ate'], t['de'] + 2.2))}")
     print(f"   fim esperado:    ...{' '.join(pal[-5:])}")
-    print(f"   fim ouvido:      ...{ouve(max(t['de'], t['ate'] - 2.4), t['ate'] + 0.6)}")
+    print(f"   fim ouvido:      ...{ouve(max(t['de'], t['ate'] - 2.4), t['ate'])}")

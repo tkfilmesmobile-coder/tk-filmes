@@ -1,15 +1,15 @@
 {
- "total": 100.96,
+ "total": 129.9,
  "trechos": [
   {
    "id": "abre",
    "de": 0.0,
-   "ate": 1.25,
+   "ate": 2.8,
    "txt": "",
    "imagens": [
     {
      "de": 0.0,
-     "ate": 1.25,
+     "ate": 2.8,
      "fonte": "IMG_0871",
      "tipo": "v"
     }
@@ -18,25 +18,25 @@
   },
   {
    "id": "gancho",
-   "de": 1.25,
-   "ate": 7.93,
+   "de": 2.8,
+   "ate": 9.48,
    "txt": "Uma corrida, muita energia e superação. Acompanha com a gente a segunda edição da corrida Start Fitness.",
    "imagens": [
     {
-     "de": 1.25,
-     "ate": 2.2,
+     "de": 2.8,
+     "ate": 3.75,
      "fonte": "IMG_0844",
      "tipo": "v"
     },
     {
-     "de": 2.2,
-     "ate": 3.8,
+     "de": 3.75,
+     "ate": 5.35,
      "fonte": "IMG_0856",
      "tipo": "v"
     },
     {
-     "de": 3.8,
-     "ate": 7.93,
+     "de": 5.35,
+     "ate": 9.48,
      "fonte": "IMG_0844",
      "tipo": "v"
     }
@@ -48,26 +48,57 @@
    ]
   },
   {
+   "id": "frutas",
+   "de": 9.48,
+   "ate": 15.53,
+   "txt": "Gente, a estrutura, assim como ano passado, está top. E aqui nós temos um coffee break de frutas.",
+   "imagens": [
+    {
+     "de": 9.48,
+     "ate": 12.58,
+     "fonte": "IMG_0852",
+     "tipo": "v"
+    },
+    {
+     "de": 12.58,
+     "ate": 14.08,
+     "fonte": "IMG_0853",
+     "tipo": "v"
+    },
+    {
+     "de": 14.08,
+     "ate": 15.53,
+     "fonte": "IMG_0848",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0852",
+    0.0,
+    6.05
+   ]
+  },
+  {
    "id": "ponte",
-   "de": 7.93,
-   "ate": 11.13,
+   "de": 15.53,
+   "ate": 18.73,
    "txt": "",
    "imagens": [
     {
-     "de": 7.93,
-     "ate": 8.93,
+     "de": 15.53,
+     "ate": 16.53,
      "fonte": "IMG_0836",
      "tipo": "v"
     },
     {
-     "de": 8.93,
-     "ate": 10.13,
+     "de": 16.53,
+     "ate": 17.73,
      "fonte": "IMG_0855",
      "tipo": "v"
     },
     {
-     "de": 10.13,
-     "ate": 11.13,
+     "de": 17.73,
+     "ate": 18.73,
      "fonte": "IMG_0857",
      "tipo": "v"
     }
@@ -76,25 +107,25 @@
   },
   {
    "id": "organizacao",
-   "de": 11.13,
-   "ate": 20.26,
+   "de": 18.73,
+   "ate": 27.86,
    "txt": "A princípio, quando eu vi a corrida pela primeira vez, foi a organização. Muito bem organizado, o percurso muito bem definido, sem erros.",
    "imagens": [
     {
-     "de": 11.13,
-     "ate": 16.33,
+     "de": 18.73,
+     "ate": 23.93,
      "fonte": "IMG_0860",
      "tipo": "v"
     },
     {
-     "de": 16.33,
-     "ate": 18.33,
+     "de": 23.93,
+     "ate": 25.93,
      "fonte": "IMG_0905",
      "tipo": "f"
     },
     {
-     "de": 18.33,
-     "ate": 20.26,
+     "de": 25.93,
+     "ate": 27.86,
      "fonte": "IMG_0860",
      "tipo": "v"
     }
@@ -107,13 +138,13 @@
   },
   {
    "id": "nervoso",
-   "de": 20.26,
-   "ate": 25.14,
+   "de": 27.86,
+   "ate": 32.74,
    "txt": "Dormi sete horinhas ali, mas sempre bate aquele nervoso na hora da largada.",
    "imagens": [
     {
-     "de": 20.26,
-     "ate": 25.14,
+     "de": 27.86,
+     "ate": 32.74,
      "fonte": "IMG_0860",
      "tipo": "v"
     }
@@ -126,13 +157,13 @@
   },
   {
    "id": "alinhados",
-   "de": 25.14,
-   "ate": 26.14,
+   "de": 32.74,
+   "ate": 33.74,
    "txt": "",
    "imagens": [
     {
-     "de": 25.14,
-     "ate": 26.14,
+     "de": 32.74,
+     "ate": 33.74,
      "fonte": "IMG_0863",
      "tipo": "v"
     }
@@ -141,13 +172,13 @@
   },
   {
    "id": "contagem",
-   "de": 26.14,
-   "ate": 34.04,
+   "de": 33.74,
+   "ate": 41.64,
    "txt": "cinco, quatro, três, dois, largou!",
    "imagens": [
     {
-     "de": 26.14,
-     "ate": 34.04,
+     "de": 33.74,
+     "ate": 41.64,
      "fonte": "IMG_0867",
      "tipo": "v"
     }
@@ -160,61 +191,61 @@
   },
   {
    "id": "percurso",
-   "de": 34.04,
-   "ate": 38.6,
+   "de": 41.64,
+   "ate": 46.2,
    "txt": "",
    "imagens": [
     {
-     "de": 34.04,
-     "ate": 34.46,
+     "de": 41.64,
+     "ate": 42.06,
      "fonte": "IMG_0899",
      "tipo": "f"
     },
     {
-     "de": 34.46,
-     "ate": 34.88,
+     "de": 42.06,
+     "ate": 42.48,
      "fonte": "IMG_0901",
      "tipo": "f"
     },
     {
-     "de": 34.88,
-     "ate": 35.3,
+     "de": 42.48,
+     "ate": 42.9,
      "fonte": "IMG_0904",
      "tipo": "f"
     },
     {
-     "de": 35.3,
-     "ate": 35.72,
+     "de": 42.9,
+     "ate": 43.32,
      "fonte": "IMG_0906",
      "tipo": "f"
     },
     {
-     "de": 35.72,
-     "ate": 36.14,
+     "de": 43.32,
+     "ate": 43.74,
      "fonte": "IMG_0908",
      "tipo": "f"
     },
     {
-     "de": 36.14,
-     "ate": 36.56,
+     "de": 43.74,
+     "ate": 44.16,
      "fonte": "IMG_0910",
      "tipo": "f"
     },
     {
-     "de": 36.56,
-     "ate": 36.98,
+     "de": 44.16,
+     "ate": 44.58,
      "fonte": "IMG_0913",
      "tipo": "f"
     },
     {
-     "de": 36.98,
-     "ate": 37.4,
+     "de": 44.58,
+     "ate": 45.0,
      "fonte": "IMG_0915",
      "tipo": "f"
     },
     {
-     "de": 37.4,
-     "ate": 38.6,
+     "de": 45.0,
+     "ate": 46.2,
      "fonte": "IMG_0875",
      "tipo": "v"
     }
@@ -223,13 +254,13 @@
   },
   {
    "id": "chegada",
-   "de": 38.6,
-   "ate": 48.37,
+   "de": 46.2,
+   "ate": 55.97,
    "txt": "É o primeiro a chegar na segunda edição da Corrida Start Fitness. Adriano Barbosa, parabéns! Cadê as palmas do Adriano?",
    "imagens": [
     {
-     "de": 38.6,
-     "ate": 48.37,
+     "de": 46.2,
+     "ate": 55.97,
      "fonte": "IMG_0871",
      "tipo": "v"
     }
@@ -242,13 +273,13 @@
   },
   {
    "id": "emocao",
-   "de": 48.37,
-   "ate": 49.67,
+   "de": 55.97,
+   "ate": 57.27,
    "txt": "",
    "imagens": [
     {
-     "de": 48.37,
-     "ate": 49.67,
+     "de": 55.97,
+     "ate": 57.27,
      "fonte": "IMG_0872",
      "tipo": "f"
     }
@@ -257,31 +288,31 @@
   },
   {
    "id": "campea",
-   "de": 49.67,
-   "ate": 58.44,
+   "de": 57.27,
+   "ate": 66.04,
    "txt": "Pessoal, a Adriana Teodosio foi a vencedora do 5KM, foi a mulher que chegou mais rápido na segunda edição da Corrida Start Fitness.",
    "imagens": [
     {
-     "de": 49.67,
-     "ate": 51.67,
+     "de": 57.27,
+     "ate": 59.27,
      "fonte": "IMG_0891",
      "tipo": "v"
     },
     {
-     "de": 51.67,
-     "ate": 53.97,
+     "de": 59.27,
+     "ate": 61.57,
      "fonte": "IMG_0876",
      "tipo": "v"
     },
     {
-     "de": 53.97,
-     "ate": 55.57,
+     "de": 61.57,
+     "ate": 63.17,
      "fonte": "IMG_0892",
      "tipo": "f"
     },
     {
-     "de": 55.57,
-     "ate": 58.44,
+     "de": 63.17,
+     "ate": 66.04,
      "fonte": "IMG_0891",
      "tipo": "v"
     }
@@ -294,13 +325,13 @@
   },
   {
    "id": "dedica",
-   "de": 58.44,
-   "ate": 69.68,
+   "de": 66.04,
+   "ate": 77.28,
    "txt": "Eu quero agradecer a Deus, né, pelo pódio. E assim, essa primeira colocação eu dedico ao meu filho, né, porque eu sou mãe atleta. Então, vai pra o meu Harvey.",
    "imagens": [
     {
-     "de": 58.44,
-     "ate": 69.68,
+     "de": 66.04,
+     "ate": 77.28,
      "fonte": "IMG_0891",
      "tipo": "v"
     }
@@ -313,19 +344,19 @@
   },
   {
    "id": "cuidar",
-   "de": 69.68,
-   "ate": 77.37,
+   "de": 77.28,
+   "ate": 84.97,
    "txt": "E a Corrida Start Fitness vocês sabem que sabe cuidar da galera. Tem essa estação aqui que é de fisioterapia.",
    "imagens": [
     {
-     "de": 69.68,
-     "ate": 74.43,
+     "de": 77.28,
+     "ate": 82.03,
      "fonte": "IMG_0926",
      "tipo": "v"
     },
     {
-     "de": 74.43,
-     "ate": 77.37,
+     "de": 82.03,
+     "ate": 84.97,
      "fonte": "IMG_0925",
      "tipo": "v"
     }
@@ -337,32 +368,107 @@
    ]
   },
   {
-   "id": "catiana",
-   "de": 77.37,
-   "ate": 89.92,
-   "txt": "Assim, o diferencial é porque de fato representa, foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
+   "id": "banheira",
+   "de": 84.97,
+   "ate": 87.06,
+   "txt": "Tem também a banheira de gelo.",
    "imagens": [
     {
-     "de": 77.37,
-     "ate": 83.07,
-     "fonte": "IMG_0929",
+     "de": 84.97,
+     "ate": 85.57,
+     "fonte": "IMG_0926",
      "tipo": "v"
     },
     {
-     "de": 83.07,
-     "ate": 84.17,
+     "de": 85.57,
+     "ate": 87.06,
+     "fonte": "IMG_0926",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0926",
+    16.09,
+    18.18
+   ]
+  },
+  {
+   "id": "banheira2",
+   "de": 87.06,
+   "ate": 94.46,
+   "txt": "E aí, a banheira, tá gelada mesmo? Muito. É de boa ou tem que fazer um esforço pra tá aí? Um esforcinho.",
+   "imagens": [
+    {
+     "de": 87.06,
+     "ate": 94.46,
+     "fonte": "IMG_0926",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0926",
+    33.15,
+    40.55
+   ]
+  },
+  {
+   "id": "acai",
+   "de": 94.46,
+   "ate": 106.31,
+   "txt": "Pessoal, a coisa tá acontecendo e eu vim mostrar a vocês o açaí. E aqui não é só açaí puro não, é açaí com todos os acompanhamentos, com fruta e tudo que é possível, cobertura também.",
+   "imagens": [
+    {
+     "de": 94.46,
+     "ate": 102.76,
      "fonte": "IMG_0885",
      "tipo": "v"
     },
     {
-     "de": 84.17,
-     "ate": 85.27,
+     "de": 102.76,
+     "ate": 104.36,
+     "fonte": "IMG_0927",
+     "tipo": "v"
+    },
+    {
+     "de": 104.36,
+     "ate": 106.31,
+     "fonte": "IMG_0885",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0885",
+    0.0,
+    11.85
+   ]
+  },
+  {
+   "id": "catiana",
+   "de": 106.31,
+   "ate": 118.86,
+   "txt": "Assim, o diferencial é porque de fato representa, foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
+   "imagens": [
+    {
+     "de": 106.31,
+     "ate": 112.01,
+     "fonte": "IMG_0929",
+     "tipo": "v"
+    },
+    {
+     "de": 112.01,
+     "ate": 113.11,
+     "fonte": "IMG_0885",
+     "tipo": "v"
+    },
+    {
+     "de": 113.11,
+     "ate": 114.21,
      "fonte": "IMG_0888",
      "tipo": "v"
     },
     {
-     "de": 85.27,
-     "ate": 89.92,
+     "de": 114.21,
+     "ate": 118.86,
      "fonte": "IMG_0929",
      "tipo": "v"
     }
@@ -375,25 +481,25 @@
   },
   {
    "id": "gratidao",
-   "de": 89.92,
-   "ate": 100.96,
+   "de": 118.86,
+   "ate": 129.9,
    "txt": "É um sentimento de gratidão muito grande. Ver o pessoal que se fez aqui presente. Então, a gente está promovendo saúde, a gente está promovendo um dia diferente. É um dia de lazer.",
    "imagens": [
     {
-     "de": 89.92,
-     "ate": 92.42,
+     "de": 118.86,
+     "ate": 121.36,
      "fonte": "IMG_0934",
      "tipo": "v"
     },
     {
-     "de": 92.42,
-     "ate": 95.02,
+     "de": 121.36,
+     "ate": 123.96,
      "fonte": "IMG_0858",
      "tipo": "f"
     },
     {
-     "de": 95.02,
-     "ate": 100.96,
+     "de": 123.96,
+     "ate": 129.9,
      "fonte": "IMG_0934",
      "tipo": "v"
     }
@@ -408,1232 +514,1706 @@
  "palavras": [
   {
    "p": "Uma",
-   "ini": 1.25,
-   "fim": 1.37,
+   "ini": 2.8,
+   "fim": 2.92,
    "trecho": "gancho"
   },
   {
    "p": "corrida,",
-   "ini": 1.37,
-   "fim": 1.87,
+   "ini": 2.92,
+   "fim": 3.42,
    "trecho": "gancho"
   },
   {
    "p": "muita",
-   "ini": 1.87,
-   "fim": 2.19,
+   "ini": 3.42,
+   "fim": 3.74,
    "trecho": "gancho"
   },
   {
    "p": "energia",
-   "ini": 2.19,
-   "fim": 2.61,
+   "ini": 3.74,
+   "fim": 4.16,
    "trecho": "gancho"
   },
   {
    "p": "e",
-   "ini": 2.61,
-   "fim": 2.97,
+   "ini": 4.16,
+   "fim": 4.52,
    "trecho": "gancho"
   },
   {
    "p": "superação.",
-   "ini": 2.97,
-   "fim": 3.65,
+   "ini": 4.52,
+   "fim": 5.2,
    "trecho": "gancho"
   },
   {
    "p": "Acompanha",
-   "ini": 4.03,
-   "fim": 4.67,
+   "ini": 5.58,
+   "fim": 6.22,
    "trecho": "gancho"
   },
   {
    "p": "com",
-   "ini": 4.67,
-   "fim": 4.79,
+   "ini": 6.22,
+   "fim": 6.34,
    "trecho": "gancho"
   },
   {
    "p": "a",
-   "ini": 4.79,
-   "fim": 4.87,
+   "ini": 6.34,
+   "fim": 6.42,
    "trecho": "gancho"
   },
   {
    "p": "gente",
-   "ini": 4.87,
-   "fim": 5.09,
+   "ini": 6.42,
+   "fim": 6.64,
    "trecho": "gancho"
   },
   {
    "p": "a",
-   "ini": 5.09,
-   "fim": 5.29,
+   "ini": 6.64,
+   "fim": 6.84,
    "trecho": "gancho"
   },
   {
    "p": "segunda",
-   "ini": 5.29,
-   "fim": 5.67,
+   "ini": 6.84,
+   "fim": 7.22,
    "trecho": "gancho"
   },
   {
    "p": "edição",
-   "ini": 5.67,
-   "fim": 5.99,
+   "ini": 7.22,
+   "fim": 7.54,
    "trecho": "gancho"
   },
   {
    "p": "da",
-   "ini": 5.99,
-   "fim": 6.07,
+   "ini": 7.54,
+   "fim": 7.62,
    "trecho": "gancho"
   },
   {
    "p": "corrida",
-   "ini": 6.07,
-   "fim": 6.57,
+   "ini": 7.62,
+   "fim": 8.12,
    "trecho": "gancho"
   },
   {
    "p": "Start",
-   "ini": 6.57,
-   "fim": 6.93,
+   "ini": 8.12,
+   "fim": 8.48,
    "trecho": "gancho"
   },
   {
    "p": "Fitness.",
-   "ini": 6.93,
-   "fim": 7.31,
+   "ini": 8.48,
+   "fim": 8.86,
    "trecho": "gancho"
   },
   {
+   "p": "Gente,",
+   "ini": 9.48,
+   "fim": 9.72,
+   "trecho": "frutas"
+  },
+  {
+   "p": "a",
+   "ini": 9.72,
+   "fim": 9.88,
+   "trecho": "frutas"
+  },
+  {
+   "p": "estrutura,",
+   "ini": 9.88,
+   "fim": 10.5,
+   "trecho": "frutas"
+  },
+  {
+   "p": "assim",
+   "ini": 10.5,
+   "fim": 10.62,
+   "trecho": "frutas"
+  },
+  {
+   "p": "como",
+   "ini": 10.62,
+   "fim": 10.82,
+   "trecho": "frutas"
+  },
+  {
+   "p": "ano",
+   "ini": 10.82,
+   "fim": 11.02,
+   "trecho": "frutas"
+  },
+  {
+   "p": "passado,",
+   "ini": 11.02,
+   "fim": 11.38,
+   "trecho": "frutas"
+  },
+  {
+   "p": "está",
+   "ini": 11.56,
+   "fim": 11.76,
+   "trecho": "frutas"
+  },
+  {
+   "p": "top.",
+   "ini": 11.76,
+   "fim": 12.16,
+   "trecho": "frutas"
+  },
+  {
+   "p": "E",
+   "ini": 12.5,
+   "fim": 12.94,
+   "trecho": "frutas"
+  },
+  {
+   "p": "aqui",
+   "ini": 12.94,
+   "fim": 13.12,
+   "trecho": "frutas"
+  },
+  {
+   "p": "nós",
+   "ini": 13.12,
+   "fim": 13.28,
+   "trecho": "frutas"
+  },
+  {
+   "p": "temos",
+   "ini": 13.28,
+   "fim": 13.5,
+   "trecho": "frutas"
+  },
+  {
+   "p": "um",
+   "ini": 13.5,
+   "fim": 13.76,
+   "trecho": "frutas"
+  },
+  {
+   "p": "coffee",
+   "ini": 13.76,
+   "fim": 14.12,
+   "trecho": "frutas"
+  },
+  {
+   "p": "break",
+   "ini": 14.12,
+   "fim": 14.44,
+   "trecho": "frutas"
+  },
+  {
+   "p": "de",
+   "ini": 14.44,
+   "fim": 14.62,
+   "trecho": "frutas"
+  },
+  {
+   "p": "frutas.",
+   "ini": 14.62,
+   "fim": 15.22,
+   "trecho": "frutas"
+  },
+  {
    "p": "A",
-   "ini": 11.21,
-   "fim": 11.61,
+   "ini": 18.81,
+   "fim": 19.21,
    "trecho": "organizacao"
   },
   {
    "p": "princípio,",
-   "ini": 11.61,
-   "fim": 12.01,
+   "ini": 19.21,
+   "fim": 19.61,
    "trecho": "organizacao"
   },
   {
    "p": "quando",
-   "ini": 12.01,
-   "fim": 12.19,
+   "ini": 19.61,
+   "fim": 19.79,
    "trecho": "organizacao"
   },
   {
    "p": "eu",
-   "ini": 12.19,
-   "fim": 12.31,
+   "ini": 19.79,
+   "fim": 19.91,
    "trecho": "organizacao"
   },
   {
    "p": "vi",
-   "ini": 12.31,
-   "fim": 12.45,
+   "ini": 19.91,
+   "fim": 20.05,
    "trecho": "organizacao"
   },
   {
    "p": "a",
-   "ini": 12.45,
-   "fim": 12.53,
+   "ini": 20.05,
+   "fim": 20.13,
    "trecho": "organizacao"
   },
   {
    "p": "corrida",
-   "ini": 12.53,
-   "fim": 12.81,
+   "ini": 20.13,
+   "fim": 20.41,
    "trecho": "organizacao"
   },
   {
    "p": "pela",
-   "ini": 12.81,
-   "fim": 12.97,
+   "ini": 20.41,
+   "fim": 20.57,
    "trecho": "organizacao"
   },
   {
    "p": "primeira",
-   "ini": 12.97,
-   "fim": 13.27,
+   "ini": 20.57,
+   "fim": 20.87,
    "trecho": "organizacao"
   },
   {
    "p": "vez,",
-   "ini": 13.27,
-   "fim": 13.57,
+   "ini": 20.87,
+   "fim": 21.17,
    "trecho": "organizacao"
   },
   {
    "p": "foi",
-   "ini": 13.63,
-   "fim": 13.85,
+   "ini": 21.23,
+   "fim": 21.45,
    "trecho": "organizacao"
   },
   {
    "p": "a",
-   "ini": 13.85,
-   "fim": 14.05,
+   "ini": 21.45,
+   "fim": 21.65,
    "trecho": "organizacao"
   },
   {
    "p": "organização.",
-   "ini": 14.05,
-   "fim": 14.59,
+   "ini": 21.65,
+   "fim": 22.19,
    "trecho": "organizacao"
   },
   {
    "p": "Muito",
-   "ini": 14.89,
-   "fim": 15.29,
+   "ini": 22.49,
+   "fim": 22.89,
    "trecho": "organizacao"
   },
   {
    "p": "bem",
-   "ini": 15.29,
-   "fim": 15.47,
+   "ini": 22.89,
+   "fim": 23.07,
    "trecho": "organizacao"
   },
   {
    "p": "organizado,",
-   "ini": 15.47,
-   "fim": 16.17,
+   "ini": 23.07,
+   "fim": 23.77,
    "trecho": "organizacao"
   },
   {
    "p": "o",
-   "ini": 16.33,
-   "fim": 17.43,
+   "ini": 23.93,
+   "fim": 25.03,
    "trecho": "organizacao"
   },
   {
    "p": "percurso",
-   "ini": 17.43,
-   "fim": 18.05,
+   "ini": 25.03,
+   "fim": 25.65,
    "trecho": "organizacao"
   },
   {
    "p": "muito",
-   "ini": 18.05,
-   "fim": 18.19,
+   "ini": 25.65,
+   "fim": 25.79,
    "trecho": "organizacao"
   },
   {
    "p": "bem",
-   "ini": 18.19,
-   "fim": 18.43,
+   "ini": 25.79,
+   "fim": 26.03,
    "trecho": "organizacao"
   },
   {
    "p": "definido,",
-   "ini": 18.43,
-   "fim": 19.07,
+   "ini": 26.03,
+   "fim": 26.67,
    "trecho": "organizacao"
   },
   {
    "p": "sem",
-   "ini": 19.09,
-   "fim": 19.43,
+   "ini": 26.69,
+   "fim": 27.03,
    "trecho": "organizacao"
   },
   {
    "p": "erros.",
-   "ini": 19.43,
-   "fim": 19.97,
+   "ini": 27.03,
+   "fim": 27.57,
    "trecho": "organizacao"
   },
   {
    "p": "Dormi",
-   "ini": 20.26,
-   "fim": 20.46,
+   "ini": 27.86,
+   "fim": 28.06,
    "trecho": "nervoso"
   },
   {
    "p": "sete",
-   "ini": 20.46,
-   "fim": 20.86,
+   "ini": 28.06,
+   "fim": 28.46,
    "trecho": "nervoso"
   },
   {
    "p": "horinhas",
-   "ini": 20.86,
-   "fim": 21.12,
+   "ini": 28.46,
+   "fim": 28.72,
    "trecho": "nervoso"
   },
   {
    "p": "ali,",
-   "ini": 21.12,
-   "fim": 21.3,
+   "ini": 28.72,
+   "fim": 28.9,
    "trecho": "nervoso"
   },
   {
    "p": "mas",
-   "ini": 21.52,
-   "fim": 22.44,
+   "ini": 29.12,
+   "fim": 30.04,
    "trecho": "nervoso"
   },
   {
    "p": "sempre",
-   "ini": 22.44,
-   "fim": 22.82,
+   "ini": 30.04,
+   "fim": 30.42,
    "trecho": "nervoso"
   },
   {
    "p": "bate",
-   "ini": 22.82,
-   "fim": 23.06,
+   "ini": 30.42,
+   "fim": 30.66,
    "trecho": "nervoso"
   },
   {
    "p": "aquele",
-   "ini": 23.06,
-   "fim": 23.2,
+   "ini": 30.66,
+   "fim": 30.8,
    "trecho": "nervoso"
   },
   {
    "p": "nervoso",
-   "ini": 23.2,
-   "fim": 23.66,
+   "ini": 30.8,
+   "fim": 31.26,
    "trecho": "nervoso"
   },
   {
    "p": "na",
-   "ini": 23.66,
-   "fim": 23.72,
+   "ini": 31.26,
+   "fim": 31.32,
    "trecho": "nervoso"
   },
   {
    "p": "hora",
-   "ini": 23.72,
-   "fim": 23.84,
+   "ini": 31.32,
+   "fim": 31.44,
    "trecho": "nervoso"
   },
   {
    "p": "da",
-   "ini": 23.84,
-   "fim": 23.96,
+   "ini": 31.44,
+   "fim": 31.56,
    "trecho": "nervoso"
   },
   {
    "p": "largada.",
-   "ini": 23.96,
-   "fim": 24.32,
+   "ini": 31.56,
+   "fim": 31.92,
    "trecho": "nervoso"
   },
   {
    "p": "quatro,",
-   "ini": 27.08,
-   "fim": 28.12,
+   "ini": 34.68,
+   "fim": 35.72,
    "trecho": "contagem"
   },
   {
    "p": "três,",
-   "ini": 28.54,
-   "fim": 29.44,
+   "ini": 36.14,
+   "fim": 37.04,
    "trecho": "contagem"
   },
   {
    "p": "dois,",
-   "ini": 29.96,
-   "fim": 30.9,
+   "ini": 37.56,
+   "fim": 38.5,
    "trecho": "contagem"
   },
   {
    "p": "lá",
-   "ini": 31.5,
-   "fim": 32.1,
+   "ini": 39.1,
+   "fim": 39.7,
    "trecho": "contagem"
   },
   {
    "p": "dois,",
-   "ini": 32.1,
-   "fim": 32.68,
+   "ini": 39.7,
+   "fim": 40.28,
    "trecho": "contagem"
   },
   {
    "p": "primeiro",
-   "ini": 39.25,
-   "fim": 39.51,
+   "ini": 46.85,
+   "fim": 47.11,
    "trecho": "chegada"
   },
   {
    "p": "a",
-   "ini": 39.51,
-   "fim": 39.71,
+   "ini": 47.11,
+   "fim": 47.31,
    "trecho": "chegada"
   },
   {
    "p": "chegar",
-   "ini": 39.71,
-   "fim": 39.97,
+   "ini": 47.31,
+   "fim": 47.57,
    "trecho": "chegada"
   },
   {
    "p": "na",
-   "ini": 39.97,
-   "fim": 40.89,
+   "ini": 47.57,
+   "fim": 48.49,
    "trecho": "chegada"
   },
   {
    "p": "segunda",
-   "ini": 40.89,
-   "fim": 41.33,
+   "ini": 48.49,
+   "fim": 48.93,
    "trecho": "chegada"
   },
   {
    "p": "edição",
-   "ini": 41.33,
-   "fim": 42.25,
+   "ini": 48.93,
+   "fim": 49.85,
    "trecho": "chegada"
   },
   {
    "p": "da",
-   "ini": 42.25,
-   "fim": 42.41,
+   "ini": 49.85,
+   "fim": 50.01,
    "trecho": "chegada"
   },
   {
    "p": "Corrida",
-   "ini": 42.41,
-   "fim": 42.77,
+   "ini": 50.01,
+   "fim": 50.37,
    "trecho": "chegada"
   },
   {
    "p": "Start",
-   "ini": 42.77,
-   "fim": 43.09,
+   "ini": 50.37,
+   "fim": 50.69,
    "trecho": "chegada"
   },
   {
    "p": "Fitness",
-   "ini": 43.09,
-   "fim": 43.49,
+   "ini": 50.69,
+   "fim": 51.09,
    "trecho": "chegada"
   },
   {
    "p": "Adriano",
-   "ini": 44.77,
-   "fim": 45.41,
+   "ini": 52.37,
+   "fim": 53.01,
    "trecho": "chegada"
   },
   {
    "p": "Barbosa",
-   "ini": 45.41,
-   "fim": 45.95,
+   "ini": 53.01,
+   "fim": 53.55,
    "trecho": "chegada"
   },
   {
    "p": "parabéns,",
-   "ini": 45.95,
-   "fim": 46.73,
+   "ini": 53.55,
+   "fim": 54.33,
    "trecho": "chegada"
   },
   {
    "p": "cadê",
-   "ini": 46.73,
-   "fim": 46.95,
+   "ini": 54.33,
+   "fim": 54.55,
    "trecho": "chegada"
   },
   {
    "p": "as",
-   "ini": 46.95,
-   "fim": 47.03,
+   "ini": 54.55,
+   "fim": 54.63,
    "trecho": "chegada"
   },
   {
    "p": "palmas",
-   "ini": 47.03,
-   "fim": 47.41,
+   "ini": 54.63,
+   "fim": 55.01,
    "trecho": "chegada"
   },
   {
    "p": "do",
-   "ini": 47.41,
-   "fim": 47.55,
+   "ini": 55.01,
+   "fim": 55.15,
    "trecho": "chegada"
   },
   {
    "p": "Adriano?",
-   "ini": 47.55,
-   "fim": 47.99,
+   "ini": 55.15,
+   "fim": 55.59,
    "trecho": "chegada"
   },
   {
    "p": "Pessoal,",
-   "ini": 49.67,
-   "fim": 49.95,
-   "trecho": "campea"
-  },
-  {
-   "p": "a",
-   "ini": 49.95,
-   "fim": 50.13,
-   "trecho": "campea"
-  },
-  {
-   "p": "Adriana",
-   "ini": 50.13,
-   "fim": 50.49,
-   "trecho": "campea"
-  },
-  {
-   "p": "Teodosio",
-   "ini": 50.49,
-   "fim": 51.19,
-   "trecho": "campea"
-  },
-  {
-   "p": "foi",
-   "ini": 51.19,
-   "fim": 51.41,
-   "trecho": "campea"
-  },
-  {
-   "p": "a",
-   "ini": 51.41,
-   "fim": 51.59,
-   "trecho": "campea"
-  },
-  {
-   "p": "vencedora",
-   "ini": 51.59,
-   "fim": 52.71,
-   "trecho": "campea"
-  },
-  {
-   "p": "do",
-   "ini": 52.71,
-   "fim": 52.91,
-   "trecho": "campea"
-  },
-  {
-   "p": "5KM,",
-   "ini": 52.91,
-   "fim": 53.91,
-   "trecho": "campea"
-  },
-  {
-   "p": "foi",
-   "ini": 53.99,
-   "fim": 54.47,
-   "trecho": "campea"
-  },
-  {
-   "p": "a",
-   "ini": 54.47,
-   "fim": 54.59,
-   "trecho": "campea"
-  },
-  {
-   "p": "mulher",
-   "ini": 54.59,
-   "fim": 54.79,
-   "trecho": "campea"
-  },
-  {
-   "p": "que",
-   "ini": 54.79,
-   "fim": 54.95,
-   "trecho": "campea"
-  },
-  {
-   "p": "chegou",
-   "ini": 54.95,
-   "fim": 55.21,
-   "trecho": "campea"
-  },
-  {
-   "p": "mais",
-   "ini": 55.21,
-   "fim": 55.45,
-   "trecho": "campea"
-  },
-  {
-   "p": "rápido",
-   "ini": 55.45,
-   "fim": 55.99,
-   "trecho": "campea"
-  },
-  {
-   "p": "na",
-   "ini": 55.99,
-   "fim": 56.25,
-   "trecho": "campea"
-  },
-  {
-   "p": "segunda",
-   "ini": 56.25,
-   "fim": 56.57,
-   "trecho": "campea"
-  },
-  {
-   "p": "edição",
-   "ini": 56.57,
-   "fim": 56.87,
-   "trecho": "campea"
-  },
-  {
-   "p": "da",
-   "ini": 56.87,
-   "fim": 57.01,
-   "trecho": "campea"
-  },
-  {
-   "p": "Corrida",
-   "ini": 57.01,
-   "fim": 57.29,
-   "trecho": "campea"
-  },
-  {
-   "p": "Start",
-   "ini": 57.29,
+   "ini": 57.27,
    "fim": 57.55,
    "trecho": "campea"
   },
   {
-   "p": "Fitness.",
+   "p": "a",
    "ini": 57.55,
-   "fim": 57.93,
+   "fim": 57.73,
+   "trecho": "campea"
+  },
+  {
+   "p": "Adriana",
+   "ini": 57.73,
+   "fim": 58.09,
+   "trecho": "campea"
+  },
+  {
+   "p": "Teodosio",
+   "ini": 58.09,
+   "fim": 58.79,
+   "trecho": "campea"
+  },
+  {
+   "p": "foi",
+   "ini": 58.79,
+   "fim": 59.01,
+   "trecho": "campea"
+  },
+  {
+   "p": "a",
+   "ini": 59.01,
+   "fim": 59.19,
+   "trecho": "campea"
+  },
+  {
+   "p": "vencedora",
+   "ini": 59.19,
+   "fim": 60.31,
+   "trecho": "campea"
+  },
+  {
+   "p": "do",
+   "ini": 60.31,
+   "fim": 60.51,
+   "trecho": "campea"
+  },
+  {
+   "p": "5KM,",
+   "ini": 60.51,
+   "fim": 61.51,
+   "trecho": "campea"
+  },
+  {
+   "p": "foi",
+   "ini": 61.59,
+   "fim": 62.07,
+   "trecho": "campea"
+  },
+  {
+   "p": "a",
+   "ini": 62.07,
+   "fim": 62.19,
+   "trecho": "campea"
+  },
+  {
+   "p": "mulher",
+   "ini": 62.19,
+   "fim": 62.39,
+   "trecho": "campea"
+  },
+  {
+   "p": "que",
+   "ini": 62.39,
+   "fim": 62.55,
+   "trecho": "campea"
+  },
+  {
+   "p": "chegou",
+   "ini": 62.55,
+   "fim": 62.81,
+   "trecho": "campea"
+  },
+  {
+   "p": "mais",
+   "ini": 62.81,
+   "fim": 63.05,
+   "trecho": "campea"
+  },
+  {
+   "p": "rápido",
+   "ini": 63.05,
+   "fim": 63.59,
+   "trecho": "campea"
+  },
+  {
+   "p": "na",
+   "ini": 63.59,
+   "fim": 63.85,
+   "trecho": "campea"
+  },
+  {
+   "p": "segunda",
+   "ini": 63.85,
+   "fim": 64.17,
+   "trecho": "campea"
+  },
+  {
+   "p": "edição",
+   "ini": 64.17,
+   "fim": 64.47,
+   "trecho": "campea"
+  },
+  {
+   "p": "da",
+   "ini": 64.47,
+   "fim": 64.61,
+   "trecho": "campea"
+  },
+  {
+   "p": "Corrida",
+   "ini": 64.61,
+   "fim": 64.89,
+   "trecho": "campea"
+  },
+  {
+   "p": "Start",
+   "ini": 64.89,
+   "fim": 65.15,
+   "trecho": "campea"
+  },
+  {
+   "p": "Fitness.",
+   "ini": 65.15,
+   "fim": 65.53,
    "trecho": "campea"
   },
   {
    "p": "agradecer",
-   "ini": 58.74,
-   "fim": 59.14,
+   "ini": 66.34,
+   "fim": 66.74,
    "trecho": "dedica"
   },
   {
    "p": "a",
-   "ini": 59.14,
-   "fim": 59.22,
+   "ini": 66.74,
+   "fim": 66.82,
    "trecho": "dedica"
   },
   {
    "p": "Deus,",
-   "ini": 59.22,
-   "fim": 59.42,
+   "ini": 66.82,
+   "fim": 67.02,
    "trecho": "dedica"
   },
   {
    "p": "né,",
-   "ini": 59.5,
-   "fim": 59.64,
+   "ini": 67.1,
+   "fim": 67.24,
    "trecho": "dedica"
   },
   {
    "p": "pelo",
-   "ini": 59.74,
-   "fim": 60.36,
+   "ini": 67.34,
+   "fim": 67.96,
    "trecho": "dedica"
   },
   {
    "p": "pódio.",
-   "ini": 60.36,
-   "fim": 61.42,
+   "ini": 67.96,
+   "fim": 69.02,
    "trecho": "dedica"
   },
   {
    "p": "E",
-   "ini": 61.44,
-   "fim": 61.64,
+   "ini": 69.04,
+   "fim": 69.24,
    "trecho": "dedica"
   },
   {
    "p": "assim,",
-   "ini": 61.64,
-   "fim": 61.82,
+   "ini": 69.24,
+   "fim": 69.42,
    "trecho": "dedica"
   },
   {
    "p": "essa",
-   "ini": 61.96,
-   "fim": 62.18,
+   "ini": 69.56,
+   "fim": 69.78,
    "trecho": "dedica"
   },
   {
    "p": "primeira",
-   "ini": 62.18,
-   "fim": 63.06,
+   "ini": 69.78,
+   "fim": 70.66,
    "trecho": "dedica"
   },
   {
    "p": "colocação",
-   "ini": 63.06,
-   "fim": 65.0,
+   "ini": 70.66,
+   "fim": 72.6,
    "trecho": "dedica"
   },
   {
    "p": "eu",
-   "ini": 65.0,
-   "fim": 65.06,
+   "ini": 72.6,
+   "fim": 72.66,
    "trecho": "dedica"
   },
   {
    "p": "dedico",
-   "ini": 65.06,
-   "fim": 65.88,
+   "ini": 72.66,
+   "fim": 73.48,
    "trecho": "dedica"
   },
   {
    "p": "ao",
-   "ini": 65.88,
-   "fim": 65.96,
+   "ini": 73.48,
+   "fim": 73.56,
    "trecho": "dedica"
   },
   {
    "p": "meu",
-   "ini": 65.96,
-   "fim": 66.12,
+   "ini": 73.56,
+   "fim": 73.72,
    "trecho": "dedica"
   },
   {
    "p": "filho,",
-   "ini": 66.12,
-   "fim": 66.38,
+   "ini": 73.72,
+   "fim": 73.98,
    "trecho": "dedica"
   },
   {
    "p": "né,",
-   "ini": 66.48,
-   "fim": 66.56,
+   "ini": 74.08,
+   "fim": 74.16,
    "trecho": "dedica"
   },
   {
    "p": "porque",
-   "ini": 66.56,
-   "fim": 66.66,
+   "ini": 74.16,
+   "fim": 74.26,
    "trecho": "dedica"
   },
   {
    "p": "eu",
-   "ini": 66.66,
-   "fim": 66.8,
+   "ini": 74.26,
+   "fim": 74.4,
    "trecho": "dedica"
   },
   {
    "p": "sou",
-   "ini": 66.8,
-   "fim": 66.92,
+   "ini": 74.4,
+   "fim": 74.52,
    "trecho": "dedica"
   },
   {
    "p": "mãe",
-   "ini": 66.92,
-   "fim": 67.06,
+   "ini": 74.52,
+   "fim": 74.66,
    "trecho": "dedica"
   },
   {
    "p": "atleta.",
-   "ini": 67.06,
-   "fim": 67.76,
+   "ini": 74.66,
+   "fim": 75.36,
    "trecho": "dedica"
   },
   {
    "p": "Então,",
-   "ini": 68.0,
-   "fim": 68.4,
+   "ini": 75.6,
+   "fim": 76.0,
    "trecho": "dedica"
   },
   {
    "p": "vai",
-   "ini": 68.46,
-   "fim": 68.6,
+   "ini": 76.06,
+   "fim": 76.2,
    "trecho": "dedica"
   },
   {
    "p": "pra",
-   "ini": 68.6,
-   "fim": 68.76,
+   "ini": 76.2,
+   "fim": 76.36,
    "trecho": "dedica"
   },
   {
    "p": "o",
-   "ini": 68.76,
-   "fim": 68.86,
+   "ini": 76.36,
+   "fim": 76.46,
    "trecho": "dedica"
   },
   {
    "p": "meu",
-   "ini": 68.86,
-   "fim": 68.96,
+   "ini": 76.46,
+   "fim": 76.56,
    "trecho": "dedica"
   },
   {
    "p": "Harvey.",
-   "ini": 68.96,
-   "fim": 69.34,
+   "ini": 76.56,
+   "fim": 76.94,
    "trecho": "dedica"
   },
   {
    "p": "a",
-   "ini": 70.23,
-   "fim": 70.33,
+   "ini": 77.83,
+   "fim": 77.93,
    "trecho": "cuidar"
   },
   {
    "p": "Corrida",
-   "ini": 70.33,
-   "fim": 70.73,
+   "ini": 77.93,
+   "fim": 78.33,
    "trecho": "cuidar"
   },
   {
    "p": "Start",
-   "ini": 70.73,
-   "fim": 71.03,
+   "ini": 78.33,
+   "fim": 78.63,
    "trecho": "cuidar"
   },
   {
    "p": "Fitness",
-   "ini": 71.03,
-   "fim": 71.45,
+   "ini": 78.63,
+   "fim": 79.05,
    "trecho": "cuidar"
   },
   {
    "p": "vocês",
-   "ini": 71.45,
-   "fim": 71.79,
+   "ini": 79.05,
+   "fim": 79.39,
    "trecho": "cuidar"
   },
   {
    "p": "sabem",
-   "ini": 71.79,
-   "fim": 72.53,
+   "ini": 79.39,
+   "fim": 80.13,
    "trecho": "cuidar"
   },
   {
    "p": "que",
-   "ini": 72.53,
-   "fim": 73.01,
+   "ini": 80.13,
+   "fim": 80.61,
    "trecho": "cuidar"
   },
   {
    "p": "sabe",
-   "ini": 73.01,
-   "fim": 73.37,
+   "ini": 80.61,
+   "fim": 80.97,
    "trecho": "cuidar"
   },
   {
    "p": "cuidar",
-   "ini": 73.37,
-   "fim": 74.01,
+   "ini": 80.97,
+   "fim": 81.61,
    "trecho": "cuidar"
   },
   {
    "p": "da",
-   "ini": 74.01,
-   "fim": 74.09,
+   "ini": 81.61,
+   "fim": 81.69,
    "trecho": "cuidar"
   },
   {
    "p": "galera",
-   "ini": 74.09,
-   "fim": 74.39,
+   "ini": 81.69,
+   "fim": 81.99,
    "trecho": "cuidar"
   },
   {
    "p": "Tem",
-   "ini": 74.39,
-   "fim": 75.07,
+   "ini": 81.99,
+   "fim": 82.67,
    "trecho": "cuidar"
   },
   {
    "p": "essa",
-   "ini": 75.07,
-   "fim": 75.31,
+   "ini": 82.67,
+   "fim": 82.91,
    "trecho": "cuidar"
   },
   {
    "p": "estação",
-   "ini": 75.31,
-   "fim": 75.81,
+   "ini": 82.91,
+   "fim": 83.41,
    "trecho": "cuidar"
   },
   {
    "p": "aqui",
-   "ini": 75.81,
-   "fim": 76.03,
+   "ini": 83.41,
+   "fim": 83.63,
    "trecho": "cuidar"
   },
   {
    "p": "que",
-   "ini": 76.03,
-   "fim": 76.19,
+   "ini": 83.63,
+   "fim": 83.79,
    "trecho": "cuidar"
   },
   {
    "p": "é",
-   "ini": 76.19,
-   "fim": 76.27,
+   "ini": 83.79,
+   "fim": 83.87,
    "trecho": "cuidar"
   },
   {
    "p": "de",
-   "ini": 76.27,
-   "fim": 76.37,
+   "ini": 83.87,
+   "fim": 83.97,
    "trecho": "cuidar"
   },
   {
    "p": "fisioterapia",
-   "ini": 76.37,
-   "fim": 77.21,
+   "ini": 83.97,
+   "fim": 84.81,
    "trecho": "cuidar"
   },
   {
+   "p": "também",
+   "ini": 85.38,
+   "fim": 85.76,
+   "trecho": "banheira"
+  },
+  {
+   "p": "a",
+   "ini": 85.76,
+   "fim": 85.86,
+   "trecho": "banheira"
+  },
+  {
+   "p": "banheira",
+   "ini": 85.86,
+   "fim": 86.12,
+   "trecho": "banheira"
+  },
+  {
+   "p": "de",
+   "ini": 86.12,
+   "fim": 86.26,
+   "trecho": "banheira"
+  },
+  {
+   "p": "gelo",
+   "ini": 86.26,
+   "fim": 86.96,
+   "trecho": "banheira"
+  },
+  {
+   "p": "a",
+   "ini": 87.31,
+   "fim": 87.47,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "banheira?",
+   "ini": 87.47,
+   "fim": 87.97,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "Tá",
+   "ini": 87.97,
+   "fim": 88.11,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "gelada",
+   "ini": 88.11,
+   "fim": 88.55,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "mesmo?",
+   "ini": 88.55,
+   "fim": 88.75,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "Muito",
+   "ini": 89.51,
+   "fim": 90.03,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "É",
+   "ini": 90.03,
+   "fim": 90.51,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "de",
+   "ini": 90.51,
+   "fim": 90.69,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "boa",
+   "ini": 90.69,
+   "fim": 91.01,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "ou",
+   "ini": 91.01,
+   "fim": 91.25,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "tem",
+   "ini": 91.25,
+   "fim": 91.71,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "que",
+   "ini": 91.71,
+   "fim": 91.81,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "fazer",
+   "ini": 91.81,
+   "fim": 92.03,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "um",
+   "ini": 92.03,
+   "fim": 92.15,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "esforço",
+   "ini": 92.15,
+   "fim": 92.43,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "pra",
+   "ini": 92.43,
+   "fim": 92.51,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "tá",
+   "ini": 92.51,
+   "fim": 92.63,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "aí?",
+   "ini": 92.63,
+   "fim": 92.87,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "Um",
+   "ini": 93.03,
+   "fim": 93.31,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "esforcinho",
+   "ini": 93.31,
+   "fim": 93.75,
+   "trecho": "banheira2"
+  },
+  {
+   "p": "Pessoal,",
+   "ini": 94.46,
+   "fim": 95.14,
+   "trecho": "acai"
+  },
+  {
+   "p": "a",
+   "ini": 95.14,
+   "fim": 95.26,
+   "trecho": "acai"
+  },
+  {
+   "p": "coisa",
+   "ini": 95.26,
+   "fim": 95.4,
+   "trecho": "acai"
+  },
+  {
+   "p": "tá",
+   "ini": 95.4,
+   "fim": 95.56,
+   "trecho": "acai"
+  },
+  {
+   "p": "acontecendo",
+   "ini": 95.56,
+   "fim": 96.08,
+   "trecho": "acai"
+  },
+  {
+   "p": "e",
+   "ini": 96.08,
+   "fim": 96.8,
+   "trecho": "acai"
+  },
+  {
+   "p": "eu",
+   "ini": 96.8,
+   "fim": 97.0,
+   "trecho": "acai"
+  },
+  {
+   "p": "vim",
+   "ini": 97.0,
+   "fim": 97.14,
+   "trecho": "acai"
+  },
+  {
+   "p": "mostrar",
+   "ini": 97.14,
+   "fim": 97.32,
+   "trecho": "acai"
+  },
+  {
+   "p": "a",
+   "ini": 97.32,
+   "fim": 97.5,
+   "trecho": "acai"
+  },
+  {
+   "p": "vocês",
+   "ini": 97.5,
+   "fim": 97.78,
+   "trecho": "acai"
+  },
+  {
    "p": "o",
-   "ini": 77.71,
-   "fim": 77.93,
+   "ini": 97.78,
+   "fim": 97.98,
+   "trecho": "acai"
+  },
+  {
+   "p": "açaí.",
+   "ini": 97.98,
+   "fim": 98.46,
+   "trecho": "acai"
+  },
+  {
+   "p": "E",
+   "ini": 98.58,
+   "fim": 99.0,
+   "trecho": "acai"
+  },
+  {
+   "p": "aqui",
+   "ini": 99.0,
+   "fim": 99.26,
+   "trecho": "acai"
+  },
+  {
+   "p": "não",
+   "ini": 99.26,
+   "fim": 99.42,
+   "trecho": "acai"
+  },
+  {
+   "p": "é",
+   "ini": 99.42,
+   "fim": 99.56,
+   "trecho": "acai"
+  },
+  {
+   "p": "só",
+   "ini": 99.56,
+   "fim": 99.72,
+   "trecho": "acai"
+  },
+  {
+   "p": "açaí",
+   "ini": 99.72,
+   "fim": 100.26,
+   "trecho": "acai"
+  },
+  {
+   "p": "puro",
+   "ini": 100.26,
+   "fim": 100.7,
+   "trecho": "acai"
+  },
+  {
+   "p": "não,",
+   "ini": 100.7,
+   "fim": 100.82,
+   "trecho": "acai"
+  },
+  {
+   "p": "é",
+   "ini": 100.92,
+   "fim": 100.98,
+   "trecho": "acai"
+  },
+  {
+   "p": "açaí",
+   "ini": 100.98,
+   "fim": 101.36,
+   "trecho": "acai"
+  },
+  {
+   "p": "com",
+   "ini": 101.36,
+   "fim": 101.5,
+   "trecho": "acai"
+  },
+  {
+   "p": "todos",
+   "ini": 101.5,
+   "fim": 101.76,
+   "trecho": "acai"
+  },
+  {
+   "p": "os",
+   "ini": 101.76,
+   "fim": 101.9,
+   "trecho": "acai"
+  },
+  {
+   "p": "acompanhamentos,",
+   "ini": 101.9,
+   "fim": 102.84,
+   "trecho": "acai"
+  },
+  {
+   "p": "com",
+   "ini": 102.92,
+   "fim": 103.32,
+   "trecho": "acai"
+  },
+  {
+   "p": "fruta",
+   "ini": 103.32,
+   "fim": 103.92,
+   "trecho": "acai"
+  },
+  {
+   "p": "e",
+   "ini": 103.92,
+   "fim": 103.98,
+   "trecho": "acai"
+  },
+  {
+   "p": "tudo",
+   "ini": 103.98,
+   "fim": 104.18,
+   "trecho": "acai"
+  },
+  {
+   "p": "que",
+   "ini": 104.18,
+   "fim": 104.32,
+   "trecho": "acai"
+  },
+  {
+   "p": "é",
+   "ini": 104.32,
+   "fim": 104.46,
+   "trecho": "acai"
+  },
+  {
+   "p": "possível,",
+   "ini": 104.46,
+   "fim": 104.7,
+   "trecho": "acai"
+  },
+  {
+   "p": "cobertura",
+   "ini": 104.88,
+   "fim": 105.38,
+   "trecho": "acai"
+  },
+  {
+   "p": "também.",
+   "ini": 105.38,
+   "fim": 105.64,
+   "trecho": "acai"
+  },
+  {
+   "p": "o",
+   "ini": 106.65,
+   "fim": 106.87,
    "trecho": "catiana"
   },
   {
    "p": "diferencial",
-   "ini": 77.93,
-   "fim": 78.63,
+   "ini": 106.87,
+   "fim": 107.57,
    "trecho": "catiana"
   },
   {
    "p": "é",
-   "ini": 78.63,
-   "fim": 78.87,
+   "ini": 107.57,
+   "fim": 107.81,
    "trecho": "catiana"
   },
   {
    "p": "porque",
-   "ini": 78.87,
-   "fim": 79.55,
+   "ini": 107.81,
+   "fim": 108.49,
    "trecho": "catiana"
   },
   {
    "p": "de",
-   "ini": 79.55,
-   "fim": 80.37,
+   "ini": 108.49,
+   "fim": 109.31,
    "trecho": "catiana"
   },
   {
    "p": "fato",
-   "ini": 80.37,
-   "fim": 80.77,
+   "ini": 109.31,
+   "fim": 109.71,
    "trecho": "catiana"
   },
   {
    "p": "representa,",
-   "ini": 80.77,
-   "fim": 81.07,
+   "ini": 109.71,
+   "fim": 110.01,
    "trecho": "catiana"
   },
   {
    "p": "foi",
-   "ini": 81.37,
-   "fim": 81.81,
+   "ini": 110.31,
+   "fim": 110.75,
    "trecho": "catiana"
   },
   {
    "p": "maravilhoso,",
-   "ini": 81.81,
-   "fim": 83.09,
+   "ini": 110.75,
+   "fim": 112.03,
    "trecho": "catiana"
   },
   {
    "p": "teve",
-   "ini": 83.19,
-   "fim": 83.55,
+   "ini": 112.13,
+   "fim": 112.49,
    "trecho": "catiana"
   },
   {
    "p": "tudo",
-   "ini": 83.55,
-   "fim": 84.51,
+   "ini": 112.49,
+   "fim": 113.45,
    "trecho": "catiana"
   },
   {
    "p": "e",
-   "ini": 84.51,
-   "fim": 84.71,
+   "ini": 113.45,
+   "fim": 113.65,
    "trecho": "catiana"
   },
   {
    "p": "mais",
-   "ini": 84.71,
-   "fim": 84.91,
+   "ini": 113.65,
+   "fim": 113.85,
    "trecho": "catiana"
   },
   {
    "p": "um",
-   "ini": 84.91,
-   "fim": 85.09,
+   "ini": 113.85,
+   "fim": 114.03,
    "trecho": "catiana"
   },
   {
    "p": "pouco",
-   "ini": 85.09,
-   "fim": 85.43,
+   "ini": 114.03,
+   "fim": 114.37,
    "trecho": "catiana"
   },
   {
    "p": "Superou",
-   "ini": 85.43,
-   "fim": 86.09,
+   "ini": 114.37,
+   "fim": 115.03,
    "trecho": "catiana"
   },
   {
    "p": "todas",
-   "ini": 86.09,
-   "fim": 86.29,
+   "ini": 115.03,
+   "fim": 115.23,
    "trecho": "catiana"
   },
   {
    "p": "as",
-   "ini": 86.29,
-   "fim": 86.55,
+   "ini": 115.23,
+   "fim": 115.49,
    "trecho": "catiana"
   },
   {
    "p": "expectativas",
-   "ini": 86.55,
-   "fim": 87.31,
+   "ini": 115.49,
+   "fim": 116.25,
    "trecho": "catiana"
   },
   {
    "p": "Não",
-   "ini": 87.31,
-   "fim": 87.95,
+   "ini": 116.25,
+   "fim": 116.89,
    "trecho": "catiana"
   },
   {
    "p": "é",
-   "ini": 87.95,
-   "fim": 88.13,
+   "ini": 116.89,
+   "fim": 117.07,
    "trecho": "catiana"
   },
   {
    "p": "só",
-   "ini": 88.13,
-   "fim": 88.31,
+   "ini": 117.07,
+   "fim": 117.25,
    "trecho": "catiana"
   },
   {
    "p": "a",
-   "ini": 88.31,
-   "fim": 88.43,
+   "ini": 117.25,
+   "fim": 117.37,
    "trecho": "catiana"
   },
   {
    "p": "medalha",
-   "ini": 88.43,
-   "fim": 88.85,
+   "ini": 117.37,
+   "fim": 117.79,
    "trecho": "catiana"
   },
   {
    "p": "e",
-   "ini": 88.85,
-   "fim": 88.95,
+   "ini": 117.79,
+   "fim": 117.89,
    "trecho": "catiana"
   },
   {
    "p": "banana",
-   "ini": 88.95,
-   "fim": 89.13,
+   "ini": 117.89,
+   "fim": 118.07,
    "trecho": "catiana"
   },
   {
    "p": "não",
-   "ini": 89.13,
-   "fim": 89.51,
+   "ini": 118.07,
+   "fim": 118.45,
    "trecho": "catiana"
   },
   {
    "p": "um",
-   "ini": 90.26,
-   "fim": 90.44,
+   "ini": 119.2,
+   "fim": 119.38,
    "trecho": "gratidao"
   },
   {
    "p": "sentimento",
-   "ini": 90.44,
-   "fim": 90.76,
+   "ini": 119.38,
+   "fim": 119.7,
    "trecho": "gratidao"
   },
   {
    "p": "de",
-   "ini": 90.76,
-   "fim": 90.96,
+   "ini": 119.7,
+   "fim": 119.9,
    "trecho": "gratidao"
   },
   {
    "p": "gratidão",
-   "ini": 90.96,
-   "fim": 91.52,
+   "ini": 119.9,
+   "fim": 120.46,
    "trecho": "gratidao"
   },
   {
    "p": "muito",
-   "ini": 91.52,
-   "fim": 91.78,
+   "ini": 120.46,
+   "fim": 120.72,
    "trecho": "gratidao"
   },
   {
    "p": "grande",
-   "ini": 91.78,
-   "fim": 92.16,
+   "ini": 120.72,
+   "fim": 121.1,
    "trecho": "gratidao"
   },
   {
    "p": "Ver",
-   "ini": 92.16,
-   "fim": 92.7,
+   "ini": 121.1,
+   "fim": 121.64,
    "trecho": "gratidao"
   },
   {
    "p": "o",
-   "ini": 92.7,
-   "fim": 92.86,
+   "ini": 121.64,
+   "fim": 121.8,
    "trecho": "gratidao"
   },
   {
    "p": "pessoal",
-   "ini": 92.86,
-   "fim": 93.24,
+   "ini": 121.8,
+   "fim": 122.18,
    "trecho": "gratidao"
   },
   {
    "p": "que",
-   "ini": 93.24,
-   "fim": 93.56,
+   "ini": 122.18,
+   "fim": 122.5,
    "trecho": "gratidao"
   },
   {
    "p": "se",
-   "ini": 93.56,
-   "fim": 93.68,
+   "ini": 122.5,
+   "fim": 122.62,
    "trecho": "gratidao"
   },
   {
    "p": "fez",
-   "ini": 93.68,
-   "fim": 93.88,
+   "ini": 122.62,
+   "fim": 122.82,
    "trecho": "gratidao"
   },
   {
    "p": "aqui",
-   "ini": 93.88,
-   "fim": 94.06,
+   "ini": 122.82,
+   "fim": 123.0,
    "trecho": "gratidao"
   },
   {
    "p": "presente",
-   "ini": 94.06,
-   "fim": 94.48,
+   "ini": 123.0,
+   "fim": 123.42,
    "trecho": "gratidao"
   },
   {
    "p": "Então,",
-   "ini": 94.48,
-   "fim": 95.24,
+   "ini": 123.42,
+   "fim": 124.18,
    "trecho": "gratidao"
   },
   {
    "p": "a",
-   "ini": 95.46,
-   "fim": 96.06,
+   "ini": 124.4,
+   "fim": 125.0,
    "trecho": "gratidao"
   },
   {
    "p": "gente",
-   "ini": 96.06,
-   "fim": 96.26,
+   "ini": 125.0,
+   "fim": 125.2,
    "trecho": "gratidao"
   },
   {
    "p": "está",
-   "ini": 96.26,
-   "fim": 96.4,
+   "ini": 125.2,
+   "fim": 125.34,
    "trecho": "gratidao"
   },
   {
    "p": "promovendo",
-   "ini": 96.4,
-   "fim": 96.9,
+   "ini": 125.34,
+   "fim": 125.84,
    "trecho": "gratidao"
   },
   {
    "p": "saúde,",
-   "ini": 96.9,
-   "fim": 97.16,
+   "ini": 125.84,
+   "fim": 126.1,
    "trecho": "gratidao"
   },
   {
    "p": "a",
-   "ini": 97.38,
-   "fim": 97.54,
+   "ini": 126.32,
+   "fim": 126.48,
    "trecho": "gratidao"
   },
   {
    "p": "gente",
-   "ini": 97.54,
-   "fim": 97.62,
+   "ini": 126.48,
+   "fim": 126.56,
    "trecho": "gratidao"
   },
   {
    "p": "está",
-   "ini": 97.62,
-   "fim": 97.78,
+   "ini": 126.56,
+   "fim": 126.72,
    "trecho": "gratidao"
   },
   {
    "p": "promovendo",
-   "ini": 97.78,
-   "fim": 98.3,
+   "ini": 126.72,
+   "fim": 127.24,
    "trecho": "gratidao"
   },
   {
    "p": "um",
-   "ini": 98.3,
-   "fim": 98.42,
+   "ini": 127.24,
+   "fim": 127.36,
    "trecho": "gratidao"
   },
   {
    "p": "dia",
-   "ini": 98.42,
-   "fim": 98.58,
+   "ini": 127.36,
+   "fim": 127.52,
    "trecho": "gratidao"
   },
   {
    "p": "diferente",
-   "ini": 98.58,
-   "fim": 99.04,
+   "ini": 127.52,
+   "fim": 127.98,
    "trecho": "gratidao"
   },
   {
    "p": "É",
-   "ini": 99.04,
-   "fim": 99.62,
+   "ini": 127.98,
+   "fim": 128.56,
    "trecho": "gratidao"
   },
   {
    "p": "um",
-   "ini": 99.62,
-   "fim": 99.82,
+   "ini": 128.56,
+   "fim": 128.76,
    "trecho": "gratidao"
   },
   {
    "p": "dia",
-   "ini": 99.82,
-   "fim": 99.98,
+   "ini": 128.76,
+   "fim": 128.92,
    "trecho": "gratidao"
   },
   {
    "p": "de",
-   "ini": 99.98,
-   "fim": 100.1,
+   "ini": 128.92,
+   "fim": 129.04,
    "trecho": "gratidao"
   },
   {
    "p": "lazer",
-   "ini": 100.1,
-   "fim": 100.48,
+   "ini": 129.04,
+   "fim": 129.42,
    "trecho": "gratidao"
   }
  ]
