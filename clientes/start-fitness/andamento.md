@@ -68,8 +68,10 @@
   obrigado!" (manuscrita). Sem headline na resposta final do menino (não dá pra garantir se é "um esforcinho").
   Tirado o som de relógio do "NERVOSO" (embolava o "largada"). Emendas conferidas no som; −13,2 LUFS, pico −1,3 dBFS.
 
-## Em aberto
-- **Feed da corrida:** aprovação da v3 (v1 e v2 continuam no Drive até aprovar; depois vão pro `_ARQUIVO`). O nome "Adriano Barbosa" entra na tela como o locutor anunciou (confirmar grafia).
+- **2026-11-02 · Feed v3 APROVADO pela Talyta** e entregue: `H:\Meu Drive\Start Fitnes\POSTS\2026-11\2026-11-01 · Feed 2ª Corrida Start Fitness.mp4`
+  (132,5 s). v1 e v2 em `_ARQUIVO\versoes-anteriores\`.
+
+## Em aberto O nome "Adriano Barbosa" entra na tela como o locutor anunciou (confirmar grafia).
 - **Confirmar a fala de 24,4 s** do vídeo 1 ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].
 - Brand book: perguntar se se aplica (serviço só de edição).
