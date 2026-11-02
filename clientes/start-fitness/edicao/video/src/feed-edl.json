@@ -1,0 +1,1394 @@
+{
+ "total": 83.94,
+ "trechos": [
+  {
+   "id": "abre",
+   "de": 0.0,
+   "ate": 1.25,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 0.0,
+     "ate": 1.25,
+     "fonte": "IMG_0871",
+     "tipo": "v"
+    }
+   ],
+   "som": null
+  },
+  {
+   "id": "gancho",
+   "de": 1.25,
+   "ate": 7.55,
+   "txt": "Uma corrida, muita energia e superação. Acompanha com a gente a segunda edição da corrida Start Fitness.",
+   "imagens": [
+    {
+     "de": 1.25,
+     "ate": 2.2,
+     "fonte": "IMG_0844",
+     "tipo": "v"
+    },
+    {
+     "de": 2.2,
+     "ate": 3.8,
+     "fonte": "IMG_0856",
+     "tipo": "v"
+    },
+    {
+     "de": 3.8,
+     "ate": 7.55,
+     "fonte": "IMG_0844",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0844",
+    0.0,
+    6.3
+   ]
+  },
+  {
+   "id": "ponte",
+   "de": 7.55,
+   "ate": 10.75,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 7.55,
+     "ate": 8.55,
+     "fonte": "IMG_0836",
+     "tipo": "v"
+    },
+    {
+     "de": 8.55,
+     "ate": 9.75,
+     "fonte": "IMG_0855",
+     "tipo": "v"
+    },
+    {
+     "de": 9.75,
+     "ate": 10.75,
+     "fonte": "IMG_0857",
+     "tipo": "v"
+    }
+   ],
+   "som": null
+  },
+  {
+   "id": "organizacao",
+   "de": 10.75,
+   "ate": 19.85,
+   "txt": "A princípio, quando eu vi a corrida pela primeira vez, foi a organização. Muito bem organizado, o percurso muito bem definido, sem erros.",
+   "imagens": [
+    {
+     "de": 10.75,
+     "ate": 15.95,
+     "fonte": "IMG_0860",
+     "tipo": "v"
+    },
+    {
+     "de": 15.95,
+     "ate": 17.95,
+     "fonte": "IMG_0905",
+     "tipo": "f"
+    },
+    {
+     "de": 17.95,
+     "ate": 19.85,
+     "fonte": "IMG_0860",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0860",
+    14.85,
+    23.95
+   ]
+  },
+  {
+   "id": "nervoso",
+   "de": 19.85,
+   "ate": 24.1,
+   "txt": "Dormi sete horinhas ali, mas sempre bate aquele nervoso na hora da largada.",
+   "imagens": [
+    {
+     "de": 19.85,
+     "ate": 24.1,
+     "fonte": "IMG_0860",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0860",
+    64.6,
+    68.85
+   ]
+  },
+  {
+   "id": "alinhados",
+   "de": 24.1,
+   "ate": 25.1,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 24.1,
+     "ate": 25.1,
+     "fonte": "IMG_0863",
+     "tipo": "v"
+    }
+   ],
+   "som": null
+  },
+  {
+   "id": "contagem",
+   "de": 25.1,
+   "ate": 32.85,
+   "txt": "cinco, quatro, três, dois, largou!",
+   "imagens": [
+    {
+     "de": 25.1,
+     "ate": 32.85,
+     "fonte": "IMG_0867",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0867",
+    5.85,
+    13.6
+   ]
+  },
+  {
+   "id": "percurso",
+   "de": 32.85,
+   "ate": 37.41,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 32.85,
+     "ate": 33.27,
+     "fonte": "IMG_0899",
+     "tipo": "f"
+    },
+    {
+     "de": 33.27,
+     "ate": 33.69,
+     "fonte": "IMG_0901",
+     "tipo": "f"
+    },
+    {
+     "de": 33.69,
+     "ate": 34.11,
+     "fonte": "IMG_0904",
+     "tipo": "f"
+    },
+    {
+     "de": 34.11,
+     "ate": 34.53,
+     "fonte": "IMG_0906",
+     "tipo": "f"
+    },
+    {
+     "de": 34.53,
+     "ate": 34.95,
+     "fonte": "IMG_0908",
+     "tipo": "f"
+    },
+    {
+     "de": 34.95,
+     "ate": 35.37,
+     "fonte": "IMG_0910",
+     "tipo": "f"
+    },
+    {
+     "de": 35.37,
+     "ate": 35.79,
+     "fonte": "IMG_0913",
+     "tipo": "f"
+    },
+    {
+     "de": 35.79,
+     "ate": 36.21,
+     "fonte": "IMG_0915",
+     "tipo": "f"
+    },
+    {
+     "de": 36.21,
+     "ate": 37.41,
+     "fonte": "IMG_0875",
+     "tipo": "v"
+    }
+   ],
+   "som": null
+  },
+  {
+   "id": "chegada",
+   "de": 37.41,
+   "ate": 47.29,
+   "txt": "É o primeiro a chegar na segunda edição da Corrida Start Fitness. Adriano Barbosa, parabéns!",
+   "imagens": [
+    {
+     "de": 37.41,
+     "ate": 47.29,
+     "fonte": "IMG_0871",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0871",
+    0.74,
+    10.62
+   ]
+  },
+  {
+   "id": "emocao",
+   "de": 47.29,
+   "ate": 48.59,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 47.29,
+     "ate": 48.59,
+     "fonte": "IMG_0872",
+     "tipo": "f"
+    }
+   ],
+   "som": null
+  },
+  {
+   "id": "campea",
+   "de": 48.59,
+   "ate": 56.96,
+   "txt": "Pessoal, a Adriana Teodosio foi a vencedora do 5KM, foi a mulher que chegou mais rápido na segunda edição da Corrida Start Fitness.",
+   "imagens": [
+    {
+     "de": 48.59,
+     "ate": 50.59,
+     "fonte": "IMG_0891",
+     "tipo": "v"
+    },
+    {
+     "de": 50.59,
+     "ate": 52.89,
+     "fonte": "IMG_0876",
+     "tipo": "v"
+    },
+    {
+     "de": 52.89,
+     "ate": 54.49,
+     "fonte": "IMG_0892",
+     "tipo": "f"
+    },
+    {
+     "de": 54.49,
+     "ate": 56.96,
+     "fonte": "IMG_0891",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0891",
+    0.0,
+    8.37
+   ]
+  },
+  {
+   "id": "dedica",
+   "de": 56.96,
+   "ate": 62.96,
+   "txt": "Essa primeira colocação eu dedico ao meu filho, né, porque eu sou mãe atleta.",
+   "imagens": [
+    {
+     "de": 56.96,
+     "ate": 62.96,
+     "fonte": "IMG_0891",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0891",
+    74.95,
+    80.95
+   ]
+  },
+  {
+   "id": "cuidar",
+   "de": 62.96,
+   "ate": 70.68,
+   "txt": "E a Corrida Start Fitness vocês sabem que sabe cuidar da galera. Tem essa estação aqui que é de fisioterapia.",
+   "imagens": [
+    {
+     "de": 62.96,
+     "ate": 67.86,
+     "fonte": "IMG_0926",
+     "tipo": "v"
+    },
+    {
+     "de": 67.86,
+     "ate": 70.68,
+     "fonte": "IMG_0925",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0926",
+    0.0,
+    7.72
+   ]
+  },
+  {
+   "id": "catiana",
+   "de": 70.68,
+   "ate": 78.94,
+   "txt": "Foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
+   "imagens": [
+    {
+     "de": 70.68,
+     "ate": 72.63,
+     "fonte": "IMG_0929",
+     "tipo": "v"
+    },
+    {
+     "de": 72.63,
+     "ate": 73.73,
+     "fonte": "IMG_0885",
+     "tipo": "v"
+    },
+    {
+     "de": 73.73,
+     "ate": 74.83,
+     "fonte": "IMG_0888",
+     "tipo": "v"
+    },
+    {
+     "de": 74.83,
+     "ate": 78.94,
+     "fonte": "IMG_0929",
+     "tipo": "v"
+    }
+   ],
+   "som": [
+    "IMG_0929",
+    29.62,
+    37.88
+   ]
+  },
+  {
+   "id": "gratidao",
+   "de": 78.94,
+   "ate": 83.94,
+   "txt": "É um sentimento de gratidão muito grande. Ver o pessoal que se fez aqui presente.",
+   "imagens": [
+    {
+     "de": 78.94,
+     "ate": 81.49,
+     "fonte": "IMG_0934",
+     "tipo": "v"
+    },
+    {
+     "de": 81.49,
+     "ate": 83.94,
+     "fonte": "IMG_0858",
+     "tipo": "f"
+    }
+   ],
+   "som": [
+    "IMG_0934",
+    20.95,
+    25.95
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "p": "Uma",
+   "ini": 1.25,
+   "fim": 1.37,
+   "trecho": "gancho"
+  },
+  {
+   "p": "corrida,",
+   "ini": 1.37,
+   "fim": 1.87,
+   "trecho": "gancho"
+  },
+  {
+   "p": "muita",
+   "ini": 1.87,
+   "fim": 2.19,
+   "trecho": "gancho"
+  },
+  {
+   "p": "energia",
+   "ini": 2.19,
+   "fim": 2.61,
+   "trecho": "gancho"
+  },
+  {
+   "p": "e",
+   "ini": 2.61,
+   "fim": 2.97,
+   "trecho": "gancho"
+  },
+  {
+   "p": "superação.",
+   "ini": 2.97,
+   "fim": 3.65,
+   "trecho": "gancho"
+  },
+  {
+   "p": "Acompanha",
+   "ini": 4.03,
+   "fim": 4.67,
+   "trecho": "gancho"
+  },
+  {
+   "p": "com",
+   "ini": 4.67,
+   "fim": 4.79,
+   "trecho": "gancho"
+  },
+  {
+   "p": "a",
+   "ini": 4.79,
+   "fim": 4.87,
+   "trecho": "gancho"
+  },
+  {
+   "p": "gente",
+   "ini": 4.87,
+   "fim": 5.09,
+   "trecho": "gancho"
+  },
+  {
+   "p": "a",
+   "ini": 5.09,
+   "fim": 5.29,
+   "trecho": "gancho"
+  },
+  {
+   "p": "segunda",
+   "ini": 5.29,
+   "fim": 5.67,
+   "trecho": "gancho"
+  },
+  {
+   "p": "edição",
+   "ini": 5.67,
+   "fim": 5.99,
+   "trecho": "gancho"
+  },
+  {
+   "p": "da",
+   "ini": 5.99,
+   "fim": 6.07,
+   "trecho": "gancho"
+  },
+  {
+   "p": "corrida",
+   "ini": 6.07,
+   "fim": 6.57,
+   "trecho": "gancho"
+  },
+  {
+   "p": "Start",
+   "ini": 6.57,
+   "fim": 6.93,
+   "trecho": "gancho"
+  },
+  {
+   "p": "Fitness.",
+   "ini": 6.93,
+   "fim": 7.31,
+   "trecho": "gancho"
+  },
+  {
+   "p": "A",
+   "ini": 10.9,
+   "fim": 11.3,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "princípio,",
+   "ini": 11.3,
+   "fim": 11.7,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "quando",
+   "ini": 11.7,
+   "fim": 11.88,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "eu",
+   "ini": 11.88,
+   "fim": 12.0,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "vi",
+   "ini": 12.0,
+   "fim": 12.14,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "a",
+   "ini": 12.14,
+   "fim": 12.22,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "corrida",
+   "ini": 12.22,
+   "fim": 12.5,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "pela",
+   "ini": 12.5,
+   "fim": 12.66,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "primeira",
+   "ini": 12.66,
+   "fim": 12.96,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "vez,",
+   "ini": 12.96,
+   "fim": 13.26,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "foi",
+   "ini": 13.32,
+   "fim": 13.54,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "a",
+   "ini": 13.54,
+   "fim": 13.74,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "organização.",
+   "ini": 13.74,
+   "fim": 14.28,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "Muito",
+   "ini": 14.58,
+   "fim": 14.98,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "bem",
+   "ini": 14.98,
+   "fim": 15.16,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "organizado,",
+   "ini": 15.16,
+   "fim": 15.86,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "o",
+   "ini": 16.02,
+   "fim": 17.12,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "percurso",
+   "ini": 17.12,
+   "fim": 17.74,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "muito",
+   "ini": 17.74,
+   "fim": 17.88,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "bem",
+   "ini": 17.88,
+   "fim": 18.12,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "definido,",
+   "ini": 18.12,
+   "fim": 18.76,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "sem",
+   "ini": 18.78,
+   "fim": 19.12,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "erros.",
+   "ini": 19.12,
+   "fim": 19.66,
+   "trecho": "organizacao"
+  },
+  {
+   "p": "Dormi",
+   "ini": 19.85,
+   "fim": 20.05,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "sete",
+   "ini": 20.05,
+   "fim": 20.45,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "horinhas",
+   "ini": 20.45,
+   "fim": 20.71,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "ali,",
+   "ini": 20.71,
+   "fim": 20.89,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "mas",
+   "ini": 21.11,
+   "fim": 22.03,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "sempre",
+   "ini": 22.03,
+   "fim": 22.41,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "bate",
+   "ini": 22.41,
+   "fim": 22.65,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "aquele",
+   "ini": 22.65,
+   "fim": 22.79,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "nervoso",
+   "ini": 22.79,
+   "fim": 23.25,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "na",
+   "ini": 23.25,
+   "fim": 23.31,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "hora",
+   "ini": 23.31,
+   "fim": 23.43,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "da",
+   "ini": 23.43,
+   "fim": 23.55,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "largada.",
+   "ini": 23.55,
+   "fim": 23.91,
+   "trecho": "nervoso"
+  },
+  {
+   "p": "quatro,",
+   "ini": 26.04,
+   "fim": 27.08,
+   "trecho": "contagem"
+  },
+  {
+   "p": "três,",
+   "ini": 27.5,
+   "fim": 28.4,
+   "trecho": "contagem"
+  },
+  {
+   "p": "dois,",
+   "ini": 28.92,
+   "fim": 29.86,
+   "trecho": "contagem"
+  },
+  {
+   "p": "lá",
+   "ini": 30.46,
+   "fim": 31.06,
+   "trecho": "contagem"
+  },
+  {
+   "p": "dois,",
+   "ini": 31.06,
+   "fim": 31.64,
+   "trecho": "contagem"
+  },
+  {
+   "p": "é",
+   "ini": 37.45,
+   "fim": 37.97,
+   "trecho": "chegada"
+  },
+  {
+   "p": "o",
+   "ini": 37.97,
+   "fim": 39.77,
+   "trecho": "chegada"
+  },
+  {
+   "p": "primeiro",
+   "ini": 39.77,
+   "fim": 40.03,
+   "trecho": "chegada"
+  },
+  {
+   "p": "a",
+   "ini": 40.03,
+   "fim": 40.23,
+   "trecho": "chegada"
+  },
+  {
+   "p": "chegar",
+   "ini": 40.23,
+   "fim": 40.49,
+   "trecho": "chegada"
+  },
+  {
+   "p": "na",
+   "ini": 40.49,
+   "fim": 41.41,
+   "trecho": "chegada"
+  },
+  {
+   "p": "segunda",
+   "ini": 41.41,
+   "fim": 41.85,
+   "trecho": "chegada"
+  },
+  {
+   "p": "edição",
+   "ini": 41.85,
+   "fim": 42.77,
+   "trecho": "chegada"
+  },
+  {
+   "p": "da",
+   "ini": 42.77,
+   "fim": 42.93,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Corrida",
+   "ini": 42.93,
+   "fim": 43.29,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Start",
+   "ini": 43.29,
+   "fim": 43.61,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Fitness",
+   "ini": 43.61,
+   "fim": 44.01,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Adriano",
+   "ini": 45.29,
+   "fim": 45.93,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Barbosa",
+   "ini": 45.93,
+   "fim": 46.47,
+   "trecho": "chegada"
+  },
+  {
+   "p": "parabéns,",
+   "ini": 46.47,
+   "fim": 47.25,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Pessoal,",
+   "ini": 48.59,
+   "fim": 48.87,
+   "trecho": "campea"
+  },
+  {
+   "p": "a",
+   "ini": 48.87,
+   "fim": 49.05,
+   "trecho": "campea"
+  },
+  {
+   "p": "Adriana",
+   "ini": 49.05,
+   "fim": 49.41,
+   "trecho": "campea"
+  },
+  {
+   "p": "Teodosio",
+   "ini": 49.41,
+   "fim": 50.11,
+   "trecho": "campea"
+  },
+  {
+   "p": "foi",
+   "ini": 50.11,
+   "fim": 50.33,
+   "trecho": "campea"
+  },
+  {
+   "p": "a",
+   "ini": 50.33,
+   "fim": 50.51,
+   "trecho": "campea"
+  },
+  {
+   "p": "vencedora",
+   "ini": 50.51,
+   "fim": 51.63,
+   "trecho": "campea"
+  },
+  {
+   "p": "do",
+   "ini": 51.63,
+   "fim": 51.83,
+   "trecho": "campea"
+  },
+  {
+   "p": "5KM,",
+   "ini": 51.83,
+   "fim": 52.83,
+   "trecho": "campea"
+  },
+  {
+   "p": "foi",
+   "ini": 52.91,
+   "fim": 53.39,
+   "trecho": "campea"
+  },
+  {
+   "p": "a",
+   "ini": 53.39,
+   "fim": 53.51,
+   "trecho": "campea"
+  },
+  {
+   "p": "mulher",
+   "ini": 53.51,
+   "fim": 53.71,
+   "trecho": "campea"
+  },
+  {
+   "p": "que",
+   "ini": 53.71,
+   "fim": 53.87,
+   "trecho": "campea"
+  },
+  {
+   "p": "chegou",
+   "ini": 53.87,
+   "fim": 54.13,
+   "trecho": "campea"
+  },
+  {
+   "p": "mais",
+   "ini": 54.13,
+   "fim": 54.37,
+   "trecho": "campea"
+  },
+  {
+   "p": "rápido",
+   "ini": 54.37,
+   "fim": 54.91,
+   "trecho": "campea"
+  },
+  {
+   "p": "na",
+   "ini": 54.91,
+   "fim": 55.17,
+   "trecho": "campea"
+  },
+  {
+   "p": "segunda",
+   "ini": 55.17,
+   "fim": 55.49,
+   "trecho": "campea"
+  },
+  {
+   "p": "edição",
+   "ini": 55.49,
+   "fim": 55.79,
+   "trecho": "campea"
+  },
+  {
+   "p": "da",
+   "ini": 55.79,
+   "fim": 55.93,
+   "trecho": "campea"
+  },
+  {
+   "p": "Corrida",
+   "ini": 55.93,
+   "fim": 56.21,
+   "trecho": "campea"
+  },
+  {
+   "p": "Start",
+   "ini": 56.21,
+   "fim": 56.47,
+   "trecho": "campea"
+  },
+  {
+   "p": "Fitness.",
+   "ini": 56.47,
+   "fim": 56.85,
+   "trecho": "campea"
+  },
+  {
+   "p": "essa",
+   "ini": 57.03,
+   "fim": 57.25,
+   "trecho": "dedica"
+  },
+  {
+   "p": "primeira",
+   "ini": 57.25,
+   "fim": 58.13,
+   "trecho": "dedica"
+  },
+  {
+   "p": "colocação",
+   "ini": 58.13,
+   "fim": 60.07,
+   "trecho": "dedica"
+  },
+  {
+   "p": "eu",
+   "ini": 60.07,
+   "fim": 60.13,
+   "trecho": "dedica"
+  },
+  {
+   "p": "dedico",
+   "ini": 60.13,
+   "fim": 60.95,
+   "trecho": "dedica"
+  },
+  {
+   "p": "ao",
+   "ini": 60.95,
+   "fim": 61.03,
+   "trecho": "dedica"
+  },
+  {
+   "p": "meu",
+   "ini": 61.03,
+   "fim": 61.19,
+   "trecho": "dedica"
+  },
+  {
+   "p": "filho,",
+   "ini": 61.19,
+   "fim": 61.45,
+   "trecho": "dedica"
+  },
+  {
+   "p": "né,",
+   "ini": 61.55,
+   "fim": 61.63,
+   "trecho": "dedica"
+  },
+  {
+   "p": "porque",
+   "ini": 61.63,
+   "fim": 61.73,
+   "trecho": "dedica"
+  },
+  {
+   "p": "eu",
+   "ini": 61.73,
+   "fim": 61.87,
+   "trecho": "dedica"
+  },
+  {
+   "p": "sou",
+   "ini": 61.87,
+   "fim": 61.99,
+   "trecho": "dedica"
+  },
+  {
+   "p": "mãe",
+   "ini": 61.99,
+   "fim": 62.13,
+   "trecho": "dedica"
+  },
+  {
+   "p": "atleta.",
+   "ini": 62.13,
+   "fim": 62.83,
+   "trecho": "dedica"
+  },
+  {
+   "p": "E",
+   "ini": 62.96,
+   "fim": 63.66,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "a",
+   "ini": 63.66,
+   "fim": 63.76,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "Corrida",
+   "ini": 63.76,
+   "fim": 64.16,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "Start",
+   "ini": 64.16,
+   "fim": 64.46,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "Fitness",
+   "ini": 64.46,
+   "fim": 64.88,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "vocês",
+   "ini": 64.88,
+   "fim": 65.22,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "sabem",
+   "ini": 65.22,
+   "fim": 65.96,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "que",
+   "ini": 65.96,
+   "fim": 66.44,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "sabe",
+   "ini": 66.44,
+   "fim": 66.8,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "cuidar",
+   "ini": 66.8,
+   "fim": 67.44,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "da",
+   "ini": 67.44,
+   "fim": 67.52,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "galera",
+   "ini": 67.52,
+   "fim": 67.82,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "Tem",
+   "ini": 67.82,
+   "fim": 68.5,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "essa",
+   "ini": 68.5,
+   "fim": 68.74,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "estação",
+   "ini": 68.74,
+   "fim": 69.24,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "aqui",
+   "ini": 69.24,
+   "fim": 69.46,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "que",
+   "ini": 69.46,
+   "fim": 69.62,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "é",
+   "ini": 69.62,
+   "fim": 69.7,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "de",
+   "ini": 69.7,
+   "fim": 69.8,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "fisioterapia",
+   "ini": 69.8,
+   "fim": 70.64,
+   "trecho": "cuidar"
+  },
+  {
+   "p": "foi",
+   "ini": 70.81,
+   "fim": 71.25,
+   "trecho": "catiana"
+  },
+  {
+   "p": "maravilhoso,",
+   "ini": 71.25,
+   "fim": 72.53,
+   "trecho": "catiana"
+  },
+  {
+   "p": "teve",
+   "ini": 72.63,
+   "fim": 72.99,
+   "trecho": "catiana"
+  },
+  {
+   "p": "tudo",
+   "ini": 72.99,
+   "fim": 73.95,
+   "trecho": "catiana"
+  },
+  {
+   "p": "e",
+   "ini": 73.95,
+   "fim": 74.15,
+   "trecho": "catiana"
+  },
+  {
+   "p": "mais",
+   "ini": 74.15,
+   "fim": 74.35,
+   "trecho": "catiana"
+  },
+  {
+   "p": "um",
+   "ini": 74.35,
+   "fim": 74.53,
+   "trecho": "catiana"
+  },
+  {
+   "p": "pouco",
+   "ini": 74.53,
+   "fim": 74.87,
+   "trecho": "catiana"
+  },
+  {
+   "p": "Superou",
+   "ini": 74.87,
+   "fim": 75.53,
+   "trecho": "catiana"
+  },
+  {
+   "p": "todas",
+   "ini": 75.53,
+   "fim": 75.73,
+   "trecho": "catiana"
+  },
+  {
+   "p": "as",
+   "ini": 75.73,
+   "fim": 75.99,
+   "trecho": "catiana"
+  },
+  {
+   "p": "expectativas",
+   "ini": 75.99,
+   "fim": 76.75,
+   "trecho": "catiana"
+  },
+  {
+   "p": "Não",
+   "ini": 76.75,
+   "fim": 77.39,
+   "trecho": "catiana"
+  },
+  {
+   "p": "é",
+   "ini": 77.39,
+   "fim": 77.57,
+   "trecho": "catiana"
+  },
+  {
+   "p": "só",
+   "ini": 77.57,
+   "fim": 77.75,
+   "trecho": "catiana"
+  },
+  {
+   "p": "a",
+   "ini": 77.75,
+   "fim": 77.87,
+   "trecho": "catiana"
+  },
+  {
+   "p": "medalha",
+   "ini": 77.87,
+   "fim": 78.29,
+   "trecho": "catiana"
+  },
+  {
+   "p": "e",
+   "ini": 78.29,
+   "fim": 78.39,
+   "trecho": "catiana"
+  },
+  {
+   "p": "banana",
+   "ini": 78.39,
+   "fim": 78.57,
+   "trecho": "catiana"
+  },
+  {
+   "p": "não",
+   "ini": 78.57,
+   "fim": 78.94,
+   "trecho": "catiana"
+  },
+  {
+   "p": "É",
+   "ini": 78.99,
+   "fim": 79.59,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "um",
+   "ini": 79.59,
+   "fim": 79.77,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "sentimento",
+   "ini": 79.77,
+   "fim": 80.09,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "de",
+   "ini": 80.09,
+   "fim": 80.29,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "gratidão",
+   "ini": 80.29,
+   "fim": 80.85,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "muito",
+   "ini": 80.85,
+   "fim": 81.11,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "grande",
+   "ini": 81.11,
+   "fim": 81.49,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "Ver",
+   "ini": 81.49,
+   "fim": 82.03,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "o",
+   "ini": 82.03,
+   "fim": 82.19,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "pessoal",
+   "ini": 82.19,
+   "fim": 82.57,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "que",
+   "ini": 82.57,
+   "fim": 82.89,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "se",
+   "ini": 82.89,
+   "fim": 83.01,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "fez",
+   "ini": 83.01,
+   "fim": 83.21,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "aqui",
+   "ini": 83.21,
+   "fim": 83.39,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "presente",
+   "ini": 83.39,
+   "fim": 83.81,
+   "trecho": "gratidao"
+  }
+ ]
+}

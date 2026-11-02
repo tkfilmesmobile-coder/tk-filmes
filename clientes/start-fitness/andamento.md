@@ -38,7 +38,20 @@
 - **2026-10-28 · Vídeo 2 v1 APROVADA pela Talyta** e entregue: `H:\Meu Drive\Start Fitnes\POSTS\2026-10\2026-10-28 · Entrevista Expectativas 2ª Corrida.mp4`.
   Os dois vídeos do serviço estão entregues.
 
+- **2026-11-01 · Cobertura da 2ª Corrida (dia do evento):** a Talyta foi contratada pra stories + feed (stories já
+  entregues por ela). **Vídeo do feed v1**, pra aprovação: `H:\Meu Drive\Start Fitnes\POSTS\2026-11\2026-11-01 · Feed 2ª Corrida Start Fitness (v1).mp4`
+  (86,5 s). Captações: 40 vídeos + 35 fotos na raiz do Drive (IMG_0836 a IMG_0934, 5h41–7h46). Corte em
+  `edicao/2026-11-corrida-feed/montar.py`: gancho do apresentador → aquecimento → Gabriel (organização, nervoso da
+  largada) → contagem "5, 4, 3, 2, LARGOU!" → fotos do percurso → chegada do 621 (Adriano Barbosa, de joelhos) →
+  campeã dos 5 km (513, "dedico ao meu filho, sou mãe atleta") → fisioterapia → Catiana ("não é só medalha e banana")
+  → organizador ("gratidão") → cartela "VALEU, GALERA!". Fora: Sueli, Rosilda, Juliana (cerveja, "corta, é ao
+  vivo?"), som falhando, apresentação abortada, a campeã chamando a academia de "Smart Fit", patrocinadores com nome
+  incerto. Curadoria: emendas conferidas trecho a trecho; trilha mais baixa na fala (0,03) porque cobria o "-ness"
+  de "Fitness"; −13,3 LUFS, pico −1,3 dBFS. O apresentador fala mesmo "Corrida Start Fit" no fim da apresentação
+  da campeã (não é corte).
+
 ## Em aberto
+- **Feed da corrida:** aprovação da v1. O nome "Adriano Barbosa" entra na tela como o locutor anunciou (confirmar grafia).
 - **Confirmar a fala de 24,4 s** do vídeo 1 ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].
 - Brand book: perguntar se se aplica (serviço só de edição).

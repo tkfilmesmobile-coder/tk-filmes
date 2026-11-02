@@ -1,0 +1,115 @@
+== IMG_0595 (15.8 s)
+  [  0.9-  1.8] Eu esqueci.
+  [  2.2-  3.5] Muito prazer.
+  [  3.9-  5.1] É, vamos lá.
+  [  5.6-  7.0] Um, dois, três.
+  [  7.7-  8.7] Muito prazer.
+  [  9.3- 10.1] Eu sou Ana Lídia.
+  [ 10.4- 12.8] Sou cirurgiã dentista há 12 anos.
+  [ 13.1- 15.2] E hoje eu quero me apresentar um pouquinho pra vocês.
+== IMG_0596 (8.5 s)
+  [  1.2-  8.0] Muito prazer, eu sou Ana Lídia, sou cirurgiã dentista há 12 anos e hoje eu quero me apresentar um pouquinho para vocês.
+== IMG_0597 (6.6 s)
+  [  0.3-  6.0] Sou especialista em endodontia, canal, mas aqui eu cuido muito mais do que isso.
+== IMG_0598 (7.7 s)
+  [  0.7-  7.2] Sou especialista em endodontia, mais conhecido como canal, mas aqui eu cuido muito mais do que isso.
+== IMG_0599 (7.6 s)
+  [  1.0-  7.2] Sou especialista em endodontia, mais conhecido como canal, mas aqui eu cuido muito mais do que isso.
+== IMG_0600 (14.4 s)
+  [  0.0-  3.9] Aqui eu atendo desde a criança até o idoso.
+  [  4.3- 12.7] Aqui você vai encontrar restauração, canal, limpeza, clareamento, prótese, aparelho.
+== IMG_0601 (6.5 s)
+  [  0.0-  3.3] Eu atendo desde a criança ao idoso.
+  [  3.5-  5.7] Aqui você vai encontrar o seu tratamento.
+== IMG_0602 (8.1 s)
+  [  0.8-  3.7] Eu atendo desde a criança até o idoso.
+  [  3.9-  7.4] Aqui você vai encontrar o seu tratamento completo, tudo em um só lugar.
+== IMG_0603 (8.5 s)
+  [  0.5-  8.0] Tratamentos como restauração, limpeza, clareamento, prótese e muito mais tudo aqui.
+== IMG_0604 (6.0 s)
+  [  0.7-  5.3] A ideia é que você encontre aqui todo o cuidado que você precisa.
+== IMG_0605 (9.5 s)
+  [  0.5-  3.2] Eu quero que você fique à vontade aqui comigo.
+  [  3.6-  6.4] Eu sei que é muito comum você ter medo de dentista,
+  [  6.6-  9.0] mas eu prometo que vou fazer você mudar de ideia.
+== IMG_0606 (7.9 s)
+  [  0.7-  3.9] Eu quero que você se sinta bastante à vontade aqui comigo.
+  [  4.2-  7.1] Eu sei que é comum você ter medo de dentista.
+  [  7.2-  7.7] Não, peraí.
+== IMG_0607 (9.3 s)
+  [  0.5-  3.2] Eu quero que você sinta bem a vontade aqui comigo.
+  [  3.6-  8.9] Eu sei que é comum ter medo de dentista, mas eu prometo que vou fazer você mudar de opinião.
+== IMG_0608 (4.5 s)
+  [  0.5-  2.9] Agora que você já me conhece um pouquinho.
+== IMG_0609 (9.0 s)
+  [  0.7-  5.0] Agora que você já me conhece um pouquinho, eu espero te encontrar aqui.
+  [  5.4-  8.3] Clica no link da Bio e marca teu horário. Vem!
+== IMG_0610 (5.6 s)
+  [  0.0-  4.1] Agora que você já me conhece um pouquinho, eu te espero aqui.
+== IMG_0611 (9.3 s)
+  [  0.4-  4.3] Agora que você já me conhece um pouquinho, eu te espero aqui.
+  [  4.6-  7.7] Clica no link da bio e vem. Vem conhecer.
+== IMG_0612 (10.3 s)
+  [  0.6-  5.0] Agora que você já me conhece um pouquinho, eu espero te encontrar aqui.
+  [  5.3-  9.1] Clica no link da bio, marca teu horário e vem, vem.
+== IMG_0613 (4.6 s)
+  [  0.8-  3.2] Agora que você já me conhece um pouquinho.
+== IMG_0614 (7.0 s)
+  [  0.3-  4.6] Agora que você me conhece já um pouquinho, eu espero te encontrar aqui.
+  [  5.0-  6.1] Marca teu horário.
+== IMG_0615 (4.1 s)
+  [  0.0-  2.5] Já que você me conhece um pouquinho.
+== IMG_0616 (8.0 s)
+  [  0.4-  4.9] Já que agora você me conhece um pouquinho, eu espero te encontrar aqui.
+  [  5.2-  7.2] Clica no link da bio e vem!
+== IMG_0617 (16.7 s)
+  [ 15.7- 16.6] É o fecho
+== IMG_0618 (6.6 s)
+  [  1.2-  4.0] Alexa, ligar as luzes do consultório.
+== IMG_0619 (21.3 s)
+  [  0.0-  2.9] Alexa, ligar as luzes do consultório.
+  [ 10.6- 13.3] Alexa, ligar as luzes do consultório.
+== IMG_0622 (3.5 s)
+  [  0.4-  3.0] Seja muito bem-vindo ao meu consultório.
+== IMG_0623 (3.8 s)
+  [  0.3-  3.0] Seja muito bem-vindo ao meu consultório.
+== IMG_0624 (2.1 s)
+  [  0.5-  1.5] a nossa...
+  [  1.5-  2.0] Eita?
+== IMG_0625 (9.5 s)
+  [  0.2-  9.0] A nossa localização é bem facinho, na rua Costa Rego, número 278, no centro de União dos Palmares, aqui na famosa Praça do Rocha.
+== IMG_0626 (9.6 s)
+  [  0.4-  9.3] A nossa localização é bem facinho, na rua Costa Rego, número 278, aqui na famosa Praça do Rocha, no centro de União dos Palmares.
+== IMG_0627 (10.2 s)
+  [  0.5-  9.7] A nossa localização é bem facinho. Fica na rua Costa Rego, número 278, no centro de União dos Palmares, aqui na famosa Praça do Rocha.
+== IMG_0628 (40.9 s)
+  [  0.0-  0.8] Travada, né?
+  [  1.7-  3.2] Fazer igual a Antônio.
+  [ 21.4- 22.4] Colou as brocas.
+  [ 33.0- 34.0] Cadê o novo?
+  [ 36.8- 37.8] Acho que essas
+  [ 37.8- 40.1] maletas deles. Arranhou
+  [ 40.1- 40.9] uma da recepção.
+== IMG_0635 (42.4 s)
+  [  3.7-  5.8] Vou botar isso aqui, é só para sair na frente.
+  [  6.1-  8.5] Alexa, toca Bolsa Nova.
+  [  9.1-  9.5] Foi.
+  [ 11.7- 12.1] Foi.
+  [ 12.1- 12.3] Foi.
+  [ 12.6- 13.1] Não repara.
+  [ 13.4- 14.1] É sem fácil.
+  [ 14.3- 15.2] Que preço é fácil.
+  [ 15.5- 16.1] É mais barato.
+  [ 17.9- 19.2] Eu não comprei porque é mais barato.
+  [ 21.6- 23.6] Pois a intenção não foi porque foi barato não.
+  [ 23.7- 27.0] É porque eu comprei leão, que era para...
+  [ 27.7- 28.2] Aqui.
+  [ 31.4- 32.2] Fica mais...
+  [ 34.2- 36.2] Porque a santinha fica mais aparente, né?
+  [ 39.0- 40.3] Me fiz até você
+  [ 41.3- 42.2] Adoro isso aqui
+== IMG_0637 (5.2 s)
+  [  0.5-  5.2] Esse espaço foi projetado com todo amor e carinho, pensando no seu conforto.
+== IMG_0638 (6.1 s)
+  [  0.0-  2.9] Vai ser um prazer imenso te receber aqui.
+  [  3.2-  5.6] Clica no link da bio e agenda teu horário.
