@@ -1,5 +1,5 @@
 {
- "total": 83.94,
+ "total": 100.96,
  "trechos": [
   {
    "id": "abre",
@@ -19,7 +19,7 @@
   {
    "id": "gancho",
    "de": 1.25,
-   "ate": 7.55,
+   "ate": 7.93,
    "txt": "Uma corrida, muita energia e superação. Acompanha com a gente a segunda edição da corrida Start Fitness.",
    "imagens": [
     {
@@ -36,7 +36,7 @@
     },
     {
      "de": 3.8,
-     "ate": 7.55,
+     "ate": 7.93,
      "fonte": "IMG_0844",
      "tipo": "v"
     }
@@ -44,30 +44,30 @@
    "som": [
     "IMG_0844",
     0.0,
-    6.3
+    6.68
    ]
   },
   {
    "id": "ponte",
-   "de": 7.55,
-   "ate": 10.75,
+   "de": 7.93,
+   "ate": 11.13,
    "txt": "",
    "imagens": [
     {
-     "de": 7.55,
-     "ate": 8.55,
+     "de": 7.93,
+     "ate": 8.93,
      "fonte": "IMG_0836",
      "tipo": "v"
     },
     {
-     "de": 8.55,
-     "ate": 9.75,
+     "de": 8.93,
+     "ate": 10.13,
      "fonte": "IMG_0855",
      "tipo": "v"
     },
     {
-     "de": 9.75,
-     "ate": 10.75,
+     "de": 10.13,
+     "ate": 11.13,
      "fonte": "IMG_0857",
      "tipo": "v"
     }
@@ -76,44 +76,44 @@
   },
   {
    "id": "organizacao",
-   "de": 10.75,
-   "ate": 19.85,
+   "de": 11.13,
+   "ate": 20.26,
    "txt": "A princípio, quando eu vi a corrida pela primeira vez, foi a organização. Muito bem organizado, o percurso muito bem definido, sem erros.",
    "imagens": [
     {
-     "de": 10.75,
-     "ate": 15.95,
+     "de": 11.13,
+     "ate": 16.33,
      "fonte": "IMG_0860",
      "tipo": "v"
     },
     {
-     "de": 15.95,
-     "ate": 17.95,
+     "de": 16.33,
+     "ate": 18.33,
      "fonte": "IMG_0905",
      "tipo": "f"
     },
     {
-     "de": 17.95,
-     "ate": 19.85,
+     "de": 18.33,
+     "ate": 20.26,
      "fonte": "IMG_0860",
      "tipo": "v"
     }
    ],
    "som": [
     "IMG_0860",
-    14.85,
-    23.95
+    14.92,
+    24.05
    ]
   },
   {
    "id": "nervoso",
-   "de": 19.85,
-   "ate": 24.1,
+   "de": 20.26,
+   "ate": 25.14,
    "txt": "Dormi sete horinhas ali, mas sempre bate aquele nervoso na hora da largada.",
    "imagens": [
     {
-     "de": 19.85,
-     "ate": 24.1,
+     "de": 20.26,
+     "ate": 25.14,
      "fonte": "IMG_0860",
      "tipo": "v"
     }
@@ -121,18 +121,18 @@
    "som": [
     "IMG_0860",
     64.6,
-    68.85
+    69.48
    ]
   },
   {
    "id": "alinhados",
-   "de": 24.1,
-   "ate": 25.1,
+   "de": 25.14,
+   "ate": 26.14,
    "txt": "",
    "imagens": [
     {
-     "de": 24.1,
-     "ate": 25.1,
+     "de": 25.14,
+     "ate": 26.14,
      "fonte": "IMG_0863",
      "tipo": "v"
     }
@@ -141,13 +141,13 @@
   },
   {
    "id": "contagem",
-   "de": 25.1,
-   "ate": 32.85,
+   "de": 26.14,
+   "ate": 34.04,
    "txt": "cinco, quatro, três, dois, largou!",
    "imagens": [
     {
-     "de": 25.1,
-     "ate": 32.85,
+     "de": 26.14,
+     "ate": 34.04,
      "fonte": "IMG_0867",
      "tipo": "v"
     }
@@ -155,66 +155,66 @@
    "som": [
     "IMG_0867",
     5.85,
-    13.6
+    13.75
    ]
   },
   {
    "id": "percurso",
-   "de": 32.85,
-   "ate": 37.41,
+   "de": 34.04,
+   "ate": 38.6,
    "txt": "",
    "imagens": [
     {
-     "de": 32.85,
-     "ate": 33.27,
+     "de": 34.04,
+     "ate": 34.46,
      "fonte": "IMG_0899",
      "tipo": "f"
     },
     {
-     "de": 33.27,
-     "ate": 33.69,
+     "de": 34.46,
+     "ate": 34.88,
      "fonte": "IMG_0901",
      "tipo": "f"
     },
     {
-     "de": 33.69,
-     "ate": 34.11,
+     "de": 34.88,
+     "ate": 35.3,
      "fonte": "IMG_0904",
      "tipo": "f"
     },
     {
-     "de": 34.11,
-     "ate": 34.53,
+     "de": 35.3,
+     "ate": 35.72,
      "fonte": "IMG_0906",
      "tipo": "f"
     },
     {
-     "de": 34.53,
-     "ate": 34.95,
+     "de": 35.72,
+     "ate": 36.14,
      "fonte": "IMG_0908",
      "tipo": "f"
     },
     {
-     "de": 34.95,
-     "ate": 35.37,
+     "de": 36.14,
+     "ate": 36.56,
      "fonte": "IMG_0910",
      "tipo": "f"
     },
     {
-     "de": 35.37,
-     "ate": 35.79,
+     "de": 36.56,
+     "ate": 36.98,
      "fonte": "IMG_0913",
      "tipo": "f"
     },
     {
-     "de": 35.79,
-     "ate": 36.21,
+     "de": 36.98,
+     "ate": 37.4,
      "fonte": "IMG_0915",
      "tipo": "f"
     },
     {
-     "de": 36.21,
-     "ate": 37.41,
+     "de": 37.4,
+     "ate": 38.6,
      "fonte": "IMG_0875",
      "tipo": "v"
     }
@@ -223,32 +223,32 @@
   },
   {
    "id": "chegada",
-   "de": 37.41,
-   "ate": 47.29,
-   "txt": "É o primeiro a chegar na segunda edição da Corrida Start Fitness. Adriano Barbosa, parabéns!",
+   "de": 38.6,
+   "ate": 48.37,
+   "txt": "É o primeiro a chegar na segunda edição da Corrida Start Fitness. Adriano Barbosa, parabéns! Cadê as palmas do Adriano?",
    "imagens": [
     {
-     "de": 37.41,
-     "ate": 47.29,
+     "de": 38.6,
+     "ate": 48.37,
      "fonte": "IMG_0871",
      "tipo": "v"
     }
    ],
    "som": [
     "IMG_0871",
-    0.74,
-    10.62
+    2.45,
+    12.22
    ]
   },
   {
    "id": "emocao",
-   "de": 47.29,
-   "ate": 48.59,
+   "de": 48.37,
+   "ate": 49.67,
    "txt": "",
    "imagens": [
     {
-     "de": 47.29,
-     "ate": 48.59,
+     "de": 48.37,
+     "ate": 49.67,
      "fonte": "IMG_0872",
      "tipo": "f"
     }
@@ -257,31 +257,31 @@
   },
   {
    "id": "campea",
-   "de": 48.59,
-   "ate": 56.96,
+   "de": 49.67,
+   "ate": 58.44,
    "txt": "Pessoal, a Adriana Teodosio foi a vencedora do 5KM, foi a mulher que chegou mais rápido na segunda edição da Corrida Start Fitness.",
    "imagens": [
     {
-     "de": 48.59,
-     "ate": 50.59,
+     "de": 49.67,
+     "ate": 51.67,
      "fonte": "IMG_0891",
      "tipo": "v"
     },
     {
-     "de": 50.59,
-     "ate": 52.89,
+     "de": 51.67,
+     "ate": 53.97,
      "fonte": "IMG_0876",
      "tipo": "v"
     },
     {
-     "de": 52.89,
-     "ate": 54.49,
+     "de": 53.97,
+     "ate": 55.57,
      "fonte": "IMG_0892",
      "tipo": "f"
     },
     {
-     "de": 54.49,
-     "ate": 56.96,
+     "de": 55.57,
+     "ate": 58.44,
      "fonte": "IMG_0891",
      "tipo": "v"
     }
@@ -289,113 +289,119 @@
    "som": [
     "IMG_0891",
     0.0,
-    8.37
+    8.77
    ]
   },
   {
    "id": "dedica",
-   "de": 56.96,
-   "ate": 62.96,
-   "txt": "Essa primeira colocação eu dedico ao meu filho, né, porque eu sou mãe atleta.",
+   "de": 58.44,
+   "ate": 69.68,
+   "txt": "Eu quero agradecer a Deus, né, pelo pódio. E assim, essa primeira colocação eu dedico ao meu filho, né, porque eu sou mãe atleta. Então, vai pra o meu Harvey.",
    "imagens": [
     {
-     "de": 56.96,
-     "ate": 62.96,
+     "de": 58.44,
+     "ate": 69.68,
      "fonte": "IMG_0891",
      "tipo": "v"
     }
    ],
    "som": [
     "IMG_0891",
-    74.95,
-    80.95
+    71.5,
+    82.74
    ]
   },
   {
    "id": "cuidar",
-   "de": 62.96,
-   "ate": 70.68,
+   "de": 69.68,
+   "ate": 77.37,
    "txt": "E a Corrida Start Fitness vocês sabem que sabe cuidar da galera. Tem essa estação aqui que é de fisioterapia.",
    "imagens": [
     {
-     "de": 62.96,
-     "ate": 67.86,
+     "de": 69.68,
+     "ate": 74.43,
      "fonte": "IMG_0926",
      "tipo": "v"
     },
     {
-     "de": 67.86,
-     "ate": 70.68,
+     "de": 74.43,
+     "ate": 77.37,
      "fonte": "IMG_0925",
      "tipo": "v"
     }
    ],
    "som": [
     "IMG_0926",
-    0.0,
-    7.72
+    0.15,
+    7.84
    ]
   },
   {
    "id": "catiana",
-   "de": 70.68,
-   "ate": 78.94,
-   "txt": "Foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
+   "de": 77.37,
+   "ate": 89.92,
+   "txt": "Assim, o diferencial é porque de fato representa, foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
    "imagens": [
     {
-     "de": 70.68,
-     "ate": 72.63,
+     "de": 77.37,
+     "ate": 83.07,
      "fonte": "IMG_0929",
      "tipo": "v"
     },
     {
-     "de": 72.63,
-     "ate": 73.73,
+     "de": 83.07,
+     "ate": 84.17,
      "fonte": "IMG_0885",
      "tipo": "v"
     },
     {
-     "de": 73.73,
-     "ate": 74.83,
+     "de": 84.17,
+     "ate": 85.27,
      "fonte": "IMG_0888",
      "tipo": "v"
     },
     {
-     "de": 74.83,
-     "ate": 78.94,
+     "de": 85.27,
+     "ate": 89.92,
      "fonte": "IMG_0929",
      "tipo": "v"
     }
    ],
    "som": [
     "IMG_0929",
-    29.62,
-    37.88
+    25.75,
+    38.3
    ]
   },
   {
    "id": "gratidao",
-   "de": 78.94,
-   "ate": 83.94,
-   "txt": "É um sentimento de gratidão muito grande. Ver o pessoal que se fez aqui presente.",
+   "de": 89.92,
+   "ate": 100.96,
+   "txt": "É um sentimento de gratidão muito grande. Ver o pessoal que se fez aqui presente. Então, a gente está promovendo saúde, a gente está promovendo um dia diferente. É um dia de lazer.",
    "imagens": [
     {
-     "de": 78.94,
-     "ate": 81.49,
+     "de": 89.92,
+     "ate": 92.42,
      "fonte": "IMG_0934",
      "tipo": "v"
     },
     {
-     "de": 81.49,
-     "ate": 83.94,
+     "de": 92.42,
+     "ate": 95.02,
      "fonte": "IMG_0858",
      "tipo": "f"
+    },
+    {
+     "de": 95.02,
+     "ate": 100.96,
+     "fonte": "IMG_0934",
+     "tipo": "v"
     }
    ],
    "som": [
     "IMG_0934",
-    20.95,
-    25.95
+    21.26,
+    32.3
    ]
   }
  ],
@@ -504,890 +510,1130 @@
   },
   {
    "p": "A",
-   "ini": 10.9,
-   "fim": 11.3,
+   "ini": 11.21,
+   "fim": 11.61,
    "trecho": "organizacao"
   },
   {
    "p": "princípio,",
-   "ini": 11.3,
-   "fim": 11.7,
+   "ini": 11.61,
+   "fim": 12.01,
    "trecho": "organizacao"
   },
   {
    "p": "quando",
-   "ini": 11.7,
-   "fim": 11.88,
+   "ini": 12.01,
+   "fim": 12.19,
    "trecho": "organizacao"
   },
   {
    "p": "eu",
-   "ini": 11.88,
-   "fim": 12.0,
+   "ini": 12.19,
+   "fim": 12.31,
    "trecho": "organizacao"
   },
   {
    "p": "vi",
-   "ini": 12.0,
-   "fim": 12.14,
+   "ini": 12.31,
+   "fim": 12.45,
    "trecho": "organizacao"
   },
   {
    "p": "a",
-   "ini": 12.14,
-   "fim": 12.22,
+   "ini": 12.45,
+   "fim": 12.53,
    "trecho": "organizacao"
   },
   {
    "p": "corrida",
-   "ini": 12.22,
-   "fim": 12.5,
+   "ini": 12.53,
+   "fim": 12.81,
    "trecho": "organizacao"
   },
   {
    "p": "pela",
-   "ini": 12.5,
-   "fim": 12.66,
+   "ini": 12.81,
+   "fim": 12.97,
    "trecho": "organizacao"
   },
   {
    "p": "primeira",
-   "ini": 12.66,
-   "fim": 12.96,
+   "ini": 12.97,
+   "fim": 13.27,
    "trecho": "organizacao"
   },
   {
    "p": "vez,",
-   "ini": 12.96,
-   "fim": 13.26,
+   "ini": 13.27,
+   "fim": 13.57,
    "trecho": "organizacao"
   },
   {
    "p": "foi",
-   "ini": 13.32,
-   "fim": 13.54,
+   "ini": 13.63,
+   "fim": 13.85,
    "trecho": "organizacao"
   },
   {
    "p": "a",
-   "ini": 13.54,
-   "fim": 13.74,
+   "ini": 13.85,
+   "fim": 14.05,
    "trecho": "organizacao"
   },
   {
    "p": "organização.",
-   "ini": 13.74,
-   "fim": 14.28,
+   "ini": 14.05,
+   "fim": 14.59,
    "trecho": "organizacao"
   },
   {
    "p": "Muito",
-   "ini": 14.58,
-   "fim": 14.98,
+   "ini": 14.89,
+   "fim": 15.29,
    "trecho": "organizacao"
   },
   {
    "p": "bem",
-   "ini": 14.98,
-   "fim": 15.16,
+   "ini": 15.29,
+   "fim": 15.47,
    "trecho": "organizacao"
   },
   {
    "p": "organizado,",
-   "ini": 15.16,
-   "fim": 15.86,
+   "ini": 15.47,
+   "fim": 16.17,
    "trecho": "organizacao"
   },
   {
    "p": "o",
-   "ini": 16.02,
-   "fim": 17.12,
+   "ini": 16.33,
+   "fim": 17.43,
    "trecho": "organizacao"
   },
   {
    "p": "percurso",
-   "ini": 17.12,
-   "fim": 17.74,
+   "ini": 17.43,
+   "fim": 18.05,
    "trecho": "organizacao"
   },
   {
    "p": "muito",
-   "ini": 17.74,
-   "fim": 17.88,
+   "ini": 18.05,
+   "fim": 18.19,
    "trecho": "organizacao"
   },
   {
    "p": "bem",
-   "ini": 17.88,
-   "fim": 18.12,
+   "ini": 18.19,
+   "fim": 18.43,
    "trecho": "organizacao"
   },
   {
    "p": "definido,",
-   "ini": 18.12,
-   "fim": 18.76,
+   "ini": 18.43,
+   "fim": 19.07,
    "trecho": "organizacao"
   },
   {
    "p": "sem",
-   "ini": 18.78,
-   "fim": 19.12,
+   "ini": 19.09,
+   "fim": 19.43,
    "trecho": "organizacao"
   },
   {
    "p": "erros.",
-   "ini": 19.12,
-   "fim": 19.66,
+   "ini": 19.43,
+   "fim": 19.97,
    "trecho": "organizacao"
   },
   {
    "p": "Dormi",
-   "ini": 19.85,
-   "fim": 20.05,
+   "ini": 20.26,
+   "fim": 20.46,
    "trecho": "nervoso"
   },
   {
    "p": "sete",
-   "ini": 20.05,
-   "fim": 20.45,
+   "ini": 20.46,
+   "fim": 20.86,
    "trecho": "nervoso"
   },
   {
    "p": "horinhas",
-   "ini": 20.45,
-   "fim": 20.71,
+   "ini": 20.86,
+   "fim": 21.12,
    "trecho": "nervoso"
   },
   {
    "p": "ali,",
-   "ini": 20.71,
-   "fim": 20.89,
+   "ini": 21.12,
+   "fim": 21.3,
    "trecho": "nervoso"
   },
   {
    "p": "mas",
-   "ini": 21.11,
-   "fim": 22.03,
+   "ini": 21.52,
+   "fim": 22.44,
    "trecho": "nervoso"
   },
   {
    "p": "sempre",
-   "ini": 22.03,
-   "fim": 22.41,
+   "ini": 22.44,
+   "fim": 22.82,
    "trecho": "nervoso"
   },
   {
    "p": "bate",
-   "ini": 22.41,
-   "fim": 22.65,
+   "ini": 22.82,
+   "fim": 23.06,
    "trecho": "nervoso"
   },
   {
    "p": "aquele",
-   "ini": 22.65,
-   "fim": 22.79,
+   "ini": 23.06,
+   "fim": 23.2,
    "trecho": "nervoso"
   },
   {
    "p": "nervoso",
-   "ini": 22.79,
-   "fim": 23.25,
+   "ini": 23.2,
+   "fim": 23.66,
    "trecho": "nervoso"
   },
   {
    "p": "na",
-   "ini": 23.25,
-   "fim": 23.31,
+   "ini": 23.66,
+   "fim": 23.72,
    "trecho": "nervoso"
   },
   {
    "p": "hora",
-   "ini": 23.31,
-   "fim": 23.43,
+   "ini": 23.72,
+   "fim": 23.84,
    "trecho": "nervoso"
   },
   {
    "p": "da",
-   "ini": 23.43,
-   "fim": 23.55,
+   "ini": 23.84,
+   "fim": 23.96,
    "trecho": "nervoso"
   },
   {
    "p": "largada.",
-   "ini": 23.55,
-   "fim": 23.91,
+   "ini": 23.96,
+   "fim": 24.32,
    "trecho": "nervoso"
   },
   {
    "p": "quatro,",
-   "ini": 26.04,
-   "fim": 27.08,
+   "ini": 27.08,
+   "fim": 28.12,
    "trecho": "contagem"
   },
   {
    "p": "três,",
-   "ini": 27.5,
-   "fim": 28.4,
+   "ini": 28.54,
+   "fim": 29.44,
    "trecho": "contagem"
   },
   {
    "p": "dois,",
-   "ini": 28.92,
-   "fim": 29.86,
+   "ini": 29.96,
+   "fim": 30.9,
    "trecho": "contagem"
   },
   {
    "p": "lá",
-   "ini": 30.46,
-   "fim": 31.06,
+   "ini": 31.5,
+   "fim": 32.1,
    "trecho": "contagem"
   },
   {
    "p": "dois,",
-   "ini": 31.06,
-   "fim": 31.64,
+   "ini": 32.1,
+   "fim": 32.68,
    "trecho": "contagem"
   },
   {
-   "p": "é",
-   "ini": 37.45,
-   "fim": 37.97,
-   "trecho": "chegada"
-  },
-  {
-   "p": "o",
-   "ini": 37.97,
-   "fim": 39.77,
-   "trecho": "chegada"
-  },
-  {
    "p": "primeiro",
-   "ini": 39.77,
-   "fim": 40.03,
+   "ini": 39.25,
+   "fim": 39.51,
    "trecho": "chegada"
   },
   {
    "p": "a",
-   "ini": 40.03,
-   "fim": 40.23,
+   "ini": 39.51,
+   "fim": 39.71,
    "trecho": "chegada"
   },
   {
    "p": "chegar",
-   "ini": 40.23,
-   "fim": 40.49,
+   "ini": 39.71,
+   "fim": 39.97,
    "trecho": "chegada"
   },
   {
    "p": "na",
-   "ini": 40.49,
-   "fim": 41.41,
+   "ini": 39.97,
+   "fim": 40.89,
    "trecho": "chegada"
   },
   {
    "p": "segunda",
-   "ini": 41.41,
-   "fim": 41.85,
+   "ini": 40.89,
+   "fim": 41.33,
    "trecho": "chegada"
   },
   {
    "p": "edição",
-   "ini": 41.85,
+   "ini": 41.33,
+   "fim": 42.25,
+   "trecho": "chegada"
+  },
+  {
+   "p": "da",
+   "ini": 42.25,
+   "fim": 42.41,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Corrida",
+   "ini": 42.41,
    "fim": 42.77,
    "trecho": "chegada"
   },
   {
-   "p": "da",
-   "ini": 42.77,
-   "fim": 42.93,
-   "trecho": "chegada"
-  },
-  {
-   "p": "Corrida",
-   "ini": 42.93,
-   "fim": 43.29,
-   "trecho": "chegada"
-  },
-  {
    "p": "Start",
-   "ini": 43.29,
-   "fim": 43.61,
+   "ini": 42.77,
+   "fim": 43.09,
    "trecho": "chegada"
   },
   {
    "p": "Fitness",
-   "ini": 43.61,
-   "fim": 44.01,
+   "ini": 43.09,
+   "fim": 43.49,
    "trecho": "chegada"
   },
   {
    "p": "Adriano",
-   "ini": 45.29,
-   "fim": 45.93,
+   "ini": 44.77,
+   "fim": 45.41,
    "trecho": "chegada"
   },
   {
    "p": "Barbosa",
-   "ini": 45.93,
-   "fim": 46.47,
+   "ini": 45.41,
+   "fim": 45.95,
    "trecho": "chegada"
   },
   {
    "p": "parabéns,",
-   "ini": 46.47,
-   "fim": 47.25,
+   "ini": 45.95,
+   "fim": 46.73,
+   "trecho": "chegada"
+  },
+  {
+   "p": "cadê",
+   "ini": 46.73,
+   "fim": 46.95,
+   "trecho": "chegada"
+  },
+  {
+   "p": "as",
+   "ini": 46.95,
+   "fim": 47.03,
+   "trecho": "chegada"
+  },
+  {
+   "p": "palmas",
+   "ini": 47.03,
+   "fim": 47.41,
+   "trecho": "chegada"
+  },
+  {
+   "p": "do",
+   "ini": 47.41,
+   "fim": 47.55,
+   "trecho": "chegada"
+  },
+  {
+   "p": "Adriano?",
+   "ini": 47.55,
+   "fim": 47.99,
    "trecho": "chegada"
   },
   {
    "p": "Pessoal,",
-   "ini": 48.59,
-   "fim": 48.87,
+   "ini": 49.67,
+   "fim": 49.95,
    "trecho": "campea"
   },
   {
    "p": "a",
-   "ini": 48.87,
-   "fim": 49.05,
+   "ini": 49.95,
+   "fim": 50.13,
    "trecho": "campea"
   },
   {
    "p": "Adriana",
-   "ini": 49.05,
-   "fim": 49.41,
+   "ini": 50.13,
+   "fim": 50.49,
    "trecho": "campea"
   },
   {
    "p": "Teodosio",
-   "ini": 49.41,
-   "fim": 50.11,
+   "ini": 50.49,
+   "fim": 51.19,
    "trecho": "campea"
   },
   {
    "p": "foi",
-   "ini": 50.11,
-   "fim": 50.33,
+   "ini": 51.19,
+   "fim": 51.41,
    "trecho": "campea"
   },
   {
    "p": "a",
-   "ini": 50.33,
-   "fim": 50.51,
+   "ini": 51.41,
+   "fim": 51.59,
    "trecho": "campea"
   },
   {
    "p": "vencedora",
-   "ini": 50.51,
-   "fim": 51.63,
+   "ini": 51.59,
+   "fim": 52.71,
    "trecho": "campea"
   },
   {
    "p": "do",
-   "ini": 51.63,
-   "fim": 51.83,
+   "ini": 52.71,
+   "fim": 52.91,
    "trecho": "campea"
   },
   {
    "p": "5KM,",
-   "ini": 51.83,
-   "fim": 52.83,
+   "ini": 52.91,
+   "fim": 53.91,
    "trecho": "campea"
   },
   {
    "p": "foi",
-   "ini": 52.91,
-   "fim": 53.39,
+   "ini": 53.99,
+   "fim": 54.47,
    "trecho": "campea"
   },
   {
    "p": "a",
-   "ini": 53.39,
-   "fim": 53.51,
+   "ini": 54.47,
+   "fim": 54.59,
    "trecho": "campea"
   },
   {
    "p": "mulher",
-   "ini": 53.51,
-   "fim": 53.71,
+   "ini": 54.59,
+   "fim": 54.79,
    "trecho": "campea"
   },
   {
    "p": "que",
-   "ini": 53.71,
-   "fim": 53.87,
+   "ini": 54.79,
+   "fim": 54.95,
    "trecho": "campea"
   },
   {
    "p": "chegou",
-   "ini": 53.87,
-   "fim": 54.13,
+   "ini": 54.95,
+   "fim": 55.21,
    "trecho": "campea"
   },
   {
    "p": "mais",
-   "ini": 54.13,
-   "fim": 54.37,
+   "ini": 55.21,
+   "fim": 55.45,
    "trecho": "campea"
   },
   {
    "p": "rápido",
-   "ini": 54.37,
-   "fim": 54.91,
+   "ini": 55.45,
+   "fim": 55.99,
    "trecho": "campea"
   },
   {
    "p": "na",
-   "ini": 54.91,
-   "fim": 55.17,
+   "ini": 55.99,
+   "fim": 56.25,
    "trecho": "campea"
   },
   {
    "p": "segunda",
-   "ini": 55.17,
-   "fim": 55.49,
+   "ini": 56.25,
+   "fim": 56.57,
    "trecho": "campea"
   },
   {
    "p": "edição",
-   "ini": 55.49,
-   "fim": 55.79,
+   "ini": 56.57,
+   "fim": 56.87,
    "trecho": "campea"
   },
   {
    "p": "da",
-   "ini": 55.79,
-   "fim": 55.93,
+   "ini": 56.87,
+   "fim": 57.01,
    "trecho": "campea"
   },
   {
    "p": "Corrida",
-   "ini": 55.93,
-   "fim": 56.21,
+   "ini": 57.01,
+   "fim": 57.29,
    "trecho": "campea"
   },
   {
    "p": "Start",
-   "ini": 56.21,
-   "fim": 56.47,
+   "ini": 57.29,
+   "fim": 57.55,
    "trecho": "campea"
   },
   {
    "p": "Fitness.",
-   "ini": 56.47,
-   "fim": 56.85,
+   "ini": 57.55,
+   "fim": 57.93,
    "trecho": "campea"
   },
   {
-   "p": "essa",
-   "ini": 57.03,
-   "fim": 57.25,
+   "p": "agradecer",
+   "ini": 58.74,
+   "fim": 59.14,
    "trecho": "dedica"
   },
   {
-   "p": "primeira",
-   "ini": 57.25,
-   "fim": 58.13,
+   "p": "a",
+   "ini": 59.14,
+   "fim": 59.22,
    "trecho": "dedica"
   },
   {
-   "p": "colocação",
-   "ini": 58.13,
-   "fim": 60.07,
-   "trecho": "dedica"
-  },
-  {
-   "p": "eu",
-   "ini": 60.07,
-   "fim": 60.13,
-   "trecho": "dedica"
-  },
-  {
-   "p": "dedico",
-   "ini": 60.13,
-   "fim": 60.95,
-   "trecho": "dedica"
-  },
-  {
-   "p": "ao",
-   "ini": 60.95,
-   "fim": 61.03,
-   "trecho": "dedica"
-  },
-  {
-   "p": "meu",
-   "ini": 61.03,
-   "fim": 61.19,
-   "trecho": "dedica"
-  },
-  {
-   "p": "filho,",
-   "ini": 61.19,
-   "fim": 61.45,
+   "p": "Deus,",
+   "ini": 59.22,
+   "fim": 59.42,
    "trecho": "dedica"
   },
   {
    "p": "né,",
-   "ini": 61.55,
-   "fim": 61.63,
+   "ini": 59.5,
+   "fim": 59.64,
    "trecho": "dedica"
   },
   {
-   "p": "porque",
-   "ini": 61.63,
-   "fim": 61.73,
+   "p": "pelo",
+   "ini": 59.74,
+   "fim": 60.36,
    "trecho": "dedica"
   },
   {
-   "p": "eu",
-   "ini": 61.73,
-   "fim": 61.87,
-   "trecho": "dedica"
-  },
-  {
-   "p": "sou",
-   "ini": 61.87,
-   "fim": 61.99,
-   "trecho": "dedica"
-  },
-  {
-   "p": "mãe",
-   "ini": 61.99,
-   "fim": 62.13,
-   "trecho": "dedica"
-  },
-  {
-   "p": "atleta.",
-   "ini": 62.13,
-   "fim": 62.83,
+   "p": "pódio.",
+   "ini": 60.36,
+   "fim": 61.42,
    "trecho": "dedica"
   },
   {
    "p": "E",
-   "ini": 62.96,
-   "fim": 63.66,
-   "trecho": "cuidar"
+   "ini": 61.44,
+   "fim": 61.64,
+   "trecho": "dedica"
+  },
+  {
+   "p": "assim,",
+   "ini": 61.64,
+   "fim": 61.82,
+   "trecho": "dedica"
+  },
+  {
+   "p": "essa",
+   "ini": 61.96,
+   "fim": 62.18,
+   "trecho": "dedica"
+  },
+  {
+   "p": "primeira",
+   "ini": 62.18,
+   "fim": 63.06,
+   "trecho": "dedica"
+  },
+  {
+   "p": "colocação",
+   "ini": 63.06,
+   "fim": 65.0,
+   "trecho": "dedica"
+  },
+  {
+   "p": "eu",
+   "ini": 65.0,
+   "fim": 65.06,
+   "trecho": "dedica"
+  },
+  {
+   "p": "dedico",
+   "ini": 65.06,
+   "fim": 65.88,
+   "trecho": "dedica"
+  },
+  {
+   "p": "ao",
+   "ini": 65.88,
+   "fim": 65.96,
+   "trecho": "dedica"
+  },
+  {
+   "p": "meu",
+   "ini": 65.96,
+   "fim": 66.12,
+   "trecho": "dedica"
+  },
+  {
+   "p": "filho,",
+   "ini": 66.12,
+   "fim": 66.38,
+   "trecho": "dedica"
+  },
+  {
+   "p": "né,",
+   "ini": 66.48,
+   "fim": 66.56,
+   "trecho": "dedica"
+  },
+  {
+   "p": "porque",
+   "ini": 66.56,
+   "fim": 66.66,
+   "trecho": "dedica"
+  },
+  {
+   "p": "eu",
+   "ini": 66.66,
+   "fim": 66.8,
+   "trecho": "dedica"
+  },
+  {
+   "p": "sou",
+   "ini": 66.8,
+   "fim": 66.92,
+   "trecho": "dedica"
+  },
+  {
+   "p": "mãe",
+   "ini": 66.92,
+   "fim": 67.06,
+   "trecho": "dedica"
+  },
+  {
+   "p": "atleta.",
+   "ini": 67.06,
+   "fim": 67.76,
+   "trecho": "dedica"
+  },
+  {
+   "p": "Então,",
+   "ini": 68.0,
+   "fim": 68.4,
+   "trecho": "dedica"
+  },
+  {
+   "p": "vai",
+   "ini": 68.46,
+   "fim": 68.6,
+   "trecho": "dedica"
+  },
+  {
+   "p": "pra",
+   "ini": 68.6,
+   "fim": 68.76,
+   "trecho": "dedica"
+  },
+  {
+   "p": "o",
+   "ini": 68.76,
+   "fim": 68.86,
+   "trecho": "dedica"
+  },
+  {
+   "p": "meu",
+   "ini": 68.86,
+   "fim": 68.96,
+   "trecho": "dedica"
+  },
+  {
+   "p": "Harvey.",
+   "ini": 68.96,
+   "fim": 69.34,
+   "trecho": "dedica"
   },
   {
    "p": "a",
-   "ini": 63.66,
-   "fim": 63.76,
+   "ini": 70.23,
+   "fim": 70.33,
    "trecho": "cuidar"
   },
   {
    "p": "Corrida",
-   "ini": 63.76,
-   "fim": 64.16,
+   "ini": 70.33,
+   "fim": 70.73,
    "trecho": "cuidar"
   },
   {
    "p": "Start",
-   "ini": 64.16,
-   "fim": 64.46,
+   "ini": 70.73,
+   "fim": 71.03,
    "trecho": "cuidar"
   },
   {
    "p": "Fitness",
-   "ini": 64.46,
-   "fim": 64.88,
+   "ini": 71.03,
+   "fim": 71.45,
    "trecho": "cuidar"
   },
   {
    "p": "vocês",
-   "ini": 64.88,
-   "fim": 65.22,
+   "ini": 71.45,
+   "fim": 71.79,
    "trecho": "cuidar"
   },
   {
    "p": "sabem",
-   "ini": 65.22,
-   "fim": 65.96,
+   "ini": 71.79,
+   "fim": 72.53,
    "trecho": "cuidar"
   },
   {
    "p": "que",
-   "ini": 65.96,
-   "fim": 66.44,
+   "ini": 72.53,
+   "fim": 73.01,
    "trecho": "cuidar"
   },
   {
    "p": "sabe",
-   "ini": 66.44,
-   "fim": 66.8,
+   "ini": 73.01,
+   "fim": 73.37,
    "trecho": "cuidar"
   },
   {
    "p": "cuidar",
-   "ini": 66.8,
-   "fim": 67.44,
+   "ini": 73.37,
+   "fim": 74.01,
    "trecho": "cuidar"
   },
   {
    "p": "da",
-   "ini": 67.44,
-   "fim": 67.52,
+   "ini": 74.01,
+   "fim": 74.09,
    "trecho": "cuidar"
   },
   {
    "p": "galera",
-   "ini": 67.52,
-   "fim": 67.82,
+   "ini": 74.09,
+   "fim": 74.39,
    "trecho": "cuidar"
   },
   {
    "p": "Tem",
-   "ini": 67.82,
-   "fim": 68.5,
+   "ini": 74.39,
+   "fim": 75.07,
    "trecho": "cuidar"
   },
   {
    "p": "essa",
-   "ini": 68.5,
-   "fim": 68.74,
+   "ini": 75.07,
+   "fim": 75.31,
    "trecho": "cuidar"
   },
   {
    "p": "estação",
-   "ini": 68.74,
-   "fim": 69.24,
+   "ini": 75.31,
+   "fim": 75.81,
    "trecho": "cuidar"
   },
   {
    "p": "aqui",
-   "ini": 69.24,
-   "fim": 69.46,
+   "ini": 75.81,
+   "fim": 76.03,
    "trecho": "cuidar"
   },
   {
    "p": "que",
-   "ini": 69.46,
-   "fim": 69.62,
+   "ini": 76.03,
+   "fim": 76.19,
    "trecho": "cuidar"
   },
   {
    "p": "é",
-   "ini": 69.62,
-   "fim": 69.7,
+   "ini": 76.19,
+   "fim": 76.27,
    "trecho": "cuidar"
   },
   {
    "p": "de",
-   "ini": 69.7,
-   "fim": 69.8,
+   "ini": 76.27,
+   "fim": 76.37,
    "trecho": "cuidar"
   },
   {
    "p": "fisioterapia",
-   "ini": 69.8,
-   "fim": 70.64,
+   "ini": 76.37,
+   "fim": 77.21,
    "trecho": "cuidar"
   },
   {
-   "p": "foi",
-   "ini": 70.81,
-   "fim": 71.25,
+   "p": "o",
+   "ini": 77.71,
+   "fim": 77.93,
    "trecho": "catiana"
   },
   {
-   "p": "maravilhoso,",
-   "ini": 71.25,
-   "fim": 72.53,
-   "trecho": "catiana"
-  },
-  {
-   "p": "teve",
-   "ini": 72.63,
-   "fim": 72.99,
-   "trecho": "catiana"
-  },
-  {
-   "p": "tudo",
-   "ini": 72.99,
-   "fim": 73.95,
-   "trecho": "catiana"
-  },
-  {
-   "p": "e",
-   "ini": 73.95,
-   "fim": 74.15,
-   "trecho": "catiana"
-  },
-  {
-   "p": "mais",
-   "ini": 74.15,
-   "fim": 74.35,
-   "trecho": "catiana"
-  },
-  {
-   "p": "um",
-   "ini": 74.35,
-   "fim": 74.53,
-   "trecho": "catiana"
-  },
-  {
-   "p": "pouco",
-   "ini": 74.53,
-   "fim": 74.87,
-   "trecho": "catiana"
-  },
-  {
-   "p": "Superou",
-   "ini": 74.87,
-   "fim": 75.53,
-   "trecho": "catiana"
-  },
-  {
-   "p": "todas",
-   "ini": 75.53,
-   "fim": 75.73,
-   "trecho": "catiana"
-  },
-  {
-   "p": "as",
-   "ini": 75.73,
-   "fim": 75.99,
-   "trecho": "catiana"
-  },
-  {
-   "p": "expectativas",
-   "ini": 75.99,
-   "fim": 76.75,
-   "trecho": "catiana"
-  },
-  {
-   "p": "Não",
-   "ini": 76.75,
-   "fim": 77.39,
+   "p": "diferencial",
+   "ini": 77.93,
+   "fim": 78.63,
    "trecho": "catiana"
   },
   {
    "p": "é",
-   "ini": 77.39,
-   "fim": 77.57,
+   "ini": 78.63,
+   "fim": 78.87,
    "trecho": "catiana"
   },
   {
-   "p": "só",
-   "ini": 77.57,
-   "fim": 77.75,
+   "p": "porque",
+   "ini": 78.87,
+   "fim": 79.55,
    "trecho": "catiana"
   },
   {
-   "p": "a",
-   "ini": 77.75,
-   "fim": 77.87,
+   "p": "de",
+   "ini": 79.55,
+   "fim": 80.37,
    "trecho": "catiana"
   },
   {
-   "p": "medalha",
-   "ini": 77.87,
-   "fim": 78.29,
+   "p": "fato",
+   "ini": 80.37,
+   "fim": 80.77,
+   "trecho": "catiana"
+  },
+  {
+   "p": "representa,",
+   "ini": 80.77,
+   "fim": 81.07,
+   "trecho": "catiana"
+  },
+  {
+   "p": "foi",
+   "ini": 81.37,
+   "fim": 81.81,
+   "trecho": "catiana"
+  },
+  {
+   "p": "maravilhoso,",
+   "ini": 81.81,
+   "fim": 83.09,
+   "trecho": "catiana"
+  },
+  {
+   "p": "teve",
+   "ini": 83.19,
+   "fim": 83.55,
+   "trecho": "catiana"
+  },
+  {
+   "p": "tudo",
+   "ini": 83.55,
+   "fim": 84.51,
    "trecho": "catiana"
   },
   {
    "p": "e",
-   "ini": 78.29,
-   "fim": 78.39,
+   "ini": 84.51,
+   "fim": 84.71,
+   "trecho": "catiana"
+  },
+  {
+   "p": "mais",
+   "ini": 84.71,
+   "fim": 84.91,
+   "trecho": "catiana"
+  },
+  {
+   "p": "um",
+   "ini": 84.91,
+   "fim": 85.09,
+   "trecho": "catiana"
+  },
+  {
+   "p": "pouco",
+   "ini": 85.09,
+   "fim": 85.43,
+   "trecho": "catiana"
+  },
+  {
+   "p": "Superou",
+   "ini": 85.43,
+   "fim": 86.09,
+   "trecho": "catiana"
+  },
+  {
+   "p": "todas",
+   "ini": 86.09,
+   "fim": 86.29,
+   "trecho": "catiana"
+  },
+  {
+   "p": "as",
+   "ini": 86.29,
+   "fim": 86.55,
+   "trecho": "catiana"
+  },
+  {
+   "p": "expectativas",
+   "ini": 86.55,
+   "fim": 87.31,
+   "trecho": "catiana"
+  },
+  {
+   "p": "Não",
+   "ini": 87.31,
+   "fim": 87.95,
+   "trecho": "catiana"
+  },
+  {
+   "p": "é",
+   "ini": 87.95,
+   "fim": 88.13,
+   "trecho": "catiana"
+  },
+  {
+   "p": "só",
+   "ini": 88.13,
+   "fim": 88.31,
+   "trecho": "catiana"
+  },
+  {
+   "p": "a",
+   "ini": 88.31,
+   "fim": 88.43,
+   "trecho": "catiana"
+  },
+  {
+   "p": "medalha",
+   "ini": 88.43,
+   "fim": 88.85,
+   "trecho": "catiana"
+  },
+  {
+   "p": "e",
+   "ini": 88.85,
+   "fim": 88.95,
    "trecho": "catiana"
   },
   {
    "p": "banana",
-   "ini": 78.39,
-   "fim": 78.57,
+   "ini": 88.95,
+   "fim": 89.13,
    "trecho": "catiana"
   },
   {
    "p": "não",
-   "ini": 78.57,
-   "fim": 78.94,
+   "ini": 89.13,
+   "fim": 89.51,
    "trecho": "catiana"
   },
   {
-   "p": "É",
-   "ini": 78.99,
-   "fim": 79.59,
-   "trecho": "gratidao"
-  },
-  {
    "p": "um",
-   "ini": 79.59,
-   "fim": 79.77,
+   "ini": 90.26,
+   "fim": 90.44,
    "trecho": "gratidao"
   },
   {
    "p": "sentimento",
-   "ini": 79.77,
-   "fim": 80.09,
+   "ini": 90.44,
+   "fim": 90.76,
    "trecho": "gratidao"
   },
   {
    "p": "de",
-   "ini": 80.09,
-   "fim": 80.29,
+   "ini": 90.76,
+   "fim": 90.96,
    "trecho": "gratidao"
   },
   {
    "p": "gratidão",
-   "ini": 80.29,
-   "fim": 80.85,
+   "ini": 90.96,
+   "fim": 91.52,
    "trecho": "gratidao"
   },
   {
    "p": "muito",
-   "ini": 80.85,
-   "fim": 81.11,
+   "ini": 91.52,
+   "fim": 91.78,
    "trecho": "gratidao"
   },
   {
    "p": "grande",
-   "ini": 81.11,
-   "fim": 81.49,
+   "ini": 91.78,
+   "fim": 92.16,
    "trecho": "gratidao"
   },
   {
    "p": "Ver",
-   "ini": 81.49,
-   "fim": 82.03,
+   "ini": 92.16,
+   "fim": 92.7,
    "trecho": "gratidao"
   },
   {
    "p": "o",
-   "ini": 82.03,
-   "fim": 82.19,
+   "ini": 92.7,
+   "fim": 92.86,
    "trecho": "gratidao"
   },
   {
    "p": "pessoal",
-   "ini": 82.19,
-   "fim": 82.57,
+   "ini": 92.86,
+   "fim": 93.24,
    "trecho": "gratidao"
   },
   {
    "p": "que",
-   "ini": 82.57,
-   "fim": 82.89,
+   "ini": 93.24,
+   "fim": 93.56,
    "trecho": "gratidao"
   },
   {
    "p": "se",
-   "ini": 82.89,
-   "fim": 83.01,
+   "ini": 93.56,
+   "fim": 93.68,
    "trecho": "gratidao"
   },
   {
    "p": "fez",
-   "ini": 83.01,
-   "fim": 83.21,
+   "ini": 93.68,
+   "fim": 93.88,
    "trecho": "gratidao"
   },
   {
    "p": "aqui",
-   "ini": 83.21,
-   "fim": 83.39,
+   "ini": 93.88,
+   "fim": 94.06,
    "trecho": "gratidao"
   },
   {
    "p": "presente",
-   "ini": 83.39,
-   "fim": 83.81,
+   "ini": 94.06,
+   "fim": 94.48,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "Então,",
+   "ini": 94.48,
+   "fim": 95.24,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "a",
+   "ini": 95.46,
+   "fim": 96.06,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "gente",
+   "ini": 96.06,
+   "fim": 96.26,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "está",
+   "ini": 96.26,
+   "fim": 96.4,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "promovendo",
+   "ini": 96.4,
+   "fim": 96.9,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "saúde,",
+   "ini": 96.9,
+   "fim": 97.16,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "a",
+   "ini": 97.38,
+   "fim": 97.54,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "gente",
+   "ini": 97.54,
+   "fim": 97.62,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "está",
+   "ini": 97.62,
+   "fim": 97.78,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "promovendo",
+   "ini": 97.78,
+   "fim": 98.3,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "um",
+   "ini": 98.3,
+   "fim": 98.42,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "dia",
+   "ini": 98.42,
+   "fim": 98.58,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "diferente",
+   "ini": 98.58,
+   "fim": 99.04,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "É",
+   "ini": 99.04,
+   "fim": 99.62,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "um",
+   "ini": 99.62,
+   "fim": 99.82,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "dia",
+   "ini": 99.82,
+   "fim": 99.98,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "de",
+   "ini": 99.98,
+   "fim": 100.1,
+   "trecho": "gratidao"
+  },
+  {
+   "p": "lazer",
+   "ini": 100.1,
+   "fim": 100.48,
    "trecho": "gratidao"
   }
  ]

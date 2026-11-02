@@ -39,13 +39,16 @@ r = np.linspace(0, 1, len(cauda))[:, None]
 eq = np.sqrt(r)  # potência constante
 mix = cauda * np.sqrt(1 - r) + cabeca * eq
 # a mesma emenda duas vezes (uma só não chega aos 74 s da entrevista)
-out = np.concatenate([a[: ia - X // 2], mix, a[ib + X // 2: ia - X // 2], mix, a[ib + X // 2:]])
-with wave.open(os.path.join(MID, "musica-longa.wav"), "wb") as w:
+import sys
+VOLTAS = int(sys.argv[1]) if len(sys.argv) > 1 else 2  # quantas vezes a emenda se repete (2 = musica-longa, 92 s; 3 = musica-feed, 115 s)
+NOME = sys.argv[2] if len(sys.argv) > 2 else "musica-longa"
+out = np.concatenate([a[: ia - X // 2]] + [mix, a[ib + X // 2: ia - X // 2]] * (VOLTAS - 1) + [mix, a[ib + X // 2:]])
+with wave.open(os.path.join(MID, NOME + ".wav"), "wb") as w:
     w.setnchannels(ch); w.setsampwidth(sw); w.setframerate(sr)
     w.writeframes(np.clip(out, -32768, 32767).astype(np.int16).tobytes())
 print(f"emenda em {A:.3f} s -> {B:.3f} s, nova duração {len(out) / sr:.2f} s")
 # batidas no tempo novo (pro pulso da câmera)
 L = A - B
-novas = [b for b in bat if b < A] + [b - B + A for b in bat if B <= b < A] + [b - B + A + L for b in bat if b >= B]
+novas = [b for b in bat if b < A] + [b - B + A + v * L for v in range(VOLTAS - 1) for b in bat if B <= b < A] + [b - B + A + (VOLTAS - 1) * L for b in bat if b >= B]
 json.dump({"bpm": json.load(open(os.path.join(AQUI, "..", "video", "src", "musica.json")))["bpm"], "batidas": novas},
-          open(os.path.join(AQUI, "..", "video", "src", "musica-longa.json"), "w"))
+          open(os.path.join(AQUI, "..", "video", "src", NOME + ".json"), "w"))

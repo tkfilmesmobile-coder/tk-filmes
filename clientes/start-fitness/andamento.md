@@ -50,8 +50,18 @@
   de "Fitness"; −13,3 LUFS, pico −1,3 dBFS. O apresentador fala mesmo "Corrida Start Fit" no fim da apresentação
   da campeã (não é corte).
 
+- **2026-11-01 · Feed v2** (Talyta: "muitos erros que você corta antes mesmo de finalizar a frase"). Mesmo Drive,
+  `… (v2).mp4` (103,6 s). Causa: os cortes saíam do tempo de palavra da transcrição, que marca o fim 0,3–0,8 s cedo;
+  e a conferência usava a mesma transcrição, que completa a palavra pelo sentido. Agora todo início e fim vem do
+  desenho do som (`espectro.py`, `voz.py`) e a conferência final ouve cada emenda no vídeo pronto (`fins.py`).
+  8 dos 10 trechos falados corrigidos: fins comidos ("Start Fitness", "sem erros", "largada", "fisioterapia",
+  "banana não") e falas paradas no meio do pensamento (locutor até "cadê as palmas do Adriano?", campeã com o
+  agradecimento inteiro até o nome do filho, Catiana desde "Assim, o diferencial é...", organizador até "é um dia
+  de lazer"). A chegada começa no "É o primeiro a chegar" (antes havia uma voz baixa de outra pessoa). Trilha baixa
+  durante o trecho falado inteiro; nenhum efeito em cima de fim de frase. −13,4 LUFS, pico −1,1 dBFS.
+
 ## Em aberto
-- **Feed da corrida:** aprovação da v1. O nome "Adriano Barbosa" entra na tela como o locutor anunciou (confirmar grafia).
+- **Feed da corrida:** aprovação da v2 (a v1 continua no Drive até aprovar; depois vai pro `_ARQUIVO`). O nome "Adriano Barbosa" entra na tela como o locutor anunciou (confirmar grafia).
 - **Confirmar a fala de 24,4 s** do vídeo 1 ("joga o kit"? nem no original fica claro): por isso a headline ali é só "O KIT!".
 - Ficha: contato, cidade, @, valor do serviço, prazo e logo em arquivo [a definir].
 - Brand book: perguntar se se aplica (serviço só de edição).

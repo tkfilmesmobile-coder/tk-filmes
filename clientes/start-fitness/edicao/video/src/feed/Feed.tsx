@@ -2,8 +2,8 @@ import { Audio } from "@remotion/media";
 import { AbsoluteFill, Freeze, OffthreadVideo, Sequence, interpolate, random, staticFile, useCurrentFrame } from "remotion";
 import { ANTON, BARLOW, COR, F, FPS, INCLINA, MANUSCRITA, REVELA, SUAVE, clamp, extrusao } from "../marca";
 import { LinhaTexto, Raios, Textura, Vazamento, altura, tamanho } from "../Chamada";
-import { BLOCOS, CONTAGEM, CORTES, FALA, FIM, FOTOS, IMPACTOS, RAIOS, SFX, TOTAL, VIDEO, type BlocoF } from "./plano";
-import musica from "../musica-longa.json";
+import { BLOCOS, CONTAGEM, CORTES, FIM, FIM_FALA, FOTOS, IMPACTOS, RAIOS, SFX, TOTAL, VIDEO, type BlocoF } from "./plano";
+import musica from "../musica-feed.json";
 import rosto from "../feed-rosto.json";
 
 // Feed da 2ª Corrida Start Fitness (1º/11/2026): o corte e a curadoria saem do montar.py; aqui entram headlines,
@@ -150,9 +150,10 @@ const GANHO = 0.7;
 const ALTA = 0.6, BAIXA = 0.03, RAMPA = 0.28; // 0,03: com 0,08 a trilha ficava a 0,5 dB do "-ness" de "Fitness" (curadoria 2026-11-01)
 function volumeTrilha(s: number) {
   let peso = 0;
-  for (const [a, b] of FALA) {
-    // fim + 0,45: a transcrição marca o fim da palavra cedo, e a trilha subindo ali engolia o "-ness" de "Fitness"
-    const ini = a - 0.15, fim = b + 0.45;
+  // v2: baixa no trecho falado INTEIRO (do corte ao corte), não palavra a palavra: a transcrição marca o fim das
+  // palavras cedo e a trilha subia em cima do fim da frase
+  for (const [a, b] of FIM_FALA) {
+    const ini = a - 0.1, fim = b + 0.05;
     peso = Math.max(peso, interpolate(s, [ini - RAMPA, ini, fim, fim + RAMPA], [0, 1, 1, 0], { ...clamp, easing: SUAVE }));
   }
   const c0 = CONTAGEM.numeros[0].em - 0.4;
@@ -185,7 +186,7 @@ export const Feed: React.FC<{ mix?: "completo" | "sem-voz" }> = ({ mix = "comple
         {BLOCOS.map((b) => <Sequence key={b.id} from={F(b.de)} durationInFrames={Math.max(1, F(b.ate) - F(b.de))} layout="none"><BlocoTexto b={b} /></Sequence>)}
         <Sequence from={F(FIM.de)} layout="none"><Cartela /></Sequence>
       </AbsoluteFill>
-      <Audio src={staticFile("midia/musica-longa.wav")} volume={(fr) => volumeTrilha(fr / FPS)} />
+      <Audio src={staticFile("midia/musica-feed.wav")} volume={(fr) => volumeTrilha(fr / FPS)} />
       {SFX.map((x, i) => <Sequence key={i} from={F(x.em)} layout="none"><Audio src={staticFile(`sfx/${x.nome}.wav`)} volume={(x.vol ?? 0.6) * GANHO} /></Sequence>)}
     </AbsoluteFill>
   );

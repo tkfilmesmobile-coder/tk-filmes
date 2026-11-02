@@ -30,35 +30,49 @@ GRADE = "lutyuv=y='clip((val-128)*1.05+128,16,235)',hue=s=1.08"  # leve: as capt
 # a apresentação abortada da Sueli (0861) e a entrevista dela ("não me preparei", "não sei se eu termino"),
 # Rosilda (pausas e "RTI"), Juliana (0927: cerveja, "corta, é ao vivo?"), a campeã chamando a academia de
 # "Smart Fit" (0891, 21,6 s), agradecimento a patrocinador com nome incerto (0934), letra de música (0887)
+# v2 (Talyta, 2026-11-01: "você corta antes de terminar a frase"): todo início e fim foi tirado do desenho do som
+# (espectro.py, imagens em analise/espectro/), não do tempo de palavra da transcrição, que marca o fim 0,3–0,8 s
+# cedo. Cada fala termina na frase completa; onde a pessoa emenda sem pausa, o corte cai na fronteira entre as palavras.
 TRECHOS = [
     dict(id="abre", txt="", dur=1.25, img=[("v", "IMG_0871", 8.6, None)]),
+    # o "-ness" vai até 6,63 s; o clipe acaba em 6,72
     dict(id="gancho", txt="Uma corrida, muita energia e superação. Acompanha com a gente a segunda edição da corrida Start Fitness.",
-         som=("IMG_0844", 0.00, 6.30), img=[("v", "IMG_0844", 0.0, 0.95), ("v", "IMG_0856", 0.4, 1.6), ("v", "IMG_0844", 2.55, None)]),
+         som=("IMG_0844", 0.00, 6.68), img=[("v", "IMG_0844", 0.0, 0.95), ("v", "IMG_0856", 0.4, 1.6), ("v", "IMG_0844", 2.55, None)]),
     dict(id="ponte", txt="", dur=3.2, img=[("v", "IMG_0836", 1.4, 1.0), ("v", "IMG_0855", 6.0, 1.2), ("v", "IMG_0857", 1.0, None)]),
+    # "A princípio" começa em 15,05; o "s" final de "erros" acaba em 23,99 ("Enfim" só em 24,53)
     dict(id="organizacao", txt="A princípio, quando eu vi a corrida pela primeira vez, foi a organização. Muito bem organizado, o percurso muito bem definido, sem erros.",
-         som=("IMG_0860", 14.85, 23.95), img=[("v", "IMG_0860", 14.85, 5.2), ("f", "IMG_0905", 2.0), ("v", "IMG_0860", 22.05, None)]),
+         som=("IMG_0860", 14.92, 24.05), img=[("v", "IMG_0860", 14.92, 5.2), ("f", "IMG_0905", 2.0), ("v", "IMG_0860", 22.12, None)]),
+    # silêncio 64,56–64,68 antes de "Dormi"; o "-da" de "largada" vai até 69,42
     dict(id="nervoso", txt="Dormi sete horinhas ali, mas sempre bate aquele nervoso na hora da largada.",
-         som=("IMG_0860", 64.60, 68.85), img=[("v", "IMG_0860", 64.60, None)]),
+         som=("IMG_0860", 64.60, 69.48), img=[("v", "IMG_0860", 64.60, None)]),
     dict(id="alinhados", txt="", dur=1.0, img=[("v", "IMG_0863", 2.0, None)]),
-    dict(id="contagem", txt="cinco, quatro, três, dois, largou!", som=("IMG_0867", 5.85, 13.60), img=[("v", "IMG_0867", 5.85, None)]),
+    dict(id="contagem", txt="cinco, quatro, três, dois, largou!", som=("IMG_0867", 5.85, 13.75), img=[("v", "IMG_0867", 5.85, None)]),
     dict(id="percurso", txt="", dur=4.56, img=[("f", "IMG_0899", 0.42), ("f", "IMG_0901", 0.42), ("f", "IMG_0904", 0.42), ("f", "IMG_0906", 0.42),
                                                  ("f", "IMG_0908", 0.42), ("f", "IMG_0910", 0.42), ("f", "IMG_0913", 0.42), ("f", "IMG_0915", 0.42),
                                                  ("v", "IMG_0875", 0.5, None)]),
-    dict(id="chegada", txt="É o primeiro a chegar na segunda edição da Corrida Start Fitness. Adriano Barbosa, parabéns!",
-         som=("IMG_0871", 0.74, 10.62), img=[("v", "IMG_0871", 0.74, None)]),
+    # o clipe começa no meio de uma frase do locutor; entre 1,1 e 2,3 s tem uma voz baixa de outra pessoa perto da câmera:
+    # entra no silêncio de 2,45 s, logo antes do "É o primeiro a chegar"; vai até o fim
+    # do pensamento ("cadê as palmas do Adriano?", acaba em 12,15)
+    dict(id="chegada", txt="É o primeiro a chegar na segunda edição da Corrida Start Fitness. Adriano Barbosa, parabéns! Cadê as palmas do Adriano?",
+         som=("IMG_0871", 2.45, 12.22), img=[("v", "IMG_0871", 2.45, None)]),
     dict(id="emocao", txt="", dur=1.3, img=[("f", "IMG_0872", None)]),
+    # o "ss" final de "Fitness" vai até 8,76; o "E aí, Adriana" vem colado depois
     dict(id="campea", txt="Pessoal, a Adriana Teodosio foi a vencedora do 5KM, foi a mulher que chegou mais rápido na segunda edição da Corrida Start Fitness.",
-         som=("IMG_0891", 0.00, 8.37), img=[("v", "IMG_0891", 0.0, 2.0), ("v", "IMG_0876", 2.7, 2.3), ("f", "IMG_0892", 1.6), ("v", "IMG_0891", 5.9, None)]),
-    dict(id="dedica", txt="Essa primeira colocação eu dedico ao meu filho, né, porque eu sou mãe atleta.",
-         som=("IMG_0891", 74.95, 80.95), img=[("v", "IMG_0891", 74.95, None)]),
+         som=("IMG_0891", 0.00, 8.77), img=[("v", "IMG_0891", 0.0, 2.0), ("v", "IMG_0876", 2.7, 2.3), ("f", "IMG_0892", 1.6), ("v", "IMG_0891", 5.9, None)]),
+    # a dedicatória inteira: do agradecimento até o nome do filho (silêncio em 71,5 e em 82,75)
+    dict(id="dedica", txt="Eu quero agradecer a Deus, né, pelo pódio. E assim, essa primeira colocação eu dedico ao meu filho, né, porque eu sou mãe atleta. Então, vai pra o meu Harvey.",
+         som=("IMG_0891", 71.50, 82.74), img=[("v", "IMG_0891", 71.50, None)]),
+    # a última sílaba de "fisioterapia" vai até 7,8
     dict(id="cuidar", txt="E a Corrida Start Fitness vocês sabem que sabe cuidar da galera. Tem essa estação aqui que é de fisioterapia.",
-         som=("IMG_0926", 0.00, 7.72), img=[("v", "IMG_0926", 0.0, 4.9), ("v", "IMG_0925", 0.5, None)]),
-    dict(id="catiana", txt="Foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
-         som=("IMG_0929", 29.62, 37.88), img=[("v", "IMG_0929", 29.62, 1.95), ("v", "IMG_0885", 14.0, 1.1), ("v", "IMG_0888", 1.0, 1.1), ("v", "IMG_0929", 33.77, None)]),
-    dict(id="gratidao", txt="É um sentimento de gratidão muito grande. Ver o pessoal que se fez aqui presente.",
-         som=("IMG_0934", 20.95, 25.95), img=[("v", "IMG_0934", 20.95, 2.55), ("f", "IMG_0858", None)]),
+         som=("IMG_0926", 0.15, 7.84), img=[("v", "IMG_0926", 0.15, 4.75), ("v", "IMG_0925", 0.5, None)]),
+    # a resposta inteira, desde "Assim, o diferencial é..." (25,82); o "não" final vai até 38,2 ("Peguei" em 38,4)
+    dict(id="catiana", txt="Assim, o diferencial é porque de fato representa, foi maravilhoso, teve tudo e mais um pouco. Superou todas as expectativas. Não é só a medalha e banana não.",
+         som=("IMG_0929", 25.75, 38.30), img=[("v", "IMG_0929", 25.75, 5.7), ("v", "IMG_0885", 14.0, 1.1), ("v", "IMG_0888", 1.0, 1.1), ("v", "IMG_0929", 33.65, None)]),
+    # entra depois do "explique" do apresentador (vale em 21,26) e vai até o fim do pensamento ("é um dia de lazer", 32,2)
+    dict(id="gratidao", txt="É um sentimento de gratidão muito grande. Ver o pessoal que se fez aqui presente. Então, a gente está promovendo saúde, a gente está promovendo um dia diferente. É um dia de lazer.",
+         som=("IMG_0934", 21.26, 32.30), img=[("v", "IMG_0934", 21.26, 2.5), ("f", "IMG_0858", 2.6), ("v", "IMG_0934", 26.36, None)]),
 ]
-FADE = 0.015
+FADE = 0.02
 
 
 def dur_de(t):

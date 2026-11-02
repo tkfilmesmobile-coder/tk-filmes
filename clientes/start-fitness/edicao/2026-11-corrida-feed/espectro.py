@@ -1,0 +1,31 @@
+"""Espectrograma de um trecho, com régua de tempo a cada 0,1 s, pra achar a fronteira real entre palavras quando a
+pessoa emenda uma frase na outra sem pausa (aí nem detector de voz nem transcrição separam).
+Uso: python espectro.py IMG_0891 7.6 9.4 saida.png [palavras do trecho, opcional]
+"""
+import os
+import sys
+import wave
+
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import numpy as np
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
+nome, a, b, saida = sys.argv[1], float(sys.argv[2]), float(sys.argv[3]), sys.argv[4]
+with wave.open(os.path.join(AQUI, "analise", "wav16k", nome + ".wav")) as w:
+    x = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
+x = x[int(a * 16000): int(b * 16000)]
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(16, 6), sharex=True, gridspec_kw={"height_ratios": [3, 1]})
+ax1.specgram(x, NFFT=512, Fs=16000, noverlap=448, cmap="magma", vmin=-110)
+ax1.set_ylim(0, 8000)
+env = np.array([np.sqrt((x[i:i + 160] ** 2).mean()) for i in range(0, len(x) - 160, 160)])
+ax2.plot(np.arange(len(env)) * 0.01, 20 * np.log10(env + 1e-6), lw=1)
+ax2.set_ylim(-70, -5)
+for ax in (ax1, ax2):
+    ax.set_xticks(np.arange(0, b - a + 1e-6, 0.1))
+    ax.set_xticklabels([f"{a + t:.1f}" for t in np.arange(0, b - a + 1e-6, 0.1)], fontsize=7, rotation=90)
+    ax.grid(axis="x", alpha=0.35)
+ax1.set_title(f"{nome} {a:.2f}-{b:.2f}  " + " ".join(sys.argv[5:]))
+plt.tight_layout()
+plt.savefig(saida, dpi=80)
