@@ -136,6 +136,13 @@ def agenda():
                 dia += dt.timedelta(days=1)
             feed[dia] = (fmt, tema, fonte, leg)
             dia += dt.timedelta(days=2)  # um dia livre
+    # Ajuste da Talyta em 2026-11-03: o Novembro Azul não saiu em 01/11 (PC em suspensão) e foi pra 03/11;
+    # o reels da noiva, que seria 03/11, foi pra 04/11; o resto ficou como estava.
+    MOVIDOS = {dt.date(2026, 11, 1): dt.date(2026, 11, 3), dt.date(2026, 11, 3): dt.date(2026, 11, 4)}
+    itens = {velho: feed.pop(velho) for velho in MOVIDOS if velho in feed}
+    for velho, novo in MOVIDOS.items():
+        if velho in itens:
+            feed[novo] = itens[velho]
     return dict(sorted(feed.items()))
 
 

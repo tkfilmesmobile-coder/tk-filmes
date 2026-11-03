@@ -48,8 +48,8 @@ function uploadFileUmaVez(filePath) {
   // Tenta catbox primeiro
   try {
     const result = execSync(
-      `curl -s -F "reqtype=fileupload" -F "fileToUpload=@${abs}" "https://catbox.moe/user/api.php"`,
-      { timeout: 600000 }
+      `curl -s --max-time 80 -F "reqtype=fileupload" -F "fileToUpload=@${abs}" "https://catbox.moe/user/api.php"`,
+      { timeout: 90000 }  // TK Filmes (03/11/2026): catbox às vezes trava; desiste rápido e vai pro uguu
     ).toString().trim();
     if (result.startsWith("https://")) return result;
   } catch (e) { /* catbox falhou, tenta uguu */ }

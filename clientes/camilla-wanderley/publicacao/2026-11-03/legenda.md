@@ -1,11 +1,11 @@
-Vai casar? Comece o clareamento antes.
+Uma ferida na boca que não sara em 15 dias não é "só uma afta".
 
-Só o caseiro leva cerca de 21 dias, e começar com um gel forte demais pode trazer sensibilidade. Quando a data está perto, dá pra associar o clareamento de consultório com o caseiro e planejar cada etapa até o grande dia.
+Esta é a Semana Nacional de Prevenção do Câncer Bucal, e ela cai bem no Novembro Azul. O câncer de boca é mais comum em homens depois dos 40, justamente quem mais adia a consulta.
 
-Sensibilidade pode aparecer, sim. Com acompanhamento, ela é controlável.
+Mancha branca ou avermelhada, caroço, ferida que insiste, prótese que machuca sempre no mesmo lugar: o corpo avisa. Quanto antes alguém olha, mais simples costuma ser o caminho.
 
-Tem uma data importante chegando? Me chama no direct que a gente planeja junto. 🤍
+Se você conhece um homem que "só vai ao dentista quando dói", manda isso pra ele. 🤍
 
-#clareamentodental #noiva #casamento #uniaodospalmares
+#novembroazul #cancerbucal #saudebucal #uniaodospalmares
 
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares

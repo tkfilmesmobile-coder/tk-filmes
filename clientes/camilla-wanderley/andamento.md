@@ -47,7 +47,10 @@
   Antes de montar, confirmar com a doutora: nome do pai e se ele topa aparecer (fotos dos dois), atendimento nas
   quintas 24/12 e 31/12, se o Dr. Jadson entra no post da família. (2026-10-24)
 - **Publicação automática (2026-10-24):** as 24 postagens saem sozinhas às 12h (Agendador do Windows neste PC, ver
-  `_contexto/automacoes.md`). Termos de autorização dos pacientes e confirmações sobre o pai e a filha precisam estar ok antes das datas.
+  `_contexto/automacoes.md`). Situação em 2026-11-03: saíram 26/10 (Mari, fora do robô), 28/10 (vlog) e 30/10 (bastidores);
+  01/11 (Novembro Azul) não saiu (PC em suspensão) e foi publicado em 03/11 a pedido da Talyta; o reels da noiva foi pra 04/11. Robô
+  reforçado no mesmo dia (repete até 22h, acorda o PC, não duplica). Termos de autorização dos pacientes e confirmações
+  sobre o pai e a filha seguem pendentes.
 - **Calendário de postagens 26/10 a 31/12 (2026-10-24):** `calendarios/2026-11-12-calendario-postagens.md` (gerado por
   `monta_calendario_2026-11-12.py`). Começa seg 26/10 com o vlog. Dezembro só tem 2 posts no feed: completar com o implante,
   o reels da Mari e a próxima diária. Finados (02/11) sem post. **PDF de entrega gerado** (13 páginas,

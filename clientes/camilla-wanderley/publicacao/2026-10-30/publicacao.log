@@ -1,0 +1,37 @@
+﻿[2026-10-30 12:00:01] início
+[2026-10-30 12:00:02] não renovei o acesso agora (Exceção ao chamar "WriteAllLines" com "3" argumento(s): "O processo não pode acessar o arquivo 'C:\Users\kumyt\Documents\Projeto TK FILMES\TK FILMES\.env' porque ele está sendo usado por outro processo."); sigo com o atual
+[2026-10-30 12:00:02] publicando carrossel (5)...
+Fazendo upload de 5 imagens pro catbox...
+  OK: 01.jpg
+  OK: 02.jpg
+  OK: 03.jpg
+  OK: 04.jpg
+  OK: 05.jpg
+
+Criando containers no Instagram...
+  OK: 18119036846001938
+  OK: 18119036888001938
+  OK: 18119037050001938
+  OK: 18119037089001938
+  OK: 18119037107001938
+
+Montando carrossel...
+
+Publicando...
+
+Publicado!
+Link: https://www.instagram.com/p/DfH2vuVljoP/
+[2026-10-30 12:01:06] post: fim (código 0)
+[2026-10-30 12:01:26] story story-01.jpg...
+Fazendo upload do story...
+
+Story publicado! (media 18342254953259989)
+[2026-10-30 12:02:04] story story-02.jpg...
+Fazendo upload do story...
+
+Story publicado! (media 18139184536711778)
+[2026-10-30 12:02:41] story story-03.jpg...
+Fazendo upload do story...
+
+Story publicado! (media 18113909489466618)
+[2026-10-30 12:03:01] TUDO PUBLICADO: 1 post (carrossel (5)) + 3 de 3 stories

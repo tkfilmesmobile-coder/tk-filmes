@@ -12,8 +12,8 @@ o resto segue com um dia de espaço. Gerado por `monta_calendario_2026-11-12.py`
 | seg 26/10 | reels | Depoimento da Mari · 7 anos de sorriso | repostar o reels |
 | qua 28/10 | reels | Vlog · uma quinta na CIP | repostar o reels |
 | sex 30/10 | carrossel | Bastidores de uma quinta na CIP | 3 (do post) |
-| dom 01/11 | post de data | Novembro Azul + Semana de Prevenção do Câncer Bucal | 3 (do post) |
-| ter 03/11 | reels | Clareamento antes do casamento | repostar o reels |
+| ter 03/11 | post de data | Novembro Azul + Semana de Prevenção do Câncer Bucal | 3 (do post) |
+| qua 04/11 | reels | Clareamento antes do casamento | repostar o reels |
 | qui 05/11 | carrossel | Vai casar? Comece o clareamento antes | 3 (do post) |
 | sáb 07/11 | reels | Feedback · Robervânia | repostar o reels |
 | seg 09/11 | carrossel | Trauma de dentista e atendimento humanizado | 3 (do post) |
@@ -79,7 +79,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 #uniaodospalmares #odontologia #bastidores #sorrisosaudavel
 ```
 
-### dom 01/11 · post de data · Novembro Azul + Semana de Prevenção do Câncer Bucal
+### ter 03/11 · post de data · Novembro Azul + Semana de Prevenção do Câncer Bucal
 
 - Arquivo: `posts/2026-11/02-semana-cancer-bucal`
 - Legenda:
@@ -87,7 +87,7 @@ Dra. Camilla Wanderley · Clínica Geral e Endodontia
 ```
 Uma ferida na boca que não sara em 15 dias não é "só uma afta".
 
-Começa hoje a Semana Nacional de Prevenção do Câncer Bucal, e ela cai bem no Novembro Azul. O câncer de boca é mais comum em homens depois dos 40, justamente quem mais adia a consulta.
+Esta é a Semana Nacional de Prevenção do Câncer Bucal, e ela cai bem no Novembro Azul. O câncer de boca é mais comum em homens depois dos 40, justamente quem mais adia a consulta.
 
 Mancha branca ou avermelhada, caroço, ferida que insiste, prótese que machuca sempre no mesmo lugar: o corpo avisa. Quanto antes alguém olha, mais simples costuma ser o caminho.
 
@@ -98,7 +98,7 @@ Se você conhece um homem que "só vai ao dentista quando dói", manda isso pra 
 Dra. Camilla Wanderley · Clínica Geral e Endodontia · às quintas na CIP, União dos Palmares
 ```
 
-### ter 03/11 · reels · Clareamento antes do casamento
+### qua 04/11 · reels · Clareamento antes do casamento
 
 - Arquivo: Drive: VÍDEOS EDITADOS/2026-10/2026-10-22 · Clareamento antes do casamento.mp4
 - Legenda:
