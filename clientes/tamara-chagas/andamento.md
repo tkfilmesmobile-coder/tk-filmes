@@ -60,15 +60,18 @@
 - 2026-11-03 · **Reels Novembro Azul** editado (`reels/2026-11-03-novembro-azul/`, bruto IMG_6687 do notebook, 1min24,
   tomada única, legenda palavra a palavra e 7 headlines; legenda com fonte SBU; 7 stories). **Reels salário-maternidade**
   editado (`reels/2026-11-05-salario-maternidade/`, bruto IMG_7231 de 03/11, 41 s, sai só o "Bem," solto entre duas
-  frases; 7 stories). Os dois no Drive (`CONTEÚDO/2026-11 NOVEMBRO/REELS`). A tarefa agendada foi barrada pelas
-  permissões: publicação depende do OK da Talyta.
+  frases; 7 stories). Os dois no Drive (`CONTEÚDO/2026-11 NOVEMBRO/REELS`). **Aprovados pela Talyta e agendados na
+  Post for Me** (toda a programação da Tamara passa a ser lá, pedido dela em 03/11): Novembro Azul ter 03/11 16h no
+  lugar do feed de hoje, salário-maternidade qui 05/11 16h, no @dra.tamarachagas_ com colaboração do @tamarachagas_prev,
+  + 3 stories do pessoal cada. Agenda em `calendarios/2026-11-agenda-postagens.md`.
 
 ## Em aberto
 - **Salário-maternidade (Reels de 05/11):** a Tamara diz que a aposentada não recebe junto; o Decreto 3.048/99, art. 103,
   garante o salário-maternidade à aposentada que voltou a trabalhar. Confirmar com ela antes de postar (a legenda do post
   já não fala da aposentada). (2026-11-03)
-- **Meta da semana (02 a 06/11):** Novembro Azul (03/11) e salário-maternidade (05/11, 16h). Quarta 04/11 não pode ser
-  Tamara pra câmera de novo: espaço pro vídeo oficial da decoração de Natal ou outro formato. (2026-11-03)
+- **Meta da semana (02 a 06/11): 2 de 5 agendados** (Novembro Azul 03/11, salário-maternidade 05/11). Qua 04/11 livre pro
+  vídeo oficial da decoração de Natal; sex 06/11 livre (feira EP3 ou "Trabalhador rural", só no PC do escritório). (2026-11-03)
+- **Conectar o @tamarachagas_prev na Post for Me** pra agendar os 4 stories do escritório de cada Reels. (2026-11-03)
 - **Autorização de imagem do ajudante** que aparece no Vlog de Natal EP. 03 (já publicado em 29/10). (2026-10-29)
 - **Meta da semana (26 a 30/10): 4 de 5 Reels** (pensão 26/10, cirurgia 28/10, Vlog de Natal EP. 03 29/10, carta negada
   30/10 às 16h). Episódio 3 da feira e "Trabalhador rural" dependem de arquivos que só existem no PC do escritório. (2026-10-30)

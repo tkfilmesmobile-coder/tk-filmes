@@ -19,6 +19,10 @@ Vídeos (regra da Talyta, 15/10/2026):
 - **Programação automática:** todo vídeo que ela mandar e for aprovado já entra na programação de
   postagens, às 16h, com stories (3 no pessoal, 4 no escritório).
   Não perguntar a data: agendar e avisar, registrando em `_contexto/automacoes.md`.
+  **Desde 03/11/2026 toda a programação é na Post for Me** (pedido da Talyta): Reels no @dra.tamarachagas_ com
+  `--colaboradores tamarachagas_prev`, stories do pessoal logo depois. Nada de tarefa no Agendador do Windows pra
+  Reels. A agenda fica em `calendarios/AAAA-MM-agenda-postagens.md`. Os 4 stories do escritório só entram quando o
+  @tamarachagas_prev for conectado na Post for Me.
 - **5 Reels por semana, mesclando formatos** (regra de 20/10/2026): um por dia útil, de segunda a
   sexta, sem repetir o mesmo formato em dias seguidos (Tamara pra câmera · equipe/humor · quadro da
   feira · vlog). Semana cheia, o próximo vídeo passa pra semana seguinte. Vale também pro quadro da feira.

@@ -8,11 +8,11 @@
  *     --images "slide-01.png,slide-02.png,..."   (carrossel ou imagem única)
  *     --video "corte.mp4"                        (ou um vídeo)
  *     --media-url "https://..."                  (ou um vídeo que já subiu antes)
- *     --caption "legenda do post" \
+ *     --caption "legenda do post" | --caption-file legenda.txt \
  *     [--schedule 2026-10-05T18:30:00-03:00]     (agenda em vez de publicar agora)
  *     [--placement reels|timeline|stories]       (Instagram; vídeo vai como reels por padrão)
  *     [--trial manual|performance]               (Instagram: reels de teste)
- *     [--account-id spc_xxx] [--draft] [--sem-conferir] [--dry-run]
+ *     [--conta tk.filmes | --account-id spc_xxx] [--draft] [--sem-conferir] [--dry-run]
  *
  * AGENDAR (--schedule): ISO 8601 SEMPRE com fuso. "2026-10-05T18:30:00-03:00" é
  * 18h30 de Brasília. Sem o fuso, o horário vira UTC e o post sai 3h antes.
@@ -60,10 +60,15 @@ function parseArgs() {
     else if (a === "--video") p.video = args[++i];
     else if (a === "--media-url") p.mediaUrl = args[++i];
     else if (a === "--caption") p.caption = args[++i];
+    // Customização TK (2026-11-03): legenda de arquivo UTF-8 (a linha de comando do Windows quebra acento e emoji)
+    else if (a === "--caption-file") p.caption = fs.readFileSync(args[++i], "utf8").replace(/^﻿/, "").replace(/\r\n/g, "\n").trim();
     else if (a === "--account-id") p.accountId = args[++i];
+    else if (a === "--conta") p.conta = args[++i];
     else if (a === "--schedule") p.schedule = args[++i];
     else if (a === "--placement") p.placement = args[++i];
     else if (a === "--trial") p.trial = args[++i];
+    // Customização TK (2026-11-03): colaboração no Instagram (ex: Reels da Dra. Tamara com o @tamarachagas_prev)
+    else if (a === "--colaboradores") p.colaboradores = args[++i].split(",").map((s) => s.trim().replace(/^@/, "")).filter(Boolean);
     else if (a === "--draft") p.draft = true;
     else if (a === "--sem-conferir") p.semConferir = true;
     else if (a === "--dry-run") p.dryRun = true;
@@ -101,12 +106,23 @@ async function apiFetch(endpoint, options = {}) {
   return corpo ? JSON.parse(corpo) : {};
 }
 
-async function contaConectada(platform, accountId) {
+// Customização TK Filmes (2026-11-03): várias contas na mesma chave. --conta <@> escolhe pelo username;
+// com mais de uma conta conectada e sem --conta/--account-id, o script recusa (nunca publica no perfil errado).
+async function contaConectada(platform, accountId, contaNome) {
   if (accountId) return { id: accountId, username: accountId };
   const r = await apiFetch(`/v1/social-accounts?platform=${platform}`);
   const conectadas = (r.data || r).filter((a) => a.status === "connected");
   if (!conectadas.length) {
     throw new Error(`Nenhuma conta de ${platform} conectada na Post for Me. Conecta no painel deles.`);
+  }
+  if (contaNome) {
+    const alvo = contaNome.replace(/^@/, "").toLowerCase();
+    const achada = conectadas.find((a) => (a.username || "").replace(/^@/, "").toLowerCase() === alvo);
+    if (!achada) throw new Error(`Conta @${alvo} não está conectada na Post for Me. Conectadas: ${conectadas.map((a) => "@" + a.username).join(", ")}`);
+    return achada;
+  }
+  if (conectadas.length > 1) {
+    throw new Error(`Há ${conectadas.length} contas de ${platform} conectadas (${conectadas.map((a) => "@" + a.username).join(", ")}). Diga qual com --conta <@>.`);
   }
   return conectadas[0];
 }
@@ -162,10 +178,11 @@ function montarCorpo({ accountId, mediaUrls, p, placement }) {
   if (mediaUrls && mediaUrls.length) body.media = mediaUrls.map((url) => ({ url }));
   if (p.schedule) body.scheduled_at = new Date(p.schedule).toISOString();
 
-  if (p.platform === "instagram" && (placement || p.trial)) {
+  if (p.platform === "instagram" && (placement || p.trial || p.colaboradores)) {
     const ig = {};
     if (placement) ig.placement = placement;
     if (p.trial) ig.trial_reel_type = p.trial;
+    if (p.colaboradores && p.colaboradores.length) ig.collaborators = p.colaboradores;
     body.platform_configurations = { instagram: ig };
   }
   // Rascunho do TikTok TEM que ir em platform_configurations.tiktok.is_draft.
@@ -217,7 +234,7 @@ async function main() {
   const placement = p.placement || (temVideo && p.platform === "instagram" ? "reels" : undefined);
   const tipo = temVideo ? "vídeo" : imagens.length > 1 ? `carrossel (${imagens.length} slides)` : imagens.length ? "imagem" : "texto";
 
-  const conta = await contaConectada(p.platform, p.accountId);
+  const conta = await contaConectada(p.platform, p.accountId, p.conta);
   console.log(`\n[Post for Me] ${p.schedule ? "agendando" : "publicando"} ${tipo} no ${p.platform} · conta ${conta.username || conta.id}`);
 
   if (p.dryRun) {
@@ -227,6 +244,7 @@ async function main() {
     if (p.mediaUrl) console.log(`  - reaproveitando ${p.mediaUrl}`);
     if (placement) console.log(`Placement: ${placement}`);
     if (p.trial) console.log(`Reels de teste: ${p.trial} (só quem NÃO segue vê)`);
+    if (p.colaboradores) console.log(`Colaboração: ${p.colaboradores.map((c) => "@" + c).join(", ")}`);
     if (p.draft) console.log(`Rascunho: sim`);
     imprimirAgenda(p.schedule);
     console.log(`Legenda: ${(p.caption || "").slice(0, 120)}${(p.caption || "").length > 120 ? "..." : ""}`);

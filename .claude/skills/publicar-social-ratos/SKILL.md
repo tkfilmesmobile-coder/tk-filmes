@@ -23,6 +23,11 @@ description: >
 > `--colaboradores user1,user2` (convite de colaboração no feed) e `--story` (publica imagem nos
 > stories; o script espera o Instagram liberar antes de publicar). Preservar ao atualizar.
 > Scripts rodam direto daqui: `node --env-file=.env .claude/skills/publicar-social-ratos/scripts/...`
+> Post for Me (2026-11-03): uma chave só (`POSTFORME_API_KEY`) com todas as contas conectadas. Toda
+> publicação leva `--conta <@>` (ex: `--conta tk.filmes`); com mais de uma conta conectada o
+> `publish-postforme.js` recusa sem ela. Preservar ao atualizar.
+> `--colaboradores a,b` (2026-11-03) marca colaboração no Instagram (vai em `platform_configurations.instagram.collaborators`,
+> conferido no post criado). Story pela Post for Me exige `--caption` (a API recusa sem legenda, mesmo o story não mostrando).
 
 ## Setup (primeira vez)
 
