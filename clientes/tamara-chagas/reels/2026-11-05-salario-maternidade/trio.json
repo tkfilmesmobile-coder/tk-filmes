@@ -1,0 +1,19 @@
+{
+ "data": "5 de novembro de 2026",
+ "card": "Vídeo novo no feed: toda grávida recebe <b>salário-maternidade</b>?",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "salário-maternidade · o que ver antes",
+  "linhas": [
+   "1. Nem toda gestante <b>tem direito</b>",
+   "2. O INSS verifica <b>o enquadramento</b>",
+   "3. Não acumula com <b>BPC nem auxílio-doença</b>"
+  ],
+  "marca": "depende"
+ },
+ "conversa": [
+  ["in", "Dra., toda grávida recebe mais de 6 mil?", "16:03"],
+  ["out", "Não é bem assim. A resposta é: depende do seu caso.", "16:04"]
+ ],
+ "fonte": ""
+}

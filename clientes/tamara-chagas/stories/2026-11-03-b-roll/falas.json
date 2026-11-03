@@ -1,0 +1,17 @@
+[
+ {"id": "01-bom-dia", "bruto": "FALA_preto_dentro_atendimento-online-localizacao_01.MOV", "kicker": "BOM DIA",
+  "trechos": [[0.0, 4.5]],
+  "linhas": [
+   [["Bom", 0.05], ["dia,", 0.3]],
+   [["passando", 0.9], ["para", 1.25], ["avisar", 1.5], ["que", 1.95]],
+   [["já", 2.08], ["iniciamos", 2.26], ["nossos", 2.68], ["atendimentos", 2.94]],
+   [["aqui", 3.42], ["no", 3.66], ["escritório.", 3.86]]
+  ]},
+ {"id": "03-horario", "bruto": "FALA_preto_fachada_horario_02.MOV", "kicker": "HORÁRIO DE ATENDIMENTO",
+  "trechos": [[4.1, 7.6]],
+  "linhas": [
+   [["Horário", 4.4], ["de", 4.85], ["funcionamento,", 5.0]],
+   [["de", 5.58], ["8h", 5.7], ["da", 6.1], ["manhã", 6.2]],
+   [["a", 6.5], ["1h", 6.6], ["da", 6.92], ["tarde.", 7.05]]
+  ]}
+]

@@ -1,0 +1,19 @@
+{
+ "data": "3 de novembro de 2026",
+ "card": "Vídeo novo no feed: <b>Novembro Azul</b>, não espere adoecer pra se cuidar.",
+ "notas": {
+  "hora": "16:02",
+  "titulo": "novembro azul · o meu recado",
+  "linhas": [
+   "1. A partir dos 50, <b>converse com o médico</b>",
+   "2. Com fatores de risco, <b>comece antes</b>",
+   "3. Se cuidar é <b>amor próprio</b>"
+  ],
+  "marca": "amor próprio"
+ },
+ "conversa": [
+  ["in", "Dra., homem que se cuida é exagero?", "16:03"],
+  ["out", "É responsabilidade. Nenhum benefício substitui a sua saúde.", "16:04"]
+ ],
+ "fonte": ""
+}

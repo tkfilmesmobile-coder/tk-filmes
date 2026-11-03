@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "senhor-chapeu-radio-fernando-filo-unsplash.jpg",
+  "kicker": "NOVEMBRO AZUL",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Não espere <b>adoecer.</b>",
+  "sub": "Vídeo novo da Dra. Tamara no feed."
+ },
+ {
+  "id": "02",
+  "foto": "stock/agricultor-feno-pexels-18394393.jpg",
+  "kicker": "A VIDA INTEIRA TRABALHANDO",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "E a saúde <b>ficando pra depois.</b>",
+  "sub": "Muitos só procuram ajuda quando a doença já afeta o trabalho.",
+  "fonte": ""
+ },
+ {
+  "id": "03",
+  "foto": "senhor-jardim-kawe-rodrigues-unsplash.jpg",
+  "kicker": "A PARTIR DOS 50 ANOS",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Converse com o médico sobre <b>exames de próstata.</b>",
+  "sub": "Com fatores de risco, essa conversa começa antes.",
+  "fonte": ""
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0156.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Se cuidar é <b>amor próprio.</b>",
+  "sub": "Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]

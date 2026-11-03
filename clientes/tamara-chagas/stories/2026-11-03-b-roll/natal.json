@@ -1,0 +1,14 @@
+[
+ {"id": "n1-domingo", "src": "C:/Users/kumyt/AppData/Local/Temp/claude/C--Users-kumyt-Documents-Projeto-TK-FILMES/9b5077f4-1492-47c0-afcc-ed6d3009adee/scratchpad/natal/18033855149916124.mp4",
+  "a": 22, "b": 28.5, "trilha_ini": 4,
+  "kicker": "SAGA DE NATAL · DOMINGO", "texto": "A montagem começou.<br><b>A meta: entregar na segunda.</b>", "pos": "baixo"},
+ {"id": "n2-domingo-noite", "src": "C:/Users/kumyt/AppData/Local/Temp/claude/C--Users-kumyt-Documents-Projeto-TK-FILMES/9b5077f4-1492-47c0-afcc-ed6d3009adee/scratchpad/natal/18033855149916124.mp4",
+  "a": 15.5, "b": 18.6, "rate": 0.7, "trilha_ini": 20,
+  "kicker": "DOMINGO À NOITE", "texto": "Faltava muita coisa.<br><b>Na segunda, não ia dar tempo.</b>", "pos": "baixo"},
+ {"id": "n3-segunda", "src": "C:/Users/kumyt/AppData/Local/Temp/claude/C--Users-kumyt-Documents-Projeto-TK-FILMES/9b5077f4-1492-47c0-afcc-ed6d3009adee/scratchpad/natal/17887686804652733.mp4",
+  "a": 0.5, "b": 6.5, "trilha_ini": 36,
+  "kicker": "SEGUNDA-FEIRA", "texto": "O dia inteiro de trabalho,<br><b>até a fachada.</b>", "pos": "baixo"},
+ {"id": "n4-pronto", "src": "C:/Users/kumyt/AppData/Local/Temp/claude/C--Users-kumyt-Documents-Projeto-TK-FILMES/9b5077f4-1492-47c0-afcc-ed6d3009adee/scratchpad/natal/17986205211107285.mp4",
+  "a": 1, "b": 7.5, "trilha_ini": 52,
+  "kicker": "SEGUNDA, 23H", "texto": "Tudo pronto.<br><b>Agora, o vídeo oficial vem aí.</b>", "pos": "baixo"}
+]

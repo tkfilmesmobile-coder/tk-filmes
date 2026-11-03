@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+  "foto": "stock/mae-filha-carinho-pexels-18251000.jpg",
+  "kicker": "SALÁRIO-MATERNIDADE",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Toda grávida recebe <b>mais de R$ 6 mil?</b>",
+  "sub": "Vídeo novo da Dra. Tamara no feed."
+ },
+ {
+  "id": "02",
+  "foto": "stock/mae-filho-brincando-pexels-31559971.jpg",
+  "kicker": "NÃO É BEM ASSIM",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Nem toda gestante <b>tem direito.</b>",
+  "sub": "O INSS verifica o enquadramento de cada uma.",
+  "fonte": ""
+ },
+ {
+  "id": "03",
+  "foto": "b-roll/estrutura-01-vaso.jpg",
+  "kicker": "NÃO ACUMULA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "Com BPC ou auxílio-doença, <b>não recebe os dois juntos.</b>",
+  "sub": "Fonte: Lei 8.213/1991, art. 124, IV · Lei 8.742/1993, art. 20, § 4º.",
+  "fonte": ""
+ },
+ {
+  "id": "04",
+  "foto": "tamara/tamara-estudio-0029.jpg",
+  "kicker": "TAMARA CHAGAS ADVOCACIA",
+  "pos": "baixo",
+  "tam": 62,
+  "texto": "A resposta é: <b>depende.</b>",
+  "sub": "Conteúdo em colaboração com <b>@dra.tamarachagas_</b>."
+ }
+]

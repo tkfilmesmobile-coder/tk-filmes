@@ -50,8 +50,25 @@
   (5,25–8,38 s, sem o fim da tentativa anterior) repostada; a localização do Salles não tem trecho limpo sem emenda
   (regra mais extensa em `_regras.md` e na ficha). No lugar dela, a pedido da Talyta, saiu a localização do rapaz
   de preto gravada dentro do escritório (0670, 9,35–14,8 s, trecho contínuo).
+- 2026-11-03 · Stories do dia (`stories/2026-11-03-b-roll/`, 5 de 5, 11h22–11h26; a tarefa das 8h não tinha lote): rapaz
+  de preto no bom dia (0670, 0–4,5 s) e no horário (0674, 4,1–7,6 s), pagamento acima de 1 SM começando hoje, Novembro
+  Azul e até amanhã. Sem localização falada (as duas limpas saíram em 29 e 30/10). **+ 4 stories da saga de Natal**
+  (trechos dos Reels que a Tamara postou, sem o som original, com a trilha do vlog e texto elegante; modelo novo
+  `modelos/stories_trecho_musica.py`): domingo, a montagem com a meta de entregar na segunda · domingo à noite, não ia
+  dar tempo · segunda, o dia inteiro, até a fachada · segunda, 23h, tudo pronto, o vídeo oficial vem aí (contexto da
+  Talyta: começou domingo, terminou segunda às 23h, tudo entregue; agora é a expectativa do vídeo oficial).
+- 2026-11-03 · **Reels Novembro Azul** editado (`reels/2026-11-03-novembro-azul/`, bruto IMG_6687 do notebook, 1min24,
+  tomada única, legenda palavra a palavra e 7 headlines; legenda com fonte SBU; 7 stories). **Reels salário-maternidade**
+  editado (`reels/2026-11-05-salario-maternidade/`, bruto IMG_7231 de 03/11, 41 s, sai só o "Bem," solto entre duas
+  frases; 7 stories). Os dois no Drive (`CONTEÚDO/2026-11 NOVEMBRO/REELS`). A tarefa agendada foi barrada pelas
+  permissões: publicação depende do OK da Talyta.
 
 ## Em aberto
+- **Salário-maternidade (Reels de 05/11):** a Tamara diz que a aposentada não recebe junto; o Decreto 3.048/99, art. 103,
+  garante o salário-maternidade à aposentada que voltou a trabalhar. Confirmar com ela antes de postar (a legenda do post
+  já não fala da aposentada). (2026-11-03)
+- **Meta da semana (02 a 06/11):** Novembro Azul (03/11) e salário-maternidade (05/11, 16h). Quarta 04/11 não pode ser
+  Tamara pra câmera de novo: espaço pro vídeo oficial da decoração de Natal ou outro formato. (2026-11-03)
 - **Autorização de imagem do ajudante** que aparece no Vlog de Natal EP. 03 (já publicado em 29/10). (2026-10-29)
 - **Meta da semana (26 a 30/10): 4 de 5 Reels** (pensão 26/10, cirurgia 28/10, Vlog de Natal EP. 03 29/10, carta negada
   30/10 às 16h). Episódio 3 da feira e "Trabalhador rural" dependem de arquivos que só existem no PC do escritório. (2026-10-30)

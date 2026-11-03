@@ -1,0 +1,11 @@
+[
+ {"id": "02-pagamento", "foto": "casal-idosos-kawe-rodrigues-unsplash.jpg", "kicker": "PAGAMENTO DE NOVEMBRO", "pos": "baixo", "tam": 58,
+  "texto": "Recebe acima de um salário mínimo? <b>O pagamento começa hoje</b> e vai até 9/11.",
+  "sub": "O dia depende do final do número do benefício. Confira no <b>Meu INSS</b>.",
+  "fonte": "Calendário de pagamentos do INSS 2026"},
+ {"id": "04-novembro-azul", "foto": "idoso-sorrindo-sala-vitaly-gariev-unsplash.jpg", "kicker": "NOVEMBRO AZUL", "pos": "baixo", "tam": 58,
+  "texto": "Novembro é o mês da saúde do homem. <b>Não deixe o cuidado pra depois.</b>",
+  "sub": "A partir dos 50 anos, converse com o seu médico sobre os exames de rotina."},
+ {"id": "05-ate-amanha", "foto": "b-roll/equipe-08-recepcao-logo.jpg", "kicker": "ATÉ AMANHÃ", "pos": "baixo",
+  "texto": "Obrigado pela visita.<br><b>Amanhã, às 8h, estamos aqui.</b>"}
+]

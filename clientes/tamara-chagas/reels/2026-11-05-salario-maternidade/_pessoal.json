@@ -1,0 +1,28 @@
+[
+ {
+  "id": "1-card",
+  "foto": "tamara/tamara-estudio-0044.jpg",
+  "kicker": "NOVO NO FEED",
+  "pos": "baixo",
+  "tam": 54,
+  "texto": "Vídeo novo no feed: toda grávida recebe <b>salário-maternidade</b>?"
+ },
+ {
+  "id": "2-notas",
+  "foto": "stock/gestante-jardim-pexels-20770621.jpg",
+  "kicker": "SALÁRIO-MATERNIDADE · O QUE VER ANTES",
+  "pos": "baixo",
+  "tam": 42,
+  "texto": "1. Nem toda gestante <b>tem direito</b><br>2. O INSS verifica <b>o enquadramento</b><br>3. Não acumula com <b>BPC nem auxílio-doença</b>",
+  "fonte": ""
+ },
+ {
+  "id": "3-conversa",
+  "foto": "stock/gestante-sapatinhos-pexels-33517451.jpg",
+  "kicker": "DÚVIDA COMUM",
+  "pos": "baixo",
+  "tam": 50,
+  "texto": "“Dra., toda grávida recebe mais de 6 mil?”",
+  "sub": "Não é bem assim. A resposta é: depende do seu caso."
+ }
+]

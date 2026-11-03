@@ -1,0 +1,28 @@
+[
+ {
+  "id": "1-card",
+  "foto": "tamara/tamara-estudio-0020.jpg",
+  "kicker": "NOVO NO FEED",
+  "pos": "baixo",
+  "tam": 54,
+  "texto": "Vídeo novo no feed: <b>Novembro Azul</b>, não espere adoecer pra se cuidar."
+ },
+ {
+  "id": "2-notas",
+  "foto": "stock/equipe-saude-corredor-pexels-6627924.jpg",
+  "kicker": "NOVEMBRO AZUL · O MEU RECADO",
+  "pos": "baixo",
+  "tam": 42,
+  "texto": "1. A partir dos 50, <b>converse com o médico</b><br>2. Com fatores de risco, <b>comece antes</b><br>3. Se cuidar é <b>amor próprio</b>",
+  "fonte": ""
+ },
+ {
+  "id": "3-conversa",
+  "foto": "stock/enfermeira-sorrindo-pexels-4930705.jpg",
+  "kicker": "DÚVIDA COMUM",
+  "pos": "baixo",
+  "tam": 50,
+  "texto": "“Dra., homem que se cuida é exagero?”",
+  "sub": "É responsabilidade. Nenhum benefício substitui a sua saúde."
+ }
+]
