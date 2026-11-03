@@ -66,9 +66,6 @@
   + 3 stories do pessoal cada. Agenda em `calendarios/2026-11-agenda-postagens.md`.
 
 ## Em aberto
-- **Salário-maternidade (Reels de 05/11):** a Tamara diz que a aposentada não recebe junto; o Decreto 3.048/99, art. 103,
-  garante o salário-maternidade à aposentada que voltou a trabalhar. Confirmar com ela antes de postar (a legenda do post
-  já não fala da aposentada). (2026-11-03)
 - **Meta da semana (02 a 06/11): 2 de 5 agendados** (Novembro Azul 03/11, salário-maternidade 05/11). Qua 04/11 livre pro
   vídeo oficial da decoração de Natal; sex 06/11 livre (feira EP3 ou "Trabalhador rural", só no PC do escritório). (2026-11-03)
 - **Conectar o @tamarachagas_prev na Post for Me** pra agendar os 4 stories do escritório de cada Reels. (2026-11-03)

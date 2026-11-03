@@ -19,8 +19,6 @@ O Novembro Azul substituiu o vídeo do feed de 03/11. O salário-maternidade nã
 seguidos de Tamara pra câmera.
 
 ## Pendências
-- Salário-maternidade: a Tamara diz que a aposentada não recebe junto; o Decreto 3.048/99, art. 103, garante à aposentada
-  que voltou a trabalhar. Confirmar com ela antes de quinta (a legenda já não fala da aposentada).
 - Conectar o @tamarachagas_prev na Post for Me pra agendar também os 4 stories do escritório de cada Reels.
 
 ## Como mudar
