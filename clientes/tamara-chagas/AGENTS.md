@@ -23,6 +23,10 @@ Vídeos (regra da Talyta, 15/10/2026):
   `--colaboradores tamarachagas_prev`, stories do pessoal logo depois. Nada de tarefa no Agendador do Windows pra
   Reels. A agenda fica em `calendarios/AAAA-MM-agenda-postagens.md`. Os 4 stories do escritório só entram quando o
   @tamarachagas_prev for conectado na Post for Me.
+- **TikTok (regra da Talyta, 04/11/2026):** tudo que for pro Instagram (Reels e posts de feed: imagem e carrossel viram
+  post de fotos) vai também, no mesmo horário, pro TikTok **@tamarachagas.prev** pela Post for Me
+  (`--platform tiktok --conta tamarachagas.prev`). Stories não. Levantamento do acervo em
+  `calendarios/2026-11-tiktok-levantamento.md`.
 - **5 Reels por semana, mesclando formatos** (regra de 20/10/2026): um por dia útil, de segunda a
   sexta, sem repetir o mesmo formato em dias seguidos (Tamara pra câmera · equipe/humor · quadro da
   feira · vlog). Semana cheia, o próximo vídeo passa pra semana seguinte. Vale também pro quadro da feira.
