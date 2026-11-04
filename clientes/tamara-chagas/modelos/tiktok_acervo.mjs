@@ -11,13 +11,14 @@ const [csvPath, filaPath, ...rest] = process.argv.slice(2);
 const SO = rest.includes("--so") ? Number(rest[rest.indexOf("--so") + 1]) : Infinity;
 const DRY = rest.includes("--dry-run");
 const HORAS = ["09:00", "11:00", "13:00", "18:00", "20:00"];
-const INICIO = "2026-11-04"; // a Talyta pediu que comece hoje (04/11): o 1º horário livre a partir de agora
-// horários de HORAS a partir de INICIO, pulando os que já passaram (com 20 min de folga)
+// horários fixos (não dependem da hora em que o script roda, pra rodar de novo sem embaralhar a fila):
+// pedido da Talyta em 04/11: o 1º sai na hora (19h03), o 2º às 20h e daí 5 por dia nos horários de HORAS
+const PRIMEIRO = "2026-11-04T19:03:00-03:00", DEPOIS = "2026-11-04T20:00:00-03:00";
 function horarios(n) {
-  const out = [], limite = Date.now() + 20 * 60 * 1000;
+  const out = [PRIMEIRO];
   for (let d = 0; out.length < n; d++) {
-    const dia = new Date(`${INICIO}T12:00:00-03:00`); dia.setDate(dia.getDate() + d);
-    for (const h of HORAS) { const q = `${dia.toISOString().slice(0, 10)}T${h}:00-03:00`; if (new Date(q).getTime() > limite) out.push(q); }
+    const dia = new Date(`${DEPOIS.slice(0, 10)}T12:00:00-03:00`); dia.setDate(dia.getDate() + d);
+    for (const h of HORAS) { const q = `${dia.toISOString().slice(0, 10)}T${h}:00-03:00`; if (q >= DEPOIS) out.push(q); }
   }
   return out.slice(0, n);
 }

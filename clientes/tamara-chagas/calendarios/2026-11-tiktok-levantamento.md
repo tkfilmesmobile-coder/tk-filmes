@@ -32,7 +32,8 @@ Por mês (o que pode ir): 2025-10: 13 · 11: 19 · 12: 15 · 2026-01: 14 · 02: 
 ## Acervo agendado (04/11/2026)
 A Talyta escolheu **5 por dia, começando hoje**: 9h, 11h, 13h, 18h e 20h (fora das 16h dos posts novos). Do mais
 recente pro mais antigo; a saga de Natal sai em ordem de episódio (EP. 01, 02, 03, o atraso, "Finalizamos!").
-- **186 do acervo agendados** no TikTok @tamarachagas.prev, de 04/11 às 20h até 13/12 às 18h (187 com o salário-maternidade).
+- **186 do acervo agendados** no TikTok @tamarachagas.prev. A pedido dela, o 1º saiu na hora (04/11 19h03, EP. 01 da
+  saga, publicado com sucesso), o 2º às 20h e daí 5 por dia até 11/12 às 18h (187 com o salário-maternidade).
   Lista com o id de cada um: `relatorios/2026-11-tiktok-fila.json`. Script: `modelos/tiktok_acervo.mjs` (retomável;
   remarca sozinho se os horários mudarem).
 - **34 ficaram de fora** (33 vídeos, 1 carrossel): o Instagram não entrega o arquivo desses posts (em geral, Reels com
