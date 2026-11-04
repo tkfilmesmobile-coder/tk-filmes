@@ -26,9 +26,12 @@
 - **APROVADO e ENTREGUE (04/11/2026):** a v4 foi aprovada pela Talyta e subiu no Drive da cliente como
   `H:\Meu Drive\Pingo de Gente\04-11-2026 - Live Black Day Pingo de Gente.mp4` (90 MB, 45,9 s).
 
+- **Bastidor TK (04/11/2026)** no Drive da TK, pra aprovação: `Bastidor TK - Pingo de Gente - pós-produção x resultado
+  final.mp4` e `... - carrossel 1, 2 e 3.png`; legendas (7 e 8) em `H:\Meu Drive\Bastidor TK - LEGENDAS.txt`. Só o formato
+  pós-produção (não há takes de erro).
+
 ## Pendências
-- Bastidor TK deste vídeo (regra de 2026-10-30): quadro + carrossel de 3, pra aprovação. Criança no vídeo: só com
-  autorização dos responsáveis.
+- Aprovar o Bastidor TK (vídeo + carrossel). **Não postar** sem autorização por escrito dos responsáveis pela criança.
 - Música de terceiro (TikTok): se o Instagram silenciar, trocar pela mesma música da biblioteca do app ao postar.
 - **Fala não confirmada em palavra:** "Você **já** está preparado?" e "perder **a** Black Day" (o large-v3 ouve sem o
   "já" e "Da/Na Black Day"). A Talyta aprovou o vídeo com essa legenda sem corrigir.

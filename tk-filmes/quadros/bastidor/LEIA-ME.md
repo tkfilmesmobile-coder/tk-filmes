@@ -47,3 +47,7 @@ Neste PC o Remotion renderiza com o Chrome instalado (`--browser-executable`), p
 
 ## Episódios
 - 2026-10-29 · Start Fitness (chamada da 2ª Corrida) e Dra. Anna Líbya (apresentação). Legendas em `H:\Meu Drive\Bastidor TK - LEGENDAS.txt`.
+- 2026-11-04 · Pingo de Gente (chamada da Live Black Day): **só "Pós-produção × Resultado final"** (`EdicaoPingo`; o vídeo
+  chegou cortado, sem takes de erro; o "bruto" é o vídeo cortado sem efeitos) + carrossel (`CarrosselPingo1..3`, capa com a
+  foto 19_38_46-2). Render com `--concurrency=2` (com o padrão o leitor de vídeo do Remotion caiu: "Request closed").
+  Modelo criança, sem contrato: **não postar sem autorização por escrito dos responsáveis**.

@@ -1,0 +1,54 @@
+{
+ "cliente": "Pingo de Gente",
+ "capa": {
+  "chamada": "Moda infantil",
+  "chamadaNegrito": "não se vende com",
+  "grande": "preço.",
+  "sub": "Vende com encanto.",
+  "subDestaque": "encanto.",
+  "foto": "capa.jpg",
+  "recorte": "recorte-capa.png",
+  "foco": 30,
+  "tam": 250,
+  "base": 150,
+  "degrade": 58
+ },
+ "p2": {
+  "foto": "foto-1.jpg",
+  "linhas": [
+   "O rabisco fala",
+   "a língua da"
+  ],
+  "negrito": "infância.",
+  "sub": "Pai e mãe reconhecem antes de ler.",
+  "enquadre": {
+   "z": 1,
+   "dx": 0,
+   "dy": 0,
+   "foco": 30,
+   "cor": "escuro",
+   "lado": "direita",
+   "topo": 330,
+   "largura": 430,
+   "tam": 70,
+   "subTopo": 820,
+   "subLargura": 380
+  }
+ },
+ "p3": {
+  "foto": "foto-2.jpg",
+  "etapa": 5,
+  "marcas": [
+   "Traço à mão",
+   "Movimento",
+   "Som"
+  ],
+  "marca": 1,
+  "titulo": [
+   "Movimento",
+   "prende o olho."
+  ],
+  "texto": "Desenho que acompanha a cena faz o olhar seguir. Quem segue, fica até o fim.",
+  "foco": 25
+ }
+}

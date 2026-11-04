@@ -37,7 +37,7 @@ Em 2026-11-04 entrou a Pingo de Gente (moda infantil, vídeo unitário R$ 100, `
 aprovada na v4 e entregue no Drive dela (`Pingo de Gente/04-11-2026 - Live Black Day Pingo de Gente.mp4`).
 
 ## Pendências
-- **Pingo de Gente:** Bastidor TK do vídeo (quadro + carrossel, regra de 30/10); autorização de imagem da criança com os responsáveis; contato, cidade, @ e logo. (2026-11-04)
+- **Pingo de Gente:** aprovar o Bastidor TK (vídeo pós-produção + carrossel, no Drive da TK, legendas 7 e 8); **não postar** sem autorização por escrito dos responsáveis pela criança; contato, cidade, @ e logo. (2026-11-04)
 - **URGENTE · vírus no computador principal (kumyt):** o Defender bloqueia todo dia um trojan que tenta desligar o antivírus; há programas estranhos na inicialização desde 21/10 (detalhes no diário de 2026-10-30). Fazer a verificação offline do Defender ou chamar técnico; até lá, não copiar e colar Pix nem senha neste PC. Depois, trocar as senhas (Google, Instagram/Facebook, GitHub, banco) pelo celular e refazer os tokens do `.env` e o login do GitHub. (2026-10-30)
 - **Post for Me:** chave ativa no `.env` (copiada neste PC ainda infectado: gerar chave nova depois da limpeza). @tk.filmes conectado e testado (03/11); clientes ainda não. Publicar sempre com `--conta <@>`. (2026-11-03)
 - **Bastidor TK:** 4 vídeos e 2 carrosséis aprovados (03/11), legendas prontas, datas reservadas (Start 11-13/11, Anna 17-19/11, `tk-filmes/posts/2026-11/agenda/agendados.md`); sem marcar o @ dos clientes; autorização pela cláusula de imagem dos contratos. **As 6 peças estão agendadas na Post for Me.** (2026-11-03)
