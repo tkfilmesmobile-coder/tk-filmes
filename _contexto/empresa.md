@@ -26,6 +26,7 @@
 - Dra. Melissa Morais (harmonização facial): só edição de vídeo, pacote avulso de 4 edições por R$ 200, combinado em 14/10/2026 e pago em 15/10/2026, sem contrato (acordo registrado em PDF). Ficha em `clientes/melissa-morais/`. (2026-10-16)
 - Dra. Annalibya (Anna Libya Barbosa Duarte Galvão, dentista, União dos Palmares/AL): Plano Essencial, R$ 400/mês desde 19/10/2026, de 4 a 6 conteúdos por mês (vídeo ou post, 1 = 1), que a TK roteiriza, grava e edita e entrega no Drive, sem publicação. Instagram @draannalibyaduarte, CRO-AL 3773, Clínica Geral e Endodontista. Ficha em `clientes/annalibya-duarte/`. (2026-10-20; atualizado em 2026-10-29)
 - Start Fitness (academia): serviço avulso de edição de 2 vídeos (o vídeo chega cortado e com cor; a TK faz layout, headlines, assets e trilha). Valor, contato e cidade a definir. Ficha em `clientes/start-fitness/`. (2026-10-28)
+- Pingo de Gente (moda infantil): vídeo unitário por R$ 100 (gravação pela TK em 04/11/2026; o vídeo chega cortado e a TK faz os efeitos). Contato, cidade e @ a definir. Ficha em `clientes/pingo-de-gente/`. (2026-11-04)
 - Marielly Makeup (maquiadora): edição de reels das noivas dela. Valor e contato a definir; ainda sem ficha (só `clientes/marielly-makeup/edicao/`). Drive: `Meu Drive\Marielly Makeup` da conta tkfilmesmobile (letra H: no computador principal), **só os conteúdos finais, soltos na pasta, sem subpastas e sem bruto** (pedido da Talyta). (2026-10-27)
 
 ## Preço

@@ -1,0 +1,167 @@
+{
+ "texto": "Vem aí! Você está preparado? Já é sábado! 19 horas no perfil da Pingu de Gente! Você não pode perder! Da Black Day da Pingu de Gente!",
+ "palavras": [
+  {
+   "p": "Vem",
+   "ini": 14.66,
+   "fim": 15.82,
+   "prob": 0.87
+  },
+  {
+   "p": "aí!",
+   "ini": 15.82,
+   "fim": 16.02,
+   "prob": 0.97
+  },
+  {
+   "p": "Você",
+   "ini": 31.24,
+   "fim": 32.02,
+   "prob": 0.88
+  },
+  {
+   "p": "está",
+   "ini": 32.02,
+   "fim": 32.2,
+   "prob": 0.79
+  },
+  {
+   "p": "preparado?",
+   "ini": 32.2,
+   "fim": 33.32,
+   "prob": 1.0
+  },
+  {
+   "p": "Já",
+   "ini": 33.36,
+   "fim": 33.84,
+   "prob": 0.97
+  },
+  {
+   "p": "é",
+   "ini": 33.84,
+   "fim": 33.98,
+   "prob": 0.91
+  },
+  {
+   "p": "sábado!",
+   "ini": 33.98,
+   "fim": 34.82,
+   "prob": 1.0
+  },
+  {
+   "p": "19",
+   "ini": 34.96,
+   "fim": 35.36,
+   "prob": 0.9
+  },
+  {
+   "p": "horas",
+   "ini": 35.36,
+   "fim": 36.08,
+   "prob": 0.47
+  },
+  {
+   "p": "no",
+   "ini": 36.08,
+   "fim": 36.52,
+   "prob": 0.88
+  },
+  {
+   "p": "perfil",
+   "ini": 36.52,
+   "fim": 37.0,
+   "prob": 0.99
+  },
+  {
+   "p": "da",
+   "ini": 37.0,
+   "fim": 37.1,
+   "prob": 0.96
+  },
+  {
+   "p": "Pingu",
+   "ini": 37.1,
+   "fim": 37.44,
+   "prob": 0.66
+  },
+  {
+   "p": "de",
+   "ini": 37.44,
+   "fim": 37.62,
+   "prob": 0.92
+  },
+  {
+   "p": "Gente!",
+   "ini": 37.62,
+   "fim": 38.0,
+   "prob": 0.89
+  },
+  {
+   "p": "Você",
+   "ini": 38.24,
+   "fim": 38.58,
+   "prob": 1.0
+  },
+  {
+   "p": "não",
+   "ini": 38.58,
+   "fim": 39.0,
+   "prob": 1.0
+  },
+  {
+   "p": "pode",
+   "ini": 39.0,
+   "fim": 39.46,
+   "prob": 1.0
+  },
+  {
+   "p": "perder!",
+   "ini": 39.46,
+   "fim": 40.04,
+   "prob": 1.0
+  },
+  {
+   "p": "Da",
+   "ini": 40.54,
+   "fim": 40.88,
+   "prob": 0.54
+  },
+  {
+   "p": "Black",
+   "ini": 40.88,
+   "fim": 41.28,
+   "prob": 0.99
+  },
+  {
+   "p": "Day",
+   "ini": 41.28,
+   "fim": 41.74,
+   "prob": 0.99
+  },
+  {
+   "p": "da",
+   "ini": 41.74,
+   "fim": 41.98,
+   "prob": 0.87
+  },
+  {
+   "p": "Pingu",
+   "ini": 41.98,
+   "fim": 42.36,
+   "prob": 1.0
+  },
+  {
+   "p": "de",
+   "ini": 42.36,
+   "fim": 42.64,
+   "prob": 1.0
+  },
+  {
+   "p": "Gente!",
+   "ini": 42.64,
+   "fim": 43.08,
+   "prob": 1.0
+  }
+ ]
+}

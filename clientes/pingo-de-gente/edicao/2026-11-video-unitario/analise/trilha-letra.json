@@ -1,0 +1,41 @@
+{
+ "texto": "🎶 Transcrição e Legendas Pedro Negri",
+ "palavras": [
+  {
+   "p": "🎶",
+   "ini": 0.0,
+   "fim": 0.82,
+   "prob": 0.21
+  },
+  {
+   "p": "Transcrição",
+   "ini": 36.54,
+   "fim": 37.94,
+   "prob": 0.71
+  },
+  {
+   "p": "e",
+   "ini": 37.94,
+   "fim": 38.28,
+   "prob": 1.0
+  },
+  {
+   "p": "Legendas",
+   "ini": 38.28,
+   "fim": 39.9,
+   "prob": 1.0
+  },
+  {
+   "p": "Pedro",
+   "ini": 39.9,
+   "fim": 40.88,
+   "prob": 0.78
+  },
+  {
+   "p": "Negri",
+   "ini": 40.88,
+   "fim": 49.62,
+   "prob": 0.79
+  }
+ ]
+}

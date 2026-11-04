@@ -1,0 +1,149 @@
+{
+ "texto": "Você já preparado? Já é sábado, 19h no perfil da Pingu de Gente. Você não pode perder a Black Day da Pingu de Gente!",
+ "palavras": [
+  {
+   "p": "Você",
+   "ini": 31.42,
+   "fim": 32.16,
+   "prob": 0.74
+  },
+  {
+   "p": "já",
+   "ini": 32.16,
+   "fim": 32.42,
+   "prob": 0.8
+  },
+  {
+   "p": "preparado?",
+   "ini": 32.42,
+   "fim": 33.58,
+   "prob": 0.69
+  },
+  {
+   "p": "Já",
+   "ini": 33.8,
+   "fim": 34.22,
+   "prob": 0.96
+  },
+  {
+   "p": "é",
+   "ini": 34.22,
+   "fim": 34.34,
+   "prob": 0.5
+  },
+  {
+   "p": "sábado,",
+   "ini": 34.34,
+   "fim": 35.12,
+   "prob": 0.94
+  },
+  {
+   "p": "19h",
+   "ini": 35.42,
+   "fim": 36.4,
+   "prob": 0.82
+  },
+  {
+   "p": "no",
+   "ini": 36.4,
+   "fim": 36.7,
+   "prob": 0.44
+  },
+  {
+   "p": "perfil",
+   "ini": 36.7,
+   "fim": 37.1,
+   "prob": 0.99
+  },
+  {
+   "p": "da",
+   "ini": 37.1,
+   "fim": 37.32,
+   "prob": 0.74
+  },
+  {
+   "p": "Pingu",
+   "ini": 37.32,
+   "fim": 37.66,
+   "prob": 0.59
+  },
+  {
+   "p": "de",
+   "ini": 37.66,
+   "fim": 38.02,
+   "prob": 0.78
+  },
+  {
+   "p": "Gente.",
+   "ini": 38.02,
+   "fim": 38.28,
+   "prob": 0.94
+  },
+  {
+   "p": "Você",
+   "ini": 38.68,
+   "fim": 38.96,
+   "prob": 0.98
+  },
+  {
+   "p": "não",
+   "ini": 38.96,
+   "fim": 39.42,
+   "prob": 0.99
+  },
+  {
+   "p": "pode",
+   "ini": 39.42,
+   "fim": 39.76,
+   "prob": 1.0
+  },
+  {
+   "p": "perder",
+   "ini": 39.76,
+   "fim": 40.62,
+   "prob": 0.99
+  },
+  {
+   "p": "a",
+   "ini": 40.62,
+   "fim": 41.18,
+   "prob": 0.36
+  },
+  {
+   "p": "Black",
+   "ini": 41.18,
+   "fim": 41.5,
+   "prob": 0.75
+  },
+  {
+   "p": "Day",
+   "ini": 41.5,
+   "fim": 41.94,
+   "prob": 0.92
+  },
+  {
+   "p": "da",
+   "ini": 41.94,
+   "fim": 42.2,
+   "prob": 0.96
+  },
+  {
+   "p": "Pingu",
+   "ini": 42.2,
+   "fim": 42.72,
+   "prob": 0.99
+  },
+  {
+   "p": "de",
+   "ini": 42.72,
+   "fim": 43.08,
+   "prob": 0.99
+  },
+  {
+   "p": "Gente!",
+   "ini": 43.08,
+   "fim": 43.46,
+   "prob": 0.99
+  }
+ ]
+}
