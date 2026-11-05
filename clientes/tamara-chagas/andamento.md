@@ -76,6 +76,12 @@
   Esperando aprovação e data. **Versão horizontal** (1920x1080, mesma edição; os dois aparecem juntos nas falas,
   avanço na direção de quem fala; planos de apoio com quadro fechado pra tirar tomada, poltrona, capacho e reflexo da
   janela), composição `NatalHorizontal`, no Drive com `HORIZONTAL` no nome (05/11).
+  **v2 (05/11, retorno da Talyta: "os cantos da sala incomodaram", "efeitos sonoros a todo momento", abertura com
+  takes melhores e mais longos, faltou a fachada inteira):** sem nenhum efeito sonoro (só música subindo e descendo),
+  abertura num take só de 8 s do plano aberto até o Papai Noel, árvore sempre em quadro fechado, fusões de 8 quadros no
+  lugar dos cortes com borrão, montagem com 4 planos longos, fachada inteira (vídeo 4045d273 de 576p, ampliado pra
+  1080p; na vertical entra inteiro sobre o próprio vídeo desfocado) na fala "árvore e fachada" e no "Feliz Natal".
+  56 s, -16 LUFS. Drive: `... HORIZONTAL v2 (EDITADO).mp4` e `... VERTICAL v2 (EDITADO).mp4`.
 
 ## Em aberto
 - **Meta da semana (02 a 06/11): 2 de 5 agendados** (Novembro Azul 03/11, salário-maternidade 05/11). Qua 04/11 livre pro
