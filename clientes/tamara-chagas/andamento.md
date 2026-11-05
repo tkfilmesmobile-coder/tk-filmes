@@ -1,4 +1,4 @@
-# Tamara Chagas Advocacia · andamento
+﻿# Tamara Chagas Advocacia · andamento
 
 ## Entregue
 - 2026-09-28 · Instagram do escritório (@tamarachagas_prev) e pessoal (@dra.tamarachagas_)

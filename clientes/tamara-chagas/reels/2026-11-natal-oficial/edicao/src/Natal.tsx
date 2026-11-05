@@ -20,43 +20,56 @@ const W = 3414; // largura da fonte em 1920 de altura
 const cl = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const EXPO = Easing.bezier(0.16, 1, 0.3, 1);
 const SUAVE = Easing.bezier(0.42, 0, 0.58, 1);
+// formato: false = vertical 1080x1920 (Reels), true = horizontal 1920x1080 (pedido da Talyta, 05/11/2026).
+// Na horizontal o quadro é o bruto inteiro (os dois aparecem juntos) e o avanço da câmera vai na direção de quem fala.
+const Horizontal = React.createContext(false);
 
 /* ---------- um plano: recorte vertical de uma fonte deitada, com avanço suave da câmera ---------- */
 // cxs = pontos [quadro do plano, centro] medidos com scripts/rosto.py (o recorte segue o rosto de quem fala)
-type PlanoProps = { src: string; trimBefore: number; dur: number; cx: number; cxs?: [number, number][]; rate?: number; z0?: number; z1?: number; entrada?: "corte" | "chicote" | "suave"; escuro?: number };
-const Plano: React.FC<PlanoProps> = ({ src, trimBefore, dur, cx, cxs, rate = 1, z0 = 1.0, z1 = 1.05, entrada = "corte", escuro = 0 }) => {
+// hz = só na horizontal: [zoom, centro x] pra fechar o quadro e tirar o que o recorte vertical já escondia
+// (reflexo azul na janela, tomada, poltrona, capacho)
+type PlanoProps = { src: string; trimBefore: number; dur: number; cx: number; cxs?: [number, number][]; rate?: number; z0?: number; z1?: number; entrada?: "corte" | "chicote" | "suave"; escuro?: number; hz?: [number, number] };
+const Plano: React.FC<PlanoProps> = ({ src, trimBefore, dur, cx, cxs, rate = 1, z0 = 1.0, z1 = 1.05, entrada = "corte", escuro = 0, hz }) => {
   const f = useCurrentFrame();
   const c = cxs ? interpolate(f, cxs.map((k) => k[0]), cxs.map((k) => k[1]), { ...cl, easing: SUAVE }) : cx;
   const left = Math.min(0, Math.max(1080 - W, 540 - c * W));
   const ch = entrada === "chicote" ? interpolate(f, [0, 6], [1, 0], { ...cl, easing: EXPO }) : 0;
   const su = entrada === "suave" ? interpolate(f, [0, 8], [1, 0], { ...cl, easing: SUAVE }) : 0;
+  const h = React.useContext(Horizontal);
   return (
     <AbsoluteFill style={{ overflow: "hidden", backgroundColor: "#000" }}>
       <AbsoluteFill
         style={{
-          scale: interpolate(f, [0, dur], [z0, z1], cl) + ch * 0.06,
-          translate: `0px ${ch * 140}px`,
+          scale: (interpolate(f, [0, dur], [z0, z1], cl) + ch * 0.06) * (h && hz ? hz[0] : 1),
+          translate: h ? `${ch * 120}px 0px` : `0px ${ch * 140}px`,
+          transformOrigin: h ? `${(hz ? hz[1] : c) * 100}% 40%` : "50% 50%",
           filter: `blur(${ch * 16 + su * 6}px) contrast(1.06) saturate(1.06) brightness(${1.02 - escuro})`,
           opacity: 1 - su * 0.6,
         }}
       >
-        <div style={{ position: "absolute", top: 0, left, width: W, height: 1920 }}>
-          <Video src={staticFile(src)} trimBefore={trimBefore} playbackRate={rate} muted style={{ width: W, height: 1920 }} />
-        </div>
+        {h ? (
+          <Video src={staticFile(src)} trimBefore={trimBefore} playbackRate={rate} muted style={{ width: 1920, height: 1080 }} />
+        ) : (
+          <div style={{ position: "absolute", top: 0, left, width: W, height: 1920 }}>
+            <Video src={staticFile(src)} trimBefore={trimBefore} playbackRate={rate} muted style={{ width: W, height: 1920 }} />
+          </div>
+        )}
       </AbsoluteFill>
     </AbsoluteFill>
   );
 };
 
 /* ---------- títulos elegantes (serifa itálica fina, como na referência do tour) ---------- */
-const Rotulo: React.FC<{ texto: string; dur: number; topo?: number; tam?: number }> = ({ texto, dur, topo = 1290, tam = 88 }) => {
+const Rotulo: React.FC<{ texto: string; dur: number }> = ({ texto, dur }) => {
+  const h = React.useContext(Horizontal);
+  const ALT = h ? 1080 : 1920, topo = h ? 840 : 1290, tam = h ? 66 : 88;
   const f = useCurrentFrame();
   const e = interpolate(f, [0, 18], [0, 1], { ...cl, easing: EXPO });
   const s = interpolate(f, [dur - 14, dur], [1, 0], { ...cl, easing: SUAVE });
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       {/* faixa escura suave atrás do título (legível em camisa clara e nas luzes da fachada) */}
-      <AbsoluteFill style={{ opacity: Math.min(e, s) * 0.9, background: `linear-gradient(180deg, rgba(8,6,6,0) ${((topo - 260) / 1920) * 100}%, rgba(8,6,6,.55) ${((topo + 50) / 1920) * 100}%, rgba(8,6,6,0) ${((topo + 360) / 1920) * 100}%)` }} />
+      <AbsoluteFill style={{ opacity: Math.min(e, s) * 0.9, background: `linear-gradient(180deg, rgba(8,6,6,0) ${((topo - (h ? 180 : 260)) / ALT) * 100}%, rgba(8,6,6,.55) ${((topo + 40) / ALT) * 100}%, rgba(8,6,6,0) ${((topo + (h ? 240 : 360)) / ALT) * 100}%)` }} />
       <div style={{ position: "absolute", left: 0, right: 0, top: topo, textAlign: "center", fontFamily: SERIFA, fontStyle: "italic", fontWeight: 400,
         fontSize: tam, letterSpacing: "0.01em", color: "rgba(255,255,255,.96)", textShadow: "0 2px 18px rgba(0,0,0,.75), 0 0 2px rgba(0,0,0,.6)",
         opacity: Math.min(e, s), filter: `blur(${(1 - e) * 8}px)`, translate: `0px ${(1 - e) * 16}px` }}>
@@ -71,9 +84,10 @@ const Abertura: React.FC = () => {
   const a = interpolate(f, [12, 40], [0, 1], { ...cl, easing: EXPO });
   const b = interpolate(f, [24, 56], [0, 1], { ...cl, easing: EXPO });
   const s = interpolate(f, [100, 122], [1, 0], { ...cl, easing: SUAVE });
+  const h = React.useContext(Horizontal);
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: s }}>
-      <div style={{ position: "absolute", top: 1180, left: 0, right: 0, textAlign: "center" }}>
+      <div style={{ position: "absolute", top: h ? 640 : 1180, left: 0, right: 0, textAlign: "center" }}>
         <div style={{ fontFamily: SANS, fontSize: 22, letterSpacing: "0.42em", color: CHAMPANHE, opacity: a }}>TAMARA CHAGAS ADVOCACIA</div>
         <div style={{ marginTop: 18, fontFamily: SERIFA, fontStyle: "italic", fontWeight: 300, fontSize: 112, color: "#fff", opacity: b,
           filter: `blur(${(1 - b) * 10}px)`, textShadow: "0 2px 30px rgba(0,0,0,.6)" }}>o Natal chegou</div>
@@ -89,7 +103,7 @@ const Final: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: `rgba(10,8,8,${0.35 + 0.25 * a})`, justifyContent: "center", alignItems: "center" }}>
       <div style={{ textAlign: "center", translate: `0px ${(1 - a) * 20}px` }}>
-        <div style={{ fontFamily: SERIFA, fontStyle: "italic", fontWeight: 300, fontSize: 150, color: "#fff", opacity: a, filter: `blur(${(1 - a) * 10}px)` }}>Feliz Natal</div>
+        <div style={{ fontFamily: SERIFA, fontStyle: "italic", fontWeight: 300, fontSize: 140, color: "#fff", opacity: a, filter: `blur(${(1 - a) * 10}px)` }}>Feliz Natal</div>
         <div style={{ width: 90 * b, height: 1, background: CHAMPANHE, margin: "26px auto 22px" }} />
         <div style={{ fontFamily: SANS, fontSize: 22, letterSpacing: "0.42em", color: CHAMPANHE, opacity: b }}>TAMARA CHAGAS ADVOCACIA · 2026</div>
       </div>
@@ -112,8 +126,9 @@ const MUSICA_PONTOS: [number, number][] = [
 const volMusica = (f: number) => interpolate(f, MUSICA_PONTOS.map((p) => p[0]), MUSICA_PONTOS.map((p) => p[1]), cl);
 const fala = (f: number, dur: number) => interpolate(f, [0, 3, dur - 3, dur], [0, 1, 1, 0], cl);
 
-export const Natal: React.FC = () => {
+export const Natal: React.FC<{ horizontal?: boolean }> = ({ horizontal = false }) => {
   return (
+    <Horizontal.Provider value={horizontal}>
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       {/* ======================= IMAGEM ======================= */}
       {/* 1 · abertura: fachada à noite (plano aberto) */}
@@ -129,7 +144,7 @@ export const Natal: React.FC = () => {
         <Plano src="IMG_1282.mp4" trimBefore={21} dur={96} cx={0.84} cxs={[[0, 0.842], [15, 0.81], [30, 0.76], [45, 0.73], [60, 0.712], [75, 0.68], [96, 0.648]]} z0={1.0} z1={1.03} entrada="suave" />
       </Sequence>
       <Sequence name="04 árvore subindo (fala segue)" from={270} durationInFrames={78}>
-        <Plano src="IMG_7303.mp4" trimBefore={248} dur={78} cx={0.56} z0={1.0} z1={1.05} entrada="suave" />
+        <Plano src="IMG_7303.mp4" trimBefore={248} dur={78} cx={0.56} z0={1.0} z1={1.05} entrada="suave" hz={[1.4, 0.82]} />
       </Sequence>
       <Sequence name="05 Tamara: foi concluída" from={348} durationInFrames={41}>
         <Plano src="IMG_1282.mp4" trimBefore={195} dur={41} cx={0.58} z0={1.03} z1={1.06} />
@@ -139,7 +154,7 @@ export const Natal: React.FC = () => {
         <Plano src="IMG_7304.mp4" trimBefore={570} dur={33} cx={0.5} rate={1.3} z0={1.04} z1={1.1} entrada="chicote" />
       </Sequence>
       <Sequence name="07 espiral no alto" from={422} durationInFrames={32}>
-        <Plano src="IMG_7303.mp4" trimBefore={308} dur={32} cx={0.58} rate={1.4} z0={1.0} z1={1.06} entrada="chicote" />
+        <Plano src="IMG_7303.mp4" trimBefore={308} dur={32} cx={0.58} rate={1.4} z0={1.0} z1={1.06} entrada="chicote" hz={[1.4, 0.68]} />
       </Sequence>
       <Sequence name="08 espiral de veludo" from={454} durationInFrames={32}>
         <Plano src="IMG_7302.mp4" trimBefore={188} dur={32} cx={0.44} rate={1.6} z0={1.0} z1={1.06} entrada="chicote" />
@@ -163,7 +178,7 @@ export const Natal: React.FC = () => {
         <Plano src="IMG_1285.mp4" trimBefore={109} dur={27} cx={0.298} z0={1.02} z1={1.04} entrada="suave" />
       </Sequence>
       <Sequence name="14 subida até o topo" from={867} durationInFrames={63}>
-        <Plano src="IMG_7302.mp4" trimBefore={248} dur={63} cx={0.44} rate={2} z0={1.0} z1={1.06} entrada="chicote" />
+        <Plano src="IMG_7302.mp4" trimBefore={248} dur={63} cx={0.44} rate={2} z0={1.0} z1={1.06} entrada="chicote" hz={[1.2, 0.4]} />
       </Sequence>
       {/* 15-19 · montagem 2 (cortes nos ataques 31,0 · 32,23 · 33,62 · 34,97 · 36,04 s) */}
       <Sequence name="15 veludo enrolado" from={930} durationInFrames={37}>
@@ -173,10 +188,10 @@ export const Natal: React.FC = () => {
         <Plano src="IMG_7303.mp4" trimBefore={128} dur={42} cx={0.55} rate={1.2} z0={1.0} z1={1.06} entrada="chicote" />
       </Sequence>
       <Sequence name="17 base da árvore" from={1009} durationInFrames={40}>
-        <Plano src="IMG_7302.mp4" trimBefore={68} dur={40} cx={0.42} rate={1.2} z0={1.06} z1={1.0} entrada="chicote" />
+        <Plano src="IMG_7302.mp4" trimBefore={68} dur={40} cx={0.42} rate={1.2} z0={1.06} z1={1.0} entrada="chicote" hz={[1.45, 0.36]} />
       </Sequence>
       <Sequence name="18 bolas maxi" from={1049} durationInFrames={32}>
-        <Plano src="IMG_7304.mp4" trimBefore={732} dur={32} cx={0.48} z0={1.0} z1={1.05} entrada="chicote" />
+        <Plano src="IMG_7304.mp4" trimBefore={732} dur={32} cx={0.48} z0={1.0} z1={1.05} entrada="chicote" hz={[1.3, 0.62]} />
       </Sequence>
       <Sequence name="19 fachada: Papai Noel" from={1081} durationInFrames={35}>
         <Plano src="IMG_7295.mp4" trimBefore={330} dur={35} cx={0.62} z0={1.0} z1={1.04} entrada="chicote" />
@@ -193,7 +208,7 @@ export const Natal: React.FC = () => {
         <Plano src="IMG_1288.mp4" trimBefore={179} dur={126} cx={0.635} cxs={[[0, 0.655], [30, 0.638], [75, 0.633], [105, 0.613], [126, 0.62]]} z0={1.0} z1={1.04} entrada="suave" />
       </Sequence>
       <Sequence name="23 árvore em câmera lenta (fala segue)" from={1410} durationInFrames={108}>
-        <Plano src="IMG_7302.mp4" trimBefore={120} dur={108} cx={0.44} rate={0.6} z0={1.02} z1={1.08} entrada="suave" />
+        <Plano src="IMG_7302.mp4" trimBefore={120} dur={108} cx={0.44} rate={0.6} z0={1.02} z1={1.08} entrada="suave" hz={[1.4, 0.38]} />
       </Sequence>
       <Sequence name="24 Tamara: magia do Natal" from={1518} durationInFrames={81}>
         <Plano src="IMG_1288.mp4" trimBefore={413} dur={81} cx={0.603} z0={1.04} z1={1.07} />
@@ -243,5 +258,6 @@ export const Natal: React.FC = () => {
       <Sequence from={1530} durationInFrames={70}><Audio src={staticFile("sfx/brilho.wav")} volume={0.14} /></Sequence>
       <Sequence from={1599} durationInFrames={80}><Audio src={staticFile("sfx/brilho.wav")} volume={0.45} /></Sequence>
     </AbsoluteFill>
+    </Horizontal.Provider>
   );
 };
