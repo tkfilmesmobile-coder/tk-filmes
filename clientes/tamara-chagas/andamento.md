@@ -87,10 +87,14 @@
   profundo, nitidez adaptativa), 6 câmeras lentas por interpolação de quadros (`scripts/lento.py`: espiral, veludo,
   maxi laço, lateral da fachada, árvore no fechamento, fachada final) e acabamento com brilho nas luzes e grão fino
   (`scripts/acabamento.py`); cadeia em `scripts/gerar-v3.ps1`. Drive: `... v3 cinematografico (EDITADO).mp4`.
+  **Aprovado e postado o HORIZONTAL v3** (Talyta, 05/11 6h51: "poste o horizontal agora às 7h"): Post for Me às 7h,
+  Reels no @dra.tamarachagas_ com colaboração do @tamarachagas_prev (`sp_Lz6ykD05t2nIy4timEQiI`) + TikTok
+  @tamarachagas.prev (`sp_qfKScg6kWuNFEUS9yYdHw`), legenda de `legenda.md`. Sem stories. **Publicado 7h05** nos dois:
+  https://www.instagram.com/reel/DfWxbiKgBBG/
 
 ## Em aberto
-- **Meta da semana (02 a 06/11): 2 de 5 agendados** (Novembro Azul 03/11, salário-maternidade 05/11). Qua 04/11 livre pro
-  vídeo oficial da decoração de Natal; sex 06/11 livre (feira EP3 ou "Trabalhador rural", só no PC do escritório). (2026-11-03)
+- **Meta da semana (02 a 06/11): 3 de 5** (Novembro Azul 03/11, vídeo oficial do Natal 05/11 7h, salário-maternidade
+  05/11 16h). Qua 04/11 ficou sem post; sex 06/11 livre (feira EP3 ou "Trabalhador rural", só no PC do escritório). (2026-11-03)
 - **Conectar o @tamarachagas_prev na Post for Me** pra agendar os 4 stories do escritório de cada Reels. (2026-11-03)
 - **Autorização de imagem do ajudante** que aparece no Vlog de Natal EP. 03 (já publicado em 29/10). (2026-10-29)
 - **Meta da semana (26 a 30/10): 4 de 5 Reels** (pensão 26/10, cirurgia 28/10, Vlog de Natal EP. 03 29/10, carta negada
