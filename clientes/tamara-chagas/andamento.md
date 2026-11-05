@@ -65,6 +65,16 @@
   lugar do feed de hoje, salário-maternidade qui 05/11 16h, no @dra.tamarachagas_ com colaboração do @tamarachagas_prev,
   + 3 stories do pessoal cada. Agenda em `calendarios/2026-11-agenda-postagens.md`.
 
+- 2026-11-05 · **Vídeo oficial da decoração de Natal** editado (`reels/2026-11-natal-oficial/`, 57 s, Remotion
+  `edicao/src/Natal.tsx`), com a skill de edição do Remotion e as 2 referências da Talyta (tour de imóvel e Fotober) e a
+  música dela (Philadelphia Orchestra). Brutos 4K deitados do Drive (IMG_1279-1288 falas, IMG_7295 fachada, 7302-7304
+  árvore); recorte vertical seguindo o rosto de quem fala (`scripts/rosto.py`). Falas: Tamara abre (IMG_1282) e fecha
+  (IMG_1288), Ronaldo (veludo, maxi laço, 5 metros, 3 dias de trabalho); fora as tentativas (1280, 1281, 1286), a
+  conversa de bastidor do começo da 1288, os 2 vídeos curtos de 576p e a fala da Casa Conforto (estourava a música).
+  Títulos em serifa itálica fina; música baixa nas falas e cheia nas montagens, cortes nos ataques dela, sopro e
+  brilho sintetizados. Drive: `CONTEÚDO/2026-11 NOVEMBRO/REELS/Natal 2026 - video oficial da decoracao (EDITADO).mp4`.
+  Esperando aprovação e data.
+
 ## Em aberto
 - **Meta da semana (02 a 06/11): 2 de 5 agendados** (Novembro Azul 03/11, salário-maternidade 05/11). Qua 04/11 livre pro
   vídeo oficial da decoração de Natal; sex 06/11 livre (feira EP3 ou "Trabalhador rural", só no PC do escritório). (2026-11-03)
