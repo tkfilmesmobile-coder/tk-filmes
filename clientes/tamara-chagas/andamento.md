@@ -73,7 +73,9 @@
   conversa de bastidor do começo da 1288, os 2 vídeos curtos de 576p e a fala da Casa Conforto (estourava a música).
   Títulos em serifa itálica fina; música baixa nas falas e cheia nas montagens, cortes nos ataques dela, sopro e
   brilho sintetizados. Drive: `CONTEÚDO/2026-11 NOVEMBRO/REELS/Natal 2026 - video oficial da decoracao (EDITADO).mp4`.
-  Esperando aprovação e data.
+  Esperando aprovação e data. **Versão horizontal** (1920x1080, mesma edição; os dois aparecem juntos nas falas,
+  avanço na direção de quem fala; planos de apoio com quadro fechado pra tirar tomada, poltrona, capacho e reflexo da
+  janela), composição `NatalHorizontal`, no Drive com `HORIZONTAL` no nome (05/11).
 
 ## Em aberto
 - **Meta da semana (02 a 06/11): 2 de 5 agendados** (Novembro Azul 03/11, salário-maternidade 05/11). Qua 04/11 livre pro
