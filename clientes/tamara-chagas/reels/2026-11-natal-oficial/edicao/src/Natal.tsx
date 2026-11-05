@@ -37,7 +37,7 @@ const Plano: React.FC<PlanoProps> = ({ src, trimBefore, dur, cx, cxs, rate = 1, 
   const c = cxs ? interpolate(f, cxs.map((k) => k[0]), cxs.map((k) => k[1]), { ...cl, easing: SUAVE }) : cx;
   const op = funde ? interpolate(f, [0, 8], [0, 1], { ...cl, easing: SUAVE }) : 1;
   const z = interpolate(f, [0, dur], [z0, z1], cl) * (fecha ? (h ? fecha[1] : fecha[0]) : 1);
-  const filtro = `contrast(1.05) saturate(1.06) brightness(${1.02 - escuro})`;
+  const filtro = `brightness(${1 - escuro})`; // a cor cinematográfica já vem nas fontes (scripts/cor.py)
   const video = (w: number, hh: number) => <Video src={staticFile(src)} trimBefore={trimBefore} playbackRate={rate} muted style={{ width: w, height: hh }} />;
   let corpo: React.ReactNode;
   if (h) {
@@ -138,72 +138,72 @@ export const Natal: React.FC<{ horizontal?: boolean }> = ({ horizontal = false }
         {/* ======================= IMAGEM ======================= */}
         {/* A · abertura: um take só, longo e suave, do plano aberto da fachada até o Papai Noel (IMG_7295 0,3 a 8,3 s) */}
         <Sequence name="A fachada até o Papai Noel" from={0} durationInFrames={240}>
-          <Plano src="IMG_7295.mp4" trimBefore={9} dur={240} cx={0.61} z0={1.0} z1={1.06} />
+          <Plano src="g-IMG_7295.mp4" trimBefore={9} dur={240} cx={0.61} z0={1.0} z1={1.06} />
         </Sequence>
         {/* B · Tamara: "E finalmente a saga da decoração... do Natal de 2026 foi concluída" */}
         <Sequence name="B1 Tamara abre" from={232} durationInFrames={104}>
-          <Plano src="IMG_1282.mp4" trimBefore={13} dur={104} cx={0.84} cxs={[[0, 0.842], [23, 0.81], [38, 0.76], [53, 0.73], [68, 0.712], [83, 0.68], [104, 0.648]]} z0={1.0} z1={1.03} funde />
+          <Plano src="g-IMG_1282.mp4" trimBefore={13} dur={104} cx={0.84} cxs={[[0, 0.842], [23, 0.81], [38, 0.76], [53, 0.73], [68, 0.712], [83, 0.68], [104, 0.648]]} z0={1.0} z1={1.03} funde />
         </Sequence>
         <Sequence name="B2 espiral subindo (fala segue)" from={328} durationInFrames={86}>
-          <Plano src="IMG_7303.mp4" trimBefore={240} dur={86} cx={0.58} fx={0.62} fecha={[1.12, 1.5]} z0={1.0} z1={1.05} funde />
+          <Plano src="lento-B2.mp4" trimBefore={0} dur={86} cx={0.58} fx={0.62} fecha={[1.12, 1.5]} z0={1.0} z1={1.05} funde />
         </Sequence>
         <Sequence name="B3 Tamara: foi concluída" from={406} durationInFrames={49}>
-          <Plano src="IMG_1282.mp4" trimBefore={187} dur={49} cx={0.58} z0={1.03} z1={1.06} funde />
+          <Plano src="g-IMG_1282.mp4" trimBefore={187} dur={49} cx={0.58} z0={1.03} z1={1.06} funde />
         </Sequence>
         {/* C · Ronaldo: "A decoração está em tons de maçã. O veludo foi a peça principal pra essa montagem." */}
         <Sequence name="C1 Ronaldo: tons" from={455} durationInFrames={78}>
-          <Plano src="IMG_1284.mp4" trimBefore={5} dur={78} cx={0.41} z0={1.0} z1={1.03} />
+          <Plano src="g-IMG_1284.mp4" trimBefore={5} dur={78} cx={0.41} z0={1.0} z1={1.03} />
         </Sequence>
         <Sequence name="C2 veludo descendo (fala segue)" from={525} durationInFrames={116}>
-          <Plano src="IMG_7304.mp4" trimBefore={397} dur={116} cx={0.5} fx={0.5} fecha={[1.12, 1.5]} z0={1.0} z1={1.05} funde />
+          <Plano src="lento-C2.mp4" trimBefore={0} dur={116} cx={0.5} fx={0.5} fecha={[1.12, 1.5]} z0={1.0} z1={1.05} funde />
         </Sequence>
         <Sequence name="C3 Ronaldo: montagem" from={633} durationInFrames={56}>
-          <Plano src="IMG_1284.mp4" trimBefore={183} dur={56} cx={0.383} z0={1.03} z1={1.05} funde />
+          <Plano src="g-IMG_1284.mp4" trimBefore={183} dur={56} cx={0.383} z0={1.03} z1={1.05} funde />
         </Sequence>
         {/* D · "Criamos o maxi laço, que também é tendência do momento." (sobre o laço, clareado: está contraluz) */}
         <Sequence name="D maxi laço" from={681} durationInFrames={128}>
-          <Plano src="IMG_7304.mp4" trimBefore={226} dur={128} cx={0.56} fx={0.56} fecha={[1.05, 1.3]} z0={1.0} z1={1.05} escuro={-0.5} funde />
+          <Plano src="lento-D.mp4" trimBefore={0} dur={128} cx={0.56} fx={0.56} fecha={[1.05, 1.3]} z0={1.0} z1={1.05} escuro={-0.4} funde />
         </Sequence>
         {/* E · "Uma árvore de 5 metros." (a subida para antes do teto) */}
         <Sequence name="E1 Ronaldo: 5 metros" from={801} durationInFrames={35}>
-          <Plano src="IMG_1285.mp4" trimBefore={101} dur={35} cx={0.298} z0={1.02} z1={1.04} funde />
+          <Plano src="g-IMG_1285.mp4" trimBefore={101} dur={35} cx={0.298} z0={1.02} z1={1.04} funde />
         </Sequence>
         <Sequence name="E2 subida pela árvore" from={828} durationInFrames={71}>
-          <Plano src="IMG_7302.mp4" trimBefore={176} dur={71} cx={0.44} fx={0.42} rate={1.5} fecha={[1.12, 1.5]} z0={1.0} z1={1.05} funde />
+          <Plano src="g-IMG_7302.mp4" trimBefore={176} dur={71} cx={0.44} fx={0.42} rate={1.5} fecha={[1.12, 1.5]} z0={1.0} z1={1.05} funde />
         </Sequence>
         {/* F · montagem com a música cheia: 4 planos longos com fusão */}
         <Sequence name="F1 veludo enrolado" from={891} durationInFrames={57}>
-          <Plano src="IMG_7304.mp4" trimBefore={652} dur={57} cx={0.47} fx={0.56} fecha={[1.12, 1.45]} z0={1.0} z1={1.06} funde />
+          <Plano src="g-IMG_7304.mp4" trimBefore={652} dur={57} cx={0.47} fx={0.56} fecha={[1.12, 1.45]} z0={1.0} z1={1.06} funde />
         </Sequence>
         <Sequence name="F2 bolas e espiral" from={940} durationInFrames={67}>
-          <Plano src="IMG_7303.mp4" trimBefore={120} dur={67} cx={0.56} fx={0.6} fecha={[1.12, 1.45]} z0={1.0} z1={1.06} funde />
+          <Plano src="g-IMG_7303.mp4" trimBefore={120} dur={67} cx={0.56} fx={0.6} fecha={[1.12, 1.45]} z0={1.0} z1={1.06} funde />
         </Sequence>
         <Sequence name="F3 bolas maxi" from={999} durationInFrames={50}>
-          <Plano src="IMG_7304.mp4" trimBefore={724} dur={50} cx={0.5} fx={0.62} fecha={[1.1, 1.35]} z0={1.0} z1={1.05} funde />
+          <Plano src="g-IMG_7304.mp4" trimBefore={724} dur={50} cx={0.5} fx={0.62} fecha={[1.1, 1.35]} z0={1.0} z1={1.05} funde />
         </Sequence>
         <Sequence name="F4 Papai Noel" from={1041} durationInFrames={44}>
-          <Plano src="IMG_7295.mp4" trimBefore={322} dur={44} cx={0.6} z0={1.0} z1={1.04} funde />
+          <Plano src="g-IMG_7295.mp4" trimBefore={322} dur={44} cx={0.6} z0={1.0} z1={1.04} funde />
         </Sequence>
         {/* G · "Mas foram 3 dias de trabalho para produzir tanto a árvore quanto a fachada, que vocês vão ver também." */}
         <Sequence name="G1 Ronaldo: 3 dias" from={1077} durationInFrames={80}>
-          <Plano src="IMG_1285.mp4" trimBefore={655} dur={80} cx={0.377} cxs={[[0, 0.377], [38, 0.372], [58, 0.358], [80, 0.334]]} z0={1.0} z1={1.03} funde />
+          <Plano src="g-IMG_1285.mp4" trimBefore={655} dur={80} cx={0.377} cxs={[[0, 0.377], [38, 0.372], [58, 0.358], [80, 0.334]]} z0={1.0} z1={1.03} funde />
         </Sequence>
         <Sequence name="G2 lateral da fachada (fala segue)" from={1149} durationInFrames={104}>
-          <Plano src="fachada-inteira.mp4" trimBefore={67} dur={104} cx={0.5} z0={1.0} z1={1.04} caber funde />
+          <Plano src="lento-G2.mp4" trimBefore={0} dur={104} cx={0.5} z0={1.0} z1={1.04} caber funde />
         </Sequence>
         {/* H · Tamara fecha: "E toda essa decoração foi pensada com muito carinho... a magia do Natal." */}
         <Sequence name="H1 Tamara: carinho" from={1245} durationInFrames={134}>
-          <Plano src="IMG_1288.mp4" trimBefore={171} dur={134} cx={0.635} cxs={[[0, 0.655], [38, 0.638], [83, 0.633], [113, 0.613], [134, 0.62]]} z0={1.0} z1={1.04} funde />
+          <Plano src="g-IMG_1288.mp4" trimBefore={171} dur={134} cx={0.635} cxs={[[0, 0.655], [38, 0.638], [83, 0.633], [113, 0.613], [134, 0.62]]} z0={1.0} z1={1.04} funde />
         </Sequence>
         <Sequence name="H2 árvore em câmera lenta (fala segue)" from={1371} durationInFrames={116}>
-          <Plano src="IMG_7302.mp4" trimBefore={115} dur={116} cx={0.44} fx={0.38} rate={0.6} fecha={[1.12, 1.5]} z0={1.0} z1={1.06} funde />
+          <Plano src="lento-H2.mp4" trimBefore={0} dur={116} cx={0.44} fx={0.38} fecha={[1.12, 1.5]} z0={1.0} z1={1.06} funde />
         </Sequence>
         <Sequence name="H3 Tamara: magia do Natal" from={1479} durationInFrames={89}>
-          <Plano src="IMG_1288.mp4" trimBefore={405} dur={89} cx={0.603} z0={1.04} z1={1.07} funde />
+          <Plano src="g-IMG_1288.mp4" trimBefore={405} dur={89} cx={0.603} z0={1.04} z1={1.07} funde />
         </Sequence>
         {/* I · final: a fachada inteira se revelando, em câmera lenta */}
         <Sequence name="I fachada inteira" from={1560} durationInFrames={120}>
-          <Plano src="fachada-inteira.mp4" trimBefore={198} dur={120} cx={0.5} rate={0.8} z0={1.0} z1={1.05} caber funde />
+          <Plano src="lento-I.mp4" trimBefore={0} dur={120} cx={0.5} z0={1.0} z1={1.05} caber funde />
         </Sequence>
 
         <Vinheta />

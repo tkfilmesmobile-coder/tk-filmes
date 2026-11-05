@@ -82,6 +82,11 @@
   lugar dos cortes com borrão, montagem com 4 planos longos, fachada inteira (vídeo 4045d273 de 576p, ampliado pra
   1080p; na vertical entra inteiro sobre o próprio vídeo desfocado) na fala "árvore e fachada" e no "Feliz Natal".
   56 s, -16 LUFS. Drive: `... HORIZONTAL v2 (EDITADO).mp4` e `... VERTICAL v2 (EDITADO).mp4`.
+  **v3 cinematográfica (05/11, pedido dela: cor mais cinematográfica, câmeras lentas, mais qualidade):** fontes tratadas
+  com `scripts/cor.py` (redução de ruído, curva em S suave, sombras frias e altas quentes, verde mais escuro, veludo
+  profundo, nitidez adaptativa), 6 câmeras lentas por interpolação de quadros (`scripts/lento.py`: espiral, veludo,
+  maxi laço, lateral da fachada, árvore no fechamento, fachada final) e acabamento com brilho nas luzes e grão fino
+  (`scripts/acabamento.py`); cadeia em `scripts/gerar-v3.ps1`. Drive: `... v3 cinematografico (EDITADO).mp4`.
 
 ## Em aberto
 - **Meta da semana (02 a 06/11): 2 de 5 agendados** (Novembro Azul 03/11, salário-maternidade 05/11). Qua 04/11 livre pro
