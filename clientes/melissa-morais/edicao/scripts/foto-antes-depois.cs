@@ -385,6 +385,69 @@ public static class Ferr
         SalvaPng(rtb, saida);
     }
 
+    // Estilo escolhido pra Dra. Melissa (06-11-2026): linhas brancas nos lugares tratados; no antes, pontilhado ao longo
+    // de curvas suaves (`curvas`); no depois, tracejado em segmentos retos (`retas`). Traços separados por NaN.
+    public static void PontilhadoTracejado(string entrada, double[] curvas, double espaco, double raio,
+                                           double[] retas, double espessura, double traco, double vao, string saida)
+    {
+        var img = Abre(entrada);
+        int W = img.PixelWidth, H = img.PixelHeight;
+        var branco = new SolidColorBrush(Color.FromArgb(245, 255, 255, 255));
+        var rtb = new RenderTargetBitmap(W, H, 96, 96, PixelFormats.Pbgra32);
+        var baseV = new DrawingVisual();
+        using (var dc = baseV.RenderOpen()) dc.DrawImage(img, new Rect(0, 0, W, H));
+        rtb.Render(baseV);
+        var v = new DrawingVisual();
+        v.Effect = new System.Windows.Media.Effects.DropShadowEffect { Color = Colors.Black, ShadowDepth = 0, BlurRadius = 6, Opacity = 0.55 };
+        using (var dc = v.RenderOpen())
+        {
+            foreach (var t in Tracos(curvas))
+            {
+                var fig = new PathFigure { StartPoint = t[0], IsClosed = false };
+                for (int k = 0; k < t.Count - 1; k++)
+                {
+                    Point p0 = t[Math.Max(k - 1, 0)], p1 = t[k], p2 = t[k + 1], p3 = t[Math.Min(k + 2, t.Count - 1)];
+                    fig.Segments.Add(new BezierSegment(P(p1.X + (p2.X - p0.X) / 6, p1.Y + (p2.Y - p0.Y) / 6),
+                                                       P(p2.X - (p3.X - p1.X) / 6, p2.Y - (p3.Y - p1.Y) / 6), p2, true));
+                }
+                var g = new PathGeometry(); g.Figures.Add(fig);
+                var plano = g.GetFlattenedPathGeometry(0.1, ToleranceType.Absolute);
+                var pts = new List<Point>();
+                foreach (var f in plano.Figures) { pts.Add(f.StartPoint); foreach (var s in f.Segments) { var pl = s as PolyLineSegment; if (pl != null) pts.AddRange(pl.Points); var ls = s as LineSegment; if (ls != null) pts.Add(ls.Point); } }
+                double L = 0; for (int k = 1; k < pts.Count; k++) L += (pts[k] - pts[k - 1]).Length;
+                int n = Math.Max(2, (int)Math.Round(L / espaco) + 1);
+                for (int j = 0; j < n; j++) { Point p, tg; g.GetPointAtFractionLength((double)j / (n - 1), out p, out tg); dc.DrawEllipse(branco, null, p, raio, raio); }
+            }
+            // tracejado: cada traço de comprimento `traco` com vão `vao`, distribuídos igualmente em cada linha reta
+            var pen = new Pen(branco, espessura) { StartLineCap = PenLineCap.Round, EndLineCap = PenLineCap.Round };
+            foreach (var t in Tracos(retas))
+            {
+                var seg = new List<Point>(t);
+                double L = 0; for (int k = 1; k < seg.Count; k++) L += (seg[k] - seg[k - 1]).Length;
+                int n = Math.Max(1, (int)Math.Round((L + vao) / (traco + vao)));
+                double passo = L / n, comp = Math.Min(traco, passo * 0.7);
+                for (int j = 0; j < n; j++)
+                {
+                    double a = j * passo + (passo - comp) / 2, b = a + comp;
+                    dc.DrawLine(pen, NoCaminho(seg, a), NoCaminho(seg, b));
+                }
+            }
+        }
+        rtb.Render(v);
+        SalvaPng(rtb, saida);
+    }
+
+    static Point NoCaminho(List<Point> seg, double d)
+    {
+        for (int k = 1; k < seg.Count; k++)
+        {
+            double l = (seg[k] - seg[k - 1]).Length;
+            if (d <= l || k == seg.Count - 1) { double f = Math.Max(0, Math.Min(1, d / l)); return P(seg[k - 1].X + (seg[k].X - seg[k - 1].X) * f, seg[k - 1].Y + (seg[k].Y - seg[k - 1].Y) * f); }
+            d -= l;
+        }
+        return seg[seg.Count - 1];
+    }
+
     // Cena livre 1080x1350: camadas desenhadas na ordem. Cada camada: { s, x, y, espelha, someDe, someAte }:
     // escala; canto esquerdo-superior da foto (se espelha=1, x é a borda direita); a foto some do opaco (someDe)
     // ao transparente (someAte) de cima pra baixo (0, 0 = não some). Depois o pé no preto e a logo.
