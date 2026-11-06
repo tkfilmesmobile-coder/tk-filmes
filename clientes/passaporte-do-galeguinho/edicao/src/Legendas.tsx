@@ -31,7 +31,9 @@ const { fontFamily: manuscrito } = loadGreatVibes("normal", {
 
 // A legenda do JSON segue o tipo Caption do Remotion, com dois campos a mais:
 // enfase marca o bloco que vira headline; apoio marca as palavras de entrada dela (manuscrito pequeno).
-type Legenda = Caption & { enfase?: boolean; apoio?: boolean };
+// fimDeFrase (2026-11-06): a palavra fecha a frase. Regra da curadoria (2026-11-01): efeito sonoro nunca em cima da
+// última palavra de uma frase; aí o som da headline vai pra entrada do apoio e o título bate em silêncio.
+type Legenda = Caption & { enfase?: boolean; apoio?: boolean; fimDeFrase?: boolean };
 
 type Bloco = {
   palavras: Legenda[];
@@ -95,9 +97,10 @@ const BlocoDeLegenda: React.FC<{
           color: MARCA.creme,
           textShadow:
             "0 0 24px rgba(255,246,233,0.45), 0 2px 12px rgba(14,10,5,0.8)",
+          // bloco muito curto (fala rápida): a entrada e a saída encolhem pra caber
           opacity: interpolate(
             frame,
-            [0, 4, duracao - 2, duracao],
+            [0, Math.min(4, duracao / 3), Math.max(Math.min(4, duracao / 3) + 0.5, duracao - 2), duracao],
             [0, 1, 1, 0],
             TRAVA,
           ),
@@ -162,11 +165,21 @@ const Headline: React.FC<{
   // Anton ocupa ~0,5 em por caractere; o título cresce até caber na largura da zona
   const tamanho = Math.min(zona.enfase, Math.floor(largura / (maisLonga * 0.5)));
 
+  const fechaFrase = titulo.some((p) => p.fimDeFrase) && bate > 4;
+
   return (
     <AbsoluteFill>
-      <SomDaCasa nome="headline sobe" em={bate - 9} som="subida" volume={0.34} />
-      <SomDaCasa nome="headline bate" em={bate} som="impacto" volume={0.62} />
-      <SomDaCasa nome="headline brilha" em={bate + 2} som="brilho" volume={0.2} />
+      {fechaFrase ? (
+        // 2026-11-06: headline que fecha frase entra em silêncio. Até um ar baixinho na pausa antes da palavra
+        // fazia "parceria" virar "bateria" na retranscrição (regra 16: nada de efeito no fim da frase).
+        null
+      ) : (
+        <>
+          <SomDaCasa nome="headline sobe" em={bate - 9} som="subida" volume={0.34} />
+          <SomDaCasa nome="headline bate" em={bate} som="impacto" volume={0.62} />
+          <SomDaCasa nome="headline brilha" em={bate + 2} som="brilho" volume={0.2} />
+        </>
+      )}
       <div
         style={{
           position: "absolute",

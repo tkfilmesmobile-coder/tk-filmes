@@ -35,6 +35,9 @@ do PC do escritório. Regras novas na ficha dela: curadoria de toda fala (feed e
 Em 2026-11-04 entrou a Pingo de Gente (moda infantil, vídeo unitário R$ 100, `clientes/pingo-de-gente/`): a chamada "Live Black Day"
 (rabiscos de giz, bichos por trás da menina, setas presas na sacola, macaquinhos nas árvores, trilha do TikTok @llamahappykids) foi
 aprovada na v4 e entregue no Drive dela (`Pingo de Gente/04-11-2026 - Live Black Day Pingo de Gente.mp4`).
+Em 2026-11-06 o vídeo da visita do Galeguinho ao Açougue Diniz (fornecedor da carne dos hambúrgueres, gravado em 05/11) foi
+editado: 23 brutos → 1 min 46 s, com curadoria completa (`clientes/passaporte-do-galeguinho/edicao/out/2026-11-05-visita-acougue-diniz-v2.mp4`,
+escolhas e conferência em `edicao/scripts/1105/`). Esperando a aprovação da Talyta pra ir pro Drive dele (`VIDEO EDITADO`).
 
 ## Pendências
 - **Pingo de Gente:** aprovar o Bastidor TK (vídeo pós-produção + carrossel, no Drive da TK, legendas 7 e 8); **não postar** sem autorização por escrito dos responsáveis pela criança; contato, cidade, @ e logo. (2026-11-04)
@@ -42,18 +45,19 @@ aprovada na v4 e entregue no Drive dela (`Pingo de Gente/04-11-2026 - Live Black
 - **Post for Me:** chave ativa no `.env` (copiada neste PC ainda infectado: gerar chave nova depois da limpeza). @tk.filmes conectado e testado (03/11); clientes ainda não. Publicar sempre com `--conta <@>`. (2026-11-03)
 - **Bastidor TK:** 4 vídeos e 2 carrosséis aprovados (03/11), legendas prontas, datas reservadas (Start 11-13/11, Anna 17-19/11, `tk-filmes/posts/2026-11/agenda/agendados.md`); sem marcar o @ dos clientes; autorização pela cláusula de imagem dos contratos. **As 6 peças estão agendadas na Post for Me.** (2026-11-03)
 - **3 reels novos da TK APROVADOS** (04/11, raiz do Drive, `... - EDITADO.mp4` + `Reels TK - novembro - LEGENDAS.txt`): "Quanto tempo leva 1 minuto", "Viralizar não é o objetivo", "Postar por postar é barulho". + 3 posts de imagem do mesmo tema, APROVADOS (`Post TK - ....png` + `Posts TK - novembro - LEGENDAS.txt`, linha editorial escura `PostEditorial`). Agendados na Post for Me (reels 10, 16 e 23/11; posts no dia seguinte). (2026-11-04)
-- **@tk.filmes novembro:** 14 posts agendados na Post for Me (03 a 24/11, `tk-filmes/posts/2026-11/agenda/agendados.md`). Falta: vídeo do "Pode ou não pode?" (ter 10, só no PC do escritório) + reconferir normas; frases em b-roll de 14 a 29/11; conteúdo novo pra 25, 26, 27 (Black Friday) e 30/11. (2026-11-03)
+- **@tk.filmes novembro e dezembro:** grade mesclada agendada na Post for Me até 12/12, no Instagram e no TikTok (`tk-filmes/posts/2026-11/agenda/agendados.md`), incluindo os 17 posts feitos das referências (fins de semana de nov + 02 a 12/12). Falta: subir do PC do escritório o "Pode ou não pode?" (30/11 14h, reconferir normas), o Amador e o Vídeo solto (TikTok 26/11 e 01/12); carrossel "sem × com marketing" (precisa de gerador de imagem, depois da limpeza). Frases em b-roll 09 a 14 ficaram de reserva. (2026-11-04)
+- **TikTok da TK:** rascunhos das frases em b-roll chegam no app (01 a 05 já lá; 06 em 06/11; 07 a 14 às 9h do dia): ela põe o áudio em alta e publica. O TikTok segura no máximo 5 rascunhos pendentes. (2026-11-04)
 - **Dra. Camilla:** decidir se apaga o Reels v1 da Mari (21/10) e o carrossel de 22/10 (slide 3 chama a foto pós aparelho de "ANTES"); data do post 4; autorização de imagem da Mari e da paciente do Periodontite. Detalhes em `clientes/camilla-wanderley/andamento.md`. (2026-10-26)
 - **Start Fitness:** confirmar a fala de 24 s da chamada ("joga o kit"?); valor, contato, cidade, @ e logo. (2026-10-28)
 - **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entregue no Drive `Marielly Makeup/Dia de princesa (trend Rapunzel).mp4`. (2026-10-27)
 - **Dra. Annalibya:** assinar o contrato; confirmar o telefone de contato ((82) 99151-6831 da bio ou 9444-7753) e se o CRO é do AL; email e objetivo; brand book; ouvir os sons refeitos nos vídeos v3. (2026-10-29)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
+- **Galeguinho · vídeo do Açougue Diniz:** aprovar a v2 e ouvir os pontos de `edicao/scripts/1105/REVISAR.md` ("parceria topada", o "do" de "Passaporte do Galeguinho" na fala do Eduardo, "de eu servir"); confirmar o card "Eduardo · Açougue Diniz · @acouguediniz". Aprovado, sobe pro Drive em `VIDEO EDITADO`. Os 23 brutos estão soltos na raiz da pasta dele no Drive: mover pra `BRUTO/2026-11-05 · visita Açougue Diniz/` (regra do B-roll). (2026-11-06)
 - **Dra. Melissa Morais:** aprovar os POSTs 3 a 6 (antes e depois no Drive); os POSTs 5 e 6 passam das 4 edições do pacote: decidir se é pacote novo ou cortesia; ela insere os textos do carrossel; faltam contato, cidade e @. (30-10-2026)
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)
 - Ary: preço da sobrancelha e dos kits de tratamento; prints reais de depoimentos (post 10/11); oferta de Black Friday (24/11); se o salão abre em 20/11. (2026-10-12)
 - Ary: postar pelo celular os stories de União (13/10) e AGENDA (27/10), com localização e link do WhatsApp (Drive `POSTS/2026-10/STORIES`). (2026-10-12)
 - Ary: roteiros dos 12 reels de outubro; a diária 1 caiu no feriado de 13/10, definir a data com ela. (2026-10-12)
-- **Republicar o reels "Voltei"** (`tk-filmes/posts/2026-10/2026-10-06-reels-voltei.mp4`): sugestão sexta 16/10 às 14h. (2026-10-10)
 - **Gravar os 6 vídeos da TK que faltam** (falas no calendário de outubro): 13, 15, 20, 22, 27 e 29/10. Os roteiros de 15 a 29 ainda precisam do "ok" dela. (2026-10-10)
 - Trocar os exemplos de iniciante nas legendas de 09, 12 e 21/10 por "trend solta / vídeo perdido / sumiu três semanas" e reler todas pelo DNA. (2026-10-10)
 - Stories de 10/10 com rótulo "Sexta · 22h" errado (era sábado, 20h): decidir se apaga e reposta ou deixa. O story em vídeo com trilha calma pode ser apagado pelo app. (2026-10-10)
@@ -82,7 +86,6 @@ aprovada na v4 e entregue no Drive dela (`Pingo de Gente/04-11-2026 - Live Black
 - Decidir conectores: Notion e conferir se o conector do Google Drive da conta é o da TK (em 2026-09-29 ele não enxergou o Drive da TK; pasta compartilhada por link funciona pelo navegador). (2026-09-17)
 - Mapear as artes e peças visuais dos clientes (posts, stories, capas, peças de evento): ficou de fora do `/mapear`. (2026-09-17)
 - **Site tkfilme.com.br:** pronto localmente (`tk-filmes/site/`), não está no ar. Falta preencher o "Quem dirige", o vídeo de boas-vindas da abertura e publicar no Cloudflare. (2026-10-28)
-- **TK:** gerar token novo do Instagram (o atual deu erro 190 em 27/10 e de novo em 29/10) pra postar os dois reels aprovados: o V10 da eleição e o "Um dia na TK". (2026-10-29)
 
 ## Quente agora
 - Stories da Tamara montados na véspera de cada dia útil.

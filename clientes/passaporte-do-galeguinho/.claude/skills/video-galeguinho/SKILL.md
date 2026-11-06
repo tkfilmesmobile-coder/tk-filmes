@@ -123,6 +123,21 @@ rastreado) · `Legendas.tsx` (legenda e headline) · `Cardapio3D.tsx` · `Ingred
 `Acabamento.tsx` (grade) · `Rastreio.ts` · `Sons.tsx` · `marca.ts`. Vídeo novo = composição nova
 com os mesmos componentes; os dados (legendas, rastreio, recortes) mudam por vídeo.
 
+## 4b. Vídeo de visita com vários brutos (2026-11-06, Açougue Diniz)
+
+Quando a gravação vem em muitos clipes (visita, bastidor), o fluxo é o de `scripts/1105/`:
+`inventariar.py` (transcrição large-v3 sem prompt + medium; com prompt o modelo repete o próprio contexto) →
+`folhas.py` (quadros com tempo) → `trechos.py` (cada fala escolhida, com o porquê do que ficou de fora) → `voz.py`,
+`espectro.py`, `ouvir.py` (início e fim reais) → `montar.py` (vídeo-base cortado, sem reenquadrar) → `legendas.py`
+(texto conferido manda, tempo vem do trecho cortado) → composição `Edicao1105.tsx` → `curadoria.py` → `finalizar.ps1`
+(−14 LUFS, pico −1,5 dBTP). Parâmetros novos que valem pra todo vídeo deste cliente:
+- **Headline que fecha frase entra em silêncio** (regra 16 da curadoria): nem impacto, nem ar na pausa antes.
+- **Trilha em duas versões:** sem bateria e baixinha (0,06) sob a fala; completa (0,3) nos respiros. Uma batida na
+  pausa da fala troca consoante ("parceria" virou "bateria").
+- Voz do celular a 0,82 no `<Video>` e volume final no `finalizar.ps1` (sem isso o grito passa de 0 dBFS).
+- Bloco de legenda com menos de 0,55 s junta com o vizinho, nunca atravessando o fim de uma frase.
+- Gente da casa ou do fornecedor não tem card de números: o fornecedor ganha card com a logo filmada na visita.
+
 ## 5. O que já foi recusado (não repetir)
 
 - Mostrar as visualizações antes do perfil: a ordem é perfil primeiro.

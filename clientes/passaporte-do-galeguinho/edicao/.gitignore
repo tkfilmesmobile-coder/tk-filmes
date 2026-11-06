@@ -10,3 +10,12 @@ out
 public/midia/
 scripts/**/*.wav
 scripts/**/frames/
+
+# 1105 (fornecedor de carnes): brutos e análise ficam no PC
+scripts/1105/bruto/
+scripts/1105/analise/
+
+# bundle do Remotion (copia a public inteira, com os vídeos) e áudio gerado por script
+build/
+public/audio/
+public/sfx/

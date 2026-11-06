@@ -1,0 +1,2236 @@
+[
+ {
+  "text": " olha",
+  "startMs": 0,
+  "endMs": 300,
+  "timestampMs": 150,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " dia",
+  "startMs": 420,
+  "endMs": 840,
+  "timestampMs": 630,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " inédito",
+  "startMs": 840,
+  "endMs": 1880,
+  "timestampMs": 1360,
+  "confidence": null,
+  "enfase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " para",
+  "startMs": 1880,
+  "endMs": 2080,
+  "timestampMs": 1980,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 2080,
+  "endMs": 2160,
+  "timestampMs": 2120,
+  "confidence": null
+ },
+ {
+  "text": " passaporte",
+  "startMs": 2160,
+  "endMs": 2740,
+  "timestampMs": 2450,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 2740,
+  "endMs": 2800,
+  "timestampMs": 2770,
+  "confidence": null
+ },
+ {
+  "text": " galeguinho",
+  "startMs": 2800,
+  "endMs": 3280,
+  "timestampMs": 3040,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " vou",
+  "startMs": 3760,
+  "endMs": 3860,
+  "timestampMs": 3810,
+  "confidence": null
+ },
+ {
+  "text": " mostrar",
+  "startMs": 3860,
+  "endMs": 4380,
+  "timestampMs": 4120,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 4380,
+  "endMs": 4640,
+  "timestampMs": 4510,
+  "confidence": null
+ },
+ {
+  "text": " perto",
+  "startMs": 4640,
+  "endMs": 5120,
+  "timestampMs": 4880,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 5120,
+  "endMs": 5300,
+  "timestampMs": 5210,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " nossa",
+  "startMs": 5300,
+  "endMs": 5460,
+  "timestampMs": 5380,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " produção",
+  "startMs": 5460,
+  "endMs": 5820,
+  "timestampMs": 5640,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " de",
+  "startMs": 5820,
+  "endMs": 6100,
+  "timestampMs": 5960,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " carne",
+  "startMs": 6100,
+  "endMs": 6380,
+  "timestampMs": 6240,
+  "confidence": null,
+  "enfase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " coisa",
+  "startMs": 6460,
+  "endMs": 6620,
+  "timestampMs": 6540,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 6620,
+  "endMs": 6780,
+  "timestampMs": 6700,
+  "confidence": null
+ },
+ {
+  "text": " eu",
+  "startMs": 6780,
+  "endMs": 6900,
+  "timestampMs": 6840,
+  "confidence": null
+ },
+ {
+  "text": " nunca",
+  "startMs": 6900,
+  "endMs": 7300,
+  "timestampMs": 7100,
+  "confidence": null
+ },
+ {
+  "text": " mostrei",
+  "startMs": 7300,
+  "endMs": 7880,
+  "timestampMs": 7590,
+  "confidence": null
+ },
+ {
+  "text": " antes",
+  "startMs": 7880,
+  "endMs": 8120,
+  "timestampMs": 8000,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " aí",
+  "startMs": 8500,
+  "endMs": 8740,
+  "timestampMs": 8620,
+  "confidence": null
+ },
+ {
+  "text": " vocês",
+  "startMs": 8740,
+  "endMs": 8980,
+  "timestampMs": 8860,
+  "confidence": null
+ },
+ {
+  "text": " acham",
+  "startMs": 8980,
+  "endMs": 9720,
+  "timestampMs": 9350,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 9720,
+  "endMs": 9900,
+  "timestampMs": 9810,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " o",
+  "startMs": 9900,
+  "endMs": 10320,
+  "timestampMs": 10110,
+  "confidence": null
+ },
+ {
+  "text": " melhor",
+  "startMs": 10320,
+  "endMs": 10680,
+  "timestampMs": 10500,
+  "confidence": null
+ },
+ {
+  "text": " passaporte",
+  "startMs": 10680,
+  "endMs": 11280,
+  "timestampMs": 10980,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 11280,
+  "endMs": 11280,
+  "timestampMs": 11280,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " são",
+  "startMs": 11280,
+  "endMs": 11400,
+  "timestampMs": 11340,
+  "confidence": null
+ },
+ {
+  "text": " josé",
+  "startMs": 11400,
+  "endMs": 11540,
+  "timestampMs": 11470,
+  "confidence": null
+ },
+ {
+  "text": " da",
+  "startMs": 11540,
+  "endMs": 11640,
+  "timestampMs": 11590,
+  "confidence": null
+ },
+ {
+  "text": " laje",
+  "startMs": 11640,
+  "endMs": 11960,
+  "timestampMs": 11800,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " com",
+  "startMs": 12080,
+  "endMs": 12360,
+  "timestampMs": 12220,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 12360,
+  "endMs": 12460,
+  "timestampMs": 12410,
+  "confidence": null
+ },
+ {
+  "text": " peso",
+  "startMs": 12460,
+  "endMs": 12980,
+  "timestampMs": 12720,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 12980,
+  "endMs": 13120,
+  "timestampMs": 13050,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " nome",
+  "startMs": 13120,
+  "endMs": 13400,
+  "timestampMs": 13260,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 13400,
+  "endMs": 13560,
+  "timestampMs": 13480,
+  "confidence": null
+ },
+ {
+  "text": " tem",
+  "startMs": 13560,
+  "endMs": 13840,
+  "timestampMs": 13700,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " eu",
+  "startMs": 13980,
+  "endMs": 14360,
+  "timestampMs": 14170,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " ia",
+  "startMs": 14360,
+  "endMs": 14520,
+  "timestampMs": 14440,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " escolher",
+  "startMs": 14520,
+  "endMs": 15000,
+  "timestampMs": 14760,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " outro",
+  "startMs": 15000,
+  "endMs": 15360,
+  "timestampMs": 15180,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " frigorífico?",
+  "startMs": 15360,
+  "endMs": 16220,
+  "timestampMs": 15790,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " ó,",
+  "startMs": 16240,
+  "endMs": 16560,
+  "timestampMs": 16400,
+  "confidence": null
+ },
+ {
+  "text": " açougue",
+  "startMs": 16740,
+  "endMs": 17540,
+  "timestampMs": 17140,
+  "confidence": null
+ },
+ {
+  "text": " diniz",
+  "startMs": 17540,
+  "endMs": 17710,
+  "timestampMs": 17625,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " melhor",
+  "startMs": 17880,
+  "endMs": 18120,
+  "timestampMs": 18000,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 18120,
+  "endMs": 18400,
+  "timestampMs": 18260,
+  "confidence": null
+ },
+ {
+  "text": " tem",
+  "startMs": 18400,
+  "endMs": 18640,
+  "timestampMs": 18520,
+  "confidence": null
+ },
+ {
+  "text": " em",
+  "startMs": 18640,
+  "endMs": 18680,
+  "timestampMs": 18660,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " são",
+  "startMs": 18680,
+  "endMs": 18800,
+  "timestampMs": 18740,
+  "confidence": null
+ },
+ {
+  "text": " josé",
+  "startMs": 18800,
+  "endMs": 18940,
+  "timestampMs": 18870,
+  "confidence": null
+ },
+ {
+  "text": " da",
+  "startMs": 18940,
+  "endMs": 19060,
+  "timestampMs": 19000,
+  "confidence": null
+ },
+ {
+  "text": " laje",
+  "startMs": 19060,
+  "endMs": 19380,
+  "timestampMs": 19220,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " o",
+  "startMs": 19480,
+  "endMs": 19940,
+  "timestampMs": 19710,
+  "confidence": null
+ },
+ {
+  "text": " parceiro",
+  "startMs": 19940,
+  "endMs": 20540,
+  "timestampMs": 20240,
+  "confidence": null
+ },
+ {
+  "text": " aqui",
+  "startMs": 20540,
+  "endMs": 20720,
+  "timestampMs": 20630,
+  "confidence": null
+ },
+ {
+  "text": " abraçou",
+  "startMs": 20720,
+  "endMs": 21660,
+  "timestampMs": 21190,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 21660,
+  "endMs": 21760,
+  "timestampMs": 21710,
+  "confidence": null
+ },
+ {
+  "text": " causa",
+  "startMs": 21760,
+  "endMs": 22080,
+  "timestampMs": 21920,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 22080,
+  "endMs": 22260,
+  "timestampMs": 22170,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " pegar",
+  "startMs": 22260,
+  "endMs": 22540,
+  "timestampMs": 22400,
+  "confidence": null
+ },
+ {
+  "text": " pra",
+  "startMs": 22540,
+  "endMs": 22780,
+  "timestampMs": 22660,
+  "confidence": null
+ },
+ {
+  "text": " fazer",
+  "startMs": 22780,
+  "endMs": 23120,
+  "timestampMs": 22950,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 23120,
+  "endMs": 23240,
+  "timestampMs": 23180,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " melhor",
+  "startMs": 23240,
+  "endMs": 23500,
+  "timestampMs": 23370,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " carne",
+  "startMs": 23500,
+  "endMs": 23820,
+  "timestampMs": 23660,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " de",
+  "startMs": 23820,
+  "endMs": 23980,
+  "timestampMs": 23900,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " hambúrguer",
+  "startMs": 23980,
+  "endMs": 24540,
+  "timestampMs": 24260,
+  "confidence": null,
+  "enfase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " do",
+  "startMs": 24540,
+  "endMs": 24960,
+  "timestampMs": 24750,
+  "confidence": null
+ },
+ {
+  "text": " estado",
+  "startMs": 24960,
+  "endMs": 25300,
+  "timestampMs": 25130,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 25300,
+  "endMs": 25460,
+  "timestampMs": 25380,
+  "confidence": null
+ },
+ {
+  "text": " alagoas",
+  "startMs": 25460,
+  "endMs": 25980,
+  "timestampMs": 25720,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " então,",
+  "startMs": 26000,
+  "endMs": 26200,
+  "timestampMs": 26100,
+  "confidence": null
+ },
+ {
+  "text": " açougue",
+  "startMs": 26380,
+  "endMs": 27060,
+  "timestampMs": 26720,
+  "confidence": null
+ },
+ {
+  "text": " diniz",
+  "startMs": 27060,
+  "endMs": 27280,
+  "timestampMs": 27170,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " parceria",
+  "startMs": 27500,
+  "endMs": 28300,
+  "timestampMs": 27900,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " topada",
+  "startMs": 28300,
+  "endMs": 28780,
+  "timestampMs": 28540,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " aqui",
+  "startMs": 29200,
+  "endMs": 29520,
+  "timestampMs": 29360,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 29520,
+  "endMs": 29680,
+  "timestampMs": 29600,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 29680,
+  "endMs": 29880,
+  "timestampMs": 29780,
+  "confidence": null
+ },
+ {
+  "text": " garante",
+  "startMs": 29880,
+  "endMs": 30520,
+  "timestampMs": 30200,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 30520,
+  "endMs": 30720,
+  "timestampMs": 30620,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " melhor",
+  "startMs": 30720,
+  "endMs": 31000,
+  "timestampMs": 30860,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " qualidade",
+  "startMs": 31000,
+  "endMs": 31420,
+  "timestampMs": 31210,
+  "confidence": null,
+  "enfase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " e",
+  "startMs": 31420,
+  "endMs": 31880,
+  "timestampMs": 31650,
+  "confidence": null
+ },
+ {
+  "text": " não",
+  "startMs": 31880,
+  "endMs": 32180,
+  "timestampMs": 32030,
+  "confidence": null
+ },
+ {
+  "text": " poderia",
+  "startMs": 32180,
+  "endMs": 32480,
+  "timestampMs": 32330,
+  "confidence": null
+ },
+ {
+  "text": " ser",
+  "startMs": 32480,
+  "endMs": 32860,
+  "timestampMs": 32670,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " diferente",
+  "startMs": 32860,
+  "endMs": 33380,
+  "timestampMs": 33120,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 33380,
+  "endMs": 34160,
+  "timestampMs": 33770,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 34160,
+  "endMs": 34200,
+  "timestampMs": 34180,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " passaporte",
+  "startMs": 34200,
+  "endMs": 34760,
+  "timestampMs": 34480,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 34760,
+  "endMs": 34760,
+  "timestampMs": 34760,
+  "confidence": null
+ },
+ {
+  "text": " galeguinho",
+  "startMs": 34760,
+  "endMs": 35220,
+  "timestampMs": 34990,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " e",
+  "startMs": 38120,
+  "endMs": 38320,
+  "timestampMs": 38220,
+  "confidence": null
+ },
+ {
+  "text": " eu,",
+  "startMs": 38320,
+  "endMs": 38580,
+  "timestampMs": 38450,
+  "confidence": null
+ },
+ {
+  "text": " juntamente",
+  "startMs": 38620,
+  "endMs": 39440,
+  "timestampMs": 39030,
+  "confidence": null
+ },
+ {
+  "text": " com",
+  "startMs": 39440,
+  "endMs": 39700,
+  "timestampMs": 39570,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 39700,
+  "endMs": 39740,
+  "timestampMs": 39720,
+  "confidence": null
+ },
+ {
+  "text": " eduardo",
+  "startMs": 39740,
+  "endMs": 40060,
+  "timestampMs": 39900,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 40340,
+  "endMs": 40760,
+  "timestampMs": 40550,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 40760,
+  "endMs": 40940,
+  "timestampMs": 40850,
+  "confidence": null
+ },
+ {
+  "text": " construiu",
+  "startMs": 40940,
+  "endMs": 41500,
+  "timestampMs": 41220,
+  "confidence": null
+ },
+ {
+  "text": " uma",
+  "startMs": 41500,
+  "endMs": 41600,
+  "timestampMs": 41550,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " amizade",
+  "startMs": 41600,
+  "endMs": 42180,
+  "timestampMs": 41890,
+  "confidence": null
+ },
+ {
+  "text": " muito",
+  "startMs": 42180,
+  "endMs": 42340,
+  "timestampMs": 42260,
+  "confidence": null
+ },
+ {
+  "text": " forte",
+  "startMs": 42340,
+  "endMs": 42820,
+  "timestampMs": 42580,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " e",
+  "startMs": 43000,
+  "endMs": 43420,
+  "timestampMs": 43210,
+  "confidence": null
+ },
+ {
+  "text": " aí",
+  "startMs": 43420,
+  "endMs": 43900,
+  "timestampMs": 43660,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 43960,
+  "endMs": 44120,
+  "timestampMs": 44040,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 44120,
+  "endMs": 44400,
+  "timestampMs": 44260,
+  "confidence": null
+ },
+ {
+  "text": " conversando",
+  "startMs": 44400,
+  "endMs": 45080,
+  "timestampMs": 44740,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 45080,
+  "endMs": 45180,
+  "timestampMs": 45130,
+  "confidence": null
+ },
+ {
+  "text": " tal",
+  "startMs": 45180,
+  "endMs": 45280,
+  "timestampMs": 45230,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 45360,
+  "endMs": 45460,
+  "timestampMs": 45410,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 45460,
+  "endMs": 45600,
+  "timestampMs": 45530,
+  "confidence": null
+ },
+ {
+  "text": " chegou",
+  "startMs": 45600,
+  "endMs": 45800,
+  "timestampMs": 45700,
+  "confidence": null
+ },
+ {
+  "text": " à",
+  "startMs": 45800,
+  "endMs": 45900,
+  "timestampMs": 45850,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " conclusão",
+  "startMs": 45900,
+  "endMs": 46580,
+  "timestampMs": 46240,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " do",
+  "startMs": 46580,
+  "endMs": 46680,
+  "timestampMs": 46630,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " nosso",
+  "startMs": 46680,
+  "endMs": 46900,
+  "timestampMs": 46790,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " blend",
+  "startMs": 46900,
+  "endMs": 47180,
+  "timestampMs": 47040,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " verdade,",
+  "startMs": 47430,
+  "endMs": 47970,
+  "timestampMs": 47700,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 47970,
+  "endMs": 48070,
+  "timestampMs": 48020,
+  "confidence": null
+ },
+ {
+  "text": " carne",
+  "startMs": 48070,
+  "endMs": 48410,
+  "timestampMs": 48240,
+  "confidence": null
+ },
+ {
+  "text": " dele",
+  "startMs": 48410,
+  "endMs": 48670,
+  "timestampMs": 48540,
+  "confidence": null
+ },
+ {
+  "text": " tem",
+  "startMs": 48670,
+  "endMs": 48970,
+  "timestampMs": 48820,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " uma",
+  "startMs": 48970,
+  "endMs": 49150,
+  "timestampMs": 49060,
+  "confidence": null
+ },
+ {
+  "text": " carne",
+  "startMs": 49150,
+  "endMs": 49570,
+  "timestampMs": 49360,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 49570,
+  "endMs": 49790,
+  "timestampMs": 49680,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " eu",
+  "startMs": 49790,
+  "endMs": 50290,
+  "timestampMs": 50040,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " não",
+  "startMs": 50290,
+  "endMs": 50470,
+  "timestampMs": 50380,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " cedo",
+  "startMs": 50470,
+  "endMs": 50790,
+  "timestampMs": 50630,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " pra",
+  "startMs": 50790,
+  "endMs": 50910,
+  "timestampMs": 50850,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " ninguém",
+  "startMs": 50910,
+  "endMs": 51210,
+  "timestampMs": 51060,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 51430,
+  "endMs": 51630,
+  "timestampMs": 51530,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " carne",
+  "startMs": 51630,
+  "endMs": 51890,
+  "timestampMs": 51760,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " é",
+  "startMs": 51890,
+  "endMs": 52010,
+  "timestampMs": 51950,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " só",
+  "startMs": 52010,
+  "endMs": 52150,
+  "timestampMs": 52080,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " pra",
+  "startMs": 52150,
+  "endMs": 52350,
+  "timestampMs": 52250,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " ele",
+  "startMs": 52350,
+  "endMs": 52630,
+  "timestampMs": 52490,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " porque",
+  "startMs": 52790,
+  "endMs": 53190,
+  "timestampMs": 52990,
+  "confidence": null
+ },
+ {
+  "text": " se",
+  "startMs": 53190,
+  "endMs": 53430,
+  "timestampMs": 53310,
+  "confidence": null
+ },
+ {
+  "text": " eu",
+  "startMs": 53430,
+  "endMs": 53530,
+  "timestampMs": 53480,
+  "confidence": null
+ },
+ {
+  "text": " cedesse",
+  "startMs": 53530,
+  "endMs": 54090,
+  "timestampMs": 53810,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " pra",
+  "startMs": 54090,
+  "endMs": 54330,
+  "timestampMs": 54210,
+  "confidence": null
+ },
+ {
+  "text": " vender",
+  "startMs": 54330,
+  "endMs": 54590,
+  "timestampMs": 54460,
+  "confidence": null
+ },
+ {
+  "text": " no",
+  "startMs": 54590,
+  "endMs": 54810,
+  "timestampMs": 54700,
+  "confidence": null
+ },
+ {
+  "text": " balcão",
+  "startMs": 54810,
+  "endMs": 55430,
+  "timestampMs": 55120,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " ia",
+  "startMs": 55470,
+  "endMs": 55910,
+  "timestampMs": 55690,
+  "confidence": null
+ },
+ {
+  "text": " faltar",
+  "startMs": 55910,
+  "endMs": 56510,
+  "timestampMs": 56210,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 56510,
+  "endMs": 56970,
+  "timestampMs": 56740,
+  "confidence": null
+ },
+ {
+  "text": " carne",
+  "startMs": 56970,
+  "endMs": 57270,
+  "timestampMs": 57120,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " de",
+  "startMs": 57270,
+  "endMs": 57330,
+  "timestampMs": 57300,
+  "confidence": null
+ },
+ {
+  "text": " eu",
+  "startMs": 57330,
+  "endMs": 57450,
+  "timestampMs": 57390,
+  "confidence": null
+ },
+ {
+  "text": " servir",
+  "startMs": 57450,
+  "endMs": 57670,
+  "timestampMs": 57560,
+  "confidence": null
+ },
+ {
+  "text": " pra",
+  "startMs": 57670,
+  "endMs": 58770,
+  "timestampMs": 58220,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " sair",
+  "startMs": 58770,
+  "endMs": 59190,
+  "timestampMs": 58980,
+  "confidence": null
+ },
+ {
+  "text": " na",
+  "startMs": 59190,
+  "endMs": 59290,
+  "timestampMs": 59240,
+  "confidence": null
+ },
+ {
+  "text": " qualidade",
+  "startMs": 59290,
+  "endMs": 59550,
+  "timestampMs": 59420,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " que",
+  "startMs": 59550,
+  "endMs": 59830,
+  "timestampMs": 59690,
+  "confidence": null
+ },
+ {
+  "text": " ele",
+  "startMs": 59830,
+  "endMs": 59930,
+  "timestampMs": 59880,
+  "confidence": null
+ },
+ {
+  "text": " precisa",
+  "startMs": 59930,
+  "endMs": 60290,
+  "timestampMs": 60110,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " galera,",
+  "startMs": 60780,
+  "endMs": 61440,
+  "timestampMs": 61110,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 61440,
+  "endMs": 61560,
+  "timestampMs": 61500,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 61560,
+  "endMs": 61720,
+  "timestampMs": 61640,
+  "confidence": null
+ },
+ {
+  "text": " tá",
+  "startMs": 61720,
+  "endMs": 62040,
+  "timestampMs": 61880,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " dentro",
+  "startMs": 62040,
+  "endMs": 62680,
+  "timestampMs": 62360,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " do",
+  "startMs": 62680,
+  "endMs": 63040,
+  "timestampMs": 62860,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " coração",
+  "startMs": 63040,
+  "endMs": 64080,
+  "timestampMs": 63560,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " do",
+  "startMs": 64080,
+  "endMs": 64640,
+  "timestampMs": 64360,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " frigorífico",
+  "startMs": 64640,
+  "endMs": 65500,
+  "timestampMs": 65070,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " é",
+  "startMs": 65500,
+  "endMs": 65620,
+  "timestampMs": 65560,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 65620,
+  "endMs": 65740,
+  "timestampMs": 65680,
+  "confidence": null
+ },
+ {
+  "text": " câmara",
+  "startMs": 65740,
+  "endMs": 65980,
+  "timestampMs": 65860,
+  "confidence": null
+ },
+ {
+  "text": " fria",
+  "startMs": 65980,
+  "endMs": 66460,
+  "timestampMs": 66220,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 68850,
+  "endMs": 69070,
+  "timestampMs": 68960,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 69070,
+  "endMs": 69350,
+  "timestampMs": 69210,
+  "confidence": null
+ },
+ {
+  "text": " acabou",
+  "startMs": 69350,
+  "endMs": 69850,
+  "timestampMs": 69600,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 69850,
+  "endMs": 70030,
+  "timestampMs": 69940,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " sair",
+  "startMs": 70030,
+  "endMs": 70190,
+  "timestampMs": 70110,
+  "confidence": null
+ },
+ {
+  "text": " da",
+  "startMs": 70190,
+  "endMs": 70290,
+  "timestampMs": 70240,
+  "confidence": null
+ },
+ {
+  "text": " câmara",
+  "startMs": 70290,
+  "endMs": 70510,
+  "timestampMs": 70400,
+  "confidence": null
+ },
+ {
+  "text": " frigorífica",
+  "startMs": 70510,
+  "endMs": 71330,
+  "timestampMs": 70920,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 71330,
+  "endMs": 71590,
+  "timestampMs": 71460,
+  "confidence": null
+ },
+ {
+  "text": " gente",
+  "startMs": 71590,
+  "endMs": 71790,
+  "timestampMs": 71690,
+  "confidence": null
+ },
+ {
+  "text": " está",
+  "startMs": 71790,
+  "endMs": 72070,
+  "timestampMs": 71930,
+  "confidence": null
+ },
+ {
+  "text": " num",
+  "startMs": 72070,
+  "endMs": 72160,
+  "timestampMs": 72115,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " ambiente",
+  "startMs": 72250,
+  "endMs": 72510,
+  "timestampMs": 72380,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " climatizado",
+  "startMs": 72510,
+  "endMs": 73630,
+  "timestampMs": 73070,
+  "confidence": null,
+  "enfase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " então",
+  "startMs": 74290,
+  "endMs": 74810,
+  "timestampMs": 74550,
+  "confidence": null
+ },
+ {
+  "text": " tá",
+  "startMs": 74810,
+  "endMs": 75110,
+  "timestampMs": 74960,
+  "confidence": null
+ },
+ {
+  "text": " tudo",
+  "startMs": 75110,
+  "endMs": 75470,
+  "timestampMs": 75290,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " dentro",
+  "startMs": 75470,
+  "endMs": 75770,
+  "timestampMs": 75620,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " do",
+  "startMs": 75770,
+  "endMs": 76010,
+  "timestampMs": 75890,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " padrão",
+  "startMs": 76010,
+  "endMs": 76490,
+  "timestampMs": 76250,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " você",
+  "startMs": 76590,
+  "endMs": 77050,
+  "timestampMs": 76820,
+  "confidence": null
+ },
+ {
+  "text": " vê",
+  "startMs": 77050,
+  "endMs": 77230,
+  "timestampMs": 77140,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 77230,
+  "endMs": 77310,
+  "timestampMs": 77270,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " qualidade",
+  "startMs": 77310,
+  "endMs": 77630,
+  "timestampMs": 77470,
+  "confidence": null
+ },
+ {
+  "text": " da",
+  "startMs": 77630,
+  "endMs": 77990,
+  "timestampMs": 77810,
+  "confidence": null
+ },
+ {
+  "text": " carne",
+  "startMs": 77990,
+  "endMs": 78290,
+  "timestampMs": 78140,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " que",
+  "startMs": 78290,
+  "endMs": 78450,
+  "timestampMs": 78370,
+  "confidence": null
+ },
+ {
+  "text": " está",
+  "startMs": 78450,
+  "endMs": 78630,
+  "timestampMs": 78540,
+  "confidence": null
+ },
+ {
+  "text": " saindo",
+  "startMs": 78630,
+  "endMs": 79150,
+  "timestampMs": 78890,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " dá",
+  "startMs": 79600,
+  "endMs": 80000,
+  "timestampMs": 79800,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " vontade",
+  "startMs": 80000,
+  "endMs": 80240,
+  "timestampMs": 80120,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " de",
+  "startMs": 80240,
+  "endMs": 80420,
+  "timestampMs": 80330,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " comer",
+  "startMs": 80420,
+  "endMs": 80600,
+  "timestampMs": 80510,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " crua",
+  "startMs": 80600,
+  "endMs": 81100,
+  "timestampMs": 80850,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " oxe,",
+  "startMs": 81260,
+  "endMs": 81620,
+  "timestampMs": 81440,
+  "confidence": null
+ },
+ {
+  "text": " tu",
+  "startMs": 81620,
+  "endMs": 81740,
+  "timestampMs": 81680,
+  "confidence": null
+ },
+ {
+  "text": " é",
+  "startMs": 81740,
+  "endMs": 81920,
+  "timestampMs": 81830,
+  "confidence": null
+ },
+ {
+  "text": " doido,",
+  "startMs": 81920,
+  "endMs": 82520,
+  "timestampMs": 82220,
+  "confidence": null
+ },
+ {
+  "text": " mano",
+  "startMs": 82520,
+  "endMs": 82660,
+  "timestampMs": 82590,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " se",
+  "startMs": 82850,
+  "endMs": 82950,
+  "timestampMs": 82900,
+  "confidence": null
+ },
+ {
+  "text": " você",
+  "startMs": 82950,
+  "endMs": 83130,
+  "timestampMs": 83040,
+  "confidence": null
+ },
+ {
+  "text": " tem",
+  "startMs": 83130,
+  "endMs": 83390,
+  "timestampMs": 83260,
+  "confidence": null
+ },
+ {
+  "text": " um",
+  "startMs": 83390,
+  "endMs": 83470,
+  "timestampMs": 83430,
+  "confidence": null
+ },
+ {
+  "text": " frigorífico",
+  "startMs": 83470,
+  "endMs": 84010,
+  "timestampMs": 83740,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 84010,
+  "endMs": 84070,
+  "timestampMs": 84040,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " te",
+  "startMs": 84070,
+  "endMs": 84150,
+  "timestampMs": 84110,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " entrega",
+  "startMs": 84150,
+  "endMs": 84690,
+  "timestampMs": 84420,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " todo",
+  "startMs": 84690,
+  "endMs": 84950,
+  "timestampMs": 84820,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " dia",
+  "startMs": 84950,
+  "endMs": 85390,
+  "timestampMs": 85170,
+  "confidence": null,
+  "enfase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " por",
+  "startMs": 85490,
+  "endMs": 85630,
+  "timestampMs": 85560,
+  "confidence": null
+ },
+ {
+  "text": " que",
+  "startMs": 85630,
+  "endMs": 85770,
+  "timestampMs": 85700,
+  "confidence": null
+ },
+ {
+  "text": " você",
+  "startMs": 85770,
+  "endMs": 85910,
+  "timestampMs": 85840,
+  "confidence": null
+ },
+ {
+  "text": " vai",
+  "startMs": 85910,
+  "endMs": 86090,
+  "timestampMs": 86000,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " pegar",
+  "startMs": 86090,
+  "endMs": 86350,
+  "timestampMs": 86220,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 86350,
+  "endMs": 86350,
+  "timestampMs": 86350,
+  "confidence": null
+ },
+ {
+  "text": " carne",
+  "startMs": 86350,
+  "endMs": 86610,
+  "timestampMs": 86480,
+  "confidence": null
+ },
+ {
+  "text": " pra",
+  "startMs": 86610,
+  "endMs": 86710,
+  "timestampMs": 86660,
+  "confidence": null
+ },
+ {
+  "text": " passar",
+  "startMs": 86710,
+  "endMs": 87010,
+  "timestampMs": 86860,
+  "confidence": null
+ },
+ {
+  "text": " 3",
+  "startMs": 87010,
+  "endMs": 87290,
+  "timestampMs": 87150,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " 4,",
+  "startMs": 87410,
+  "endMs": 87630,
+  "timestampMs": 87520,
+  "confidence": null
+ },
+ {
+  "text": " 5",
+  "startMs": 87690,
+  "endMs": 87870,
+  "timestampMs": 87780,
+  "confidence": null
+ },
+ {
+  "text": " dias?",
+  "startMs": 87870,
+  "endMs": 88170,
+  "timestampMs": 88020,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " cara,",
+  "startMs": 88530,
+  "endMs": 88970,
+  "timestampMs": 88750,
+  "confidence": null
+ },
+ {
+  "text": " eu",
+  "startMs": 88970,
+  "endMs": 89130,
+  "timestampMs": 89050,
+  "confidence": null
+ },
+ {
+  "text": " não",
+  "startMs": 89130,
+  "endMs": 89190,
+  "timestampMs": 89160,
+  "confidence": null
+ },
+ {
+  "text": " vou",
+  "startMs": 89190,
+  "endMs": 89410,
+  "timestampMs": 89300,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " eu",
+  "startMs": 89510,
+  "endMs": 89630,
+  "timestampMs": 89570,
+  "confidence": null
+ },
+ {
+  "text": " vou",
+  "startMs": 89630,
+  "endMs": 89790,
+  "timestampMs": 89710,
+  "confidence": null
+ },
+ {
+  "text": " dar",
+  "startMs": 89790,
+  "endMs": 90010,
+  "timestampMs": 89900,
+  "confidence": null
+ },
+ {
+  "text": " trabalho",
+  "startMs": 90010,
+  "endMs": 90310,
+  "timestampMs": 90160,
+  "confidence": null
+ },
+ {
+  "text": " pra",
+  "startMs": 90310,
+  "endMs": 90590,
+  "timestampMs": 90450,
+  "confidence": null
+ },
+ {
+  "text": " ele",
+  "startMs": 90590,
+  "endMs": 90930,
+  "timestampMs": 90760,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " vou",
+  "startMs": 91030,
+  "endMs": 91130,
+  "timestampMs": 91080,
+  "confidence": null
+ },
+ {
+  "text": " dar",
+  "startMs": 91130,
+  "endMs": 91410,
+  "timestampMs": 91270,
+  "confidence": null
+ },
+ {
+  "text": " trabalho",
+  "startMs": 91410,
+  "endMs": 91870,
+  "timestampMs": 91640,
+  "confidence": null
+ },
+ {
+  "text": " todos",
+  "startMs": 91870,
+  "endMs": 92230,
+  "timestampMs": 92050,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " os",
+  "startMs": 92230,
+  "endMs": 92450,
+  "timestampMs": 92340,
+  "confidence": null
+ },
+ {
+  "text": " dias",
+  "startMs": 92450,
+  "endMs": 92710,
+  "timestampMs": 92580,
+  "confidence": null
+ },
+ {
+  "text": " pra",
+  "startMs": 92710,
+  "endMs": 92870,
+  "timestampMs": 92790,
+  "confidence": null
+ },
+ {
+  "text": " ele",
+  "startMs": 92870,
+  "endMs": 93010,
+  "timestampMs": 92940,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " eu",
+  "startMs": 93050,
+  "endMs": 93110,
+  "timestampMs": 93080,
+  "confidence": null
+ },
+ {
+  "text": " não",
+  "startMs": 93110,
+  "endMs": 93110,
+  "timestampMs": 93110,
+  "confidence": null
+ },
+ {
+  "text": " quero",
+  "startMs": 93110,
+  "endMs": 93270,
+  "timestampMs": 93190,
+  "confidence": null
+ },
+ {
+  "text": " nem",
+  "startMs": 93270,
+  "endMs": 93430,
+  "timestampMs": 93350,
+  "confidence": null
+ },
+ {
+  "text": " saber",
+  "startMs": 93430,
+  "endMs": 93670,
+  "timestampMs": 93550,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " eu",
+  "startMs": 93930,
+  "endMs": 94290,
+  "timestampMs": 94110,
+  "confidence": null
+ },
+ {
+  "text": " quero",
+  "startMs": 94290,
+  "endMs": 94510,
+  "timestampMs": 94400,
+  "confidence": null
+ },
+ {
+  "text": " entregar",
+  "startMs": 94510,
+  "endMs": 95030,
+  "timestampMs": 94770,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " o",
+  "startMs": 95030,
+  "endMs": 95130,
+  "timestampMs": 95080,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " melhor",
+  "startMs": 95130,
+  "endMs": 95370,
+  "timestampMs": 95250,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " pra",
+  "startMs": 95370,
+  "endMs": 95630,
+  "timestampMs": 95500,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " você",
+  "startMs": 95630,
+  "endMs": 95850,
+  "timestampMs": 95740,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " você",
+  "startMs": 96240,
+  "endMs": 96500,
+  "timestampMs": 96370,
+  "confidence": null
+ },
+ {
+  "text": " não",
+  "startMs": 96500,
+  "endMs": 96760,
+  "timestampMs": 96630,
+  "confidence": null
+ },
+ {
+  "text": " sabe",
+  "startMs": 96760,
+  "endMs": 97160,
+  "timestampMs": 96960,
+  "confidence": null
+ },
+ {
+  "text": " o",
+  "startMs": 97160,
+  "endMs": 97300,
+  "timestampMs": 97230,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " que",
+  "startMs": 97300,
+  "endMs": 97440,
+  "timestampMs": 97370,
+  "confidence": null
+ },
+ {
+  "text": " você",
+  "startMs": 97440,
+  "endMs": 97780,
+  "timestampMs": 97610,
+  "confidence": null
+ },
+ {
+  "text": " tá",
+  "startMs": 97780,
+  "endMs": 98060,
+  "timestampMs": 97920,
+  "confidence": null
+ },
+ {
+  "text": " perdendo",
+  "startMs": 98060,
+  "endMs": 98700,
+  "timestampMs": 98380,
+  "confidence": null,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " você",
+  "startMs": 98780,
+  "endMs": 99180,
+  "timestampMs": 98980,
+  "confidence": null
+ },
+ {
+  "text": " vai",
+  "startMs": 99180,
+  "endMs": 99360,
+  "timestampMs": 99270,
+  "confidence": null
+ },
+ {
+  "text": " comer",
+  "startMs": 99360,
+  "endMs": 99640,
+  "timestampMs": 99500,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " o",
+  "startMs": 99640,
+  "endMs": 99800,
+  "timestampMs": 99720,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " melhor",
+  "startMs": 99800,
+  "endMs": 100220,
+  "timestampMs": 100010,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " hambúrguer",
+  "startMs": 100220,
+  "endMs": 100920,
+  "timestampMs": 100570,
+  "confidence": null,
+  "enfase": true,
+  "apoio": true
+ },
+ {
+  "text": " da",
+  "startMs": 100920,
+  "endMs": 101040,
+  "timestampMs": 100980,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " sua",
+  "startMs": 101040,
+  "endMs": 101400,
+  "timestampMs": 101220,
+  "confidence": null,
+  "enfase": true
+ },
+ {
+  "text": " vida",
+  "startMs": 101400,
+  "endMs": 101880,
+  "timestampMs": 101640,
+  "confidence": null,
+  "enfase": true,
+  "fimDeFrase": true,
+  "pageBreakAfter": true
+ }
+]

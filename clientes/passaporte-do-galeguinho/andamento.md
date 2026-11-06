@@ -47,6 +47,12 @@
 - Carrossel contínuo do Burguer Capiana (4 slides emendados) agendado pra 06/10; a anatomia do Passaporte
   passou pra 07/10.
 
+**Vídeo da visita ao Açougue Diniz (gravado em 2026-11-05, editado em 2026-11-06)**
+- O fornecedor da carne dos hambúrgueres (Eduardo, @acouguediniz, São José da Laje). 23 brutos (~22 min) na raiz da pasta
+  do cliente no Drive viraram 1 min 46 s: parceria, carne exclusiva, blend, câmara fria, moagem, carne buscada todo dia e
+  chamada. Final em `edicao/out/2026-11-05-visita-acougue-diniz-v2.mp4`; escolhas e conferência em `edicao/scripts/1105/`
+  (`trechos.py`, `REVISAR.md`). **Esperando a aprovação da Talyta** pra ir pro Drive (`VIDEO EDITADO`).
+
 **Capas de destaque (2026-09-30)**
 - 7 capas novas (Clientes, Carnaval2026, Melhores do Ano, Em Ação, Carnalaje, Molhos, Equipe), lettering
   manuscrito + Anton dourado com aro fino, em `IDENTIDADE VISUAL/PERFIL/CAPAS DE DESTAQUE` no Drive do cliente.

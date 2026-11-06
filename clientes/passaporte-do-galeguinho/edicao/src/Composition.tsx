@@ -16,6 +16,7 @@ import { MARCA } from "./marca";
 import { ancoraDoBloco, useRastreio } from "./Rastreio";
 import { SomDaCasa } from "./Sons";
 import { DURACAO_6498, Edicao6498, FPS_6498 } from "./Edicao6498";
+import { DURACAO_1105, Edicao1105, FPS_1105 } from "./Edicao1105";
 
 const FPS = 30;
 
@@ -181,6 +182,16 @@ export const MyComposition = () => {
           legendas: "legendas/6498.json",
           rastreio: "rastreio/6498.json",
         }}
+      />
+      {/* Visita ao Açougue Diniz, fornecedor da carne dos hambúrgueres (gravação de 2026-11-05) */}
+      <Composition
+        id="Edicao1105"
+        component={Edicao1105}
+        durationInFrames={DURACAO_1105}
+        fps={FPS_1105}
+        width={1080}
+        height={1920}
+        defaultProps={{ video: "midia/1105.mp4", legendas: "legendas/1105.json" }}
       />
       {/* Prévia de 9 s (abertura), pra conferir ajuste rápido sem renderizar tudo */}
       <Composition

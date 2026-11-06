@@ -1,0 +1,2001 @@
+{
+ "total": 106.12,
+ "fps": 30,
+ "trechos": [
+  {
+   "id": "abre",
+   "de": 0.0,
+   "ate": 8.5,
+   "txt": "Olha, dia inédito para o Passaporte do Galeguinho. Vou mostrar de perto a nossa produção de carne, coisa que eu nunca mostrei antes.",
+   "imagens": [
+    {
+     "de": 0.0,
+     "ate": 3.6,
+     "fonte": "IMG_1310",
+     "ini": 4.45
+    },
+    {
+     "de": 3.6,
+     "ate": 5.3,
+     "fonte": "IMG_1329",
+     "ini": 185.4
+    },
+    {
+     "de": 5.3,
+     "ate": 8.5,
+     "fonte": "IMG_1310",
+     "ini": 9.75
+    }
+   ],
+   "som": [
+    "IMG_1310",
+    4.45,
+    12.95
+   ]
+  },
+  {
+   "id": "parceria",
+   "de": 8.5,
+   "ate": 29.2,
+   "txt": "Aí vocês acham que o melhor Passaporte de São José da Laje, com o peso do nome que tem, eu ia escolher outro frigorífico? Ó, Açougue Diniz, melhor que tem em São José da Laje. O parceiro aqui abraçou a causa de pegar pra fazer a melhor carne de hambúrguer do estado de Alagoas. Então, Açougue Diniz, parceria topada.",
+   "imagens": [
+    {
+     "de": 8.5,
+     "ate": 16.2,
+     "fonte": "IMG_1312",
+     "ini": 0.05
+    },
+    {
+     "de": 16.2,
+     "ate": 19.2,
+     "fonte": "IMG_1320",
+     "ini": 2.2
+    },
+    {
+     "de": 19.2,
+     "ate": 29.2,
+     "fonte": "IMG_1312",
+     "ini": 10.75
+    }
+   ],
+   "som": [
+    "IMG_1312",
+    0.05,
+    20.75
+   ]
+  },
+  {
+   "id": "eduardo",
+   "de": 29.2,
+   "ate": 35.52,
+   "txt": "Aqui a gente garante a melhor qualidade e não poderia ser diferente com o Passaporte do Galeguinho.",
+   "imagens": [
+    {
+     "de": 29.2,
+     "ate": 35.52,
+     "fonte": "IMG_1315",
+     "ini": 0.6
+    }
+   ],
+   "som": [
+    "IMG_1315",
+    0.6,
+    6.92
+   ]
+  },
+  {
+   "id": "ponte1",
+   "de": 35.52,
+   "ate": 38.12,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 35.52,
+     "ate": 36.52,
+     "fonte": "IMG_1319",
+     "ini": 0.3
+    },
+    {
+     "de": 36.52,
+     "ate": 38.12,
+     "fonte": "IMG_1323",
+     "ini": 2.0
+    }
+   ],
+   "som": null
+  },
+  {
+   "id": "blend",
+   "de": 38.12,
+   "ate": 47.43,
+   "txt": "E eu, juntamente com o Eduardo, a gente construiu uma amizade muito forte. E aí, a gente conversando e tal, a gente chegou à conclusão do nosso blend.",
+   "imagens": [
+    {
+     "de": 38.12,
+     "ate": 43.12,
+     "fonte": "IMG_1329",
+     "ini": 46.72
+    },
+    {
+     "de": 43.12,
+     "ate": 45.12,
+     "fonte": "IMG_1333",
+     "ini": 6.5
+    },
+    {
+     "de": 45.12,
+     "ate": 47.43,
+     "fonte": "IMG_1329",
+     "ini": 53.72
+    }
+   ],
+   "som": [
+    "IMG_1329",
+    46.72,
+    56.03
+   ]
+  },
+  {
+   "id": "exclusiva",
+   "de": 47.43,
+   "ate": 60.78,
+   "txt": "Verdade, a carne dele tem uma carne que eu não cedo pra ninguém. A carne é só pra ele. Porque se eu cedesse pra vender no balcão, ia faltar a carne de eu servir pra sair na qualidade que ele precisa.",
+   "imagens": [
+    {
+     "de": 47.43,
+     "ate": 60.78,
+     "fonte": "IMG_1329",
+     "ini": 152.3
+    }
+   ],
+   "som": [
+    "IMG_1329",
+    152.3,
+    165.65
+   ]
+  },
+  {
+   "id": "camara",
+   "de": 60.78,
+   "ate": 66.85,
+   "txt": "Galera, a gente tá dentro do coração do frigorífico. É a câmara fria.",
+   "imagens": [
+    {
+     "de": 60.78,
+     "ate": 66.85,
+     "fonte": "IMG_1329",
+     "ini": 225.35
+    }
+   ],
+   "som": [
+    "IMG_1329",
+    225.35,
+    231.42
+   ]
+  },
+  {
+   "id": "ponte2",
+   "de": 66.85,
+   "ate": 68.85,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 66.85,
+     "ate": 67.85,
+     "fonte": "IMG_1329",
+     "ini": 301.6
+    },
+    {
+     "de": 67.85,
+     "ate": 68.85,
+     "fonte": "IMG_1325",
+     "ini": 1.0
+    }
+   ],
+   "som": null
+  },
+  {
+   "id": "moagem",
+   "de": 68.85,
+   "ate": 79.6,
+   "txt": "A gente acabou de sair da câmara frigorífica, a gente está num ambiente climatizado, então tá tudo dentro do padrão. Você vê a qualidade da carne que está saindo.",
+   "imagens": [
+    {
+     "de": 68.85,
+     "ate": 79.6,
+     "fonte": "IMG_1332",
+     "ini": 55.25
+    }
+   ],
+   "som": [
+    "IMG_1332",
+    55.25,
+    66.0
+   ]
+  },
+  {
+   "id": "crua",
+   "de": 79.6,
+   "ate": 82.85,
+   "txt": "Dá vontade de comer crua. Oxe, tu é doido, mano.",
+   "imagens": [
+    {
+     "de": 79.6,
+     "ate": 82.85,
+     "fonte": "IMG_1332",
+     "ini": 241.3
+    }
+   ],
+   "som": [
+    "IMG_1332",
+    241.3,
+    244.55
+   ]
+  },
+  {
+   "id": "todo-dia",
+   "de": 82.85,
+   "ate": 95.96,
+   "txt": "Se você tem um frigorífico que te entrega todo dia, por que você vai pegar a carne pra passar 3, 4, 5 dias? Cara, eu não vou. Eu vou dar trabalho pra ele, vou dar trabalho todos os dias pra ele. Eu não quero nem saber, eu quero entregar o melhor pra você.",
+   "imagens": [
+    {
+     "de": 82.85,
+     "ate": 95.96,
+     "fonte": "IMG_1333",
+     "ini": 77.85
+    }
+   ],
+   "som": [
+    "IMG_1333",
+    77.85,
+    90.96
+   ]
+  },
+  {
+   "id": "chamada",
+   "de": 95.96,
+   "ate": 102.52,
+   "txt": "Você não sabe o que você tá perdendo. Você vai comer o melhor hambúrguer da sua vida.",
+   "imagens": [
+    {
+     "de": 95.96,
+     "ate": 102.52,
+     "fonte": "IMG_1333",
+     "ini": 126.74
+    }
+   ],
+   "som": [
+    "IMG_1333",
+    126.74,
+    133.3
+   ]
+  },
+  {
+   "id": "fecho",
+   "de": 102.52,
+   "ate": 106.12,
+   "txt": "",
+   "imagens": [
+    {
+     "de": 102.52,
+     "ate": 106.12,
+     "fonte": "IMG_1332",
+     "ini": 270.0
+    }
+   ],
+   "som": null
+  }
+ ],
+ "palavras": [
+  {
+   "p": "dia",
+   "ini": 0.42,
+   "fim": 0.88,
+   "trecho": "abre"
+  },
+  {
+   "p": "inédito",
+   "ini": 0.88,
+   "fim": 1.88,
+   "trecho": "abre"
+  },
+  {
+   "p": "para",
+   "ini": 1.88,
+   "fim": 2.06,
+   "trecho": "abre"
+  },
+  {
+   "p": "o",
+   "ini": 2.06,
+   "fim": 2.2,
+   "trecho": "abre"
+  },
+  {
+   "p": "Passaporte",
+   "ini": 2.2,
+   "fim": 2.72,
+   "trecho": "abre"
+  },
+  {
+   "p": "do",
+   "ini": 2.72,
+   "fim": 2.8,
+   "trecho": "abre"
+  },
+  {
+   "p": "Galeguinho.",
+   "ini": 2.8,
+   "fim": 3.26,
+   "trecho": "abre"
+  },
+  {
+   "p": "Vou",
+   "ini": 3.4,
+   "fim": 3.84,
+   "trecho": "abre"
+  },
+  {
+   "p": "mostrar",
+   "ini": 3.84,
+   "fim": 4.38,
+   "trecho": "abre"
+  },
+  {
+   "p": "de",
+   "ini": 4.38,
+   "fim": 4.66,
+   "trecho": "abre"
+  },
+  {
+   "p": "perto",
+   "ini": 4.66,
+   "fim": 5.14,
+   "trecho": "abre"
+  },
+  {
+   "p": "a",
+   "ini": 5.14,
+   "fim": 5.3,
+   "trecho": "abre"
+  },
+  {
+   "p": "nossa",
+   "ini": 5.3,
+   "fim": 5.48,
+   "trecho": "abre"
+  },
+  {
+   "p": "produção",
+   "ini": 5.48,
+   "fim": 5.82,
+   "trecho": "abre"
+  },
+  {
+   "p": "de",
+   "ini": 5.82,
+   "fim": 6.12,
+   "trecho": "abre"
+  },
+  {
+   "p": "carne,",
+   "ini": 6.12,
+   "fim": 6.38,
+   "trecho": "abre"
+  },
+  {
+   "p": "coisa",
+   "ini": 6.46,
+   "fim": 6.62,
+   "trecho": "abre"
+  },
+  {
+   "p": "que",
+   "ini": 6.62,
+   "fim": 6.78,
+   "trecho": "abre"
+  },
+  {
+   "p": "eu",
+   "ini": 6.78,
+   "fim": 6.9,
+   "trecho": "abre"
+  },
+  {
+   "p": "nunca",
+   "ini": 6.9,
+   "fim": 7.32,
+   "trecho": "abre"
+  },
+  {
+   "p": "mostrei",
+   "ini": 7.32,
+   "fim": 7.88,
+   "trecho": "abre"
+  },
+  {
+   "p": "antes.",
+   "ini": 7.88,
+   "fim": 8.14,
+   "trecho": "abre"
+  },
+  {
+   "p": "Mas",
+   "ini": 8.3,
+   "fim": 8.5,
+   "trecho": "abre"
+  },
+  {
+   "p": "vocês",
+   "ini": 8.73,
+   "fim": 8.95,
+   "trecho": "parceria"
+  },
+  {
+   "p": "acham",
+   "ini": 8.95,
+   "fim": 9.71,
+   "trecho": "parceria"
+  },
+  {
+   "p": "que",
+   "ini": 9.71,
+   "fim": 9.89,
+   "trecho": "parceria"
+  },
+  {
+   "p": "o",
+   "ini": 9.89,
+   "fim": 10.31,
+   "trecho": "parceria"
+  },
+  {
+   "p": "melhor",
+   "ini": 10.31,
+   "fim": 10.67,
+   "trecho": "parceria"
+  },
+  {
+   "p": "passaporte",
+   "ini": 10.67,
+   "fim": 11.29,
+   "trecho": "parceria"
+  },
+  {
+   "p": "São",
+   "ini": 11.29,
+   "fim": 11.39,
+   "trecho": "parceria"
+  },
+  {
+   "p": "José",
+   "ini": 11.39,
+   "fim": 11.53,
+   "trecho": "parceria"
+  },
+  {
+   "p": "da",
+   "ini": 11.53,
+   "fim": 11.65,
+   "trecho": "parceria"
+  },
+  {
+   "p": "Laje,",
+   "ini": 11.65,
+   "fim": 11.97,
+   "trecho": "parceria"
+  },
+  {
+   "p": "com",
+   "ini": 12.09,
+   "fim": 12.37,
+   "trecho": "parceria"
+  },
+  {
+   "p": "o",
+   "ini": 12.37,
+   "fim": 12.47,
+   "trecho": "parceria"
+  },
+  {
+   "p": "peso",
+   "ini": 12.47,
+   "fim": 12.99,
+   "trecho": "parceria"
+  },
+  {
+   "p": "do",
+   "ini": 12.99,
+   "fim": 13.13,
+   "trecho": "parceria"
+  },
+  {
+   "p": "nome",
+   "ini": 13.13,
+   "fim": 13.39,
+   "trecho": "parceria"
+  },
+  {
+   "p": "que",
+   "ini": 13.39,
+   "fim": 13.57,
+   "trecho": "parceria"
+  },
+  {
+   "p": "tem,",
+   "ini": 13.57,
+   "fim": 13.83,
+   "trecho": "parceria"
+  },
+  {
+   "p": "eu",
+   "ini": 13.97,
+   "fim": 14.35,
+   "trecho": "parceria"
+  },
+  {
+   "p": "ia",
+   "ini": 14.35,
+   "fim": 14.53,
+   "trecho": "parceria"
+  },
+  {
+   "p": "escolher",
+   "ini": 14.53,
+   "fim": 15.01,
+   "trecho": "parceria"
+  },
+  {
+   "p": "outro",
+   "ini": 15.01,
+   "fim": 15.37,
+   "trecho": "parceria"
+  },
+  {
+   "p": "frigorífico.",
+   "ini": 15.37,
+   "fim": 16.21,
+   "trecho": "parceria"
+  },
+  {
+   "p": "Ó,",
+   "ini": 16.25,
+   "fim": 16.53,
+   "trecho": "parceria"
+  },
+  {
+   "p": "açougue",
+   "ini": 16.75,
+   "fim": 17.53,
+   "trecho": "parceria"
+  },
+  {
+   "p": "de",
+   "ini": 17.53,
+   "fim": 17.57,
+   "trecho": "parceria"
+  },
+  {
+   "p": "niz,",
+   "ini": 17.57,
+   "fim": 17.89,
+   "trecho": "parceria"
+  },
+  {
+   "p": "melhor",
+   "ini": 17.89,
+   "fim": 18.11,
+   "trecho": "parceria"
+  },
+  {
+   "p": "que",
+   "ini": 18.11,
+   "fim": 18.41,
+   "trecho": "parceria"
+  },
+  {
+   "p": "tem",
+   "ini": 18.41,
+   "fim": 18.63,
+   "trecho": "parceria"
+  },
+  {
+   "p": "em",
+   "ini": 18.63,
+   "fim": 18.71,
+   "trecho": "parceria"
+  },
+  {
+   "p": "São",
+   "ini": 18.71,
+   "fim": 18.79,
+   "trecho": "parceria"
+  },
+  {
+   "p": "José",
+   "ini": 18.79,
+   "fim": 18.95,
+   "trecho": "parceria"
+  },
+  {
+   "p": "da",
+   "ini": 18.95,
+   "fim": 19.07,
+   "trecho": "parceria"
+  },
+  {
+   "p": "Laje.",
+   "ini": 19.07,
+   "fim": 19.39,
+   "trecho": "parceria"
+  },
+  {
+   "p": "O",
+   "ini": 19.47,
+   "fim": 19.93,
+   "trecho": "parceria"
+  },
+  {
+   "p": "parceiro",
+   "ini": 19.93,
+   "fim": 20.53,
+   "trecho": "parceria"
+  },
+  {
+   "p": "aqui",
+   "ini": 20.53,
+   "fim": 20.71,
+   "trecho": "parceria"
+  },
+  {
+   "p": "abraçou",
+   "ini": 20.71,
+   "fim": 21.67,
+   "trecho": "parceria"
+  },
+  {
+   "p": "a",
+   "ini": 21.67,
+   "fim": 21.75,
+   "trecho": "parceria"
+  },
+  {
+   "p": "causa",
+   "ini": 21.75,
+   "fim": 22.07,
+   "trecho": "parceria"
+  },
+  {
+   "p": "de",
+   "ini": 22.07,
+   "fim": 22.27,
+   "trecho": "parceria"
+  },
+  {
+   "p": "pegar",
+   "ini": 22.27,
+   "fim": 22.53,
+   "trecho": "parceria"
+  },
+  {
+   "p": "para",
+   "ini": 22.53,
+   "fim": 22.79,
+   "trecho": "parceria"
+  },
+  {
+   "p": "fazer",
+   "ini": 22.79,
+   "fim": 23.13,
+   "trecho": "parceria"
+  },
+  {
+   "p": "a",
+   "ini": 23.13,
+   "fim": 23.25,
+   "trecho": "parceria"
+  },
+  {
+   "p": "melhor",
+   "ini": 23.25,
+   "fim": 23.51,
+   "trecho": "parceria"
+  },
+  {
+   "p": "carne",
+   "ini": 23.51,
+   "fim": 23.83,
+   "trecho": "parceria"
+  },
+  {
+   "p": "de",
+   "ini": 23.83,
+   "fim": 23.97,
+   "trecho": "parceria"
+  },
+  {
+   "p": "hambúrguer",
+   "ini": 23.97,
+   "fim": 24.53,
+   "trecho": "parceria"
+  },
+  {
+   "p": "do",
+   "ini": 24.53,
+   "fim": 24.97,
+   "trecho": "parceria"
+  },
+  {
+   "p": "estado",
+   "ini": 24.97,
+   "fim": 25.29,
+   "trecho": "parceria"
+  },
+  {
+   "p": "de",
+   "ini": 25.29,
+   "fim": 25.47,
+   "trecho": "parceria"
+  },
+  {
+   "p": "Alagoas.",
+   "ini": 25.47,
+   "fim": 25.99,
+   "trecho": "parceria"
+  },
+  {
+   "p": "Então,",
+   "ini": 25.99,
+   "fim": 26.19,
+   "trecho": "parceria"
+  },
+  {
+   "p": "açougue",
+   "ini": 26.41,
+   "fim": 27.05,
+   "trecho": "parceria"
+  },
+  {
+   "p": "de",
+   "ini": 27.05,
+   "fim": 27.11,
+   "trecho": "parceria"
+  },
+  {
+   "p": "niz,",
+   "ini": 27.11,
+   "fim": 27.51,
+   "trecho": "parceria"
+  },
+  {
+   "p": "parceria",
+   "ini": 27.51,
+   "fim": 28.31,
+   "trecho": "parceria"
+  },
+  {
+   "p": "topada.",
+   "ini": 28.31,
+   "fim": 28.77,
+   "trecho": "parceria"
+  },
+  {
+   "p": "a",
+   "ini": 29.53,
+   "fim": 29.67,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "gente",
+   "ini": 29.67,
+   "fim": 29.89,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "garante",
+   "ini": 29.89,
+   "fim": 30.51,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "a",
+   "ini": 30.51,
+   "fim": 30.73,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "melhor",
+   "ini": 30.73,
+   "fim": 31.01,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "qualidade",
+   "ini": 31.01,
+   "fim": 31.39,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "e",
+   "ini": 31.39,
+   "fim": 31.95,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "não",
+   "ini": 31.95,
+   "fim": 32.19,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "poderia",
+   "ini": 32.19,
+   "fim": 32.51,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "ser",
+   "ini": 32.51,
+   "fim": 32.85,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "diferente",
+   "ini": 32.85,
+   "fim": 33.39,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "com",
+   "ini": 33.39,
+   "fim": 34.15,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "o",
+   "ini": 34.15,
+   "fim": 34.25,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "Passaporte",
+   "ini": 34.25,
+   "fim": 34.77,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "do",
+   "ini": 34.77,
+   "fim": 34.85,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "Galeguinho.",
+   "ini": 34.85,
+   "fim": 35.21,
+   "trecho": "eduardo"
+  },
+  {
+   "p": "eu,",
+   "ini": 38.3,
+   "fim": 38.6,
+   "trecho": "blend"
+  },
+  {
+   "p": "juntamente",
+   "ini": 38.62,
+   "fim": 39.42,
+   "trecho": "blend"
+  },
+  {
+   "p": "com",
+   "ini": 39.42,
+   "fim": 39.7,
+   "trecho": "blend"
+  },
+  {
+   "p": "o",
+   "ini": 39.7,
+   "fim": 39.74,
+   "trecho": "blend"
+  },
+  {
+   "p": "Eduardo,",
+   "ini": 39.74,
+   "fim": 40.08,
+   "trecho": "blend"
+  },
+  {
+   "p": "a",
+   "ini": 40.36,
+   "fim": 40.76,
+   "trecho": "blend"
+  },
+  {
+   "p": "gente",
+   "ini": 40.76,
+   "fim": 40.94,
+   "trecho": "blend"
+  },
+  {
+   "p": "construiu",
+   "ini": 40.94,
+   "fim": 41.48,
+   "trecho": "blend"
+  },
+  {
+   "p": "uma",
+   "ini": 41.48,
+   "fim": 41.62,
+   "trecho": "blend"
+  },
+  {
+   "p": "amizade",
+   "ini": 41.62,
+   "fim": 42.06,
+   "trecho": "blend"
+  },
+  {
+   "p": "muito",
+   "ini": 42.06,
+   "fim": 42.32,
+   "trecho": "blend"
+  },
+  {
+   "p": "forte.",
+   "ini": 42.32,
+   "fim": 42.82,
+   "trecho": "blend"
+  },
+  {
+   "p": "E",
+   "ini": 43.02,
+   "fim": 43.42,
+   "trecho": "blend"
+  },
+  {
+   "p": "aí,",
+   "ini": 43.42,
+   "fim": 43.88,
+   "trecho": "blend"
+  },
+  {
+   "p": "a",
+   "ini": 43.96,
+   "fim": 44.12,
+   "trecho": "blend"
+  },
+  {
+   "p": "gente",
+   "ini": 44.12,
+   "fim": 44.42,
+   "trecho": "blend"
+  },
+  {
+   "p": "conversando",
+   "ini": 44.42,
+   "fim": 45.04,
+   "trecho": "blend"
+  },
+  {
+   "p": "e",
+   "ini": 45.04,
+   "fim": 45.18,
+   "trecho": "blend"
+  },
+  {
+   "p": "tal,",
+   "ini": 45.18,
+   "fim": 45.28,
+   "trecho": "blend"
+  },
+  {
+   "p": "a",
+   "ini": 45.36,
+   "fim": 45.48,
+   "trecho": "blend"
+  },
+  {
+   "p": "gente",
+   "ini": 45.48,
+   "fim": 45.62,
+   "trecho": "blend"
+  },
+  {
+   "p": "chegou",
+   "ini": 45.62,
+   "fim": 45.78,
+   "trecho": "blend"
+  },
+  {
+   "p": "à",
+   "ini": 45.78,
+   "fim": 45.92,
+   "trecho": "blend"
+  },
+  {
+   "p": "conclusão",
+   "ini": 45.92,
+   "fim": 46.58,
+   "trecho": "blend"
+  },
+  {
+   "p": "do",
+   "ini": 46.58,
+   "fim": 46.7,
+   "trecho": "blend"
+  },
+  {
+   "p": "nosso",
+   "ini": 46.7,
+   "fim": 46.9,
+   "trecho": "blend"
+  },
+  {
+   "p": "blend,",
+   "ini": 46.9,
+   "fim": 47.2,
+   "trecho": "blend"
+  },
+  {
+   "p": "que",
+   "ini": 47.36,
+   "fim": 47.43,
+   "trecho": "blend"
+  },
+  {
+   "p": "carne",
+   "ini": 47.69,
+   "fim": 48.37,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "dele",
+   "ini": 48.37,
+   "fim": 48.67,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "tem",
+   "ini": 48.67,
+   "fim": 48.95,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "uma",
+   "ini": 48.95,
+   "fim": 49.15,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "carne",
+   "ini": 49.15,
+   "fim": 49.47,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "que",
+   "ini": 49.47,
+   "fim": 49.77,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "eu",
+   "ini": 49.77,
+   "fim": 50.27,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "não",
+   "ini": 50.27,
+   "fim": 50.47,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "cedo",
+   "ini": 50.47,
+   "fim": 50.73,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "pra",
+   "ini": 50.73,
+   "fim": 50.91,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "ninguém,",
+   "ini": 50.91,
+   "fim": 51.21,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "a",
+   "ini": 51.43,
+   "fim": 51.63,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "carne",
+   "ini": 51.63,
+   "fim": 51.89,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "é",
+   "ini": 51.89,
+   "fim": 52.01,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "só",
+   "ini": 52.01,
+   "fim": 52.17,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "pra",
+   "ini": 52.17,
+   "fim": 52.35,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "ele,",
+   "ini": 52.35,
+   "fim": 52.65,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "porque",
+   "ini": 52.79,
+   "fim": 53.19,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "se",
+   "ini": 53.19,
+   "fim": 53.43,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "eu",
+   "ini": 53.43,
+   "fim": 53.55,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "cedesse",
+   "ini": 53.55,
+   "fim": 54.07,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "pra",
+   "ini": 54.07,
+   "fim": 54.33,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "vender",
+   "ini": 54.33,
+   "fim": 54.59,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "no",
+   "ini": 54.59,
+   "fim": 54.81,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "balcão,",
+   "ini": 54.81,
+   "fim": 55.41,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "ia",
+   "ini": 55.49,
+   "fim": 55.91,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "ia",
+   "ini": 55.91,
+   "fim": 55.91,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "faltar",
+   "ini": 55.91,
+   "fim": 56.49,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "a",
+   "ini": 56.49,
+   "fim": 57.03,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "carne",
+   "ini": 57.03,
+   "fim": 57.27,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "deu",
+   "ini": 57.27,
+   "fim": 57.43,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "servir",
+   "ini": 57.43,
+   "fim": 57.73,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "para",
+   "ini": 57.73,
+   "fim": 58.87,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "sair",
+   "ini": 58.87,
+   "fim": 59.19,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "na",
+   "ini": 59.19,
+   "fim": 59.29,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "qualidade",
+   "ini": 59.29,
+   "fim": 59.59,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "que",
+   "ini": 59.59,
+   "fim": 59.83,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "ele",
+   "ini": 59.83,
+   "fim": 59.91,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "precisa",
+   "ini": 59.91,
+   "fim": 60.31,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "também",
+   "ini": 60.31,
+   "fim": 60.78,
+   "trecho": "exclusiva"
+  },
+  {
+   "p": "Galera,",
+   "ini": 60.93,
+   "fim": 61.41,
+   "trecho": "camara"
+  },
+  {
+   "p": "a",
+   "ini": 61.41,
+   "fim": 61.55,
+   "trecho": "camara"
+  },
+  {
+   "p": "gente",
+   "ini": 61.55,
+   "fim": 61.71,
+   "trecho": "camara"
+  },
+  {
+   "p": "está",
+   "ini": 61.71,
+   "fim": 62.03,
+   "trecho": "camara"
+  },
+  {
+   "p": "dentro",
+   "ini": 62.03,
+   "fim": 62.53,
+   "trecho": "camara"
+  },
+  {
+   "p": "do",
+   "ini": 62.53,
+   "fim": 63.05,
+   "trecho": "camara"
+  },
+  {
+   "p": "coração",
+   "ini": 63.05,
+   "fim": 64.09,
+   "trecho": "camara"
+  },
+  {
+   "p": "do",
+   "ini": 64.09,
+   "fim": 64.65,
+   "trecho": "camara"
+  },
+  {
+   "p": "frigorífico.",
+   "ini": 64.65,
+   "fim": 65.49,
+   "trecho": "camara"
+  },
+  {
+   "p": "É",
+   "ini": 65.51,
+   "fim": 65.63,
+   "trecho": "camara"
+  },
+  {
+   "p": "a",
+   "ini": 65.63,
+   "fim": 65.75,
+   "trecho": "camara"
+  },
+  {
+   "p": "câmara",
+   "ini": 65.75,
+   "fim": 66.03,
+   "trecho": "camara"
+  },
+  {
+   "p": "fria.",
+   "ini": 66.03,
+   "fim": 66.49,
+   "trecho": "camara"
+  },
+  {
+   "p": "gente",
+   "ini": 69.0,
+   "fim": 69.34,
+   "trecho": "moagem"
+  },
+  {
+   "p": "acabou",
+   "ini": 69.34,
+   "fim": 69.86,
+   "trecho": "moagem"
+  },
+  {
+   "p": "de",
+   "ini": 69.86,
+   "fim": 70.02,
+   "trecho": "moagem"
+  },
+  {
+   "p": "sair",
+   "ini": 70.02,
+   "fim": 70.16,
+   "trecho": "moagem"
+  },
+  {
+   "p": "da",
+   "ini": 70.16,
+   "fim": 70.28,
+   "trecho": "moagem"
+  },
+  {
+   "p": "câmara",
+   "ini": 70.28,
+   "fim": 70.48,
+   "trecho": "moagem"
+  },
+  {
+   "p": "frigorífica",
+   "ini": 70.48,
+   "fim": 71.28,
+   "trecho": "moagem"
+  },
+  {
+   "p": "a",
+   "ini": 71.28,
+   "fim": 71.44,
+   "trecho": "moagem"
+  },
+  {
+   "p": "gente",
+   "ini": 71.44,
+   "fim": 71.78,
+   "trecho": "moagem"
+  },
+  {
+   "p": "está",
+   "ini": 71.78,
+   "fim": 72.06,
+   "trecho": "moagem"
+  },
+  {
+   "p": "num",
+   "ini": 72.06,
+   "fim": 72.22,
+   "trecho": "moagem"
+  },
+  {
+   "p": "ambiente",
+   "ini": 72.22,
+   "fim": 72.46,
+   "trecho": "moagem"
+  },
+  {
+   "p": "climatizado",
+   "ini": 72.46,
+   "fim": 73.56,
+   "trecho": "moagem"
+  },
+  {
+   "p": "então",
+   "ini": 73.56,
+   "fim": 74.64,
+   "trecho": "moagem"
+  },
+  {
+   "p": "está",
+   "ini": 74.64,
+   "fim": 75.1,
+   "trecho": "moagem"
+  },
+  {
+   "p": "tudo",
+   "ini": 75.1,
+   "fim": 75.46,
+   "trecho": "moagem"
+  },
+  {
+   "p": "dentro",
+   "ini": 75.46,
+   "fim": 75.76,
+   "trecho": "moagem"
+  },
+  {
+   "p": "do",
+   "ini": 75.76,
+   "fim": 76.02,
+   "trecho": "moagem"
+  },
+  {
+   "p": "padrão,",
+   "ini": 76.02,
+   "fim": 76.44,
+   "trecho": "moagem"
+  },
+  {
+   "p": "você",
+   "ini": 76.58,
+   "fim": 77.04,
+   "trecho": "moagem"
+  },
+  {
+   "p": "vê",
+   "ini": 77.04,
+   "fim": 77.22,
+   "trecho": "moagem"
+  },
+  {
+   "p": "a",
+   "ini": 77.22,
+   "fim": 77.3,
+   "trecho": "moagem"
+  },
+  {
+   "p": "qualidade",
+   "ini": 77.3,
+   "fim": 77.62,
+   "trecho": "moagem"
+  },
+  {
+   "p": "da",
+   "ini": 77.62,
+   "fim": 77.98,
+   "trecho": "moagem"
+  },
+  {
+   "p": "carne",
+   "ini": 77.98,
+   "fim": 78.28,
+   "trecho": "moagem"
+  },
+  {
+   "p": "que",
+   "ini": 78.28,
+   "fim": 78.44,
+   "trecho": "moagem"
+  },
+  {
+   "p": "está",
+   "ini": 78.44,
+   "fim": 78.62,
+   "trecho": "moagem"
+  },
+  {
+   "p": "saindo",
+   "ini": 78.62,
+   "fim": 79.16,
+   "trecho": "moagem"
+  },
+  {
+   "p": "então",
+   "ini": 79.16,
+   "fim": 79.6,
+   "trecho": "moagem"
+  },
+  {
+   "p": "vontade",
+   "ini": 79.98,
+   "fim": 80.24,
+   "trecho": "crua"
+  },
+  {
+   "p": "de",
+   "ini": 80.24,
+   "fim": 80.44,
+   "trecho": "crua"
+  },
+  {
+   "p": "comer",
+   "ini": 80.44,
+   "fim": 80.6,
+   "trecho": "crua"
+  },
+  {
+   "p": "crua",
+   "ini": 80.6,
+   "fim": 81.1,
+   "trecho": "crua"
+  },
+  {
+   "p": "oxe,",
+   "ini": 81.1,
+   "fim": 81.56,
+   "trecho": "crua"
+  },
+  {
+   "p": "tu",
+   "ini": 81.56,
+   "fim": 81.78,
+   "trecho": "crua"
+  },
+  {
+   "p": "é",
+   "ini": 81.78,
+   "fim": 81.92,
+   "trecho": "crua"
+  },
+  {
+   "p": "doido",
+   "ini": 81.92,
+   "fim": 82.44,
+   "trecho": "crua"
+  },
+  {
+   "p": "vamos",
+   "ini": 82.44,
+   "fim": 82.8,
+   "trecho": "crua"
+  },
+  {
+   "p": "modelar",
+   "ini": 82.8,
+   "fim": 82.85,
+   "trecho": "crua"
+  },
+  {
+   "p": "você",
+   "ini": 82.94,
+   "fim": 83.18,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "tem",
+   "ini": 83.18,
+   "fim": 83.38,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "um",
+   "ini": 83.38,
+   "fim": 83.46,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "frigorífico",
+   "ini": 83.46,
+   "fim": 83.98,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "que",
+   "ini": 83.98,
+   "fim": 84.08,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "te",
+   "ini": 84.08,
+   "fim": 84.16,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "entrega",
+   "ini": 84.16,
+   "fim": 84.68,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "todo",
+   "ini": 84.68,
+   "fim": 84.96,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "dia,",
+   "ini": 84.96,
+   "fim": 85.38,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "por",
+   "ini": 85.5,
+   "fim": 85.64,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "que",
+   "ini": 85.64,
+   "fim": 85.76,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "você",
+   "ini": 85.76,
+   "fim": 85.92,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "vai",
+   "ini": 85.92,
+   "fim": 86.1,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "pegar",
+   "ini": 86.1,
+   "fim": 86.36,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "a",
+   "ini": 86.36,
+   "fim": 86.46,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "carne",
+   "ini": 86.46,
+   "fim": 86.62,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "pra",
+   "ini": 86.62,
+   "fim": 86.72,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "passar",
+   "ini": 86.72,
+   "fim": 87.0,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "3,",
+   "ini": 87.0,
+   "fim": 87.3,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "4,",
+   "ini": 87.4,
+   "fim": 87.64,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "5",
+   "ini": 87.7,
+   "fim": 87.88,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "dias?",
+   "ini": 87.88,
+   "fim": 88.18,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "Cara,",
+   "ini": 88.48,
+   "fim": 89.0,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "eu",
+   "ini": 89.0,
+   "fim": 89.12,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "não",
+   "ini": 89.12,
+   "fim": 89.2,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "vou.",
+   "ini": 89.2,
+   "fim": 89.42,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "eu",
+   "ini": 89.42,
+   "fim": 89.56,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "vou",
+   "ini": 89.56,
+   "fim": 89.78,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "dar",
+   "ini": 89.78,
+   "fim": 90.0,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "trabalho",
+   "ini": 90.0,
+   "fim": 90.34,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "pra",
+   "ini": 90.34,
+   "fim": 90.6,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "ele",
+   "ini": 90.6,
+   "fim": 90.88,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "vou",
+   "ini": 90.88,
+   "fim": 91.14,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "dar",
+   "ini": 91.14,
+   "fim": 91.4,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "trabalho",
+   "ini": 91.4,
+   "fim": 91.88,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "todos",
+   "ini": 91.88,
+   "fim": 92.24,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "os",
+   "ini": 92.24,
+   "fim": 92.48,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "dias",
+   "ini": 92.48,
+   "fim": 92.7,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "eu",
+   "ini": 92.7,
+   "fim": 92.84,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "não",
+   "ini": 92.84,
+   "fim": 93.08,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "quero",
+   "ini": 93.08,
+   "fim": 93.26,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "nem",
+   "ini": 93.26,
+   "fim": 93.46,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "saber,",
+   "ini": 93.46,
+   "fim": 93.68,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "eu",
+   "ini": 93.92,
+   "fim": 94.28,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "quero",
+   "ini": 94.28,
+   "fim": 94.5,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "entregar",
+   "ini": 94.5,
+   "fim": 94.98,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "o",
+   "ini": 94.98,
+   "fim": 95.14,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "melhor",
+   "ini": 95.14,
+   "fim": 95.34,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "pra",
+   "ini": 95.34,
+   "fim": 95.62,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "vocês",
+   "ini": 95.62,
+   "fim": 95.96,
+   "trecho": "todo-dia"
+  },
+  {
+   "p": "você",
+   "ini": 96.14,
+   "fim": 96.48,
+   "trecho": "chamada"
+  },
+  {
+   "p": "não",
+   "ini": 96.48,
+   "fim": 96.76,
+   "trecho": "chamada"
+  },
+  {
+   "p": "sabe",
+   "ini": 96.76,
+   "fim": 97.14,
+   "trecho": "chamada"
+  },
+  {
+   "p": "o",
+   "ini": 97.14,
+   "fim": 97.32,
+   "trecho": "chamada"
+  },
+  {
+   "p": "que",
+   "ini": 97.32,
+   "fim": 97.42,
+   "trecho": "chamada"
+  },
+  {
+   "p": "você",
+   "ini": 97.42,
+   "fim": 97.76,
+   "trecho": "chamada"
+  },
+  {
+   "p": "tá",
+   "ini": 97.76,
+   "fim": 98.06,
+   "trecho": "chamada"
+  },
+  {
+   "p": "perdendo",
+   "ini": 98.06,
+   "fim": 98.6,
+   "trecho": "chamada"
+  },
+  {
+   "p": "você",
+   "ini": 98.6,
+   "fim": 99.16,
+   "trecho": "chamada"
+  },
+  {
+   "p": "vai",
+   "ini": 99.16,
+   "fim": 99.36,
+   "trecho": "chamada"
+  },
+  {
+   "p": "comer",
+   "ini": 99.36,
+   "fim": 99.58,
+   "trecho": "chamada"
+  },
+  {
+   "p": "o",
+   "ini": 99.58,
+   "fim": 99.78,
+   "trecho": "chamada"
+  },
+  {
+   "p": "melhor",
+   "ini": 99.78,
+   "fim": 100.18,
+   "trecho": "chamada"
+  },
+  {
+   "p": "hambúrguer",
+   "ini": 100.18,
+   "fim": 100.9,
+   "trecho": "chamada"
+  },
+  {
+   "p": "da",
+   "ini": 100.9,
+   "fim": 101.04,
+   "trecho": "chamada"
+  },
+  {
+   "p": "sua",
+   "ini": 101.04,
+   "fim": 101.4,
+   "trecho": "chamada"
+  },
+  {
+   "p": "vida",
+   "ini": 101.4,
+   "fim": 101.92,
+   "trecho": "chamada"
+  }
+ ]
+}
