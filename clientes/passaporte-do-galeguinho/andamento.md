@@ -51,7 +51,11 @@
 - O fornecedor da carne dos hambúrgueres (Eduardo, @acouguediniz, São José da Laje). 23 brutos (~22 min) na raiz da pasta
   do cliente no Drive viraram 1 min 46 s: parceria, carne exclusiva, blend, câmara fria, moagem, carne buscada todo dia e
   chamada. Final em `edicao/out/2026-11-05-visita-acougue-diniz-v2.mp4`; escolhas e conferência em `edicao/scripts/1105/`
-  (`trechos.py`, `REVISAR.md`). **Esperando a aprovação da Talyta** pra ir pro Drive (`VIDEO EDITADO`).
+  (`trechos.py`, `REVISAR.md`).
+- v3 (2026-11-06, pedido da Talyta): trilha trocada por batida pesada e entraram 4 falas sobre o padrão de qualidade
+  (dono: confiar no açougue pelas pessoas e o fornecedor seguir o mesmo padrão de temperatura dele; Eduardo: "se o cliente
+  pediu tal carne, vai tal carne" e o padrão de higiene de todo dia). 2 min 35 s, em
+  `edicao/out/2026-11-05-visita-acougue-diniz-v3.mp4`. **Esperando a aprovação da Talyta** pra ir pro Drive (`VIDEO EDITADO`).
 
 **Capas de destaque (2026-09-30)**
 - 7 capas novas (Clientes, Carnaval2026, Melhores do Ano, Em Ação, Carnalaje, Molhos, Equipe), lettering

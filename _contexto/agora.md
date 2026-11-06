@@ -36,8 +36,9 @@ Em 2026-11-04 entrou a Pingo de Gente (moda infantil, vídeo unitário R$ 100, `
 (rabiscos de giz, bichos por trás da menina, setas presas na sacola, macaquinhos nas árvores, trilha do TikTok @llamahappykids) foi
 aprovada na v4 e entregue no Drive dela (`Pingo de Gente/04-11-2026 - Live Black Day Pingo de Gente.mp4`).
 Em 2026-11-06 o vídeo da visita do Galeguinho ao Açougue Diniz (fornecedor da carne dos hambúrgueres, gravado em 05/11) foi
-editado: 23 brutos → 1 min 46 s, com curadoria completa (`clientes/passaporte-do-galeguinho/edicao/out/2026-11-05-visita-acougue-diniz-v2.mp4`,
-escolhas e conferência em `edicao/scripts/1105/`). Esperando a aprovação da Talyta pra ir pro Drive dele (`VIDEO EDITADO`).
+editado. A Talyta não gostou da música da v2 e pediu as falas sobre padrão de qualidade: a v3 (2 min 35 s, batida pesada nova
+e 4 falas a mais, `clientes/passaporte-do-galeguinho/edicao/out/2026-11-05-visita-acougue-diniz-v3.mp4`, escolhas e conferência
+em `edicao/scripts/1105/`) espera a aprovação dela pra ir pro Drive dele (`VIDEO EDITADO`).
 Ary (perfil pessoal, não agendados): em 2026-11-04 a v2 dos 3 vídeos da diária de 03/11 (caixinha, quanto custou, meu corpo) foi
 aprovada e entregue no Drive; em 2026-11-06 o vlog da tatuagem nas costas (v2, 2min13) foi aprovado e entregue
 (`CONTEÚDOS/2026-11 · NOVEMBRO/Reel · Vlog tatuagem nas costas/`). Detalhes em `clientes/ary-magalhaes/andamento.md`.
@@ -55,7 +56,7 @@ aprovada e entregue no Drive; em 2026-11-06 o vlog da tatuagem nas costas (v2, 2
 - **Marielly Makeup:** aprovar o reel v3 da trend da Rapunzel (já com Pascal e áudio embutidos); se houver, pedir os vídeos de vestido originais (os do WhatsApp chegaram em 464x576 e 576x1024, ficam suaves); cadastrar com `/cliente`. Entregue no Drive `Marielly Makeup/Dia de princesa (trend Rapunzel).mp4`. (2026-10-27)
 - **Dra. Annalibya:** assinar o contrato; confirmar o telefone de contato ((82) 99151-6831 da bio ou 9444-7753) e se o CRO é do AL; email e objetivo; brand book; ouvir os sons refeitos nos vídeos v3. (2026-10-29)
 - **Galeguinho:** assinar o contrato de renovação (`contrato/2026-11-contrato-passaporte-do-galeguinho.pdf`). (2026-10-20)
-- **Galeguinho · vídeo do Açougue Diniz:** aprovar a v2 e ouvir os pontos de `edicao/scripts/1105/REVISAR.md` ("parceria topada", o "do" de "Passaporte do Galeguinho" na fala do Eduardo, "de eu servir"); confirmar o card "Eduardo · Açougue Diniz · @acouguediniz". Aprovado, sobe pro Drive em `VIDEO EDITADO`. Os 23 brutos estão soltos na raiz da pasta dele no Drive: mover pra `BRUTO/2026-11-05 · visita Açougue Diniz/` (regra do B-roll). (2026-11-06)
+- **Galeguinho · vídeo do Açougue Diniz:** aprovar a v3 (trilha nova e falas de padrão de qualidade) e ouvir os pontos de `edicao/scripts/1105/REVISAR.md` ("parceria topada", "todo dia" e "no meu lado" nas falas novas, o "do" de "Passaporte do Galeguinho" na fala do Eduardo, "de eu servir"); confirmar o card "Eduardo · Açougue Diniz · @acouguediniz". Aprovado, sobe pro Drive em `VIDEO EDITADO`. Os 23 brutos estão soltos na raiz da pasta dele no Drive: mover pra `BRUTO/2026-11-05 · visita Açougue Diniz/` (regra do B-roll). (2026-11-06)
 - **Dra. Melissa Morais:** aprovar os POSTs 3 a 6 (antes e depois no Drive); os POSTs 5 e 6 passam das 4 edições do pacote: decidir se é pacote novo ou cortesia; ela insere os textos do carrossel; faltam contato, cidade e @. (30-10-2026)
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)
 - Ary: preço da sobrancelha e dos kits de tratamento; prints reais de depoimentos (post 10/11); oferta de Black Friday (24/11); se o salão abre em 20/11. (2026-10-12)

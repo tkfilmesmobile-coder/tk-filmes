@@ -31,10 +31,16 @@ HEADLINES = [
     ("parceria", "a melhor carne de", "hambúrguer"),
     ("parceria", "parceria", "topada."),
     ("eduardo", "a melhor", "qualidade"),
+    ("confianca", "confiar no", "açougue"),
+    ("confianca", "trabalham", "pelo certo."),
     ("blend", "conclusão do", "nosso blend."),
     ("exclusiva", "eu não cedo", "pra ninguém."),
     ("exclusiva", "a carne é", "só pra ele."),
+    ("preza", "preza a", "qualidade"),
     ("camara", "dentro do coração do", "frigorífico."),
+    ("higiene", "e esse padrão de", "higiene,"),
+    ("temperatura", "dentro dos padrões de", "temperatura,"),
+    ("temperatura", "eu sigo no", "meu lado."),
     ("moagem", "ambiente", "climatizado,"),
     ("moagem", "dentro do", "padrão."),
     ("crua", "dá vontade de comer", "crua."),
@@ -43,6 +49,7 @@ HEADLINES = [
     ("chamada", "o melhor hambúrguer", "da sua vida."),
 ]
 MAX = 4  # palavras por bloco de legenda corrente
+INICIO_VOZ = {"exclusiva": 0.25}  # segundos depois do começo do trecho
 
 # --- tempo de cada palavra, transcrevendo o trecho já cortado (áudio do vídeo-base) ----------------------------
 ARQ_T = os.path.join(AQUI, "analise", "tempos.json")
@@ -122,6 +129,10 @@ for t in edl["trechos"]:
         passo = (pro[1][0] - ant[1][1]) / (pro[0] - ant[0])
         ini = ant[1][1] + passo * (i - ant[0] - 1)
         tempos[i] = [ini, ini + passo]
+    # início real da voz (espectrograma), quando o Whisper marca a 1ª palavra tarde: "A carne" começa em 152,55 no
+    # bruto (0,25 s depois do corte), e o large põe o "A" 0,33 s depois disso porque inventa um "Verdade" antes
+    if t["id"] in INICIO_VOZ:
+        tempos[0][0] = t["de"] + INICIO_VOZ[t["id"]]
     marca = [None] * len(texto)
     for tid, apoio, titulo in HEADLINES:
         if tid != t["id"]:

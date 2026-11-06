@@ -10,10 +10,21 @@ Por que cada fala entrou ou ficou de fora: `trechos.py`.
 - "melhor que tem **em** São José da Laje" (~17,9 s): idem, sem o "em".
 - "com o Passaporte **do** Galeguinho" (Eduardo, ~33 s): o large ouve "do" (com pouca certeza), o medium não.
 - "ia faltar a carne **de eu servir**" (Eduardo, ~57 s): o medium ouve "de eu servir"; o large, "que eu servi".
-- "Verdade, a carne dele..." (Eduardo, ~47,5 s): o "Verdade" é rápido, logo depois do "né, Dudu?" do dono; o large ouve
-  sempre, o medium só no clipe inteiro.
+- ~~"Verdade, a carne dele..."~~ (v3): o "Verdade" não existe. O espectrograma tem silêncio até 152,55 e a fala começa
+  direto em "A carne"; o large inventava a palavra. Saiu da legenda.
 - "eu quero entregar o melhor pra **você**" (~95 s): no singular. Nas passadas do clipe inteiro saiu "vocês", mas o
   espectrograma não tem "s" entre o "cê" e o "E" de "Eduardo", que vem colado.
+
+## v3 (2026-11-06): falas novas e trilha nova
+- Trilha trocada por uma batida pesada (`scripts/gerar-trilha-impacto.py`, 96 BPM, Mi menor): 808, caixa forte, chimbal,
+  acordes de metal, sino, pancada com prato a cada 8 compassos. Nos respiros entra a completa (0,36), com pancada na troca
+  de imagem. Sob a fala vai só o grave (bumbo, 808 e caixa abafados, 0,08): com os acordes por baixo, mesmo 5 a 8 dB
+  abaixo da voz, a transcrição perdia palavra. No "parceria topada" (~27,5 s) a trilha some por 1,4 s.
+- Falas novas: confiar no açougue (dono, ~38 s), "preza a qualidade" (Eduardo, ~81 s), padrão de higiene (Eduardo, ~96 s)
+  e padrão de temperatura (dono, ~103 s). O vídeo foi de 1 min 46 s pra 2 min 35 s.
+- Leituras a confirmar no ouvido: "nós seguimos normalmente **todo dia**" (~97 s; o medium ouve "todos os dias"); "nós
+  estamos filmando" (o medium ouve "nós já estamos"); "eu sigo no meu **lado**" (~111 s; o medium ouve "no meu lá");
+  "**Câmara** fria" (ele fala "câmera").
 
 ## Pra ouvir com atenção
 - **"parceria topada" (~27,9 s):** a palavra está inteira, mas tem 0,4 s de pausa antes dela. Com qualquer trilha

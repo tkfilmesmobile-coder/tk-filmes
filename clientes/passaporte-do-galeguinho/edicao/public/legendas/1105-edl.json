@@ -1,5 +1,5 @@
 {
- "total": 106.12,
+ "total": 154.75,
  "fps": 30,
  "trechos": [
   {
@@ -105,26 +105,51 @@
    "som": null
   },
   {
-   "id": "blend",
+   "id": "confianca",
    "de": 38.12,
-   "ate": 47.43,
-   "txt": "E eu, juntamente com o Eduardo, a gente construiu uma amizade muito forte. E aí, a gente conversando e tal, a gente chegou à conclusão do nosso blend.",
+   "ate": 58.84,
+   "txt": "Também existe muito a questão de você confiar no açougue que você está pegando. Porque muitas vezes a galera escolhe, ah, porque é um açougue bonito, que é isso, que é aquilo. Mas de nada adianta se o açougue for bonito, mas dentro dele não tiver pessoas competentes, pessoas que trabalham pelo certo.",
    "imagens": [
     {
      "de": 38.12,
-     "ate": 43.12,
+     "ate": 53.72,
+     "fonte": "IMG_1329",
+     "ini": 26.0
+    },
+    {
+     "de": 53.72,
+     "ate": 58.84,
+     "fonte": "IMG_1329",
+     "ini": 9.4
+    }
+   ],
+   "som": [
+    "IMG_1329",
+    26.0,
+    46.72
+   ]
+  },
+  {
+   "id": "blend",
+   "de": 58.84,
+   "ate": 68.15,
+   "txt": "E eu, juntamente com o Eduardo, a gente construiu uma amizade muito forte. E aí, a gente conversando e tal, a gente chegou à conclusão do nosso blend.",
+   "imagens": [
+    {
+     "de": 58.84,
+     "ate": 63.84,
      "fonte": "IMG_1329",
      "ini": 46.72
     },
     {
-     "de": 43.12,
-     "ate": 45.12,
+     "de": 63.84,
+     "ate": 65.84,
      "fonte": "IMG_1333",
      "ini": 6.5
     },
     {
-     "de": 45.12,
-     "ate": 47.43,
+     "de": 65.84,
+     "ate": 68.15,
      "fonte": "IMG_1329",
      "ini": 53.72
     }
@@ -137,13 +162,13 @@
   },
   {
    "id": "exclusiva",
-   "de": 47.43,
-   "ate": 60.78,
+   "de": 68.15,
+   "ate": 81.5,
    "txt": "Verdade, a carne dele tem uma carne que eu não cedo pra ninguém. A carne é só pra ele. Porque se eu cedesse pra vender no balcão, ia faltar a carne de eu servir pra sair na qualidade que ele precisa.",
    "imagens": [
     {
-     "de": 47.43,
-     "ate": 60.78,
+     "de": 68.15,
+     "ate": 81.5,
      "fonte": "IMG_1329",
      "ini": 152.3
     }
@@ -155,14 +180,39 @@
    ]
   },
   {
+   "id": "preza",
+   "de": 81.5,
+   "ate": 90.05,
+   "txt": "A gente aqui no Açougue Diniz preza a qualidade para o cliente. Se o cliente pediu tal carne, vai tal carne.",
+   "imagens": [
+    {
+     "de": 81.5,
+     "ate": 83.1,
+     "fonte": "IMG_1313",
+     "ini": 5.2
+    },
+    {
+     "de": 83.1,
+     "ate": 90.05,
+     "fonte": "IMG_1329",
+     "ini": 115.55
+    }
+   ],
+   "som": [
+    "IMG_1329",
+    113.95,
+    122.5
+   ]
+  },
+  {
    "id": "camara",
-   "de": 60.78,
-   "ate": 66.85,
+   "de": 90.05,
+   "ate": 96.12,
    "txt": "Galera, a gente tá dentro do coração do frigorífico. É a câmara fria.",
    "imagens": [
     {
-     "de": 60.78,
-     "ate": 66.85,
+     "de": 90.05,
+     "ate": 96.12,
      "fonte": "IMG_1329",
      "ini": 225.35
     }
@@ -174,20 +224,58 @@
    ]
   },
   {
+   "id": "higiene",
+   "de": 96.12,
+   "ate": 103.22,
+   "txt": "E esse padrão de higiene, nós seguimos normalmente todo dia. Não é porque hoje nós estamos filmando que poderia ser diferente.",
+   "imagens": [
+    {
+     "de": 96.12,
+     "ate": 103.22,
+     "fonte": "IMG_1329",
+     "ini": 304.1
+    }
+   ],
+   "som": [
+    "IMG_1329",
+    304.1,
+    311.2
+   ]
+  },
+  {
+   "id": "temperatura",
+   "de": 103.22,
+   "ate": 115.48,
+   "txt": "Câmara fria dentro dos padrões de temperatura, que isso é uma coisa muito importante, que a galera não segue à risca. Eles seguem aqui e eu sigo no meu lado. Eu tenho o meu padrão de temperatura lá.",
+   "imagens": [
+    {
+     "de": 103.22,
+     "ate": 115.48,
+     "fonte": "IMG_1329",
+     "ini": 372.86
+    }
+   ],
+   "som": [
+    "IMG_1329",
+    372.86,
+    385.12
+   ]
+  },
+  {
    "id": "ponte2",
-   "de": 66.85,
-   "ate": 68.85,
+   "de": 115.48,
+   "ate": 117.48,
    "txt": "",
    "imagens": [
     {
-     "de": 66.85,
-     "ate": 67.85,
+     "de": 115.48,
+     "ate": 116.48,
      "fonte": "IMG_1329",
-     "ini": 301.6
+     "ini": 261.0
     },
     {
-     "de": 67.85,
-     "ate": 68.85,
+     "de": 116.48,
+     "ate": 117.48,
      "fonte": "IMG_1325",
      "ini": 1.0
     }
@@ -196,13 +284,13 @@
   },
   {
    "id": "moagem",
-   "de": 68.85,
-   "ate": 79.6,
+   "de": 117.48,
+   "ate": 128.23,
    "txt": "A gente acabou de sair da câmara frigorífica, a gente está num ambiente climatizado, então tá tudo dentro do padrão. Você vê a qualidade da carne que está saindo.",
    "imagens": [
     {
-     "de": 68.85,
-     "ate": 79.6,
+     "de": 117.48,
+     "ate": 128.23,
      "fonte": "IMG_1332",
      "ini": 55.25
     }
@@ -215,13 +303,13 @@
   },
   {
    "id": "crua",
-   "de": 79.6,
-   "ate": 82.85,
+   "de": 128.23,
+   "ate": 131.48,
    "txt": "Dá vontade de comer crua. Oxe, tu é doido, mano.",
    "imagens": [
     {
-     "de": 79.6,
-     "ate": 82.85,
+     "de": 128.23,
+     "ate": 131.48,
      "fonte": "IMG_1332",
      "ini": 241.3
     }
@@ -234,13 +322,13 @@
   },
   {
    "id": "todo-dia",
-   "de": 82.85,
-   "ate": 95.96,
+   "de": 131.48,
+   "ate": 144.59,
    "txt": "Se você tem um frigorífico que te entrega todo dia, por que você vai pegar a carne pra passar 3, 4, 5 dias? Cara, eu não vou. Eu vou dar trabalho pra ele, vou dar trabalho todos os dias pra ele. Eu não quero nem saber, eu quero entregar o melhor pra você.",
    "imagens": [
     {
-     "de": 82.85,
-     "ate": 95.96,
+     "de": 131.48,
+     "ate": 144.59,
      "fonte": "IMG_1333",
      "ini": 77.85
     }
@@ -253,13 +341,13 @@
   },
   {
    "id": "chamada",
-   "de": 95.96,
-   "ate": 102.52,
+   "de": 144.59,
+   "ate": 151.15,
    "txt": "Você não sabe o que você tá perdendo. Você vai comer o melhor hambúrguer da sua vida.",
    "imagens": [
     {
-     "de": 95.96,
-     "ate": 102.52,
+     "de": 144.59,
+     "ate": 151.15,
      "fonte": "IMG_1333",
      "ini": 126.74
     }
@@ -272,13 +360,13 @@
   },
   {
    "id": "fecho",
-   "de": 102.52,
-   "ate": 106.12,
+   "de": 151.15,
+   "ate": 154.75,
    "txt": "",
    "imagens": [
     {
-     "de": 102.52,
-     "ate": 106.12,
+     "de": 151.15,
+     "ate": 154.75,
      "fonte": "IMG_1332",
      "ini": 270.0
     }
@@ -876,1125 +964,1929 @@
    "trecho": "eduardo"
   },
   {
+   "p": "existe",
+   "ini": 38.36,
+   "fim": 39.46,
+   "trecho": "confianca"
+  },
+  {
+   "p": "muito",
+   "ini": 39.46,
+   "fim": 40.06,
+   "trecho": "confianca"
+  },
+  {
+   "p": "a",
+   "ini": 40.06,
+   "fim": 40.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "questão",
+   "ini": 40.36,
+   "fim": 40.7,
+   "trecho": "confianca"
+  },
+  {
+   "p": "de",
+   "ini": 40.7,
+   "fim": 40.84,
+   "trecho": "confianca"
+  },
+  {
+   "p": "de",
+   "ini": 40.84,
+   "fim": 40.9,
+   "trecho": "confianca"
+  },
+  {
+   "p": "você",
+   "ini": 40.9,
+   "fim": 41.1,
+   "trecho": "confianca"
+  },
+  {
+   "p": "confiar",
+   "ini": 41.1,
+   "fim": 42.08,
+   "trecho": "confianca"
+  },
+  {
+   "p": "no",
+   "ini": 42.08,
+   "fim": 42.62,
+   "trecho": "confianca"
+  },
+  {
+   "p": "açougue",
+   "ini": 42.62,
+   "fim": 43.0,
+   "trecho": "confianca"
+  },
+  {
+   "p": "que",
+   "ini": 43.0,
+   "fim": 43.12,
+   "trecho": "confianca"
+  },
+  {
+   "p": "você",
+   "ini": 43.12,
+   "fim": 43.32,
+   "trecho": "confianca"
+  },
+  {
+   "p": "está",
+   "ini": 43.32,
+   "fim": 43.5,
+   "trecho": "confianca"
+  },
+  {
+   "p": "pegando,",
+   "ini": 43.5,
+   "fim": 43.94,
+   "trecho": "confianca"
+  },
+  {
+   "p": "porque",
+   "ini": 44.02,
+   "fim": 44.12,
+   "trecho": "confianca"
+  },
+  {
+   "p": "muitas",
+   "ini": 44.12,
+   "fim": 44.4,
+   "trecho": "confianca"
+  },
+  {
+   "p": "das",
+   "ini": 44.4,
+   "fim": 44.58,
+   "trecho": "confianca"
+  },
+  {
+   "p": "vezes",
+   "ini": 44.58,
+   "fim": 44.74,
+   "trecho": "confianca"
+  },
+  {
+   "p": "a",
+   "ini": 44.74,
+   "fim": 44.96,
+   "trecho": "confianca"
+  },
+  {
+   "p": "galera",
+   "ini": 44.96,
+   "fim": 45.54,
+   "trecho": "confianca"
+  },
+  {
+   "p": "escolhe,",
+   "ini": 45.54,
+   "fim": 46.08,
+   "trecho": "confianca"
+  },
+  {
+   "p": "ah,",
+   "ini": 46.12,
+   "fim": 46.2,
+   "trecho": "confianca"
+  },
+  {
+   "p": "porque",
+   "ini": 46.2,
+   "fim": 46.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "é",
+   "ini": 46.36,
+   "fim": 46.52,
+   "trecho": "confianca"
+  },
+  {
+   "p": "um",
+   "ini": 46.52,
+   "fim": 46.6,
+   "trecho": "confianca"
+  },
+  {
+   "p": "açougue",
+   "ini": 46.6,
+   "fim": 47.22,
+   "trecho": "confianca"
+  },
+  {
+   "p": "bonito,",
+   "ini": 47.22,
+   "fim": 47.58,
+   "trecho": "confianca"
+  },
+  {
+   "p": "que",
+   "ini": 47.78,
+   "fim": 47.9,
+   "trecho": "confianca"
+  },
+  {
+   "p": "é",
+   "ini": 47.9,
+   "fim": 48.06,
+   "trecho": "confianca"
+  },
+  {
+   "p": "isso,",
+   "ini": 48.06,
+   "fim": 48.22,
+   "trecho": "confianca"
+  },
+  {
+   "p": "que",
+   "ini": 48.26,
+   "fim": 48.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "é",
+   "ini": 48.36,
+   "fim": 48.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "aquilo,",
+   "ini": 48.36,
+   "fim": 48.56,
+   "trecho": "confianca"
+  },
+  {
+   "p": "mas",
+   "ini": 48.64,
+   "fim": 49.12,
+   "trecho": "confianca"
+  },
+  {
+   "p": "de",
+   "ini": 49.12,
+   "fim": 49.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "nada",
+   "ini": 49.36,
+   "fim": 49.64,
+   "trecho": "confianca"
+  },
+  {
+   "p": "adianta",
+   "ini": 49.64,
+   "fim": 50.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "se",
+   "ini": 50.36,
+   "fim": 50.88,
+   "trecho": "confianca"
+  },
+  {
+   "p": "o",
+   "ini": 50.88,
+   "fim": 51.1,
+   "trecho": "confianca"
+  },
+  {
+   "p": "açougue",
+   "ini": 51.1,
+   "fim": 51.66,
+   "trecho": "confianca"
+  },
+  {
+   "p": "for",
+   "ini": 51.66,
+   "fim": 51.8,
+   "trecho": "confianca"
+  },
+  {
+   "p": "bonito,",
+   "ini": 51.8,
+   "fim": 52.16,
+   "trecho": "confianca"
+  },
+  {
+   "p": "mas",
+   "ini": 52.16,
+   "fim": 52.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "dentro",
+   "ini": 52.36,
+   "fim": 52.94,
+   "trecho": "confianca"
+  },
+  {
+   "p": "dele",
+   "ini": 52.94,
+   "fim": 53.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "não",
+   "ini": 53.36,
+   "fim": 53.58,
+   "trecho": "confianca"
+  },
+  {
+   "p": "tiver",
+   "ini": 53.58,
+   "fim": 53.84,
+   "trecho": "confianca"
+  },
+  {
+   "p": "pessoas",
+   "ini": 53.84,
+   "fim": 54.16,
+   "trecho": "confianca"
+  },
+  {
+   "p": "competentes,",
+   "ini": 54.16,
+   "fim": 55.14,
+   "trecho": "confianca"
+  },
+  {
+   "p": "pessoas",
+   "ini": 55.22,
+   "fim": 55.78,
+   "trecho": "confianca"
+  },
+  {
+   "p": "que",
+   "ini": 55.78,
+   "fim": 56.12,
+   "trecho": "confianca"
+  },
+  {
+   "p": "trabalham",
+   "ini": 57.26,
+   "fim": 57.7,
+   "trecho": "confianca"
+  },
+  {
+   "p": "pelo",
+   "ini": 57.7,
+   "fim": 57.98,
+   "trecho": "confianca"
+  },
+  {
+   "p": "certo.",
+   "ini": 57.98,
+   "fim": 58.36,
+   "trecho": "confianca"
+  },
+  {
+   "p": "E",
+   "ini": 58.58,
+   "fim": 58.84,
+   "trecho": "confianca"
+  },
+  {
    "p": "eu,",
-   "ini": 38.3,
-   "fim": 38.6,
+   "ini": 59.02,
+   "fim": 59.32,
    "trecho": "blend"
   },
   {
    "p": "juntamente",
-   "ini": 38.62,
-   "fim": 39.42,
+   "ini": 59.34,
+   "fim": 60.14,
    "trecho": "blend"
   },
   {
    "p": "com",
-   "ini": 39.42,
-   "fim": 39.7,
+   "ini": 60.14,
+   "fim": 60.42,
    "trecho": "blend"
   },
   {
    "p": "o",
-   "ini": 39.7,
-   "fim": 39.74,
+   "ini": 60.42,
+   "fim": 60.46,
    "trecho": "blend"
   },
   {
    "p": "Eduardo,",
-   "ini": 39.74,
-   "fim": 40.08,
+   "ini": 60.46,
+   "fim": 60.8,
    "trecho": "blend"
   },
   {
    "p": "a",
-   "ini": 40.36,
-   "fim": 40.76,
+   "ini": 61.08,
+   "fim": 61.48,
    "trecho": "blend"
   },
   {
    "p": "gente",
-   "ini": 40.76,
-   "fim": 40.94,
+   "ini": 61.48,
+   "fim": 61.66,
    "trecho": "blend"
   },
   {
    "p": "construiu",
-   "ini": 40.94,
-   "fim": 41.48,
+   "ini": 61.66,
+   "fim": 62.2,
    "trecho": "blend"
   },
   {
    "p": "uma",
-   "ini": 41.48,
-   "fim": 41.62,
+   "ini": 62.2,
+   "fim": 62.34,
    "trecho": "blend"
   },
   {
    "p": "amizade",
-   "ini": 41.62,
-   "fim": 42.06,
+   "ini": 62.34,
+   "fim": 62.78,
    "trecho": "blend"
   },
   {
    "p": "muito",
-   "ini": 42.06,
-   "fim": 42.32,
+   "ini": 62.78,
+   "fim": 63.04,
    "trecho": "blend"
   },
   {
    "p": "forte.",
-   "ini": 42.32,
-   "fim": 42.82,
+   "ini": 63.04,
+   "fim": 63.54,
    "trecho": "blend"
   },
   {
    "p": "E",
-   "ini": 43.02,
-   "fim": 43.42,
+   "ini": 63.74,
+   "fim": 64.14,
    "trecho": "blend"
   },
   {
    "p": "aí,",
-   "ini": 43.42,
-   "fim": 43.88,
+   "ini": 64.14,
+   "fim": 64.6,
    "trecho": "blend"
   },
   {
    "p": "a",
-   "ini": 43.96,
-   "fim": 44.12,
+   "ini": 64.68,
+   "fim": 64.84,
    "trecho": "blend"
   },
   {
    "p": "gente",
-   "ini": 44.12,
-   "fim": 44.42,
+   "ini": 64.84,
+   "fim": 65.14,
    "trecho": "blend"
   },
   {
    "p": "conversando",
-   "ini": 44.42,
-   "fim": 45.04,
+   "ini": 65.14,
+   "fim": 65.76,
    "trecho": "blend"
   },
   {
    "p": "e",
-   "ini": 45.04,
-   "fim": 45.18,
+   "ini": 65.76,
+   "fim": 65.9,
    "trecho": "blend"
   },
   {
    "p": "tal,",
-   "ini": 45.18,
-   "fim": 45.28,
+   "ini": 65.9,
+   "fim": 66.0,
    "trecho": "blend"
   },
   {
    "p": "a",
-   "ini": 45.36,
-   "fim": 45.48,
+   "ini": 66.08,
+   "fim": 66.2,
    "trecho": "blend"
   },
   {
    "p": "gente",
-   "ini": 45.48,
-   "fim": 45.62,
+   "ini": 66.2,
+   "fim": 66.34,
    "trecho": "blend"
   },
   {
    "p": "chegou",
-   "ini": 45.62,
-   "fim": 45.78,
+   "ini": 66.34,
+   "fim": 66.5,
    "trecho": "blend"
   },
   {
    "p": "à",
-   "ini": 45.78,
-   "fim": 45.92,
+   "ini": 66.5,
+   "fim": 66.64,
    "trecho": "blend"
   },
   {
    "p": "conclusão",
-   "ini": 45.92,
-   "fim": 46.58,
+   "ini": 66.64,
+   "fim": 67.3,
    "trecho": "blend"
   },
   {
    "p": "do",
-   "ini": 46.58,
-   "fim": 46.7,
+   "ini": 67.3,
+   "fim": 67.42,
    "trecho": "blend"
   },
   {
    "p": "nosso",
-   "ini": 46.7,
-   "fim": 46.9,
+   "ini": 67.42,
+   "fim": 67.62,
    "trecho": "blend"
   },
   {
    "p": "blend,",
-   "ini": 46.9,
-   "fim": 47.2,
+   "ini": 67.62,
+   "fim": 67.92,
    "trecho": "blend"
   },
   {
    "p": "que",
-   "ini": 47.36,
-   "fim": 47.43,
+   "ini": 68.08,
+   "fim": 68.15,
    "trecho": "blend"
   },
   {
    "p": "carne",
-   "ini": 47.69,
-   "fim": 48.37,
+   "ini": 68.41,
+   "fim": 69.09,
    "trecho": "exclusiva"
   },
   {
    "p": "dele",
-   "ini": 48.37,
-   "fim": 48.67,
+   "ini": 69.09,
+   "fim": 69.39,
    "trecho": "exclusiva"
   },
   {
    "p": "tem",
-   "ini": 48.67,
-   "fim": 48.95,
+   "ini": 69.39,
+   "fim": 69.67,
    "trecho": "exclusiva"
   },
   {
    "p": "uma",
-   "ini": 48.95,
-   "fim": 49.15,
+   "ini": 69.67,
+   "fim": 69.87,
    "trecho": "exclusiva"
   },
   {
    "p": "carne",
-   "ini": 49.15,
-   "fim": 49.47,
+   "ini": 69.87,
+   "fim": 70.19,
    "trecho": "exclusiva"
   },
   {
    "p": "que",
-   "ini": 49.47,
-   "fim": 49.77,
+   "ini": 70.19,
+   "fim": 70.49,
    "trecho": "exclusiva"
   },
   {
    "p": "eu",
-   "ini": 49.77,
-   "fim": 50.27,
+   "ini": 70.49,
+   "fim": 70.99,
    "trecho": "exclusiva"
   },
   {
    "p": "não",
-   "ini": 50.27,
-   "fim": 50.47,
+   "ini": 70.99,
+   "fim": 71.19,
    "trecho": "exclusiva"
   },
   {
    "p": "cedo",
-   "ini": 50.47,
-   "fim": 50.73,
+   "ini": 71.19,
+   "fim": 71.45,
    "trecho": "exclusiva"
   },
   {
    "p": "pra",
-   "ini": 50.73,
-   "fim": 50.91,
+   "ini": 71.45,
+   "fim": 71.63,
    "trecho": "exclusiva"
   },
   {
    "p": "ninguém,",
-   "ini": 50.91,
-   "fim": 51.21,
+   "ini": 71.63,
+   "fim": 71.93,
    "trecho": "exclusiva"
   },
   {
    "p": "a",
-   "ini": 51.43,
-   "fim": 51.63,
+   "ini": 72.15,
+   "fim": 72.35,
    "trecho": "exclusiva"
   },
   {
    "p": "carne",
-   "ini": 51.63,
-   "fim": 51.89,
+   "ini": 72.35,
+   "fim": 72.61,
    "trecho": "exclusiva"
   },
   {
    "p": "é",
-   "ini": 51.89,
-   "fim": 52.01,
+   "ini": 72.61,
+   "fim": 72.73,
    "trecho": "exclusiva"
   },
   {
    "p": "só",
-   "ini": 52.01,
-   "fim": 52.17,
+   "ini": 72.73,
+   "fim": 72.89,
    "trecho": "exclusiva"
   },
   {
    "p": "pra",
-   "ini": 52.17,
-   "fim": 52.35,
+   "ini": 72.89,
+   "fim": 73.07,
    "trecho": "exclusiva"
   },
   {
    "p": "ele,",
-   "ini": 52.35,
-   "fim": 52.65,
+   "ini": 73.07,
+   "fim": 73.37,
    "trecho": "exclusiva"
   },
   {
    "p": "porque",
-   "ini": 52.79,
-   "fim": 53.19,
+   "ini": 73.51,
+   "fim": 73.91,
    "trecho": "exclusiva"
   },
   {
    "p": "se",
-   "ini": 53.19,
-   "fim": 53.43,
+   "ini": 73.91,
+   "fim": 74.15,
    "trecho": "exclusiva"
   },
   {
    "p": "eu",
-   "ini": 53.43,
-   "fim": 53.55,
+   "ini": 74.15,
+   "fim": 74.27,
    "trecho": "exclusiva"
   },
   {
    "p": "cedesse",
-   "ini": 53.55,
-   "fim": 54.07,
+   "ini": 74.27,
+   "fim": 74.79,
    "trecho": "exclusiva"
   },
   {
    "p": "pra",
-   "ini": 54.07,
-   "fim": 54.33,
+   "ini": 74.79,
+   "fim": 75.05,
    "trecho": "exclusiva"
   },
   {
    "p": "vender",
-   "ini": 54.33,
-   "fim": 54.59,
+   "ini": 75.05,
+   "fim": 75.31,
    "trecho": "exclusiva"
   },
   {
    "p": "no",
-   "ini": 54.59,
-   "fim": 54.81,
+   "ini": 75.31,
+   "fim": 75.53,
    "trecho": "exclusiva"
   },
   {
    "p": "balcão,",
-   "ini": 54.81,
-   "fim": 55.41,
+   "ini": 75.53,
+   "fim": 76.13,
    "trecho": "exclusiva"
   },
   {
    "p": "ia",
-   "ini": 55.49,
-   "fim": 55.91,
+   "ini": 76.21,
+   "fim": 76.63,
    "trecho": "exclusiva"
   },
   {
    "p": "ia",
-   "ini": 55.91,
-   "fim": 55.91,
+   "ini": 76.63,
+   "fim": 76.63,
    "trecho": "exclusiva"
   },
   {
    "p": "faltar",
-   "ini": 55.91,
-   "fim": 56.49,
+   "ini": 76.63,
+   "fim": 77.21,
    "trecho": "exclusiva"
   },
   {
    "p": "a",
-   "ini": 56.49,
-   "fim": 57.03,
+   "ini": 77.21,
+   "fim": 77.75,
    "trecho": "exclusiva"
   },
   {
    "p": "carne",
-   "ini": 57.03,
-   "fim": 57.27,
+   "ini": 77.75,
+   "fim": 77.99,
    "trecho": "exclusiva"
   },
   {
    "p": "deu",
-   "ini": 57.27,
-   "fim": 57.43,
+   "ini": 77.99,
+   "fim": 78.15,
    "trecho": "exclusiva"
   },
   {
    "p": "servir",
-   "ini": 57.43,
-   "fim": 57.73,
+   "ini": 78.15,
+   "fim": 78.45,
    "trecho": "exclusiva"
   },
   {
    "p": "para",
-   "ini": 57.73,
-   "fim": 58.87,
+   "ini": 78.45,
+   "fim": 79.59,
    "trecho": "exclusiva"
   },
   {
    "p": "sair",
-   "ini": 58.87,
-   "fim": 59.19,
+   "ini": 79.59,
+   "fim": 79.91,
    "trecho": "exclusiva"
   },
   {
    "p": "na",
-   "ini": 59.19,
-   "fim": 59.29,
+   "ini": 79.91,
+   "fim": 80.01,
    "trecho": "exclusiva"
   },
   {
    "p": "qualidade",
-   "ini": 59.29,
-   "fim": 59.59,
+   "ini": 80.01,
+   "fim": 80.31,
    "trecho": "exclusiva"
   },
   {
    "p": "que",
-   "ini": 59.59,
-   "fim": 59.83,
+   "ini": 80.31,
+   "fim": 80.55,
    "trecho": "exclusiva"
   },
   {
    "p": "ele",
-   "ini": 59.83,
-   "fim": 59.91,
+   "ini": 80.55,
+   "fim": 80.63,
    "trecho": "exclusiva"
   },
   {
    "p": "precisa",
-   "ini": 59.91,
-   "fim": 60.31,
+   "ini": 80.63,
+   "fim": 81.03,
    "trecho": "exclusiva"
   },
   {
    "p": "também",
-   "ini": 60.31,
-   "fim": 60.78,
+   "ini": 81.03,
+   "fim": 81.5,
    "trecho": "exclusiva"
   },
   {
+   "p": "gente",
+   "ini": 81.65,
+   "fim": 81.97,
+   "trecho": "preza"
+  },
+  {
+   "p": "aqui",
+   "ini": 81.97,
+   "fim": 82.25,
+   "trecho": "preza"
+  },
+  {
+   "p": "no",
+   "ini": 82.25,
+   "fim": 82.49,
+   "trecho": "preza"
+  },
+  {
+   "p": "açougue",
+   "ini": 82.49,
+   "fim": 82.81,
+   "trecho": "preza"
+  },
+  {
+   "p": "nítido",
+   "ini": 82.81,
+   "fim": 83.23,
+   "trecho": "preza"
+  },
+  {
+   "p": "preza",
+   "ini": 83.23,
+   "fim": 83.85,
+   "trecho": "preza"
+  },
+  {
+   "p": "a",
+   "ini": 83.85,
+   "fim": 84.51,
+   "trecho": "preza"
+  },
+  {
+   "p": "qualidade",
+   "ini": 84.51,
+   "fim": 85.13,
+   "trecho": "preza"
+  },
+  {
+   "p": "para",
+   "ini": 85.13,
+   "fim": 85.49,
+   "trecho": "preza"
+  },
+  {
+   "p": "o",
+   "ini": 85.49,
+   "fim": 85.69,
+   "trecho": "preza"
+  },
+  {
+   "p": "cliente",
+   "ini": 85.69,
+   "fim": 86.21,
+   "trecho": "preza"
+  },
+  {
+   "p": "se",
+   "ini": 86.21,
+   "fim": 86.83,
+   "trecho": "preza"
+  },
+  {
+   "p": "o",
+   "ini": 86.83,
+   "fim": 87.01,
+   "trecho": "preza"
+  },
+  {
+   "p": "cliente",
+   "ini": 87.01,
+   "fim": 87.33,
+   "trecho": "preza"
+  },
+  {
+   "p": "pediu",
+   "ini": 87.33,
+   "fim": 87.67,
+   "trecho": "preza"
+  },
+  {
+   "p": "tal",
+   "ini": 87.67,
+   "fim": 88.21,
+   "trecho": "preza"
+  },
+  {
+   "p": "carne",
+   "ini": 88.21,
+   "fim": 88.71,
+   "trecho": "preza"
+  },
+  {
+   "p": "vai",
+   "ini": 88.71,
+   "fim": 88.95,
+   "trecho": "preza"
+  },
+  {
+   "p": "tal",
+   "ini": 88.95,
+   "fim": 89.19,
+   "trecho": "preza"
+  },
+  {
+   "p": "carne",
+   "ini": 89.19,
+   "fim": 89.57,
+   "trecho": "preza"
+  },
+  {
+   "p": "não",
+   "ini": 89.57,
+   "fim": 90.05,
+   "trecho": "preza"
+  },
+  {
    "p": "Galera,",
-   "ini": 60.93,
-   "fim": 61.41,
+   "ini": 90.2,
+   "fim": 90.68,
    "trecho": "camara"
   },
   {
    "p": "a",
-   "ini": 61.41,
-   "fim": 61.55,
+   "ini": 90.68,
+   "fim": 90.82,
    "trecho": "camara"
   },
   {
    "p": "gente",
-   "ini": 61.55,
-   "fim": 61.71,
+   "ini": 90.82,
+   "fim": 90.98,
    "trecho": "camara"
   },
   {
    "p": "está",
-   "ini": 61.71,
-   "fim": 62.03,
+   "ini": 90.98,
+   "fim": 91.3,
    "trecho": "camara"
   },
   {
    "p": "dentro",
-   "ini": 62.03,
-   "fim": 62.53,
+   "ini": 91.3,
+   "fim": 91.8,
    "trecho": "camara"
   },
   {
    "p": "do",
-   "ini": 62.53,
-   "fim": 63.05,
+   "ini": 91.8,
+   "fim": 92.32,
    "trecho": "camara"
   },
   {
    "p": "coração",
-   "ini": 63.05,
-   "fim": 64.09,
+   "ini": 92.32,
+   "fim": 93.36,
    "trecho": "camara"
   },
   {
    "p": "do",
-   "ini": 64.09,
-   "fim": 64.65,
+   "ini": 93.36,
+   "fim": 93.92,
    "trecho": "camara"
   },
   {
    "p": "frigorífico.",
-   "ini": 64.65,
-   "fim": 65.49,
+   "ini": 93.92,
+   "fim": 94.76,
    "trecho": "camara"
   },
   {
    "p": "É",
-   "ini": 65.51,
-   "fim": 65.63,
+   "ini": 94.78,
+   "fim": 94.9,
    "trecho": "camara"
   },
   {
    "p": "a",
-   "ini": 65.63,
-   "fim": 65.75,
+   "ini": 94.9,
+   "fim": 95.02,
    "trecho": "camara"
   },
   {
    "p": "câmara",
-   "ini": 65.75,
-   "fim": 66.03,
+   "ini": 95.02,
+   "fim": 95.3,
    "trecho": "camara"
   },
   {
    "p": "fria.",
-   "ini": 66.03,
-   "fim": 66.49,
+   "ini": 95.3,
+   "fim": 95.76,
    "trecho": "camara"
   },
   {
+   "p": "padrão",
+   "ini": 96.42,
+   "fim": 96.82,
+   "trecho": "higiene"
+  },
+  {
+   "p": "de",
+   "ini": 96.82,
+   "fim": 96.96,
+   "trecho": "higiene"
+  },
+  {
+   "p": "higiene",
+   "ini": 96.96,
+   "fim": 97.38,
+   "trecho": "higiene"
+  },
+  {
+   "p": "nós",
+   "ini": 97.38,
+   "fim": 97.74,
+   "trecho": "higiene"
+  },
+  {
+   "p": "segue",
+   "ini": 97.74,
+   "fim": 98.04,
+   "trecho": "higiene"
+  },
+  {
+   "p": "normalmente",
+   "ini": 98.04,
+   "fim": 98.56,
+   "trecho": "higiene"
+  },
+  {
+   "p": "todo",
+   "ini": 98.56,
+   "fim": 99.06,
+   "trecho": "higiene"
+  },
+  {
+   "p": "dia",
+   "ini": 99.06,
+   "fim": 99.4,
+   "trecho": "higiene"
+  },
+  {
+   "p": "não",
+   "ini": 99.4,
+   "fim": 99.64,
+   "trecho": "higiene"
+  },
+  {
+   "p": "é",
+   "ini": 99.64,
+   "fim": 99.76,
+   "trecho": "higiene"
+  },
+  {
+   "p": "porque",
+   "ini": 99.76,
+   "fim": 99.98,
+   "trecho": "higiene"
+  },
+  {
+   "p": "porque",
+   "ini": 99.98,
+   "fim": 100.08,
+   "trecho": "higiene"
+  },
+  {
+   "p": "hoje",
+   "ini": 100.08,
+   "fim": 100.28,
+   "trecho": "higiene"
+  },
+  {
+   "p": "nós",
+   "ini": 100.28,
+   "fim": 100.46,
+   "trecho": "higiene"
+  },
+  {
+   "p": "estamos",
+   "ini": 100.46,
+   "fim": 100.56,
+   "trecho": "higiene"
+  },
+  {
+   "p": "filmando",
+   "ini": 100.56,
+   "fim": 101.14,
+   "trecho": "higiene"
+  },
+  {
+   "p": "e",
+   "ini": 101.14,
+   "fim": 101.84,
+   "trecho": "higiene"
+  },
+  {
+   "p": "poderia",
+   "ini": 101.84,
+   "fim": 102.2,
+   "trecho": "higiene"
+  },
+  {
+   "p": "ser",
+   "ini": 102.2,
+   "fim": 102.84,
+   "trecho": "higiene"
+  },
+  {
+   "p": "diferente.",
+   "ini": 102.84,
+   "fim": 103.22,
+   "trecho": "higiene"
+  },
+  {
+   "p": "fria",
+   "ini": 103.52,
+   "fim": 103.92,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "dentro",
+   "ini": 103.92,
+   "fim": 104.24,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "dos",
+   "ini": 104.24,
+   "fim": 104.68,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "padrões",
+   "ini": 104.68,
+   "fim": 105.12,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "de",
+   "ini": 105.12,
+   "fim": 105.36,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "temperatura,",
+   "ini": 105.36,
+   "fim": 106.2,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "que",
+   "ini": 106.22,
+   "fim": 106.7,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "isso",
+   "ini": 106.7,
+   "fim": 106.82,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "é",
+   "ini": 106.82,
+   "fim": 106.94,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "uma",
+   "ini": 106.94,
+   "fim": 107.06,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "coisa",
+   "ini": 107.06,
+   "fim": 107.3,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "muito",
+   "ini": 107.3,
+   "fim": 107.62,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "importante,",
+   "ini": 107.62,
+   "fim": 108.2,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "que",
+   "ini": 108.48,
+   "fim": 108.9,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "a",
+   "ini": 108.9,
+   "fim": 108.98,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "galera",
+   "ini": 108.98,
+   "fim": 109.26,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "não",
+   "ini": 109.26,
+   "fim": 109.5,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "segue",
+   "ini": 109.5,
+   "fim": 109.8,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "a",
+   "ini": 109.8,
+   "fim": 109.94,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "risca,",
+   "ini": 109.94,
+   "fim": 110.34,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "eles",
+   "ini": 110.46,
+   "fim": 110.9,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "seguem",
+   "ini": 110.9,
+   "fim": 111.34,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "aqui",
+   "ini": 111.34,
+   "fim": 111.54,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "e",
+   "ini": 111.54,
+   "fim": 111.74,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "eu",
+   "ini": 111.74,
+   "fim": 111.82,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "sigo",
+   "ini": 111.82,
+   "fim": 112.16,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "no",
+   "ini": 112.16,
+   "fim": 112.22,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "meu",
+   "ini": 112.22,
+   "fim": 112.38,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "lado.",
+   "ini": 112.38,
+   "fim": 112.52,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "Eu",
+   "ini": 112.56,
+   "fim": 112.66,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "tenho",
+   "ini": 112.66,
+   "fim": 113.0,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "o",
+   "ini": 113.0,
+   "fim": 113.16,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "meu",
+   "ini": 113.16,
+   "fim": 113.36,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "padrão",
+   "ini": 113.36,
+   "fim": 113.78,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "de",
+   "ini": 113.78,
+   "fim": 113.92,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "temperatura",
+   "ini": 113.92,
+   "fim": 114.46,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "lá,",
+   "ini": 114.46,
+   "fim": 115.04,
+   "trecho": "temperatura"
+  },
+  {
+   "p": "por",
+   "ini": 115.28,
+   "fim": 115.48,
+   "trecho": "temperatura"
+  },
+  {
    "p": "gente",
-   "ini": 69.0,
-   "fim": 69.34,
+   "ini": 117.63,
+   "fim": 117.97,
    "trecho": "moagem"
   },
   {
    "p": "acabou",
-   "ini": 69.34,
-   "fim": 69.86,
+   "ini": 117.97,
+   "fim": 118.49,
    "trecho": "moagem"
   },
   {
    "p": "de",
-   "ini": 69.86,
-   "fim": 70.02,
+   "ini": 118.49,
+   "fim": 118.65,
    "trecho": "moagem"
   },
   {
    "p": "sair",
-   "ini": 70.02,
-   "fim": 70.16,
+   "ini": 118.65,
+   "fim": 118.79,
    "trecho": "moagem"
   },
   {
    "p": "da",
-   "ini": 70.16,
-   "fim": 70.28,
+   "ini": 118.79,
+   "fim": 118.91,
    "trecho": "moagem"
   },
   {
    "p": "câmara",
-   "ini": 70.28,
-   "fim": 70.48,
+   "ini": 118.91,
+   "fim": 119.11,
    "trecho": "moagem"
   },
   {
    "p": "frigorífica",
-   "ini": 70.48,
-   "fim": 71.28,
+   "ini": 119.11,
+   "fim": 119.91,
    "trecho": "moagem"
   },
   {
    "p": "a",
-   "ini": 71.28,
-   "fim": 71.44,
+   "ini": 119.91,
+   "fim": 120.07,
    "trecho": "moagem"
   },
   {
    "p": "gente",
-   "ini": 71.44,
-   "fim": 71.78,
+   "ini": 120.07,
+   "fim": 120.41,
    "trecho": "moagem"
   },
   {
    "p": "está",
-   "ini": 71.78,
-   "fim": 72.06,
+   "ini": 120.41,
+   "fim": 120.69,
    "trecho": "moagem"
   },
   {
    "p": "num",
-   "ini": 72.06,
-   "fim": 72.22,
+   "ini": 120.69,
+   "fim": 120.85,
    "trecho": "moagem"
   },
   {
    "p": "ambiente",
-   "ini": 72.22,
-   "fim": 72.46,
+   "ini": 120.85,
+   "fim": 121.09,
    "trecho": "moagem"
   },
   {
    "p": "climatizado",
-   "ini": 72.46,
-   "fim": 73.56,
+   "ini": 121.09,
+   "fim": 122.19,
    "trecho": "moagem"
   },
   {
    "p": "então",
-   "ini": 73.56,
-   "fim": 74.64,
+   "ini": 122.19,
+   "fim": 123.27,
    "trecho": "moagem"
   },
   {
    "p": "está",
-   "ini": 74.64,
-   "fim": 75.1,
+   "ini": 123.27,
+   "fim": 123.73,
    "trecho": "moagem"
   },
   {
    "p": "tudo",
-   "ini": 75.1,
-   "fim": 75.46,
+   "ini": 123.73,
+   "fim": 124.09,
    "trecho": "moagem"
   },
   {
    "p": "dentro",
-   "ini": 75.46,
-   "fim": 75.76,
+   "ini": 124.09,
+   "fim": 124.39,
    "trecho": "moagem"
   },
   {
    "p": "do",
-   "ini": 75.76,
-   "fim": 76.02,
+   "ini": 124.39,
+   "fim": 124.65,
    "trecho": "moagem"
   },
   {
    "p": "padrão,",
-   "ini": 76.02,
-   "fim": 76.44,
+   "ini": 124.65,
+   "fim": 125.07,
    "trecho": "moagem"
   },
   {
    "p": "você",
-   "ini": 76.58,
-   "fim": 77.04,
+   "ini": 125.21,
+   "fim": 125.67,
    "trecho": "moagem"
   },
   {
    "p": "vê",
-   "ini": 77.04,
-   "fim": 77.22,
+   "ini": 125.67,
+   "fim": 125.85,
    "trecho": "moagem"
   },
   {
    "p": "a",
-   "ini": 77.22,
-   "fim": 77.3,
+   "ini": 125.85,
+   "fim": 125.93,
    "trecho": "moagem"
   },
   {
    "p": "qualidade",
-   "ini": 77.3,
-   "fim": 77.62,
+   "ini": 125.93,
+   "fim": 126.25,
    "trecho": "moagem"
   },
   {
    "p": "da",
-   "ini": 77.62,
-   "fim": 77.98,
+   "ini": 126.25,
+   "fim": 126.61,
    "trecho": "moagem"
   },
   {
    "p": "carne",
-   "ini": 77.98,
-   "fim": 78.28,
+   "ini": 126.61,
+   "fim": 126.91,
    "trecho": "moagem"
   },
   {
    "p": "que",
-   "ini": 78.28,
-   "fim": 78.44,
+   "ini": 126.91,
+   "fim": 127.07,
    "trecho": "moagem"
   },
   {
    "p": "está",
-   "ini": 78.44,
-   "fim": 78.62,
+   "ini": 127.07,
+   "fim": 127.25,
    "trecho": "moagem"
   },
   {
    "p": "saindo",
-   "ini": 78.62,
-   "fim": 79.16,
+   "ini": 127.25,
+   "fim": 127.79,
    "trecho": "moagem"
   },
   {
    "p": "então",
-   "ini": 79.16,
-   "fim": 79.6,
+   "ini": 127.79,
+   "fim": 128.23,
    "trecho": "moagem"
   },
   {
    "p": "vontade",
-   "ini": 79.98,
-   "fim": 80.24,
+   "ini": 128.61,
+   "fim": 128.87,
    "trecho": "crua"
   },
   {
    "p": "de",
-   "ini": 80.24,
-   "fim": 80.44,
+   "ini": 128.87,
+   "fim": 129.07,
    "trecho": "crua"
   },
   {
    "p": "comer",
-   "ini": 80.44,
-   "fim": 80.6,
+   "ini": 129.07,
+   "fim": 129.23,
    "trecho": "crua"
   },
   {
    "p": "crua",
-   "ini": 80.6,
-   "fim": 81.1,
+   "ini": 129.23,
+   "fim": 129.73,
    "trecho": "crua"
   },
   {
    "p": "oxe,",
-   "ini": 81.1,
-   "fim": 81.56,
+   "ini": 129.73,
+   "fim": 130.19,
    "trecho": "crua"
   },
   {
    "p": "tu",
-   "ini": 81.56,
-   "fim": 81.78,
+   "ini": 130.19,
+   "fim": 130.41,
    "trecho": "crua"
   },
   {
    "p": "é",
-   "ini": 81.78,
-   "fim": 81.92,
+   "ini": 130.41,
+   "fim": 130.55,
    "trecho": "crua"
   },
   {
    "p": "doido",
-   "ini": 81.92,
-   "fim": 82.44,
+   "ini": 130.55,
+   "fim": 131.07,
    "trecho": "crua"
   },
   {
    "p": "vamos",
-   "ini": 82.44,
-   "fim": 82.8,
+   "ini": 131.07,
+   "fim": 131.43,
    "trecho": "crua"
   },
   {
    "p": "modelar",
-   "ini": 82.8,
-   "fim": 82.85,
+   "ini": 131.43,
+   "fim": 131.48,
    "trecho": "crua"
   },
   {
    "p": "você",
-   "ini": 82.94,
-   "fim": 83.18,
+   "ini": 131.57,
+   "fim": 131.81,
    "trecho": "todo-dia"
   },
   {
    "p": "tem",
-   "ini": 83.18,
-   "fim": 83.38,
+   "ini": 131.81,
+   "fim": 132.01,
    "trecho": "todo-dia"
   },
   {
    "p": "um",
-   "ini": 83.38,
-   "fim": 83.46,
+   "ini": 132.01,
+   "fim": 132.09,
    "trecho": "todo-dia"
   },
   {
    "p": "frigorífico",
-   "ini": 83.46,
-   "fim": 83.98,
+   "ini": 132.09,
+   "fim": 132.61,
    "trecho": "todo-dia"
   },
   {
    "p": "que",
-   "ini": 83.98,
-   "fim": 84.08,
+   "ini": 132.61,
+   "fim": 132.71,
    "trecho": "todo-dia"
   },
   {
    "p": "te",
-   "ini": 84.08,
-   "fim": 84.16,
+   "ini": 132.71,
+   "fim": 132.79,
    "trecho": "todo-dia"
   },
   {
    "p": "entrega",
-   "ini": 84.16,
-   "fim": 84.68,
+   "ini": 132.79,
+   "fim": 133.31,
    "trecho": "todo-dia"
   },
   {
    "p": "todo",
-   "ini": 84.68,
-   "fim": 84.96,
+   "ini": 133.31,
+   "fim": 133.59,
    "trecho": "todo-dia"
   },
   {
    "p": "dia,",
-   "ini": 84.96,
-   "fim": 85.38,
+   "ini": 133.59,
+   "fim": 134.01,
    "trecho": "todo-dia"
   },
   {
    "p": "por",
-   "ini": 85.5,
-   "fim": 85.64,
+   "ini": 134.13,
+   "fim": 134.27,
    "trecho": "todo-dia"
   },
   {
    "p": "que",
-   "ini": 85.64,
-   "fim": 85.76,
+   "ini": 134.27,
+   "fim": 134.39,
    "trecho": "todo-dia"
   },
   {
    "p": "você",
-   "ini": 85.76,
-   "fim": 85.92,
+   "ini": 134.39,
+   "fim": 134.55,
    "trecho": "todo-dia"
   },
   {
    "p": "vai",
-   "ini": 85.92,
-   "fim": 86.1,
+   "ini": 134.55,
+   "fim": 134.73,
    "trecho": "todo-dia"
   },
   {
    "p": "pegar",
-   "ini": 86.1,
-   "fim": 86.36,
+   "ini": 134.73,
+   "fim": 134.99,
    "trecho": "todo-dia"
   },
   {
    "p": "a",
-   "ini": 86.36,
-   "fim": 86.46,
+   "ini": 134.99,
+   "fim": 135.09,
    "trecho": "todo-dia"
   },
   {
    "p": "carne",
-   "ini": 86.46,
-   "fim": 86.62,
+   "ini": 135.09,
+   "fim": 135.25,
    "trecho": "todo-dia"
   },
   {
    "p": "pra",
-   "ini": 86.62,
-   "fim": 86.72,
+   "ini": 135.25,
+   "fim": 135.35,
    "trecho": "todo-dia"
   },
   {
    "p": "passar",
-   "ini": 86.72,
-   "fim": 87.0,
+   "ini": 135.35,
+   "fim": 135.63,
    "trecho": "todo-dia"
   },
   {
    "p": "3,",
-   "ini": 87.0,
-   "fim": 87.3,
+   "ini": 135.63,
+   "fim": 135.93,
    "trecho": "todo-dia"
   },
   {
    "p": "4,",
-   "ini": 87.4,
-   "fim": 87.64,
+   "ini": 136.03,
+   "fim": 136.27,
    "trecho": "todo-dia"
   },
   {
    "p": "5",
-   "ini": 87.7,
-   "fim": 87.88,
+   "ini": 136.33,
+   "fim": 136.51,
    "trecho": "todo-dia"
   },
   {
    "p": "dias?",
-   "ini": 87.88,
-   "fim": 88.18,
+   "ini": 136.51,
+   "fim": 136.81,
    "trecho": "todo-dia"
   },
   {
    "p": "Cara,",
-   "ini": 88.48,
-   "fim": 89.0,
+   "ini": 137.11,
+   "fim": 137.63,
    "trecho": "todo-dia"
   },
   {
    "p": "eu",
-   "ini": 89.0,
-   "fim": 89.12,
+   "ini": 137.63,
+   "fim": 137.75,
    "trecho": "todo-dia"
   },
   {
    "p": "não",
-   "ini": 89.12,
-   "fim": 89.2,
+   "ini": 137.75,
+   "fim": 137.83,
    "trecho": "todo-dia"
   },
   {
    "p": "vou.",
-   "ini": 89.2,
-   "fim": 89.42,
+   "ini": 137.83,
+   "fim": 138.05,
    "trecho": "todo-dia"
   },
   {
    "p": "eu",
-   "ini": 89.42,
-   "fim": 89.56,
+   "ini": 138.05,
+   "fim": 138.19,
    "trecho": "todo-dia"
   },
   {
    "p": "vou",
-   "ini": 89.56,
-   "fim": 89.78,
+   "ini": 138.19,
+   "fim": 138.41,
    "trecho": "todo-dia"
   },
   {
    "p": "dar",
-   "ini": 89.78,
-   "fim": 90.0,
+   "ini": 138.41,
+   "fim": 138.63,
    "trecho": "todo-dia"
   },
   {
    "p": "trabalho",
-   "ini": 90.0,
-   "fim": 90.34,
+   "ini": 138.63,
+   "fim": 138.97,
    "trecho": "todo-dia"
   },
   {
    "p": "pra",
-   "ini": 90.34,
-   "fim": 90.6,
+   "ini": 138.97,
+   "fim": 139.23,
    "trecho": "todo-dia"
   },
   {
    "p": "ele",
-   "ini": 90.6,
-   "fim": 90.88,
+   "ini": 139.23,
+   "fim": 139.51,
    "trecho": "todo-dia"
   },
   {
    "p": "vou",
-   "ini": 90.88,
-   "fim": 91.14,
+   "ini": 139.51,
+   "fim": 139.77,
    "trecho": "todo-dia"
   },
   {
    "p": "dar",
-   "ini": 91.14,
-   "fim": 91.4,
+   "ini": 139.77,
+   "fim": 140.03,
    "trecho": "todo-dia"
   },
   {
    "p": "trabalho",
-   "ini": 91.4,
-   "fim": 91.88,
+   "ini": 140.03,
+   "fim": 140.51,
    "trecho": "todo-dia"
   },
   {
    "p": "todos",
-   "ini": 91.88,
-   "fim": 92.24,
+   "ini": 140.51,
+   "fim": 140.87,
    "trecho": "todo-dia"
   },
   {
    "p": "os",
-   "ini": 92.24,
-   "fim": 92.48,
+   "ini": 140.87,
+   "fim": 141.11,
    "trecho": "todo-dia"
   },
   {
    "p": "dias",
-   "ini": 92.48,
-   "fim": 92.7,
+   "ini": 141.11,
+   "fim": 141.33,
    "trecho": "todo-dia"
   },
   {
    "p": "eu",
-   "ini": 92.7,
-   "fim": 92.84,
+   "ini": 141.33,
+   "fim": 141.47,
    "trecho": "todo-dia"
   },
   {
    "p": "não",
-   "ini": 92.84,
-   "fim": 93.08,
+   "ini": 141.47,
+   "fim": 141.71,
    "trecho": "todo-dia"
   },
   {
    "p": "quero",
-   "ini": 93.08,
-   "fim": 93.26,
+   "ini": 141.71,
+   "fim": 141.89,
    "trecho": "todo-dia"
   },
   {
    "p": "nem",
-   "ini": 93.26,
-   "fim": 93.46,
+   "ini": 141.89,
+   "fim": 142.09,
    "trecho": "todo-dia"
   },
   {
    "p": "saber,",
-   "ini": 93.46,
-   "fim": 93.68,
+   "ini": 142.09,
+   "fim": 142.31,
    "trecho": "todo-dia"
   },
   {
    "p": "eu",
-   "ini": 93.92,
-   "fim": 94.28,
+   "ini": 142.55,
+   "fim": 142.91,
    "trecho": "todo-dia"
   },
   {
    "p": "quero",
-   "ini": 94.28,
-   "fim": 94.5,
+   "ini": 142.91,
+   "fim": 143.13,
    "trecho": "todo-dia"
   },
   {
    "p": "entregar",
-   "ini": 94.5,
-   "fim": 94.98,
+   "ini": 143.13,
+   "fim": 143.61,
    "trecho": "todo-dia"
   },
   {
    "p": "o",
-   "ini": 94.98,
-   "fim": 95.14,
+   "ini": 143.61,
+   "fim": 143.77,
    "trecho": "todo-dia"
   },
   {
    "p": "melhor",
-   "ini": 95.14,
-   "fim": 95.34,
+   "ini": 143.77,
+   "fim": 143.97,
    "trecho": "todo-dia"
   },
   {
    "p": "pra",
-   "ini": 95.34,
-   "fim": 95.62,
+   "ini": 143.97,
+   "fim": 144.25,
    "trecho": "todo-dia"
   },
   {
    "p": "vocês",
-   "ini": 95.62,
-   "fim": 95.96,
+   "ini": 144.25,
+   "fim": 144.59,
    "trecho": "todo-dia"
   },
   {
    "p": "você",
-   "ini": 96.14,
-   "fim": 96.48,
+   "ini": 144.77,
+   "fim": 145.11,
    "trecho": "chamada"
   },
   {
    "p": "não",
-   "ini": 96.48,
-   "fim": 96.76,
+   "ini": 145.11,
+   "fim": 145.39,
    "trecho": "chamada"
   },
   {
    "p": "sabe",
-   "ini": 96.76,
-   "fim": 97.14,
+   "ini": 145.39,
+   "fim": 145.77,
    "trecho": "chamada"
   },
   {
    "p": "o",
-   "ini": 97.14,
-   "fim": 97.32,
+   "ini": 145.77,
+   "fim": 145.95,
    "trecho": "chamada"
   },
   {
    "p": "que",
-   "ini": 97.32,
-   "fim": 97.42,
+   "ini": 145.95,
+   "fim": 146.05,
    "trecho": "chamada"
   },
   {
    "p": "você",
-   "ini": 97.42,
-   "fim": 97.76,
+   "ini": 146.05,
+   "fim": 146.39,
    "trecho": "chamada"
   },
   {
    "p": "tá",
-   "ini": 97.76,
-   "fim": 98.06,
+   "ini": 146.39,
+   "fim": 146.69,
    "trecho": "chamada"
   },
   {
    "p": "perdendo",
-   "ini": 98.06,
-   "fim": 98.6,
+   "ini": 146.69,
+   "fim": 147.23,
    "trecho": "chamada"
   },
   {
    "p": "você",
-   "ini": 98.6,
-   "fim": 99.16,
+   "ini": 147.23,
+   "fim": 147.79,
    "trecho": "chamada"
   },
   {
    "p": "vai",
-   "ini": 99.16,
-   "fim": 99.36,
+   "ini": 147.79,
+   "fim": 147.99,
    "trecho": "chamada"
   },
   {
    "p": "comer",
-   "ini": 99.36,
-   "fim": 99.58,
+   "ini": 147.99,
+   "fim": 148.21,
    "trecho": "chamada"
   },
   {
    "p": "o",
-   "ini": 99.58,
-   "fim": 99.78,
+   "ini": 148.21,
+   "fim": 148.41,
    "trecho": "chamada"
   },
   {
    "p": "melhor",
-   "ini": 99.78,
-   "fim": 100.18,
+   "ini": 148.41,
+   "fim": 148.81,
    "trecho": "chamada"
   },
   {
    "p": "hambúrguer",
-   "ini": 100.18,
-   "fim": 100.9,
+   "ini": 148.81,
+   "fim": 149.53,
    "trecho": "chamada"
   },
   {
    "p": "da",
-   "ini": 100.9,
-   "fim": 101.04,
+   "ini": 149.53,
+   "fim": 149.67,
    "trecho": "chamada"
   },
   {
    "p": "sua",
-   "ini": 101.04,
-   "fim": 101.4,
+   "ini": 149.67,
+   "fim": 150.03,
    "trecho": "chamada"
   },
   {
    "p": "vida",
-   "ini": 101.4,
-   "fim": 101.92,
+   "ini": 150.03,
+   "fim": 150.55,
    "trecho": "chamada"
   }
  ]

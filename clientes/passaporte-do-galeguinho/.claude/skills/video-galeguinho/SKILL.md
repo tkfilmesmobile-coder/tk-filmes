@@ -132,8 +132,14 @@ Quando a gravação vem em muitos clipes (visita, bastidor), o fluxo é o de `sc
 (texto conferido manda, tempo vem do trecho cortado) → composição `Edicao1105.tsx` → `curadoria.py` → `finalizar.ps1`
 (−14 LUFS, pico −1,5 dBTP). Parâmetros novos que valem pra todo vídeo deste cliente:
 - **Headline que fecha frase entra em silêncio** (regra 16 da curadoria): nem impacto, nem ar na pausa antes.
-- **Trilha em duas versões:** sem bateria e baixinha (0,06) sob a fala; completa (0,3) nos respiros. Uma batida na
-  pausa da fala troca consoante ("parceria" virou "bateria").
+- **Trilha em duas versões:** completa e alta nos respiros; sob a fala, só o grave. Uma batida na pausa da fala troca
+  consoante ("parceria" virou "bateria"): nesse ponto a trilha some por ~1 s.
+- **Trilha com batida forte (Talyta, 2026-11-06: "batida mais forte, mais impactante"):** `scripts/gerar-trilha-impacto.py`
+  (96 BPM, Mi menor, 808, caixa forte, chimbal, pancada com prato a cada 8 compassos). Completa a 0,36 nos respiros, com
+  pancada na troca de imagem; sob a fala, a versão "voz" (bumbo, 808 e caixa abafados, sem acordes) a 0,08. Com os
+  acordes por baixo, mesmo 5 a 8 dB abaixo da voz, a transcrição do áudio final perdia palavra.
+- **Palavra que um modelo só ouve** pode ser invenção: conferir no espectrograma se cabe no tempo antes de legendar
+  (o "Verdade" da v2 não existia).
 - Voz do celular a 0,82 no `<Video>` e volume final no `finalizar.ps1` (sem isso o grito passa de 0 dBFS).
 - Bloco de legenda com menos de 0,55 s junta com o vizinho, nunca atravessando o fim de uma frase.
 - Gente da casa ou do fornecedor não tem card de números: o fornecedor ganha card com a logo filmada na visita.

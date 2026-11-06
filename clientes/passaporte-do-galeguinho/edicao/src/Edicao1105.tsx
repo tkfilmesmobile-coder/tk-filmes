@@ -54,14 +54,24 @@ const pesoDaFala = (t: number) => {
 };
 const bordas = (t: number, total: number) =>
   interpolate(t, [0, 0.6], [0, 1], TRAVA) * interpolate(t, [total - 1.6, total], [1, 0], TRAVA);
-// Duas versões da mesma trilha (scripts/gerar-trilha.py), no mesmo tempo: por baixo da fala vai a sem bateria,
-// baixinha (a batida numa pausa da fala fazia "parceria" soar "bateria"); nos respiros entra a completa.
-const BAIXO = 0.06;
-const ALTO = 0.3;
+// Duas versões da mesma trilha (scripts/gerar-trilha-impacto.py, v3 de 2026-11-06: a Talyta pediu batida mais forte),
+// no mesmo tempo: por baixo da fala vai a versão "voz" (bumbo, 808, caixa e acordes abafados, sem chimbal nem prato,
+// que brigam com as consoantes); nos respiros entra a completa, alta.
+// A versão de baixo da fala é só o grave (bumbo, 808, caixa abafada): a 0,10 com acordes ela engolia palavra baixa.
+const BAIXO = 0.08;
+const ALTO = 0.36;
+// Respiro curto da trilha embaixo de palavra fraca, medido no scripts/1105 (curadoria v3): com qualquer batida por
+// baixo, "parceria" (depois de 0,4 s de pausa) vira "bateria".
+const RESPIROS: [number, number][] = [[trecho("parceria").de + 18.7, trecho("parceria").de + 20.1]];
+const semRespiro = (t: number) =>
+  RESPIROS.reduce(
+    (v, [a, b]) => v * interpolate(t, [a - 0.08, a, b, b + 0.08], [1, 0, 0, 1], TRAVA),
+    1,
+  );
 const volumeCheia = (frame: number, fps: number, total: number) =>
-  ALTO * (1 - pesoDaFala(frame / fps)) * bordas(frame / fps, total / fps);
+  ALTO * (1 - pesoDaFala(frame / fps)) * bordas(frame / fps, total / fps) * semRespiro(frame / fps);
 const volumeSemBateria = (frame: number, fps: number, total: number) =>
-  BAIXO * pesoDaFala(frame / fps) * bordas(frame / fps, total / fps);
+  BAIXO * pesoDaFala(frame / fps) * bordas(frame / fps, total / fps) * semRespiro(frame / fps);
 
 // Onde a legenda e a headline ficam em cada trecho (zonas seguras do reels, 2026-10-12: legenda logo abaixo do
 // rosto, y 900–1080; headline na faixa de baixo, base até 1500). Ajustado por quadro em scripts/1105/REVISAR.md.
@@ -80,9 +90,13 @@ const ZONAS_1105: ZonaDeLegenda[] = [
   { de: f(insertDaPlaca.de) - 8, ate: f(insertDaPlaca.ate), ...PADRAO, centro: 1430 },
   zona("parceria", PADRAO),
   zona("eduardo", PADRAO),
+  zona("confianca", PADRAO),
   zona("blend", PADRAO),
   zona("exclusiva", PADRAO),
+  zona("preza", PADRAO),
   zona("camara", PADRAO),
+  zona("higiene", PADRAO),
+  zona("temperatura", PADRAO),
   // moagem: a carne sai na bandeja (y 1080 pra baixo); legenda e headline sobem pro corpo da máquina
   zona("moagem", { ...PADRAO, centro: 880, base: 1020, enfase: 96 }),
   // "crua": a carne ocupa o meio e a direita do quadro; o texto fica em cima, à esquerda, sobre o metal da máquina
@@ -201,12 +215,12 @@ export const Edicao1105: React.FC<{ video: string; legendas: string }> = ({ vide
 
       <Audio
         name="Trilha completa (respiros)"
-        src={staticFile("audio/trilha.wav")}
+        src={staticFile("audio/trilha-impacto.wav")}
         volume={(fr) => volumeCheia(fr, fps, durationInFrames)}
       />
       <Audio
-        name="Trilha sem bateria (sob a fala)"
-        src={staticFile("audio/trilha-sem-bateria.wav")}
+        name="Trilha abafada (sob a fala)"
+        src={staticFile("audio/trilha-impacto-voz.wav")}
         volume={(fr) => volumeSemBateria(fr, fps, durationInFrames)}
       />
 
@@ -237,6 +251,10 @@ export const Edicao1105: React.FC<{ video: string; legendas: string }> = ({ vide
       {/* respiros sem fala: um sopro na troca de imagem */}
       {["ponte1", "ponte2", "fecho"].map((id) => (
         <SomDaCasa key={id} nome={`respiro ${id}`} em={f(trecho(id).de)} som="sopro" volume={0.3} />
+      ))}
+      {/* v3: pancada na troca de imagem dos respiros (3 quadros depois do corte, longe da última palavra) */}
+      {["ponte1", "ponte2"].map((id) => (
+        <SomDaCasa key={`p-${id}`} nome={`pancada ${id}`} em={f(trecho(id).de) + 3} som="impacto" volume={0.5} />
       ))}
 
       {/* fechamento: selo da casa e horário no alto, sobre o metal da máquina (a carne fica livre embaixo) */}
