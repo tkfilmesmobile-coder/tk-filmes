@@ -1,0 +1,9 @@
+[
+ {"id": "p1-papai-noel", "src": "public/g-IMG_7295.mp4", "ini": 1.0, "quadros": 165, "vel": 0.6, "cx": 0.61, "zoom": 1.12},
+ {"id": "p2-veludo", "src": "public/g-IMG_7304.mp4", "ini": 13.23, "quadros": 165, "vel": 0.6, "cx": 0.5, "zoom": 1.12},
+ {"id": "p3-fachada", "src": "public/g-fachada-inteira.mp4", "ini": 6.8, "quadros": 150, "vel": 0.6, "caber": true},
+ {"id": "e1-espiral", "src": "public/g-IMG_7303.mp4", "ini": 8.0, "quadros": 165, "vel": 0.4, "cx": 0.5, "zoom": 1.12},
+ {"id": "e2-maxi-laco", "src": "public/g-IMG_7304.mp4", "ini": 9.8, "quadros": 165, "vel": 0.6, "cx": 0.56, "zoom": 1.05, "ganho": 1.35},
+ {"id": "e3-arvore", "src": "public/g-IMG_7302.mp4", "ini": 3.83, "quadros": 165, "vel": 0.6, "cx": 0.44, "zoom": 1.12},
+ {"id": "e4-fachada", "src": "public/g-fachada-inteira.mp4", "ini": 2.23, "quadros": 165, "vel": 0.7, "caber": true}
+]

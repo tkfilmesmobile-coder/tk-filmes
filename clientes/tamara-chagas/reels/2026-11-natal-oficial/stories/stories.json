@@ -1,0 +1,16 @@
+[
+ {"id": "p1-papai-noel", "src": "../stories/_lento/p1-papai-noel-lento.mp4", "a": 0, "b": 5.5, "trilha_ini": 15,
+  "kicker": "NATAL 2026", "texto": "A saga chegou ao fim.<br><b>O Natal chegou.</b>", "pos": "baixo"},
+ {"id": "p2-veludo", "src": "../stories/_lento/p2-veludo-lento.mp4", "a": 0, "b": 5.5, "trilha_ini": 30,
+  "kicker": "VELUDO", "texto": "A peça principal<br><b>da nossa decoração.</b>", "pos": "baixo"},
+ {"id": "p3-fachada", "src": "../stories/_lento/p3-fachada-lento.mp4", "a": 0, "b": 5.0, "trilha_ini": 45,
+  "kicker": "VÍDEO OFICIAL", "texto": "Assista completo<br><b>no feed.</b>", "pos": "baixo"},
+ {"id": "e1-espiral", "src": "../stories/_lento/e1-espiral-lento.mp4", "a": 0, "b": 5.5, "trilha_ini": 22,
+  "kicker": "NATAL 2026", "texto": "Depois de toda a saga,<br><b>tudo pronto.</b>", "pos": "baixo"},
+ {"id": "e2-detalhes", "src": "out/natal-oficial.mp4", "a": 29.95, "b": 34.4, "trilha_ini": 33,
+  "kicker": "DETALHES", "texto": "Tudo produzido<br><b>à mão.</b>", "pos": "baixo"},
+ {"id": "e3-arvore", "src": "../stories/_lento/e3-arvore-lento.mp4", "a": 0, "b": 5.5, "trilha_ini": 40,
+  "kicker": "5 METROS DE ÁRVORE", "texto": "Pensada com carinho<br><b>pra receber você.</b>", "pos": "baixo"},
+ {"id": "e4-fachada", "src": "../stories/_lento/e4-fachada-lento.mp4", "a": 0, "b": 5.5, "trilha_ini": 46,
+  "kicker": "VÍDEO OFICIAL", "texto": "Já está no ar.<br><b>Assista no feed.</b>", "pos": "baixo"}
+]

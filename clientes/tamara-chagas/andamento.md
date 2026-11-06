@@ -91,6 +91,12 @@
   Reels no @dra.tamarachagas_ com colaboração do @tamarachagas_prev (`sp_Lz6ykD05t2nIy4timEQiI`) + TikTok
   @tamarachagas.prev (`sp_qfKScg6kWuNFEUS9yYdHw`), legenda de `legenda.md`. Sem stories. **Publicado 7h05** nos dois:
   https://www.instagram.com/reel/DfWxbiKgBBG/
+  **Stories (06/11, pedido dela "Sim, faça os stories"):** 7 câmeras lentas novas em pé (5,5 s, mesmo recorte do vertical,
+  `edicao/scripts/stories_lento.py`) + texto elegante e a música do vídeo (`modelos/stories_trecho_musica.py`), em
+  `stories/`. Pessoal (Post for Me): Papai Noel "O Natal chegou", veludo, fachada "Assista completo no feed".
+  Escritório (Graph API): espiral "tudo pronto", detalhes "Tudo produzido à mão" (montagem do vertical 29,95–34,4 s; o
+  maxi laço saiu escuro e com teto), árvore "5 metros", fachada "Assista no feed". Todos publicados (log em
+  `stories/publicacao.log`). A cópia pro Drive falhou: o G: não estava montado no PC kumyt.
 
 ## Em aberto
 - **Meta da semana (02 a 06/11): 3 de 5** (Novembro Azul 03/11, vídeo oficial do Natal 05/11 7h, salário-maternidade
