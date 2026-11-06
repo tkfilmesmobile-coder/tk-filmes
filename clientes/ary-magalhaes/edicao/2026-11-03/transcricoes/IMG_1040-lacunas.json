@@ -1,0 +1,1308 @@
+[
+ {
+  "de": 40.26,
+  "ate": 52.91,
+  "db": -49.9,
+  "texto": "Obrigada.",
+  "palavras": [
+   {
+    "p": "Obrigada.",
+    "ini": 49.12,
+    "fim": 50.52,
+    "conf": 0.44
+   }
+  ]
+ },
+ {
+  "de": 54.47,
+  "ate": 62.43,
+  "db": -51.3,
+  "texto": "Vamos, vamos te ver.",
+  "palavras": [
+   {
+    "p": "Vamos,",
+    "ini": 55.01,
+    "fim": 55.29,
+    "conf": 0.25
+   },
+   {
+    "p": "vamos",
+    "ini": 55.43,
+    "fim": 55.43,
+    "conf": 0.46
+   },
+   {
+    "p": "te",
+    "ini": 55.43,
+    "fim": 55.53,
+    "conf": 0.3
+   },
+   {
+    "p": "ver.",
+    "ini": 55.53,
+    "fim": 55.67,
+    "conf": 0.49
+   }
+  ]
+ },
+ {
+  "de": 71.59,
+  "ate": 73.25,
+  "db": -29.6,
+  "texto": "Enfim...",
+  "palavras": [
+   {
+    "p": "Enfim...",
+    "ini": 71.59,
+    "fim": 73.23,
+    "conf": 0.86
+   }
+  ]
+ },
+ {
+  "de": 169.72,
+  "ate": 171.6,
+  "db": -19.6,
+  "texto": "E...",
+  "palavras": [
+   {
+    "p": "E...",
+    "ini": 169.72,
+    "fim": 171.58,
+    "conf": 0.79
+   }
+  ]
+ },
+ {
+  "de": 226.8,
+  "ate": 257.46,
+  "db": -46.3,
+  "texto": "Agora, a gente vai fazer perguntas, porque eu quero que você dê contexto. Eu quero que você fale sobre como você deu esse passo de conversar na sua vida, como é o seu controle, o que você vai falar? Gente, agora eu vou responder, eu quero falar com você, explicar. O resultado do meu trabalho não é a pergunta dos seus dias. Quem me acompanha já sabe que eu vejo o meu processo, você vai ficar com a sua história que você já sabe de qual. Obrigado.",
+  "palavras": [
+   {
+    "p": "Agora,",
+    "ini": 228.32,
+    "fim": 228.72,
+    "conf": 0.06
+   },
+   {
+    "p": "a",
+    "ini": 228.72,
+    "fim": 229.12,
+    "conf": 0.55
+   },
+   {
+    "p": "gente",
+    "ini": 229.12,
+    "fim": 229.16,
+    "conf": 1.0
+   },
+   {
+    "p": "vai",
+    "ini": 229.16,
+    "fim": 229.34,
+    "conf": 0.99
+   },
+   {
+    "p": "fazer",
+    "ini": 229.34,
+    "fim": 229.64,
+    "conf": 0.41
+   },
+   {
+    "p": "perguntas,",
+    "ini": 229.64,
+    "fim": 230.36,
+    "conf": 0.96
+   },
+   {
+    "p": "porque",
+    "ini": 230.36,
+    "fim": 230.62,
+    "conf": 0.97
+   },
+   {
+    "p": "eu",
+    "ini": 230.62,
+    "fim": 230.74,
+    "conf": 1.0
+   },
+   {
+    "p": "quero",
+    "ini": 230.74,
+    "fim": 230.88,
+    "conf": 1.0
+   },
+   {
+    "p": "que",
+    "ini": 230.88,
+    "fim": 231.06,
+    "conf": 1.0
+   },
+   {
+    "p": "você",
+    "ini": 231.06,
+    "fim": 231.4,
+    "conf": 0.98
+   },
+   {
+    "p": "dê",
+    "ini": 231.4,
+    "fim": 231.64,
+    "conf": 0.95
+   },
+   {
+    "p": "contexto.",
+    "ini": 231.64,
+    "fim": 232.08,
+    "conf": 0.73
+   },
+   {
+    "p": "Eu",
+    "ini": 232.68,
+    "fim": 232.84,
+    "conf": 0.99
+   },
+   {
+    "p": "quero",
+    "ini": 232.84,
+    "fim": 232.98,
+    "conf": 1.0
+   },
+   {
+    "p": "que",
+    "ini": 232.98,
+    "fim": 233.12,
+    "conf": 1.0
+   },
+   {
+    "p": "você",
+    "ini": 233.12,
+    "fim": 233.34,
+    "conf": 1.0
+   },
+   {
+    "p": "fale",
+    "ini": 233.34,
+    "fim": 233.64,
+    "conf": 0.99
+   },
+   {
+    "p": "sobre",
+    "ini": 233.64,
+    "fim": 234.08,
+    "conf": 0.95
+   },
+   {
+    "p": "como",
+    "ini": 234.08,
+    "fim": 234.78,
+    "conf": 0.75
+   },
+   {
+    "p": "você",
+    "ini": 234.78,
+    "fim": 235.14,
+    "conf": 0.99
+   },
+   {
+    "p": "deu",
+    "ini": 235.14,
+    "fim": 235.7,
+    "conf": 0.93
+   },
+   {
+    "p": "esse",
+    "ini": 235.7,
+    "fim": 235.88,
+    "conf": 0.99
+   },
+   {
+    "p": "passo",
+    "ini": 235.88,
+    "fim": 236.16,
+    "conf": 0.81
+   },
+   {
+    "p": "de",
+    "ini": 236.16,
+    "fim": 236.32,
+    "conf": 0.26
+   },
+   {
+    "p": "conversar",
+    "ini": 236.32,
+    "fim": 236.7,
+    "conf": 0.87
+   },
+   {
+    "p": "na",
+    "ini": 236.7,
+    "fim": 236.88,
+    "conf": 0.9
+   },
+   {
+    "p": "sua",
+    "ini": 236.88,
+    "fim": 236.98,
+    "conf": 0.95
+   },
+   {
+    "p": "vida,",
+    "ini": 236.98,
+    "fim": 237.28,
+    "conf": 0.92
+   },
+   {
+    "p": "como",
+    "ini": 238.44,
+    "fim": 238.84,
+    "conf": 0.67
+   },
+   {
+    "p": "é",
+    "ini": 238.84,
+    "fim": 239.04,
+    "conf": 0.76
+   },
+   {
+    "p": "o",
+    "ini": 239.04,
+    "fim": 239.16,
+    "conf": 0.99
+   },
+   {
+    "p": "seu",
+    "ini": 239.16,
+    "fim": 239.3,
+    "conf": 1.0
+   },
+   {
+    "p": "controle,",
+    "ini": 239.3,
+    "fim": 239.66,
+    "conf": 0.66
+   },
+   {
+    "p": "o",
+    "ini": 240.68,
+    "fim": 240.8,
+    "conf": 0.39
+   },
+   {
+    "p": "que",
+    "ini": 240.8,
+    "fim": 240.8,
+    "conf": 0.97
+   },
+   {
+    "p": "você",
+    "ini": 240.8,
+    "fim": 240.98,
+    "conf": 0.88
+   },
+   {
+    "p": "vai",
+    "ini": 240.98,
+    "fim": 241.14,
+    "conf": 1.0
+   },
+   {
+    "p": "falar?",
+    "ini": 241.14,
+    "fim": 241.4,
+    "conf": 0.94
+   },
+   {
+    "p": "Gente,",
+    "ini": 241.58,
+    "fim": 241.68,
+    "conf": 0.49
+   },
+   {
+    "p": "agora",
+    "ini": 242.18,
+    "fim": 242.38,
+    "conf": 0.96
+   },
+   {
+    "p": "eu",
+    "ini": 242.38,
+    "fim": 242.62,
+    "conf": 0.97
+   },
+   {
+    "p": "vou",
+    "ini": 242.62,
+    "fim": 242.78,
+    "conf": 0.66
+   },
+   {
+    "p": "responder,",
+    "ini": 242.78,
+    "fim": 242.98,
+    "conf": 0.35
+   },
+   {
+    "p": "eu",
+    "ini": 243.16,
+    "fim": 243.18,
+    "conf": 0.95
+   },
+   {
+    "p": "quero",
+    "ini": 243.18,
+    "fim": 243.3,
+    "conf": 1.0
+   },
+   {
+    "p": "falar",
+    "ini": 243.3,
+    "fim": 244.18,
+    "conf": 0.98
+   },
+   {
+    "p": "com",
+    "ini": 244.18,
+    "fim": 244.3,
+    "conf": 0.99
+   },
+   {
+    "p": "você,",
+    "ini": 244.3,
+    "fim": 244.58,
+    "conf": 0.71
+   },
+   {
+    "p": "explicar.",
+    "ini": 244.68,
+    "fim": 245.12,
+    "conf": 0.57
+   },
+   {
+    "p": "O",
+    "ini": 245.84,
+    "fim": 246.04,
+    "conf": 0.84
+   },
+   {
+    "p": "resultado",
+    "ini": 246.04,
+    "fim": 246.62,
+    "conf": 0.77
+   },
+   {
+    "p": "do",
+    "ini": 246.62,
+    "fim": 246.9,
+    "conf": 0.58
+   },
+   {
+    "p": "meu",
+    "ini": 246.9,
+    "fim": 247.02,
+    "conf": 0.89
+   },
+   {
+    "p": "trabalho",
+    "ini": 247.02,
+    "fim": 247.22,
+    "conf": 0.25
+   },
+   {
+    "p": "não",
+    "ini": 247.22,
+    "fim": 248.2,
+    "conf": 0.44
+   },
+   {
+    "p": "é",
+    "ini": 248.2,
+    "fim": 248.54,
+    "conf": 0.99
+   },
+   {
+    "p": "a",
+    "ini": 248.54,
+    "fim": 248.68,
+    "conf": 0.1
+   },
+   {
+    "p": "pergunta",
+    "ini": 248.68,
+    "fim": 249.02,
+    "conf": 0.2
+   },
+   {
+    "p": "dos",
+    "ini": 249.02,
+    "fim": 249.22,
+    "conf": 0.21
+   },
+   {
+    "p": "seus",
+    "ini": 249.22,
+    "fim": 249.64,
+    "conf": 0.61
+   },
+   {
+    "p": "dias.",
+    "ini": 249.64,
+    "fim": 250.02,
+    "conf": 0.96
+   },
+   {
+    "p": "Quem",
+    "ini": 250.28,
+    "fim": 250.4,
+    "conf": 0.76
+   },
+   {
+    "p": "me",
+    "ini": 250.4,
+    "fim": 250.54,
+    "conf": 0.9
+   },
+   {
+    "p": "acompanha",
+    "ini": 250.54,
+    "fim": 250.98,
+    "conf": 1.0
+   },
+   {
+    "p": "já",
+    "ini": 250.98,
+    "fim": 251.22,
+    "conf": 0.97
+   },
+   {
+    "p": "sabe",
+    "ini": 251.22,
+    "fim": 251.64,
+    "conf": 0.99
+   },
+   {
+    "p": "que",
+    "ini": 251.64,
+    "fim": 252.2,
+    "conf": 0.8
+   },
+   {
+    "p": "eu",
+    "ini": 252.2,
+    "fim": 252.36,
+    "conf": 0.93
+   },
+   {
+    "p": "vejo",
+    "ini": 252.36,
+    "fim": 252.78,
+    "conf": 0.85
+   },
+   {
+    "p": "o",
+    "ini": 252.78,
+    "fim": 252.96,
+    "conf": 0.34
+   },
+   {
+    "p": "meu",
+    "ini": 252.96,
+    "fim": 252.98,
+    "conf": 0.68
+   },
+   {
+    "p": "processo,",
+    "ini": 252.98,
+    "fim": 253.28,
+    "conf": 0.99
+   },
+   {
+    "p": "você",
+    "ini": 253.42,
+    "fim": 253.6,
+    "conf": 0.09
+   },
+   {
+    "p": "vai",
+    "ini": 253.6,
+    "fim": 253.7,
+    "conf": 0.98
+   },
+   {
+    "p": "ficar",
+    "ini": 253.7,
+    "fim": 253.86,
+    "conf": 0.61
+   },
+   {
+    "p": "com",
+    "ini": 253.86,
+    "fim": 254.06,
+    "conf": 0.6
+   },
+   {
+    "p": "a",
+    "ini": 254.06,
+    "fim": 254.06,
+    "conf": 0.47
+   },
+   {
+    "p": "sua",
+    "ini": 254.06,
+    "fim": 254.12,
+    "conf": 0.74
+   },
+   {
+    "p": "história",
+    "ini": 254.12,
+    "fim": 254.38,
+    "conf": 0.7
+   },
+   {
+    "p": "que",
+    "ini": 254.38,
+    "fim": 254.5,
+    "conf": 0.61
+   },
+   {
+    "p": "você",
+    "ini": 254.5,
+    "fim": 254.6,
+    "conf": 0.63
+   },
+   {
+    "p": "já",
+    "ini": 254.6,
+    "fim": 254.76,
+    "conf": 1.0
+   },
+   {
+    "p": "sabe",
+    "ini": 254.76,
+    "fim": 255.0,
+    "conf": 1.0
+   },
+   {
+    "p": "de",
+    "ini": 255.0,
+    "fim": 255.14,
+    "conf": 0.89
+   },
+   {
+    "p": "qual.",
+    "ini": 255.14,
+    "fim": 255.38,
+    "conf": 0.94
+   },
+   {
+    "p": "Obrigado.",
+    "ini": 255.38,
+    "fim": 256.84,
+    "conf": 0.42
+   }
+  ]
+ },
+ {
+  "de": 311.2,
+  "ate": 312.96,
+  "db": -23.5,
+  "texto": "Mas é...",
+  "palavras": [
+   {
+    "p": "Mas",
+    "ini": 311.2,
+    "fim": 312.56,
+    "conf": 0.58
+   },
+   {
+    "p": "é...",
+    "ini": 312.56,
+    "fim": 312.94,
+    "conf": 0.53
+   }
+  ]
+ },
+ {
+  "de": 330.98,
+  "ate": 338.34,
+  "db": -45.6,
+  "texto": "Pra quem não sabe, eu já faço um pouco de legislação, aí você fala que você fez barrigão, fala sua estatura...",
+  "palavras": [
+   {
+    "p": "Pra",
+    "ini": 331.44,
+    "fim": 331.88,
+    "conf": 0.21
+   },
+   {
+    "p": "quem",
+    "ini": 331.88,
+    "fim": 332.04,
+    "conf": 0.99
+   },
+   {
+    "p": "não",
+    "ini": 332.04,
+    "fim": 332.22,
+    "conf": 1.0
+   },
+   {
+    "p": "sabe,",
+    "ini": 332.22,
+    "fim": 332.64,
+    "conf": 1.0
+   },
+   {
+    "p": "eu",
+    "ini": 332.76,
+    "fim": 332.98,
+    "conf": 0.97
+   },
+   {
+    "p": "já",
+    "ini": 332.98,
+    "fim": 333.4,
+    "conf": 0.55
+   },
+   {
+    "p": "faço",
+    "ini": 333.4,
+    "fim": 333.76,
+    "conf": 0.53
+   },
+   {
+    "p": "um",
+    "ini": 333.76,
+    "fim": 334.04,
+    "conf": 0.2
+   },
+   {
+    "p": "pouco",
+    "ini": 334.04,
+    "fim": 334.24,
+    "conf": 0.11
+   },
+   {
+    "p": "de",
+    "ini": 334.24,
+    "fim": 334.74,
+    "conf": 0.83
+   },
+   {
+    "p": "legislação,",
+    "ini": 334.74,
+    "fim": 335.22,
+    "conf": 0.82
+   },
+   {
+    "p": "aí",
+    "ini": 335.36,
+    "fim": 335.36,
+    "conf": 0.81
+   },
+   {
+    "p": "você",
+    "ini": 335.36,
+    "fim": 335.46,
+    "conf": 0.97
+   },
+   {
+    "p": "fala",
+    "ini": 335.46,
+    "fim": 335.74,
+    "conf": 0.99
+   },
+   {
+    "p": "que",
+    "ini": 335.74,
+    "fim": 335.88,
+    "conf": 0.23
+   },
+   {
+    "p": "você",
+    "ini": 335.88,
+    "fim": 336.06,
+    "conf": 0.86
+   },
+   {
+    "p": "fez",
+    "ini": 336.06,
+    "fim": 336.32,
+    "conf": 0.59
+   },
+   {
+    "p": "barrigão,",
+    "ini": 336.32,
+    "fim": 336.94,
+    "conf": 0.56
+   },
+   {
+    "p": "fala",
+    "ini": 337.08,
+    "fim": 337.24,
+    "conf": 0.96
+   },
+   {
+    "p": "sua",
+    "ini": 337.24,
+    "fim": 337.42,
+    "conf": 0.87
+   },
+   {
+    "p": "estatura...",
+    "ini": 337.42,
+    "fim": 338.32,
+    "conf": 0.8
+   }
+  ]
+ },
+ {
+  "de": 389.62,
+  "ate": 390.94,
+  "db": -26.4,
+  "texto": "Então, vocês...",
+  "palavras": [
+   {
+    "p": "Então,",
+    "ini": 389.62,
+    "fim": 389.62,
+    "conf": 0.08
+   },
+   {
+    "p": "vocês...",
+    "ini": 389.82,
+    "fim": 390.06,
+    "conf": 0.39
+   }
+  ]
+ },
+ {
+  "de": 403.68,
+  "ate": 408.02,
+  "db": -39.7,
+  "texto": "Eu quero que você fale que pode estar assim.",
+  "palavras": [
+   {
+    "p": "Eu",
+    "ini": 403.68,
+    "fim": 404.88,
+    "conf": 0.39
+   },
+   {
+    "p": "quero",
+    "ini": 404.88,
+    "fim": 405.08,
+    "conf": 0.99
+   },
+   {
+    "p": "que",
+    "ini": 405.08,
+    "fim": 405.2,
+    "conf": 1.0
+   },
+   {
+    "p": "você",
+    "ini": 405.2,
+    "fim": 405.5,
+    "conf": 0.93
+   },
+   {
+    "p": "fale",
+    "ini": 405.5,
+    "fim": 405.94,
+    "conf": 0.99
+   },
+   {
+    "p": "que",
+    "ini": 405.94,
+    "fim": 406.38,
+    "conf": 0.19
+   },
+   {
+    "p": "pode",
+    "ini": 406.38,
+    "fim": 406.58,
+    "conf": 0.83
+   },
+   {
+    "p": "estar",
+    "ini": 406.58,
+    "fim": 406.92,
+    "conf": 0.62
+   },
+   {
+    "p": "assim.",
+    "ini": 406.92,
+    "fim": 407.24,
+    "conf": 0.48
+   }
+  ]
+ },
+ {
+  "de": 530.59,
+  "ate": 554.91,
+  "db": -33.0,
+  "texto": "A gestão vai dar o... Eu tô gravando, eu tô tentando assistir. Você vai dizer, ó... Hoje, antes... A minha vida, hoje, é o momento que você trabalha... Você não gera vida, não pode, você não fica assim, vai jogar o cabocinho, tá? Então, tudo isso trouxe o resultado que você tem hoje.",
+  "palavras": [
+   {
+    "p": "A",
+    "ini": 531.73,
+    "fim": 532.17,
+    "conf": 0.16
+   },
+   {
+    "p": "gestão",
+    "ini": 532.17,
+    "fim": 532.47,
+    "conf": 0.57
+   },
+   {
+    "p": "vai",
+    "ini": 532.47,
+    "fim": 532.61,
+    "conf": 0.99
+   },
+   {
+    "p": "dar",
+    "ini": 532.61,
+    "fim": 532.79,
+    "conf": 1.0
+   },
+   {
+    "p": "o...",
+    "ini": 532.79,
+    "fim": 534.03,
+    "conf": 0.45
+   },
+   {
+    "p": "Eu",
+    "ini": 534.03,
+    "fim": 534.49,
+    "conf": 0.08
+   },
+   {
+    "p": "tô",
+    "ini": 534.49,
+    "fim": 534.87,
+    "conf": 0.66
+   },
+   {
+    "p": "gravando,",
+    "ini": 534.87,
+    "fim": 535.97,
+    "conf": 0.96
+   },
+   {
+    "p": "eu",
+    "ini": 536.13,
+    "fim": 536.15,
+    "conf": 0.92
+   },
+   {
+    "p": "tô",
+    "ini": 536.15,
+    "fim": 536.23,
+    "conf": 0.98
+   },
+   {
+    "p": "tentando",
+    "ini": 536.23,
+    "fim": 536.63,
+    "conf": 0.54
+   },
+   {
+    "p": "assistir.",
+    "ini": 536.63,
+    "fim": 537.03,
+    "conf": 0.96
+   },
+   {
+    "p": "Você",
+    "ini": 537.63,
+    "fim": 537.87,
+    "conf": 0.49
+   },
+   {
+    "p": "vai",
+    "ini": 537.87,
+    "fim": 538.05,
+    "conf": 1.0
+   },
+   {
+    "p": "dizer,",
+    "ini": 538.05,
+    "fim": 538.25,
+    "conf": 0.71
+   },
+   {
+    "p": "ó...",
+    "ini": 538.41,
+    "fim": 539.47,
+    "conf": 0.54
+   },
+   {
+    "p": "Hoje,",
+    "ini": 539.47,
+    "fim": 539.47,
+    "conf": 0.77
+   },
+   {
+    "p": "antes...",
+    "ini": 539.65,
+    "fim": 540.35,
+    "conf": 0.8
+   },
+   {
+    "p": "A",
+    "ini": 540.97,
+    "fim": 541.15,
+    "conf": 0.93
+   },
+   {
+    "p": "minha",
+    "ini": 541.15,
+    "fim": 541.37,
+    "conf": 1.0
+   },
+   {
+    "p": "vida,",
+    "ini": 541.37,
+    "fim": 541.95,
+    "conf": 1.0
+   },
+   {
+    "p": "hoje,",
+    "ini": 542.19,
+    "fim": 542.73,
+    "conf": 1.0
+   },
+   {
+    "p": "é",
+    "ini": 542.93,
+    "fim": 543.05,
+    "conf": 0.97
+   },
+   {
+    "p": "o",
+    "ini": 543.05,
+    "fim": 543.15,
+    "conf": 0.17
+   },
+   {
+    "p": "momento",
+    "ini": 543.15,
+    "fim": 543.31,
+    "conf": 0.78
+   },
+   {
+    "p": "que",
+    "ini": 543.31,
+    "fim": 543.51,
+    "conf": 0.95
+   },
+   {
+    "p": "você",
+    "ini": 543.51,
+    "fim": 543.73,
+    "conf": 0.93
+   },
+   {
+    "p": "trabalha...",
+    "ini": 543.73,
+    "fim": 544.37,
+    "conf": 0.27
+   },
+   {
+    "p": "Você",
+    "ini": 544.99,
+    "fim": 545.13,
+    "conf": 0.29
+   },
+   {
+    "p": "não",
+    "ini": 545.13,
+    "fim": 545.27,
+    "conf": 0.39
+   },
+   {
+    "p": "gera",
+    "ini": 545.27,
+    "fim": 545.53,
+    "conf": 0.63
+   },
+   {
+    "p": "vida,",
+    "ini": 545.53,
+    "fim": 545.77,
+    "conf": 0.21
+   },
+   {
+    "p": "não",
+    "ini": 546.03,
+    "fim": 546.03,
+    "conf": 0.3
+   },
+   {
+    "p": "pode,",
+    "ini": 546.03,
+    "fim": 546.41,
+    "conf": 0.11
+   },
+   {
+    "p": "você",
+    "ini": 546.57,
+    "fim": 546.87,
+    "conf": 0.05
+   },
+   {
+    "p": "não",
+    "ini": 546.87,
+    "fim": 547.09,
+    "conf": 0.4
+   },
+   {
+    "p": "fica",
+    "ini": 547.09,
+    "fim": 547.25,
+    "conf": 0.04
+   },
+   {
+    "p": "assim,",
+    "ini": 547.25,
+    "fim": 547.47,
+    "conf": 0.79
+   },
+   {
+    "p": "vai",
+    "ini": 547.65,
+    "fim": 547.65,
+    "conf": 0.73
+   },
+   {
+    "p": "jogar",
+    "ini": 547.65,
+    "fim": 547.85,
+    "conf": 0.01
+   },
+   {
+    "p": "o",
+    "ini": 547.85,
+    "fim": 547.91,
+    "conf": 0.22
+   },
+   {
+    "p": "cabocinho,",
+    "ini": 547.91,
+    "fim": 548.45,
+    "conf": 0.62
+   },
+   {
+    "p": "tá?",
+    "ini": 548.93,
+    "fim": 549.05,
+    "conf": 0.98
+   },
+   {
+    "p": "Então,",
+    "ini": 549.55,
+    "fim": 549.93,
+    "conf": 0.93
+   },
+   {
+    "p": "tudo",
+    "ini": 549.97,
+    "fim": 550.19,
+    "conf": 0.99
+   },
+   {
+    "p": "isso",
+    "ini": 550.19,
+    "fim": 550.69,
+    "conf": 0.99
+   },
+   {
+    "p": "trouxe",
+    "ini": 551.71,
+    "fim": 552.15,
+    "conf": 0.73
+   },
+   {
+    "p": "o",
+    "ini": 552.15,
+    "fim": 552.37,
+    "conf": 0.99
+   },
+   {
+    "p": "resultado",
+    "ini": 552.37,
+    "fim": 552.73,
+    "conf": 1.0
+   },
+   {
+    "p": "que",
+    "ini": 552.73,
+    "fim": 552.83,
+    "conf": 0.99
+   },
+   {
+    "p": "você",
+    "ini": 552.83,
+    "fim": 553.09,
+    "conf": 1.0
+   },
+   {
+    "p": "tem",
+    "ini": 553.09,
+    "fim": 553.29,
+    "conf": 0.98
+   },
+   {
+    "p": "hoje.",
+    "ini": 553.29,
+    "fim": 553.67,
+    "conf": 1.0
+   }
+  ]
+ },
+ {
+  "de": 615.63,
+  "ate": 617.01,
+  "db": -26.3,
+  "texto": "Na volta...",
+  "palavras": [
+   {
+    "p": "Na",
+    "ini": 615.63,
+    "fim": 616.55,
+    "conf": 0.45
+   },
+   {
+    "p": "volta...",
+    "ini": 616.55,
+    "fim": 616.99,
+    "conf": 0.78
+   }
+  ]
+ },
+ {
+  "de": 630.47,
+  "ate": 635.3,
+  "db": -45.3,
+  "texto": "Só pra você falar que você é marabonista. É?",
+  "palavras": [
+   {
+    "p": "Só",
+    "ini": 630.47,
+    "fim": 631.45,
+    "conf": 0.47
+   },
+   {
+    "p": "pra",
+    "ini": 631.45,
+    "fim": 631.55,
+    "conf": 0.61
+   },
+   {
+    "p": "você",
+    "ini": 631.55,
+    "fim": 631.77,
+    "conf": 0.97
+   },
+   {
+    "p": "falar",
+    "ini": 631.77,
+    "fim": 632.15,
+    "conf": 1.0
+   },
+   {
+    "p": "que",
+    "ini": 632.15,
+    "fim": 632.33,
+    "conf": 0.81
+   },
+   {
+    "p": "você",
+    "ini": 632.33,
+    "fim": 632.49,
+    "conf": 0.9
+   },
+   {
+    "p": "é",
+    "ini": 632.49,
+    "fim": 632.67,
+    "conf": 1.0
+   },
+   {
+    "p": "marabonista.",
+    "ini": 632.67,
+    "fim": 633.63,
+    "conf": 0.69
+   },
+   {
+    "p": "É?",
+    "ini": 634.11,
+    "fim": 634.83,
+    "conf": 0.81
+   }
+  ]
+ },
+ {
+  "de": 660.86,
+  "ate": 664.67,
+  "db": -43.1,
+  "texto": "Agora o que eu vou trazer?",
+  "palavras": [
+   {
+    "p": "Agora",
+    "ini": 660.86,
+    "fim": 662.04,
+    "conf": 0.26
+   },
+   {
+    "p": "o",
+    "ini": 662.04,
+    "fim": 662.4,
+    "conf": 0.66
+   },
+   {
+    "p": "que",
+    "ini": 662.4,
+    "fim": 663.86,
+    "conf": 0.99
+   },
+   {
+    "p": "eu",
+    "ini": 663.86,
+    "fim": 664.02,
+    "conf": 0.95
+   },
+   {
+    "p": "vou",
+    "ini": 664.02,
+    "fim": 664.14,
+    "conf": 1.0
+   },
+   {
+    "p": "trazer?",
+    "ini": 664.14,
+    "fim": 664.44,
+    "conf": 0.99
+   }
+  ]
+ },
+ {
+  "de": 689.07,
+  "ate": 690.64,
+  "db": -44.9,
+  "texto": "Obrigada.",
+  "palavras": [
+   {
+    "p": "Obrigada.",
+    "ini": 689.07,
+    "fim": 690.07,
+    "conf": 0.36
+   }
+  ]
+ }
+]

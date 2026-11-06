@@ -1,0 +1,69 @@
+{
+ "arquivo": "IMG_1350",
+ "duracao": 10.11,
+ "segmentos": [
+  {
+   "ini": 1.65,
+   "fim": 2.91,
+   "texto": "Consecrada, viu?",
+   "palavras": [
+    {
+     "p": "Consecrada,",
+     "ini": 1.65,
+     "fim": 2.63,
+     "conf": 0.57
+    },
+    {
+     "p": "viu?",
+     "ini": 2.65,
+     "fim": 2.91,
+     "conf": 0.66
+    }
+   ]
+  },
+  {
+   "ini": 4.17,
+   "fim": 5.41,
+   "texto": "É necessário, mesmo.",
+   "palavras": [
+    {
+     "p": "É",
+     "ini": 4.17,
+     "fim": 4.39,
+     "conf": 0.91
+    },
+    {
+     "p": "necessário,",
+     "ini": 4.39,
+     "fim": 5.17,
+     "conf": 0.79
+    },
+    {
+     "p": "mesmo.",
+     "ini": 5.25,
+     "fim": 5.41,
+     "conf": 0.16
+    }
+   ]
+  },
+  {
+   "ini": 7.11,
+   "fim": 8.31,
+   "texto": "A sede.",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 7.11,
+     "fim": 7.45,
+     "conf": 0.71
+    },
+    {
+     "p": "sede.",
+     "ini": 7.45,
+     "fim": 8.31,
+     "conf": 0.51
+    }
+   ]
+  }
+ ]
+}

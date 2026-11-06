@@ -1,0 +1,92 @@
+{
+ "arquivo": "IMG_1349",
+ "duracao": 4.59,
+ "segmentos": [
+  {
+   "ini": 0.21,
+   "fim": 2.19,
+   "texto": "Mas eu sei, quase sem noção",
+   "palavras": [
+    {
+     "p": "Mas",
+     "ini": 0.21,
+     "fim": 0.31,
+     "conf": 0.07
+    },
+    {
+     "p": "eu",
+     "ini": 0.31,
+     "fim": 0.51,
+     "conf": 0.83
+    },
+    {
+     "p": "sei,",
+     "ini": 0.51,
+     "fim": 0.75,
+     "conf": 0.96
+    },
+    {
+     "p": "quase",
+     "ini": 0.93,
+     "fim": 1.27,
+     "conf": 0.94
+    },
+    {
+     "p": "sem",
+     "ini": 1.27,
+     "fim": 1.61,
+     "conf": 0.89
+    },
+    {
+     "p": "noção",
+     "ini": 1.61,
+     "fim": 2.19,
+     "conf": 0.82
+    }
+   ]
+  },
+  {
+   "ini": 2.19,
+   "fim": 4.33,
+   "texto": "De lugar mais de uma vez",
+   "palavras": [
+    {
+     "p": "De",
+     "ini": 2.19,
+     "fim": 2.85,
+     "conf": 0.13
+    },
+    {
+     "p": "lugar",
+     "ini": 2.85,
+     "fim": 3.19,
+     "conf": 0.09
+    },
+    {
+     "p": "mais",
+     "ini": 3.19,
+     "fim": 3.63,
+     "conf": 0.69
+    },
+    {
+     "p": "de",
+     "ini": 3.63,
+     "fim": 3.77,
+     "conf": 0.38
+    },
+    {
+     "p": "uma",
+     "ini": 3.77,
+     "fim": 3.91,
+     "conf": 0.99
+    },
+    {
+     "p": "vez",
+     "ini": 3.91,
+     "fim": 4.33,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

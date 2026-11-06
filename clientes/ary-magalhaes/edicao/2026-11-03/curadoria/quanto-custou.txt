@@ -1,0 +1,140 @@
+=== quanto-custou · 258.6s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_1041    0.97-   2.29  Agora, meu amor,
+[02]   1.32s  IMG_1041    2.41-   4.33  a maior dúvida de todas, viu?
+[03]   3.24s  IMG_1041    5.25-   8.33  Ari, quanto que você gastou pra
+[04]   6.32s  IMG_1041    8.66-  10.35  fazer esses procedimentos?
+[05]   8.01s  IMG_1041   11.07-  13.25  Bora lá, minhas maravilhosas.
+[06]  10.19s  IMG_1041   13.47-  14.21  só.
+[07]  10.93s  IMG_1041   19.40-  20.25  Primeiramente,
+[08]  11.78s  IMG_1041   20.56-  23.08  pra lembrar vocês que cada
+[09]  14.30s  IMG_1041   23.44-  25.93  cirurgia é única.
+[10]  16.79s  IMG_1041   26.15-  26.96  Então, assim,
+[11]  17.60s  IMG_1041   27.05-  30.67  pra você ter uma noção do quanto que você vai gastar,
+[12]  21.22s  IMG_1041   30.96-  35.30  Você precisa, primeiramente, ir pra uma consulta pra ver o que vai ser necessário pra você,
+[13]  25.56s  IMG_1041   35.67-  36.12  certo?
+[14]  26.01s  IMG_1041   36.71-  39.00  Como a questão da minha cirurgia era
+[15]  28.30s  IMG_1041   39.28-  41.82  uma cirurgia reparadora,
+[16]  30.84s  IMG_1041   41.89-  46.83  que não tinha tantas complicações, já tava tudo certo, tudo ok,
+[17]  35.78s  IMG_1041   47.29-  49.74  o meu gasto no total foi,
+[18]  38.23s  IMG_1041   50.53-  53.30  no total, isso incluindo a
+[19]  41.00s  IMG_1041   53.79-  56.47  cola cirúrgica, isso incluindo as
+[20]  43.68s  IMG_1041   56.73-  58.64  drenagens, Eu
+[21]  45.59s  IMG_1041   58.87-  61.16  gastei em torno de uns 40 mil.
+[22]  47.88s  IMG_1041   62.95-  63.53  Neste
+[23]  48.46s  IMG_1041   63.88-  64.92  tá?
+[24]  49.50s  IMG_1041   65.16-  67.63  O que eu tô gastando agora é
+[25]  51.97s  IMG_1041   68.00-  69.30  com aquelas
+[26]  53.27s  IMG_1041   69.70-  73.35  pomadinhas pra cicatrização, tá?
+[27]  56.92s  IMG_1041   73.53-  75.43  Que pasmem.
+[28]  58.82s  IMG_1041   76.53-  81.15  15 gramas eu tô achando assim por 215, 240.
+[29]  63.44s  IMG_1041   81.13-  83.83  Até 300 reais eu já achei dessa pomadinha, viu?
+[30]  66.14s  IMG_1041   85.39-  89.22  Enfim, mas a gente tem que fazer uma base de
+[31]  69.97s  IMG_1041   89.56-  90.66  um pré,
+[32]  71.07s  IMG_1041   91.00-  95.01  um durante e de um pós, tá? Se organizar nessa questão.
+[33]  75.08s  IMG_1041   95.13-  97.46  Porque a gente acha que é só a cirurgia em si,
+[34]  77.41s  IMG_1041   97.55- 101.54  mas a gente tem um gasto com exames,
+[35]  81.40s  IMG_1041  101.79- 103.09  com a consulta,
+[36]  82.70s  IMG_1041  103.27- 106.79  a gente tem um gasto com as roupas que a gente vai utilizar.
+[37]  86.22s  IMG_1041  106.85- 110.89  E o pós, então, que é a questão das drenagens,
+[38]  90.26s  IMG_1041  111.09- 112.81  as medicações,
+[39]  91.98s  IMG_1041  113.13- 116.74  certo? Hoje eu incluí na minha vida o pilates para
+[40]  95.59s  IMG_1041  117.04- 119.76  ajudar a fortalecer o meu core devido ao
+[41]  98.31s  IMG_1041  120.15- 122.37  fechamento da minha diástase.
+[42] 100.53s  IMG_1041  122.36- 123.00  Então, assim,   ⚠ começa com voz (-30/-39 dB)
+[43] 101.17s  IMG_1041  124.26- 127.73  a gente tem que calcular sempre se baseando em   ⚠ começa com voz (-23/-26 dB)
+[44] 104.64s  IMG_1041  128.06- 132.35  algo a mais. Porque o pós vai depender muito da
+[45] 108.93s  IMG_1041  132.58- 135.63  sua recuperação, vai depender muito da
+[46] 111.98s  IMG_1041  135.91- 137.87  sua teimosia, né,   ⚠ termina com voz (-33/-18 dB)
+[47] 113.94s  IMG_1041  137.86- 138.32  nega?   ⚠ começa com voz (-35/-19 dB)
+[48] 114.40s  IMG_1041  138.35- 141.26  Porque, assim, a gente tem que ter muita paciência, fazer
+[49] 117.31s  IMG_1041  141.49- 145.39  tudo certinho, tudo direitinho do jeito que a médica pede pra
+[50] 121.21s  IMG_1041  145.65- 147.21  gente não ter nenhuma complicação
+[51] 122.77s  IMG_1041  151.30- 155.47  esses gastos no total eu ainda tô tendo outros gastos porém
+[52] 126.94s  IMG_1041  155.74- 159.58  eu tô falando no geral na cirurgia em si, tá?
+[53] 130.78s  IMG_1041  159.99- 161.74  gastei em torno de uns 40 mil
+[54] 132.53s  IMG_1041  162.23- 163.40  lembrando que pra
+[55] 133.70s  IMG_1041  163.68- 167.57  vocês não pensarem que a Ari tá rica, não, tá não, nega porque
+[56] 137.59s  IMG_1041  168.01- 168.99  assim
+[57] 138.57s  IMG_1041  169.36- 171.76  trabalho pra caceta
+[58] 140.97s  IMG_1041  172.03- 174.60  pra quem me conhece de pertinho sabe e
+[59] 143.54s  IMG_1041  174.83- 175.90  assim, tudo
+[60] 144.61s  IMG_1041  176.13- 179.47  tem um planejamento tudo tem um objetivo tudo   ⚠ termina com voz (-18/-18 dB)
+[61] 147.95s  IMG_1041  180.97- 183.65  e assim, e prioridades   ⚠ começa com voz (-31/-25 dB)
+[62] 150.63s  IMG_1041  183.61- 184.20  há
+[63] 151.22s  IMG_1041  184.46- 187.32  muito tempo que eu queria fazer cirurgia, mas não era a minha prioridade então
+[64] 154.08s  IMG_1041  187.64- 193.22  quando eu me determinei a dizer essa minha prioridade
+[65] 159.66s  IMG_1041  193.71- 195.03  foi o que eu fiz
+[66] 160.98s  IMG_1041  195.57- 201.82  botei o foco que era aquilo que eu ia fazer e comecei a priorizar aquilo e pronto.
+[67] 167.23s  IMG_1041  202.59- 203.73  Foi simbora.
+[68] 168.37s  IMG_1041  203.95- 205.40  E digo a você mais, viu?
+[69] 169.82s  IMG_1041  205.67- 207.27  Se é o que você quer, é
+[70] 171.42s  IMG_1041  207.53- 209.15  o que você realmente almeja,
+[71] 173.04s  IMG_1041  209.56- 213.89  então priorize isso na sua vida. Priorize. A vida é feita de prioridades.
+[72] 177.37s  IMG_1041  214.26- 215.99  eu aprendi com uma grande amiga minha.
+[73] 179.10s  IMG_1041  222.69- 223.46  É.
+[74] 179.87s  IMG_1041  224.10- 228.49  E aí a pergunta que se fala, né? O Ari, mas foi 40 mil de uma vez?
+[75] 184.26s  IMG_1041  228.70- 230.60  No meu caso, não, tá?
+[76] 186.16s  IMG_1041  231.02- 237.47  Quando eu falei com a minha médica, A minha médica segurou o preço até o fim deste ano, tá?
+[77] 192.61s  IMG_1041  237.66- 243.93  E aí eu já tinha uma quantia guardada e comecei a perguntar a ela, né? Você pode perguntar ao seu médico
+[78] 198.88s  IMG_1041  244.37- 247.46  ele aceita você ir pagando,
+[79] 201.97s  IMG_1041  247.75- 251.11  que foi o que eu fiz, tá? No meu caso, eu achei melhor ir
+[80] 205.33s  IMG_1041  251.48- 252.96  pagando. Tipo,
+[81] 206.81s  IMG_1041  252.99- 254.80  arrumar o dinheiro do anestesista,   ⚠ termina com voz (-31/-29 dB)
+[82] 208.62s  IMG_1041  256.48- 258.63  da prótese, da equipe.
+[83] 210.77s  IMG_1041  258.81- 259.66  E assim,
+[84] 211.62s  IMG_1041  259.82- 262.01  até chegar no dia da cirurgia. Quando
+[85] 213.81s  IMG_1041  262.29- 267.41  eu fiz o pagamento completo, ficou só o do hospital.
+[86] 218.93s  IMG_1041  267.66- 269.24  Aí eu marquei minha cirurgia.
+[87] 220.51s  IMG_1041  269.54- 275.51  Marquei a minha cirurgia e deixei tudo alinhado com a médica.
+[88] 226.48s  IMG_1041  275.72- 278.21  no dia mesmo eu só fiquei pra pagar a
+[89] 228.97s  IMG_1041  278.58- 280.42  internação.
+[90] 230.81s  IMG_1041  288.41- 289.63  E aí, minha nega,
+[91] 232.03s  IMG_1041  290.07- 291.25  tirei sua dúvida.
+[92] 233.21s  IMG_1041  291.43- 292.48  Então,
+[93] 234.26s  IMG_1041  292.53- 295.67  pra você que deseja, pra você que almeja fazer
+[94] 237.40s  IMG_1041  295.94- 297.44  uma cirurgia também, Faça
+[95] 238.90s  IMG_1041  297.77- 298.81  o seguinte,
+[96] 239.94s  IMG_1041  298.85- 300.34  dê o primeiro passo,
+[97] 241.43s  IMG_1041  300.69- 304.31  marque a consulta com a sua médica, tá? Ou médico.
+[98] 245.05s  IMG_1041  304.69- 308.87  Veja, porque às vezes a gente acha que é algo muito fora
+[99] 249.23s  IMG_1041  309.23- 312.56  da casinha e às vezes não é. Vá,
+[100] 252.56s  IMG_1041  313.01- 316.09  procure saber pra você ter um norte pra poder começar
+[101] 255.64s  IMG_1041  316.48- 319.45  a guardar e realizar o seu sonho.
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Agora, meu amor, a maior dúvida de todas, viu? Ari, quanto que você gastou pra fazer esses procedimentos? Bora lá, minhas maravilhosas. Vejam só. Primeiramente, pra lembrar vocês que cada cirurgia é única. Então, assim, pra você ter uma noção do quanto que você vai gastar, você precisa, primeiramente, ir pra uma consulta pra ver o que vai ser necessário pra você, certo? Como a questão da minha cirurgia era uma cirurgia reparadora, que não tinha tantas complicações, já tava tudo certo, tudo ok, o meu gasto no total foi, no total, isso incluindo a cola cirúrgica, isso incluindo as drenagens, eu gastei em torno de uns 40 mil de babado, tá? O que eu tô gastando agora é com aquelas pomadinhas pra cicatrização, tá? Que pasmem. 15 gramas eu tô achando assim por 215, 240. Até 300 reais eu já achei dessa pomadinha, viu? Mas a gente tem que fazer uma base de um pré, de um durante e de um pós, tá? Se organizar nessa questão. Porque a gente acha que é só a cirurgia em si. Mas a gente tem um gasto com exames, com a consulta, a gente tem um gasto com as roupas que a gente vai utilizar. E o pós, então, que é a questão das drenagens, as medicações, certo? Hoje eu incluí na minha vida o pilates pra ajudar a fortalecer o meu core devido ao fechamento da minha diástase. Então, assim, a gente tem que calcular sempre se baseando em algo a mais. Porque o pós vai depender muito da sua recuperação. Vai depender muito da sua teimosia, né, nega? Porque assim, a gente tem que ter muita paciência. Fazer tudo certinho, tudo direitinho, do jeito que a médica pede. Pra gente não ter nenhuma complicação. Esses gastos no total. Eu ainda tô tendo outros gastos. Porém, eu tô falando no geral na cirurgia em si, tá? Gastei em torno de uns 40 mil. Lembrando que, pra vocês não pensarem que a área etária, rica. Não, tá não, nega. Porque assim, trabalho pra caceta. Pra quem me conhece pertinho sabe. E assim, tudo tem um planejamento, né? Tudo tem um objetivo. E assim, e prioridades. Há muito tempo que eu queria fazer a cirurgia, mas não era a minha prioridade. Então, quando eu me determinei a dizer, é essa minha prioridade, foi o que eu fiz. Botei o foco que era aquilo que eu ia fazer e comecei a priorizar aquilo e pronto, foi simbora e ligo a você mais, viu se é o que você quer, é o que você realmente almeja, então priorize isso na sua vida, priorize a vida é feita de prioridades, isso eu aprendi com uma grande amiga minha e aí a pergunta que se fala, né mas foi 40 mil de uma vez no meu caso não, tá quando eu falei com a minha médica a minha médica segurou o preço até o fim deste ano E aí eu já tinha uma quantia guardada e comecei a perguntar a ela, você pode perguntar ao seu médico, se ele aceita você ir pagando, que foi o que eu fiz. No meu caso, eu achei melhor ir pagando, tipo, arrumar o dinheiro anestesista, da prótese, da equipe, e assim até chegar no dia da cirurgia. Quando eu fiz o pagamento completo, ficou só o do hospital, aí eu marquei minha cirurgia. Marquei a minha cirurgia e deixei tudo alinhado com a médica. E no dia mesmo eu só fiquei pra pagar a internação. E aí, minha nega, tirei sua dúvida. Então, pra você que deseja, pra você que almeja fazer uma cirurgia também, Faça o seguinte, dê o primeiro passo, marque a consulta com a sua médica ou médico. Veja porque às vezes a gente acha que é algo muito fora da casinha e às vezes não é. Vá, procure saber para você ter um norte para poder começar a guardar e realizar o seu sonho.
+
+DIFERENÇAS E CORTES SUSPEITOS (31):
+trecho 42 (100.5s, IMG_1041 122.36s): começa com voz (-30/-39 dB)
+trecho 43 (101.2s, IMG_1041 124.26s): começa com voz (-23/-26 dB)
+trecho 46 (112.0s, IMG_1041 135.91s): termina com voz (-33/-18 dB)
+trecho 47 (113.9s, IMG_1041 137.86s): começa com voz (-35/-19 dB)
+trecho 60 (144.6s, IMG_1041 176.13s): termina com voz (-18/-18 dB)
+trecho 61 (147.9s, IMG_1041 180.97s): começa com voz (-31/-25 dB)
+trecho 81 (206.8s, IMG_1041 252.99s): termina com voz (-31/-29 dB)
+  10.6s  esperado «»  ouvido «Vejam»
+  47.9s  esperado «Neste»  ouvido «de babado,»
+  66.2s  esperado «Enfim,»  ouvido «»
+  71.3s  esperado «»  ouvido «de»
+  95.5s  esperado «para»  ouvido «pra»
+ 135.2s  esperado «Ari tá»  ouvido «área etária,»
+ 142.4s  esperado «de»  ouvido «»
+ 145.9s  esperado «»  ouvido «né?»
+ 147.0s  esperado «tudo»  ouvido «»
+ 152.3s  esperado «»  ouvido «a»
+ 157.0s  esperado «»  ouvido «é»
+ 168.8s  esperado «digo»  ouvido «ligo»
+ 177.7s  esperado «»  ouvido «isso»
+ 179.2s  esperado «É.»  ouvido «»
+ 182.0s  esperado «O Ari,»  ouvido «»
+ 192.2s  esperado «tá?»  ouvido «»
+ 197.4s  esperado «né?»  ouvido «»
+ 199.2s  esperado «»  ouvido «se»
+ 203.6s  esperado «tá?»  ouvido «»
+ 207.8s  esperado «do»  ouvido «»
+ 226.7s  esperado «»  ouvido «E»
+ 243.8s  esperado «tá?»  ouvido «»
+ 253.4s  esperado «pra»  ouvido «para»
+ 254.7s  esperado «pra»  ouvido «para»

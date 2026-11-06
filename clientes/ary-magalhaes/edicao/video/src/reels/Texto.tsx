@@ -17,7 +17,8 @@ export const Assinatura: React.FC<{ vis?: number; tamanho?: number }> = ({ vis =
 );
 
 // opção C: sombreado bem suave só atrás do bloco de texto (nada de faixa na tela)
-export const Veu: React.FC<{ x: number; y: number; w: number; h: number; vis?: number }> = ({ x, y, w, h, vis = 1 }) =>
+// forca > 1 só onde o fundo é claro e cheio (diária de 2026-11-03: corpo inteiro na cadeira, caneca estampada)
+export const Veu: React.FC<{ x: number; y: number; w: number; h: number; vis?: number; forca?: number }> = ({ x, y, w, h, vis = 1, forca = 1 }) =>
   TEMA.veu ? (
     <div
       style={{
@@ -26,7 +27,7 @@ export const Veu: React.FC<{ x: number; y: number; w: number; h: number; vis?: n
         top: y - h * 0.2,
         width: w * 1.3,
         height: h * 1.4,
-        background: "radial-gradient(ellipse at center, rgba(25,16,10,0.34) 0%, rgba(25,16,10,0.18) 45%, rgba(25,16,10,0) 72%)",
+        background: `radial-gradient(ellipse at center, rgba(25,16,10,${0.34 * forca}) 0%, rgba(25,16,10,${0.18 * forca}) 45%, rgba(25,16,10,0) 72%)`,
         filter: "blur(10px)",
         opacity: vis,
         pointerEvents: "none",

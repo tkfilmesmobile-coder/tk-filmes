@@ -1,0 +1,611 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "viralizar/bruto.mp4",
+ "legendaPos": "baixo",
+ "sombraBase": true,
+ "clipes": [
+  {
+   "id": "t01",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 355,
+   "zoom": 1.0
+  },
+  {
+   "id": "t02",
+   "trimBefore": 355,
+   "from": 355,
+   "durationInFrames": 344,
+   "zoom": 1.09
+  },
+  {
+   "id": "t03",
+   "trimBefore": 699,
+   "from": 699,
+   "durationInFrames": 216,
+   "zoom": 1.0
+  },
+  {
+   "id": "t04",
+   "trimBefore": 915,
+   "from": 915,
+   "durationInFrames": 725,
+   "zoom": 1.09
+  },
+  {
+   "id": "t05",
+   "trimBefore": 1640,
+   "from": 1640,
+   "durationInFrames": 593,
+   "zoom": 1.0
+  },
+  {
+   "id": "t06",
+   "trimBefore": 2233,
+   "from": 2233,
+   "durationInFrames": 426,
+   "zoom": 1.09
+  },
+  {
+   "id": "t07",
+   "trimBefore": 2659,
+   "from": 2659,
+   "durationInFrames": 280,
+   "zoom": 1.0
+  },
+  {
+   "id": "t08",
+   "trimBefore": 2939,
+   "from": 2939,
+   "durationInFrames": 440,
+   "zoom": 1.09
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "o que mais escuto:",
+     "fala": 3
+    },
+    {
+     "texto": "quero viralizar",
+     "fala": 37,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 54,
+   "durationInFrames": 56
+  },
+  {
+   "tipo": "frase",
+   "texto": "Será que viralizar chega no seu objetivo final?",
+   "pos": "baixo",
+   "fala": 130,
+   "from": 193,
+   "durationInFrames": 159
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "daqui de União",
+     "fala": 5
+    },
+    {
+     "texto": "viralizou",
+     "fala": 59,
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "pra outras cidades",
+     "fala": 162
+    }
+   ],
+   "forte": true,
+   "from": 395,
+   "durationInFrames": 307
+  },
+  {
+   "tipo": "cartao",
+   "pos": "baixo",
+   "linhas": [
+    {
+     "texto": "curtiu",
+     "atraso": 35,
+     "fala": 35,
+     "tom": "pos"
+    },
+    {
+     "texto": "comentou",
+     "atraso": 41,
+     "fala": 41,
+     "tom": "pos"
+    },
+    {
+     "texto": "comprou",
+     "atraso": 228,
+     "fala": 228,
+     "tom": "neg"
+    }
+   ],
+   "etiqueta": "o viral",
+   "from": 712,
+   "durationInFrames": 300
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "entretenimento",
+     "fala": 10
+    },
+    {
+     "texto": "≠ consumo",
+     "fala": 51,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 1113,
+   "durationInFrames": 87
+  },
+  {
+   "tipo": "sutil",
+   "texto": "público criterioso",
+   "from": 1416,
+   "durationInFrames": 117
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "viralizar",
+     "fala": 10
+    },
+    {
+     "texto": "não é o meio certo",
+     "fala": 26,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 1661,
+   "durationInFrames": 120
+  },
+  {
+   "tipo": "cartao",
+   "pos": "baixo",
+   "linhas": [
+    {
+     "texto": "o vídeo engraçado",
+     "atraso": 14,
+     "fala": 14,
+     "tom": "neg"
+    },
+    {
+     "texto": "o profissional certo",
+     "atraso": 103,
+     "fala": 103,
+     "tom": "pos"
+    }
+   ],
+   "etiqueta": "na hora de marcar",
+   "from": 1896,
+   "durationInFrames": 220
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "não é postar",
+     "fala": 10
+    },
+    {
+     "texto": "não é viralizar",
+     "fala": 51
+    },
+    {
+     "texto": "não é bombar",
+     "fala": 86
+    },
+    {
+     "texto": "é estratégia",
+     "fala": 107,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 2390,
+   "durationInFrames": 138
+  },
+  {
+   "tipo": "sutil",
+   "texto": "clientes qualificados",
+   "from": 2603,
+   "durationInFrames": 147
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "viralizar é sorte",
+     "fala": 32
+    },
+    {
+     "texto": "ser lembrado",
+     "fala": 83
+    },
+    {
+     "texto": "é constância",
+     "fala": 160,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 2756,
+   "durationInFrames": 176
+  },
+  {
+   "tipo": "chips",
+   "pos": "baixo",
+   "linhas": [
+    {
+     "texto": "1 · base sólida",
+     "atraso": 61,
+     "fala": 61,
+     "tom": "pos"
+    },
+    {
+     "texto": "2 · novos públicos",
+     "atraso": 249,
+     "fala": 249,
+     "tom": "pos"
+    }
+   ],
+   "from": 2938,
+   "durationInFrames": 266
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "uma pirâmide",
+     "fala": 12,
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "feita aos poucos",
+     "fala": 41
+    }
+   ],
+   "forte": true,
+   "from": 3224,
+   "durationInFrames": 75
+  },
+  {
+   "tipo": "logo",
+   "from": 3312,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 0,
+   "durationInFrames": 23,
+   "texto": "Se tem uma"
+  },
+  {
+   "from": 24,
+   "durationInFrames": 18,
+   "texto": "das coisas que"
+  },
+  {
+   "from": 43,
+   "durationInFrames": 8,
+   "texto": "eu"
+  },
+  {
+   "from": 112,
+   "durationInFrames": 6,
+   "texto": "Ah,"
+  },
+  {
+   "from": 119,
+   "durationInFrames": 13,
+   "texto": "eu queria muito"
+  },
+  {
+   "from": 133,
+   "durationInFrames": 17,
+   "texto": "viralizar,"
+  },
+  {
+   "from": 151,
+   "durationInFrames": 8,
+   "texto": "eu quero um"
+  },
+  {
+   "from": 160,
+   "durationInFrames": 24,
+   "texto": "vídeo bombado."
+  },
+  {
+   "from": 355,
+   "durationInFrames": 26,
+   "texto": "Pensa comigo."
+  },
+  {
+   "from": 388,
+   "durationInFrames": 4,
+   "texto": "Você"
+  },
+  {
+   "from": 1017,
+   "durationInFrames": 30,
+   "texto": "entenda uma coisa,"
+  },
+  {
+   "from": 1048,
+   "durationInFrames": 23,
+   "texto": "existe uma diferença"
+  },
+  {
+   "from": 1072,
+   "durationInFrames": 38,
+   "texto": "muito grande entre"
+  },
+  {
+   "from": 1205,
+   "durationInFrames": 16,
+   "texto": "pessoa que busca"
+  },
+  {
+   "from": 1222,
+   "durationInFrames": 27,
+   "texto": "o entretenimento,"
+  },
+  {
+   "from": 1250,
+   "durationInFrames": 26,
+   "texto": "ela não necessariamente"
+  },
+  {
+   "from": 1277,
+   "durationInFrames": 29,
+   "texto": "vai efetuar o"
+  },
+  {
+   "from": 1307,
+   "durationInFrames": 18,
+   "texto": "consumo em você."
+  },
+  {
+   "from": 1326,
+   "durationInFrames": 42,
+   "texto": "Principalmente se o"
+  },
+  {
+   "from": 1369,
+   "durationInFrames": 35,
+   "texto": "seu alvo é"
+  },
+  {
+   "from": 1405,
+   "durationInFrames": 8,
+   "texto": "um"
+  },
+  {
+   "from": 1533,
+   "durationInFrames": 15,
+   "texto": "qualidade,"
+  },
+  {
+   "from": 1554,
+   "durationInFrames": 26,
+   "texto": "a diferença que"
+  },
+  {
+   "from": 1581,
+   "durationInFrames": 26,
+   "texto": "o seu serviço,"
+  },
+  {
+   "from": 1608,
+   "durationInFrames": 15,
+   "texto": "o seu produto"
+  },
+  {
+   "from": 1624,
+   "durationInFrames": 16,
+   "texto": "oferece"
+  },
+  {
+   "from": 1641,
+   "durationInFrames": 17,
+   "texto": "A"
+  },
+  {
+   "from": 1785,
+   "durationInFrames": 27,
+   "texto": "Quando ela vai"
+  },
+  {
+   "from": 1813,
+   "durationInFrames": 30,
+   "texto": "marcar uma consulta,"
+  },
+  {
+   "from": 1844,
+   "durationInFrames": 12,
+   "texto": "por exemplo"
+  },
+  {
+   "from": 1857,
+   "durationInFrames": 29,
+   "texto": "Ela não vai"
+  },
+  {
+   "from": 1887,
+   "durationInFrames": 6,
+   "texto": "lembrar"
+  },
+  {
+   "from": 2118,
+   "durationInFrames": 18,
+   "texto": "vai encontrar no"
+  },
+  {
+   "from": 2137,
+   "durationInFrames": 20,
+   "texto": "consultório,"
+  },
+  {
+   "from": 2161,
+   "durationInFrames": 22,
+   "texto": "na loja,"
+  },
+  {
+   "from": 2184,
+   "durationInFrames": 46,
+   "texto": "no atendimento"
+  },
+  {
+   "from": 2237,
+   "durationInFrames": 20,
+   "texto": "Independente do que"
+  },
+  {
+   "from": 2258,
+   "durationInFrames": 9,
+   "texto": "seja"
+  },
+  {
+   "from": 2268,
+   "durationInFrames": 32,
+   "texto": "Então muitas vezes"
+  },
+  {
+   "from": 2301,
+   "durationInFrames": 18,
+   "texto": "o que falta"
+  },
+  {
+   "from": 2320,
+   "durationInFrames": 28,
+   "texto": "no seu conteúdo"
+  },
+  {
+   "from": 2349,
+   "durationInFrames": 38,
+   "texto": "não é simplesmente"
+  },
+  {
+   "from": 2532,
+   "durationInFrames": 18,
+   "texto": "Se o seu"
+  },
+  {
+   "from": 2551,
+   "durationInFrames": 28,
+   "texto": "intuito final é"
+  },
+  {
+   "from": 2580,
+   "durationInFrames": 20,
+   "texto": "trazer clientes"
+  },
+  {
+   "from": 3209,
+   "durationInFrames": 12,
+   "texto": "Tudo"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 90,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 453,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 939,
+   "durationInFrames": 22,
+   "escala": 1.14
+  },
+  {
+   "from": 1163,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 1686,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 2496,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 2914,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 3235,
+   "durationInFrames": 24,
+   "escala": 1.17
+  }
+ ],
+ "reenquadramentos": [
+  {
+   "from": 193,
+   "durationInFrames": 159,
+   "escala": 1.1
+  },
+  {
+   "from": 815,
+   "durationInFrames": 197,
+   "escala": 1.1
+  },
+  {
+   "from": 1416,
+   "durationInFrames": 117,
+   "escala": 1.12
+  },
+  {
+   "from": 2068,
+   "durationInFrames": 96,
+   "escala": 1.1
+  },
+  {
+   "from": 2532,
+   "durationInFrames": 222,
+   "escala": 1.1
+  },
+  {
+   "from": 2938,
+   "durationInFrames": 266,
+   "escala": 1.1
+  }
+ ]
+}

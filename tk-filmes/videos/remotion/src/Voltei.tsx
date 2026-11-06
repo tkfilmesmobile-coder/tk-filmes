@@ -57,7 +57,10 @@ type Figura =
   | { tipo: "chips"; from: number; durationInFrames: number; pos: "alto" | "baixo"; linhas: Linha[]; segue?: boolean }
   | { tipo: "fecho"; from: number; durationInFrames: number; titulo: string; sub?: string; fala?: number }
   // headline: palavras grandes, fonte arredondada, surgindo ATRÁS da cabeça (o rosto é recortado por cima), uma por vez
-  | { tipo: "headline"; from: number; durationInFrames: number; palavras: { texto: string; fala: number; cor?: string }[]; pessoa?: string; pos?: "alto" | "baixo" }
+  | { tipo: "headline"; from: number; durationInFrames: number; palavras: { texto: string; fala: number; cor?: string }[]; pessoa?: string; pos?: "alto" | "baixo"; forte?: boolean }
+  // feed: o perfil no celular, rolando rápido como quem passa o dedo; modo "barulho" = posts sem padrão nenhum.
+  // `sai` (frame relativo): o celular é jogado pra fora da tela ("o cliente vai embora")
+  | { tipo: "feed"; from: number; durationInFrames: number; fala: number; rotulo?: string; modo?: "barulho" | "limpo"; sai?: number }
   // palco: o fundo da sala vira um cenário da marca com um dado grande (contador + duas barras); a apresentadora
   // recortada (pessoa) diminui e vai pro canto direito. Inspirado nas landing pages com a protagonista recortada.
   | { tipo: "palco"; from: number; durationInFrames: number; pessoa: string; titulo: string; fonte: string; numero: number; unidade: string; sub: string; falaNumero: number; barras: { rotulo: string; valor: number; texto: string }[]; falaBarras: number }
@@ -336,8 +339,8 @@ const Cartao: React.FC<{ f: Extract<Figura, { tipo: "cartao" }>; rosto: Rosto | 
         const pl = usePulso(l.fala, frame, fps);
         return (
           <div key={i} style={{ ...PIL, transform: `scale(${(0.9 + 0.1 * e) * pl.escala})`, transformOrigin: "left center", opacity: e, borderColor: mistura("rgba(251,244,236,.28)", "rgba(227,180,140,.9)", pl.acende) }}>
-            {l.tom === "neg" ? <span style={{ fontFamily: inter, fontWeight: 700, fontSize: 24, color: "#E3B48C", lineHeight: 1 }}>✕</span> : <div style={{ width: 10, height: 10, borderRadius: 5, background: l.cor ?? "#E3B48C" }} />}
-            <span style={{ ...CAPS, fontSize: 26, color: l.cor ?? mistura("#FBF4EC", "#E3B48C", pl.acende), textDecoration: l.tom === "neg" ? "line-through" : "none", textDecorationColor: "rgba(227,180,140,.7)" }}>{l.texto}</span>
+            {l.tom === "neg" ? <span style={{ fontFamily: inter, fontWeight: 800, fontSize: 34, color: "#E3B48C", lineHeight: 1 }}>✕</span> : l.tom === "pos" ? <span style={{ fontFamily: inter, fontWeight: 800, fontSize: 32, color: "#E3B48C", lineHeight: 1 }}>✓</span> : <div style={{ width: 12, height: 12, borderRadius: 6, background: l.cor ?? "#E3B48C" }} />}
+            <span style={{ ...CAPS, fontSize: 34, fontWeight: 600, letterSpacing: ".18em", color: l.cor ?? mistura("#FBF4EC", "#E3B48C", pl.acende), textDecoration: l.tom === "neg" ? "line-through" : "none", textDecorationColor: "rgba(227,180,140,.8)", textDecorationThickness: 3 }}>{l.texto}</span>
           </div>
         );
       })}
@@ -355,8 +358,8 @@ const Chip: React.FC<{ l: Linha }> = ({ l }) => {
   const { escala, acende } = usePulso(l.fala, frame, fps);
   return (
     <div style={{ ...VIDRO, borderRadius: 999, padding: "16px 28px 16px 20px", display: "flex", alignItems: "center", gap: 16, transform: `scale(${(0.9 + 0.1 * e) * escala})`, transformOrigin: "left center", opacity: e, borderColor: mistura("rgba(251,244,236,.28)", "rgba(227,180,140,.9)", acende) }}>
-      <div style={{ width: 30, height: 30, borderRadius: 15, background: l.cor ?? "#CD9365", display: "grid", placeItems: "center", color: "#2a1a12", fontSize: 18, fontWeight: 800 }}>✓</div>
-      <span style={{ ...CAPS, fontSize: 28, color: mistura("#FBF4EC", "#E3B48C", acende) }}>{l.texto}</span>
+      <div style={{ width: 40, height: 40, borderRadius: 20, background: l.cor ?? "#CD9365", display: "grid", placeItems: "center", color: "#2a1a12", fontSize: 24, fontWeight: 800 }}>✓</div>
+      <span style={{ ...CAPS, fontSize: 34, fontWeight: 600, letterSpacing: ".18em", color: mistura("#FBF4EC", "#E3B48C", acende) }}>{l.texto}</span>
     </div>
   );
 };
@@ -410,12 +413,20 @@ const Headline: React.FC<{ f: Extract<Figura, { tipo: "headline" }>; rosto: Rost
   if (atual) {
     const fr = frame - atual.fala;
     const e = spring({ frame: fr, fps, config: { damping: 11, stiffness: 160 } });
-    const escala = interpolate(e, [0, 1], [1.22, 1]);
+    const escala = interpolate(e, [0, 1], [f.forte ? 1.6 : 1.22, 1]);
     // cabe sempre no quadro: o tamanho vem da largura da palavra (com folga pra escala de entrada)
-    const tamanho = Math.min(220, Math.floor((LARG_UTIL - 40) / (atual.texto.length * 0.6)));
+    const tamanho = Math.min(f.forte ? 250 : 220, Math.floor((LARG_UTIL - (f.forte && atual.cor ? 120 : 40)) / (atual.texto.length * 0.6)));
+    // forte: a palavra-chave (com cor) vira etiqueta caramelo com texto escuro, entra girando de leve e assenta
+    const etiqueta = f.forte && atual.cor;
+    const giro = f.forte ? interpolate(e, [0, 1], [-6, 0]) : 0;
     texto = (
-      <div style={{ position: "absolute", left: ZONA.esq, width: LARG_UTIL, top: yTexto - 115, textAlign: "center", fontFamily: redonda, fontWeight: 900, fontSize: tamanho, letterSpacing: "-0.02em", color: atual.cor ?? "#FBF4EC", textShadow: f.pos === "baixo" ? "0 6px 30px rgba(20,12,8,.55), 0 2px 8px rgba(20,12,8,.4)" : "0 6px 30px rgba(20,12,8,.35)", transform: `scale(${escala})`, opacity: e, textTransform: "uppercase", whiteSpace: "nowrap" }}>
-        {atual.texto}
+      <div style={{ position: "absolute", left: ZONA.esq, width: LARG_UTIL, top: yTexto - 115, textAlign: "center", transform: `scale(${escala}) rotate(${giro}deg)`, opacity: e }}>
+        <span style={{ display: "inline-block", fontFamily: redonda, fontWeight: 900, fontSize: tamanho, letterSpacing: "-0.02em", lineHeight: 1.08, textTransform: "uppercase", whiteSpace: "nowrap",
+          color: etiqueta ? "#2B1A14" : atual.cor ?? "#FBF4EC",
+          textShadow: etiqueta ? "none" : f.pos === "baixo" ? "0 6px 30px rgba(20,12,8,.6), 0 2px 8px rgba(20,12,8,.45)" : "0 6px 30px rgba(20,12,8,.35)",
+          ...(etiqueta ? { background: atual.cor, padding: "6px 34px 2px", borderRadius: 28, boxShadow: "0 18px 44px rgba(20,12,8,.45), 0 0 60px rgba(227,180,140,.35)" } : {}) }}>
+          {atual.texto}
+        </span>
       </div>
     );
   }
@@ -726,6 +737,68 @@ const Rolar: React.FC<{ f: Extract<Figura, { tipo: "rolar" }> }> = ({ f }) => {
   );
 };
 
+// Perfil no celular (2026-11-04, pedido da Talyta: "um feed rolando quando se fala do perfil"): cabeçalho com avatar e
+// números, grade 3×N rolando rápido (dedo passando), na faixa de baixo, sem cobrir o rosto. Modo "barulho": cada post de
+// um jeito (cores, tamanhos de texto e enfeites sem padrão). Em `sai`, o celular é jogado pra direita e some.
+const CORES_BARULHO = ["#E85D75", "#4FA3E0", "#F2C14E", "#7BC67E", "#B983FF", "#FF8A3D", "#2EC4B6", "#F15BB5", "#9B5DE5", "#00BBF9"];
+const Feed: React.FC<{ f: Extract<Figura, { tipo: "feed" }> }> = ({ f }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const entra = spring({ frame, fps, config: { damping: 15, stiffness: 130 } });
+  const fim = interpolate(frame, [f.durationInFrames - 8, f.durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const t = Math.max(0, frame - f.fala);
+  // rola em dois empurrões, como o dedo passando
+  const rol = interpolate(t, [0, 14, 22, 40], [0, 0.45, 0.5, 1], { extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
+  const joga = f.sai !== undefined ? spring({ frame: Math.max(0, frame - f.sai), fps, config: { damping: 14, stiffness: 90 } }) * (frame >= f.sai ? 1 : 0) : 0;
+  const W = 300, H = 470, cel = (W - 24 - 8) / 3, gap = 4, linhas = 14;
+  // do lado direito, abaixo do queixo: não cobre o rosto nem com o quadro aproximado
+  const left = ZONA.dir - W - 10, top = ZONA.base - 30 - H;
+  const barulho = f.modo === "barulho";
+  const total = 130 + linhas * (cel + gap);
+  return (
+    <>
+    <Sequence from={0} durationInFrames={20}><Audio src={staticFile("sfx/vidro.wav")} volume={0.3} /></Sequence>
+    <Sequence from={f.fala} durationInFrames={30}><Audio src={staticFile("sfx/sopro.wav")} volume={0.35} /></Sequence>
+    {f.sai !== undefined ? <Sequence from={f.sai} durationInFrames={30}><Audio src={staticFile("sfx/sopro.wav")} volume={0.45} /></Sequence> : null}
+    <div style={{ position: "absolute", left, top, width: W, opacity: entra * fim * (1 - joga * 0.9), transform: `translateY(${(1 - entra) * 60}px) translateX(${joga * 700}px) rotate(${joga * 18}deg)` }}>
+      {f.rotulo ? <div style={{ ...CAPS, fontSize: 20, color: "#FBF4EC", textAlign: "center", marginBottom: 14, textShadow: "0 2px 10px rgba(20,12,8,.5)" }}>{f.rotulo}</div> : null}
+      <div style={{ width: W, height: H, borderRadius: 44, background: "#FBF4EC", border: "7px solid #2B1A14", boxShadow: "0 30px 70px rgba(20,12,8,.5)", overflow: "hidden", position: "relative" }}>
+        <div style={{ position: "absolute", left: 12, right: 12, top: 0, transform: `translateY(${-(total - H + 40) * rol}px)` }}>
+          {/* cabeçalho do perfil */}
+          <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "26px 4px 10px" }}>
+            <div style={{ width: 58, height: 58, borderRadius: 29, background: barulho ? "conic-gradient(#E85D75,#F2C14E,#4FA3E0,#E85D75)" : "#CD9365", border: "3px solid #FBF4EC", boxShadow: "0 0 0 2px #CD9365" }} />
+            <div style={{ display: "flex", gap: 14, fontFamily: inter, color: "#2B1A14" }}>
+              {["128", "1.204", "380"].map((n, i) => <div key={i} style={{ textAlign: "center" }}><div style={{ fontSize: 17, fontWeight: 800 }}>{n}</div><div style={{ fontSize: 11, opacity: .6 }}>{["posts", "seguid.", "seguindo"][i]}</div></div>)}
+            </div>
+          </div>
+          <div style={{ height: 9, width: "70%", borderRadius: 5, background: "#d9cfc5", margin: "6px 4px" }} />
+          <div style={{ height: 9, width: "45%", borderRadius: 5, background: "#e6ddd4", margin: "6px 4px 14px" }} />
+          {/* grade de posts */}
+          {Array.from({ length: linhas }, (_, r) => (
+            <div key={r} style={{ display: "flex", gap, marginBottom: gap }}>
+              {[0, 1, 2].map((c) => {
+                const k = r * 3 + c;
+                const cor = barulho ? CORES_BARULHO[(k * 7 + r) % CORES_BARULHO.length] : ["#E3B48C", "#CD9365", "#EFE3D6", "#B97F55"][k % 4];
+                return (
+                  <div key={c} style={{ width: cel, height: cel, borderRadius: 3, background: cor, position: "relative", overflow: "hidden" }}>
+                    {barulho ? (
+                      <>
+                        <div style={{ position: "absolute", left: 6 + (k % 3) * 6, top: 8 + (k % 4) * 9, width: `${40 + (k * 13) % 45}%`, height: 6 + (k % 3) * 3, borderRadius: 3, background: k % 2 ? "#fff" : "#1b1b1b", opacity: .85 }} />
+                        <div style={{ position: "absolute", right: 6, bottom: 8, width: 14 + (k % 5) * 6, height: 14 + (k % 5) * 6, borderRadius: k % 2 ? 99 : 2, background: CORES_BARULHO[(k + 3) % CORES_BARULHO.length], transform: `rotate(${k * 23}deg)` }} />
+                      </>
+                    ) : <div style={{ position: "absolute", left: 8, bottom: 8, width: "55%", height: 5, borderRadius: 3, background: "#FBF4EC", opacity: .8 }} />}
+                  </div>
+                );
+              })}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+    </>
+  );
+};
+
 // Fecho da marca: o creme do papel sobe por cima do vídeo e a logo entra com mola, com o @ embaixo.
 const Logo: React.FC<{ f: Extract<Figura, { tipo: "logo" }> }> = ({ f }) => {
   const frame = useCurrentFrame();
@@ -1024,7 +1097,7 @@ const Celular: React.FC<{ f: Extract<Figura, { tipo: "celular" }> }> = ({ f }) =
       <Audio src={staticFile("sfx/vidro.wav")} volume={0.3} />
       {f.telas.map((t, i) => (i > 0 ? <Sequence key={i} from={t.fala} durationInFrames={12}><Audio src={staticFile("sfx/tique.wav")} volume={0.35} /></Sequence> : null))}
       {/* abaixo do queixo, à esquerda: não cobre o rosto; a tela é desenhada em 390 px e reduzida pra caber */}
-      <div style={{ position: "absolute", left: 66, top: 990, width: 330, height: 560, borderRadius: 46, background: "#141010", padding: 10, boxShadow: "0 40px 80px rgba(20,12,8,.5)", opacity: e * sai, transform: `translateX(${(1 - e) * -140}px) rotate(-3deg)` }}>
+      <div style={{ position: "absolute", left: 66, top: 1030, width: 330, height: 560, borderRadius: 46, background: "#141010", padding: 10, boxShadow: "0 40px 80px rgba(20,12,8,.5)", opacity: e * sai, transformOrigin: "top left", transform: `translateX(${(1 - e) * -140}px) rotate(-3deg) scale(.85)` }}>
         <div style={{ width: "100%", height: "100%", borderRadius: 38, background: "#ffffff", overflow: "hidden", position: "relative" }}>
           <div style={{ height: 34, display: "flex", alignItems: "center", justifyContent: "center" }}><div style={{ width: 90, height: 22, borderRadius: 11, background: "#141010" }} /></div>
           <div style={{ width: 390, transform: `scale(${310 / 390}) translateX(${(1 - troca) * 40}px)`, transformOrigin: "top left", opacity: troca }}>{tela}</div>
@@ -1047,6 +1120,7 @@ const FiguraNaTela: React.FC<{ f: Figura; rosto: Rosto | null; frameAbs: number;
   : f.tipo === "calendario" ? <Calendario f={f} rosto={rosto} frameAbs={frameAbs} transformVideo={transformVideo} grade={grade} />
   : f.tipo === "fixar" ? <Fixar f={f} />
   : f.tipo === "rolar" ? <Rolar f={f} />
+  : f.tipo === "feed" ? <Feed f={f} />
   : f.tipo === "logo" ? <Logo f={f} />
   : f.tipo === "assets" ? <Assets f={f} />
   : f.tipo === "comentario" ? <Comentario f={f} />

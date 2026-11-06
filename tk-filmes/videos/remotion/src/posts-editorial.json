@@ -1,0 +1,24 @@
+{
+ "barulho": {
+  "foto": "barulho.jpg", "recorte": "barulho-recorte.png", "foco": 33,
+  "perfil": { "x": 70, "y": 200, "nome": "tk.filmes", "foto": "avatar.jpg", "numeros": [["457", "seguidores"], ["82", "seguindo"]], "bio": ["Talyta Kumy | Filmmaker branding", "branding · direção · posicionamento"], "link": "kingpage.my.canva.site/potifoliomobile" },
+  "lado": { "x": 560, "y": 902, "largura": 460, "tam": 34, "linhas": [ [ { "t": "Postar por postar,", "forte": true } ], [ { "t": "sem intenção, ", "cor": "cinza" }, { "t": "é só", "forte": true } ] ] },
+  "serifa": { "x": 58, "y": 980, "linhas": ["barulho."], "tam": 236 },
+  "cantos": { "esquerda": ["direção de conteúdo", "estratégia 2026"], "direita": ["direção de conteúdo", "estratégia 2026"], "centro": "tk filmes" }
+ },
+ "viralizar": {
+  "foto": "viralizar-composto.jpg", "foco": 33, "escuro": { "topo": 0.2, "base": 0.5 },
+  "pilulas": { "y": 120, "itens": [ { "icone": "🎯", "texto": "Estratégia" }, { "icone": "🔁", "texto": "Constância" }, { "icone": "👑", "texto": "Autoridade" } ] },
+  "lado": { "x": 76, "y": 790, "largura": 700, "tam": 40, "linhas": [ [ { "t": "Viralizar é ", "forte": true }, { "t": "sorte.", "cor": "cinza" } ] ] },
+  "serifa": { "x": 60, "y": 840, "linhas": ["ser", "lembrado"], "tam": 200 },
+  "texto": { "y": 1190, "x": 78, "tam": 44, "linhas": [ [ { "t": "é constância.", "forte": true, "italico": true } ] ] },
+  "cantos": { "esquerda": ["@tk.filmes"], "direita": ["2026"], "centro": "tk filmes" }
+ },
+ "tempo": {
+  "foto": "tempo.jpg", "recorte": "tempo-recorte.png", "foco": 33,
+  "gigante": { "texto": "3h30", "y": 92, "tam": 290 },
+  "texto": { "y": 1000, "tam": 54, "linhas": [ [ { "t": "pra um vídeo de ", "cor": "cinza" }, { "t": "1 minuto.", "forte": true, "italico": true } ] ],
+   "sub": [ [ { "t": "Conversa, roteiro e intenção " }, { "t": "não aparecem no vídeo.", "cor": "cinza" } ], [ { "t": "Mas são eles que ", "cor": "cinza" }, { "t": "sustentam o resultado final." } ] ] },
+  "cantos": { "esquerda": ["@tk.filmes"], "direita": ["2026"], "centro": "tk filmes" }
+ }
+}

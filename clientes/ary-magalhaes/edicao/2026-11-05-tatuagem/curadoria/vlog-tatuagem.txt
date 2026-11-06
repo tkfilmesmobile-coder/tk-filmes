@@ -1,0 +1,61 @@
+=== vlog-tatuagem · 122.9s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_1345    0.58-   3.12  Vocês sabem que tatuada eu já sou, não sabem?
+[02]   2.54s  IMG_1345    3.88-   4.86  Mas,
+[03]   3.52s  IMG_1345    4.86-   5.82  quando a
+[04]   4.48s  IMG_1345    6.27-   8.86  pessoa não tem o que fazer, né, nega?
+[05]   7.07s  IMG_1345    9.68-  15.79  Enfim, há tempos que eu tava com desejo de finalizar a minha tatuagem das minhas costas.
+[06]  13.18s  IMG_1345   16.18-  17.48  Então, meu amor,
+[07]  14.48s  IMG_1345   17.54-  19.43  hoje eu preparei o dia de hoje somente
+[08]  16.37s  IMG_1345   19.84-  21.09  para isso.
+[09]  17.62s  IMG_1345   21.46-  25.71  Eu tenho, acho que basicamente, mais de 15 tatuas, eu não tenho noção mais.
+[10]  21.87s  IMG_1345   26.18-  28.34  Mas hoje eu vou fazer
+[11]  24.03s  IMG_1345   28.70-  32.46  A maior tatuagem que eu já fiz na vida Em um único dia
+[12]  27.79s  IMG_1345   32.50-  37.95  Eu já tinha feito um lado das minhas conchas Mas foi em dias diferentes Tempos diferentes E
+[13]  33.24s  IMG_1345   38.19-  39.14  hoje eu
+[14]  34.19s  IMG_1345   39.40-  40.53  vou fazer ela completa
+[15]  35.32s  IMG_1345   41.31-  44.46  Nervosa Estamos, lógico, sempre Mas
+[16]  38.47s  IMG_1345   44.74-  47.31  cada louco com a sua mania, né nega?
+[17]  41.04s  IMG_1345   47.53-  49.57  Bora sim, bora Bora lá, meu amor
+[18]  43.08s  IMG_1350    1.20-   5.70  Consecrada, viu? É necessário, mesmo.
+[19]  47.58s  IMG_1351    0.00-   4.70  vai ser mais rápido e não vai ser mais muito bom pra mim sim   ⚠ termina com voz (-31/-35 dB)
+[20]  52.28s  IMG_1358    0.50-   7.00     ⚠ volume baixo (-44 dB): pode ser voz de quem grava ou cochicho
+[21]  58.78s  IMG_1355   15.40-  21.60  Quanto tempo de tatuagem já? Olha aí a hora   ⚠ começa com voz (-36/-26 dB); termina com voz (-25/-28 dB)
+[22]  64.98s  IMG_1357    1.35-   4.59  O sofrimento da porra,
+[23]  68.22s  IMG_1357    5.23-  10.63  terminando a porra da série, vou terminar essa série, né, gente, a saga, sem dúvida,
+[24]  73.62s  IMG_1357   11.59-  12.96  e o sofrimento,
+[25]  74.99s  IMG_1357   13.36-  15.01  pra que que a gente inventa?
+[26]  76.64s  IMG_1357   15.28-  18.24  Me diga, minha amiga, senta a raquetinha,
+[27]  79.60s  IMG_1357   18.27-  19.92  me recuperando também,
+[28]  81.25s  IMG_1357   21.33-  26.00  aí achou pouco a recuperação da cirurgia, agora vai recuperar as costas, desse jeito,   ⚠ termina com voz (-39/-38 dB)
+[29]  85.92s  IMG_1360    0.00-   8.80  E assim ficou pronto.   ⚠ volume baixo (-42 dB): pode ser voz de quem grava ou cochicho
+[30]  94.72s  IMG_1361   21.00-  28.50     ⚠ volume baixo (-40 dB): pode ser voz de quem grava ou cochicho; começa com voz (-38/-39 dB)
+[31] 102.22s  IMG_1363    1.10-   4.20     ⚠ começa com voz (-37/-35 dB)
+[32] 105.32s  IMG_1366    0.00-  17.60  E aí
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Vocês sabem que tatuada eu já sou, não sabem? Mas, quando a pessoa não tem o que fazer, né, nega? Enfim, há tempos que eu tava com desejo de finalizar a minha tatuagem das minhas costas. Então, meu amor, hoje eu preparei o dia de hoje somente para isso. Eu tenho, acho que basicamente, mais de 15 tatuas, eu não tenho noção mais. Mas, hoje eu vou fazer a maior tatuagem que eu já fiz na vida, em um único dia. Eu já tinha feito um lado das minhas coxas Mas foi em dias diferentes Tempos diferentes E hoje vou fazer ela completa Nervosa estamos, lógico, sempre Mas cada louco com a sua mania, né nega? Bora sim, bora Bora lá, meu amor Consecrada, viu? É nessa cena, gente Quanto tempo de tatuagem já? Ih, eu lassei a perder. Olha aí a hora. Eu tenho um sofrimento. Terminando a porra da série, vou terminar esse sonho, gente. A saga. E o sofrimento? Pra que a gente inventa? Não diga, minha amiga. Eu não tava quietinha me recuperando também. Aí achou pouco a recuperação da cirurgia, agora vai recuperar as costas. Deu sucesso. Obrigado.
+
+DIFERENÇAS E CORTES SUSPEITOS (21):
+trecho 19 (47.6s, IMG_1351 0.00s): termina com voz (-31/-35 dB)
+trecho 20 (52.3s, IMG_1358 0.50s): volume baixo (-44 dB): pode ser voz de quem grava ou cochicho
+trecho 21 (58.8s, IMG_1355 15.40s): começa com voz (-36/-26 dB)
+trecho 21 (58.8s, IMG_1355 15.40s): termina com voz (-25/-28 dB)
+trecho 28 (81.2s, IMG_1357 21.33s): termina com voz (-39/-38 dB)
+trecho 29 (85.9s, IMG_1360 0.00s): volume baixo (-42 dB): pode ser voz de quem grava ou cochicho
+trecho 30 (94.7s, IMG_1361 21.00s): volume baixo (-40 dB): pode ser voz de quem grava ou cochicho
+trecho 30 (94.7s, IMG_1361 21.00s): começa com voz (-38/-39 dB)
+trecho 31 (102.2s, IMG_1363 1.10s): começa com voz (-37/-35 dB)
+  29.4s  esperado «conchas»  ouvido «coxas»
+  33.9s  esperado «eu»  ouvido «»
+  46.3s  esperado «necessário, mesmo. vai ser mais rápido e não vai ser mais muito bom pra mim sim»  ouvido «nessa cena, gente»
+  63.8s  esperado «»  ouvido «Ih, eu lassei a perder.»
+  65.0s  esperado «O»  ouvido «Eu tenho um»
+  67.3s  esperado «da porra,»  ouvido «»
+  71.0s  esperado «essa série, né,»  ouvido «esse sonho,»
+  72.9s  esperado «sem dúvida,»  ouvido «»
+  75.8s  esperado «que»  ouvido «»
+  77.1s  esperado «Me»  ouvido «Não»
+  78.3s  esperado «senta a raquetinha,»  ouvido «Eu não tava quietinha»
+  85.0s  esperado «desse jeito, E assim ficou pronto. E aí»  ouvido «Deu sucesso. Obrigado.»

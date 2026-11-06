@@ -1,0 +1,853 @@
+{
+ "arquivo": "IMG_1020",
+ "duracao": 52.84,
+ "segmentos": [
+  {
+   "ini": 0.43,
+   "fim": 6.19,
+   "texto": "O próximo modelo, meu amor, eu escolhi, não só pela estampa, mas pelo modelo também.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 0.43,
+     "fim": 0.95,
+     "conf": 0.36
+    },
+    {
+     "p": "próximo",
+     "ini": 0.95,
+     "fim": 1.61,
+     "conf": 0.98
+    },
+    {
+     "p": "modelo,",
+     "ini": 1.61,
+     "fim": 2.29,
+     "conf": 0.99
+    },
+    {
+     "p": "meu",
+     "ini": 2.37,
+     "fim": 2.59,
+     "conf": 0.95
+    },
+    {
+     "p": "amor,",
+     "ini": 2.59,
+     "fim": 2.85,
+     "conf": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 3.01,
+     "fim": 3.19,
+     "conf": 0.97
+    },
+    {
+     "p": "escolhi,",
+     "ini": 3.19,
+     "fim": 3.85,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 3.99,
+     "fim": 4.37,
+     "conf": 0.99
+    },
+    {
+     "p": "só",
+     "ini": 4.37,
+     "fim": 4.53,
+     "conf": 0.99
+    },
+    {
+     "p": "pela",
+     "ini": 4.53,
+     "fim": 4.73,
+     "conf": 0.82
+    },
+    {
+     "p": "estampa,",
+     "ini": 4.73,
+     "fim": 5.19,
+     "conf": 1.0
+    },
+    {
+     "p": "mas",
+     "ini": 5.19,
+     "fim": 5.47,
+     "conf": 0.99
+    },
+    {
+     "p": "pelo",
+     "ini": 5.47,
+     "fim": 5.67,
+     "conf": 0.94
+    },
+    {
+     "p": "modelo",
+     "ini": 5.67,
+     "fim": 5.91,
+     "conf": 0.99
+    },
+    {
+     "p": "também.",
+     "ini": 5.91,
+     "fim": 6.19,
+     "conf": 0.92
+    }
+   ]
+  },
+  {
+   "ini": 6.59,
+   "fim": 10.63,
+   "texto": "Confesso que fica um pouco veciosa com o tamanho do shop.",
+   "palavras": [
+    {
+     "p": "Confesso",
+     "ini": 6.59,
+     "fim": 7.15,
+     "conf": 0.87
+    },
+    {
+     "p": "que",
+     "ini": 7.15,
+     "fim": 7.91,
+     "conf": 0.97
+    },
+    {
+     "p": "fica",
+     "ini": 7.91,
+     "fim": 8.15,
+     "conf": 0.58
+    },
+    {
+     "p": "um",
+     "ini": 8.15,
+     "fim": 8.31,
+     "conf": 0.99
+    },
+    {
+     "p": "pouco",
+     "ini": 8.31,
+     "fim": 8.47,
+     "conf": 1.0
+    },
+    {
+     "p": "veciosa",
+     "ini": 8.47,
+     "fim": 9.23,
+     "conf": 0.67
+    },
+    {
+     "p": "com",
+     "ini": 9.23,
+     "fim": 9.53,
+     "conf": 0.72
+    },
+    {
+     "p": "o",
+     "ini": 9.53,
+     "fim": 9.61,
+     "conf": 1.0
+    },
+    {
+     "p": "tamanho",
+     "ini": 9.61,
+     "fim": 10.07,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 10.07,
+     "fim": 10.35,
+     "conf": 0.99
+    },
+    {
+     "p": "shop.",
+     "ini": 10.35,
+     "fim": 10.63,
+     "conf": 0.17
+    }
+   ]
+  },
+  {
+   "ini": 10.97,
+   "fim": 13.17,
+   "texto": "Eu curto mais shop aqui.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 10.97,
+     "fim": 11.21,
+     "conf": 0.76
+    },
+    {
+     "p": "curto",
+     "ini": 11.21,
+     "fim": 11.59,
+     "conf": 0.9
+    },
+    {
+     "p": "mais",
+     "ini": 11.59,
+     "fim": 11.99,
+     "conf": 0.99
+    },
+    {
+     "p": "shop",
+     "ini": 11.99,
+     "fim": 12.67,
+     "conf": 0.34
+    },
+    {
+     "p": "aqui.",
+     "ini": 12.67,
+     "fim": 13.17,
+     "conf": 0.16
+    }
+   ]
+  },
+  {
+   "ini": 14.21,
+   "fim": 17.49,
+   "texto": "Mas eu espero que não fique tão forte, né?",
+   "palavras": [
+    {
+     "p": "Mas",
+     "ini": 14.21,
+     "fim": 14.77,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 14.77,
+     "fim": 15.13,
+     "conf": 0.58
+    },
+    {
+     "p": "espero",
+     "ini": 15.13,
+     "fim": 15.95,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 15.95,
+     "fim": 16.23,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 16.23,
+     "fim": 16.39,
+     "conf": 0.96
+    },
+    {
+     "p": "fique",
+     "ini": 16.39,
+     "fim": 16.59,
+     "conf": 0.97
+    },
+    {
+     "p": "tão",
+     "ini": 16.59,
+     "fim": 16.85,
+     "conf": 0.72
+    },
+    {
+     "p": "forte,",
+     "ini": 16.85,
+     "fim": 17.07,
+     "conf": 0.1
+    },
+    {
+     "p": "né?",
+     "ini": 17.35,
+     "fim": 17.49,
+     "conf": 0.72
+    }
+   ]
+  },
+  {
+   "ini": 17.63,
+   "fim": 18.09,
+   "texto": "Vamos ver.",
+   "palavras": [
+    {
+     "p": "Vamos",
+     "ini": 17.63,
+     "fim": 17.79,
+     "conf": 0.71
+    },
+    {
+     "p": "ver.",
+     "ini": 17.79,
+     "fim": 18.09,
+     "conf": 0.87
+    }
+   ]
+  },
+  {
+   "ini": 19.09,
+   "fim": 27.23,
+   "texto": "Ó, a estampa dele que me chamou muita atenção foi que ele tem esse detalhe aqui, ó, da estilha nadador, tá?",
+   "palavras": [
+    {
+     "p": "Ó,",
+     "ini": 19.09,
+     "fim": 19.35,
+     "conf": 0.55
+    },
+    {
+     "p": "a",
+     "ini": 19.95,
+     "fim": 20.17,
+     "conf": 0.92
+    },
+    {
+     "p": "estampa",
+     "ini": 20.17,
+     "fim": 20.45,
+     "conf": 0.97
+    },
+    {
+     "p": "dele",
+     "ini": 20.45,
+     "fim": 20.89,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 20.89,
+     "fim": 21.17,
+     "conf": 0.8
+    },
+    {
+     "p": "me",
+     "ini": 21.17,
+     "fim": 21.53,
+     "conf": 1.0
+    },
+    {
+     "p": "chamou",
+     "ini": 21.53,
+     "fim": 21.81,
+     "conf": 1.0
+    },
+    {
+     "p": "muita",
+     "ini": 21.81,
+     "fim": 22.11,
+     "conf": 0.71
+    },
+    {
+     "p": "atenção",
+     "ini": 22.11,
+     "fim": 22.59,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 22.59,
+     "fim": 23.69,
+     "conf": 0.87
+    },
+    {
+     "p": "que",
+     "ini": 23.69,
+     "fim": 23.85,
+     "conf": 0.98
+    },
+    {
+     "p": "ele",
+     "ini": 23.85,
+     "fim": 24.01,
+     "conf": 0.8
+    },
+    {
+     "p": "tem",
+     "ini": 24.01,
+     "fim": 24.15,
+     "conf": 0.99
+    },
+    {
+     "p": "esse",
+     "ini": 24.15,
+     "fim": 24.29,
+     "conf": 1.0
+    },
+    {
+     "p": "detalhe",
+     "ini": 24.29,
+     "fim": 24.83,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui,",
+     "ini": 24.83,
+     "fim": 25.09,
+     "conf": 1.0
+    },
+    {
+     "p": "ó,",
+     "ini": 25.17,
+     "fim": 25.25,
+     "conf": 0.87
+    },
+    {
+     "p": "da",
+     "ini": 25.31,
+     "fim": 25.49,
+     "conf": 0.94
+    },
+    {
+     "p": "estilha",
+     "ini": 25.49,
+     "fim": 25.81,
+     "conf": 0.3
+    },
+    {
+     "p": "nadador,",
+     "ini": 25.81,
+     "fim": 26.37,
+     "conf": 0.62
+    },
+    {
+     "p": "tá?",
+     "ini": 27.05,
+     "fim": 27.23,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 27.85,
+   "fim": 28.55,
+   "texto": "Muito top.",
+   "palavras": [
+    {
+     "p": "Muito",
+     "ini": 27.85,
+     "fim": 28.17,
+     "conf": 0.98
+    },
+    {
+     "p": "top.",
+     "ini": 28.17,
+     "fim": 28.55,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 28.55,
+   "fim": 31.09,
+   "texto": "E eu tenho um estilo como se fosse um zíper",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 28.55,
+     "fim": 29.43,
+     "conf": 0.32
+    },
+    {
+     "p": "eu",
+     "ini": 29.43,
+     "fim": 29.57,
+     "conf": 0.61
+    },
+    {
+     "p": "tenho",
+     "ini": 29.57,
+     "fim": 29.65,
+     "conf": 0.93
+    },
+    {
+     "p": "um",
+     "ini": 29.65,
+     "fim": 29.85,
+     "conf": 0.88
+    },
+    {
+     "p": "estilo",
+     "ini": 29.85,
+     "fim": 30.01,
+     "conf": 0.94
+    },
+    {
+     "p": "como",
+     "ini": 30.01,
+     "fim": 30.27,
+     "conf": 0.28
+    },
+    {
+     "p": "se",
+     "ini": 30.27,
+     "fim": 30.41,
+     "conf": 0.99
+    },
+    {
+     "p": "fosse",
+     "ini": 30.41,
+     "fim": 30.59,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 30.59,
+     "fim": 30.75,
+     "conf": 0.99
+    },
+    {
+     "p": "zíper",
+     "ini": 30.75,
+     "fim": 31.09,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 31.09,
+   "fim": 33.13,
+   "texto": "E eu amei esse detalhe",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 31.09,
+     "fim": 31.69,
+     "conf": 0.44
+    },
+    {
+     "p": "eu",
+     "ini": 31.69,
+     "fim": 31.97,
+     "conf": 1.0
+    },
+    {
+     "p": "amei",
+     "ini": 31.97,
+     "fim": 32.37,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 32.37,
+     "fim": 32.55,
+     "conf": 0.98
+    },
+    {
+     "p": "detalhe",
+     "ini": 32.55,
+     "fim": 33.13,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 33.13,
+   "fim": 34.59,
+   "texto": "Amei, amei",
+   "palavras": [
+    {
+     "p": "Amei,",
+     "ini": 33.13,
+     "fim": 34.21,
+     "conf": 0.95
+    },
+    {
+     "p": "amei",
+     "ini": 34.29,
+     "fim": 34.59,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 34.59,
+   "fim": 37.97,
+   "texto": "E o chocinho, ele é muito gostoso",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 34.59,
+     "fim": 35.27,
+     "conf": 0.96
+    },
+    {
+     "p": "o",
+     "ini": 35.27,
+     "fim": 35.43,
+     "conf": 1.0
+    },
+    {
+     "p": "chocinho,",
+     "ini": 35.43,
+     "fim": 36.03,
+     "conf": 0.66
+    },
+    {
+     "p": "ele",
+     "ini": 36.27,
+     "fim": 36.57,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 36.57,
+     "fim": 36.71,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 36.71,
+     "fim": 37.11,
+     "conf": 1.0
+    },
+    {
+     "p": "gostoso",
+     "ini": 37.11,
+     "fim": 37.97,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 37.97,
+   "fim": 39.07,
+   "texto": "Muito chocinho",
+   "palavras": [
+    {
+     "p": "Muito",
+     "ini": 37.97,
+     "fim": 38.37,
+     "conf": 0.6
+    },
+    {
+     "p": "chocinho",
+     "ini": 38.37,
+     "fim": 39.07,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 39.07,
+   "fim": 41.03,
+   "texto": "Ele me lembra muito daquele chocinho",
+   "palavras": [
+    {
+     "p": "Ele",
+     "ini": 39.07,
+     "fim": 39.59,
+     "conf": 0.96
+    },
+    {
+     "p": "me",
+     "ini": 39.59,
+     "fim": 39.73,
+     "conf": 1.0
+    },
+    {
+     "p": "lembra",
+     "ini": 39.73,
+     "fim": 39.97,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 39.97,
+     "fim": 40.23,
+     "conf": 1.0
+    },
+    {
+     "p": "daquele",
+     "ini": 40.23,
+     "fim": 40.51,
+     "conf": 0.9
+    },
+    {
+     "p": "chocinho",
+     "ini": 40.51,
+     "fim": 41.03,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 41.03,
+   "fim": 42.69,
+   "texto": "Que a gente utiliza em banhos",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 41.03,
+     "fim": 41.23,
+     "conf": 0.77
+    },
+    {
+     "p": "a",
+     "ini": 41.23,
+     "fim": 41.35,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 41.35,
+     "fim": 41.43,
+     "conf": 1.0
+    },
+    {
+     "p": "utiliza",
+     "ini": 41.43,
+     "fim": 41.95,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 41.95,
+     "fim": 42.09,
+     "conf": 1.0
+    },
+    {
+     "p": "banhos",
+     "ini": 42.09,
+     "fim": 42.69,
+     "conf": 0.97
+    }
+   ]
+  },
+  {
+   "ini": 42.69,
+   "fim": 44.79,
+   "texto": "De praia, de piscina",
+   "palavras": [
+    {
+     "p": "De",
+     "ini": 42.69,
+     "fim": 43.43,
+     "conf": 0.82
+    },
+    {
+     "p": "praia,",
+     "ini": 43.43,
+     "fim": 44.03,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 44.03,
+     "fim": 44.23,
+     "conf": 0.12
+    },
+    {
+     "p": "piscina",
+     "ini": 44.23,
+     "fim": 44.79,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 44.79,
+   "fim": 45.95,
+   "texto": "Muito gostoso",
+   "palavras": [
+    {
+     "p": "Muito",
+     "ini": 44.79,
+     "fim": 45.37,
+     "conf": 0.99
+    },
+    {
+     "p": "gostoso",
+     "ini": 45.37,
+     "fim": 45.95,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 45.95,
+   "fim": 47.61,
+   "texto": "Bem geladinho",
+   "palavras": [
+    {
+     "p": "Bem",
+     "ini": 45.95,
+     "fim": 46.79,
+     "conf": 0.96
+    },
+    {
+     "p": "geladinho",
+     "ini": 46.79,
+     "fim": 47.61,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 47.61,
+   "fim": 50.11,
+   "texto": "E tem essas aberturas",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 47.61,
+     "fim": 48.77,
+     "conf": 0.98
+    },
+    {
+     "p": "tem",
+     "ini": 48.77,
+     "fim": 49.47,
+     "conf": 0.93
+    },
+    {
+     "p": "essas",
+     "ini": 49.47,
+     "fim": 49.69,
+     "conf": 0.95
+    },
+    {
+     "p": "aberturas",
+     "ini": 49.69,
+     "fim": 50.11,
+     "conf": 0.86
+    }
+   ]
+  },
+  {
+   "ini": 50.11,
+   "fim": 51.93,
+   "texto": "Mas já estamos juntos",
+   "palavras": [
+    {
+     "p": "Mas",
+     "ini": 50.11,
+     "fim": 50.59,
+     "conf": 0.01
+    },
+    {
+     "p": "já",
+     "ini": 50.59,
+     "fim": 51.31,
+     "conf": 0.57
+    },
+    {
+     "p": "estamos",
+     "ini": 51.31,
+     "fim": 51.55,
+     "conf": 0.28
+    },
+    {
+     "p": "juntos",
+     "ini": 51.55,
+     "fim": 51.93,
+     "conf": 0.46
+    }
+   ]
+  }
+ ]
+}

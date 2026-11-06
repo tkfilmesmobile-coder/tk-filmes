@@ -1,3 +1,19 @@
 ﻿[2026-10-28 08:27:59] início (teste, não publica)
 [2026-10-28 08:27:59] acesso do Instagram renovado (vale mais 60 dias)
 [2026-10-28 08:27:59] teste ok: carrossel (3), legenda 463 bytes, node v24.22.1
+[2026-10-29 12:00:04] início
+[2026-10-29 12:00:05] acesso do Instagram renovado (vale mais 60 dias)
+[2026-10-29 12:00:06] publicando carrossel (3) (tentativa 1)...
+Fazendo upload de 3 imagens pro catbox...
+  OK: 01.jpg
+  OK: 02.jpg
+  OK: 03.jpg
+Criando containers no Instagram...
+  OK: 18639846415002445
+  OK: 18639846493002445
+  OK: 18639846523002445
+Montando carrossel...
+Publicando...
+Publicado!
+Link: https://www.instagram.com/p/DfFR6Rvlne0/
+[2026-10-29 12:00:46] PUBLICADO: carrossel (3)

@@ -1,0 +1,138 @@
+[
+ {
+  "de": 14.11,
+  "ate": 16.51,
+  "db": -21.2,
+  "texto": "Primeiramente...",
+  "palavras": [
+   {
+    "p": "Primeiramente...",
+    "ini": 14.11,
+    "fim": 16.15,
+    "conf": 0.94
+   }
+  ]
+ },
+ {
+  "de": 18.51,
+  "ate": 20.09,
+  "db": -19.9,
+  "texto": "Primeiramente",
+  "palavras": [
+   {
+    "p": "Primeiramente",
+    "ini": 18.51,
+    "fim": 20.01,
+    "conf": 0.98
+   }
+  ]
+ },
+ {
+  "de": 60.99,
+  "ate": 62.99,
+  "db": -28.9,
+  "texto": "Um mês.",
+  "palavras": [
+   {
+    "p": "Um",
+    "ini": 62.39,
+    "fim": 62.75,
+    "conf": 0.08
+   },
+   {
+    "p": "mês.",
+    "ini": 62.75,
+    "fim": 62.93,
+    "conf": 0.27
+   }
+  ]
+ },
+ {
+  "de": 75.21,
+  "ate": 76.57,
+  "db": -42.2,
+  "texto": "Obrigado.",
+  "palavras": [
+   {
+    "p": "Obrigado.",
+    "ini": 75.21,
+    "fim": 75.37,
+    "conf": 0.45
+   }
+  ]
+ },
+ {
+  "de": 83.71,
+  "ate": 85.43,
+  "db": -25.8,
+  "texto": "Enfim.",
+  "palavras": [
+   {
+    "p": "Enfim.",
+    "ini": 83.71,
+    "fim": 85.15,
+    "conf": 0.95
+   }
+  ]
+ },
+ {
+  "de": 215.85,
+  "ate": 222.82,
+  "db": -28.9,
+  "texto": "Obrigada.",
+  "palavras": [
+   {
+    "p": "Obrigada.",
+    "ini": 215.85,
+    "fim": 217.77,
+    "conf": 0.51
+   }
+  ]
+ },
+ {
+  "de": 280.3,
+  "ate": 288.45,
+  "db": -41.0,
+  "texto": "E aí sua dúvida?",
+  "palavras": [
+   {
+    "p": "E",
+    "ini": 283.26,
+    "fim": 284.42,
+    "conf": 0.28
+   },
+   {
+    "p": "aí",
+    "ini": 284.42,
+    "fim": 285.58,
+    "conf": 0.75
+   },
+   {
+    "p": "sua",
+    "ini": 285.58,
+    "fim": 285.86,
+    "conf": 0.57
+   },
+   {
+    "p": "dúvida?",
+    "ini": 285.86,
+    "fim": 286.44,
+    "conf": 1.0
+   }
+  ]
+ },
+ {
+  "de": 319.37,
+  "ate": 320.79,
+  "db": -47.8,
+  "texto": "Perfeito.",
+  "palavras": [
+   {
+    "p": "Perfeito.",
+    "ini": 319.37,
+    "fim": 320.55,
+    "conf": 0.74
+   }
+  ]
+ }
+]

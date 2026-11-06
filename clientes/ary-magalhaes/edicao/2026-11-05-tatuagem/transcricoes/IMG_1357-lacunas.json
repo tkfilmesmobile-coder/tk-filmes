@@ -1,0 +1,30 @@
+[
+ {
+  "de": 0.0,
+  "ate": 1.39,
+  "db": -52.7,
+  "texto": "Música",
+  "palavras": [
+   {
+    "p": "Música",
+    "ini": 0.0,
+    "fim": 0.28,
+    "conf": 0.51
+   }
+  ]
+ },
+ {
+  "de": 32.13,
+  "ate": 37.23,
+  "db": -44.4,
+  "texto": "Obrigado.",
+  "palavras": [
+   {
+    "p": "Obrigado.",
+    "ini": 32.13,
+    "fim": 33.13,
+    "conf": 0.37
+   }
+  ]
+ }
+]

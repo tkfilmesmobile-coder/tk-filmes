@@ -51,6 +51,26 @@ comprova. Pessoa só entra identificada (ex.: "esposo") com confirmação.
   (cutícula fechando com a selagem, abrindo pra cor, pigmento entrando no córtex) em `src/reels/Fio.tsx`.
 - **Fecho:** foto da diária com a base escura, chamada em Bodoni + botão de contorno dourado "Me chama no WhatsApp".
 
+## Vídeos do perfil pessoal da Ary (Talyta, 2026-11-04, diária de 03/11)
+Conteúdo da vida dela (cirurgia, corpo, treino) vai pro **perfil pessoal**, não pro @cabelosmagalhaes. Nesses:
+- **Sem fecho de marca:** nada de cartão final, botão de WhatsApp ou chamada do salão. Termina na finalização que ela
+  gravou (se gravou); senão, na última fala.
+- **Caixinha de perguntas** (`src/reels/Caixinha.tsx`) igual à do Instagram, **sem foto de perfil**, sem enfeite.
+- **Pergunta e resposta: todas as perguntas e todas as respostas ficam.** Corta tentativa e direção, não conteúdo.
+- **Mais longo e detalhado** (3 a 6 min ok): a v1 com ~80 s foi recusada como "muito cortada". A trajetória dela pede
+  as fotos antigas (antes da vida fitness) em quantidade, como cartão ao lado da cabeça e em tela cheia.
+- Ferramentas novas no `montar.py` (`edicao/2026-11-03/`): `aperta()` tira só os silêncios internos ≥ 0,40 s (deixa 0,10 s
+  de cada lado), em vez de cortar frase; `inicioForcado` no trecho quando a 1ª palavra vaza; `lacunas.py` retranscreve
+  sem filtro de silêncio os buracos da transcrição, pra achar finalização escondida.
+- Legenda do post no tom pessoal: sem "agende seu horário", fecha com conversa ("ficou alguma dúvida?").
+- **Sem post fixo de imagem** (a regra do post fixo vale só pros reels do salão; Talyta, 2026-11-04).
+- **Vlog** (tatuagem, 2026-11-06; `edicao/2026-11-05-tatuagem/`): sem título, legenda ou efeito (`semLegenda`, `headline: null`).
+  Toda fala entra **inteira e no nível da voz**, inclusive a de quem está por trás da câmera (o filho) e a conversa no meio
+  da cena; take só com som de máquina fica curto (≤ 4 s) ou vira B-roll por cima da fala; som do estúdio com fade de
+  0,12/0,18 s entre takes. A v1 foi recusada por "takes entrando aleatoriamente com o som natural". A máquina de tatuagem
+  derruba a transcrição: limpar o áudio (ffmpeg do Edvid, `afftdn` + passa-banda) e conferir em janelas de 6 s com
+  large-v3, medium e turbo; frase que só um modelo "ouve" (ou que repete o prompt) é alucinação.
+
 ## Som
 - **Sem trilha.** Só a voz dela nivelada (−20 dBFS na fala) e efeitos macios sintetizados (`video/scripts/gerar_sfx.py`):
   varrida no B-roll, pop no cartão, whoosh curto no zoom, cascata ao fechar a cutícula, brilho, sopro do pigmento,

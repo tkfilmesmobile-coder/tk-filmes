@@ -1,3 +1,47 @@
 ﻿[2026-10-28 08:28:00] início (teste, não publica)
 [2026-10-28 08:28:00] acesso do Instagram renovado (vale mais 60 dias)
 [2026-10-28 08:28:00] teste ok: foto, legenda 333 bytes, node v24.22.1
+[2026-10-31 15:02:29] início
+[2026-10-31 15:02:34] acesso do Instagram renovado (vale mais 60 dias)
+[2026-10-31 15:02:36] publicando foto (tentativa 1)...
+Fazendo upload da imagem pro catbox...
+  OK: 01.jpg
+
+Criando container...
+node.exe : Container: User access is restricted
+No C:\Users\kumyt\Documents\Projeto TK FILMES\TK 
+FILMES\clientes\ary-magalhaes\modelos\publicar-agendado-pc-kumyt.ps1:53 caractere:13
++   $saida = (& $node --env-file=.env $js --conta $conta @args1 --capti ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Container: User access is restricted:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-31 15:04:12] publicando foto (tentativa 2)...
+Fazendo upload da imagem pro catbox...
+  OK: 01.jpg
+
+Criando container...
+node.exe : Container: User access is restricted
+No C:\Users\kumyt\Documents\Projeto TK FILMES\TK 
+FILMES\clientes\ary-magalhaes\modelos\publicar-agendado-pc-kumyt.ps1:53 caractere:13
++   $saida = (& $node --env-file=.env $js --conta $conta @args1 --capti ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Container: User access is restricted:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[2026-10-31 15:05:45] publicando foto (tentativa 3)...
+Fazendo upload da imagem pro catbox...
+  OK: 01.jpg
+
+Criando container...
+node.exe : Container: User access is restricted
+No C:\Users\kumyt\Documents\Projeto TK FILMES\TK 
+FILMES\clientes\ary-magalhaes\modelos\publicar-agendado-pc-kumyt.ps1:53 caractere:13
++   $saida = (& $node --env-file=.env $js --conta $conta @args1 --capti ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Container: User access is restricted:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+

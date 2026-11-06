@@ -1,0 +1,344 @@
+{
+ "arquivo": "IMG_1357",
+ "duracao": 37.23,
+ "segmentos": [
+  {
+   "ini": 1.39,
+   "fim": 14.93,
+   "texto": "O sofrimento da porra, terminando a porra da série, vou terminar essa série, né, gente, a saga, sem dúvida, e o sofrimento, pra que que a gente inventa?",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 1.39,
+     "fim": 2.27,
+     "conf": 0.03
+    },
+    {
+     "p": "sofrimento",
+     "ini": 2.27,
+     "fim": 3.65,
+     "conf": 0.81
+    },
+    {
+     "p": "da",
+     "ini": 3.65,
+     "fim": 3.87,
+     "conf": 0.43
+    },
+    {
+     "p": "porra,",
+     "ini": 3.87,
+     "fim": 4.43,
+     "conf": 0.93
+    },
+    {
+     "p": "terminando",
+     "ini": 5.27,
+     "fim": 6.09,
+     "conf": 0.96
+    },
+    {
+     "p": "a",
+     "ini": 6.09,
+     "fim": 6.21,
+     "conf": 0.95
+    },
+    {
+     "p": "porra",
+     "ini": 6.21,
+     "fim": 6.55,
+     "conf": 0.98
+    },
+    {
+     "p": "da",
+     "ini": 6.55,
+     "fim": 6.67,
+     "conf": 0.98
+    },
+    {
+     "p": "série,",
+     "ini": 6.67,
+     "fim": 7.07,
+     "conf": 0.89
+    },
+    {
+     "p": "vou",
+     "ini": 7.35,
+     "fim": 7.57,
+     "conf": 0.71
+    },
+    {
+     "p": "terminar",
+     "ini": 7.57,
+     "fim": 7.99,
+     "conf": 0.99
+    },
+    {
+     "p": "essa",
+     "ini": 7.99,
+     "fim": 8.21,
+     "conf": 0.9
+    },
+    {
+     "p": "série,",
+     "ini": 8.21,
+     "fim": 8.57,
+     "conf": 0.98
+    },
+    {
+     "p": "né,",
+     "ini": 8.77,
+     "fim": 8.77,
+     "conf": 0.19
+    },
+    {
+     "p": "gente,",
+     "ini": 8.83,
+     "fim": 8.91,
+     "conf": 0.96
+    },
+    {
+     "p": "a",
+     "ini": 9.01,
+     "fim": 9.15,
+     "conf": 0.71
+    },
+    {
+     "p": "saga,",
+     "ini": 9.15,
+     "fim": 9.65,
+     "conf": 0.98
+    },
+    {
+     "p": "sem",
+     "ini": 9.87,
+     "fim": 10.11,
+     "conf": 0.54
+    },
+    {
+     "p": "dúvida,",
+     "ini": 10.11,
+     "fim": 10.33,
+     "conf": 0.61
+    },
+    {
+     "p": "e",
+     "ini": 11.63,
+     "fim": 11.87,
+     "conf": 0.84
+    },
+    {
+     "p": "o",
+     "ini": 11.87,
+     "fim": 11.99,
+     "conf": 0.9
+    },
+    {
+     "p": "sofrimento,",
+     "ini": 11.99,
+     "fim": 12.69,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 13.43,
+     "fim": 14.01,
+     "conf": 0.66
+    },
+    {
+     "p": "que",
+     "ini": 14.01,
+     "fim": 14.15,
+     "conf": 0.66
+    },
+    {
+     "p": "que",
+     "ini": 14.15,
+     "fim": 14.25,
+     "conf": 0.45
+    },
+    {
+     "p": "a",
+     "ini": 14.25,
+     "fim": 14.31,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 14.31,
+     "fim": 14.45,
+     "conf": 1.0
+    },
+    {
+     "p": "inventa?",
+     "ini": 14.45,
+     "fim": 14.93,
+     "conf": 0.9
+    }
+   ]
+  },
+  {
+   "ini": 15.73,
+   "fim": 32.13,
+   "texto": "Me diga, minha amiga, senta a raquetinha, me recuperando também, aí achou pouco a recuperação da cirurgia, agora vai recuperar as costas, desse jeito, é isso.",
+   "palavras": [
+    {
+     "p": "Me",
+     "ini": 15.73,
+     "fim": 15.91,
+     "conf": 0.68
+    },
+    {
+     "p": "diga,",
+     "ini": 15.91,
+     "fim": 16.21,
+     "conf": 0.98
+    },
+    {
+     "p": "minha",
+     "ini": 16.27,
+     "fim": 16.39,
+     "conf": 0.99
+    },
+    {
+     "p": "amiga,",
+     "ini": 16.39,
+     "fim": 16.73,
+     "conf": 0.99
+    },
+    {
+     "p": "senta",
+     "ini": 16.99,
+     "fim": 17.31,
+     "conf": 0.91
+    },
+    {
+     "p": "a",
+     "ini": 17.31,
+     "fim": 17.37,
+     "conf": 0.38
+    },
+    {
+     "p": "raquetinha,",
+     "ini": 17.37,
+     "fim": 17.93,
+     "conf": 0.96
+    },
+    {
+     "p": "me",
+     "ini": 18.31,
+     "fim": 18.53,
+     "conf": 0.95
+    },
+    {
+     "p": "recuperando",
+     "ini": 18.53,
+     "fim": 19.01,
+     "conf": 0.81
+    },
+    {
+     "p": "também,",
+     "ini": 19.01,
+     "fim": 19.27,
+     "conf": 0.45
+    },
+    {
+     "p": "aí",
+     "ini": 21.37,
+     "fim": 21.53,
+     "conf": 0.7
+    },
+    {
+     "p": "achou",
+     "ini": 21.53,
+     "fim": 21.83,
+     "conf": 0.95
+    },
+    {
+     "p": "pouco",
+     "ini": 21.83,
+     "fim": 22.01,
+     "conf": 0.65
+    },
+    {
+     "p": "a",
+     "ini": 22.01,
+     "fim": 22.13,
+     "conf": 0.94
+    },
+    {
+     "p": "recuperação",
+     "ini": 22.13,
+     "fim": 22.67,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 22.67,
+     "fim": 22.83,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia,",
+     "ini": 22.83,
+     "fim": 23.37,
+     "conf": 1.0
+    },
+    {
+     "p": "agora",
+     "ini": 23.49,
+     "fim": 23.67,
+     "conf": 0.96
+    },
+    {
+     "p": "vai",
+     "ini": 23.67,
+     "fim": 23.83,
+     "conf": 0.94
+    },
+    {
+     "p": "recuperar",
+     "ini": 23.83,
+     "fim": 24.29,
+     "conf": 1.0
+    },
+    {
+     "p": "as",
+     "ini": 24.29,
+     "fim": 24.47,
+     "conf": 1.0
+    },
+    {
+     "p": "costas,",
+     "ini": 24.47,
+     "fim": 24.93,
+     "conf": 0.95
+    },
+    {
+     "p": "desse",
+     "ini": 25.05,
+     "fim": 25.33,
+     "conf": 0.96
+    },
+    {
+     "p": "jeito,",
+     "ini": 25.33,
+     "fim": 25.93,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 31.53,
+     "fim": 31.77,
+     "conf": 0.75
+    },
+    {
+     "p": "isso.",
+     "ini": 31.77,
+     "fim": 32.13,
+     "conf": 0.99
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "arquivo": "IMG_1363",
+ "duracao": 4.24,
+ "segmentos": [
+  {
+   "ini": 0.0,
+   "fim": 1.06,
+   "texto": "abecia você, velho.",
+   "palavras": [
+    {
+     "p": "abecia",
+     "ini": 0.0,
+     "fim": 0.36,
+     "conf": 0.51
+    },
+    {
+     "p": "você,",
+     "ini": 0.36,
+     "fim": 0.68,
+     "conf": 0.97
+    },
+    {
+     "p": "velho.",
+     "ini": 0.78,
+     "fim": 1.06,
+     "conf": 0.91
+    }
+   ]
+  }
+ ]
+}

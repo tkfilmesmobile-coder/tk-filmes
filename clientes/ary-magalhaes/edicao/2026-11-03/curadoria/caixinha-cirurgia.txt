@@ -1,0 +1,90 @@
+=== caixinha-cirurgia · 202.3s
+
+TRECHOS (o que foi escolhido do bruto):
+[01]   0.00s  IMG_6717    0.52-   2.87  Minha gente, eu tô passada, viu?
+[02]   2.35s  IMG_6717    2.80-   4.89  Que eu coloquei uma enquete pra
+[03]   4.44s  IMG_6717    5.11-  13.29  vocês responderem sobre a questão da minha cirurgia, dos meus procedimentos cirúrgicos. Quem tem curiosidade ou não, e vocês bombaram, viu?
+[04]  12.62s  IMG_6717   15.05-  16.08  95 % queriam   ⚠ começa com voz (-32/-24 dB)
+[05]  13.65s  IMG_6717   16.34-  17.77  que
+[06]  15.08s  IMG_6717   18.36-  20.00  eu falasse um pouco sobre o
+[07]  16.72s  IMG_6717   20.26-  26.21  meu prêmio, pós, enfim, tudo o que aconteceu e o que foi que eu realmente fiz.
+[08]  22.67s  IMG_6717   26.64-  27.97  Então, bora lá, né?
+[09]  24.00s  IMG_1040    0.00-   2.14  Minha nega, vem cá pra eu te contar um negócio.
+[10]  26.14s  IMG_1040    2.42-   5.13  Depois que eu fiz a cirurgia,
+[11]  28.85s  IMG_1040    6.06-  11.91  o que foi de pergunta sobre essa bonita não tá no gibinho?
+[12]  34.70s  IMG_1040   12.52-  17.18  O que foi que foi feito? O que é que ela fez? Ela botou o peito, ela tirou o peito,
+[13]  39.36s  IMG_1040   17.23-  19.71  ela levantou os couro, levantou os... Enfim,
+[14]  41.84s  IMG_1040   20.06-  23.90  foi um monte de especulações e de perguntas
+[15]  45.68s  IMG_1040   24.42-  29.35  que eu separei tudo pra responder todo mundo já por aqui, porque fica
+[16]  50.61s  IMG_1040   29.84-  33.78  melhor, né? Assim esclarece tudo pra todo mundo e tira as dúvidas de
+[17]  54.55s  IMG_1040   34.15-  35.67  quem realmente está
+[18]  56.07s  IMG_1040   35.95-  40.33  em dúvida de fazer ou não algum procedimento cirúrgico.
+[19]  60.45s  IMG_1040   62.39-  65.62  Bora lá. A primeira dívida me perguntou aqui se
+[20]  63.68s  IMG_1040   65.88-  71.82  o meu procedimento foi feito por estética ou por saúde.
+[21]  69.62s  IMG_1040   72.85-  73.55  Enfim,
+[22]  70.32s  IMG_1040   73.84-  74.09  os   ⚠ volume baixo (-50 dB): pode ser voz de quem grava ou cochicho
+[23]  70.57s  IMG_1040   74.35-  75.18  dois,
+[24]  71.40s  IMG_1040   75.23-  75.98  ambos.
+[25]  72.15s  IMG_1040   76.23-  77.59  Por quê? porque era
+[26]  73.51s  IMG_1040   77.81-  80.23  algo que eu queria fazer muito, né?
+[27]  75.93s  IMG_1040   80.54-  84.26  já estava me organizando, me programando para
+[28]  79.65s  IMG_1040   84.51-  88.20  fazer a minha cirurgia da mama,
+[29]  83.34s  IMG_1040   88.35-  89.90  que era algo que me
+[30]  84.89s  IMG_1040   90.15-  96.33  incomodava muito. E por eu ter passado pelas duas gestações,
+[31]  91.07s  IMG_1040   96.31- 111.73  pelo processo de emagrecimento, eu realmente fiquei sem nada, só ficou mesmo pele. E aí me incomodava bastante, era algo que eu almejava, mas não era algo que eu almejava para agora,
+[32] 106.49s  IMG_1040  112.21- 113.71  era algo lá na frente.
+[33] 107.99s  IMG_1040  113.69- 118.19  E enfim, fui em busca para saber valores,
+[34] 112.49s  IMG_1040  118.19- 123.61  saber como é que ia ser o procedimento, e devido a alguns exames
+[35] 117.91s  IMG_1040  123.96- 125.58  e
+[36] 119.53s  IMG_1040  125.92- 128.73  também alguns incômodos, depois que eu comecei
+[37] 122.34s  IMG_1040  129.00- 131.00  a vida de corrida,
+[38] 124.34s  IMG_1040  131.36- 134.32  descobri a minha hernia umbilical, né?
+[39] 127.30s  IMG_1040  134.81- 136.28  Que aí foi feito um
+[40] 128.77s  IMG_1040  136.54- 138.49  pacote,
+[41] 130.72s  IMG_1040  138.77- 140.79  eu precisaria parar pra
+[42] 132.74s  IMG_1040  141.31- 143.82  retirar essa hernia, porque estava me incomodando.
+[43] 135.25s  IMG_1040  144.07- 145.76  Então, já que eu iria parar,
+[44] 136.94s  IMG_1040  146.05- 147.91  então eu fizesse logo uma coisa só.
+[45] 138.80s  IMG_1040  148.29- 152.34  Por este motivo que eu cheguei a fazer a
+[46] 142.85s  IMG_1040  152.61- 154.31  minha cirurgia em agosto.
+[47] 144.55s  IMG_1040  162.32- 163.88  outra pergunta foi,
+[48] 146.11s  IMG_1040  164.25- 165.04  
+[49] 146.90s  IMG_1040  165.10- 168.39  quais foram os procedimentos que você fez?
+[50] 150.19s  IMG_1040  168.92- 169.89  Bora lá.
+[51] 151.16s  IMG_1040  171.12- 175.38  Eu fiz uma mastopexia com prótese,
+[52] 155.42s  IMG_1040  175.50- 180.16  tá? A princípio eu não queria prótese, eu só queria mesmo fazer a mamoplastia. E
+[53] 160.08s  IMG_1040  180.41- 181.56  aí a gente,
+[54] 161.23s  IMG_1040  181.54- 184.60  em conversa com a médica, viu que não teria como,
+[55] 164.29s  IMG_1040  184.76- 187.69  porque eu iria ficar sem volume
+[56] 167.22s  IMG_1040  188.09- 189.82  mamário. Então, foi
+[57] 168.95s  IMG_1040  190.05- 192.66  necessário colocar, mesmo que mínimo,
+[58] 171.56s  IMG_1040  194.28- 195.97  uma prótese, né?
+[59] 173.25s  IMG_1040  196.18- 202.06  E aí foi feita a mamoplastia com a prótese,
+[60] 179.13s  IMG_1040  202.49- 206.81  feita a retirada da minha hérnia, fechada a minha diástase, certo?
+[61] 183.45s  IMG_1040  207.04- 209.44  E feita a abidominoplastia.
+[62] 185.85s  IMG_1040  209.92- 218.27  Não consegui fazer a mini porque, como eu tinha excesso de pele, de flacidez, tanto na frente quanto lateral,
+[63] 194.20s  IMG_1040  218.46- 220.26  apesar de não parecer,
+[64] 196.00s  IMG_1040  220.42- 221.58  mas eu tinha, não
+[65] 197.16s  IMG_1040  221.79- 226.90  seria tão bacana fazer só a mini. Por isso que foi feita a abdômenoplastia.
+
+FALA DA MONTAGEM (retranscrita do áudio final):
+Minha gente, eu tô passada, viu? Que eu coloquei uma enquete pra vocês responderem sobre a questão da minha cirurgia, dos meus procedimentos cirúrgicos. Quem tinha curiosidade ou não, e vocês bombaram, viu? O porcento, responderam, queriam que eu falasse um pouco sobre o meu prêmio, pós, enfim, tudo o que aconteceu e o que foi que eu realmente fiz. Então, bora lá, né? Minha nega, vem cá pra eu te contar um negócio. Depois que eu fiz a cirurgia, o que foi de pergunta sobre essa bonita não tá no gibinho? O que foi que foi feito? O que é que ela fez? Ela botou o peito, ela tirou o peito, ela levantou os couro, levantou os... Enfim, foi um monte de especulações e de perguntas que eu separei tudo pra responder todo mundo já por aqui, porque fica melhor, né? Assim esclarece tudo pra todo mundo e tira as dúvidas de quem realmente está em dúvida de fazer ou não algum procedimento cirúrgico. Bora lá. A primeira dívida me perguntou aqui se o meu procedimento foi feito por estética ou por saúde. Enfim, os dois, ambos. Por quê? Porque era algo que eu queria fazer muito, né? Eu já estava me organizando, me programando para fazer a minha cirurgia da mama, que era algo que me incomodava muito. E por eu ter passado pelas duas gestações, pelo processo de emagrecimento, eu realmente fiquei sem nada, só ficou mesmo pele. E aí me incomodava bastante, era algo que eu almejava. Mas geral que eu almejava pra agora, era algo lá na frente. E enfim, fui em busca pra saber valores, saber como é que ia ser o procedimento. E devido a alguns exames e também alguns incômodos, depois que eu comecei a vida de corrida, eu descobri a minha hernia umbilical, né? Que aí foi feito um pacote, porque eu precisaria parar pra retirar essa hernia, porque estava me incomodando. Então, já que eu ia parar, então eu fizesse logo uma coisa só. Por este motivo que eu cheguei a fazer a minha cirurgia em agosto. A outra pergunta foi, afinal, quais foram os procedimentos que você fez? Bora lá. Eu fiz uma machopexia com prótese, tá? A princípio eu não queria prótese, eu só queria mesmo fazer a mamoplastia. E aí a gente, em conversa com a médica, viu que não teria como, porque eu iria ficar sem volume mamário. Então, foi necessário colocar, mesmo que mínimo, uma prótese, né? E aí foi feita a mamoplastia com a prótese, foi feita a retirada da minha hérnia, fechada a minha diástase, certo? E feita a abdominoplastia. Não consegui fazer a mini porque, como eu tinha excesso de pele, de flacidez, tanto na frente quanto lateral, apesar de não parecer, mas eu tinha, não seria tão bacana fazer só a mini, por isso que foi feita a abdominoplastia.
+
+DIFERENÇAS E CORTES SUSPEITOS (17):
+trecho 4 (12.6s, IMG_6717 15.05s): começa com voz (-32/-24 dB)
+trecho 22 (70.3s, IMG_1040 73.84s): volume baixo (-50 dB): pode ser voz de quem grava ou cochicho
+  10.4s  esperado «tem»  ouvido «tinha»
+  12.6s  esperado «95 %»  ouvido «O porcento, responderam,»
+  76.3s  esperado «»  ouvido «Eu»
+ 104.5s  esperado «não era algo»  ouvido «geral»
+ 105.4s  esperado «para»  ouvido «pra»
+ 109.6s  esperado «para»  ouvido «pra»
+ 124.7s  esperado «»  ouvido «eu»
+ 131.1s  esperado «»  ouvido «porque»
+ 135.9s  esperado «iria»  ouvido «ia»
+ 144.7s  esperado «»  ouvido «A»
+ 146.9s  esperado «»  ouvido «afinal,»
+ 153.1s  esperado «mastopexia»  ouvido «machopexia»
+ 179.4s  esperado «»  ouvido «foi»
+ 184.6s  esperado «abidominoplastia.»  ouvido «abdominoplastia.»
+ 201.3s  esperado «abdômenoplastia.»  ouvido «abdominoplastia.»

@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Proposta TK Filmes - AM Moda Praia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root {
+    --fundo: #FAF6F3;
+    --circulo: #F3E7DC;
+    --caramelo: #CD9365;
+    --ouro: #B07D52;
+    --tinta: #5A3A2E;
+    --cinza: #8D7B70;
+    --claro: #AE9F95;
+    --linha: #EADDD2;
+    --card: #FFFFFF;
+    --destaque: #FBEFE4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--fundo); }
+  body { font-family: "Lato", sans-serif; color: var(--tinta); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .pagina {
+    width: 210mm; height: 297mm; position: relative; overflow: hidden;
+    background: var(--fundo); padding: 19mm 19mm 0 19mm;
+    page-break-after: always; break-after: page;
+  }
+  .pagina:last-child { page-break-after: auto; break-after: auto; }
+  .circulo { position: absolute; width: 132mm; height: 132mm; border-radius: 50%; background: var(--circulo); top: -66mm; right: -20mm; }
+
+  header { position: relative; display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 8mm; border-bottom: 1px solid var(--linha); }
+  .logo { font-family: "Montserrat", sans-serif; font-size: 18pt; font-weight: 500; letter-spacing: 3px; margin-top: 2mm; }
+  .logo b { font-weight: 500; color: var(--caramelo); }
+  .logo-sub { font-size: 7.2pt; letter-spacing: 2.4px; color: var(--cinza); margin-top: 1.5mm; }
+  .meta { text-align: right; font-size: 8.6pt; line-height: 1.75; color: var(--cinza); }
+  .meta strong { color: var(--tinta); font-weight: 700; }
+
+  .rotulo { font-family: "Montserrat", sans-serif; font-size: 7.6pt; font-weight: 600; letter-spacing: 2.6px; color: var(--caramelo); text-transform: uppercase; }
+  .titulo { font-family: "Montserrat", sans-serif; font-size: 27pt; font-weight: 400; margin-top: 4mm; letter-spacing: -0.3px; line-height: 1.15; }
+  .titulo strong { font-weight: 800; color: var(--caramelo); }
+  .intro { font-size: 11.5pt; font-weight: 300; color: var(--cinza); margin-top: 5mm; line-height: 1.45; }
+  .intro strong { color: var(--tinta); font-weight: 700; }
+
+  /* ---------- telão desenhado ---------- */
+  .palco { position: relative; margin-top: 8mm; display: flex; flex-direction: column; align-items: center; }
+  .tela {
+    position: relative; width: 150mm; height: 60mm; border-radius: 2.5mm;
+    background: #3B2A22; padding: 2.6mm;
+    box-shadow: 0 6mm 10mm -5mm rgba(90,58,46,0.35);
+  }
+  .imagem {
+    position: relative; width: 100%; height: 100%; border-radius: 1.4mm; overflow: hidden;
+    background: linear-gradient(180deg, #FCE9D6 0%, #F7D2B0 52%, #F2C29C 62%, #E9CDB8 100%);
+  }
+  .sol { position: absolute; width: 30mm; height: 30mm; border-radius: 50%; background: radial-gradient(circle, #FFF6EA 0%, #F9DDBF 70%, rgba(249,221,191,0) 72%); right: 9mm; top: 7mm; }
+  .mar { position: absolute; left: 0; right: 0; bottom: 0; height: 24mm; }
+  .led { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,0.22) 0.32mm, transparent 0.4mm); background-size: 1.3mm 1.3mm; }
+  .tela-texto { position: absolute; left: 11mm; top: 11mm; }
+  .tela-texto .marca { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 25pt; letter-spacing: 1.5px; color: #5A3A2E; line-height: 1; }
+  .tela-texto .linha-apoio { font-family: "Montserrat", sans-serif; font-weight: 600; font-size: 8pt; letter-spacing: 3px; color: #8D5E3C; margin-top: 3mm; }
+  .tela-texto .botao { display: inline-block; margin-top: 5mm; background: #5A3A2E; color: #FFF6EA; font-family: "Montserrat", sans-serif; font-size: 7pt; font-weight: 600; letter-spacing: 2px; padding: 1.6mm 4mm; border-radius: 4mm; }
+  .pe { width: 4mm; height: 10mm; background: #3B2A22; }
+  .base { width: 40mm; height: 2mm; border-radius: 1mm; background: #3B2A22; }
+  .selo-principal { position: absolute; top: -3.5mm; left: 50%; transform: translateX(-50%); background: var(--caramelo); color: #fff; font-family: "Montserrat", sans-serif; font-size: 7pt; font-weight: 700; letter-spacing: 2px; padding: 1.6mm 5mm; border-radius: 4mm; white-space: nowrap; z-index: 2; }
+
+  /* ---------- card do telão ---------- */
+  .oferta { margin-top: 9mm; background: var(--card); border: 1.5px solid var(--caramelo); border-radius: 3mm; padding: 8mm 9mm; display: grid; grid-template-columns: 46mm 1fr; gap: 8mm; }
+  .oferta .lado { border-right: 1px solid var(--linha); padding-right: 8mm; }
+  .num { font-family: "Montserrat", sans-serif; font-size: 7.2pt; font-weight: 600; letter-spacing: 2.4px; color: var(--caramelo); }
+  .nome { font-family: "Montserrat", sans-serif; font-size: 12pt; font-weight: 600; margin-top: 2.6mm; letter-spacing: -0.1px; line-height: 1.25; }
+  .preco { margin-top: 5mm; display: flex; align-items: baseline; gap: 2mm; }
+  .preco small { font-family: "Montserrat", sans-serif; font-size: 10pt; font-weight: 600; color: var(--caramelo); }
+  .preco span { font-family: "Montserrat", sans-serif; font-size: 25pt; font-weight: 300; }
+  .oferta .preco span { font-size: 32pt; font-weight: 400; }
+  .mes { font-size: 8.6pt; color: var(--cinza); margin-top: 1mm; }
+  ul.itens { list-style: none; }
+  ul.itens li { position: relative; padding-left: 5mm; font-size: 9.4pt; font-weight: 300; color: var(--cinza); line-height: 1.4; margin-bottom: 3mm; }
+  ul.itens li:last-child { margin-bottom: 0; }
+  ul.itens li::before { content: ""; position: absolute; left: 0; top: 1.7mm; width: 1.6mm; height: 1.6mm; border-radius: 50%; background: var(--caramelo); }
+  ul.itens li strong { color: var(--tinta); font-weight: 700; }
+
+  .passos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5.5mm; margin-top: 8mm; }
+  .passo { border-left: 1.5px solid var(--caramelo); padding: 0.5mm 0 0.5mm 5mm; }
+  .passo .n { font-family: "Montserrat", sans-serif; font-size: 7.2pt; font-weight: 700; letter-spacing: 2.4px; color: var(--caramelo); }
+  .passo h3 { font-family: "Montserrat", sans-serif; font-size: 10.6pt; font-weight: 600; margin-top: 1.5mm; }
+  .passo p { font-size: 8.8pt; font-weight: 300; color: var(--cinza); margin-top: 1.5mm; line-height: 1.5; }
+
+  /* ---------- página 2: planos ---------- */
+  .bloco { margin-top: 10mm; }
+  .bloco-desc { font-size: 9.4pt; font-weight: 300; color: var(--cinza); margin-top: 2mm; }
+  .bloco-desc strong { color: var(--tinta); font-weight: 700; }
+  .planos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5.5mm; margin-top: 8mm; }
+  .plano { position: relative; background: var(--card); border: 1px solid var(--linha); border-radius: 3mm; padding: 8mm 6mm 7mm 6mm; }
+  .plano.top { background: var(--destaque); border-color: var(--caramelo); }
+  .selo { position: absolute; top: -3mm; left: 50%; transform: translateX(-50%); background: var(--caramelo); color: #fff; font-family: "Montserrat", sans-serif; font-size: 6.6pt; font-weight: 600; letter-spacing: 1.8px; padding: 1.4mm 4mm; border-radius: 4mm; white-space: nowrap; }
+  .plano .nome { white-space: nowrap; font-weight: 500; }
+  .plano hr { border: 0; border-top: 1px solid var(--linha); margin: 6mm 0 5mm 0; }
+  .plano ul.itens li { margin-bottom: 3mm; }
+
+  .pilares { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5.5mm; margin-top: 7mm; }
+  .pilar { border-left: 1.5px solid var(--caramelo); padding: 1mm 0 1mm 5mm; }
+  .pilar h3 { font-family: "Montserrat", sans-serif; font-size: 10.6pt; font-weight: 600; }
+  .pilar p { font-size: 8.8pt; font-weight: 300; color: var(--claro); margin-top: 2mm; line-height: 1.5; }
+
+  .cta { margin-top: 7mm; background: var(--destaque); border: 1px solid var(--linha); border-radius: 3mm; padding: 7mm 9mm; display: flex; justify-content: space-between; align-items: center; }
+  .cta h2 { font-family: "Montserrat", sans-serif; font-size: 13pt; font-weight: 600; }
+  .cta p { font-size: 9.6pt; font-weight: 300; color: var(--cinza); margin-top: 2mm; }
+  .cta .seta { font-size: 16pt; color: var(--caramelo); }
+
+  .nota { margin-top: 4mm; font-size: 8.4pt; font-weight: 300; color: var(--claro); line-height: 1.6; }
+
+  footer { position: absolute; left: 19mm; right: 19mm; bottom: 12mm; border-top: 1px solid var(--linha); padding-top: 4mm; display: flex; justify-content: space-between; font-size: 7.6pt; letter-spacing: 1.4px; color: var(--cinza); }
+</style>
+</head>
+<body>
+
+<!-- PÁGINA 1 · PROPOSTA PRINCIPAL: VÍDEO PARA O TELÃO -->
+<section class="pagina">
+  <div class="circulo"></div>
+  <header>
+    <div>
+      <div class="logo">TK <b>FILMES</b></div>
+      <div class="logo-sub">AUDIOVISUAL &amp; CONTEÚDO DIGITAL</div>
+    </div>
+    <div class="meta">
+      Proposta de Conteúdo Digital<br>
+      Preparado para <strong>AM Moda Praia</strong><br>
+      Outubro de 2026
+    </div>
+  </header>
+
+  <div style="margin-top: 10mm" class="rotulo">Proposta principal · AM Moda Praia</div>
+  <div class="titulo">Sua marca no <strong>telão da cidade</strong></div>
+  <p class="intro">Um vídeo feito para ser visto por quem passa: <strong>mensagem lida em segundos</strong>, peças em destaque e <strong>impacto mesmo sem som</strong>.</p>
+
+  <div class="palco">
+    <div class="selo-principal">VÍDEO EXCLUSIVO PARA TELÃO</div>
+    <div class="tela">
+      <div class="imagem">
+        <div class="sol"></div>
+        <svg class="mar" viewBox="0 0 600 96" preserveAspectRatio="none">
+          <path d="M0 30 Q75 14 150 30 T300 30 T450 30 T600 30 V96 H0 Z" fill="#E9B98F" opacity="0.55"/>
+          <path d="M0 50 Q75 36 150 50 T300 50 T450 50 T600 50 V96 H0 Z" fill="#DFA57A" opacity="0.5"/>
+          <path d="M0 70 Q75 58 150 70 T300 70 T450 70 T600 70 V96 H0 Z" fill="#F4E2D2"/>
+        </svg>
+        <div class="tela-texto">
+          <div class="marca">AM MODA PRAIA</div>
+          <div class="linha-apoio">SUA MARCA NA TELA GRANDE</div>
+          <div class="botao">COLEÇÃO VERÃO</div>
+        </div>
+        <div class="led"></div>
+      </div>
+    </div>
+    <div class="pe"></div>
+    <div class="base"></div>
+  </div>
+
+  <div class="oferta">
+    <div class="lado">
+      <div class="num">VÍDEO PARA TELÃO</div>
+      <div class="nome">AM Moda Praia na tela grande</div>
+      <div class="preco"><small>R$</small><span>100</span></div>
+      <div class="mes">por vídeo</div>
+    </div>
+    <ul class="itens">
+      <li><strong>Roteiro pensado para quem passa</strong>: uma mensagem só, direta e fácil de lembrar</li>
+      <li><strong>Peças em destaque</strong>, com cor, caimento e detalhe que chamam o olhar de longe</li>
+      <li><strong>Funciona sem som</strong>: imagem e texto contam a história sozinhos</li>
+      <li><strong>Logo e contato</strong> da loja no momento certo, para a marca ficar na memória</li>
+      <li><strong>Arquivo no formato do telão</strong>, entregue pronto para exibição</li>
+    </ul>
+  </div>
+
+  <div class="passos">
+    <div class="passo"><div class="n">01</div><h3>Roteiro</h3><p>Definimos a mensagem e a peça que abre o vídeo.</p></div>
+    <div class="passo"><div class="n">02</div><h3>Produção</h3><p>Suas peças com movimento, cor e acabamento em evidência.</p></div>
+    <div class="passo"><div class="n">03</div><h3>Entrega</h3><p>Vídeo no tamanho e na resolução do telão, pronto para ir ao ar.</p></div>
+  </div>
+
+  <footer><span>TK FILMES — AUDIOVISUAL</span><span>Proposta válida por 15 dias</span></footer>
+</section>
+
+<!-- PÁGINA 2 · PLANOS DE VÍDEO -->
+<section class="pagina">
+  <div class="circulo"></div>
+  <header>
+    <div>
+      <div class="logo">TK <b>FILMES</b></div>
+      <div class="logo-sub">AUDIOVISUAL &amp; CONTEÚDO DIGITAL</div>
+    </div>
+    <div class="meta">
+      Proposta de Conteúdo Digital<br>
+      Preparado para <strong>AM Moda Praia</strong><br>
+      Outubro de 2026
+    </div>
+  </header>
+
+  <div class="bloco" style="margin-top: 10mm">
+    <div class="rotulo">Para ir além do telão</div>
+    <div class="titulo" style="font-size: 24pt">Vídeos para o seu Instagram</div>
+    <p class="intro" style="font-size: 11pt">Vídeos que mostram suas peças do jeito que a cliente quer ver: <strong>no corpo</strong>, <strong>em movimento</strong> e com <strong>cor, caimento e detalhe</strong> em evidência.</p>
+    <p class="bloco-desc" style="margin-top: 4mm">Roteirizados, gravados e editados pela TK Filmes, <strong>entregues prontos para publicar</strong>.</p>
+  </div>
+
+  <div class="planos">
+    <div class="plano">
+      <div class="num">PLANO 01</div>
+      <div class="nome">Essencial</div>
+      <div class="preco"><small>R$</small><span>400</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul class="itens">
+        <li><strong>4 a 6 vídeos</strong> mensais</li>
+        <li>Roteirizados</li>
+        <li>Gravados e editados</li>
+        <li>Entregues no Drive</li>
+      </ul>
+    </div>
+    <div class="plano top">
+      <div class="selo">MAIS ESCOLHIDO</div>
+      <div class="num">PLANO 02</div>
+      <div class="nome">Presença Ativa</div>
+      <div class="preco"><small>R$</small><span>600</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul class="itens">
+        <li><strong>6 a 8 vídeos</strong> mensais</li>
+        <li>Roteirizados</li>
+        <li>Gravados e editados</li>
+        <li>Entregues no Drive</li>
+        <li><strong>Legendas</strong> e <strong>programação</strong> no Instagram</li>
+      </ul>
+    </div>
+    <div class="plano">
+      <div class="num">PLANO 03</div>
+      <div class="nome">Vitrine Completa</div>
+      <div class="preco"><small>R$</small><span>800</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul class="itens">
+        <li><strong>10 a 12 vídeos</strong> mensais</li>
+        <li>Roteirizados</li>
+        <li>Gravados e editados</li>
+        <li>Entregues no Drive</li>
+        <li><strong>Legendas</strong> e <strong>programação</strong> no Instagram</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pilares">
+    <div class="pilar"><h3>Peça em movimento</h3><p>Caimento, cor e tecido mostrados como a cliente veria no provador.</p></div>
+    <div class="pilar"><h3>Constância</h3><p>Conteúdo toda semana, chegando ao verão com o perfil ativo.</p></div>
+    <div class="pilar"><h3>Direção</h3><p>Cada vídeo com roteiro, intenção e uma função clara no seu perfil.</p></div>
+  </div>
+
+  <div class="cta">
+    <div>
+      <h2>Vamos colocar a AM Moda Praia em movimento?</h2>
+      <p>O vídeo do telão pode vir sozinho ou junto com qualquer plano.</p>
+    </div>
+    <div class="seta">→</div>
+  </div>
+
+  <p class="nota">Gravações agendadas com antecedência.</p>
+
+  <footer><span>TK FILMES — AUDIOVISUAL</span><span>Proposta válida por 15 dias</span></footer>
+</section>
+
+</body>
+</html>

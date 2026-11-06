@@ -1,0 +1,111 @@
+{
+ "arquivo": "IMG_1351",
+ "duracao": 5.05,
+ "segmentos": [
+  {
+   "ini": 0.08,
+   "fim": 1.3,
+   "texto": "vai ser mais rápido",
+   "palavras": [
+    {
+     "p": "vai",
+     "ini": 0.08,
+     "fim": 0.24,
+     "conf": 0.11
+    },
+    {
+     "p": "ser",
+     "ini": 0.24,
+     "fim": 0.56,
+     "conf": 0.89
+    },
+    {
+     "p": "mais",
+     "ini": 0.56,
+     "fim": 0.82,
+     "conf": 0.96
+    },
+    {
+     "p": "rápido",
+     "ini": 0.82,
+     "fim": 1.3,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 2.56,
+   "fim": 4.12,
+   "texto": "e não vai ser mais muito bom",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 2.56,
+     "fim": 2.96,
+     "conf": 0.3
+    },
+    {
+     "p": "não",
+     "ini": 2.96,
+     "fim": 3.24,
+     "conf": 0.37
+    },
+    {
+     "p": "vai",
+     "ini": 3.24,
+     "fim": 3.4,
+     "conf": 0.97
+    },
+    {
+     "p": "ser",
+     "ini": 3.4,
+     "fim": 3.54,
+     "conf": 0.93
+    },
+    {
+     "p": "mais",
+     "ini": 3.54,
+     "fim": 3.72,
+     "conf": 0.67
+    },
+    {
+     "p": "muito",
+     "ini": 3.72,
+     "fim": 3.92,
+     "conf": 0.77
+    },
+    {
+     "p": "bom",
+     "ini": 3.92,
+     "fim": 4.12,
+     "conf": 0.83
+    }
+   ]
+  },
+  {
+   "ini": 4.12,
+   "fim": 4.68,
+   "texto": "pra mim sim",
+   "palavras": [
+    {
+     "p": "pra",
+     "ini": 4.12,
+     "fim": 4.24,
+     "conf": 0.35
+    },
+    {
+     "p": "mim",
+     "ini": 4.24,
+     "fim": 4.48,
+     "conf": 0.45
+    },
+    {
+     "p": "sim",
+     "ini": 4.48,
+     "fim": 4.68,
+     "conf": 0.6
+    }
+   ]
+  }
+ ]
+}

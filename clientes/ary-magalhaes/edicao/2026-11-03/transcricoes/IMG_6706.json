@@ -1,0 +1,542 @@
+{
+ "arquivo": "IMG_6706",
+ "duracao": 27.33,
+ "segmentos": [
+  {
+   "ini": 2.0,
+   "fim": 3.58,
+   "texto": "E eu já tô toda amostradinha",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 2.0,
+     "fim": 2.4,
+     "conf": 0.19
+    },
+    {
+     "p": "eu",
+     "ini": 2.4,
+     "fim": 2.5,
+     "conf": 0.99
+    },
+    {
+     "p": "já",
+     "ini": 2.5,
+     "fim": 2.62,
+     "conf": 1.0
+    },
+    {
+     "p": "tô",
+     "ini": 2.62,
+     "fim": 2.74,
+     "conf": 0.78
+    },
+    {
+     "p": "toda",
+     "ini": 2.74,
+     "fim": 2.92,
+     "conf": 0.99
+    },
+    {
+     "p": "amostradinha",
+     "ini": 2.92,
+     "fim": 3.58,
+     "conf": 0.85
+    }
+   ]
+  },
+  {
+   "ini": 3.58,
+   "fim": 5.28,
+   "texto": "Que eu já amei esse look",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 3.58,
+     "fim": 3.74,
+     "conf": 0.07
+    },
+    {
+     "p": "eu",
+     "ini": 3.74,
+     "fim": 3.86,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 3.86,
+     "fim": 3.98,
+     "conf": 1.0
+    },
+    {
+     "p": "amei",
+     "ini": 3.98,
+     "fim": 4.68,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 4.68,
+     "fim": 4.96,
+     "conf": 0.98
+    },
+    {
+     "p": "look",
+     "ini": 4.96,
+     "fim": 5.28,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 5.28,
+   "fim": 7.32,
+   "texto": "Que é isso em Brasil, por Nossa Senhora",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 5.28,
+     "fim": 5.54,
+     "conf": 0.85
+    },
+    {
+     "p": "é",
+     "ini": 5.54,
+     "fim": 5.68,
+     "conf": 0.99
+    },
+    {
+     "p": "isso",
+     "ini": 5.68,
+     "fim": 5.88,
+     "conf": 0.89
+    },
+    {
+     "p": "em",
+     "ini": 5.88,
+     "fim": 5.94,
+     "conf": 0.85
+    },
+    {
+     "p": "Brasil,",
+     "ini": 5.94,
+     "fim": 6.4,
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "ini": 6.42,
+     "fim": 6.62,
+     "conf": 0.94
+    },
+    {
+     "p": "Nossa",
+     "ini": 6.62,
+     "fim": 6.84,
+     "conf": 0.73
+    },
+    {
+     "p": "Senhora",
+     "ini": 6.84,
+     "fim": 7.32,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 7.32,
+   "fim": 8.12,
+   "texto": "Ó",
+   "palavras": [
+    {
+     "p": "Ó",
+     "ini": 7.32,
+     "fim": 8.12,
+     "conf": 0.45
+    }
+   ]
+  },
+  {
+   "ini": 8.84,
+   "fim": 10.7,
+   "texto": "Gente, isso aqui pra um treino de braço",
+   "palavras": [
+    {
+     "p": "Gente,",
+     "ini": 8.84,
+     "fim": 9.24,
+     "conf": 0.69
+    },
+    {
+     "p": "isso",
+     "ini": 9.34,
+     "fim": 9.44,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 9.44,
+     "fim": 9.56,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 9.56,
+     "fim": 9.7,
+     "conf": 0.72
+    },
+    {
+     "p": "um",
+     "ini": 9.7,
+     "fim": 9.8,
+     "conf": 1.0
+    },
+    {
+     "p": "treino",
+     "ini": 9.8,
+     "fim": 10.12,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 10.12,
+     "fim": 10.28,
+     "conf": 1.0
+    },
+    {
+     "p": "braço",
+     "ini": 10.28,
+     "fim": 10.7,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 10.7,
+   "fim": 11.92,
+   "texto": "Com esse ombro de fora",
+   "palavras": [
+    {
+     "p": "Com",
+     "ini": 10.7,
+     "fim": 10.8,
+     "conf": 0.56
+    },
+    {
+     "p": "esse",
+     "ini": 10.8,
+     "fim": 11.0,
+     "conf": 1.0
+    },
+    {
+     "p": "ombro",
+     "ini": 11.0,
+     "fim": 11.36,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 11.36,
+     "fim": 11.5,
+     "conf": 1.0
+    },
+    {
+     "p": "fora",
+     "ini": 11.5,
+     "fim": 11.92,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 11.92,
+   "fim": 14.3,
+   "texto": "Ô Jesus, só Jesus na causa",
+   "palavras": [
+    {
+     "p": "Ô",
+     "ini": 11.92,
+     "fim": 12.66,
+     "conf": 0.54
+    },
+    {
+     "p": "Jesus,",
+     "ini": 12.66,
+     "fim": 13.14,
+     "conf": 0.93
+    },
+    {
+     "p": "só",
+     "ini": 13.26,
+     "fim": 13.54,
+     "conf": 1.0
+    },
+    {
+     "p": "Jesus",
+     "ini": 13.54,
+     "fim": 13.86,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 13.86,
+     "fim": 14.06,
+     "conf": 0.65
+    },
+    {
+     "p": "causa",
+     "ini": 14.06,
+     "fim": 14.3,
+     "conf": 0.61
+    }
+   ]
+  },
+  {
+   "ini": 14.3,
+   "fim": 15.48,
+   "texto": "Já amei, viu?",
+   "palavras": [
+    {
+     "p": "Já",
+     "ini": 14.3,
+     "fim": 14.8,
+     "conf": 0.9
+    },
+    {
+     "p": "amei,",
+     "ini": 14.8,
+     "fim": 15.42,
+     "conf": 0.99
+    },
+    {
+     "p": "viu?",
+     "ini": 15.48,
+     "fim": 15.48,
+     "conf": 0.92
+    }
+   ]
+  },
+  {
+   "ini": 16.1,
+   "fim": 18.7,
+   "texto": "Daqui eu já amei, eu já gostei da estampa",
+   "palavras": [
+    {
+     "p": "Daqui",
+     "ini": 16.1,
+     "fim": 16.42,
+     "conf": 0.87
+    },
+    {
+     "p": "eu",
+     "ini": 16.42,
+     "fim": 16.56,
+     "conf": 0.99
+    },
+    {
+     "p": "já",
+     "ini": 16.56,
+     "fim": 16.7,
+     "conf": 1.0
+    },
+    {
+     "p": "amei,",
+     "ini": 16.7,
+     "fim": 17.0,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 17.04,
+     "fim": 17.12,
+     "conf": 0.98
+    },
+    {
+     "p": "já",
+     "ini": 17.12,
+     "fim": 17.22,
+     "conf": 1.0
+    },
+    {
+     "p": "gostei",
+     "ini": 17.22,
+     "fim": 18.08,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 18.08,
+     "fim": 18.2,
+     "conf": 0.86
+    },
+    {
+     "p": "estampa",
+     "ini": 18.2,
+     "fim": 18.7,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 19.22,
+   "fim": 20.88,
+   "texto": "E aí depois de vestida",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 19.22,
+     "fim": 19.62,
+     "conf": 0.99
+    },
+    {
+     "p": "aí",
+     "ini": 19.62,
+     "fim": 19.82,
+     "conf": 1.0
+    },
+    {
+     "p": "depois",
+     "ini": 19.82,
+     "fim": 20.14,
+     "conf": 0.75
+    },
+    {
+     "p": "de",
+     "ini": 20.14,
+     "fim": 20.32,
+     "conf": 1.0
+    },
+    {
+     "p": "vestida",
+     "ini": 20.32,
+     "fim": 20.88,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 20.88,
+   "fim": 23.3,
+   "texto": "Aí detalhe, tá? Não tem a costura aqui embaixo",
+   "palavras": [
+    {
+     "p": "Aí",
+     "ini": 20.88,
+     "fim": 21.18,
+     "conf": 0.48
+    },
+    {
+     "p": "detalhe,",
+     "ini": 21.18,
+     "fim": 21.74,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 21.8,
+     "fim": 21.86,
+     "conf": 0.98
+    },
+    {
+     "p": "Não",
+     "ini": 21.96,
+     "fim": 22.08,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 22.08,
+     "fim": 22.3,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 22.3,
+     "fim": 22.44,
+     "conf": 1.0
+    },
+    {
+     "p": "costura",
+     "ini": 22.44,
+     "fim": 22.82,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 22.82,
+     "fim": 23.0,
+     "conf": 0.99
+    },
+    {
+     "p": "embaixo",
+     "ini": 23.0,
+     "fim": 23.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 23.3,
+   "fim": 24.5,
+   "texto": "Então a mão não marca",
+   "palavras": [
+    {
+     "p": "Então",
+     "ini": 23.3,
+     "fim": 23.5,
+     "conf": 0.87
+    },
+    {
+     "p": "a",
+     "ini": 23.5,
+     "fim": 23.64,
+     "conf": 0.2
+    },
+    {
+     "p": "mão",
+     "ini": 23.64,
+     "fim": 23.76,
+     "conf": 0.87
+    },
+    {
+     "p": "não",
+     "ini": 23.76,
+     "fim": 23.94,
+     "conf": 1.0
+    },
+    {
+     "p": "marca",
+     "ini": 23.94,
+     "fim": 24.5,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 25.32,
+   "fim": 25.72,
+   "texto": "Amei",
+   "palavras": [
+    {
+     "p": "Amei",
+     "ini": 25.32,
+     "fim": 25.72,
+     "conf": 0.83
+    }
+   ]
+  },
+  {
+   "ini": 25.72,
+   "fim": 27.2,
+   "texto": "Obrigada.",
+   "palavras": [
+    {
+     "p": "Obrigada.",
+     "ini": 25.72,
+     "fim": 27.2,
+     "conf": 0.52
+    }
+   ]
+  }
+ ]
+}

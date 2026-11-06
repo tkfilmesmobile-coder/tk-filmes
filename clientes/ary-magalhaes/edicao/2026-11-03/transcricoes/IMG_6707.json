@@ -1,0 +1,49 @@
+{
+ "arquivo": "IMG_6707",
+ "duracao": 17.39,
+ "segmentos": [
+  {
+   "ini": 2.58,
+   "fim": 6.22,
+   "texto": "E isso mostra o meu pé.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 2.58,
+     "fim": 3.68,
+     "conf": 0.15
+    },
+    {
+     "p": "isso",
+     "ini": 3.68,
+     "fim": 4.78,
+     "conf": 0.36
+    },
+    {
+     "p": "mostra",
+     "ini": 4.78,
+     "fim": 5.66,
+     "conf": 0.54
+    },
+    {
+     "p": "o",
+     "ini": 5.66,
+     "fim": 5.88,
+     "conf": 0.61
+    },
+    {
+     "p": "meu",
+     "ini": 5.88,
+     "fim": 6.1,
+     "conf": 0.17
+    },
+    {
+     "p": "pé.",
+     "ini": 6.1,
+     "fim": 6.22,
+     "conf": 0.16
+    }
+   ]
+  }
+ ]
+}

@@ -31,6 +31,10 @@
   19/11 citação da Ary. Código `edicao/video/src/reels/PostVar.tsx`; os antigos ficaram como `_antigo-01.jpg` em
   `publicacao/<data>/` e no Drive em `_ARQUIVO/POSTS SUBSTITUÍDOS (2026-10-28)`. Saiu a foto de banco da sobrancelha.
 - **28/10: reels saem com a capa** (`publicacao/<data>/capa.jpg`, opção `--cover` no script de publicação).
+- **Saídas conferidas em 04/11:** 28/10 reel, 29/10 carrossel mechas, 30/10 reel sobrancelha e 04/11 reel estética
+  saíram. **31/10 post sobrancelha não saiu** (PC ligou às 15h e o Instagram respondeu "User access is restricted"
+  nas 3 tentativas). **03/11 carrossel cuidados com a selagem (PC do escritório) não saiu.** Script agora tenta 6 vezes
+  em ~3h, e as tarefas ganharam limite de 6h.
 - **Valores (20/10):** o log diz publicado às 14h48 (https://www.instagram.com/p/DeuaER4FeYa/), mas em 27/10 não aparece
   mais no perfil. Perguntar à Ary se apagou/arquivou antes de republicar.
 - Reel de apresentação ("Muito prazer", IMG_6502, chegou em 2026-10-25): editado com curadoria (checagem de boca tirou a
@@ -44,6 +48,35 @@
 - Brutos de fala (com as tentativas) em `_ARQUIVO/BRUTOS JÁ EDITADOS/2026-10-24 · diária de falas`; fotos de capa em `B-ROLL/IMAGENS/ARY`.
 - Drive reorganizado em 2026-10-24 (BRUTO só entrada · CONTEÚDOS por mês · B-ROLL por tipo e assunto). Ver `contexto.md`.
 - Foto de sobrancelha do post é de banco (Unsplash, kt Leung): a Ary não tem foto de sobrancelha feita por ela. Pedir uma.
+
+## Diária de 2026-11-03 (cirurgia e vida fitness)
+- Material subiu em 2026-11-04 **solto na raiz do Drive** (não no BRUTO): falas IMG_1040 (11 min) e IMG_1041 (5 min),
+  recebidos da Legbox (IMG_6705–6708, IMG_1020–1023, IMG_1037–1039), abertura da caixinha (IMG_6717/6718), fotos de
+  resultado do dia (IMG_1024–1036, IMG_6710–6712) e ~25 fotos antigas de WhatsApp. Edição em `edicao/2026-11-03/`.
+- v1 (2026-11-04, ~80 s cada) recusada: "muito cortada", falas cortadas, sem as finalizações, foto de perfil na caixinha
+  (vídeos são pro **perfil pessoal** da Ary), fecho profissional demais, poucas fotos do antes.
+- **v2 aprovada pela Talyta em 2026-11-04:** `caixinha-cirurgia` (3min22, todas as perguntas e respostas, abre com a
+  enquete IMG_6717; não há finalização gravada desse bloco), `quanto-custou` (4min17, com a finalização "E aí minha
+  nega…" e o "trabalho pra caceta"), `meu-corpo` (5min33, ~20 fotos antigas, finalização "aguarde o antes e depois").
+  Sem cartão final. Regras novas no `edicao/perfil-de-edicao.md` ("Vídeos do perfil pessoal").
+- Drive: `CONTEÚDOS/2026-11 · NOVEMBRO/Reel · <tema>/` (reel.mp4, capa.png, legenda.txt). Legendas também em
+  `posts/2026-11/07` a `09`. **Não agendados:** vão pro perfil pessoal, que não está no script de publicação.
+- Drive organizado em 2026-11-04: falas (IMG_1040, 1041, 6717, 6718) em `_ARQUIVO/BRUTOS JÁ EDITADOS/2026-11-03 · diária
+  cirurgia e vida fitness`; 39 fotos (resultado do dia + antigas do WhatsApp) em `B-ROLL/IMAGENS/ARY`; recebidos da
+  Legbox (IMG_1020–1023, 1037–1039, 6705–6708) e o vídeo 1bc33d77 em `BRUTO` (ainda não editados).
+- Em aberto: confirmar que todas as fotos antigas são da Ary (principalmente a de 2012 loira com bebê, d20e25d4);
+  vídeo dos recebidos da Legbox. Post fixo: **não** (vídeos do perfil pessoal não levam post de imagem; Talyta, 2026-11-04).
+
+## Vlog da tatuagem nas costas (gravado 2026-11-05)
+- 12 vídeos (IMG_1345–1366) subiram soltos na raiz do Drive em 2026-11-06. Pedido: não é tutorial, só cortes com as
+  falas coesas, sem título, legenda ou efeito. Edição em `edicao/2026-11-05-tatuagem/` (id `vlog-tatuagem`).
+- v1 (2min03) recusada: takes entravam soltos com som ambiente e a fala do filho ficou de fora ou baixa.
+- **v2 aprovada pela Talyta em 2026-11-06** (2min13): toda fala inteira no nível da voz, inclusive a conversa com o filho
+  (IMG_1361) e as perguntas por trás da câmera; take só de máquina curto ou como B-roll por cima da fala; som do estúdio
+  com fade entre os takes. Ordem de gravação, termina na revelação.
+- Drive: `CONTEÚDOS/2026-11 · NOVEMBRO/Reel · Vlog tatuagem nas costas/` (reel.mp4, capa.png "A maior tatuagem que eu já
+  fiz na vida", legenda.txt; cópia em `posts/2026-11/10-vlog-tatuagem-reel`). Brutos em `_ARQUIVO/BRUTOS JÁ EDITADOS/
+  2026-11-05 · vlog tatuagem`. **Não agendado** (perfil pessoal).
 
 ## Resolvido
 - 2026-10-22: autorização de imagem confirmada pra todas as clientes que aparecem nos posts, inclusive a de 20/11 (IMG_3174). Posts agendados seguem como estão.

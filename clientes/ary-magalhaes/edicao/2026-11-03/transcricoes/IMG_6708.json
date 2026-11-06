@@ -1,0 +1,49 @@
+{
+ "arquivo": "IMG_6708",
+ "duracao": 9.09,
+ "segmentos": [
+  {
+   "ini": 0.53,
+   "fim": 4.73,
+   "texto": "Isso, vai agitar de família, adoro.",
+   "palavras": [
+    {
+     "p": "Isso,",
+     "ini": 0.53,
+     "fim": 1.29,
+     "conf": 0.55
+    },
+    {
+     "p": "vai",
+     "ini": 1.83,
+     "fim": 2.09,
+     "conf": 0.41
+    },
+    {
+     "p": "agitar",
+     "ini": 2.09,
+     "fim": 2.57,
+     "conf": 0.28
+    },
+    {
+     "p": "de",
+     "ini": 2.57,
+     "fim": 2.89,
+     "conf": 0.23
+    },
+    {
+     "p": "família,",
+     "ini": 2.89,
+     "fim": 3.63,
+     "conf": 0.46
+    },
+    {
+     "p": "adoro.",
+     "ini": 4.15,
+     "fim": 4.73,
+     "conf": 0.91
+    }
+   ]
+  }
+ ]
+}

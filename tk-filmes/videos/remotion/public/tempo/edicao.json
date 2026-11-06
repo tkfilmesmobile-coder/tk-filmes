@@ -1,0 +1,637 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "tempo/bruto.mp4",
+ "legendaPos": "baixo",
+ "sombraBase": true,
+ "clipes": [
+  {
+   "id": "t01",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 98,
+   "zoom": 1.0
+  },
+  {
+   "id": "t02",
+   "trimBefore": 98,
+   "from": 98,
+   "durationInFrames": 291,
+   "zoom": 1.09
+  },
+  {
+   "id": "t03",
+   "trimBefore": 389,
+   "from": 389,
+   "durationInFrames": 177,
+   "zoom": 1.0
+  },
+  {
+   "id": "t04",
+   "trimBefore": 566,
+   "from": 566,
+   "durationInFrames": 483,
+   "zoom": 1.09
+  },
+  {
+   "id": "t05",
+   "trimBefore": 1049,
+   "from": 1049,
+   "durationInFrames": 62,
+   "zoom": 1.0
+  },
+  {
+   "id": "t06",
+   "trimBefore": 1111,
+   "from": 1111,
+   "durationInFrames": 886,
+   "zoom": 1.09
+  },
+  {
+   "id": "t07",
+   "trimBefore": 1997,
+   "from": 1997,
+   "durationInFrames": 64,
+   "zoom": 1.0
+  },
+  {
+   "id": "t08",
+   "trimBefore": 2061,
+   "from": 2061,
+   "durationInFrames": 703,
+   "zoom": 1.09
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "quanto tempo leva",
+     "fala": 5
+    },
+    {
+     "texto": "1 minuto?",
+     "fala": 51,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 7,
+   "durationInFrames": 57
+  },
+  {
+   "tipo": "sutil",
+   "texto": "um simples videozinho",
+   "from": 70,
+   "durationInFrames": 24
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "vamos fazer",
+     "fala": 3
+    },
+    {
+     "texto": "as contas",
+     "fala": 23,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 96,
+   "durationInFrames": 26
+  },
+  {
+   "tipo": "sutil",
+   "texto": "1 · a conversa",
+   "from": 128,
+   "durationInFrames": 58
+  },
+  {
+   "tipo": "frase",
+   "texto": "Escuta ativa e presencial.",
+   "pos": "baixo",
+   "fala": 2,
+   "from": 388,
+   "durationInFrames": 140
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "+1 hora",
+     "fala": 22,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 534,
+   "durationInFrames": 34
+  },
+  {
+   "tipo": "sutil",
+   "texto": "2 · o roteiro",
+   "from": 580,
+   "durationInFrames": 37
+  },
+  {
+   "tipo": "cartao",
+   "pos": "baixo",
+   "linhas": [
+    {
+     "texto": "texto genérico do chat",
+     "atraso": 5,
+     "fala": 5,
+     "tom": "neg"
+    },
+    {
+     "texto": "ferramenta com sabedoria",
+     "atraso": 268,
+     "fala": 268,
+     "tom": "pos"
+    }
+   ],
+   "etiqueta": "roteiro",
+   "from": 623,
+   "durationInFrames": 439
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "+30 min",
+     "fala": 12,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 1074,
+   "durationInFrames": 51
+  },
+  {
+   "tipo": "sutil",
+   "texto": "3 · a gravação",
+   "from": 1159,
+   "durationInFrames": 184
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "linguagem verbal",
+     "fala": 5
+    },
+    {
+     "texto": "e não verbal",
+     "fala": 35,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 1349,
+   "durationInFrames": 91
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "+30 min",
+     "fala": 14,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 1897,
+   "durationInFrames": 49
+  },
+  {
+   "tipo": "sutil",
+   "texto": "4 · a pós-produção",
+   "from": 1952,
+   "durationInFrames": 24
+  },
+  {
+   "tipo": "chips",
+   "pos": "baixo",
+   "linhas": [
+    {
+     "texto": "edição",
+     "atraso": 3,
+     "fala": 3,
+     "tom": "pos"
+    },
+    {
+     "texto": "colorimetria",
+     "atraso": 32,
+     "fala": 32,
+     "tom": "pos"
+    },
+    {
+     "texto": "lettering",
+     "atraso": 109,
+     "fala": 109,
+     "tom": "pos"
+    },
+    {
+     "texto": "efeitos sonoros",
+     "atraso": 141,
+     "fala": 141,
+     "tom": "pos"
+    },
+    {
+     "texto": "headline",
+     "atraso": 193,
+     "fala": 193,
+     "tom": "pos"
+    }
+   ],
+   "from": 1965,
+   "durationInFrames": 231
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "+1h30",
+     "fala": 18,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 2267,
+   "durationInFrames": 61
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "total:",
+     "fala": 30
+    },
+    {
+     "texto": "3h30",
+     "fala": 38,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 2334,
+   "durationInFrames": 82
+  },
+  {
+   "tipo": "frase",
+   "texto": "Um videozinho nunca é só um videozinho.",
+   "pos": "baixo",
+   "fala": 22,
+   "from": 2425,
+   "durationInFrames": 84
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "não coloca preço",
+     "fala": 12
+    },
+    {
+     "texto": "no serviço das pessoas",
+     "fala": 34,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 2560,
+   "durationInFrames": 68
+  },
+  {
+   "tipo": "logo",
+   "from": 2697,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 198,
+   "durationInFrames": 11,
+   "texto": "O que você"
+  },
+  {
+   "from": 210,
+   "durationInFrames": 23,
+   "texto": "deseja atingir,"
+  },
+  {
+   "from": 234,
+   "durationInFrames": 20,
+   "texto": "qual o público."
+  },
+  {
+   "from": 257,
+   "durationInFrames": 15,
+   "texto": "Isso desde o"
+  },
+  {
+   "from": 273,
+   "durationInFrames": 22,
+   "texto": "seu primeiro contato,"
+  },
+  {
+   "from": 296,
+   "durationInFrames": 11,
+   "texto": "que você vem"
+  },
+  {
+   "from": 308,
+   "durationInFrames": 20,
+   "texto": "falar comigo,"
+  },
+  {
+   "from": 330,
+   "durationInFrames": 23,
+   "texto": "desejando fazer um"
+  },
+  {
+   "from": 354,
+   "durationInFrames": 17,
+   "texto": "orçamento."
+  },
+  {
+   "from": 377,
+   "durationInFrames": 7,
+   "texto": "Então,"
+  },
+  {
+   "from": 572,
+   "durationInFrames": 5,
+   "texto": "vem"
+  },
+  {
+   "from": 1062,
+   "durationInFrames": 9,
+   "texto": "vamos botar"
+  },
+  {
+   "from": 1126,
+   "durationInFrames": 10,
+   "texto": "aí depois do"
+  },
+  {
+   "from": 1137,
+   "durationInFrames": 8,
+   "texto": "roteiro"
+  },
+  {
+   "from": 1146,
+   "durationInFrames": 10,
+   "texto": "Vem a"
+  },
+  {
+   "from": 1441,
+   "durationInFrames": 25,
+   "texto": "seus movimentos estão"
+  },
+  {
+   "from": 1467,
+   "durationInFrames": 11,
+   "texto": "dizendo"
+  },
+  {
+   "from": 1479,
+   "durationInFrames": 21,
+   "texto": "Não é simplesmente"
+  },
+  {
+   "from": 1501,
+   "durationInFrames": 18,
+   "texto": "porque você falou"
+  },
+  {
+   "from": 1520,
+   "durationInFrames": 9,
+   "texto": "a frase da"
+  },
+  {
+   "from": 1530,
+   "durationInFrames": 21,
+   "texto": "forma correta"
+  },
+  {
+   "from": 1552,
+   "durationInFrames": 24,
+   "texto": "Que aquele vídeo"
+  },
+  {
+   "from": 1577,
+   "durationInFrames": 27,
+   "texto": "realmente ficou bom"
+  },
+  {
+   "from": 1605,
+   "durationInFrames": 16,
+   "texto": "Não,"
+  },
+  {
+   "from": 1622,
+   "durationInFrames": 12,
+   "texto": "a gente precisa"
+  },
+  {
+   "from": 1635,
+   "durationInFrames": 13,
+   "texto": "de ter um"
+  },
+  {
+   "from": 1649,
+   "durationInFrames": 23,
+   "texto": "direcionamento muito"
+  },
+  {
+   "from": 1673,
+   "durationInFrames": 9,
+   "texto": "maior"
+  },
+  {
+   "from": 1683,
+   "durationInFrames": 60,
+   "texto": "Além da fala"
+  },
+  {
+   "from": 1744,
+   "durationInFrames": 33,
+   "texto": "Também da tonalidade"
+  },
+  {
+   "from": 1778,
+   "durationInFrames": 13,
+   "texto": "como você vai"
+  },
+  {
+   "from": 1792,
+   "durationInFrames": 7,
+   "texto": "falar"
+  },
+  {
+   "from": 1800,
+   "durationInFrames": 26,
+   "texto": "Isso aí a"
+  },
+  {
+   "from": 1827,
+   "durationInFrames": 20,
+   "texto": "gente bota mais"
+  },
+  {
+   "from": 1848,
+   "durationInFrames": 26,
+   "texto": "Depende muito do"
+  },
+  {
+   "from": 1875,
+   "durationInFrames": 11,
+   "texto": "cliente"
+  },
+  {
+   "from": 1887,
+   "durationInFrames": 7,
+   "texto": "Mas"
+  },
+  {
+   "from": 2196,
+   "durationInFrames": 19,
+   "texto": "vem muita coisa"
+  },
+  {
+   "from": 2216,
+   "durationInFrames": 12,
+   "texto": "no pós"
+  },
+  {
+   "from": 2229,
+   "durationInFrames": 35,
+   "texto": "Aí você pode"
+  },
+  {
+   "from": 2513,
+   "durationInFrames": 22,
+   "texto": "Então faz o"
+  },
+  {
+   "from": 2536,
+   "durationInFrames": 13,
+   "texto": "seguinte."
+  },
+  {
+   "from": 2553,
+   "durationInFrames": 4,
+   "texto": "Não"
+  },
+  {
+   "from": 2630,
+   "durationInFrames": 22,
+   "texto": "Você não entende"
+  },
+  {
+   "from": 2653,
+   "durationInFrames": 16,
+   "texto": "todo o trabalho"
+  },
+  {
+   "from": 2670,
+   "durationInFrames": 11,
+   "texto": "que tem por"
+  },
+  {
+   "from": 2682,
+   "durationInFrames": 10,
+   "texto": "trás."
+  }
+ ],
+ "zooms": [
+  {
+   "from": 57,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 118,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 554,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 1085,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 1382,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 1910,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 2284,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 2370,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 2593,
+   "durationInFrames": 24,
+   "escala": 1.17
+  }
+ ],
+ "reenquadramentos": [
+  {
+   "from": 189,
+   "durationInFrames": 194,
+   "escala": 1.1
+  },
+  {
+   "from": 1186,
+   "durationInFrames": 158,
+   "escala": 1.1
+  },
+  {
+   "from": 1445,
+   "durationInFrames": 442,
+   "escala": 1.12
+  },
+  {
+   "from": 2425,
+   "durationInFrames": 84,
+   "escala": 1.12
+  },
+  {
+   "from": 2630,
+   "durationInFrames": 72,
+   "escala": 1.1
+  }
+ ]
+}

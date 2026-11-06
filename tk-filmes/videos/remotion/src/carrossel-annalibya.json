@@ -1,0 +1,54 @@
+{
+ "cliente": "Dra. Anna Líbya",
+ "capa": {
+  "chamada": "Natural",
+  "chamadaNegrito": "dá",
+  "grande": "trabalho.",
+  "sub": "Espontâneo é ensaiado.",
+  "subDestaque": "ensaiado.",
+  "foto": "capa.jpg",
+  "recorte": "recorte-capa.png",
+  "foco": 30,
+  "tam": 240,
+  "base": 150,
+  "degrade": 60,
+  "brilho": 0.28
+ },
+ "p2": {
+  "foto": "foto-2.jpg",
+  "linhas": [
+   "Paciente com medo",
+   "não escuta"
+  ],
+  "negrito": "técnica.",
+  "sub": "Escuta acolhimento. O roteiro começa por aí.",
+  "enquadre": {
+   "z": 1.25,
+   "dx": 12,
+   "dy": 0,
+   "foco": 30,
+   "cor": "escuro",
+   "lado": "esquerda",
+   "topo": 200,
+   "largura": 520,
+   "tam": 74,
+   "subTopo": 960,
+   "subLargura": 420
+  },
+  "recorte": "recorte-p2.png"
+ },
+ "p3": {
+  "foto": "foto-1.jpg",
+  "etapa": 4,
+  "marcas": [
+   "Verbal",
+   "Não verbal"
+  ],
+  "marca": 1,
+  "titulo": [
+   "Mão fechada",
+   "fecha a conversa."
+  ],
+  "texto": "Postura aberta, olhar na lente, frase curta. Confiança se vê antes de se ouvir."
+ }
+}

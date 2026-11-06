@@ -1,0 +1,4689 @@
+{
+ "arquivo": "IMG_1041",
+ "duracao": 320.79,
+ "segmentos": [
+  {
+   "ini": 1.01,
+   "fim": 4.13,
+   "texto": "Agora, meu amor, a maior dúvida de todas, viu?",
+   "palavras": [
+    {
+     "p": "Agora,",
+     "ini": 1.01,
+     "fim": 1.67,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 1.77,
+     "fim": 1.87,
+     "conf": 0.97
+    },
+    {
+     "p": "amor,",
+     "ini": 1.87,
+     "fim": 2.11,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 2.45,
+     "fim": 2.91,
+     "conf": 1.0
+    },
+    {
+     "p": "maior",
+     "ini": 2.91,
+     "fim": 3.13,
+     "conf": 1.0
+    },
+    {
+     "p": "dúvida",
+     "ini": 3.13,
+     "fim": 3.43,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 3.43,
+     "fim": 3.61,
+     "conf": 1.0
+    },
+    {
+     "p": "todas,",
+     "ini": 3.61,
+     "fim": 3.91,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 4.03,
+     "fim": 4.13,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 5.29,
+   "fim": 10.09,
+   "texto": "Ari, quanto que você gastou pra fazer esses procedimentos?",
+   "palavras": [
+    {
+     "p": "Ari,",
+     "ini": 5.29,
+     "fim": 5.75,
+     "conf": 0.91
+    },
+    {
+     "p": "quanto",
+     "ini": 5.97,
+     "fim": 6.33,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 6.33,
+     "fim": 6.51,
+     "conf": 0.99
+    },
+    {
+     "p": "você",
+     "ini": 6.51,
+     "fim": 6.83,
+     "conf": 1.0
+    },
+    {
+     "p": "gastou",
+     "ini": 6.83,
+     "fim": 8.01,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 8.01,
+     "fim": 8.83,
+     "conf": 0.82
+    },
+    {
+     "p": "fazer",
+     "ini": 8.83,
+     "fim": 9.09,
+     "conf": 1.0
+    },
+    {
+     "p": "esses",
+     "ini": 9.09,
+     "fim": 9.31,
+     "conf": 1.0
+    },
+    {
+     "p": "procedimentos?",
+     "ini": 9.31,
+     "fim": 10.09,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 11.11,
+   "fim": 13.09,
+   "texto": "Bora lá, minhas maravilhosas.",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 11.11,
+     "fim": 11.83,
+     "conf": 1.0
+    },
+    {
+     "p": "lá,",
+     "ini": 11.83,
+     "fim": 11.99,
+     "conf": 1.0
+    },
+    {
+     "p": "minhas",
+     "ini": 12.09,
+     "fim": 12.31,
+     "conf": 1.0
+    },
+    {
+     "p": "maravilhosas.",
+     "ini": 12.31,
+     "fim": 13.09,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 13.29,
+   "fim": 14.11,
+   "texto": "Vejam só.",
+   "palavras": [
+    {
+     "p": "Vejam",
+     "ini": 13.29,
+     "fim": 13.87,
+     "conf": 1.0
+    },
+    {
+     "p": "só.",
+     "ini": 13.87,
+     "fim": 14.11,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 16.51,
+   "fim": 18.51,
+   "texto": "Primeiramente, peraí, me se negar.",
+   "palavras": [
+    {
+     "p": "Primeiramente,",
+     "ini": 16.51,
+     "fim": 17.23,
+     "conf": 1.0
+    },
+    {
+     "p": "peraí,",
+     "ini": 17.23,
+     "fim": 17.95,
+     "conf": 0.94
+    },
+    {
+     "p": "me",
+     "ini": 18.05,
+     "fim": 18.09,
+     "conf": 0.76
+    },
+    {
+     "p": "se",
+     "ini": 18.09,
+     "fim": 18.15,
+     "conf": 0.48
+    },
+    {
+     "p": "negar.",
+     "ini": 18.15,
+     "fim": 18.51,
+     "conf": 0.75
+    }
+   ]
+  },
+  {
+   "ini": 20.09,
+   "fim": 25.67,
+   "texto": "Primeiramente, pra lembrar vocês que cada cirurgia é única.",
+   "palavras": [
+    {
+     "p": "Primeiramente,",
+     "ini": 20.09,
+     "fim": 20.81,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 20.81,
+     "fim": 21.53,
+     "conf": 0.95
+    },
+    {
+     "p": "lembrar",
+     "ini": 21.53,
+     "fim": 21.91,
+     "conf": 1.0
+    },
+    {
+     "p": "vocês",
+     "ini": 21.91,
+     "fim": 22.37,
+     "conf": 0.87
+    },
+    {
+     "p": "que",
+     "ini": 22.37,
+     "fim": 22.81,
+     "conf": 1.0
+    },
+    {
+     "p": "cada",
+     "ini": 22.81,
+     "fim": 23.73,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia",
+     "ini": 23.73,
+     "fim": 24.61,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 24.61,
+     "fim": 25.17,
+     "conf": 1.0
+    },
+    {
+     "p": "única.",
+     "ini": 25.17,
+     "fim": 25.67,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 26.25,
+   "fim": 30.55,
+   "texto": "Então, assim, pra você ter uma noção do quanto que você vai gastar,",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 26.25,
+     "fim": 26.37,
+     "conf": 1.0
+    },
+    {
+     "p": "assim,",
+     "ini": 26.57,
+     "fim": 26.63,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 27.09,
+     "fim": 27.21,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 27.21,
+     "fim": 27.63,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 27.63,
+     "fim": 28.13,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 28.13,
+     "fim": 28.25,
+     "conf": 1.0
+    },
+    {
+     "p": "noção",
+     "ini": 28.25,
+     "fim": 28.71,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 28.71,
+     "fim": 28.93,
+     "conf": 1.0
+    },
+    {
+     "p": "quanto",
+     "ini": 28.93,
+     "fim": 29.41,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 29.41,
+     "fim": 29.59,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 29.59,
+     "fim": 29.85,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 29.85,
+     "fim": 30.01,
+     "conf": 1.0
+    },
+    {
+     "p": "gastar,",
+     "ini": 30.01,
+     "fim": 30.55,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 31.01,
+   "fim": 36.01,
+   "texto": "Você precisa, primeiramente, ir pra uma consulta pra ver o que vai ser necessário pra você, certo?",
+   "palavras": [
+    {
+     "p": "Você",
+     "ini": 31.01,
+     "fim": 31.19,
+     "conf": 0.59
+    },
+    {
+     "p": "precisa,",
+     "ini": 31.19,
+     "fim": 31.63,
+     "conf": 1.0
+    },
+    {
+     "p": "primeiramente,",
+     "ini": 31.71,
+     "fim": 32.27,
+     "conf": 1.0
+    },
+    {
+     "p": "ir",
+     "ini": 32.33,
+     "fim": 32.41,
+     "conf": 0.99
+    },
+    {
+     "p": "pra",
+     "ini": 32.41,
+     "fim": 32.49,
+     "conf": 0.64
+    },
+    {
+     "p": "uma",
+     "ini": 32.49,
+     "fim": 32.59,
+     "conf": 0.99
+    },
+    {
+     "p": "consulta",
+     "ini": 32.59,
+     "fim": 33.09,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 33.09,
+     "fim": 33.21,
+     "conf": 0.98
+    },
+    {
+     "p": "ver",
+     "ini": 33.21,
+     "fim": 33.35,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 33.35,
+     "fim": 33.45,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 33.45,
+     "fim": 33.51,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 33.51,
+     "fim": 33.65,
+     "conf": 1.0
+    },
+    {
+     "p": "ser",
+     "ini": 33.65,
+     "fim": 33.83,
+     "conf": 1.0
+    },
+    {
+     "p": "necessário",
+     "ini": 33.83,
+     "fim": 34.43,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 34.43,
+     "fim": 34.67,
+     "conf": 1.0
+    },
+    {
+     "p": "você,",
+     "ini": 34.67,
+     "fim": 35.17,
+     "conf": 1.0
+    },
+    {
+     "p": "certo?",
+     "ini": 35.71,
+     "fim": 36.01,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 36.75,
+   "fim": 41.59,
+   "texto": "Como a questão da minha cirurgia era uma cirurgia reparadora,",
+   "palavras": [
+    {
+     "p": "Como",
+     "ini": 36.75,
+     "fim": 37.33,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 37.33,
+     "fim": 37.43,
+     "conf": 1.0
+    },
+    {
+     "p": "questão",
+     "ini": 37.43,
+     "fim": 37.79,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 37.79,
+     "fim": 37.97,
+     "conf": 1.0
+    },
+    {
+     "p": "minha",
+     "ini": 37.97,
+     "fim": 38.13,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia",
+     "ini": 38.13,
+     "fim": 38.87,
+     "conf": 1.0
+    },
+    {
+     "p": "era",
+     "ini": 38.87,
+     "fim": 39.59,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 39.59,
+     "fim": 39.77,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia",
+     "ini": 39.77,
+     "fim": 40.25,
+     "conf": 1.0
+    },
+    {
+     "p": "reparadora,",
+     "ini": 40.25,
+     "fim": 41.59,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 41.93,
+   "fim": 46.39,
+   "texto": "que não tinha tantas complicações, já tava tudo certo, tudo ok,",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 41.93,
+     "fim": 42.75,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 42.75,
+     "fim": 42.91,
+     "conf": 1.0
+    },
+    {
+     "p": "tinha",
+     "ini": 42.91,
+     "fim": 43.17,
+     "conf": 1.0
+    },
+    {
+     "p": "tantas",
+     "ini": 43.17,
+     "fim": 43.71,
+     "conf": 1.0
+    },
+    {
+     "p": "complicações,",
+     "ini": 43.71,
+     "fim": 44.45,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 44.57,
+     "fim": 44.63,
+     "conf": 1.0
+    },
+    {
+     "p": "tava",
+     "ini": 44.63,
+     "fim": 44.81,
+     "conf": 0.91
+    },
+    {
+     "p": "tudo",
+     "ini": 44.81,
+     "fim": 45.09,
+     "conf": 1.0
+    },
+    {
+     "p": "certo,",
+     "ini": 45.09,
+     "fim": 45.63,
+     "conf": 1.0
+    },
+    {
+     "p": "tudo",
+     "ini": 45.87,
+     "fim": 46.03,
+     "conf": 1.0
+    },
+    {
+     "p": "ok,",
+     "ini": 46.03,
+     "fim": 46.39,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 47.33,
+   "fim": 58.37,
+   "texto": "o meu gasto no total foi, no total, isso incluindo a cola cirúrgica, isso incluindo as drenagens,",
+   "palavras": [
+    {
+     "p": "o",
+     "ini": 47.33,
+     "fim": 47.97,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 47.97,
+     "fim": 48.13,
+     "conf": 1.0
+    },
+    {
+     "p": "gasto",
+     "ini": 48.13,
+     "fim": 48.53,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 48.53,
+     "fim": 48.73,
+     "conf": 0.88
+    },
+    {
+     "p": "total",
+     "ini": 48.73,
+     "fim": 49.41,
+     "conf": 1.0
+    },
+    {
+     "p": "foi,",
+     "ini": 49.41,
+     "fim": 50.71,
+     "conf": 0.48
+    },
+    {
+     "p": "no",
+     "ini": 50.71,
+     "fim": 51.29,
+     "conf": 1.0
+    },
+    {
+     "p": "total,",
+     "ini": 51.29,
+     "fim": 51.69,
+     "conf": 1.0
+    },
+    {
+     "p": "isso",
+     "ini": 51.91,
+     "fim": 52.23,
+     "conf": 0.5
+    },
+    {
+     "p": "incluindo",
+     "ini": 52.23,
+     "fim": 52.91,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 52.91,
+     "fim": 53.97,
+     "conf": 1.0
+    },
+    {
+     "p": "cola",
+     "ini": 53.97,
+     "fim": 54.19,
+     "conf": 0.98
+    },
+    {
+     "p": "cirúrgica,",
+     "ini": 54.19,
+     "fim": 55.07,
+     "conf": 1.0
+    },
+    {
+     "p": "isso",
+     "ini": 55.17,
+     "fim": 55.35,
+     "conf": 1.0
+    },
+    {
+     "p": "incluindo",
+     "ini": 55.35,
+     "fim": 56.19,
+     "conf": 1.0
+    },
+    {
+     "p": "as",
+     "ini": 56.19,
+     "fim": 57.55,
+     "conf": 1.0
+    },
+    {
+     "p": "drenagens,",
+     "ini": 57.55,
+     "fim": 58.37,
+     "conf": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 58.37,
+   "fim": 60.99,
+   "texto": "Eu gastei em torno de uns 40 mil.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 58.37,
+     "fim": 59.07,
+     "conf": 0.51
+    },
+    {
+     "p": "gastei",
+     "ini": 59.07,
+     "fim": 59.55,
+     "conf": 0.99
+    },
+    {
+     "p": "em",
+     "ini": 59.55,
+     "fim": 59.73,
+     "conf": 1.0
+    },
+    {
+     "p": "torno",
+     "ini": 59.73,
+     "fim": 60.03,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 60.03,
+     "fim": 60.17,
+     "conf": 0.99
+    },
+    {
+     "p": "uns",
+     "ini": 60.17,
+     "fim": 60.31,
+     "conf": 1.0
+    },
+    {
+     "p": "40",
+     "ini": 60.31,
+     "fim": 60.65,
+     "conf": 0.86
+    },
+    {
+     "p": "mil.",
+     "ini": 60.65,
+     "fim": 60.99,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 62.99,
+   "fim": 64.71,
+   "texto": "Neste babado, tá?",
+   "palavras": [
+    {
+     "p": "Neste",
+     "ini": 62.99,
+     "fim": 63.73,
+     "conf": 1.0
+    },
+    {
+     "p": "babado,",
+     "ini": 63.73,
+     "fim": 64.47,
+     "conf": 0.98
+    },
+    {
+     "p": "tá?",
+     "ini": 64.61,
+     "fim": 64.71,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 65.23,
+   "fim": 73.13,
+   "texto": "O que eu tô gastando agora é com aquelas pomadinhas pra cicatrização, tá?",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 65.23,
+     "fim": 65.97,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 65.97,
+     "fim": 66.07,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 66.07,
+     "fim": 66.15,
+     "conf": 1.0
+    },
+    {
+     "p": "tô",
+     "ini": 66.15,
+     "fim": 66.23,
+     "conf": 0.88
+    },
+    {
+     "p": "gastando",
+     "ini": 66.23,
+     "fim": 66.69,
+     "conf": 0.99
+    },
+    {
+     "p": "agora",
+     "ini": 66.69,
+     "fim": 67.29,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 67.29,
+     "fim": 68.19,
+     "conf": 0.93
+    },
+    {
+     "p": "com",
+     "ini": 68.19,
+     "fim": 68.97,
+     "conf": 1.0
+    },
+    {
+     "p": "aquelas",
+     "ini": 68.97,
+     "fim": 70.25,
+     "conf": 0.99
+    },
+    {
+     "p": "pomadinhas",
+     "ini": 70.25,
+     "fim": 71.23,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 71.23,
+     "fim": 72.05,
+     "conf": 0.96
+    },
+    {
+     "p": "cicatrização,",
+     "ini": 72.05,
+     "fim": 72.85,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 73.01,
+     "fim": 73.13,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 73.57,
+   "fim": 75.21,
+   "texto": "Que pasmem.",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 73.57,
+     "fim": 74.31,
+     "conf": 1.0
+    },
+    {
+     "p": "pasmem.",
+     "ini": 74.31,
+     "fim": 75.21,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 76.57,
+   "fim": 80.53,
+   "texto": "15 gramas eu tô achando assim por 215, 240.",
+   "palavras": [
+    {
+     "p": "15",
+     "ini": 76.57,
+     "fim": 77.31,
+     "conf": 0.99
+    },
+    {
+     "p": "gramas",
+     "ini": 77.31,
+     "fim": 77.77,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 77.77,
+     "fim": 77.91,
+     "conf": 0.75
+    },
+    {
+     "p": "tô",
+     "ini": 77.91,
+     "fim": 78.05,
+     "conf": 1.0
+    },
+    {
+     "p": "achando",
+     "ini": 78.05,
+     "fim": 78.43,
+     "conf": 1.0
+    },
+    {
+     "p": "assim",
+     "ini": 78.43,
+     "fim": 78.77,
+     "conf": 0.9
+    },
+    {
+     "p": "por",
+     "ini": 78.77,
+     "fim": 79.13,
+     "conf": 0.86
+    },
+    {
+     "p": "215,",
+     "ini": 79.13,
+     "fim": 79.91,
+     "conf": 0.91
+    },
+    {
+     "p": "240.",
+     "ini": 80.09,
+     "fim": 80.53,
+     "conf": 0.83
+    }
+   ]
+  },
+  {
+   "ini": 81.17,
+   "fim": 83.71,
+   "texto": "Até 300 reais eu já achei dessa pomadinha, viu?",
+   "palavras": [
+    {
+     "p": "Até",
+     "ini": 81.17,
+     "fim": 81.57,
+     "conf": 1.0
+    },
+    {
+     "p": "300",
+     "ini": 81.57,
+     "fim": 81.91,
+     "conf": 0.99
+    },
+    {
+     "p": "reais",
+     "ini": 81.91,
+     "fim": 82.17,
+     "conf": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 82.17,
+     "fim": 82.31,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 82.31,
+     "fim": 82.43,
+     "conf": 1.0
+    },
+    {
+     "p": "achei",
+     "ini": 82.43,
+     "fim": 82.71,
+     "conf": 1.0
+    },
+    {
+     "p": "dessa",
+     "ini": 82.71,
+     "fim": 82.93,
+     "conf": 0.99
+    },
+    {
+     "p": "pomadinha,",
+     "ini": 82.93,
+     "fim": 83.53,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 83.57,
+     "fim": 83.71,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 85.43,
+   "fim": 93.17,
+   "texto": "Enfim, mas a gente tem que fazer uma base de um pré, de um durante e de um pós, tá?",
+   "palavras": [
+    {
+     "p": "Enfim,",
+     "ini": 85.43,
+     "fim": 85.91,
+     "conf": 0.98
+    },
+    {
+     "p": "mas",
+     "ini": 85.91,
+     "fim": 86.39,
+     "conf": 0.98
+    },
+    {
+     "p": "a",
+     "ini": 86.39,
+     "fim": 87.79,
+     "conf": 0.98
+    },
+    {
+     "p": "gente",
+     "ini": 87.79,
+     "fim": 87.93,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 87.93,
+     "fim": 88.11,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 88.11,
+     "fim": 88.21,
+     "conf": 1.0
+    },
+    {
+     "p": "fazer",
+     "ini": 88.21,
+     "fim": 88.43,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 88.43,
+     "fim": 88.59,
+     "conf": 1.0
+    },
+    {
+     "p": "base",
+     "ini": 88.59,
+     "fim": 89.03,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 89.03,
+     "fim": 89.81,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 89.81,
+     "fim": 90.01,
+     "conf": 1.0
+    },
+    {
+     "p": "pré,",
+     "ini": 90.01,
+     "fim": 90.37,
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 90.69,
+     "fim": 91.27,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 91.27,
+     "fim": 91.39,
+     "conf": 1.0
+    },
+    {
+     "p": "durante",
+     "ini": 91.39,
+     "fim": 91.83,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 91.83,
+     "fim": 92.29,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 92.29,
+     "fim": 92.41,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 92.41,
+     "fim": 92.61,
+     "conf": 1.0
+    },
+    {
+     "p": "pós,",
+     "ini": 92.61,
+     "fim": 92.89,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 93.09,
+     "fim": 93.17,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 93.37,
+   "fim": 94.81,
+   "texto": "Se organizar nessa questão.",
+   "palavras": [
+    {
+     "p": "Se",
+     "ini": 93.37,
+     "fim": 93.57,
+     "conf": 1.0
+    },
+    {
+     "p": "organizar",
+     "ini": 93.57,
+     "fim": 94.11,
+     "conf": 1.0
+    },
+    {
+     "p": "nessa",
+     "ini": 94.11,
+     "fim": 94.35,
+     "conf": 1.0
+    },
+    {
+     "p": "questão.",
+     "ini": 94.35,
+     "fim": 94.81,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 95.17,
+   "fim": 102.93,
+   "texto": "Porque a gente acha que é só a cirurgia em si, mas a gente tem um gasto com exames, com a consulta,",
+   "palavras": [
+    {
+     "p": "Porque",
+     "ini": 95.17,
+     "fim": 95.65,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 95.65,
+     "fim": 95.79,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 95.79,
+     "fim": 95.87,
+     "conf": 1.0
+    },
+    {
+     "p": "acha",
+     "ini": 95.87,
+     "fim": 96.13,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 96.13,
+     "fim": 96.25,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 96.25,
+     "fim": 96.31,
+     "conf": 1.0
+    },
+    {
+     "p": "só",
+     "ini": 96.31,
+     "fim": 96.43,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 96.43,
+     "fim": 96.55,
+     "conf": 0.87
+    },
+    {
+     "p": "cirurgia",
+     "ini": 96.55,
+     "fim": 96.87,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 96.87,
+     "fim": 97.07,
+     "conf": 1.0
+    },
+    {
+     "p": "si,",
+     "ini": 97.07,
+     "fim": 97.27,
+     "conf": 1.0
+    },
+    {
+     "p": "mas",
+     "ini": 97.59,
+     "fim": 98.03,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 98.03,
+     "fim": 98.15,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 98.15,
+     "fim": 98.25,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 98.25,
+     "fim": 98.37,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 98.37,
+     "fim": 98.49,
+     "conf": 0.77
+    },
+    {
+     "p": "gasto",
+     "ini": 98.49,
+     "fim": 99.05,
+     "conf": 0.83
+    },
+    {
+     "p": "com",
+     "ini": 99.05,
+     "fim": 99.75,
+     "conf": 1.0
+    },
+    {
+     "p": "exames,",
+     "ini": 99.75,
+     "fim": 101.47,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 101.83,
+     "fim": 101.97,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 101.97,
+     "fim": 102.01,
+     "conf": 1.0
+    },
+    {
+     "p": "consulta,",
+     "ini": 102.01,
+     "fim": 102.93,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 103.31,
+   "fim": 106.39,
+   "texto": "a gente tem um gasto com as roupas que a gente vai utilizar.",
+   "palavras": [
+    {
+     "p": "a",
+     "ini": 103.31,
+     "fim": 103.43,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 103.43,
+     "fim": 103.59,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 103.59,
+     "fim": 103.81,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 103.81,
+     "fim": 103.95,
+     "conf": 1.0
+    },
+    {
+     "p": "gasto",
+     "ini": 103.95,
+     "fim": 104.47,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 104.47,
+     "fim": 104.83,
+     "conf": 1.0
+    },
+    {
+     "p": "as",
+     "ini": 104.83,
+     "fim": 105.07,
+     "conf": 1.0
+    },
+    {
+     "p": "roupas",
+     "ini": 105.07,
+     "fim": 105.45,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 105.45,
+     "fim": 105.55,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 105.55,
+     "fim": 105.65,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 105.65,
+     "fim": 105.69,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 105.69,
+     "fim": 105.85,
+     "conf": 1.0
+    },
+    {
+     "p": "utilizar.",
+     "ini": 105.85,
+     "fim": 106.39,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 106.89,
+   "fim": 113.53,
+   "texto": "E o pós, então, que é a questão das drenagens, as medicações, certo?",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 106.89,
+     "fim": 107.37,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 107.37,
+     "fim": 107.57,
+     "conf": 1.0
+    },
+    {
+     "p": "pós,",
+     "ini": 107.57,
+     "fim": 108.09,
+     "conf": 1.0
+    },
+    {
+     "p": "então,",
+     "ini": 108.17,
+     "fim": 108.47,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 108.71,
+     "fim": 109.01,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 109.01,
+     "fim": 109.09,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 109.09,
+     "fim": 109.17,
+     "conf": 1.0
+    },
+    {
+     "p": "questão",
+     "ini": 109.17,
+     "fim": 109.39,
+     "conf": 1.0
+    },
+    {
+     "p": "das",
+     "ini": 109.39,
+     "fim": 109.57,
+     "conf": 1.0
+    },
+    {
+     "p": "drenagens,",
+     "ini": 109.57,
+     "fim": 110.59,
+     "conf": 0.94
+    },
+    {
+     "p": "as",
+     "ini": 111.13,
+     "fim": 111.41,
+     "conf": 1.0
+    },
+    {
+     "p": "medicações,",
+     "ini": 111.41,
+     "fim": 112.59,
+     "conf": 1.0
+    },
+    {
+     "p": "certo?",
+     "ini": 113.17,
+     "fim": 113.53,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 113.71,
+   "fim": 116.61,
+   "texto": "Hoje eu incluí na minha vida o pilates",
+   "palavras": [
+    {
+     "p": "Hoje",
+     "ini": 113.71,
+     "fim": 114.61,
+     "conf": 0.51
+    },
+    {
+     "p": "eu",
+     "ini": 114.61,
+     "fim": 114.71,
+     "conf": 0.73
+    },
+    {
+     "p": "incluí",
+     "ini": 114.71,
+     "fim": 115.09,
+     "conf": 0.99
+    },
+    {
+     "p": "na",
+     "ini": 115.09,
+     "fim": 115.21,
+     "conf": 1.0
+    },
+    {
+     "p": "minha",
+     "ini": 115.21,
+     "fim": 115.43,
+     "conf": 1.0
+    },
+    {
+     "p": "vida",
+     "ini": 115.43,
+     "fim": 115.71,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 115.71,
+     "fim": 115.89,
+     "conf": 0.99
+    },
+    {
+     "p": "pilates",
+     "ini": 115.89,
+     "fim": 116.61,
+     "conf": 0.86
+    }
+   ]
+  },
+  {
+   "ini": 116.61,
+   "fim": 122.21,
+   "texto": "para ajudar a fortalecer o meu core devido ao fechamento da minha diástase.",
+   "palavras": [
+    {
+     "p": "para",
+     "ini": 116.61,
+     "fim": 117.21,
+     "conf": 0.34
+    },
+    {
+     "p": "ajudar",
+     "ini": 117.21,
+     "fim": 117.47,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 117.47,
+     "fim": 117.61,
+     "conf": 1.0
+    },
+    {
+     "p": "fortalecer",
+     "ini": 117.61,
+     "fim": 118.11,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 118.11,
+     "fim": 118.21,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 118.21,
+     "fim": 118.35,
+     "conf": 1.0
+    },
+    {
+     "p": "core",
+     "ini": 118.35,
+     "fim": 118.67,
+     "conf": 0.93
+    },
+    {
+     "p": "devido",
+     "ini": 118.67,
+     "fim": 119.51,
+     "conf": 0.95
+    },
+    {
+     "p": "ao",
+     "ini": 119.51,
+     "fim": 120.55,
+     "conf": 0.98
+    },
+    {
+     "p": "fechamento",
+     "ini": 120.55,
+     "fim": 121.15,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 121.15,
+     "fim": 121.31,
+     "conf": 0.97
+    },
+    {
+     "p": "minha",
+     "ini": 121.31,
+     "fim": 121.39,
+     "conf": 0.99
+    },
+    {
+     "p": "diástase.",
+     "ini": 121.39,
+     "fim": 122.21,
+     "conf": 0.8
+    }
+   ]
+  },
+  {
+   "ini": 122.39,
+   "fim": 129.31,
+   "texto": "Então, assim, a gente tem que calcular sempre se baseando em algo a mais.",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 122.39,
+     "fim": 122.49,
+     "conf": 0.94
+    },
+    {
+     "p": "assim,",
+     "ini": 122.61,
+     "fim": 122.77,
+     "conf": 0.89
+    },
+    {
+     "p": "a",
+     "ini": 124.29,
+     "fim": 124.71,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 124.71,
+     "fim": 124.83,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 124.83,
+     "fim": 124.97,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 124.97,
+     "fim": 125.07,
+     "conf": 1.0
+    },
+    {
+     "p": "calcular",
+     "ini": 125.07,
+     "fim": 125.57,
+     "conf": 1.0
+    },
+    {
+     "p": "sempre",
+     "ini": 125.57,
+     "fim": 126.33,
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "ini": 126.33,
+     "fim": 126.69,
+     "conf": 1.0
+    },
+    {
+     "p": "baseando",
+     "ini": 126.69,
+     "fim": 127.49,
+     "conf": 1.0
+    },
+    {
+     "p": "em",
+     "ini": 127.49,
+     "fim": 128.29,
+     "conf": 1.0
+    },
+    {
+     "p": "algo",
+     "ini": 128.29,
+     "fim": 128.67,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 128.67,
+     "fim": 128.87,
+     "conf": 1.0
+    },
+    {
+     "p": "mais.",
+     "ini": 128.87,
+     "fim": 129.31,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 129.51,
+   "fim": 134.05,
+   "texto": "Porque o pós vai depender muito da sua recuperação,",
+   "palavras": [
+    {
+     "p": "Porque",
+     "ini": 129.51,
+     "fim": 129.93,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 129.93,
+     "fim": 130.19,
+     "conf": 1.0
+    },
+    {
+     "p": "pós",
+     "ini": 130.19,
+     "fim": 130.65,
+     "conf": 1.0
+    },
+    {
+     "p": "vai",
+     "ini": 130.65,
+     "fim": 131.13,
+     "conf": 1.0
+    },
+    {
+     "p": "depender",
+     "ini": 131.13,
+     "fim": 131.51,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 131.51,
+     "fim": 132.07,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 132.07,
+     "fim": 133.23,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 133.23,
+     "fim": 133.39,
+     "conf": 1.0
+    },
+    {
+     "p": "recuperação,",
+     "ini": 133.39,
+     "fim": 134.05,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 134.31,
+   "fim": 138.05,
+   "texto": "vai depender muito da sua teimosia, né, nega?",
+   "palavras": [
+    {
+     "p": "vai",
+     "ini": 134.31,
+     "fim": 134.39,
+     "conf": 1.0
+    },
+    {
+     "p": "depender",
+     "ini": 134.39,
+     "fim": 134.73,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 134.73,
+     "fim": 135.37,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 135.37,
+     "fim": 136.39,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 136.39,
+     "fim": 136.55,
+     "conf": 1.0
+    },
+    {
+     "p": "teimosia,",
+     "ini": 136.55,
+     "fim": 137.33,
+     "conf": 0.99
+    },
+    {
+     "p": "né,",
+     "ini": 137.43,
+     "fim": 137.49,
+     "conf": 0.96
+    },
+    {
+     "p": "nega?",
+     "ini": 137.89,
+     "fim": 138.05,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 138.39,
+   "fim": 140.99,
+   "texto": "Porque, assim, a gente tem que ter muita paciência,",
+   "palavras": [
+    {
+     "p": "Porque,",
+     "ini": 138.39,
+     "fim": 138.87,
+     "conf": 1.0
+    },
+    {
+     "p": "assim,",
+     "ini": 138.89,
+     "fim": 139.03,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 139.03,
+     "fim": 139.19,
+     "conf": 0.97
+    },
+    {
+     "p": "gente",
+     "ini": 139.19,
+     "fim": 139.19,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 139.19,
+     "fim": 139.29,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 139.29,
+     "fim": 139.35,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 139.35,
+     "fim": 139.47,
+     "conf": 1.0
+    },
+    {
+     "p": "muita",
+     "ini": 139.47,
+     "fim": 139.71,
+     "conf": 1.0
+    },
+    {
+     "p": "paciência,",
+     "ini": 139.71,
+     "fim": 140.99,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 140.99,
+   "fim": 143.29,
+   "texto": "fazer tudo certinho, tudo direitinho",
+   "palavras": [
+    {
+     "p": "fazer",
+     "ini": 140.99,
+     "fim": 141.73,
+     "conf": 0.94
+    },
+    {
+     "p": "tudo",
+     "ini": 141.73,
+     "fim": 141.99,
+     "conf": 1.0
+    },
+    {
+     "p": "certinho,",
+     "ini": 141.99,
+     "fim": 142.47,
+     "conf": 1.0
+    },
+    {
+     "p": "tudo",
+     "ini": 142.69,
+     "fim": 142.83,
+     "conf": 1.0
+    },
+    {
+     "p": "direitinho",
+     "ini": 142.83,
+     "fim": 143.29,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 143.29,
+   "fim": 145.17,
+   "texto": "do jeito que a médica pede",
+   "palavras": [
+    {
+     "p": "do",
+     "ini": 143.29,
+     "fim": 143.39,
+     "conf": 0.35
+    },
+    {
+     "p": "jeito",
+     "ini": 143.39,
+     "fim": 143.61,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 143.61,
+     "fim": 143.75,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 143.75,
+     "fim": 143.89,
+     "conf": 1.0
+    },
+    {
+     "p": "médica",
+     "ini": 143.89,
+     "fim": 144.51,
+     "conf": 1.0
+    },
+    {
+     "p": "pede",
+     "ini": 144.51,
+     "fim": 145.17,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 145.17,
+   "fim": 146.99,
+   "texto": "pra gente não ter nenhuma complicação",
+   "palavras": [
+    {
+     "p": "pra",
+     "ini": 145.17,
+     "fim": 145.81,
+     "conf": 0.52
+    },
+    {
+     "p": "gente",
+     "ini": 145.81,
+     "fim": 145.97,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 145.97,
+     "fim": 146.11,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 146.11,
+     "fim": 146.27,
+     "conf": 1.0
+    },
+    {
+     "p": "nenhuma",
+     "ini": 146.27,
+     "fim": 146.49,
+     "conf": 1.0
+    },
+    {
+     "p": "complicação",
+     "ini": 146.49,
+     "fim": 146.99,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 148.15,
+   "fim": 148.71,
+   "texto": "enfim",
+   "palavras": [
+    {
+     "p": "enfim",
+     "ini": 148.15,
+     "fim": 148.71,
+     "conf": 0.22
+    }
+   ]
+  },
+  {
+   "ini": 149.59,
+   "fim": 150.71,
+   "texto": "nesse sentido",
+   "palavras": [
+    {
+     "p": "nesse",
+     "ini": 149.59,
+     "fim": 150.15,
+     "conf": 0.89
+    },
+    {
+     "p": "sentido",
+     "ini": 150.15,
+     "fim": 150.71,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 151.63,
+   "fim": 153.19,
+   "texto": "esses gastos no total",
+   "palavras": [
+    {
+     "p": "esses",
+     "ini": 151.63,
+     "fim": 152.19,
+     "conf": 0.99
+    },
+    {
+     "p": "gastos",
+     "ini": 152.19,
+     "fim": 152.65,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 152.65,
+     "fim": 152.83,
+     "conf": 0.92
+    },
+    {
+     "p": "total",
+     "ini": 152.83,
+     "fim": 153.19,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 153.19,
+   "fim": 155.39,
+   "texto": "eu ainda tô tendo outros gastos",
+   "palavras": [
+    {
+     "p": "eu",
+     "ini": 153.19,
+     "fim": 153.85,
+     "conf": 0.98
+    },
+    {
+     "p": "ainda",
+     "ini": 153.85,
+     "fim": 154.03,
+     "conf": 1.0
+    },
+    {
+     "p": "tô",
+     "ini": 154.03,
+     "fim": 154.17,
+     "conf": 0.59
+    },
+    {
+     "p": "tendo",
+     "ini": 154.17,
+     "fim": 154.45,
+     "conf": 1.0
+    },
+    {
+     "p": "outros",
+     "ini": 154.45,
+     "fim": 154.75,
+     "conf": 1.0
+    },
+    {
+     "p": "gastos",
+     "ini": 154.75,
+     "fim": 155.39,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 155.39,
+   "fim": 157.51,
+   "texto": "porém eu tô falando no geral",
+   "palavras": [
+    {
+     "p": "porém",
+     "ini": 155.39,
+     "fim": 156.17,
+     "conf": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 156.17,
+     "fim": 156.35,
+     "conf": 0.96
+    },
+    {
+     "p": "tô",
+     "ini": 156.35,
+     "fim": 156.83,
+     "conf": 1.0
+    },
+    {
+     "p": "falando",
+     "ini": 156.83,
+     "fim": 157.11,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 157.11,
+     "fim": 157.31,
+     "conf": 0.99
+    },
+    {
+     "p": "geral",
+     "ini": 157.31,
+     "fim": 157.51,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 157.51,
+   "fim": 159.37,
+   "texto": "na cirurgia em si, tá?",
+   "palavras": [
+    {
+     "p": "na",
+     "ini": 157.51,
+     "fim": 158.13,
+     "conf": 0.99
+    },
+    {
+     "p": "cirurgia",
+     "ini": 158.13,
+     "fim": 158.55,
+     "conf": 0.98
+    },
+    {
+     "p": "em",
+     "ini": 158.55,
+     "fim": 158.71,
+     "conf": 1.0
+    },
+    {
+     "p": "si,",
+     "ini": 158.71,
+     "fim": 158.97,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 158.97,
+     "fim": 159.37,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 160.03,
+   "fim": 161.59,
+   "texto": "gastei em torno de uns 40 mil",
+   "palavras": [
+    {
+     "p": "gastei",
+     "ini": 160.03,
+     "fim": 160.59,
+     "conf": 0.9
+    },
+    {
+     "p": "em",
+     "ini": 160.59,
+     "fim": 160.69,
+     "conf": 1.0
+    },
+    {
+     "p": "torno",
+     "ini": 160.69,
+     "fim": 160.85,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 160.85,
+     "fim": 160.91,
+     "conf": 0.7
+    },
+    {
+     "p": "uns",
+     "ini": 160.91,
+     "fim": 161.03,
+     "conf": 0.96
+    },
+    {
+     "p": "40",
+     "ini": 161.03,
+     "fim": 161.29,
+     "conf": 0.98
+    },
+    {
+     "p": "mil",
+     "ini": 161.29,
+     "fim": 161.59,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 162.27,
+   "fim": 163.13,
+   "texto": "lembrando que",
+   "palavras": [
+    {
+     "p": "lembrando",
+     "ini": 162.27,
+     "fim": 162.83,
+     "conf": 0.98
+    },
+    {
+     "p": "que",
+     "ini": 162.83,
+     "fim": 163.13,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 163.13,
+   "fim": 165.63,
+   "texto": "pra vocês não pensarem que a Ari",
+   "palavras": [
+    {
+     "p": "pra",
+     "ini": 163.13,
+     "fim": 164.19,
+     "conf": 0.97
+    },
+    {
+     "p": "vocês",
+     "ini": 164.19,
+     "fim": 164.41,
+     "conf": 0.99
+    },
+    {
+     "p": "não",
+     "ini": 164.41,
+     "fim": 164.55,
+     "conf": 0.88
+    },
+    {
+     "p": "pensarem",
+     "ini": 164.55,
+     "fim": 164.83,
+     "conf": 0.88
+    },
+    {
+     "p": "que",
+     "ini": 164.83,
+     "fim": 164.97,
+     "conf": 0.97
+    },
+    {
+     "p": "a",
+     "ini": 164.97,
+     "fim": 165.19,
+     "conf": 0.96
+    },
+    {
+     "p": "Ari",
+     "ini": 165.19,
+     "fim": 165.63,
+     "conf": 0.55
+    }
+   ]
+  },
+  {
+   "ini": 165.63,
+   "fim": 167.51,
+   "texto": "tá rica, não, tá não, nega",
+   "palavras": [
+    {
+     "p": "tá",
+     "ini": 165.63,
+     "fim": 165.85,
+     "conf": 0.99
+    },
+    {
+     "p": "rica,",
+     "ini": 165.85,
+     "fim": 166.45,
+     "conf": 1.0
+    },
+    {
+     "p": "não,",
+     "ini": 166.47,
+     "fim": 166.75,
+     "conf": 1.0
+    },
+    {
+     "p": "tá",
+     "ini": 166.87,
+     "fim": 166.93,
+     "conf": 1.0
+    },
+    {
+     "p": "não,",
+     "ini": 166.93,
+     "fim": 167.15,
+     "conf": 0.97
+    },
+    {
+     "p": "nega",
+     "ini": 167.17,
+     "fim": 167.51,
+     "conf": 0.79
+    }
+   ]
+  },
+  {
+   "ini": 167.51,
+   "fim": 168.75,
+   "texto": "porque assim",
+   "palavras": [
+    {
+     "p": "porque",
+     "ini": 167.51,
+     "fim": 168.37,
+     "conf": 0.99
+    },
+    {
+     "p": "assim",
+     "ini": 168.37,
+     "fim": 168.75,
+     "conf": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 169.63,
+   "fim": 171.41,
+   "texto": "trabalho pra caceta",
+   "palavras": [
+    {
+     "p": "trabalho",
+     "ini": 169.63,
+     "fim": 170.19,
+     "conf": 0.71
+    },
+    {
+     "p": "pra",
+     "ini": 170.19,
+     "fim": 170.55,
+     "conf": 0.93
+    },
+    {
+     "p": "caceta",
+     "ini": 170.55,
+     "fim": 171.41,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 172.07,
+   "fim": 173.45,
+   "texto": "pra quem me conhece",
+   "palavras": [
+    {
+     "p": "pra",
+     "ini": 172.07,
+     "fim": 172.63,
+     "conf": 0.09
+    },
+    {
+     "p": "quem",
+     "ini": 172.63,
+     "fim": 172.99,
+     "conf": 0.98
+    },
+    {
+     "p": "me",
+     "ini": 172.99,
+     "fim": 173.15,
+     "conf": 1.0
+    },
+    {
+     "p": "conhece",
+     "ini": 173.15,
+     "fim": 173.45,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 173.45,
+   "fim": 174.29,
+   "texto": "de pertinho sabe",
+   "palavras": [
+    {
+     "p": "de",
+     "ini": 173.45,
+     "fim": 173.57,
+     "conf": 0.95
+    },
+    {
+     "p": "pertinho",
+     "ini": 173.57,
+     "fim": 173.85,
+     "conf": 1.0
+    },
+    {
+     "p": "sabe",
+     "ini": 173.85,
+     "fim": 174.29,
+     "conf": 0.97
+    }
+   ]
+  },
+  {
+   "ini": 174.29,
+   "fim": 177.37,
+   "texto": "e assim, tudo tem um planejamento",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 174.29,
+     "fim": 175.13,
+     "conf": 0.33
+    },
+    {
+     "p": "assim,",
+     "ini": 175.13,
+     "fim": 175.59,
+     "conf": 0.95
+    },
+    {
+     "p": "tudo",
+     "ini": 175.83,
+     "fim": 176.37,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 176.37,
+     "fim": 176.55,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 176.55,
+     "fim": 176.65,
+     "conf": 1.0
+    },
+    {
+     "p": "planejamento",
+     "ini": 176.65,
+     "fim": 177.37,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 177.37,
+   "fim": 178.51,
+   "texto": "tudo tem um objetivo",
+   "palavras": [
+    {
+     "p": "tudo",
+     "ini": 177.37,
+     "fim": 177.79,
+     "conf": 0.18
+    },
+    {
+     "p": "tem",
+     "ini": 177.79,
+     "fim": 177.97,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 177.97,
+     "fim": 178.05,
+     "conf": 1.0
+    },
+    {
+     "p": "objetivo",
+     "ini": 178.05,
+     "fim": 178.51,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 178.51,
+   "fim": 180.95,
+   "texto": "tudo tem um planejamento",
+   "palavras": [
+    {
+     "p": "tudo",
+     "ini": 178.51,
+     "fim": 179.49,
+     "conf": 0.93
+    },
+    {
+     "p": "tem",
+     "ini": 179.49,
+     "fim": 179.93,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 179.93,
+     "fim": 180.05,
+     "conf": 1.0
+    },
+    {
+     "p": "planejamento",
+     "ini": 180.05,
+     "fim": 180.95,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 180.95,
+   "fim": 183.39,
+   "texto": "e assim, e prioridades",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 180.95,
+     "fim": 181.61,
+     "conf": 1.0
+    },
+    {
+     "p": "assim,",
+     "ini": 181.61,
+     "fim": 181.95,
+     "conf": 0.97
+    },
+    {
+     "p": "e",
+     "ini": 182.23,
+     "fim": 182.49,
+     "conf": 0.97
+    },
+    {
+     "p": "prioridades",
+     "ini": 182.49,
+     "fim": 183.39,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 184.05,
+   "fim": 185.33,
+   "texto": "há muito tempo que eu queria",
+   "palavras": [
+    {
+     "p": "há",
+     "ini": 184.05,
+     "fim": 184.61,
+     "conf": 0.72
+    },
+    {
+     "p": "muito",
+     "ini": 184.61,
+     "fim": 184.83,
+     "conf": 1.0
+    },
+    {
+     "p": "tempo",
+     "ini": 184.83,
+     "fim": 185.01,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 185.01,
+     "fim": 185.15,
+     "conf": 0.8
+    },
+    {
+     "p": "eu",
+     "ini": 185.15,
+     "fim": 185.15,
+     "conf": 1.0
+    },
+    {
+     "p": "queria",
+     "ini": 185.15,
+     "fim": 185.33,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 185.33,
+   "fim": 187.15,
+   "texto": "fazer cirurgia, mas não era a minha prioridade",
+   "palavras": [
+    {
+     "p": "fazer",
+     "ini": 185.33,
+     "fim": 185.51,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia,",
+     "ini": 185.51,
+     "fim": 185.93,
+     "conf": 0.83
+    },
+    {
+     "p": "mas",
+     "ini": 186.01,
+     "fim": 186.11,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 186.11,
+     "fim": 186.23,
+     "conf": 1.0
+    },
+    {
+     "p": "era",
+     "ini": 186.23,
+     "fim": 186.35,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 186.35,
+     "fim": 186.43,
+     "conf": 0.46
+    },
+    {
+     "p": "minha",
+     "ini": 186.43,
+     "fim": 186.49,
+     "conf": 1.0
+    },
+    {
+     "p": "prioridade",
+     "ini": 186.49,
+     "fim": 187.15,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 187.15,
+   "fim": 189.47,
+   "texto": "então quando eu me determinei",
+   "palavras": [
+    {
+     "p": "então",
+     "ini": 187.15,
+     "fim": 188.13,
+     "conf": 0.98
+    },
+    {
+     "p": "quando",
+     "ini": 188.13,
+     "fim": 188.37,
+     "conf": 0.88
+    },
+    {
+     "p": "eu",
+     "ini": 188.37,
+     "fim": 188.45,
+     "conf": 1.0
+    },
+    {
+     "p": "me",
+     "ini": 188.45,
+     "fim": 188.57,
+     "conf": 1.0
+    },
+    {
+     "p": "determinei",
+     "ini": 188.57,
+     "fim": 189.47,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 189.47,
+   "fim": 190.57,
+   "texto": "a dizer",
+   "palavras": [
+    {
+     "p": "a",
+     "ini": 189.47,
+     "fim": 190.15,
+     "conf": 1.0
+    },
+    {
+     "p": "dizer",
+     "ini": 190.15,
+     "fim": 190.57,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 190.57,
+   "fim": 192.93,
+   "texto": "essa minha prioridade",
+   "palavras": [
+    {
+     "p": "essa",
+     "ini": 190.57,
+     "fim": 191.51,
+     "conf": 0.57
+    },
+    {
+     "p": "minha",
+     "ini": 191.51,
+     "fim": 191.77,
+     "conf": 0.56
+    },
+    {
+     "p": "prioridade",
+     "ini": 191.77,
+     "fim": 192.93,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 193.75,
+   "fim": 194.91,
+   "texto": "foi o que eu fiz",
+   "palavras": [
+    {
+     "p": "foi",
+     "ini": 193.75,
+     "fim": 194.31,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 194.31,
+     "fim": 194.41,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 194.41,
+     "fim": 194.49,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 194.49,
+     "fim": 194.59,
+     "conf": 1.0
+    },
+    {
+     "p": "fiz",
+     "ini": 194.59,
+     "fim": 194.91,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 195.61,
+   "fim": 196.79,
+   "texto": "botei o foco",
+   "palavras": [
+    {
+     "p": "botei",
+     "ini": 195.61,
+     "fim": 196.17,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 196.17,
+     "fim": 196.29,
+     "conf": 0.97
+    },
+    {
+     "p": "foco",
+     "ini": 196.29,
+     "fim": 196.79,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 196.79,
+   "fim": 198.19,
+   "texto": "que era aquilo que eu ia fazer",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 196.79,
+     "fim": 196.99,
+     "conf": 0.95
+    },
+    {
+     "p": "era",
+     "ini": 196.99,
+     "fim": 197.15,
+     "conf": 1.0
+    },
+    {
+     "p": "aquilo",
+     "ini": 197.15,
+     "fim": 197.43,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 197.43,
+     "fim": 197.55,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 197.55,
+     "fim": 197.63,
+     "conf": 1.0
+    },
+    {
+     "p": "ia",
+     "ini": 197.63,
+     "fim": 197.73,
+     "conf": 1.0
+    },
+    {
+     "p": "fazer",
+     "ini": 197.73,
+     "fim": 198.19,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 198.19,
+   "fim": 200.97,
+   "texto": "e comecei a priorizar aquilo",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 198.19,
+     "fim": 199.01,
+     "conf": 0.62
+    },
+    {
+     "p": "comecei",
+     "ini": 199.01,
+     "fim": 199.85,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 199.85,
+     "fim": 199.97,
+     "conf": 1.0
+    },
+    {
+     "p": "priorizar",
+     "ini": 199.97,
+     "fim": 200.41,
+     "conf": 1.0
+    },
+    {
+     "p": "aquilo",
+     "ini": 200.41,
+     "fim": 200.97,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 200.97,
+   "fim": 201.61,
+   "texto": "e pronto.",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 200.97,
+     "fim": 201.23,
+     "conf": 0.93
+    },
+    {
+     "p": "pronto.",
+     "ini": 201.23,
+     "fim": 201.61,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 202.63,
+   "fim": 204.85,
+   "texto": "Foi simbora. E digo a você",
+   "palavras": [
+    {
+     "p": "Foi",
+     "ini": 202.63,
+     "fim": 203.11,
+     "conf": 1.0
+    },
+    {
+     "p": "simbora.",
+     "ini": 203.11,
+     "fim": 203.59,
+     "conf": 0.78
+    },
+    {
+     "p": "E",
+     "ini": 203.99,
+     "fim": 204.35,
+     "conf": 1.0
+    },
+    {
+     "p": "digo",
+     "ini": 204.35,
+     "fim": 204.55,
+     "conf": 0.89
+    },
+    {
+     "p": "a",
+     "ini": 204.55,
+     "fim": 204.67,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 204.67,
+     "fim": 204.85,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 204.85,
+   "fim": 206.71,
+   "texto": "mais, viu? Se é o que você",
+   "palavras": [
+    {
+     "p": "mais,",
+     "ini": 204.85,
+     "fim": 205.15,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 205.19,
+     "fim": 205.27,
+     "conf": 0.99
+    },
+    {
+     "p": "Se",
+     "ini": 205.71,
+     "fim": 206.19,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 206.19,
+     "fim": 206.33,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 206.33,
+     "fim": 206.39,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 206.39,
+     "fim": 206.47,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 206.47,
+     "fim": 206.71,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 206.71,
+   "fim": 208.89,
+   "texto": "quer, é o que você realmente almeja,",
+   "palavras": [
+    {
+     "p": "quer,",
+     "ini": 206.71,
+     "fim": 206.97,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 207.23,
+     "fim": 207.69,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 207.69,
+     "fim": 207.75,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 207.75,
+     "fim": 207.83,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 207.83,
+     "fim": 207.99,
+     "conf": 1.0
+    },
+    {
+     "p": "realmente",
+     "ini": 207.99,
+     "fim": 208.31,
+     "conf": 1.0
+    },
+    {
+     "p": "almeja,",
+     "ini": 208.31,
+     "fim": 208.89,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 209.83,
+   "fim": 210.79,
+   "texto": "então priorize",
+   "palavras": [
+    {
+     "p": "então",
+     "ini": 209.83,
+     "fim": 210.31,
+     "conf": 1.0
+    },
+    {
+     "p": "priorize",
+     "ini": 210.31,
+     "fim": 210.79,
+     "conf": 0.97
+    }
+   ]
+  },
+  {
+   "ini": 210.79,
+   "fim": 212.75,
+   "texto": "isso na sua vida. Priorize. A vida",
+   "palavras": [
+    {
+     "p": "isso",
+     "ini": 210.79,
+     "fim": 211.03,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 211.03,
+     "fim": 211.19,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 211.19,
+     "fim": 211.37,
+     "conf": 1.0
+    },
+    {
+     "p": "vida.",
+     "ini": 211.37,
+     "fim": 211.65,
+     "conf": 1.0
+    },
+    {
+     "p": "Priorize.",
+     "ini": 211.97,
+     "fim": 212.45,
+     "conf": 1.0
+    },
+    {
+     "p": "A",
+     "ini": 212.51,
+     "fim": 212.59,
+     "conf": 1.0
+    },
+    {
+     "p": "vida",
+     "ini": 212.59,
+     "fim": 212.75,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 212.75,
+   "fim": 214.89,
+   "texto": "é feita de prioridades. Isso eu aprendi",
+   "palavras": [
+    {
+     "p": "é",
+     "ini": 212.75,
+     "fim": 212.85,
+     "conf": 1.0
+    },
+    {
+     "p": "feita",
+     "ini": 212.85,
+     "fim": 213.05,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 213.05,
+     "fim": 213.17,
+     "conf": 1.0
+    },
+    {
+     "p": "prioridades.",
+     "ini": 213.17,
+     "fim": 213.87,
+     "conf": 1.0
+    },
+    {
+     "p": "Isso",
+     "ini": 214.13,
+     "fim": 214.55,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 214.55,
+     "fim": 214.63,
+     "conf": 1.0
+    },
+    {
+     "p": "aprendi",
+     "ini": 214.63,
+     "fim": 214.89,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 214.89,
+   "fim": 215.85,
+   "texto": "com uma grande amiga minha.",
+   "palavras": [
+    {
+     "p": "com",
+     "ini": 214.89,
+     "fim": 215.01,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 215.01,
+     "fim": 215.09,
+     "conf": 0.95
+    },
+    {
+     "p": "grande",
+     "ini": 215.09,
+     "fim": 215.31,
+     "conf": 1.0
+    },
+    {
+     "p": "amiga",
+     "ini": 215.31,
+     "fim": 215.57,
+     "conf": 1.0
+    },
+    {
+     "p": "minha.",
+     "ini": 215.57,
+     "fim": 215.85,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 222.82,
+   "fim": 225.18,
+   "texto": "É. E aí a pergunta",
+   "palavras": [
+    {
+     "p": "É.",
+     "ini": 222.82,
+     "fim": 223.3,
+     "conf": 0.83
+    },
+    {
+     "p": "E",
+     "ini": 224.14,
+     "fim": 224.62,
+     "conf": 1.0
+    },
+    {
+     "p": "aí",
+     "ini": 224.62,
+     "fim": 224.78,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 224.78,
+     "fim": 224.88,
+     "conf": 0.95
+    },
+    {
+     "p": "pergunta",
+     "ini": 224.88,
+     "fim": 225.18,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 225.18,
+   "fim": 227.44,
+   "texto": "que se fala, né? O Ari, mas foi 40 mil",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 225.18,
+     "fim": 225.32,
+     "conf": 0.97
+    },
+    {
+     "p": "se",
+     "ini": 225.32,
+     "fim": 225.46,
+     "conf": 0.99
+    },
+    {
+     "p": "fala,",
+     "ini": 225.46,
+     "fim": 225.74,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 225.86,
+     "fim": 225.86,
+     "conf": 1.0
+    },
+    {
+     "p": "O",
+     "ini": 226.18,
+     "fim": 226.32,
+     "conf": 0.1
+    },
+    {
+     "p": "Ari,",
+     "ini": 226.32,
+     "fim": 226.38,
+     "conf": 0.86
+    },
+    {
+     "p": "mas",
+     "ini": 226.44,
+     "fim": 226.54,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 226.54,
+     "fim": 226.66,
+     "conf": 0.85
+    },
+    {
+     "p": "40",
+     "ini": 226.66,
+     "fim": 227.04,
+     "conf": 0.88
+    },
+    {
+     "p": "mil",
+     "ini": 227.04,
+     "fim": 227.44,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 227.44,
+   "fim": 228.3,
+   "texto": "de uma vez?",
+   "palavras": [
+    {
+     "p": "de",
+     "ini": 227.44,
+     "fim": 227.62,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 227.62,
+     "fim": 227.78,
+     "conf": 1.0
+    },
+    {
+     "p": "vez?",
+     "ini": 227.78,
+     "fim": 228.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 228.74,
+   "fim": 230.32,
+   "texto": "No meu caso, não, tá?",
+   "palavras": [
+    {
+     "p": "No",
+     "ini": 228.74,
+     "fim": 229.22,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 229.22,
+     "fim": 229.42,
+     "conf": 1.0
+    },
+    {
+     "p": "caso,",
+     "ini": 229.42,
+     "fim": 229.72,
+     "conf": 1.0
+    },
+    {
+     "p": "não,",
+     "ini": 229.88,
+     "fim": 230.0,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 230.22,
+     "fim": 230.32,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 231.06,
+   "fim": 232.9,
+   "texto": "Quando eu falei com a minha médica,",
+   "palavras": [
+    {
+     "p": "Quando",
+     "ini": 231.06,
+     "fim": 231.54,
+     "conf": 0.78
+    },
+    {
+     "p": "eu",
+     "ini": 231.54,
+     "fim": 231.82,
+     "conf": 1.0
+    },
+    {
+     "p": "falei",
+     "ini": 231.82,
+     "fim": 232.0,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 232.0,
+     "fim": 232.1,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 232.1,
+     "fim": 232.16,
+     "conf": 1.0
+    },
+    {
+     "p": "minha",
+     "ini": 232.16,
+     "fim": 232.28,
+     "conf": 1.0
+    },
+    {
+     "p": "médica,",
+     "ini": 232.28,
+     "fim": 232.9,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 232.9,
+   "fim": 237.24,
+   "texto": "A minha médica segurou o preço até o fim deste ano, tá?",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 232.9,
+     "fim": 233.52,
+     "conf": 0.52
+    },
+    {
+     "p": "minha",
+     "ini": 233.52,
+     "fim": 233.74,
+     "conf": 1.0
+    },
+    {
+     "p": "médica",
+     "ini": 233.74,
+     "fim": 234.12,
+     "conf": 0.99
+    },
+    {
+     "p": "segurou",
+     "ini": 234.12,
+     "fim": 234.58,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 234.58,
+     "fim": 234.74,
+     "conf": 1.0
+    },
+    {
+     "p": "preço",
+     "ini": 234.74,
+     "fim": 235.14,
+     "conf": 1.0
+    },
+    {
+     "p": "até",
+     "ini": 235.14,
+     "fim": 235.7,
+     "conf": 0.91
+    },
+    {
+     "p": "o",
+     "ini": 235.7,
+     "fim": 235.92,
+     "conf": 1.0
+    },
+    {
+     "p": "fim",
+     "ini": 235.92,
+     "fim": 236.1,
+     "conf": 1.0
+    },
+    {
+     "p": "deste",
+     "ini": 236.1,
+     "fim": 236.44,
+     "conf": 0.99
+    },
+    {
+     "p": "ano,",
+     "ini": 236.44,
+     "fim": 236.9,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 237.08,
+     "fim": 237.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 237.7,
+   "fim": 242.52,
+   "texto": "E aí eu já tinha uma quantia guardada e comecei a perguntar a ela, né?",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 237.7,
+     "fim": 238.1,
+     "conf": 1.0
+    },
+    {
+     "p": "aí",
+     "ini": 238.1,
+     "fim": 238.36,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 238.36,
+     "fim": 238.52,
+     "conf": 0.76
+    },
+    {
+     "p": "já",
+     "ini": 238.52,
+     "fim": 238.7,
+     "conf": 1.0
+    },
+    {
+     "p": "tinha",
+     "ini": 238.7,
+     "fim": 239.18,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 239.18,
+     "fim": 239.6,
+     "conf": 1.0
+    },
+    {
+     "p": "quantia",
+     "ini": 239.6,
+     "fim": 239.98,
+     "conf": 1.0
+    },
+    {
+     "p": "guardada",
+     "ini": 239.98,
+     "fim": 240.68,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 240.68,
+     "fim": 240.9,
+     "conf": 0.87
+    },
+    {
+     "p": "comecei",
+     "ini": 240.9,
+     "fim": 241.52,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 241.52,
+     "fim": 241.64,
+     "conf": 0.95
+    },
+    {
+     "p": "perguntar",
+     "ini": 241.64,
+     "fim": 241.96,
+     "conf": 0.89
+    },
+    {
+     "p": "a",
+     "ini": 241.96,
+     "fim": 242.12,
+     "conf": 1.0
+    },
+    {
+     "p": "ela,",
+     "ini": 242.12,
+     "fim": 242.34,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 242.46,
+     "fim": 242.52,
+     "conf": 0.97
+    }
+   ]
+  },
+  {
+   "ini": 242.58,
+   "fim": 249.4,
+   "texto": "Você pode perguntar ao seu médico se ele aceita você ir pagando, que foi o que eu fiz, tá?",
+   "palavras": [
+    {
+     "p": "Você",
+     "ini": 242.58,
+     "fim": 242.8,
+     "conf": 1.0
+    },
+    {
+     "p": "pode",
+     "ini": 242.8,
+     "fim": 243.04,
+     "conf": 1.0
+    },
+    {
+     "p": "perguntar",
+     "ini": 243.04,
+     "fim": 243.36,
+     "conf": 1.0
+    },
+    {
+     "p": "ao",
+     "ini": 243.36,
+     "fim": 243.44,
+     "conf": 0.99
+    },
+    {
+     "p": "seu",
+     "ini": 243.44,
+     "fim": 243.58,
+     "conf": 1.0
+    },
+    {
+     "p": "médico",
+     "ini": 243.58,
+     "fim": 243.94,
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "ini": 243.94,
+     "fim": 244.66,
+     "conf": 0.5
+    },
+    {
+     "p": "ele",
+     "ini": 244.66,
+     "fim": 245.08,
+     "conf": 1.0
+    },
+    {
+     "p": "aceita",
+     "ini": 245.08,
+     "fim": 246.44,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 246.44,
+     "fim": 246.74,
+     "conf": 1.0
+    },
+    {
+     "p": "ir",
+     "ini": 246.74,
+     "fim": 247.26,
+     "conf": 1.0
+    },
+    {
+     "p": "pagando,",
+     "ini": 247.26,
+     "fim": 248.38,
+     "conf": 0.98
+    },
+    {
+     "p": "que",
+     "ini": 248.5,
+     "fim": 248.56,
+     "conf": 0.8
+    },
+    {
+     "p": "foi",
+     "ini": 248.56,
+     "fim": 248.72,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 248.72,
+     "fim": 248.78,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 248.78,
+     "fim": 248.88,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 248.88,
+     "fim": 248.98,
+     "conf": 1.0
+    },
+    {
+     "p": "fiz,",
+     "ini": 248.98,
+     "fim": 249.18,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 249.34,
+     "fim": 249.4,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 249.46,
+   "fim": 252.24,
+   "texto": "No meu caso, eu achei melhor ir pagando.",
+   "palavras": [
+    {
+     "p": "No",
+     "ini": 249.46,
+     "fim": 249.58,
+     "conf": 0.99
+    },
+    {
+     "p": "meu",
+     "ini": 249.58,
+     "fim": 249.74,
+     "conf": 1.0
+    },
+    {
+     "p": "caso,",
+     "ini": 249.74,
+     "fim": 250.0,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 250.12,
+     "fim": 250.14,
+     "conf": 1.0
+    },
+    {
+     "p": "achei",
+     "ini": 250.14,
+     "fim": 250.4,
+     "conf": 1.0
+    },
+    {
+     "p": "melhor",
+     "ini": 250.4,
+     "fim": 250.86,
+     "conf": 1.0
+    },
+    {
+     "p": "ir",
+     "ini": 250.86,
+     "fim": 251.66,
+     "conf": 1.0
+    },
+    {
+     "p": "pagando.",
+     "ini": 251.66,
+     "fim": 252.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 252.38,
+   "fim": 258.04,
+   "texto": "Tipo, arrumar o dinheiro do anestesista, do anestesista, da prótese, da equipe.",
+   "palavras": [
+    {
+     "p": "Tipo,",
+     "ini": 252.38,
+     "fim": 252.58,
+     "conf": 0.98
+    },
+    {
+     "p": "arrumar",
+     "ini": 253.48,
+     "fim": 253.86,
+     "conf": 0.97
+    },
+    {
+     "p": "o",
+     "ini": 253.86,
+     "fim": 253.86,
+     "conf": 0.89
+    },
+    {
+     "p": "dinheiro",
+     "ini": 253.86,
+     "fim": 254.02,
+     "conf": 0.93
+    },
+    {
+     "p": "do",
+     "ini": 254.02,
+     "fim": 254.16,
+     "conf": 0.84
+    },
+    {
+     "p": "anestesista,",
+     "ini": 254.16,
+     "fim": 254.82,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 254.96,
+     "fim": 254.98,
+     "conf": 0.71
+    },
+    {
+     "p": "anestesista,",
+     "ini": 254.98,
+     "fim": 256.14,
+     "conf": 0.95
+    },
+    {
+     "p": "da",
+     "ini": 256.52,
+     "fim": 256.66,
+     "conf": 1.0
+    },
+    {
+     "p": "prótese,",
+     "ini": 256.66,
+     "fim": 257.4,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 257.66,
+     "fim": 257.8,
+     "conf": 1.0
+    },
+    {
+     "p": "equipe.",
+     "ini": 257.8,
+     "fim": 258.04,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 258.88,
+   "fim": 261.82,
+   "texto": "E assim, até chegar no dia da cirurgia.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 258.88,
+     "fim": 258.94,
+     "conf": 1.0
+    },
+    {
+     "p": "assim,",
+     "ini": 258.94,
+     "fim": 259.34,
+     "conf": 1.0
+    },
+    {
+     "p": "até",
+     "ini": 259.88,
+     "fim": 260.3,
+     "conf": 1.0
+    },
+    {
+     "p": "chegar",
+     "ini": 260.3,
+     "fim": 260.82,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 260.82,
+     "fim": 260.98,
+     "conf": 1.0
+    },
+    {
+     "p": "dia",
+     "ini": 260.98,
+     "fim": 261.12,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 261.12,
+     "fim": 261.28,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia.",
+     "ini": 261.28,
+     "fim": 261.82,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 261.82,
+   "fim": 267.06,
+   "texto": "Quando eu fiz o pagamento completo, ficou só o do hospital.",
+   "palavras": [
+    {
+     "p": "Quando",
+     "ini": 261.82,
+     "fim": 262.68,
+     "conf": 0.94
+    },
+    {
+     "p": "eu",
+     "ini": 262.68,
+     "fim": 262.84,
+     "conf": 1.0
+    },
+    {
+     "p": "fiz",
+     "ini": 262.84,
+     "fim": 263.28,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 263.28,
+     "fim": 263.46,
+     "conf": 0.99
+    },
+    {
+     "p": "pagamento",
+     "ini": 263.46,
+     "fim": 264.0,
+     "conf": 1.0
+    },
+    {
+     "p": "completo,",
+     "ini": 264.0,
+     "fim": 264.78,
+     "conf": 0.96
+    },
+    {
+     "p": "ficou",
+     "ini": 264.86,
+     "fim": 265.34,
+     "conf": 1.0
+    },
+    {
+     "p": "só",
+     "ini": 265.34,
+     "fim": 265.8,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 265.8,
+     "fim": 266.4,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 266.4,
+     "fim": 266.52,
+     "conf": 1.0
+    },
+    {
+     "p": "hospital.",
+     "ini": 266.52,
+     "fim": 267.06,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 267.76,
+   "fim": 269.12,
+   "texto": "Aí eu marquei minha cirurgia.",
+   "palavras": [
+    {
+     "p": "Aí",
+     "ini": 267.76,
+     "fim": 267.88,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 267.88,
+     "fim": 268.02,
+     "conf": 0.91
+    },
+    {
+     "p": "marquei",
+     "ini": 268.02,
+     "fim": 268.34,
+     "conf": 1.0
+    },
+    {
+     "p": "minha",
+     "ini": 268.34,
+     "fim": 268.5,
+     "conf": 0.75
+    },
+    {
+     "p": "cirurgia.",
+     "ini": 268.5,
+     "fim": 269.12,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 269.58,
+   "fim": 275.28,
+   "texto": "Marquei a minha cirurgia e deixei tudo alinhado com a médica.",
+   "palavras": [
+    {
+     "p": "Marquei",
+     "ini": 269.58,
+     "fim": 269.92,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 269.92,
+     "fim": 270.0,
+     "conf": 1.0
+    },
+    {
+     "p": "minha",
+     "ini": 270.0,
+     "fim": 270.14,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia",
+     "ini": 270.14,
+     "fim": 271.0,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 271.0,
+     "fim": 271.7,
+     "conf": 0.95
+    },
+    {
+     "p": "deixei",
+     "ini": 271.7,
+     "fim": 273.78,
+     "conf": 1.0
+    },
+    {
+     "p": "tudo",
+     "ini": 273.78,
+     "fim": 274.0,
+     "conf": 1.0
+    },
+    {
+     "p": "alinhado",
+     "ini": 274.0,
+     "fim": 274.5,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 274.5,
+     "fim": 274.68,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 274.68,
+     "fim": 274.78,
+     "conf": 1.0
+    },
+    {
+     "p": "médica.",
+     "ini": 274.78,
+     "fim": 275.28,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 275.58,
+   "fim": 280.3,
+   "texto": "E no dia mesmo eu só fiquei pra pagar a internação.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 275.58,
+     "fim": 275.94,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 275.94,
+     "fim": 276.14,
+     "conf": 0.99
+    },
+    {
+     "p": "dia",
+     "ini": 276.14,
+     "fim": 276.42,
+     "conf": 1.0
+    },
+    {
+     "p": "mesmo",
+     "ini": 276.42,
+     "fim": 276.72,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 276.72,
+     "fim": 276.86,
+     "conf": 0.57
+    },
+    {
+     "p": "só",
+     "ini": 276.86,
+     "fim": 276.96,
+     "conf": 1.0
+    },
+    {
+     "p": "fiquei",
+     "ini": 276.96,
+     "fim": 277.3,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 277.3,
+     "fim": 277.5,
+     "conf": 0.8
+    },
+    {
+     "p": "pagar",
+     "ini": 277.5,
+     "fim": 277.92,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 277.92,
+     "fim": 279.14,
+     "conf": 1.0
+    },
+    {
+     "p": "internação.",
+     "ini": 279.14,
+     "fim": 280.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 288.45,
+   "fim": 290.93,
+   "texto": "E aí, minha nega, tirei sua dúvida.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 288.45,
+     "fim": 288.71,
+     "conf": 0.72
+    },
+    {
+     "p": "aí,",
+     "ini": 288.71,
+     "fim": 288.87,
+     "conf": 0.99
+    },
+    {
+     "p": "minha",
+     "ini": 289.01,
+     "fim": 289.09,
+     "conf": 0.99
+    },
+    {
+     "p": "nega,",
+     "ini": 289.09,
+     "fim": 289.47,
+     "conf": 0.88
+    },
+    {
+     "p": "tirei",
+     "ini": 290.11,
+     "fim": 290.39,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 290.39,
+     "fim": 290.55,
+     "conf": 1.0
+    },
+    {
+     "p": "dúvida.",
+     "ini": 290.55,
+     "fim": 290.93,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 291.47,
+   "fim": 297.05,
+   "texto": "Então, pra você que deseja, pra você que almeja fazer uma cirurgia também,",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 291.47,
+     "fim": 292.13,
+     "conf": 0.99
+    },
+    {
+     "p": "pra",
+     "ini": 292.57,
+     "fim": 292.65,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 292.65,
+     "fim": 292.97,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 292.97,
+     "fim": 293.15,
+     "conf": 1.0
+    },
+    {
+     "p": "deseja,",
+     "ini": 293.15,
+     "fim": 293.67,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 293.77,
+     "fim": 293.85,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 293.85,
+     "fim": 294.15,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 294.15,
+     "fim": 294.35,
+     "conf": 1.0
+    },
+    {
+     "p": "almeja",
+     "ini": 294.35,
+     "fim": 295.39,
+     "conf": 1.0
+    },
+    {
+     "p": "fazer",
+     "ini": 295.39,
+     "fim": 296.17,
+     "conf": 0.92
+    },
+    {
+     "p": "uma",
+     "ini": 296.17,
+     "fim": 296.27,
+     "conf": 1.0
+    },
+    {
+     "p": "cirurgia",
+     "ini": 296.27,
+     "fim": 296.71,
+     "conf": 1.0
+    },
+    {
+     "p": "também,",
+     "ini": 296.71,
+     "fim": 297.05,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 297.05,
+   "fim": 303.17,
+   "texto": "Faça o seguinte, dê o primeiro passo, marque a consulta com a sua médica, tá?",
+   "palavras": [
+    {
+     "p": "Faça",
+     "ini": 297.05,
+     "fim": 298.05,
+     "conf": 0.79
+    },
+    {
+     "p": "o",
+     "ini": 298.05,
+     "fim": 298.13,
+     "conf": 1.0
+    },
+    {
+     "p": "seguinte,",
+     "ini": 298.13,
+     "fim": 298.55,
+     "conf": 1.0
+    },
+    {
+     "p": "dê",
+     "ini": 298.89,
+     "fim": 299.29,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 299.29,
+     "fim": 299.35,
+     "conf": 1.0
+    },
+    {
+     "p": "primeiro",
+     "ini": 299.35,
+     "fim": 299.63,
+     "conf": 1.0
+    },
+    {
+     "p": "passo,",
+     "ini": 299.63,
+     "fim": 300.15,
+     "conf": 1.0
+    },
+    {
+     "p": "marque",
+     "ini": 300.81,
+     "fim": 300.99,
+     "conf": 0.98
+    },
+    {
+     "p": "a",
+     "ini": 300.99,
+     "fim": 301.11,
+     "conf": 1.0
+    },
+    {
+     "p": "consulta",
+     "ini": 301.11,
+     "fim": 301.65,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 301.65,
+     "fim": 301.81,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 301.81,
+     "fim": 301.91,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 301.91,
+     "fim": 302.21,
+     "conf": 1.0
+    },
+    {
+     "p": "médica,",
+     "ini": 302.21,
+     "fim": 302.85,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 303.05,
+     "fim": 303.17,
+     "conf": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 303.37,
+   "fim": 304.07,
+   "texto": "Ou médico.",
+   "palavras": [
+    {
+     "p": "Ou",
+     "ini": 303.37,
+     "fim": 303.53,
+     "conf": 0.98
+    },
+    {
+     "p": "médico.",
+     "ini": 303.53,
+     "fim": 304.07,
+     "conf": 0.93
+    }
+   ]
+  },
+  {
+   "ini": 304.79,
+   "fim": 311.83,
+   "texto": "Veja, porque às vezes a gente acha que é algo muito fora da casinha e às vezes não é.",
+   "palavras": [
+    {
+     "p": "Veja,",
+     "ini": 304.79,
+     "fim": 305.37,
+     "conf": 1.0
+    },
+    {
+     "p": "porque",
+     "ini": 305.45,
+     "fim": 305.77,
+     "conf": 1.0
+    },
+    {
+     "p": "às",
+     "ini": 305.77,
+     "fim": 306.05,
+     "conf": 0.98
+    },
+    {
+     "p": "vezes",
+     "ini": 306.05,
+     "fim": 306.27,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 306.27,
+     "fim": 306.45,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 306.45,
+     "fim": 306.57,
+     "conf": 1.0
+    },
+    {
+     "p": "acha",
+     "ini": 306.57,
+     "fim": 307.09,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 307.09,
+     "fim": 307.37,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 307.37,
+     "fim": 307.55,
+     "conf": 1.0
+    },
+    {
+     "p": "algo",
+     "ini": 307.55,
+     "fim": 308.01,
+     "conf": 1.0
+    },
+    {
+     "p": "muito",
+     "ini": 308.01,
+     "fim": 308.59,
+     "conf": 1.0
+    },
+    {
+     "p": "fora",
+     "ini": 308.59,
+     "fim": 309.73,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 309.73,
+     "fim": 309.91,
+     "conf": 1.0
+    },
+    {
+     "p": "casinha",
+     "ini": 309.91,
+     "fim": 310.63,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 310.63,
+     "fim": 310.95,
+     "conf": 0.7
+    },
+    {
+     "p": "às",
+     "ini": 310.95,
+     "fim": 311.17,
+     "conf": 1.0
+    },
+    {
+     "p": "vezes",
+     "ini": 311.17,
+     "fim": 311.37,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 311.37,
+     "fim": 311.59,
+     "conf": 1.0
+    },
+    {
+     "p": "é.",
+     "ini": 311.59,
+     "fim": 311.83,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 312.15,
+   "fim": 319.37,
+   "texto": "Vá, procure saber pra você ter um norte pra poder começar a guardar e realizar o seu sonho.",
+   "palavras": [
+    {
+     "p": "Vá,",
+     "ini": 312.15,
+     "fim": 312.45,
+     "conf": 0.99
+    },
+    {
+     "p": "procure",
+     "ini": 313.05,
+     "fim": 313.35,
+     "conf": 1.0
+    },
+    {
+     "p": "saber",
+     "ini": 313.35,
+     "fim": 313.81,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 313.81,
+     "fim": 314.31,
+     "conf": 0.45
+    },
+    {
+     "p": "você",
+     "ini": 314.31,
+     "fim": 314.53,
+     "conf": 1.0
+    },
+    {
+     "p": "ter",
+     "ini": 314.53,
+     "fim": 314.67,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 314.67,
+     "fim": 314.85,
+     "conf": 1.0
+    },
+    {
+     "p": "norte",
+     "ini": 314.85,
+     "fim": 315.13,
+     "conf": 0.98
+    },
+    {
+     "p": "pra",
+     "ini": 315.13,
+     "fim": 315.33,
+     "conf": 0.99
+    },
+    {
+     "p": "poder",
+     "ini": 315.33,
+     "fim": 315.75,
+     "conf": 1.0
+    },
+    {
+     "p": "começar",
+     "ini": 315.75,
+     "fim": 316.91,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 316.91,
+     "fim": 317.31,
+     "conf": 0.99
+    },
+    {
+     "p": "guardar",
+     "ini": 317.31,
+     "fim": 317.91,
+     "conf": 0.82
+    },
+    {
+     "p": "e",
+     "ini": 317.91,
+     "fim": 318.35,
+     "conf": 1.0
+    },
+    {
+     "p": "realizar",
+     "ini": 318.35,
+     "fim": 318.77,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 318.77,
+     "fim": 318.91,
+     "conf": 1.0
+    },
+    {
+     "p": "seu",
+     "ini": 318.91,
+     "fim": 319.07,
+     "conf": 1.0
+    },
+    {
+     "p": "sonho.",
+     "ini": 319.07,
+     "fim": 319.37,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

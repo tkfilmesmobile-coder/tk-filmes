@@ -1,0 +1,1022 @@
+{
+ "IMG_1349": [
+  {
+   "ini": 0.0,
+   "fim": 4.34,
+   "texto": "Na casa sem, quase sem noção de um corpo mais de uma vez.",
+   "palavras": [
+    {
+     "p": "Na",
+     "ini": 0.0,
+     "fim": 0.1
+    },
+    {
+     "p": "casa",
+     "ini": 0.1,
+     "fim": 0.34
+    },
+    {
+     "p": "sem,",
+     "ini": 0.34,
+     "fim": 0.76
+    },
+    {
+     "p": "quase",
+     "ini": 0.96,
+     "fim": 1.26
+    },
+    {
+     "p": "sem",
+     "ini": 1.26,
+     "fim": 1.62
+    },
+    {
+     "p": "noção",
+     "ini": 1.62,
+     "fim": 2.2
+    },
+    {
+     "p": "de",
+     "ini": 2.2,
+     "fim": 2.86
+    },
+    {
+     "p": "um",
+     "ini": 2.86,
+     "fim": 3.08
+    },
+    {
+     "p": "corpo",
+     "ini": 3.08,
+     "fim": 3.3
+    },
+    {
+     "p": "mais",
+     "ini": 3.3,
+     "fim": 3.62
+    },
+    {
+     "p": "de",
+     "ini": 3.62,
+     "fim": 3.76
+    },
+    {
+     "p": "uma",
+     "ini": 3.76,
+     "fim": 3.98
+    },
+    {
+     "p": "vez.",
+     "ini": 3.98,
+     "fim": 4.34
+    }
+   ]
+  }
+ ],
+ "IMG_1350": [
+  {
+   "ini": 1.3000000000000007,
+   "fim": 8.6,
+   "texto": "Tô concentrada, viu? É nessa série mesmo. A série mesmo.",
+   "palavras": [
+    {
+     "p": "Tô",
+     "ini": 1.3,
+     "fim": 2.12
+    },
+    {
+     "p": "concentrada,",
+     "ini": 2.12,
+     "fim": 2.62
+    },
+    {
+     "p": "viu?",
+     "ini": 2.64,
+     "fim": 2.94
+    },
+    {
+     "p": "É",
+     "ini": 4.24,
+     "fim": 4.4
+    },
+    {
+     "p": "nessa",
+     "ini": 4.4,
+     "fim": 4.72
+    },
+    {
+     "p": "série",
+     "ini": 4.72,
+     "fim": 5.16
+    },
+    {
+     "p": "mesmo.",
+     "ini": 5.16,
+     "fim": 5.54
+    },
+    {
+     "p": "A",
+     "ini": 7.12,
+     "fim": 7.38
+    },
+    {
+     "p": "série",
+     "ini": 7.38,
+     "fim": 8.32
+    },
+    {
+     "p": "mesmo.",
+     "ini": 8.32,
+     "fim": 8.6
+    }
+   ]
+  }
+ ],
+ "IMG_1351": [
+  {
+   "ini": 0.0,
+   "fim": 4.5,
+   "texto": "Vou ver se vai ser mais rápido e se não vai ser mais muito bom pra mim.",
+   "palavras": [
+    {
+     "p": "Vou",
+     "ini": 0.0,
+     "fim": 0.14
+    },
+    {
+     "p": "ver",
+     "ini": 0.14,
+     "fim": 0.26
+    },
+    {
+     "p": "se",
+     "ini": 0.26,
+     "fim": 0.36
+    },
+    {
+     "p": "vai",
+     "ini": 0.36,
+     "fim": 0.48
+    },
+    {
+     "p": "ser",
+     "ini": 0.48,
+     "fim": 0.58
+    },
+    {
+     "p": "mais",
+     "ini": 0.58,
+     "fim": 0.84
+    },
+    {
+     "p": "rápido",
+     "ini": 0.84,
+     "fim": 1.3
+    },
+    {
+     "p": "e",
+     "ini": 1.3,
+     "fim": 2.96
+    },
+    {
+     "p": "se",
+     "ini": 2.96,
+     "fim": 3.14
+    },
+    {
+     "p": "não",
+     "ini": 3.14,
+     "fim": 3.26
+    },
+    {
+     "p": "vai",
+     "ini": 3.26,
+     "fim": 3.4
+    },
+    {
+     "p": "ser",
+     "ini": 3.4,
+     "fim": 3.54
+    },
+    {
+     "p": "mais",
+     "ini": 3.54,
+     "fim": 3.74
+    },
+    {
+     "p": "muito",
+     "ini": 3.74,
+     "fim": 3.92
+    },
+    {
+     "p": "bom",
+     "ini": 3.92,
+     "fim": 4.12
+    },
+    {
+     "p": "pra",
+     "ini": 4.12,
+     "fim": 4.28
+    },
+    {
+     "p": "mim.",
+     "ini": 4.28,
+     "fim": 4.5
+    }
+   ]
+  }
+ ],
+ "IMG_1355": [
+  {
+   "ini": 12.760000000000002,
+   "fim": 13.8,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 12.76,
+     "fim": 13.8
+    }
+   ]
+  },
+  {
+   "ini": 16.04,
+   "fim": 18.34,
+   "texto": "Quanto tempo de tatuagem já?",
+   "palavras": [
+    {
+     "p": "Quanto",
+     "ini": 16.04,
+     "fim": 17.08
+    },
+    {
+     "p": "tempo",
+     "ini": 17.08,
+     "fim": 17.36
+    },
+    {
+     "p": "de",
+     "ini": 17.36,
+     "fim": 17.52
+    },
+    {
+     "p": "tatuagem",
+     "ini": 17.52,
+     "fim": 18.06
+    },
+    {
+     "p": "já?",
+     "ini": 18.06,
+     "fim": 18.34
+    }
+   ]
+  },
+  {
+   "ini": 18.84,
+   "fim": 21.66,
+   "texto": "Olha aí a hora.",
+   "palavras": [
+    {
+     "p": "Olha",
+     "ini": 18.84,
+     "fim": 19.5
+    },
+    {
+     "p": "aí",
+     "ini": 19.5,
+     "fim": 21.3
+    },
+    {
+     "p": "a",
+     "ini": 21.3,
+     "fim": 21.4
+    },
+    {
+     "p": "hora.",
+     "ini": 21.4,
+     "fim": 21.66
+    }
+   ]
+  },
+  {
+   "ini": 21.66,
+   "fim": 27.74,
+   "texto": "Sim, sim, sim, sim, sim, sim, sim, sim.",
+   "palavras": [
+    {
+     "p": "Sim,",
+     "ini": 21.66,
+     "fim": 21.84
+    },
+    {
+     "p": "sim,",
+     "ini": 21.96,
+     "fim": 22.04
+    },
+    {
+     "p": "sim,",
+     "ini": 22.1,
+     "fim": 22.24
+    },
+    {
+     "p": "sim,",
+     "ini": 22.24,
+     "fim": 22.5
+    },
+    {
+     "p": "sim,",
+     "ini": 22.5,
+     "fim": 22.76
+    },
+    {
+     "p": "sim,",
+     "ini": 24.06,
+     "fim": 24.66
+    },
+    {
+     "p": "sim,",
+     "ini": 24.9,
+     "fim": 25.38
+    },
+    {
+     "p": "sim.",
+     "ini": 25.74,
+     "fim": 27.74
+    }
+   ]
+  }
+ ],
+ "IMG_1357": [
+  {
+   "ini": 1.8000000000000016,
+   "fim": 25.86,
+   "texto": "Eu tô jogando aqui no sofrimento da porra. Terminando a porra da série, ó. Vou terminar essa série, né, gente? A saga. Sem dor. E o sofrimento? Pra que que a gente inventa? Não diga, minha amiga. Eu não tava quietinha, me recuperando como bem. Aí, achou pouco a recuperação da cirurgia, agora vai recuperar as costas. Desse jeito.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 1.8,
+     "fim": 2.26
+    },
+    {
+     "p": "tô",
+     "ini": 2.26,
+     "fim": 2.66
+    },
+    {
+     "p": "jogando",
+     "ini": 2.66,
+     "fim": 2.76
+    },
+    {
+     "p": "aqui",
+     "ini": 2.76,
+     "fim": 2.9
+    },
+    {
+     "p": "no",
+     "ini": 2.9,
+     "fim": 3.08
+    },
+    {
+     "p": "sofrimento",
+     "ini": 3.08,
+     "fim": 3.62
+    },
+    {
+     "p": "da",
+     "ini": 3.62,
+     "fim": 3.86
+    },
+    {
+     "p": "porra.",
+     "ini": 3.86,
+     "fim": 4.44
+    },
+    {
+     "p": "Terminando",
+     "ini": 5.62,
+     "fim": 6.08
+    },
+    {
+     "p": "a",
+     "ini": 6.08,
+     "fim": 6.24
+    },
+    {
+     "p": "porra",
+     "ini": 6.24,
+     "fim": 6.54
+    },
+    {
+     "p": "da",
+     "ini": 6.54,
+     "fim": 6.68
+    },
+    {
+     "p": "série,",
+     "ini": 6.68,
+     "fim": 7.08
+    },
+    {
+     "p": "ó.",
+     "ini": 7.26,
+     "fim": 7.26
+    },
+    {
+     "p": "Vou",
+     "ini": 7.42,
+     "fim": 7.58
+    },
+    {
+     "p": "terminar",
+     "ini": 7.58,
+     "fim": 7.98
+    },
+    {
+     "p": "essa",
+     "ini": 7.98,
+     "fim": 8.2
+    },
+    {
+     "p": "série,",
+     "ini": 8.2,
+     "fim": 8.56
+    },
+    {
+     "p": "né,",
+     "ini": 8.76,
+     "fim": 8.76
+    },
+    {
+     "p": "gente?",
+     "ini": 8.82,
+     "fim": 8.92
+    },
+    {
+     "p": "A",
+     "ini": 9.02,
+     "fim": 9.16
+    },
+    {
+     "p": "saga.",
+     "ini": 9.16,
+     "fim": 9.64
+    },
+    {
+     "p": "Sem",
+     "ini": 9.9,
+     "fim": 10.1
+    },
+    {
+     "p": "dor.",
+     "ini": 10.1,
+     "fim": 10.28
+    },
+    {
+     "p": "E",
+     "ini": 11.42,
+     "fim": 11.88
+    },
+    {
+     "p": "o",
+     "ini": 11.88,
+     "fim": 12.0
+    },
+    {
+     "p": "sofrimento?",
+     "ini": 12.0,
+     "fim": 12.68
+    },
+    {
+     "p": "Pra",
+     "ini": 13.56,
+     "fim": 14.02
+    },
+    {
+     "p": "que",
+     "ini": 14.02,
+     "fim": 14.16
+    },
+    {
+     "p": "que",
+     "ini": 14.16,
+     "fim": 14.26
+    },
+    {
+     "p": "a",
+     "ini": 14.26,
+     "fim": 14.34
+    },
+    {
+     "p": "gente",
+     "ini": 14.34,
+     "fim": 14.44
+    },
+    {
+     "p": "inventa?",
+     "ini": 14.44,
+     "fim": 14.9
+    },
+    {
+     "p": "Não",
+     "ini": 15.68,
+     "fim": 15.94
+    },
+    {
+     "p": "diga,",
+     "ini": 15.94,
+     "fim": 16.2
+    },
+    {
+     "p": "minha",
+     "ini": 16.3,
+     "fim": 16.38
+    },
+    {
+     "p": "amiga.",
+     "ini": 16.38,
+     "fim": 16.72
+    },
+    {
+     "p": "Eu",
+     "ini": 17.0,
+     "fim": 17.2
+    },
+    {
+     "p": "não",
+     "ini": 17.2,
+     "fim": 17.24
+    },
+    {
+     "p": "tava",
+     "ini": 17.24,
+     "fim": 17.34
+    },
+    {
+     "p": "quietinha,",
+     "ini": 17.34,
+     "fim": 17.96
+    },
+    {
+     "p": "me",
+     "ini": 18.2,
+     "fim": 18.52
+    },
+    {
+     "p": "recuperando",
+     "ini": 18.52,
+     "fim": 19.02
+    },
+    {
+     "p": "como",
+     "ini": 19.02,
+     "fim": 19.24
+    },
+    {
+     "p": "bem.",
+     "ini": 19.24,
+     "fim": 19.38
+    },
+    {
+     "p": "Aí,",
+     "ini": 21.08,
+     "fim": 21.54
+    },
+    {
+     "p": "achou",
+     "ini": 21.54,
+     "fim": 21.84
+    },
+    {
+     "p": "pouco",
+     "ini": 21.84,
+     "fim": 22.02
+    },
+    {
+     "p": "a",
+     "ini": 22.02,
+     "fim": 22.14
+    },
+    {
+     "p": "recuperação",
+     "ini": 22.14,
+     "fim": 22.68
+    },
+    {
+     "p": "da",
+     "ini": 22.68,
+     "fim": 22.84
+    },
+    {
+     "p": "cirurgia,",
+     "ini": 22.84,
+     "fim": 23.38
+    },
+    {
+     "p": "agora",
+     "ini": 23.48,
+     "fim": 23.68
+    },
+    {
+     "p": "vai",
+     "ini": 23.68,
+     "fim": 23.82
+    },
+    {
+     "p": "recuperar",
+     "ini": 23.82,
+     "fim": 24.28
+    },
+    {
+     "p": "as",
+     "ini": 24.28,
+     "fim": 24.48
+    },
+    {
+     "p": "costas.",
+     "ini": 24.48,
+     "fim": 24.9
+    },
+    {
+     "p": "Desse",
+     "ini": 25.02,
+     "fim": 25.46
+    },
+    {
+     "p": "jeito.",
+     "ini": 25.46,
+     "fim": 25.86
+    }
+   ]
+  },
+  {
+   "ini": 31.16,
+   "fim": 32.1,
+   "texto": "É isso.",
+   "palavras": [
+    {
+     "p": "É",
+     "ini": 31.16,
+     "fim": 31.84
+    },
+    {
+     "p": "isso.",
+     "ini": 31.84,
+     "fim": 32.1
+    }
+   ]
+  }
+ ],
+ "IMG_1358": [
+  {
+   "ini": 0.0,
+   "fim": 2.24,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 0.0,
+     "fim": 2.24
+    }
+   ]
+  },
+  {
+   "ini": 2.24,
+   "fim": 3.6,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 2.24,
+     "fim": 3.6
+    }
+   ]
+  },
+  {
+   "ini": 3.6,
+   "fim": 6.18,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 3.6,
+     "fim": 6.18
+    }
+   ]
+  }
+ ],
+ "IMG_1360": [
+  {
+   "ini": 0.0,
+   "fim": 2.24,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 0.0,
+     "fim": 2.24
+    }
+   ]
+  },
+  {
+   "ini": 5.640000000000001,
+   "fim": 7.04,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 5.64,
+     "fim": 7.04
+    }
+   ]
+  }
+ ],
+ "IMG_1361": [
+  {
+   "ini": 0.0,
+   "fim": 10.6,
+   "texto": "Ela visualizou meu filho, ela vai responder, amor, mas ela me chegou, e te acolhe o cabelo.",
+   "palavras": [
+    {
+     "p": "Ela",
+     "ini": 0.0,
+     "fim": 0.72
+    },
+    {
+     "p": "visualizou",
+     "ini": 0.72,
+     "fim": 1.5
+    },
+    {
+     "p": "meu",
+     "ini": 1.5,
+     "fim": 1.72
+    },
+    {
+     "p": "filho,",
+     "ini": 1.72,
+     "fim": 2.28
+    },
+    {
+     "p": "ela",
+     "ini": 2.52,
+     "fim": 3.8
+    },
+    {
+     "p": "vai",
+     "ini": 3.8,
+     "fim": 4.04
+    },
+    {
+     "p": "responder,",
+     "ini": 4.04,
+     "fim": 4.62
+    },
+    {
+     "p": "amor,",
+     "ini": 5.38,
+     "fim": 6.06
+    },
+    {
+     "p": "mas",
+     "ini": 6.36,
+     "fim": 7.26
+    },
+    {
+     "p": "ela",
+     "ini": 7.26,
+     "fim": 8.14
+    },
+    {
+     "p": "me",
+     "ini": 8.14,
+     "fim": 8.4
+    },
+    {
+     "p": "chegou,",
+     "ini": 8.4,
+     "fim": 8.84
+    },
+    {
+     "p": "e",
+     "ini": 9.28,
+     "fim": 9.42
+    },
+    {
+     "p": "te",
+     "ini": 9.42,
+     "fim": 9.62
+    },
+    {
+     "p": "acolhe",
+     "ini": 9.62,
+     "fim": 10.08
+    },
+    {
+     "p": "o",
+     "ini": 10.08,
+     "fim": 10.24
+    },
+    {
+     "p": "cabelo.",
+     "ini": 10.24,
+     "fim": 10.6
+    }
+   ]
+  },
+  {
+   "ini": 13.58,
+   "fim": 20.82,
+   "texto": "O coração ficou pela última vez.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 13.58,
+     "fim": 13.58
+    },
+    {
+     "p": "coração",
+     "ini": 13.58,
+     "fim": 13.96
+    },
+    {
+     "p": "ficou",
+     "ini": 13.96,
+     "fim": 14.56
+    },
+    {
+     "p": "pela",
+     "ini": 14.56,
+     "fim": 19.96
+    },
+    {
+     "p": "última",
+     "ini": 19.96,
+     "fim": 20.32
+    },
+    {
+     "p": "vez.",
+     "ini": 20.32,
+     "fim": 20.82
+    }
+   ]
+  },
+  {
+   "ini": 30.0,
+   "fim": 32.0,
+   "texto": "Depois, eu tenho...",
+   "palavras": [
+    {
+     "p": "Depois,",
+     "ini": 30.0,
+     "fim": 30.76
+    },
+    {
+     "p": "eu",
+     "ini": 31.02,
+     "fim": 31.26
+    },
+    {
+     "p": "tenho...",
+     "ini": 31.26,
+     "fim": 32.0
+    }
+   ]
+  },
+  {
+   "ini": 33.4,
+   "fim": 34.78,
+   "texto": "Está fechando.",
+   "palavras": [
+    {
+     "p": "Está",
+     "ini": 33.4,
+     "fim": 34.32
+    },
+    {
+     "p": "fechando.",
+     "ini": 34.32,
+     "fim": 34.78
+    }
+   ]
+  }
+ ],
+ "IMG_1362": [
+  {
+   "ini": 0.0,
+   "fim": 3.88,
+   "texto": "Que não acabou, até eu já...",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 0.0,
+     "fim": 1.14
+    },
+    {
+     "p": "não",
+     "ini": 1.14,
+     "fim": 1.26
+    },
+    {
+     "p": "acabou,",
+     "ini": 1.26,
+     "fim": 1.66
+    },
+    {
+     "p": "até",
+     "ini": 1.76,
+     "fim": 2.02
+    },
+    {
+     "p": "eu",
+     "ini": 2.02,
+     "fim": 3.58
+    },
+    {
+     "p": "já...",
+     "ini": 3.58,
+     "fim": 3.88
+    }
+   ]
+  }
+ ],
+ "IMG_1363": [
+  {
+   "ini": 0.0,
+   "fim": 1.06,
+   "texto": "Abissi a você, velho.",
+   "palavras": [
+    {
+     "p": "Abissi",
+     "ini": 0.0,
+     "fim": 0.36
+    },
+    {
+     "p": "a",
+     "ini": 0.36,
+     "fim": 0.44
+    },
+    {
+     "p": "você,",
+     "ini": 0.44,
+     "fim": 0.7
+    },
+    {
+     "p": "velho.",
+     "ini": 0.78,
+     "fim": 1.06
+    }
+   ]
+  }
+ ],
+ "IMG_1366": [
+  {
+   "ini": 0.0,
+   "fim": 2.7,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 0.0,
+     "fim": 2.7
+    }
+   ]
+  },
+  {
+   "ini": 2.7,
+   "fim": 3.72,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 2.7,
+     "fim": 3.72
+    }
+   ]
+  },
+  {
+   "ini": 3.72,
+   "fim": 4.0,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 3.72,
+     "fim": 4.0
+    }
+   ]
+  },
+  {
+   "ini": 4.0,
+   "fim": 6.42,
+   "texto": "Música",
+   "palavras": [
+    {
+     "p": "Música",
+     "ini": 4.0,
+     "fim": 6.42
+    }
+   ]
+  }
+ ]
+}

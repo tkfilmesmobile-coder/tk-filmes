@@ -1,5 +1,6 @@
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame } from "remotion";
+import { Caixinha, CaixinhaDef } from "./Caixinha";
 import { CENAS, SONS_CENA } from "./Cenas";
 import { Fio, PassosFio } from "./Fio";
 import { Legendas } from "./Legendas";
@@ -22,7 +23,9 @@ export type Plano = {
   nome: string;
   total: number;
   fimVideo: number;
-  headline: { caps: string; titulo: string; italico: string; de: number; ate: number };
+  headline: { caps: string; titulo: string; italico: string; de: number; ate: number } | null;
+  // vlog (2026-11-06, tatuagem): só os cortes, sem título, sem legenda e sem efeito sonoro
+  semLegenda?: boolean;
   trechos: Trecho[];
   fotoFinal: { src: string; dur: number; titulo: string; chamada: string; pos?: string } | null;
   brolls: Broll[];
@@ -31,6 +34,7 @@ export type Plano = {
   textos: { de: number; ate: number; num: string; titulo: string }[];
   sfx: Sfx[];
   zooms: Zoom[];
+  caixinhas?: CaixinhaDef[];
 };
 export const PLANOS = planos as unknown as Record<string, Plano>;
 
@@ -222,11 +226,11 @@ export const Reel: React.FC<{ id: string }> = ({ id }) => {
   const fio = pl.motions.find((m) => m.tipo === "fio") as { tipo: string; passos: PassosFio } | undefined;
   const outras = pl.motions.filter((m) => m.tipo !== "fio" && CENAS[m.tipo]);
   // efeitos de cada animação (sempre abaixo da voz)
-  const sons: Sfx[] = [
+  const sons: Sfx[] = pl.semLegenda ? [] : [
     ...pl.brolls.map((b) => ({ em: b.de - 0.12, nome: "varrida", vol: 0.32 })),
     ...pl.cartoes.map((c) => ({ em: c.de, nome: c.src ? "pop" : "pop-agudo", vol: 0.42 })),
     ...pl.zooms.map((z) => ({ em: z.de - 0.1, nome: "whoosh-curto", vol: 0.26 })),
-    { em: pl.headline.de + 0.05, nome: "impacto", vol: 0.45 },
+    ...(pl.headline ? [{ em: pl.headline.de + 0.05, nome: "impacto", vol: 0.45 }] : []),
     ...(fio
       ? [
           { em: fio.passos.entra - 0.1, nome: "whoosh", vol: 0.32 },
@@ -242,10 +246,16 @@ export const Reel: React.FC<{ id: string }> = ({ id }) => {
     ...outras.flatMap((m) => SONS_CENA[m.tipo](m.passos)),
     ...(pl.textos ?? []).map((t) => ({ em: t.de, nome: "impacto", vol: 0.32 })),
     ...(pl.fotoFinal ? [{ em: pl.fimVideo - 0.2, nome: "whoosh-grave", vol: 0.38 }] : []),
+    ...(pl.caixinhas ?? []).map((c) => ({ em: c.de, nome: "pop", vol: 0.45 })),
     ...pl.sfx,
   ];
-  // legenda logo abaixo do rosto; some no título de abertura, no B-roll com título e no fim
-  const ocultar: [number, number][] = [[pl.headline.de, pl.headline.ate], [pl.fimVideo, 9999], ...pl.brolls.filter((b) => b.titulo || b.modo === "post").map((b) => [b.de, b.ate] as [number, number])];
+  // legenda logo abaixo do rosto; some no título de abertura, no B-roll com título, na caixinha (ela lê a pergunta) e no fim
+  const ocultar: [number, number][] = [
+    ...(pl.headline ? [[pl.headline.de, pl.headline.ate] as [number, number]] : []),
+    [pl.fimVideo, 9999],
+    ...pl.brolls.filter((b) => b.titulo || b.modo === "post").map((b) => [b.de, b.ate] as [number, number]),
+    ...(pl.caixinhas ?? []).map((c) => [c.de, c.ate] as [number, number]),
+  ];
   return (
     <AbsoluteFill style={{ backgroundColor: COR.preto }}>
       {pl.trechos.map((tr, i) => (
@@ -283,15 +293,22 @@ export const Reel: React.FC<{ id: string }> = ({ id }) => {
           <BrollCheio b={b} dur={F(b.ate) - F(b.de)} />
         </Sequence>
       ))}
-      <Sequence name="Título de abertura" from={F(pl.headline.de)} durationInFrames={F(pl.headline.ate) - F(pl.headline.de)} layout="none">
-        <Headline h={pl.headline} dur={F(pl.headline.ate) - F(pl.headline.de)} />
-      </Sequence>
+      {(pl.caixinhas ?? []).map((c, i) => (
+        <Sequence key={`q${i}`} name={`Caixinha · ${c.texto.slice(0, 30)}`} from={F(c.de)} durationInFrames={F(c.ate) - F(c.de)} layout="none">
+          <Caixinha c={c} dur={F(c.ate) - F(c.de)} />
+        </Sequence>
+      ))}
+      {pl.headline ? (
+        <Sequence name="Título de abertura" from={F(pl.headline.de)} durationInFrames={F(pl.headline.ate) - F(pl.headline.de)} layout="none">
+          <Headline h={pl.headline} dur={F(pl.headline.ate) - F(pl.headline.de)} />
+        </Sequence>
+      ) : null}
       {pl.fotoFinal ? (
         <Sequence name="Fecho · chamada" from={F(pl.fimVideo)} durationInFrames={F(pl.total) - F(pl.fimVideo)}>
           <Final fin={pl.fotoFinal} dur={F(pl.total) - F(pl.fimVideo)} />
         </Sequence>
       ) : null}
-      <Legendas arquivo={`reels/${id}/legendas.json`} ocultar={ocultar} y={() => (fio && s >= fio.passos.entra && s < fio.passos.sai ? 930 : 940)} />
+      {pl.semLegenda ? null : <Legendas arquivo={`reels/${id}/legendas.json`} ocultar={ocultar} y={() => (fio && s >= fio.passos.entra && s < fio.passos.sai ? 930 : 940)} />}
       <Audio name="Voz (montada e nivelada)" src={staticFile(`reels/${id}/voz.wav`)} />
       {sons.map((x, i) => (
         <Som key={i} {...x} />

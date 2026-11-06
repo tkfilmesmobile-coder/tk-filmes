@@ -1,0 +1,790 @@
+{
+ "correcoes": {
+  "Ari,": "Ary,",
+  "Ari": "Ary",
+  "dívida": "dúvida",
+  "hernia": "hérnia",
+  "hernia,": "hérnia,",
+  "abidominoplastia.": "abdominoplastia.",
+  "abdômenoplastia.": "abdominoplastia.",
+  "vendi": "vivi",
+  "gestão": "gestação"
+ },
+ "videos": [
+  {
+   "id": "caixinha-cirurgia",
+   "nome": "Caixinha · o que eu fiz na cirurgia",
+   "destaques": [
+    "enquete",
+    "95%",
+    "cirurgia,",
+    "especulações",
+    "estética",
+    "saúde.",
+    "mama,",
+    "gestações,",
+    "pele.",
+    "hérnia",
+    "pacote,",
+    "agosto.",
+    "mastopexia",
+    "prótese,",
+    "diástase,",
+    "abdominoplastia.",
+    "mini"
+   ],
+   "correcoes": {
+    "prêmio,": "pré,",
+    "95": "95%",
+    "%": ""
+   },
+   "trechos": [
+    {
+     "arq": "IMG_6717",
+     "tipo": "voz",
+     "de": 0.5,
+     "ate": 27.9,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 0.0,
+     "ate": 40.3,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 62.4,
+     "ate": 71.6,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 73.2,
+     "ate": 113.5,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 113.7,
+     "ate": 154.35,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 162.4,
+     "ate": 169.75,
+     "zoom": 1.06,
+     "maiuscula": true,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 171.55,
+     "ate": 196.0,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 196.2,
+     "ate": 226.85,
+     "zoom": 1.06,
+     "quebra": true
+    }
+   ],
+   "headline": {
+    "caps": "",
+    "titulo": "Tirando as dúvidas",
+    "italico": "sobre a minha *cirurgia*",
+    "de": 0.5,
+    "ate": 4.4,
+    "arq": "IMG_6717"
+   },
+   "caixinhas": [
+    {
+     "de": 64.53,
+     "ate": 75.7,
+     "texto": "Seu procedimento foi feito por estética ou por saúde?",
+     "arq": "IMG_1040"
+    },
+    {
+     "de": 163.6,
+     "ate": 172.4,
+     "texto": "Afinal, quais foram os procedimentos que você fez?",
+     "arq": "IMG_1040"
+    }
+   ],
+   "cartoes": [],
+   "brolls": [],
+   "zooms": [
+    {
+     "de": 15.1,
+     "ate": 18.3,
+     "z": 1.1,
+     "arq": "IMG_1040"
+    },
+    {
+     "de": 103.9,
+     "ate": 105.3,
+     "z": 1.1,
+     "arq": "IMG_1040"
+    },
+    {
+     "de": 151.6,
+     "ate": 154.3,
+     "z": 1.1,
+     "arq": "IMG_1040"
+    },
+    {
+     "de": 221.5,
+     "ate": 224.6,
+     "z": 1.1,
+     "arq": "IMG_1040"
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "motivos",
+     "arq": "IMG_1040",
+     "passos": {
+      "entra": 86.9,
+      "estetica": 87.4,
+      "mama": 87.59,
+      "pele": 104.75,
+      "saude": 131.71,
+      "hernia": 133.27,
+      "sai": 148.3
+     }
+    },
+    {
+     "tipo": "procedimentos",
+     "arq": "IMG_1040",
+     "passos": {
+      "entra": 172.6,
+      "i1": 173.04,
+      "i2": 203.18,
+      "i3": 204.72,
+      "i4": 208.2,
+      "sai": 226.85
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": null
+  },
+  {
+   "id": "quanto-custou",
+   "nome": "Quanto custou a minha cirurgia",
+   "destaques": [
+    "dúvida",
+    "única.",
+    "consulta",
+    "reparadora,",
+    "40",
+    "mil.",
+    "pomadinhas",
+    "300",
+    "pré,",
+    "durante",
+    "pós,",
+    "exames,",
+    "consulta,",
+    "roupas",
+    "drenagens,",
+    "medicações,",
+    "pilates",
+    "recuperação,",
+    "teimosia,",
+    "paciência,",
+    "rica,",
+    "planejamento",
+    "objetivo",
+    "prioridades",
+    "prioridade",
+    "priorize",
+    "foco",
+    "pagando,",
+    "anestesista,",
+    "prótese,",
+    "equipe.",
+    "internação.",
+    "passo,",
+    "sonho."
+   ],
+   "trechos": [
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 0.95,
+     "ate": 14.15,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 20.05,
+     "ate": 46.45,
+     "zoom": 1.06,
+     "inicioForcado": 19.4,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 47.3,
+     "ate": 64.75,
+     "zoom": 1.0,
+     "maiuscula": true,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 65.2,
+     "ate": 83.75,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 85.4,
+     "ate": 122.25,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 122.35,
+     "ate": 147.0,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 151.6,
+     "ate": 161.6,
+     "zoom": 1.0,
+     "maiuscula": true,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 162.25,
+     "ate": 178.5,
+     "zoom": 1.06,
+     "maiuscula": true,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 180.9,
+     "ate": 215.9,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 224.05,
+     "ate": 254.82,
+     "zoom": 1.06,
+     "quebra": true,
+     "fimForcado": 254.8,
+     "maiuscula": true
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 256.5,
+     "ate": 280.35,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_1041",
+     "tipo": "voz",
+     "de": 288.4,
+     "ate": 319.4,
+     "zoom": 1.06,
+     "quebra": true
+    }
+   ],
+   "headline": {
+    "caps": "",
+    "titulo": "Quanto custou",
+    "italico": "a minha *cirurgia*",
+    "de": 0.95,
+    "ate": 4.15
+   },
+   "caixinhas": [
+    {
+     "de": 5.29,
+     "ate": 11.0,
+     "texto": "Ary, quanto que você gastou pra fazer esses procedimentos?"
+    },
+    {
+     "de": 226.18,
+     "ate": 229.6,
+     "texto": "Mas foi 40 mil de uma vez?"
+    }
+   ],
+   "passosTitulo": [
+    {
+     "de": 60.31,
+     "ate": 64.7,
+     "num": "R$ 40 mil",
+     "titulo": "no total"
+    },
+    {
+     "de": 79.13,
+     "ate": 83.7,
+     "num": "R$ 215 a 300",
+     "titulo": "15 g de pomada"
+    }
+   ],
+   "cartoes": [],
+   "brolls": [],
+   "zooms": [
+    {
+     "de": 59.07,
+     "ate": 61.0,
+     "z": 1.1
+    },
+    {
+     "de": 169.6,
+     "ate": 171.4,
+     "z": 1.12
+    },
+    {
+     "de": 211.9,
+     "ate": 213.9,
+     "z": 1.1
+    },
+    {
+     "de": 314.8,
+     "ate": 319.4,
+     "z": 1.08
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "gastos",
+     "passos": {
+      "entra": 89.6,
+      "pre": 90.01,
+      "durante": 91.39,
+      "pos": 92.41,
+      "cirurgia": 96.55,
+      "exames": 99.75,
+      "consulta": 102.01,
+      "roupas": 105.07,
+      "drenagens": 109.57,
+      "medicacoes": 111.41,
+      "sai": 113.6
+     }
+    },
+    {
+     "tipo": "pagamento",
+     "passos": {
+      "entra": 228.74,
+      "s1": 234.12,
+      "s2": 246.74,
+      "a": 254.16,
+      "b": 256.66,
+      "c": 257.8,
+      "s3": 276.14,
+      "sai": 280.35
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": null
+  },
+  {
+   "id": "meu-corpo",
+   "nome": "Meu corpo não veio da cirurgia",
+   "destaques": [
+    "procedimento",
+    "cirúrgico,",
+    "musculação",
+    "14",
+    "reparadoras.",
+    "pele,",
+    "lipo",
+    "treino,",
+    "alimentação",
+    "gestações,",
+    "morada",
+    "babies,",
+    "54,",
+    "90",
+    "59,",
+    "70",
+    "CPF",
+    "marcas",
+    "amor,",
+    "romantizar",
+    "desanimada",
+    "sanfona.",
+    "academia,",
+    "melhora,",
+    "fase,",
+    "cara",
+    "limpa",
+    "estilo",
+    "alcoólica",
+    "docinho,",
+    "exceção",
+    "constância",
+    "corrida,",
+    "maratonista",
+    "Maceió,",
+    "21,",
+    "10,",
+    "42",
+    "antes",
+    "depois",
+    "tempo."
+   ],
+   "correcoes": {
+    "1": "1,53",
+    ",53,": ""
+   },
+   "trechos": [
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 257.4,
+     "ate": 270.5,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 271.2,
+     "ate": 285.85,
+     "zoom": 1.06,
+     "maiuscula": true,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 286.2,
+     "ate": 311.25,
+     "zoom": 1.0,
+     "quebra": true,
+     "omitir": [
+      291.38
+     ]
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 312.9,
+     "ate": 331.0,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 338.3,
+     "ate": 364.05,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 365.45,
+     "ate": 383.62,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 383.55,
+     "ate": 401.4,
+     "zoom": 1.06,
+     "maiuscula": true,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 418.7,
+     "ate": 423.53,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 423.95,
+     "ate": 465.05,
+     "zoom": 1.0
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 465.5,
+     "ate": 495.15,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 499.5,
+     "ate": 530.6,
+     "zoom": 1.0,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 554.85,
+     "ate": 630.5,
+     "zoom": 1.06,
+     "quebra": true
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 635.97,
+     "ate": 660.9,
+     "zoom": 1.0,
+     "maiuscula": true,
+     "quebra": true,
+     "inicioForcado": 636.1
+    },
+    {
+     "arq": "IMG_1040",
+     "tipo": "voz",
+     "de": 668.85,
+     "ate": 689.1,
+     "zoom": 1.06,
+     "quebra": true
+    }
+   ],
+   "headline": {
+    "caps": "",
+    "titulo": "O meu resultado",
+    "italico": "vem de *14 anos* de treino",
+    "de": 257.4,
+    "ate": 262.0
+   },
+   "caixinhas": [],
+   "cartoes": [
+    {
+     "de": 275.4,
+     "ate": 279.3,
+     "foto": "62c33330-a916-4117-bdb4-5cdd86a75ebf.jpg",
+     "rotulo": "MUSCULAÇÃO",
+     "lado": "esq",
+     "longe": true,
+     "tam": 1.5
+    },
+    {
+     "de": 328.0,
+     "ate": 331.0,
+     "foto": "d20e25d4-320a-4b5f-bd59-7f31aec16ab2.jpg",
+     "rotulo": "LÁ ATRÁS",
+     "lado": "esq",
+     "longe": true,
+     "tam": 1.5
+    },
+    {
+     "de": 350.7,
+     "ate": 353.6,
+     "foto": "3fda90e5-8210-423c-84c3-a94c7278d6fa.jpg",
+     "rotulo": "MEUS BABIES",
+     "lado": "esq",
+     "longe": true,
+     "tam": 1.5
+    },
+    {
+     "de": 377.8,
+     "ate": 381.5,
+     "foto": "10b9a342-d492-43dc-8090-12b3ed21c02e.jpg",
+     "rotulo": "OUTRO CPF",
+     "lado": "esq",
+     "longe": true,
+     "tam": 1.5
+    },
+    {
+     "de": 392.2,
+     "ate": 398.3,
+     "foto": "843b371c-12a6-4b55-a7f2-8a3e88eaefe5.jpg",
+     "rotulo": "O QUE MAIS ME MUDOU",
+     "lado": "esq",
+     "longe": true,
+     "tam": 1.5
+    },
+    {
+     "de": 467.2,
+     "ate": 476.7,
+     "foto": "ad09e061-2f63-4b30-bf92-a7a809cdb8b0.jpg",
+     "rotulo": "LÁ ATRÁS",
+     "lado": "esq",
+     "longe": true,
+     "tam": 1.5
+    }
+   ],
+   "brolls": [
+    {
+     "de": 263.0,
+     "ate": 266.5,
+     "foto": "IMG_1030.JPG",
+     "pos": "center 30%"
+    },
+    {
+     "de": 282.0,
+     "ate": 285.85,
+     "video": "IMG_1022",
+     "srcDe": 1.0
+    },
+    {
+     "de": 315.2,
+     "ate": 321.8,
+     "foto": "IMG_6711.HEIC",
+     "pos": "center 30%"
+    },
+    {
+     "de": 345.8,
+     "ate": 349.2,
+     "foto": "06a7277c-c748-438a-aa85-180f01fac9a0.jpg",
+     "pos": "center 40%"
+    },
+    {
+     "de": 437.7,
+     "ate": 443.4,
+     "foto": "fd3f2834-a64a-4738-9965-727fc739c30c.jpg",
+     "pos": "center 40%"
+    },
+    {
+     "de": 457.2,
+     "ate": 460.1,
+     "foto": "bce48750-9b8a-473f-89fe-bcb51c5394e8.jpg",
+     "pos": "center 40%"
+    },
+    {
+     "de": 460.1,
+     "ate": 463.4,
+     "foto": "e44acdf8-9d40-41b3-a3e3-d5fe1c606a04.jpg",
+     "pos": "center 35%"
+    },
+    {
+     "de": 477.5,
+     "ate": 480.5,
+     "foto": "5c210fcb-ba04-4177-9a5a-3e1677b902a1.jpg",
+     "pos": "center 35%"
+    },
+    {
+     "de": 480.5,
+     "ate": 483.8,
+     "foto": "a0585cda-d003-43d3-926c-cc4f9173f9e5.jpg",
+     "pos": "center 40%"
+    },
+    {
+     "de": 483.8,
+     "ate": 486.2,
+     "foto": "f2984023-083b-4649-bd2a-894b99b25f36.jpg",
+     "pos": "center 35%"
+    },
+    {
+     "de": 517.8,
+     "ate": 521.2,
+     "video": "IMG_1023",
+     "srcDe": 1.0
+    },
+    {
+     "de": 566.2,
+     "ate": 571.3,
+     "foto": "IMG_6710.HEIC",
+     "pos": "center 30%"
+    },
+    {
+     "de": 580.3,
+     "ate": 586.0,
+     "foto": "IMG_1033.JPG",
+     "pos": "center 30%"
+    },
+    {
+     "de": 684.0,
+     "ate": 689.1,
+     "video": "IMG_6708",
+     "srcDe": 0.5
+    }
+   ],
+   "zooms": [
+    {
+     "de": 278.36,
+     "ate": 279.35,
+     "z": 1.1
+    },
+    {
+     "de": 379.68,
+     "ate": 380.8,
+     "z": 1.12
+    },
+    {
+     "de": 429.4,
+     "ate": 431.45,
+     "z": 1.1
+    },
+    {
+     "de": 529.2,
+     "ate": 530.6,
+     "z": 1.1
+    },
+    {
+     "de": 627.9,
+     "ate": 630.5,
+     "z": 1.1
+    }
+   ],
+   "motions": [
+    {
+     "tipo": "peso",
+     "passos": {
+      "entra": 354.85,
+      "g1a": 358.4,
+      "g1b": 361.08,
+      "g2a": 366.16,
+      "g2b": 369.54,
+      "sai": 371.6
+     }
+    },
+    {
+     "tipo": "corrida",
+     "passos": {
+      "entra": 643.1,
+      "k21": 653.58,
+      "k10": 654.36,
+      "k42": 654.96,
+      "sai": 660.9
+     }
+    }
+   ],
+   "sfx": [],
+   "fotoFinal": null
+  }
+ ]
+}

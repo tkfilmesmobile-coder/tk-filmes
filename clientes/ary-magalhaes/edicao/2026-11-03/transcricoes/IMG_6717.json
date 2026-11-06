@@ -1,0 +1,419 @@
+{
+ "arquivo": "IMG_6717",
+ "duracao": 28.73,
+ "segmentos": [
+  {
+   "ini": 0.56,
+   "fim": 2.64,
+   "texto": "Minha gente, eu tô passada, viu?",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 0.56,
+     "fim": 1.3,
+     "conf": 0.97
+    },
+    {
+     "p": "gente,",
+     "ini": 1.3,
+     "fim": 1.52,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 1.66,
+     "fim": 1.68,
+     "conf": 1.0
+    },
+    {
+     "p": "tô",
+     "ini": 1.68,
+     "fim": 1.76,
+     "conf": 0.86
+    },
+    {
+     "p": "passada,",
+     "ini": 1.76,
+     "fim": 2.38,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 2.54,
+     "fim": 2.64,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 2.98,
+   "fim": 10.54,
+   "texto": "Que eu coloquei uma enquete pra vocês responderem sobre a questão da minha cirurgia, dos meus procedimentos cirúrgicos.",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 2.98,
+     "fim": 3.28,
+     "conf": 0.8
+    },
+    {
+     "p": "eu",
+     "ini": 3.28,
+     "fim": 3.36,
+     "conf": 1.0
+    },
+    {
+     "p": "coloquei",
+     "ini": 3.36,
+     "fim": 3.66,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 3.66,
+     "fim": 3.8,
+     "conf": 0.45
+    },
+    {
+     "p": "enquete",
+     "ini": 3.8,
+     "fim": 4.54,
+     "conf": 0.99
+    },
+    {
+     "p": "pra",
+     "ini": 4.54,
+     "fim": 5.32,
+     "conf": 0.95
+    },
+    {
+     "p": "vocês",
+     "ini": 5.32,
+     "fim": 6.42,
+     "conf": 1.0
+    },
+    {
+     "p": "responderem",
+     "ini": 6.42,
+     "fim": 7.2,
+     "conf": 1.0
+    },
+    {
+     "p": "sobre",
+     "ini": 7.2,
+     "fim": 7.46,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 7.46,
+     "fim": 7.56,
+     "conf": 1.0
+    },
+    {
+     "p": "questão",
+     "ini": 7.56,
+     "fim": 7.76,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 7.76,
+     "fim": 7.88,
+     "conf": 0.94
+    },
+    {
+     "p": "minha",
+     "ini": 7.88,
+     "fim": 8.1,
+     "conf": 0.99
+    },
+    {
+     "p": "cirurgia,",
+     "ini": 8.1,
+     "fim": 8.9,
+     "conf": 1.0
+    },
+    {
+     "p": "dos",
+     "ini": 8.98,
+     "fim": 9.06,
+     "conf": 1.0
+    },
+    {
+     "p": "meus",
+     "ini": 9.06,
+     "fim": 9.24,
+     "conf": 1.0
+    },
+    {
+     "p": "procedimentos",
+     "ini": 9.24,
+     "fim": 9.86,
+     "conf": 1.0
+    },
+    {
+     "p": "cirúrgicos.",
+     "ini": 9.86,
+     "fim": 10.54,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 10.78,
+   "fim": 13.1,
+   "texto": "Quem tem curiosidade ou não, e vocês bombaram, viu?",
+   "palavras": [
+    {
+     "p": "Quem",
+     "ini": 10.78,
+     "fim": 11.12,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 11.12,
+     "fim": 11.26,
+     "conf": 0.73
+    },
+    {
+     "p": "curiosidade",
+     "ini": 11.26,
+     "fim": 11.82,
+     "conf": 0.99
+    },
+    {
+     "p": "ou",
+     "ini": 11.82,
+     "fim": 11.96,
+     "conf": 0.58
+    },
+    {
+     "p": "não,",
+     "ini": 11.96,
+     "fim": 12.02,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 12.1,
+     "fim": 12.14,
+     "conf": 0.84
+    },
+    {
+     "p": "vocês",
+     "ini": 12.14,
+     "fim": 12.42,
+     "conf": 1.0
+    },
+    {
+     "p": "bombaram,",
+     "ini": 12.42,
+     "fim": 12.88,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 12.98,
+     "fim": 13.1,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 15.08,
+   "fim": 26.02,
+   "texto": "95% queriam que eu falasse um pouco sobre o meu prêmio, pós, enfim, tudo o que aconteceu e o que foi que eu realmente fiz.",
+   "palavras": [
+    {
+     "p": "95",
+     "ini": 15.08,
+     "fim": 15.54,
+     "conf": 0.94
+    },
+    {
+     "p": "%",
+     "ini": 15.54,
+     "fim": 16.0,
+     "conf": 1.0
+    },
+    {
+     "p": "queriam",
+     "ini": 16.0,
+     "fim": 17.54,
+     "conf": 0.65
+    },
+    {
+     "p": "que",
+     "ini": 17.54,
+     "fim": 18.48,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 18.48,
+     "fim": 18.56,
+     "conf": 1.0
+    },
+    {
+     "p": "falasse",
+     "ini": 18.56,
+     "fim": 18.88,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 18.88,
+     "fim": 19.02,
+     "conf": 1.0
+    },
+    {
+     "p": "pouco",
+     "ini": 19.02,
+     "fim": 19.24,
+     "conf": 1.0
+    },
+    {
+     "p": "sobre",
+     "ini": 19.24,
+     "fim": 19.74,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 19.74,
+     "fim": 20.46,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 20.46,
+     "fim": 20.62,
+     "conf": 1.0
+    },
+    {
+     "p": "prêmio,",
+     "ini": 20.62,
+     "fim": 21.28,
+     "conf": 0.98
+    },
+    {
+     "p": "pós,",
+     "ini": 21.52,
+     "fim": 21.94,
+     "conf": 0.91
+    },
+    {
+     "p": "enfim,",
+     "ini": 22.04,
+     "fim": 22.28,
+     "conf": 1.0
+    },
+    {
+     "p": "tudo",
+     "ini": 22.58,
+     "fim": 22.88,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 22.88,
+     "fim": 23.08,
+     "conf": 0.43
+    },
+    {
+     "p": "que",
+     "ini": 23.08,
+     "fim": 23.12,
+     "conf": 1.0
+    },
+    {
+     "p": "aconteceu",
+     "ini": 23.12,
+     "fim": 23.78,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 23.78,
+     "fim": 24.18,
+     "conf": 0.98
+    },
+    {
+     "p": "o",
+     "ini": 24.18,
+     "fim": 24.3,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 24.3,
+     "fim": 24.4,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 24.4,
+     "fim": 24.66,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 24.66,
+     "fim": 24.84,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 24.84,
+     "fim": 24.96,
+     "conf": 1.0
+    },
+    {
+     "p": "realmente",
+     "ini": 24.96,
+     "fim": 25.46,
+     "conf": 1.0
+    },
+    {
+     "p": "fiz.",
+     "ini": 25.46,
+     "fim": 26.02,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 26.68,
+   "fim": 27.84,
+   "texto": "Então, bora lá, né?",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 26.68,
+     "fim": 27.14,
+     "conf": 1.0
+    },
+    {
+     "p": "bora",
+     "ini": 27.36,
+     "fim": 27.54,
+     "conf": 1.0
+    },
+    {
+     "p": "lá,",
+     "ini": 27.54,
+     "fim": 27.7,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 27.76,
+     "fim": 27.84,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

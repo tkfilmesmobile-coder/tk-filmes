@@ -1,0 +1,33 @@
+{
+ "_nota": "Vlog da tatuagem nas costas (gravado em 2026-11-05, subiu em 2026-11-06). Pedido da Talyta: não é tutorial, só cortes com as falas coesas. Sem título, sem legenda, sem efeito sonoro. Ordem = ordem de gravação. v2 (2026-11-06): a v1 foi recusada porque os takes entravam soltos com som ambiente e a fala do filho ficou de fora/baixa. Agora toda fala entra inteira e no nível da voz (inclusive a conversa com o filho no IMG_1361), take só de máquina ficou curto ou virou B-roll por cima da fala, e o som de estúdio entra e sai com fade.",
+ "correcoes": {},
+ "videos": [
+  {
+   "id": "vlog-tatuagem",
+   "nome": "Vlog · tatuagem nas costas",
+   "semLegenda": true,
+   "headline": null,
+   "trechos": [
+    {"arq": "IMG_1345", "de": 0.5, "ate": 8.8, "tipo": "voz"},
+    {"arq": "IMG_1345", "de": 9.6, "ate": 21.05, "tipo": "voz", "zoom": 1.08},
+    {"arq": "IMG_1345", "de": 21.4, "ate": 32.48, "tipo": "voz"},
+    {"arq": "IMG_1345", "de": 32.45, "ate": 40.55, "tipo": "voz", "zoom": 1.08},
+    {"arq": "IMG_1345", "de": 41.3, "ate": 49.6, "tipo": "voz"},
+    {"arq": "IMG_1350", "de": 1.1, "ate": 8.8, "tipo": "cru"},
+    {"arq": "IMG_1351", "de": 0.0, "ate": 4.9, "tipo": "cru"},
+    {"arq": "IMG_1358", "de": 0.5, "ate": 4.6, "tipo": "amb", "db": -8},
+    {"arq": "IMG_1355", "de": 13.4, "ate": 28.1, "tipo": "cru"},
+    {"arq": "IMG_1357", "de": 1.3, "ate": 26.0, "tipo": "voz", "fimForcado": 25.92},
+    {"arq": "IMG_1361", "de": 0.0, "ate": 21.2, "tipo": "cru"},
+    {"arq": "IMG_1362", "de": 0.0, "ate": 3.85, "tipo": "cru", "db": -4},
+    {"arq": "IMG_1366", "de": 0.0, "ate": 12.5, "tipo": "amb", "db": -6}
+   ],
+   "brolls": [
+    {"arq": "IMG_1345", "de": 32.45, "ate": 37.4, "video": "IMG_1349", "srcDe": 0.0},
+    {"arq": "IMG_1357", "de": 9.8, "ate": 13.8, "video": "IMG_1360", "srcDe": 0.5}
+   ],
+   "cartoes": [], "textos": [], "motions": [], "sfx": [], "zooms": [],
+   "fotoFinal": null
+  }
+ ]
+}

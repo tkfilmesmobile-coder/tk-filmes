@@ -38,6 +38,9 @@ aprovada na v4 e entregue no Drive dela (`Pingo de Gente/04-11-2026 - Live Black
 Em 2026-11-06 o vídeo da visita do Galeguinho ao Açougue Diniz (fornecedor da carne dos hambúrgueres, gravado em 05/11) foi
 editado: 23 brutos → 1 min 46 s, com curadoria completa (`clientes/passaporte-do-galeguinho/edicao/out/2026-11-05-visita-acougue-diniz-v2.mp4`,
 escolhas e conferência em `edicao/scripts/1105/`). Esperando a aprovação da Talyta pra ir pro Drive dele (`VIDEO EDITADO`).
+Ary (perfil pessoal, não agendados): em 2026-11-04 a v2 dos 3 vídeos da diária de 03/11 (caixinha, quanto custou, meu corpo) foi
+aprovada e entregue no Drive; em 2026-11-06 o vlog da tatuagem nas costas (v2, 2min13) foi aprovado e entregue
+(`CONTEÚDOS/2026-11 · NOVEMBRO/Reel · Vlog tatuagem nas costas/`). Detalhes em `clientes/ary-magalhaes/andamento.md`.
 
 ## Pendências
 - **Pingo de Gente:** aprovar o Bastidor TK (vídeo pós-produção + carrossel, no Drive da TK, legendas 7 e 8); **não postar** sem autorização por escrito dos responsáveis pela criança; contato, cidade, @ e logo. (2026-11-04)
@@ -57,7 +60,8 @@ escolhas e conferência em `edicao/scripts/1105/`). Esperando a aprovação da T
 - **Ary: autorização de imagem** das clientes que aparecem nos posts (valores, agenda, dicas; a de 20/11, IMG_3174, é a mais sensível). Se alguma não autorizar, trocar antes da data. (2026-10-12)
 - Ary: preço da sobrancelha e dos kits de tratamento; prints reais de depoimentos (post 10/11); oferta de Black Friday (24/11); se o salão abre em 20/11. (2026-10-12)
 - Ary: postar pelo celular os stories de União (13/10) e AGENDA (27/10), com localização e link do WhatsApp (Drive `POSTS/2026-10/STORIES`). (2026-10-12)
-- Ary: roteiros dos 12 reels de outubro; a diária 1 caiu no feriado de 13/10, definir a data com ela. (2026-10-12)
+- **Ary:** decidir se republica o post da sobrancelha (31/10) e o carrossel de cuidados com a selagem (03/11), que não saíram. (2026-11-04)
+- Ary: confirmar se todas as fotos antigas do vídeo "meu corpo" são dela (principalmente d20e25d4); editar o vídeo dos recebidos da Legbox (brutos em `BRUTO`). (2026-11-04)
 - **Gravar os 6 vídeos da TK que faltam** (falas no calendário de outubro): 13, 15, 20, 22, 27 e 29/10. Os roteiros de 15 a 29 ainda precisam do "ok" dela. (2026-10-10)
 - Trocar os exemplos de iniciante nas legendas de 09, 12 e 21/10 por "trend solta / vídeo perdido / sumiu três semanas" e reler todas pelo DNA. (2026-10-10)
 - Stories de 10/10 com rótulo "Sexta · 22h" errado (era sábado, 20h): decidir se apaga e reposta ou deixa. O story em vídeo com trilha calma pode ser apagado pelo app. (2026-10-10)

@@ -1,0 +1,4 @@
+﻿{"trechos": [[5, 59], [64, 90], [96, 172], [186, 287], [298, 369]], "pausa_max": 0.6,
+ "corrige": {"apt": "GPT", "ativo": "ativa", "vídeozinho": "videozinho", "umas": "uma"},
+ "manual": {"fim:90": 27.72},
+ "nota": "2026-11-04: índices 298-306 corrigidos à mão ('tem a parte do lettering' é fala de verdade); o 'em' 63 não existe no áudio (era o fim de 'todo'): o trecho começa em 'escuta' (20,40 s). fim:90 = vale entre 'hora,' e 'uma' (fala sem pausa)."}

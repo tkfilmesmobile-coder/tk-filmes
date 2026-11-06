@@ -12,8 +12,12 @@ uso:
 [[ ]] marca o destaque. <br> controla a quebra de linha (sempre quebrar à mão, pensando no desenho).
 Rodando direto (python pecas.py) gera as amostras em tk-filmes/posts/amostras/.
 """
-import re, pathlib
-from playwright.sync_api import sync_playwright
+import re, pathlib, subprocess, time
+try:
+    from playwright.sync_api import sync_playwright
+except ImportError:  # PC sem playwright (2026-11-04): render() usa o Chrome instalado
+    sync_playwright = None
+CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 AQUI = pathlib.Path(__file__).resolve().parent
 RAIZ = AQUI.parents[1]
@@ -53,16 +57,39 @@ def _pagina(corpo, extra=""):
     return (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><link href="{FONTES}" rel="stylesheet">'
             f"<style>{CSS}{extra}</style></head><body>{corpo}</body></html>")
 
-def frase(texto, rotulo="", num=1, tam=108, assinatura="Talyta Kumy"):
-    """Frase centralizada. O formato-mãe da linha visual."""
+def frase(texto, rotulo="", num=1, tam=108, assinatura="Talyta Kumy", sub="", folhas=True, rodape=""):
+    """Frase centralizada. O formato-mãe da linha visual. Também serve de página de carrossel:
+    `sub` = linha pequena embaixo (Montserrat), `rodape` troca o "@tk.filmes" do rodapé (ex.: "arraste →")."""
     cab, rod = _moldura(num)
+    if rodape:
+        rod = rod.replace("<span>@tk.filmes</span>", f"<span>{rodape}</span>")
     extra = f"""
 .t{{position:absolute;left:80px;right:80px;top:50%;transform:translateY(-52%);text-align:center;z-index:3}}
-.t .rot{{margin-bottom:56px}} .t h2{{font-size:{tam}px;line-height:1.02}} .t .ass{{margin-top:78px}}"""
+.t .rot{{margin-bottom:56px}} .t h2{{font-size:{tam}px;line-height:1.02}} .t .ass{{margin-top:78px}}
+.t .sub{{margin:54px auto 0;max-width:780px;font-size:32px;line-height:1.45;opacity:.8}}"""
     rot = f'<div class="rot">{rotulo}</div>' if rotulo else ""
-    corpo = f"""<div class="s"><div class="sh"></div>{cab}
-<div class="t">{rot}<h2 class="serif">{_dest(texto)}</h2><div class="ass">{assinatura}</div></div>{rod}</div>"""
+    sb = f'<div class="sub">{_dest(sub, elipse=False)}</div>' if sub else ""
+    ass = f'<div class="ass">{assinatura}</div>' if assinatura else ""
+    sh = '<div class="sh"></div>' if folhas else ""
+    corpo = f"""<div class="s">{sh}{cab}
+<div class="t">{rot}<h2 class="serif">{_dest(texto)}</h2>{sb}{ass}</div>{rod}</div>"""
     return _pagina(corpo, extra)
+
+def meme(foto, linhas, pos="50% 25%", tam=50, alto=430):
+    """Meme com foto da Talyta, no formato mais limpo: texto preto no branco em cima (letra do tweet),
+    foto inteira embaixo. Nada por cima do rosto. `linhas` = lista de parágrafos."""
+    extra = f"""
+.mm{{background:#fff;color:#0F1419;font-family:'Inter','Helvetica Neue',Arial,sans-serif}}
+.mm .tx{{position:absolute;left:96px;right:96px;top:0;height:{alto}px;display:flex;flex-direction:column;justify-content:center;
+  font-size:{tam}px;line-height:1.3;letter-spacing:-.012em}}
+.mm .tx p+p{{margin-top:{int(tam*0.55)}px}}
+.mm img.f{{position:absolute;left:0;right:0;bottom:0;width:100%;height:{1350-alto}px;object-fit:cover;object-position:{pos}}}
+.mm .tw-emo{{height:1.05em;width:1.05em;vertical-align:-.16em;margin:0 .05em}}
+.mm .us{{position:absolute;right:40px;bottom:30px;color:#fff;font-size:22px;font-weight:600;letter-spacing:.04em;
+  text-shadow:0 1px 8px rgba(0,0,0,.55)}}"""
+    ps = "".join(f"<p>{_twemoji(l)}</p>" for l in linhas)
+    corpo = f"""<div class="s mm"><div class="tx">{ps}</div><img class="f" src="{U(FOTOS/foto)}"><div class="us">@tk.filmes</div></div>"""
+    return _pagina(corpo, extra).replace("family=Montserrat", "family=Inter:wght@400;700&family=Montserrat")
 
 def conversa(msgs, num=1, rotulo="", avatar="acao-gravando-celular.jpg"):
     """Print estilizado de conversa (código do WhatsApp, sem imitar o app). `msgs` = lista de (quem, texto, hora),
@@ -121,21 +148,32 @@ def _twemoji(t):
     t = re.sub(r" (?=[🌀-🫿☀-➿])", "&nbsp;", t)  # emoji nunca fica sozinho na linha
     return _EMOJI.sub(img, t)
 
-def tweet(linhas, avatar="perfil-instagram.jpg", nome="Talyta Kumy", user="@tk.filmes", tam=52):
+def tweet(linhas, avatar="perfil-instagram.jpg", nome="Talyta Kumy", user="@tk.filmes", tam=52, escuro=False,
+          foto=None, pos="50% 25%", alto_foto=600):
     """Print de tweet fiel ao formato que circula (ref. @xtrategi.mkt): fundo branco, foto de perfil real,
-    nome, @ e texto. Sem moldura, sem sombra: o signo é a própria convenção do Twitter."""
+    nome, @ e texto. Sem moldura, sem sombra: o signo é a própria convenção do Twitter.
+    `escuro=True` = modo escuro (fecho de carrossel de tweets). `foto` = imagem anexada embaixo do texto,
+    com canto arredondado, como foto em tweet (arquivo de tk-filmes/fotos/)."""
+    fundo, cor, cinza = ("#000", "#E7E9EA", "#71767B") if escuro else ("#fff", "#0F1419", "#536471")
     extra = f"""
-.s.tw{{background:#fff;color:#0F1419;font-family:'Inter','Helvetica Neue',Arial,sans-serif}}
+.s.tw{{background:{fundo};color:{cor};font-family:'Inter','Helvetica Neue',Arial,sans-serif}}
+.tw .txt .cz{{color:{cinza}}} .tw .txt b{{font-weight:700}}
 .tw .box{{position:absolute;left:96px;right:96px;top:50%;transform:translateY(-50%)}}
 .tw .who{{display:flex;align-items:center;gap:22px}}
 .tw .av{{width:104px;height:104px;border-radius:50%;object-fit:cover}}
-.tw .nome{{font-weight:700;font-size:34px;letter-spacing:-.01em}} .tw .user{{font-size:30px;color:#536471;margin-top:2px}}
+.tw .nome{{font-weight:700;font-size:34px;letter-spacing:-.01em}} .tw .user{{font-size:30px;color:{cinza};margin-top:2px}}
 .tw .txt{{margin-top:40px;font-size:{tam}px;line-height:1.32;letter-spacing:-.012em;font-weight:400}}
 .tw .txt p+p{{margin-top:{int(tam*0.9)}px}}
 .tw .tw-emo{{height:1.05em;width:1.05em;vertical-align:-.16em;margin:0 .06em}}"""
     ps = "".join(f"<p>{_twemoji(l)}</p>" for l in linhas)
+    anexo = ""
+    if foto:
+        extra += f"""
+.tw .anx{{margin-top:44px;width:100%;height:{alto_foto}px;border-radius:28px;overflow:hidden;border:1px solid #CFD9DE}}
+.tw .anx img{{width:100%;height:100%;object-fit:cover;object-position:{pos};display:block}}"""
+        anexo = f'<div class="anx"><img src="{U(FOTOS/foto)}"></div>'
     corpo = f"""<div class="s tw"><div class="box"><div class="who"><img class="av" src="{U(FOTOS/avatar)}">
-<div><div class="nome">{nome}</div><div class="user">{user}</div></div></div><div class="txt">{ps}</div></div></div>"""
+<div><div class="nome">{nome}</div><div class="user">{user}</div></div></div><div class="txt">{ps}</div>{anexo}</div></div>"""
     return _pagina(corpo.replace("<link", "<link"), extra).replace(
         "family=Montserrat", "family=Inter:wght@400;700&family=Montserrat")
 
@@ -162,6 +200,15 @@ def render(paginas, nome, pasta=None):
     pasta = pathlib.Path(pasta) if pasta else POSTS / "amostras"
     pasta.mkdir(parents=True, exist_ok=True)
     saidas = []
+    if sync_playwright is None:
+        for i, h in enumerate(paginas, 1):
+            base = nome if len(paginas) == 1 else f"{nome}-{i:02d}"
+            f = pasta / f"{base}.html"; f.write_text(h, encoding="utf-8"); o = pasta / f"{base}.png"
+            subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
+                            "--window-size=1080,1350", "--virtual-time-budget=8000", f"--screenshot={o}", f.as_uri()],
+                           check=True, capture_output=True, timeout=120)
+            f.unlink(); saidas.append(o)
+        return saidas
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1350})
         for i, h in enumerate(paginas, 1):

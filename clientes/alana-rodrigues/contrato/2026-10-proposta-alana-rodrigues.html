@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Proposta TK Filmes - Dra. Alana Rodrigues</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root {
+    --fundo: #F5F1EA;
+    --circulo: #EDE5DA;
+    --ouro: #9C7A50;
+    --tinta: #2B2723;
+    --cinza: #8C857C;
+    --claro: #A9A196;
+    --linha: #E2DACD;
+    --card: #FBF9F5;
+    --destaque: #F3EADF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--fundo); }
+  body { font-family: "Lato", sans-serif; color: var(--tinta); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .pagina {
+    width: 210mm; height: 297mm; position: relative; overflow: hidden;
+    background: var(--fundo); padding: 19mm 19mm 0 19mm;
+    page-break-after: always; break-after: page;
+  }
+  .pagina:last-child { page-break-after: auto; break-after: auto; }
+  .circulo { position: absolute; width: 132mm; height: 132mm; border-radius: 50%; background: var(--circulo); top: -66mm; right: -20mm; }
+
+  header { position: relative; display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 8mm; border-bottom: 1px solid var(--linha); }
+  .logo { font-family: "Montserrat", sans-serif; font-size: 18pt; font-weight: 500; letter-spacing: 3px; margin-top: 2mm; }
+  .logo b { font-weight: 500; color: var(--ouro); }
+  .logo-sub { font-size: 7.2pt; letter-spacing: 2.4px; color: var(--cinza); margin-top: 1.5mm; }
+  .meta { text-align: right; font-size: 8.6pt; line-height: 1.75; color: var(--cinza); }
+  .meta strong { color: var(--tinta); font-weight: 700; }
+
+  .rotulo { font-family: "Montserrat", sans-serif; font-size: 7.6pt; font-weight: 600; letter-spacing: 2.6px; color: var(--ouro); text-transform: uppercase; }
+  .titulo { font-family: "Montserrat", sans-serif; font-size: 31pt; font-weight: 400; margin-top: 5mm; letter-spacing: -0.3px; }
+  .area { font-size: 9.6pt; letter-spacing: 2.6px; color: var(--cinza); margin-top: 3.5mm; }
+  .intro { font-size: 12pt; font-weight: 300; color: var(--cinza); margin-top: 7mm; }
+  .intro strong { color: var(--tinta); font-weight: 700; }
+
+  .bloco { margin-top: 10mm; }
+  .bloco-cab { display: flex; align-items: baseline; justify-content: space-between; }
+  .bloco-desc { font-size: 9.4pt; font-weight: 300; color: var(--cinza); margin-top: 2mm; }
+  .bloco-desc strong { color: var(--tinta); font-weight: 700; }
+
+  .planos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5.5mm; margin-top: 9mm; }
+  .plano { position: relative; background: var(--card); border: 1px solid var(--linha); border-radius: 3mm; padding: 8mm 6mm 7mm 6mm; }
+  .plano.top { background: var(--destaque); }
+  .selo { position: absolute; top: -3mm; left: 50%; transform: translateX(-50%); background: var(--ouro); color: #fff; font-family: "Montserrat", sans-serif; font-size: 6.6pt; font-weight: 600; letter-spacing: 1.8px; padding: 1.4mm 4mm; border-radius: 4mm; white-space: nowrap; }
+  .num { font-family: "Montserrat", sans-serif; font-size: 7.2pt; font-weight: 600; letter-spacing: 2.4px; color: var(--ouro); }
+  .nome { font-family: "Montserrat", sans-serif; font-size: 12pt; font-weight: 500; margin-top: 2.6mm; white-space: nowrap; letter-spacing: -0.1px; }
+  .preco { margin-top: 6mm; display: flex; align-items: baseline; gap: 2mm; }
+  .preco small { font-family: "Montserrat", sans-serif; font-size: 10pt; font-weight: 600; color: var(--ouro); }
+  .preco span { font-family: "Montserrat", sans-serif; font-size: 25pt; font-weight: 300; }
+  .mes { font-size: 8.6pt; color: var(--cinza); margin-top: 1mm; }
+  .plano hr { border: 0; border-top: 1px solid var(--linha); margin: 6mm 0 5mm 0; }
+  .plano ul { list-style: none; }
+  .plano li { position: relative; padding-left: 5mm; font-size: 9.4pt; font-weight: 300; color: var(--cinza); line-height: 1.4; margin-bottom: 3mm; }
+  .plano li::before { content: ""; position: absolute; left: 0; top: 1.7mm; width: 1.6mm; height: 1.6mm; border-radius: 50%; background: var(--ouro); }
+  .plano li strong { color: var(--tinta); font-weight: 700; }
+
+  .pilares { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5.5mm; margin-top: 10mm; }
+  .pilar { border-left: 1.5px solid var(--ouro); padding: 1mm 0 1mm 5mm; }
+  .pilar h3 { font-family: "Montserrat", sans-serif; font-size: 10.6pt; font-weight: 500; }
+  .pilar p { font-size: 8.8pt; font-weight: 300; color: var(--claro); margin-top: 2mm; line-height: 1.5; }
+
+  .cta { margin-top: 10mm; background: var(--destaque); border: 1px solid var(--linha); border-radius: 3mm; padding: 7mm 9mm; display: flex; justify-content: space-between; align-items: center; }
+  .cta h2 { font-family: "Montserrat", sans-serif; font-size: 13pt; font-weight: 500; }
+  .cta p { font-size: 9.6pt; font-weight: 300; color: var(--cinza); margin-top: 2mm; }
+  .cta .seta { font-size: 16pt; color: var(--ouro); }
+
+  .nota { margin-top: 7mm; font-size: 8.4pt; font-weight: 300; color: var(--claro); line-height: 1.6; }
+
+  footer { position: absolute; left: 19mm; right: 19mm; bottom: 12mm; border-top: 1px solid var(--linha); padding-top: 4mm; display: flex; justify-content: space-between; font-size: 7.6pt; letter-spacing: 1.4px; color: var(--cinza); }
+</style>
+</head>
+<body>
+
+<!-- PÁGINA 1 · PRODUÇÃO DE VÍDEO -->
+<section class="pagina">
+  <div class="circulo"></div>
+  <header>
+    <div>
+      <div class="logo">TK <b>FILMES</b></div>
+      <div class="logo-sub">AUDIOVISUAL &amp; CONTEÚDO DIGITAL</div>
+    </div>
+    <div class="meta">
+      Proposta de Conteúdo Digital<br>
+      Preparado para <strong>Dra. Alana Rodrigues</strong><br>
+      Outubro de 2026
+    </div>
+  </header>
+
+  <div style="margin-top: 11mm" class="rotulo">Proposta de conteúdo digital</div>
+  <div class="titulo">Dra. Alana Rodrigues</div>
+  <div class="area">ODONTOLOGIA</div>
+  <p class="intro">Conteúdo estratégico para fortalecer sua <strong>autoridade</strong>, <strong>conexão com pacientes</strong> e <strong>presença digital</strong>.</p>
+
+  <div class="bloco">
+    <div class="rotulo">Produção de vídeo</div>
+    <p class="bloco-desc">Vídeos roteirizados, editados e entregues no Drive, com <strong>legendas e programação no Instagram</strong>.</p>
+  </div>
+
+  <div class="planos">
+    <div class="plano">
+      <div class="num">PLANO 01</div>
+      <div class="nome">Essencial</div>
+      <div class="preco"><small>R$</small><span>600</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul>
+        <li><strong>6 a 8 vídeos</strong> mensais</li>
+        <li>Roteirizados</li>
+        <li>Editados</li>
+        <li>Entregues no Drive</li>
+        <li><strong>Legendas</strong> e <strong>programação</strong> no Instagram</li>
+      </ul>
+    </div>
+    <div class="plano top">
+      <div class="selo">MAIS ESCOLHIDO</div>
+      <div class="num">PLANO 02</div>
+      <div class="nome">Presença Ativa</div>
+      <div class="preco"><small>R$</small><span>800</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul>
+        <li><strong>10 a 12 vídeos</strong> mensais</li>
+        <li>Roteirizados</li>
+        <li>Editados</li>
+        <li>Entregues no Drive</li>
+        <li><strong>Legendas</strong> e <strong>programação</strong> no Instagram</li>
+      </ul>
+    </div>
+    <div class="plano">
+      <div class="num">PLANO 03</div>
+      <div class="nome">Autoridade Digital</div>
+      <div class="preco"><small>R$</small><span>1.000</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul>
+        <li><strong>14 a 16 vídeos</strong> mensais</li>
+        <li>Roteirizados</li>
+        <li>Editados</li>
+        <li>Entregues no Drive</li>
+        <li><strong>Legendas</strong> e <strong>programação</strong> no Instagram</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pilares">
+    <div class="pilar"><h3>Autoridade</h3><p>Conteúdo que posiciona você como referência em odontologia.</p></div>
+    <div class="pilar"><h3>Conexão</h3><p>Vídeos que aproximam e geram confiança nos pacientes.</p></div>
+    <div class="pilar"><h3>Presença</h3><p>Constância nas redes, sem sobrecarregar sua rotina.</p></div>
+  </div>
+
+  <footer><span>TK FILMES — AUDIOVISUAL</span><span>Proposta válida por 15 dias</span></footer>
+</section>
+
+<!-- PÁGINA 2 · GESTÃO DO PERFIL -->
+<section class="pagina">
+  <div class="circulo"></div>
+  <header>
+    <div>
+      <div class="logo">TK <b>FILMES</b></div>
+      <div class="logo-sub">AUDIOVISUAL &amp; CONTEÚDO DIGITAL</div>
+    </div>
+    <div class="meta">
+      Proposta de Conteúdo Digital<br>
+      Preparado para <strong>Dra. Alana Rodrigues</strong><br>
+      Outubro de 2026
+    </div>
+  </header>
+
+  <div class="bloco" style="margin-top: 11mm">
+    <div class="rotulo">Gestão do perfil</div>
+    <div class="titulo" style="font-size: 24pt">Vídeos e artes para o seu perfil</div>
+    <p class="intro" style="font-size: 11pt; margin-top: 5mm">Vídeos e <strong>artes (posts estáticos)</strong> para um feed completo e constante. <strong>Você atende, a gente cuida do perfil.</strong></p>
+  </div>
+
+  <div class="planos">
+    <div class="plano">
+      <div class="num">PLANO 04</div>
+      <div class="nome">Perfil Essencial</div>
+      <div class="preco"><small>R$</small><span>600</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul>
+        <li><strong>4 a 6 vídeos</strong> mensais</li>
+        <li><strong>4 artes</strong> (posts estáticos)</li>
+        <li>Roteirizados</li>
+        <li>Editados</li>
+        <li>Entregues no Drive</li>
+      </ul>
+    </div>
+    <div class="plano top">
+      <div class="selo">MAIS ESCOLHIDO</div>
+      <div class="num">PLANO 05</div>
+      <div class="nome">Perfil Ativo</div>
+      <div class="preco"><small>R$</small><span>800</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul>
+        <li><strong>6 a 8 vídeos</strong> mensais</li>
+        <li><strong>8 artes</strong> (posts estáticos)</li>
+        <li>Roteirizados</li>
+        <li>Editados</li>
+        <li>Entregues no Drive</li>
+        <li><strong>Legendas</strong> e <strong>programação</strong> no Instagram</li>
+      </ul>
+    </div>
+    <div class="plano">
+      <div class="num">PLANO 06</div>
+      <div class="nome">Perfil Autoridade</div>
+      <div class="preco"><small>R$</small><span>1.000</span></div>
+      <div class="mes">por mês</div>
+      <hr>
+      <ul>
+        <li><strong>10 a 12 vídeos</strong> mensais</li>
+        <li><strong>10 artes</strong> (posts estáticos)</li>
+        <li>Roteirizados</li>
+        <li>Editados</li>
+        <li>Entregues no Drive</li>
+        <li><strong>Legendas</strong> e <strong>programação</strong> no Instagram</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cta">
+    <div>
+      <h2>Vamos fortalecer a sua presença digital, Dra. Alana?</h2>
+      <p>Escolha o plano ideal e comece a transformar seu conhecimento em conteúdo.</p>
+    </div>
+    <div class="seta">→</div>
+  </div>
+
+  <p class="nota">Gravações em União dos Palmares/AL, agendadas com antecedência. Todo conteúdo segue as normas de publicidade do CFO.</p>
+
+  <footer><span>TK FILMES — AUDIOVISUAL</span><span>Proposta válida por 15 dias</span></footer>
+</section>
+
+</body>
+</html>

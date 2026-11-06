@@ -1,0 +1,869 @@
+{
+ "arquivo": "IMG_1345",
+ "duracao": 49.94,
+ "segmentos": [
+  {
+   "ini": 0.62,
+   "fim": 2.94,
+   "texto": "Vocês sabem que tatuada eu já sou, não sabem?",
+   "palavras": [
+    {
+     "p": "Vocês",
+     "ini": 0.62,
+     "fim": 1.28,
+     "conf": 0.85
+    },
+    {
+     "p": "sabem",
+     "ini": 1.28,
+     "fim": 1.56,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 1.56,
+     "fim": 1.7,
+     "conf": 0.99
+    },
+    {
+     "p": "tatuada",
+     "ini": 1.7,
+     "fim": 2.14,
+     "conf": 0.97
+    },
+    {
+     "p": "eu",
+     "ini": 2.14,
+     "fim": 2.24,
+     "conf": 0.99
+    },
+    {
+     "p": "já",
+     "ini": 2.24,
+     "fim": 2.34,
+     "conf": 1.0
+    },
+    {
+     "p": "sou,",
+     "ini": 2.34,
+     "fim": 2.54,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 2.6,
+     "fim": 2.66,
+     "conf": 1.0
+    },
+    {
+     "p": "sabem?",
+     "ini": 2.66,
+     "fim": 2.94,
+     "conf": 0.74
+    }
+   ]
+  },
+  {
+   "ini": 3.98,
+   "fim": 8.72,
+   "texto": "Mas, quando a pessoa não tem o que fazer, né, nega?",
+   "palavras": [
+    {
+     "p": "Mas,",
+     "ini": 3.98,
+     "fim": 4.5,
+     "conf": 1.0
+    },
+    {
+     "p": "quando",
+     "ini": 4.9,
+     "fim": 5.42,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 5.42,
+     "fim": 6.8,
+     "conf": 0.98
+    },
+    {
+     "p": "pessoa",
+     "ini": 6.8,
+     "fim": 7.1,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 7.1,
+     "fim": 7.26,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 7.26,
+     "fim": 7.36,
+     "conf": 0.98
+    },
+    {
+     "p": "o",
+     "ini": 7.36,
+     "fim": 7.44,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 7.44,
+     "fim": 7.52,
+     "conf": 1.0
+    },
+    {
+     "p": "fazer,",
+     "ini": 7.52,
+     "fim": 8.02,
+     "conf": 1.0
+    },
+    {
+     "p": "né,",
+     "ini": 8.12,
+     "fim": 8.22,
+     "conf": 0.97
+    },
+    {
+     "p": "nega?",
+     "ini": 8.3,
+     "fim": 8.72,
+     "conf": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 9.72,
+   "fim": 15.72,
+   "texto": "Enfim, há tempos que eu tava com desejo de finalizar a minha tatuagem das minhas costas.",
+   "palavras": [
+    {
+     "p": "Enfim,",
+     "ini": 9.72,
+     "fim": 10.24,
+     "conf": 1.0
+    },
+    {
+     "p": "há",
+     "ini": 10.32,
+     "fim": 10.44,
+     "conf": 1.0
+    },
+    {
+     "p": "tempos",
+     "ini": 10.44,
+     "fim": 10.84,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 10.84,
+     "fim": 10.94,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 10.94,
+     "fim": 11.04,
+     "conf": 1.0
+    },
+    {
+     "p": "tava",
+     "ini": 11.04,
+     "fim": 11.18,
+     "conf": 0.62
+    },
+    {
+     "p": "com",
+     "ini": 11.18,
+     "fim": 11.32,
+     "conf": 1.0
+    },
+    {
+     "p": "desejo",
+     "ini": 11.32,
+     "fim": 12.0,
+     "conf": 0.85
+    },
+    {
+     "p": "de",
+     "ini": 12.0,
+     "fim": 12.62,
+     "conf": 0.99
+    },
+    {
+     "p": "finalizar",
+     "ini": 12.62,
+     "fim": 13.24,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 13.24,
+     "fim": 13.4,
+     "conf": 0.69
+    },
+    {
+     "p": "minha",
+     "ini": 13.4,
+     "fim": 13.5,
+     "conf": 1.0
+    },
+    {
+     "p": "tatuagem",
+     "ini": 13.5,
+     "fim": 14.36,
+     "conf": 1.0
+    },
+    {
+     "p": "das",
+     "ini": 14.36,
+     "fim": 14.82,
+     "conf": 0.98
+    },
+    {
+     "p": "minhas",
+     "ini": 14.82,
+     "fim": 15.14,
+     "conf": 1.0
+    },
+    {
+     "p": "costas.",
+     "ini": 15.14,
+     "fim": 15.72,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 16.22,
+   "fim": 20.98,
+   "texto": "Então, meu amor, hoje eu preparei o dia de hoje somente para isso.",
+   "palavras": [
+    {
+     "p": "Então,",
+     "ini": 16.22,
+     "fim": 16.74,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 16.86,
+     "fim": 17.02,
+     "conf": 0.99
+    },
+    {
+     "p": "amor,",
+     "ini": 17.02,
+     "fim": 17.24,
+     "conf": 1.0
+    },
+    {
+     "p": "hoje",
+     "ini": 17.58,
+     "fim": 17.88,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 17.88,
+     "fim": 17.98,
+     "conf": 1.0
+    },
+    {
+     "p": "preparei",
+     "ini": 17.98,
+     "fim": 18.36,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 18.36,
+     "fim": 18.44,
+     "conf": 1.0
+    },
+    {
+     "p": "dia",
+     "ini": 18.44,
+     "fim": 18.54,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 18.54,
+     "fim": 18.68,
+     "conf": 1.0
+    },
+    {
+     "p": "hoje",
+     "ini": 18.68,
+     "fim": 19.14,
+     "conf": 1.0
+    },
+    {
+     "p": "somente",
+     "ini": 19.14,
+     "fim": 20.34,
+     "conf": 0.98
+    },
+    {
+     "p": "para",
+     "ini": 20.34,
+     "fim": 20.56,
+     "conf": 0.95
+    },
+    {
+     "p": "isso.",
+     "ini": 20.56,
+     "fim": 20.98,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 21.5,
+   "fim": 25.62,
+   "texto": "Eu tenho, acho que basicamente, mais de 15 tatuas, eu não tenho noção mais.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 21.5,
+     "fim": 21.9,
+     "conf": 1.0
+    },
+    {
+     "p": "tenho,",
+     "ini": 21.9,
+     "fim": 22.16,
+     "conf": 1.0
+    },
+    {
+     "p": "acho",
+     "ini": 22.18,
+     "fim": 22.44,
+     "conf": 0.97
+    },
+    {
+     "p": "que",
+     "ini": 22.44,
+     "fim": 22.54,
+     "conf": 0.99
+    },
+    {
+     "p": "basicamente,",
+     "ini": 22.54,
+     "fim": 23.1,
+     "conf": 0.9
+    },
+    {
+     "p": "mais",
+     "ini": 23.34,
+     "fim": 23.68,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 23.68,
+     "fim": 23.8,
+     "conf": 1.0
+    },
+    {
+     "p": "15",
+     "ini": 23.8,
+     "fim": 24.02,
+     "conf": 0.97
+    },
+    {
+     "p": "tatuas,",
+     "ini": 24.02,
+     "fim": 24.42,
+     "conf": 0.78
+    },
+    {
+     "p": "eu",
+     "ini": 24.48,
+     "fim": 24.54,
+     "conf": 0.73
+    },
+    {
+     "p": "não",
+     "ini": 24.54,
+     "fim": 24.66,
+     "conf": 1.0
+    },
+    {
+     "p": "tenho",
+     "ini": 24.66,
+     "fim": 24.8,
+     "conf": 1.0
+    },
+    {
+     "p": "noção",
+     "ini": 24.8,
+     "fim": 25.16,
+     "conf": 1.0
+    },
+    {
+     "p": "mais.",
+     "ini": 25.16,
+     "fim": 25.62,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 26.22,
+   "fim": 28.06,
+   "texto": "Mas hoje eu vou fazer",
+   "palavras": [
+    {
+     "p": "Mas",
+     "ini": 26.22,
+     "fim": 26.76,
+     "conf": 0.7
+    },
+    {
+     "p": "hoje",
+     "ini": 26.76,
+     "fim": 27.3,
+     "conf": 0.91
+    },
+    {
+     "p": "eu",
+     "ini": 27.3,
+     "fim": 27.38,
+     "conf": 0.99
+    },
+    {
+     "p": "vou",
+     "ini": 27.38,
+     "fim": 27.52,
+     "conf": 1.0
+    },
+    {
+     "p": "fazer",
+     "ini": 27.52,
+     "fim": 28.06,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 28.74,
+   "fim": 30.78,
+   "texto": "A maior tatuagem que eu já fiz na vida",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 28.74,
+     "fim": 29.28,
+     "conf": 0.12
+    },
+    {
+     "p": "maior",
+     "ini": 29.28,
+     "fim": 29.5,
+     "conf": 1.0
+    },
+    {
+     "p": "tatuagem",
+     "ini": 29.5,
+     "fim": 29.88,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 29.88,
+     "fim": 29.96,
+     "conf": 0.94
+    },
+    {
+     "p": "eu",
+     "ini": 29.96,
+     "fim": 30.06,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 30.06,
+     "fim": 30.16,
+     "conf": 0.96
+    },
+    {
+     "p": "fiz",
+     "ini": 30.16,
+     "fim": 30.26,
+     "conf": 0.97
+    },
+    {
+     "p": "na",
+     "ini": 30.26,
+     "fim": 30.4,
+     "conf": 0.7
+    },
+    {
+     "p": "vida",
+     "ini": 30.4,
+     "fim": 30.78,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 30.78,
+   "fim": 32.48,
+   "texto": "Em um único dia",
+   "palavras": [
+    {
+     "p": "Em",
+     "ini": 30.78,
+     "fim": 31.38,
+     "conf": 0.71
+    },
+    {
+     "p": "um",
+     "ini": 31.38,
+     "fim": 32.0,
+     "conf": 1.0
+    },
+    {
+     "p": "único",
+     "ini": 32.0,
+     "fim": 32.2,
+     "conf": 0.94
+    },
+    {
+     "p": "dia",
+     "ini": 32.2,
+     "fim": 32.48,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 32.48,
+   "fim": 34.44,
+   "texto": "Eu já tinha feito um lado das minhas conchas",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 32.48,
+     "fim": 32.86,
+     "conf": 0.99
+    },
+    {
+     "p": "já",
+     "ini": 32.86,
+     "fim": 32.96,
+     "conf": 1.0
+    },
+    {
+     "p": "tinha",
+     "ini": 32.96,
+     "fim": 33.1,
+     "conf": 0.96
+    },
+    {
+     "p": "feito",
+     "ini": 33.1,
+     "fim": 33.32,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 33.32,
+     "fim": 33.44,
+     "conf": 1.0
+    },
+    {
+     "p": "lado",
+     "ini": 33.44,
+     "fim": 33.66,
+     "conf": 0.99
+    },
+    {
+     "p": "das",
+     "ini": 33.66,
+     "fim": 33.8,
+     "conf": 0.95
+    },
+    {
+     "p": "minhas",
+     "ini": 33.8,
+     "fim": 34.06,
+     "conf": 1.0
+    },
+    {
+     "p": "conchas",
+     "ini": 34.06,
+     "fim": 34.44,
+     "conf": 0.73
+    }
+   ]
+  },
+  {
+   "ini": 34.44,
+   "fim": 36.24,
+   "texto": "Mas foi em dias diferentes",
+   "palavras": [
+    {
+     "p": "Mas",
+     "ini": 34.44,
+     "fim": 35.16,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 35.16,
+     "fim": 35.38,
+     "conf": 0.99
+    },
+    {
+     "p": "em",
+     "ini": 35.38,
+     "fim": 35.5,
+     "conf": 1.0
+    },
+    {
+     "p": "dias",
+     "ini": 35.5,
+     "fim": 35.66,
+     "conf": 1.0
+    },
+    {
+     "p": "diferentes",
+     "ini": 35.66,
+     "fim": 36.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 36.24,
+   "fim": 37.34,
+   "texto": "Tempos diferentes",
+   "palavras": [
+    {
+     "p": "Tempos",
+     "ini": 36.24,
+     "fim": 36.88,
+     "conf": 0.96
+    },
+    {
+     "p": "diferentes",
+     "ini": 36.88,
+     "fim": 37.34,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 37.34,
+   "fim": 40.46,
+   "texto": "E hoje eu vou fazer ela completa",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 37.34,
+     "fim": 38.4,
+     "conf": 1.0
+    },
+    {
+     "p": "hoje",
+     "ini": 38.4,
+     "fim": 38.82,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 38.82,
+     "fim": 39.7,
+     "conf": 0.42
+    },
+    {
+     "p": "vou",
+     "ini": 39.7,
+     "fim": 39.78,
+     "conf": 1.0
+    },
+    {
+     "p": "fazer",
+     "ini": 39.78,
+     "fim": 39.94,
+     "conf": 0.85
+    },
+    {
+     "p": "ela",
+     "ini": 39.94,
+     "fim": 40.06,
+     "conf": 0.99
+    },
+    {
+     "p": "completa",
+     "ini": 40.06,
+     "fim": 40.46,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 41.38,
+   "fim": 41.92,
+   "texto": "Nervosa",
+   "palavras": [
+    {
+     "p": "Nervosa",
+     "ini": 41.38,
+     "fim": 41.92,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 41.92,
+   "fim": 44.2,
+   "texto": "Estamos, lógico, sempre",
+   "palavras": [
+    {
+     "p": "Estamos,",
+     "ini": 41.92,
+     "fim": 42.74,
+     "conf": 0.36
+    },
+    {
+     "p": "lógico,",
+     "ini": 43.02,
+     "fim": 43.74,
+     "conf": 1.0
+    },
+    {
+     "p": "sempre",
+     "ini": 43.74,
+     "fim": 44.2,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 44.2,
+   "fim": 47.22,
+   "texto": "Mas cada louco com a sua mania, né nega?",
+   "palavras": [
+    {
+     "p": "Mas",
+     "ini": 44.2,
+     "fim": 45.2,
+     "conf": 1.0
+    },
+    {
+     "p": "cada",
+     "ini": 45.2,
+     "fim": 45.64,
+     "conf": 0.74
+    },
+    {
+     "p": "louco",
+     "ini": 45.64,
+     "fim": 45.98,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 45.98,
+     "fim": 46.14,
+     "conf": 0.98
+    },
+    {
+     "p": "a",
+     "ini": 46.14,
+     "fim": 46.18,
+     "conf": 1.0
+    },
+    {
+     "p": "sua",
+     "ini": 46.18,
+     "fim": 46.32,
+     "conf": 1.0
+    },
+    {
+     "p": "mania,",
+     "ini": 46.32,
+     "fim": 46.68,
+     "conf": 1.0
+    },
+    {
+     "p": "né",
+     "ini": 46.74,
+     "fim": 46.84,
+     "conf": 0.99
+    },
+    {
+     "p": "nega?",
+     "ini": 46.84,
+     "fim": 47.22,
+     "conf": 0.89
+    }
+   ]
+  },
+  {
+   "ini": 47.52,
+   "fim": 48.14,
+   "texto": "Bora sim, bora",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 47.52,
+     "fim": 47.76,
+     "conf": 0.98
+    },
+    {
+     "p": "sim,",
+     "ini": 47.76,
+     "fim": 47.94,
+     "conf": 0.63
+    },
+    {
+     "p": "bora",
+     "ini": 48.08,
+     "fim": 48.14,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 48.14,
+   "fim": 49.5,
+   "texto": "Bora lá, meu amor",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 48.14,
+     "fim": 48.56,
+     "conf": 0.84
+    },
+    {
+     "p": "lá,",
+     "ini": 48.56,
+     "fim": 48.88,
+     "conf": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 49.02,
+     "fim": 49.12,
+     "conf": 1.0
+    },
+    {
+     "p": "amor",
+     "ini": 49.12,
+     "fim": 49.5,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

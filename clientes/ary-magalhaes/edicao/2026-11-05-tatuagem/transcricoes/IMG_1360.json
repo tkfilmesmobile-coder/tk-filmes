@@ -1,0 +1,37 @@
+{
+ "arquivo": "IMG_1360",
+ "duracao": 8.81,
+ "segmentos": [
+  {
+   "ini": 7.44,
+   "fim": 8.3,
+   "texto": "E assim ficou pronto.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 7.44,
+     "fim": 7.68,
+     "conf": 0.21
+    },
+    {
+     "p": "assim",
+     "ini": 7.68,
+     "fim": 7.82,
+     "conf": 0.07
+    },
+    {
+     "p": "ficou",
+     "ini": 7.82,
+     "fim": 7.86,
+     "conf": 0.29
+    },
+    {
+     "p": "pronto.",
+     "ini": 7.86,
+     "fim": 8.3,
+     "conf": 0.47
+    }
+   ]
+  }
+ ]
+}

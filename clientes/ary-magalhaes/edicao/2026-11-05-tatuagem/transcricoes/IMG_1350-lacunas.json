@@ -1,0 +1,64 @@
+[
+ {
+  "de": 0.0,
+  "ate": 1.65,
+  "db": -40.2,
+  "texto": "Hahahaha",
+  "palavras": [
+   {
+    "p": "Hahahaha",
+    "ini": 0.0,
+    "fim": 0.88,
+    "conf": 0.5
+   }
+  ]
+ },
+ {
+  "de": 2.91,
+  "ate": 4.17,
+  "db": -41.6,
+  "texto": "Amém.",
+  "palavras": [
+   {
+    "p": "Amém.",
+    "ini": 2.91,
+    "fim": 3.81,
+    "conf": 0.61
+   }
+  ]
+ },
+ {
+  "de": 5.41,
+  "ate": 7.11,
+  "db": -43.8,
+  "texto": "Obrigado.",
+  "palavras": [
+   {
+    "p": "Obrigado.",
+    "ini": 5.41,
+    "fim": 5.87,
+    "conf": 0.38
+   }
+  ]
+ },
+ {
+  "de": 8.31,
+  "ate": 10.11,
+  "db": -41.9,
+  "texto": "Tchau, tchau.",
+  "palavras": [
+   {
+    "p": "Tchau,",
+    "ini": 8.31,
+    "fim": 9.21,
+    "conf": 0.57
+   },
+   {
+    "p": "tchau.",
+    "ini": 9.21,
+    "fim": 9.47,
+    "conf": 0.9
+   }
+  ]
+ }
+]

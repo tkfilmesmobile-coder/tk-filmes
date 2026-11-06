@@ -1,0 +1,27 @@
+{
+ "tempo": {
+  "foto": "tempo.jpg", "foco": 33, "escurece": "ambos",
+  "rotulo": { "x": 70, "y": 790, "texto": "quanto tempo leva" },
+  "titulo": { "x": 66, "y": 838, "linhas": ["1 minuto?"], "tam": 132 },
+  "etiqueta": { "x": 70, "y": 990, "texto": "3h30 de trabalho", "tam": 74 },
+  "sub": { "x": 74, "y": 1110, "texto": "conversa 1h · roteiro 30 min · gravação 30 min · pós 1h30", "largura": 640, "caps": true },
+  "assinatura": { "lado": "direita", "y": 1262 }
+ },
+ "viralizar": {
+  "foto": "viralizar.jpg", "foco": 33, "escurece": "base",
+  "rotulo": { "x": 70, "y": 76, "texto": "o que eu mais escuto" },
+  "titulo": { "x": 66, "y": 124, "linhas": ["viralizar"], "tam": 96 },
+  "etiqueta": { "x": 70, "y": 238, "texto": "é sorte.", "tam": 82 },
+  "sub": { "x": 74, "y": 360, "texto": "Ser lembrado é constância.", "largura": 440 },
+  "cartao": { "x": 60, "y": 880, "etiqueta": "o viral", "linhas": [ { "texto": "curtiu", "tom": "pos" }, { "texto": "comentou", "tom": "pos" }, { "texto": "comprou", "tom": "neg" } ] },
+  "assinatura": { "lado": "esquerda", "y": 1262 }
+ },
+ "barulho": {
+  "foto": "barulho.jpg", "foco": 33, "escurece": "base",
+  "cartao": { "x": 56, "y": 110, "etiqueta": "o seu perfil", "linhas": [ { "texto": "estética", "tom": "pos" }, { "texto": "intenção", "tom": "neg" } ] },
+  "rotulo": { "x": 70, "y": 968, "texto": "o que eu mais vejo" },
+  "titulo": { "x": 66, "y": 1012, "linhas": ["postar por postar"], "tam": 88 },
+  "etiqueta": { "x": 70, "y": 1120, "texto": "é barulho.", "tam": 90 },
+  "assinatura": { "lado": "direita", "y": 1270 }
+ }
+}

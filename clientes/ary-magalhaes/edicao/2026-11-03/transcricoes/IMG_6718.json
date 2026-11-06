@@ -1,0 +1,443 @@
+{
+ "arquivo": "IMG_6718",
+ "duracao": 23.59,
+ "segmentos": [
+  {
+   "ini": 0.59,
+   "fim": 2.33,
+   "texto": "Menina, vou te passar, viu?",
+   "palavras": [
+    {
+     "p": "Menina,",
+     "ini": 0.59,
+     "fim": 1.45,
+     "conf": 0.9
+    },
+    {
+     "p": "vou",
+     "ini": 1.51,
+     "fim": 1.61,
+     "conf": 0.84
+    },
+    {
+     "p": "te",
+     "ini": 1.61,
+     "fim": 1.73,
+     "conf": 1.0
+    },
+    {
+     "p": "passar,",
+     "ini": 1.73,
+     "fim": 2.09,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 2.19,
+     "fim": 2.33,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 3.15,
+   "fim": 4.39,
+   "texto": "Caramba, eu fiz",
+   "palavras": [
+    {
+     "p": "Caramba,",
+     "ini": 3.15,
+     "fim": 3.67,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 3.91,
+     "fim": 4.03,
+     "conf": 1.0
+    },
+    {
+     "p": "fiz",
+     "ini": 4.03,
+     "fim": 4.39,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 4.39,
+   "fim": 6.17,
+   "texto": "uma enquete aqui pra saber quem tinha",
+   "palavras": [
+    {
+     "p": "uma",
+     "ini": 4.39,
+     "fim": 4.53,
+     "conf": 0.52
+    },
+    {
+     "p": "enquete",
+     "ini": 4.53,
+     "fim": 4.97,
+     "conf": 0.97
+    },
+    {
+     "p": "aqui",
+     "ini": 4.97,
+     "fim": 5.17,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 5.17,
+     "fim": 5.35,
+     "conf": 0.73
+    },
+    {
+     "p": "saber",
+     "ini": 5.35,
+     "fim": 5.73,
+     "conf": 1.0
+    },
+    {
+     "p": "quem",
+     "ini": 5.73,
+     "fim": 5.95,
+     "conf": 0.79
+    },
+    {
+     "p": "tinha",
+     "ini": 5.95,
+     "fim": 6.17,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 6.17,
+   "fim": 8.41,
+   "texto": "curiosidade sobre o procedimento",
+   "palavras": [
+    {
+     "p": "curiosidade",
+     "ini": 6.17,
+     "fim": 6.91,
+     "conf": 1.0
+    },
+    {
+     "p": "sobre",
+     "ini": 6.91,
+     "fim": 7.83,
+     "conf": 0.95
+    },
+    {
+     "p": "o",
+     "ini": 7.83,
+     "fim": 8.01,
+     "conf": 0.59
+    },
+    {
+     "p": "procedimento",
+     "ini": 8.01,
+     "fim": 8.41,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 8.41,
+   "fim": 10.61,
+   "texto": "cirúrgico que eu fiz, o pré e o",
+   "palavras": [
+    {
+     "p": "cirúrgico",
+     "ini": 8.41,
+     "fim": 9.03,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 9.03,
+     "fim": 9.21,
+     "conf": 0.55
+    },
+    {
+     "p": "eu",
+     "ini": 9.21,
+     "fim": 9.35,
+     "conf": 1.0
+    },
+    {
+     "p": "fiz,",
+     "ini": 9.35,
+     "fim": 9.81,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 10.07,
+     "fim": 10.15,
+     "conf": 1.0
+    },
+    {
+     "p": "pré",
+     "ini": 10.15,
+     "fim": 10.31,
+     "conf": 0.99
+    },
+    {
+     "p": "e",
+     "ini": 10.31,
+     "fim": 10.47,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 10.47,
+     "fim": 10.61,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 10.61,
+   "fim": 12.31,
+   "texto": "pós e bombaram.",
+   "palavras": [
+    {
+     "p": "pós",
+     "ini": 10.61,
+     "fim": 11.15,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 11.15,
+     "fim": 11.81,
+     "conf": 0.34
+    },
+    {
+     "p": "bombaram.",
+     "ini": 11.81,
+     "fim": 12.31,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 12.67,
+   "fim": 14.87,
+   "texto": "Deu 95%. Vocês arrasam, viu?",
+   "palavras": [
+    {
+     "p": "Deu",
+     "ini": 12.67,
+     "fim": 12.83,
+     "conf": 1.0
+    },
+    {
+     "p": "95%.",
+     "ini": 12.83,
+     "fim": 14.05,
+     "conf": 0.73
+    },
+    {
+     "p": "Vocês",
+     "ini": 14.05,
+     "fim": 14.31,
+     "conf": 0.99
+    },
+    {
+     "p": "arrasam,",
+     "ini": 14.31,
+     "fim": 14.73,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 14.77,
+     "fim": 14.87,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 15.33,
+   "fim": 16.59,
+   "texto": "Eu entendo vocês que eu também tava",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 15.33,
+     "fim": 15.65,
+     "conf": 1.0
+    },
+    {
+     "p": "entendo",
+     "ini": 15.65,
+     "fim": 15.93,
+     "conf": 1.0
+    },
+    {
+     "p": "vocês",
+     "ini": 15.93,
+     "fim": 16.19,
+     "conf": 0.97
+    },
+    {
+     "p": "que",
+     "ini": 16.19,
+     "fim": 16.31,
+     "conf": 0.6
+    },
+    {
+     "p": "eu",
+     "ini": 16.31,
+     "fim": 16.35,
+     "conf": 0.45
+    },
+    {
+     "p": "também",
+     "ini": 16.35,
+     "fim": 16.47,
+     "conf": 0.69
+    },
+    {
+     "p": "tava",
+     "ini": 16.47,
+     "fim": 16.59,
+     "conf": 0.67
+    }
+   ]
+  },
+  {
+   "ini": 16.59,
+   "fim": 18.45,
+   "texto": "curiosa, então eu vou deixar aqui uma caixinha",
+   "palavras": [
+    {
+     "p": "curiosa,",
+     "ini": 16.59,
+     "fim": 17.09,
+     "conf": 0.93
+    },
+    {
+     "p": "então",
+     "ini": 17.11,
+     "fim": 17.23,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 17.23,
+     "fim": 17.35,
+     "conf": 0.8
+    },
+    {
+     "p": "vou",
+     "ini": 17.35,
+     "fim": 17.41,
+     "conf": 1.0
+    },
+    {
+     "p": "deixar",
+     "ini": 17.41,
+     "fim": 17.61,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 17.61,
+     "fim": 17.79,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 17.79,
+     "fim": 17.93,
+     "conf": 1.0
+    },
+    {
+     "p": "caixinha",
+     "ini": 17.93,
+     "fim": 18.45,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 18.45,
+   "fim": 20.79,
+   "texto": "de perguntas pra vocês tirarem",
+   "palavras": [
+    {
+     "p": "de",
+     "ini": 18.45,
+     "fim": 18.93,
+     "conf": 1.0
+    },
+    {
+     "p": "perguntas",
+     "ini": 18.93,
+     "fim": 19.57,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 19.57,
+     "fim": 20.07,
+     "conf": 0.98
+    },
+    {
+     "p": "vocês",
+     "ini": 20.07,
+     "fim": 20.35,
+     "conf": 1.0
+    },
+    {
+     "p": "tirarem",
+     "ini": 20.35,
+     "fim": 20.79,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 20.79,
+   "fim": 22.91,
+   "texto": "todas as dúvidas de vocês.",
+   "palavras": [
+    {
+     "p": "todas",
+     "ini": 20.79,
+     "fim": 21.59,
+     "conf": 1.0
+    },
+    {
+     "p": "as",
+     "ini": 21.59,
+     "fim": 21.93,
+     "conf": 1.0
+    },
+    {
+     "p": "dúvidas",
+     "ini": 21.93,
+     "fim": 22.33,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 22.33,
+     "fim": 22.47,
+     "conf": 1.0
+    },
+    {
+     "p": "vocês.",
+     "ini": 22.47,
+     "fim": 22.91,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -17,6 +17,12 @@ export const CAPAS: CapaDef[] = [
   { id: "estetica-ou-saude", foto: "midia/fotos/IMG_6506.jpg", titulo: "Estética ou saúde?", linha: "cuidar do cabelo é *os dois*, meu amor", pos: "center 22%" },
   { id: "cabelo-de-salao-em-casa", foto: "midia/fotos/IMG_6486.jpg", titulo: "Cabelo de salão", linha: "como manter *em casa*", pos: "center 25%" },
   { id: "muito-prazer", foto: "midia/fotos/quadro-IMG_6502-138s.jpg", caps: "SE VOCÊ CHEGOU AGORA", titulo: "Muito prazer", linha: "eu sou a *Ary Magalhães*", pos: "center 20%" },
+  // diária de 2026-11-03 (fotos de resultado tiradas no dia)
+  { id: "caixinha-cirurgia", foto: "midia/fotos/quadro-IMG_1040-163s.jpg", caps: "CAIXINHA DE PERGUNTAS", titulo: "O que eu fiz", linha: "na minha *cirurgia*", pos: "center 30%" },
+  { id: "quanto-custou", foto: "midia/fotos/IMG_1028.jpg", caps: "A MAIOR DÚVIDA DE TODAS", titulo: "Quanto custou?", linha: "a minha *cirurgia*", pos: "center 20%" },
+  { id: "meu-corpo", foto: "midia/fotos/IMG_6712.jpg", titulo: "Não foi a cirurgia", linha: "foram *14 anos* de treino", pos: "center 22%" },
+  // vlog da tatuagem (2026-11-05): quadro da revelação
+  { id: "vlog-tatuagem", foto: "midia/fotos/quadro-IMG_1366-10s.jpg", caps: "VLOG · DIA DE TATUAGEM", titulo: "A maior tatuagem", linha: "que eu já fiz *na vida*", pos: "center 30%" },
 ];
 
 export const Capa: React.FC<{ id: string }> = ({ id }) => {

@@ -1,0 +1,53 @@
+{
+ "cliente": "Start Fitness",
+ "capa": {
+  "chamada": "Ninguém trava",
+  "chamadaNegrito": "por falta de",
+  "grande": "talento.",
+  "sub": "Trava por falta de direção.",
+  "subDestaque": "direção.",
+  "foto": "capa.jpg",
+  "recorte": "recorte-capa.png",
+  "foco": 30,
+  "tam": 250,
+  "base": 150,
+  "degrade": 58
+ },
+ "p2": {
+  "foto": "foto-1.jpg",
+  "linhas": [
+   "Vídeo bom começa"
+  ],
+  "negrito": "antes do REC.",
+  "sub": "Quem grava sem objetivo, grava de novo.",
+  "enquadre": {
+   "z": 1,
+   "dx": 0,
+   "dy": 0,
+   "foco": 35,
+   "cor": "claro",
+   "lado": "esquerda",
+   "topo": 205,
+   "largura": 940,
+   "tam": 100,
+   "subTopo": 930,
+   "subLargura": 460
+  },
+  "recorte": "recorte-p2.png"
+ },
+ "p3": {
+  "foto": "foto-2.jpg",
+  "etapa": 4,
+  "marcas": [
+   "Verbal",
+   "Não verbal"
+  ],
+  "marca": 1,
+  "titulo": [
+   "Seu corpo",
+   "fala primeiro."
+  ],
+  "texto": "Gesto, olhar e tom chegam antes da frase. Se eles não convencem, a frase não salva.",
+  "foco": 10
+ }
+}

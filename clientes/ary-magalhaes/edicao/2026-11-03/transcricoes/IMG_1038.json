@@ -1,0 +1,255 @@
+{
+ "arquivo": "IMG_1038",
+ "duracao": 20.07,
+ "segmentos": [
+  {
+   "ini": 1.9,
+   "fim": 6.72,
+   "texto": "E dizem que o último, já teram algumas línguas, né?",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 1.9,
+     "fim": 2.46,
+     "conf": 0.48
+    },
+    {
+     "p": "dizem",
+     "ini": 2.46,
+     "fim": 3.58,
+     "conf": 0.91
+    },
+    {
+     "p": "que",
+     "ini": 3.58,
+     "fim": 3.9,
+     "conf": 0.96
+    },
+    {
+     "p": "o",
+     "ini": 3.9,
+     "fim": 4.06,
+     "conf": 0.95
+    },
+    {
+     "p": "último,",
+     "ini": 4.06,
+     "fim": 4.54,
+     "conf": 0.91
+    },
+    {
+     "p": "já",
+     "ini": 4.82,
+     "fim": 5.08,
+     "conf": 0.9
+    },
+    {
+     "p": "teram",
+     "ini": 5.08,
+     "fim": 5.72,
+     "conf": 0.45
+    },
+    {
+     "p": "algumas",
+     "ini": 5.72,
+     "fim": 5.98,
+     "conf": 0.92
+    },
+    {
+     "p": "línguas,",
+     "ini": 5.98,
+     "fim": 6.54,
+     "conf": 0.92
+    },
+    {
+     "p": "né?",
+     "ini": 6.62,
+     "fim": 6.72,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 7.48,
+   "fim": 10.74,
+   "texto": "Que é de um, sim, eu me bregui, mas como diz Pablo,",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 7.48,
+     "fim": 7.66,
+     "conf": 0.48
+    },
+    {
+     "p": "é",
+     "ini": 7.66,
+     "fim": 7.8,
+     "conf": 0.75
+    },
+    {
+     "p": "de",
+     "ini": 7.8,
+     "fim": 7.9,
+     "conf": 0.72
+    },
+    {
+     "p": "um,",
+     "ini": 7.9,
+     "fim": 8.08,
+     "conf": 0.9
+    },
+    {
+     "p": "sim,",
+     "ini": 8.32,
+     "fim": 8.48,
+     "conf": 0.94
+    },
+    {
+     "p": "eu",
+     "ini": 8.6,
+     "fim": 8.7,
+     "conf": 0.46
+    },
+    {
+     "p": "me",
+     "ini": 8.7,
+     "fim": 8.86,
+     "conf": 0.63
+    },
+    {
+     "p": "bregui,",
+     "ini": 8.86,
+     "fim": 9.36,
+     "conf": 0.72
+    },
+    {
+     "p": "mas",
+     "ini": 9.48,
+     "fim": 9.62,
+     "conf": 0.99
+    },
+    {
+     "p": "como",
+     "ini": 9.62,
+     "fim": 10.08,
+     "conf": 0.57
+    },
+    {
+     "p": "diz",
+     "ini": 10.08,
+     "fim": 10.3,
+     "conf": 0.84
+    },
+    {
+     "p": "Pablo,",
+     "ini": 10.3,
+     "fim": 10.74,
+     "conf": 0.7
+    }
+   ]
+  },
+  {
+   "ini": 11.24,
+   "fim": 19.14,
+   "texto": "dizem que o amor é brega, brega, que é meu pai, eu amei, amei, meu amor.",
+   "palavras": [
+    {
+     "p": "dizem",
+     "ini": 11.24,
+     "fim": 11.72,
+     "conf": 0.97
+    },
+    {
+     "p": "que",
+     "ini": 11.72,
+     "fim": 11.92,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 11.92,
+     "fim": 12.12,
+     "conf": 0.99
+    },
+    {
+     "p": "amor",
+     "ini": 12.12,
+     "fim": 12.52,
+     "conf": 0.99
+    },
+    {
+     "p": "é",
+     "ini": 12.52,
+     "fim": 12.88,
+     "conf": 0.98
+    },
+    {
+     "p": "brega,",
+     "ini": 12.88,
+     "fim": 13.42,
+     "conf": 0.81
+    },
+    {
+     "p": "brega,",
+     "ini": 13.62,
+     "fim": 14.1,
+     "conf": 0.91
+    },
+    {
+     "p": "que",
+     "ini": 14.36,
+     "fim": 14.46,
+     "conf": 0.79
+    },
+    {
+     "p": "é",
+     "ini": 14.46,
+     "fim": 14.62,
+     "conf": 0.12
+    },
+    {
+     "p": "meu",
+     "ini": 14.62,
+     "fim": 14.8,
+     "conf": 0.58
+    },
+    {
+     "p": "pai,",
+     "ini": 14.8,
+     "fim": 15.12,
+     "conf": 0.94
+    },
+    {
+     "p": "eu",
+     "ini": 15.28,
+     "fim": 15.28,
+     "conf": 0.65
+    },
+    {
+     "p": "amei,",
+     "ini": 15.28,
+     "fim": 15.86,
+     "conf": 0.4
+    },
+    {
+     "p": "amei,",
+     "ini": 16.1,
+     "fim": 18.28,
+     "conf": 0.61
+    },
+    {
+     "p": "meu",
+     "ini": 18.74,
+     "fim": 18.74,
+     "conf": 0.52
+    },
+    {
+     "p": "amor.",
+     "ini": 18.74,
+     "fim": 19.14,
+     "conf": 0.91
+    }
+   ]
+  }
+ ]
+}

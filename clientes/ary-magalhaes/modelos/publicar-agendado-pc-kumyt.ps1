@@ -47,13 +47,16 @@ else {
 if (-not (Test-Path $leg)) { L "sem legenda.txt"; Recado "Falta a legenda de ${Data}: nada publicado."; exit 1 }
 if ($Teste) { L "teste ok: $tipo, legenda $((Get-Item $leg).Length) bytes, node $(& $node --version)"; exit 0 }
 
-# 3. Publica (até 3 tentativas se cair antes de publicar; se já publicou, não repete)
-for ($t = 1; $t -le 3; $t++) {
-  L "publicando $tipo (tentativa $t)..."
+# 3. Publica. Se cair antes de publicar, tenta de novo com espera crescente (2026-11-04: em 31/10 o Instagram
+#    respondeu "User access is restricted" por um tempo e as 3 tentativas em 3 minutos não bastaram).
+#    6 tentativas em ~3h20. Se já publicou, não repete.
+$esperas = @(90, 600, 1800, 3600, 5400)
+for ($t = 1; $t -le 6; $t++) {
+  L "publicando $tipo (tentativa $t de 6)..."
   $saida = (& $node --env-file=.env $js --conta $conta @args1 --caption-file $leg 2>&1 | Out-String)
   $saida | Out-File $log -Append -Encoding utf8
   if ($LASTEXITCODE -eq 0 -or $saida -match "(?i)publicad|permalink|instagram\.com/(p|reel)/") { L "PUBLICADO: $tipo"; exit 0 }
-  Start-Sleep -Seconds 90
+  if ($t -lt 6) { L "não saiu; nova tentativa em $([math]::Round($esperas[$t-1]/60)) min"; Start-Sleep -Seconds $esperas[$t-1] }
 }
-Recado "O $tipo de $Data não foi publicado depois de 3 tentativas. Rode de novo: clientes/ary-magalhaes/modelos/publicar-agendado-pc-kumyt.ps1 -Data $Data"
+Recado "O $tipo de $Data não foi publicado depois de 6 tentativas (~3h). Rode de novo: clientes/ary-magalhaes/modelos/publicar-agendado-pc-kumyt.ps1 -Data $Data"
 exit 1

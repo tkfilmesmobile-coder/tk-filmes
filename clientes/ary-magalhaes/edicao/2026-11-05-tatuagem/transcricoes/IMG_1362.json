@@ -1,0 +1,62 @@
+{
+ "arquivo": "IMG_1362",
+ "duracao": 3.9,
+ "segmentos": [
+  {
+   "ini": 0.78,
+   "fim": 1.96,
+   "texto": "Que não acabou, é?",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 0.78,
+     "fim": 1.16,
+     "conf": 0.28
+    },
+    {
+     "p": "não",
+     "ini": 1.16,
+     "fim": 1.32,
+     "conf": 0.56
+    },
+    {
+     "p": "acabou,",
+     "ini": 1.32,
+     "fim": 1.64,
+     "conf": 0.99
+    },
+    {
+     "p": "é?",
+     "ini": 1.86,
+     "fim": 1.96,
+     "conf": 0.49
+    }
+   ]
+  },
+  {
+   "ini": 2.86,
+   "fim": 3.86,
+   "texto": "Até eu já...",
+   "palavras": [
+    {
+     "p": "Até",
+     "ini": 2.86,
+     "fim": 3.34,
+     "conf": 0.98
+    },
+    {
+     "p": "eu",
+     "ini": 3.34,
+     "fim": 3.58,
+     "conf": 0.99
+    },
+    {
+     "p": "já...",
+     "ini": 3.58,
+     "fim": 3.86,
+     "conf": 0.94
+    }
+   ]
+  }
+ ]
+}

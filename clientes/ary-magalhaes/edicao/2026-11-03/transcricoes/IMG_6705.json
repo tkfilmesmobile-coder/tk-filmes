@@ -1,0 +1,3450 @@
+{
+ "arquivo": "IMG_6705",
+ "duracao": 252.44,
+ "segmentos": [
+  {
+   "ini": 1.62,
+   "fim": 7.7,
+   "texto": "Eu prometi pra vocês que eu ia trazer os meus recebidos pagos da Legbox.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 1.62,
+     "fim": 2.12,
+     "conf": 0.92
+    },
+    {
+     "p": "prometi",
+     "ini": 2.12,
+     "fim": 2.54,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 2.54,
+     "fim": 2.7,
+     "conf": 0.64
+    },
+    {
+     "p": "vocês",
+     "ini": 2.7,
+     "fim": 3.02,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 3.02,
+     "fim": 3.2,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 3.2,
+     "fim": 3.26,
+     "conf": 0.99
+    },
+    {
+     "p": "ia",
+     "ini": 3.26,
+     "fim": 3.36,
+     "conf": 1.0
+    },
+    {
+     "p": "trazer",
+     "ini": 3.36,
+     "fim": 3.82,
+     "conf": 1.0
+    },
+    {
+     "p": "os",
+     "ini": 3.82,
+     "fim": 4.74,
+     "conf": 0.98
+    },
+    {
+     "p": "meus",
+     "ini": 4.74,
+     "fim": 5.0,
+     "conf": 1.0
+    },
+    {
+     "p": "recebidos",
+     "ini": 5.0,
+     "fim": 5.7,
+     "conf": 1.0
+    },
+    {
+     "p": "pagos",
+     "ini": 5.7,
+     "fim": 6.56,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 6.56,
+     "fim": 7.16,
+     "conf": 1.0
+    },
+    {
+     "p": "Legbox.",
+     "ini": 7.16,
+     "fim": 7.7,
+     "conf": 0.91
+    }
+   ]
+  },
+  {
+   "ini": 7.86,
+   "fim": 11.92,
+   "texto": "E estou aqui pra mostrar pra vocês direitinho cada peça.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 7.86,
+     "fim": 8.02,
+     "conf": 0.95
+    },
+    {
+     "p": "estou",
+     "ini": 8.02,
+     "fim": 8.34,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui",
+     "ini": 8.34,
+     "fim": 8.62,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 8.62,
+     "fim": 8.78,
+     "conf": 1.0
+    },
+    {
+     "p": "mostrar",
+     "ini": 8.78,
+     "fim": 9.14,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 9.14,
+     "fim": 9.36,
+     "conf": 1.0
+    },
+    {
+     "p": "vocês",
+     "ini": 9.36,
+     "fim": 9.72,
+     "conf": 1.0
+    },
+    {
+     "p": "direitinho",
+     "ini": 9.72,
+     "fim": 10.56,
+     "conf": 1.0
+    },
+    {
+     "p": "cada",
+     "ini": 10.56,
+     "fim": 11.4,
+     "conf": 0.99
+    },
+    {
+     "p": "peça.",
+     "ini": 11.4,
+     "fim": 11.92,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 12.68,
+   "fim": 15.9,
+   "texto": "Lembrando, é a primeira vez, minha primeira compra, tá?",
+   "palavras": [
+    {
+     "p": "Lembrando,",
+     "ini": 12.68,
+     "fim": 13.14,
+     "conf": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 13.36,
+     "fim": 13.68,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 13.68,
+     "fim": 13.78,
+     "conf": 1.0
+    },
+    {
+     "p": "primeira",
+     "ini": 13.78,
+     "fim": 14.04,
+     "conf": 0.99
+    },
+    {
+     "p": "vez,",
+     "ini": 14.04,
+     "fim": 14.4,
+     "conf": 1.0
+    },
+    {
+     "p": "minha",
+     "ini": 14.54,
+     "fim": 14.76,
+     "conf": 0.88
+    },
+    {
+     "p": "primeira",
+     "ini": 14.76,
+     "fim": 15.18,
+     "conf": 1.0
+    },
+    {
+     "p": "compra,",
+     "ini": 15.18,
+     "fim": 15.74,
+     "conf": 0.99
+    },
+    {
+     "p": "tá?",
+     "ini": 15.88,
+     "fim": 15.9,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 16.04,
+   "fim": 20.68,
+   "texto": "Da Legbox, já até tá agradinho, que eu mostrei naquele dia pra vocês, mas eu não mexi.",
+   "palavras": [
+    {
+     "p": "Da",
+     "ini": 16.04,
+     "fim": 16.12,
+     "conf": 0.81
+    },
+    {
+     "p": "Legbox,",
+     "ini": 16.12,
+     "fim": 16.48,
+     "conf": 0.99
+    },
+    {
+     "p": "já",
+     "ini": 16.54,
+     "fim": 16.68,
+     "conf": 0.36
+    },
+    {
+     "p": "até",
+     "ini": 16.68,
+     "fim": 16.78,
+     "conf": 0.86
+    },
+    {
+     "p": "tá",
+     "ini": 16.78,
+     "fim": 16.98,
+     "conf": 0.78
+    },
+    {
+     "p": "agradinho,",
+     "ini": 16.98,
+     "fim": 17.58,
+     "conf": 0.72
+    },
+    {
+     "p": "que",
+     "ini": 17.76,
+     "fim": 18.1,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 18.1,
+     "fim": 18.18,
+     "conf": 1.0
+    },
+    {
+     "p": "mostrei",
+     "ini": 18.18,
+     "fim": 18.46,
+     "conf": 1.0
+    },
+    {
+     "p": "naquele",
+     "ini": 18.46,
+     "fim": 18.82,
+     "conf": 1.0
+    },
+    {
+     "p": "dia",
+     "ini": 18.82,
+     "fim": 19.06,
+     "conf": 1.0
+    },
+    {
+     "p": "pra",
+     "ini": 19.06,
+     "fim": 19.24,
+     "conf": 1.0
+    },
+    {
+     "p": "vocês,",
+     "ini": 19.24,
+     "fim": 19.72,
+     "conf": 1.0
+    },
+    {
+     "p": "mas",
+     "ini": 19.82,
+     "fim": 20.04,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 20.04,
+     "fim": 20.2,
+     "conf": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 20.2,
+     "fim": 20.36,
+     "conf": 1.0
+    },
+    {
+     "p": "mexi.",
+     "ini": 20.36,
+     "fim": 20.68,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 21.28,
+   "fim": 24.18,
+   "texto": "Vou ver junto com vocês a realidade no Icloa, viu?",
+   "palavras": [
+    {
+     "p": "Vou",
+     "ini": 21.28,
+     "fim": 21.56,
+     "conf": 1.0
+    },
+    {
+     "p": "ver",
+     "ini": 21.56,
+     "fim": 21.74,
+     "conf": 1.0
+    },
+    {
+     "p": "junto",
+     "ini": 21.74,
+     "fim": 21.98,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 21.98,
+     "fim": 22.16,
+     "conf": 1.0
+    },
+    {
+     "p": "vocês",
+     "ini": 22.16,
+     "fim": 22.54,
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 22.54,
+     "fim": 22.74,
+     "conf": 1.0
+    },
+    {
+     "p": "realidade",
+     "ini": 22.74,
+     "fim": 23.28,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 23.28,
+     "fim": 23.56,
+     "conf": 0.46
+    },
+    {
+     "p": "Icloa,",
+     "ini": 23.56,
+     "fim": 24.0,
+     "conf": 0.59
+    },
+    {
+     "p": "viu?",
+     "ini": 24.04,
+     "fim": 24.18,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 24.96,
+   "fim": 26.2,
+   "texto": "Vou contar com as duas peças.",
+   "palavras": [
+    {
+     "p": "Vou",
+     "ini": 24.96,
+     "fim": 25.36,
+     "conf": 0.07
+    },
+    {
+     "p": "contar",
+     "ini": 25.36,
+     "fim": 25.66,
+     "conf": 0.32
+    },
+    {
+     "p": "com",
+     "ini": 25.66,
+     "fim": 25.86,
+     "conf": 0.68
+    },
+    {
+     "p": "as",
+     "ini": 25.86,
+     "fim": 26.04,
+     "conf": 0.77
+    },
+    {
+     "p": "duas",
+     "ini": 26.04,
+     "fim": 26.06,
+     "conf": 0.52
+    },
+    {
+     "p": "peças.",
+     "ini": 26.06,
+     "fim": 26.2,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 26.3,
+   "fim": 27.72,
+   "texto": "Sabe aí como você vai fazer uma coisa?",
+   "palavras": [
+    {
+     "p": "Sabe",
+     "ini": 26.3,
+     "fim": 26.66,
+     "conf": 0.56
+    },
+    {
+     "p": "aí",
+     "ini": 26.66,
+     "fim": 26.74,
+     "conf": 0.97
+    },
+    {
+     "p": "como",
+     "ini": 26.74,
+     "fim": 26.96,
+     "conf": 0.43
+    },
+    {
+     "p": "você",
+     "ini": 26.96,
+     "fim": 27.12,
+     "conf": 0.62
+    },
+    {
+     "p": "vai",
+     "ini": 27.12,
+     "fim": 27.26,
+     "conf": 0.99
+    },
+    {
+     "p": "fazer",
+     "ini": 27.26,
+     "fim": 27.42,
+     "conf": 0.51
+    },
+    {
+     "p": "uma",
+     "ini": 27.42,
+     "fim": 27.6,
+     "conf": 0.26
+    },
+    {
+     "p": "coisa?",
+     "ini": 27.6,
+     "fim": 27.72,
+     "conf": 0.23
+    }
+   ]
+  },
+  {
+   "ini": 27.76,
+   "fim": 28.62,
+   "texto": "São seis peças.",
+   "palavras": [
+    {
+     "p": "São",
+     "ini": 27.76,
+     "fim": 27.88,
+     "conf": 0.98
+    },
+    {
+     "p": "seis",
+     "ini": 27.88,
+     "fim": 28.16,
+     "conf": 0.98
+    },
+    {
+     "p": "peças.",
+     "ini": 28.16,
+     "fim": 28.62,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 37.26,
+   "fim": 39.2,
+   "texto": "Eu tenho aqui nesse pacotinho",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 37.26,
+     "fim": 37.9,
+     "conf": 0.87
+    },
+    {
+     "p": "tenho",
+     "ini": 37.9,
+     "fim": 38.06,
+     "conf": 0.97
+    },
+    {
+     "p": "aqui",
+     "ini": 38.06,
+     "fim": 38.38,
+     "conf": 1.0
+    },
+    {
+     "p": "nesse",
+     "ini": 38.38,
+     "fim": 38.64,
+     "conf": 0.77
+    },
+    {
+     "p": "pacotinho",
+     "ini": 38.64,
+     "fim": 39.2,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 39.2,
+   "fim": 40.44,
+   "texto": "6 peças, tá?",
+   "palavras": [
+    {
+     "p": "6",
+     "ini": 39.2,
+     "fim": 39.62,
+     "conf": 0.3
+    },
+    {
+     "p": "peças,",
+     "ini": 39.62,
+     "fim": 40.2,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 40.3,
+     "fim": 40.44,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 40.84,
+   "fim": 42.84,
+   "texto": "Eu dei a opção de conjuntinho",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 40.84,
+     "fim": 41.1,
+     "conf": 1.0
+    },
+    {
+     "p": "dei",
+     "ini": 41.1,
+     "fim": 41.22,
+     "conf": 0.83
+    },
+    {
+     "p": "a",
+     "ini": 41.22,
+     "fim": 41.32,
+     "conf": 1.0
+    },
+    {
+     "p": "opção",
+     "ini": 41.32,
+     "fim": 41.64,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 41.64,
+     "fim": 41.82,
+     "conf": 0.99
+    },
+    {
+     "p": "conjuntinho",
+     "ini": 41.82,
+     "fim": 42.84,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 42.84,
+   "fim": 44.76,
+   "texto": "Bermuda e",
+   "palavras": [
+    {
+     "p": "Bermuda",
+     "ini": 42.84,
+     "fim": 43.96,
+     "conf": 0.68
+    },
+    {
+     "p": "e",
+     "ini": 43.96,
+     "fim": 44.76,
+     "conf": 0.85
+    }
+   ]
+  },
+  {
+   "ini": 44.76,
+   "fim": 45.98,
+   "texto": "O croppedzinho",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 44.76,
+     "fim": 45.22,
+     "conf": 0.01
+    },
+    {
+     "p": "croppedzinho",
+     "ini": 45.22,
+     "fim": 45.98,
+     "conf": 0.91
+    }
+   ]
+  },
+  {
+   "ini": 45.98,
+   "fim": 47.88,
+   "texto": "Sem falar que assim",
+   "palavras": [
+    {
+     "p": "Sem",
+     "ini": 45.98,
+     "fim": 47.06,
+     "conf": 0.96
+    },
+    {
+     "p": "falar",
+     "ini": 47.06,
+     "fim": 47.4,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 47.4,
+     "fim": 47.58,
+     "conf": 0.98
+    },
+    {
+     "p": "assim",
+     "ini": 47.58,
+     "fim": 47.88,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 47.88,
+   "fim": 50.52,
+   "texto": "Eu vi que tem na opção",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 47.88,
+     "fim": 48.76,
+     "conf": 0.93
+    },
+    {
+     "p": "vi",
+     "ini": 48.76,
+     "fim": 48.92,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 48.92,
+     "fim": 49.06,
+     "conf": 1.0
+    },
+    {
+     "p": "tem",
+     "ini": 49.06,
+     "fim": 49.3,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 49.3,
+     "fim": 49.56,
+     "conf": 0.97
+    },
+    {
+     "p": "opção",
+     "ini": 49.56,
+     "fim": 50.52,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 50.52,
+   "fim": 52.76,
+   "texto": "Vi não, né? Eu amei essa opção",
+   "palavras": [
+    {
+     "p": "Vi",
+     "ini": 50.52,
+     "fim": 51.02,
+     "conf": 0.8
+    },
+    {
+     "p": "não,",
+     "ini": 51.02,
+     "fim": 51.24,
+     "conf": 0.91
+    },
+    {
+     "p": "né?",
+     "ini": 51.34,
+     "fim": 51.42,
+     "conf": 1.0
+    },
+    {
+     "p": "Eu",
+     "ini": 51.52,
+     "fim": 51.72,
+     "conf": 1.0
+    },
+    {
+     "p": "amei",
+     "ini": 51.72,
+     "fim": 52.2,
+     "conf": 1.0
+    },
+    {
+     "p": "essa",
+     "ini": 52.2,
+     "fim": 52.38,
+     "conf": 0.99
+    },
+    {
+     "p": "opção",
+     "ini": 52.38,
+     "fim": 52.76,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 52.76,
+   "fim": 55.02,
+   "texto": "Que você pode comprar um tamanho",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 52.76,
+     "fim": 53.52,
+     "conf": 0.97
+    },
+    {
+     "p": "você",
+     "ini": 53.52,
+     "fim": 53.7,
+     "conf": 1.0
+    },
+    {
+     "p": "pode",
+     "ini": 53.7,
+     "fim": 53.94,
+     "conf": 1.0
+    },
+    {
+     "p": "comprar",
+     "ini": 53.94,
+     "fim": 54.3,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 54.3,
+     "fim": 54.48,
+     "conf": 0.89
+    },
+    {
+     "p": "tamanho",
+     "ini": 54.48,
+     "fim": 55.02,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 55.02,
+   "fim": 56.58,
+   "texto": "De cima",
+   "palavras": [
+    {
+     "p": "De",
+     "ini": 55.02,
+     "fim": 56.18,
+     "conf": 0.98
+    },
+    {
+     "p": "cima",
+     "ini": 56.18,
+     "fim": 56.58,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 56.58,
+   "fim": 58.1,
+   "texto": "Um, um e",
+   "palavras": [
+    {
+     "p": "Um,",
+     "ini": 56.58,
+     "fim": 57.12,
+     "conf": 0.51
+    },
+    {
+     "p": "um",
+     "ini": 57.26,
+     "fim": 57.46,
+     "conf": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 57.46,
+     "fim": 58.1,
+     "conf": 0.87
+    }
+   ]
+  },
+  {
+   "ini": 59.96,
+   "fim": 62.08,
+   "texto": "A parte de cima você pode escolher um tamanho",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 59.96,
+     "fim": 60.5,
+     "conf": 0.17
+    },
+    {
+     "p": "parte",
+     "ini": 60.5,
+     "fim": 60.64,
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 60.64,
+     "fim": 60.8,
+     "conf": 1.0
+    },
+    {
+     "p": "cima",
+     "ini": 60.8,
+     "fim": 61.0,
+     "conf": 1.0
+    },
+    {
+     "p": "você",
+     "ini": 61.0,
+     "fim": 61.24,
+     "conf": 0.96
+    },
+    {
+     "p": "pode",
+     "ini": 61.24,
+     "fim": 61.44,
+     "conf": 1.0
+    },
+    {
+     "p": "escolher",
+     "ini": 61.44,
+     "fim": 61.72,
+     "conf": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 61.72,
+     "fim": 61.8,
+     "conf": 0.92
+    },
+    {
+     "p": "tamanho",
+     "ini": 61.8,
+     "fim": 62.08,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 62.08,
+   "fim": 63.56,
+   "texto": "A parte de baixo você pode escolher outra",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 62.08,
+     "fim": 62.26,
+     "conf": 0.03
+    },
+    {
+     "p": "parte",
+     "ini": 62.26,
+     "fim": 62.36,
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 62.36,
+     "fim": 62.46,
+     "conf": 1.0
+    },
+    {
+     "p": "baixo",
+     "ini": 62.46,
+     "fim": 62.6,
+     "conf": 0.99
+    },
+    {
+     "p": "você",
+     "ini": 62.6,
+     "fim": 62.72,
+     "conf": 0.99
+    },
+    {
+     "p": "pode",
+     "ini": 62.72,
+     "fim": 62.9,
+     "conf": 1.0
+    },
+    {
+     "p": "escolher",
+     "ini": 62.9,
+     "fim": 63.22,
+     "conf": 1.0
+    },
+    {
+     "p": "outra",
+     "ini": 63.22,
+     "fim": 63.56,
+     "conf": 0.81
+    }
+   ]
+  },
+  {
+   "ini": 63.56,
+   "fim": 68.36,
+   "texto": "E o bom da compra foi que eu consegui",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 63.56,
+     "fim": 64.3,
+     "conf": 0.91
+    },
+    {
+     "p": "o",
+     "ini": 64.3,
+     "fim": 66.06,
+     "conf": 1.0
+    },
+    {
+     "p": "bom",
+     "ini": 66.06,
+     "fim": 66.3,
+     "conf": 1.0
+    },
+    {
+     "p": "da",
+     "ini": 66.3,
+     "fim": 66.8,
+     "conf": 0.85
+    },
+    {
+     "p": "compra",
+     "ini": 66.8,
+     "fim": 67.2,
+     "conf": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 67.2,
+     "fim": 67.46,
+     "conf": 0.75
+    },
+    {
+     "p": "que",
+     "ini": 67.46,
+     "fim": 67.62,
+     "conf": 0.98
+    },
+    {
+     "p": "eu",
+     "ini": 67.62,
+     "fim": 67.74,
+     "conf": 0.97
+    },
+    {
+     "p": "consegui",
+     "ini": 67.74,
+     "fim": 68.36,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 68.36,
+   "fim": 70.34,
+   "texto": "Comprar a parte de cima um tamanho",
+   "palavras": [
+    {
+     "p": "Comprar",
+     "ini": 68.36,
+     "fim": 69.1,
+     "conf": 0.94
+    },
+    {
+     "p": "a",
+     "ini": 69.1,
+     "fim": 69.26,
+     "conf": 1.0
+    },
+    {
+     "p": "parte",
+     "ini": 69.26,
+     "fim": 69.42,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 69.42,
+     "fim": 69.62,
+     "conf": 1.0
+    },
+    {
+     "p": "cima",
+     "ini": 69.62,
+     "fim": 69.8,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 69.8,
+     "fim": 69.98,
+     "conf": 0.7
+    },
+    {
+     "p": "tamanho",
+     "ini": 69.98,
+     "fim": 70.34,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 70.34,
+   "fim": 71.58,
+   "texto": "Que é sempre o meu problema",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 70.34,
+     "fim": 70.52,
+     "conf": 0.94
+    },
+    {
+     "p": "é",
+     "ini": 70.52,
+     "fim": 70.64,
+     "conf": 1.0
+    },
+    {
+     "p": "sempre",
+     "ini": 70.64,
+     "fim": 70.98,
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "ini": 70.98,
+     "fim": 71.08,
+     "conf": 0.99
+    },
+    {
+     "p": "meu",
+     "ini": 71.08,
+     "fim": 71.16,
+     "conf": 1.0
+    },
+    {
+     "p": "problema",
+     "ini": 71.16,
+     "fim": 71.58,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 71.58,
+   "fim": 72.82,
+   "texto": "E a de baixo outra",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 71.58,
+     "fim": 71.9,
+     "conf": 0.76
+    },
+    {
+     "p": "a",
+     "ini": 71.9,
+     "fim": 72.0,
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 72.0,
+     "fim": 72.12,
+     "conf": 0.96
+    },
+    {
+     "p": "baixo",
+     "ini": 72.12,
+     "fim": 72.42,
+     "conf": 1.0
+    },
+    {
+     "p": "outra",
+     "ini": 72.42,
+     "fim": 72.82,
+     "conf": 0.9
+    }
+   ]
+  },
+  {
+   "ini": 72.82,
+   "fim": 74.38,
+   "texto": "Aqui eu comprei P",
+   "palavras": [
+    {
+     "p": "Aqui",
+     "ini": 72.82,
+     "fim": 73.6,
+     "conf": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 73.6,
+     "fim": 73.72,
+     "conf": 1.0
+    },
+    {
+     "p": "comprei",
+     "ini": 73.72,
+     "fim": 74.08,
+     "conf": 1.0
+    },
+    {
+     "p": "P",
+     "ini": 74.08,
+     "fim": 74.38,
+     "conf": 0.89
+    }
+   ]
+  },
+  {
+   "ini": 74.38,
+   "fim": 76.24,
+   "texto": "Não sei se dará",
+   "palavras": [
+    {
+     "p": "Não",
+     "ini": 74.38,
+     "fim": 75.32,
+     "conf": 0.63
+    },
+    {
+     "p": "sei",
+     "ini": 75.32,
+     "fim": 75.56,
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "ini": 75.56,
+     "fim": 75.72,
+     "conf": 1.0
+    },
+    {
+     "p": "dará",
+     "ini": 75.72,
+     "fim": 76.24,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 76.24,
+   "fim": 78.04,
+   "texto": "Porém, vamos testar, né?",
+   "palavras": [
+    {
+     "p": "Porém,",
+     "ini": 76.24,
+     "fim": 77.02,
+     "conf": 0.97
+    },
+    {
+     "p": "vamos",
+     "ini": 77.02,
+     "fim": 77.44,
+     "conf": 1.0
+    },
+    {
+     "p": "testar,",
+     "ini": 77.44,
+     "fim": 77.92,
+     "conf": 1.0
+    },
+    {
+     "p": "né?",
+     "ini": 77.92,
+     "fim": 78.04,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 78.64,
+   "fim": 81.46,
+   "texto": "E na parte de baixo eu comprei M",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 78.64,
+     "fim": 78.92,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 78.92,
+     "fim": 79.36,
+     "conf": 0.99
+    },
+    {
+     "p": "parte",
+     "ini": 79.36,
+     "fim": 79.6,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 79.6,
+     "fim": 79.74,
+     "conf": 1.0
+    },
+    {
+     "p": "baixo",
+     "ini": 79.74,
+     "fim": 80.14,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 80.14,
+     "fim": 80.8,
+     "conf": 0.38
+    },
+    {
+     "p": "comprei",
+     "ini": 80.8,
+     "fim": 81.12,
+     "conf": 1.0
+    },
+    {
+     "p": "M",
+     "ini": 81.12,
+     "fim": 81.46,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 81.46,
+   "fim": 82.84,
+   "texto": "Bora sim, bora?",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 81.46,
+     "fim": 82.48,
+     "conf": 0.99
+    },
+    {
+     "p": "sim,",
+     "ini": 82.48,
+     "fim": 82.66,
+     "conf": 0.9
+    },
+    {
+     "p": "bora?",
+     "ini": 82.76,
+     "fim": 82.84,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 84.34,
+   "fim": 84.88,
+   "texto": "Bora",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 84.34,
+     "fim": 84.88,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 84.88,
+   "fim": 85.28,
+   "texto": "Bora",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 84.88,
+     "fim": 85.28,
+     "conf": 0.82
+    }
+   ]
+  },
+  {
+   "ini": 96.36,
+   "fim": 97.08,
+   "texto": "Bora",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 96.36,
+     "fim": 97.08,
+     "conf": 0.84
+    }
+   ]
+  },
+  {
+   "ini": 97.08,
+   "fim": 97.42,
+   "texto": "Bora",
+   "palavras": [
+    {
+     "p": "Bora",
+     "ini": 97.08,
+     "fim": 97.42,
+     "conf": 0.24
+    }
+   ]
+  },
+  {
+   "ini": 97.42,
+   "fim": 105.3,
+   "texto": "Bora, amiga",
+   "palavras": [
+    {
+     "p": "Bora,",
+     "ini": 97.42,
+     "fim": 97.5,
+     "conf": 0.59
+    },
+    {
+     "p": "amiga",
+     "ini": 101.08,
+     "fim": 105.3,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 108.24,
+   "fim": 110.22,
+   "texto": "Aqui, o choque da banana",
+   "palavras": [
+    {
+     "p": "Aqui,",
+     "ini": 108.24,
+     "fim": 108.96,
+     "conf": 0.06
+    },
+    {
+     "p": "o",
+     "ini": 109.58,
+     "fim": 109.66,
+     "conf": 0.8
+    },
+    {
+     "p": "choque",
+     "ini": 109.66,
+     "fim": 109.84,
+     "conf": 0.76
+    },
+    {
+     "p": "da",
+     "ini": 109.84,
+     "fim": 109.92,
+     "conf": 0.99
+    },
+    {
+     "p": "banana",
+     "ini": 109.92,
+     "fim": 110.22,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 113.72,
+   "fim": 115.44,
+   "texto": "Esse eu amei",
+   "palavras": [
+    {
+     "p": "Esse",
+     "ini": 113.72,
+     "fim": 114.44,
+     "conf": 0.49
+    },
+    {
+     "p": "eu",
+     "ini": 114.44,
+     "fim": 115.16,
+     "conf": 0.65
+    },
+    {
+     "p": "amei",
+     "ini": 115.16,
+     "fim": 115.44,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 115.44,
+   "fim": 115.98,
+   "texto": "Porque parece",
+   "palavras": [
+    {
+     "p": "Porque",
+     "ini": 115.44,
+     "fim": 115.6,
+     "conf": 0.25
+    },
+    {
+     "p": "parece",
+     "ini": 115.6,
+     "fim": 115.98,
+     "conf": 0.85
+    }
+   ]
+  },
+  {
+   "ini": 115.98,
+   "fim": 117.12,
+   "texto": "Aqui a calçadeira",
+   "palavras": [
+    {
+     "p": "Aqui",
+     "ini": 115.98,
+     "fim": 116.44,
+     "conf": 0.21
+    },
+    {
+     "p": "a",
+     "ini": 116.44,
+     "fim": 116.54,
+     "conf": 0.67
+    },
+    {
+     "p": "calçadeira",
+     "ini": 116.54,
+     "fim": 117.12,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 117.12,
+   "fim": 121.45,
+   "texto": "É isso aqui. É, isso mesmo.",
+   "palavras": [
+    {
+     "p": "É",
+     "ini": 117.12,
+     "fim": 117.16,
+     "conf": 0.12
+    },
+    {
+     "p": "isso",
+     "ini": 117.16,
+     "fim": 117.34,
+     "conf": 0.95
+    },
+    {
+     "p": "aqui.",
+     "ini": 117.34,
+     "fim": 117.56,
+     "conf": 0.83
+    },
+    {
+     "p": "É,",
+     "ini": 120.23,
+     "fim": 120.75,
+     "conf": 0.72
+    },
+    {
+     "p": "isso",
+     "ini": 120.91,
+     "fim": 121.13,
+     "conf": 0.95
+    },
+    {
+     "p": "mesmo.",
+     "ini": 121.13,
+     "fim": 121.45,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 122.65,
+   "fim": 123.51,
+   "texto": "Três punzinhos.",
+   "palavras": [
+    {
+     "p": "Três",
+     "ini": 122.65,
+     "fim": 123.17,
+     "conf": 0.8
+    },
+    {
+     "p": "punzinhos.",
+     "ini": 123.17,
+     "fim": 123.51,
+     "conf": 0.58
+    }
+   ]
+  },
+  {
+   "ini": 123.69,
+   "fim": 123.89,
+   "texto": "Vamos lá.",
+   "palavras": [
+    {
+     "p": "Vamos",
+     "ini": 123.69,
+     "fim": 123.69,
+     "conf": 0.27
+    },
+    {
+     "p": "lá.",
+     "ini": 123.69,
+     "fim": 123.89,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 124.01,
+   "fim": 125.29,
+   "texto": "Por que tu...",
+   "palavras": [
+    {
+     "p": "Por",
+     "ini": 124.01,
+     "fim": 124.07,
+     "conf": 0.36
+    },
+    {
+     "p": "que",
+     "ini": 124.07,
+     "fim": 124.23,
+     "conf": 0.83
+    },
+    {
+     "p": "tu...",
+     "ini": 124.23,
+     "fim": 125.29,
+     "conf": 0.63
+    }
+   ]
+  },
+  {
+   "ini": 126.53,
+   "fim": 129.73,
+   "texto": "Sim, essa marca",
+   "palavras": [
+    {
+     "p": "Sim,",
+     "ini": 126.53,
+     "fim": 127.05,
+     "conf": 0.26
+    },
+    {
+     "p": "essa",
+     "ini": 128.91,
+     "fim": 129.19,
+     "conf": 0.62
+    },
+    {
+     "p": "marca",
+     "ini": 129.19,
+     "fim": 129.73,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 129.73,
+   "fim": 131.27,
+   "texto": "era uma marca que eu já estava",
+   "palavras": [
+    {
+     "p": "era",
+     "ini": 129.73,
+     "fim": 130.09,
+     "conf": 0.74
+    },
+    {
+     "p": "uma",
+     "ini": 130.09,
+     "fim": 130.23,
+     "conf": 1.0
+    },
+    {
+     "p": "marca",
+     "ini": 130.23,
+     "fim": 130.51,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 130.51,
+     "fim": 130.69,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 130.69,
+     "fim": 130.81,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 130.81,
+     "fim": 130.91,
+     "conf": 1.0
+    },
+    {
+     "p": "estava",
+     "ini": 130.91,
+     "fim": 131.27,
+     "conf": 0.47
+    }
+   ]
+  },
+  {
+   "ini": 131.27,
+   "fim": 132.65,
+   "texto": "paquerando faz tempo, porque",
+   "palavras": [
+    {
+     "p": "paquerando",
+     "ini": 131.27,
+     "fim": 131.83,
+     "conf": 0.99
+    },
+    {
+     "p": "faz",
+     "ini": 131.83,
+     "fim": 132.05,
+     "conf": 0.99
+    },
+    {
+     "p": "tempo,",
+     "ini": 132.05,
+     "fim": 132.27,
+     "conf": 0.99
+    },
+    {
+     "p": "porque",
+     "ini": 132.31,
+     "fim": 132.65,
+     "conf": 0.72
+    }
+   ]
+  },
+  {
+   "ini": 132.65,
+   "fim": 134.61,
+   "texto": "passava pra mim pelo site.",
+   "palavras": [
+    {
+     "p": "passava",
+     "ini": 132.65,
+     "fim": 133.69,
+     "conf": 0.96
+    },
+    {
+     "p": "pra",
+     "ini": 133.69,
+     "fim": 133.83,
+     "conf": 0.41
+    },
+    {
+     "p": "mim",
+     "ini": 133.83,
+     "fim": 134.01,
+     "conf": 0.89
+    },
+    {
+     "p": "pelo",
+     "ini": 134.01,
+     "fim": 134.15,
+     "conf": 0.93
+    },
+    {
+     "p": "site.",
+     "ini": 134.15,
+     "fim": 134.61,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 135.03,
+   "fim": 137.35,
+   "texto": "E eu já estava vendo algumas pessoas",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 135.03,
+     "fim": 135.55,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 135.55,
+     "fim": 136.13,
+     "conf": 0.99
+    },
+    {
+     "p": "já",
+     "ini": 136.13,
+     "fim": 136.25,
+     "conf": 1.0
+    },
+    {
+     "p": "estava",
+     "ini": 136.25,
+     "fim": 136.47,
+     "conf": 0.98
+    },
+    {
+     "p": "vendo",
+     "ini": 136.47,
+     "fim": 136.67,
+     "conf": 0.99
+    },
+    {
+     "p": "algumas",
+     "ini": 136.67,
+     "fim": 136.97,
+     "conf": 1.0
+    },
+    {
+     "p": "pessoas",
+     "ini": 136.97,
+     "fim": 137.35,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 137.35,
+   "fim": 139.21,
+   "texto": "que eu sigo usando ela.",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 137.35,
+     "fim": 137.53,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 137.53,
+     "fim": 137.65,
+     "conf": 1.0
+    },
+    {
+     "p": "sigo",
+     "ini": 137.65,
+     "fim": 137.93,
+     "conf": 0.97
+    },
+    {
+     "p": "usando",
+     "ini": 137.93,
+     "fim": 138.61,
+     "conf": 0.75
+    },
+    {
+     "p": "ela.",
+     "ini": 138.61,
+     "fim": 139.21,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 139.59,
+   "fim": 141.65,
+   "texto": "E eu fiquei em grande curiosidade",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 139.59,
+     "fim": 140.11,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 140.11,
+     "fim": 140.27,
+     "conf": 0.98
+    },
+    {
+     "p": "fiquei",
+     "ini": 140.27,
+     "fim": 140.51,
+     "conf": 0.51
+    },
+    {
+     "p": "em",
+     "ini": 140.51,
+     "fim": 140.93,
+     "conf": 0.41
+    },
+    {
+     "p": "grande",
+     "ini": 140.93,
+     "fim": 140.93,
+     "conf": 0.11
+    },
+    {
+     "p": "curiosidade",
+     "ini": 140.93,
+     "fim": 141.65,
+     "conf": 0.87
+    }
+   ]
+  },
+  {
+   "ini": 141.65,
+   "fim": 142.35,
+   "texto": "pra saber.",
+   "palavras": [
+    {
+     "p": "pra",
+     "ini": 141.65,
+     "fim": 142.09,
+     "conf": 0.08
+    },
+    {
+     "p": "saber.",
+     "ini": 142.09,
+     "fim": 142.35,
+     "conf": 0.92
+    }
+   ]
+  },
+  {
+   "ini": 142.85,
+   "fim": 144.59,
+   "texto": "O filibéque do pessoal era bom.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 142.85,
+     "fim": 143.37,
+     "conf": 0.86
+    },
+    {
+     "p": "filibéque",
+     "ini": 143.37,
+     "fim": 143.73,
+     "conf": 0.54
+    },
+    {
+     "p": "do",
+     "ini": 143.73,
+     "fim": 143.85,
+     "conf": 0.99
+    },
+    {
+     "p": "pessoal",
+     "ini": 143.85,
+     "fim": 144.09,
+     "conf": 1.0
+    },
+    {
+     "p": "era",
+     "ini": 144.09,
+     "fim": 144.27,
+     "conf": 1.0
+    },
+    {
+     "p": "bom.",
+     "ini": 144.27,
+     "fim": 144.59,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 144.97,
+   "fim": 147.11,
+   "texto": "O pessoal que tu viu usando ela era mais",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 144.97,
+     "fim": 145.49,
+     "conf": 1.0
+    },
+    {
+     "p": "pessoal",
+     "ini": 145.49,
+     "fim": 145.79,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 145.79,
+     "fim": 145.93,
+     "conf": 1.0
+    },
+    {
+     "p": "tu",
+     "ini": 145.93,
+     "fim": 146.03,
+     "conf": 0.99
+    },
+    {
+     "p": "viu",
+     "ini": 146.03,
+     "fim": 146.19,
+     "conf": 0.97
+    },
+    {
+     "p": "usando",
+     "ini": 146.19,
+     "fim": 146.45,
+     "conf": 0.96
+    },
+    {
+     "p": "ela",
+     "ini": 146.45,
+     "fim": 146.63,
+     "conf": 0.99
+    },
+    {
+     "p": "era",
+     "ini": 146.63,
+     "fim": 146.85,
+     "conf": 0.96
+    },
+    {
+     "p": "mais",
+     "ini": 146.85,
+     "fim": 147.11,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 147.11,
+   "fim": 148.83,
+   "texto": "tipo musculação ou comida?",
+   "palavras": [
+    {
+     "p": "tipo",
+     "ini": 147.11,
+     "fim": 147.35,
+     "conf": 0.53
+    },
+    {
+     "p": "musculação",
+     "ini": 147.35,
+     "fim": 148.11,
+     "conf": 0.9
+    },
+    {
+     "p": "ou",
+     "ini": 148.11,
+     "fim": 148.51,
+     "conf": 0.23
+    },
+    {
+     "p": "comida?",
+     "ini": 148.51,
+     "fim": 148.83,
+     "conf": 0.41
+    }
+   ]
+  },
+  {
+   "ini": 149.23,
+   "fim": 155.31,
+   "texto": "musculação e crossfit o pessoal que eu vi comprar e aí eu queria ver na beira",
+   "palavras": [
+    {
+     "p": "musculação",
+     "ini": 149.23,
+     "fim": 150.05,
+     "conf": 0.72
+    },
+    {
+     "p": "e",
+     "ini": 150.05,
+     "fim": 150.19,
+     "conf": 0.96
+    },
+    {
+     "p": "crossfit",
+     "ini": 150.19,
+     "fim": 150.71,
+     "conf": 0.85
+    },
+    {
+     "p": "o",
+     "ini": 150.71,
+     "fim": 151.99,
+     "conf": 0.37
+    },
+    {
+     "p": "pessoal",
+     "ini": 151.99,
+     "fim": 152.29,
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 152.29,
+     "fim": 152.47,
+     "conf": 0.97
+    },
+    {
+     "p": "eu",
+     "ini": 152.47,
+     "fim": 152.57,
+     "conf": 0.97
+    },
+    {
+     "p": "vi",
+     "ini": 152.57,
+     "fim": 152.69,
+     "conf": 0.84
+    },
+    {
+     "p": "comprar",
+     "ini": 152.69,
+     "fim": 153.05,
+     "conf": 0.98
+    },
+    {
+     "p": "e",
+     "ini": 153.05,
+     "fim": 153.23,
+     "conf": 0.61
+    },
+    {
+     "p": "aí",
+     "ini": 153.23,
+     "fim": 153.35,
+     "conf": 0.91
+    },
+    {
+     "p": "eu",
+     "ini": 153.35,
+     "fim": 153.51,
+     "conf": 0.99
+    },
+    {
+     "p": "queria",
+     "ini": 153.51,
+     "fim": 153.75,
+     "conf": 1.0
+    },
+    {
+     "p": "ver",
+     "ini": 153.75,
+     "fim": 154.09,
+     "conf": 1.0
+    },
+    {
+     "p": "na",
+     "ini": 154.09,
+     "fim": 154.61,
+     "conf": 0.86
+    },
+    {
+     "p": "beira",
+     "ini": 154.61,
+     "fim": 155.31,
+     "conf": 0.83
+    }
+   ]
+  },
+  {
+   "ini": 155.31,
+   "fim": 160.43,
+   "texto": "se realmente faz juiz é o material e o preço",
+   "palavras": [
+    {
+     "p": "se",
+     "ini": 155.31,
+     "fim": 155.63,
+     "conf": 0.69
+    },
+    {
+     "p": "realmente",
+     "ini": 155.63,
+     "fim": 156.31,
+     "conf": 0.99
+    },
+    {
+     "p": "faz",
+     "ini": 156.31,
+     "fim": 157.61,
+     "conf": 0.93
+    },
+    {
+     "p": "juiz",
+     "ini": 157.61,
+     "fim": 158.17,
+     "conf": 0.7
+    },
+    {
+     "p": "é",
+     "ini": 158.17,
+     "fim": 158.63,
+     "conf": 0.08
+    },
+    {
+     "p": "o",
+     "ini": 158.63,
+     "fim": 159.55,
+     "conf": 0.88
+    },
+    {
+     "p": "material",
+     "ini": 159.55,
+     "fim": 159.93,
+     "conf": 0.99
+    },
+    {
+     "p": "e",
+     "ini": 159.93,
+     "fim": 160.15,
+     "conf": 0.87
+    },
+    {
+     "p": "o",
+     "ini": 160.15,
+     "fim": 160.19,
+     "conf": 0.76
+    },
+    {
+     "p": "preço",
+     "ini": 160.19,
+     "fim": 160.43,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 169.95,
+   "fim": 176.11,
+   "texto": "aliás leg box já tá rodando é",
+   "palavras": [
+    {
+     "p": "aliás",
+     "ini": 169.95,
+     "fim": 170.67,
+     "conf": 0.64
+    },
+    {
+     "p": "leg",
+     "ini": 170.67,
+     "fim": 170.91,
+     "conf": 0.44
+    },
+    {
+     "p": "box",
+     "ini": 170.91,
+     "fim": 171.31,
+     "conf": 0.81
+    },
+    {
+     "p": "já",
+     "ini": 171.31,
+     "fim": 173.53,
+     "conf": 0.35
+    },
+    {
+     "p": "tá",
+     "ini": 173.53,
+     "fim": 174.31,
+     "conf": 0.68
+    },
+    {
+     "p": "rodando",
+     "ini": 174.31,
+     "fim": 175.93,
+     "conf": 0.99
+    },
+    {
+     "p": "é",
+     "ini": 175.93,
+     "fim": 176.11,
+     "conf": 0.81
+    }
+   ]
+  },
+  {
+   "ini": 178.51,
+   "fim": 180.33,
+   "texto": "Eu já tava procurando",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 178.51,
+     "fim": 179.07,
+     "conf": 0.45
+    },
+    {
+     "p": "já",
+     "ini": 179.07,
+     "fim": 179.23,
+     "conf": 0.98
+    },
+    {
+     "p": "tava",
+     "ini": 179.23,
+     "fim": 179.59,
+     "conf": 0.68
+    },
+    {
+     "p": "procurando",
+     "ini": 179.59,
+     "fim": 180.33,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 180.33,
+   "fim": 186.1,
+   "texto": "Eu já tava paquerando",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 180.33,
+     "fim": 181.27,
+     "conf": 0.04
+    },
+    {
+     "p": "já",
+     "ini": 181.27,
+     "fim": 182.33,
+     "conf": 1.0
+    },
+    {
+     "p": "tava",
+     "ini": 185.44,
+     "fim": 185.66,
+     "conf": 1.0
+    },
+    {
+     "p": "paquerando",
+     "ini": 185.66,
+     "fim": 186.1,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 186.1,
+   "fim": 188.22,
+   "texto": "Essas peças já há um bom tempo",
+   "palavras": [
+    {
+     "p": "Essas",
+     "ini": 186.1,
+     "fim": 186.36,
+     "conf": 0.72
+    },
+    {
+     "p": "peças",
+     "ini": 186.36,
+     "fim": 186.64,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 186.64,
+     "fim": 186.88,
+     "conf": 0.96
+    },
+    {
+     "p": "há",
+     "ini": 186.88,
+     "fim": 187.0,
+     "conf": 0.72
+    },
+    {
+     "p": "um",
+     "ini": 187.0,
+     "fim": 187.16,
+     "conf": 1.0
+    },
+    {
+     "p": "bom",
+     "ini": 187.16,
+     "fim": 187.5,
+     "conf": 1.0
+    },
+    {
+     "p": "tempo",
+     "ini": 187.5,
+     "fim": 188.22,
+     "conf": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 188.22,
+   "fim": 190.04,
+   "texto": "Tava vendo alguns bloggers que eu sigo",
+   "palavras": [
+    {
+     "p": "Tava",
+     "ini": 188.22,
+     "fim": 188.74,
+     "conf": 0.83
+    },
+    {
+     "p": "vendo",
+     "ini": 188.74,
+     "fim": 188.92,
+     "conf": 0.84
+    },
+    {
+     "p": "alguns",
+     "ini": 188.92,
+     "fim": 189.22,
+     "conf": 0.95
+    },
+    {
+     "p": "bloggers",
+     "ini": 189.22,
+     "fim": 189.62,
+     "conf": 0.6
+    },
+    {
+     "p": "que",
+     "ini": 189.62,
+     "fim": 189.76,
+     "conf": 0.62
+    },
+    {
+     "p": "eu",
+     "ini": 189.76,
+     "fim": 189.86,
+     "conf": 1.0
+    },
+    {
+     "p": "sigo",
+     "ini": 189.86,
+     "fim": 190.04,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 190.04,
+   "fim": 190.96,
+   "texto": "Utilizando",
+   "palavras": [
+    {
+     "p": "Utilizando",
+     "ini": 190.04,
+     "fim": 190.96,
+     "conf": 0.82
+    }
+   ]
+  },
+  {
+   "ini": 190.96,
+   "fim": 193.66,
+   "texto": "E aí eu disse, peraí, vamos ver",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 190.96,
+     "fim": 191.68,
+     "conf": 0.77
+    },
+    {
+     "p": "aí",
+     "ini": 191.68,
+     "fim": 191.96,
+     "conf": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 191.96,
+     "fim": 192.22,
+     "conf": 0.99
+    },
+    {
+     "p": "disse,",
+     "ini": 192.22,
+     "fim": 192.46,
+     "conf": 1.0
+    },
+    {
+     "p": "peraí,",
+     "ini": 192.52,
+     "fim": 192.9,
+     "conf": 0.96
+    },
+    {
+     "p": "vamos",
+     "ini": 193.02,
+     "fim": 193.18,
+     "conf": 1.0
+    },
+    {
+     "p": "ver",
+     "ini": 193.18,
+     "fim": 193.66,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 194.22,
+   "fim": 196.06,
+   "texto": "Na real, no iCru",
+   "palavras": [
+    {
+     "p": "Na",
+     "ini": 194.22,
+     "fim": 194.78,
+     "conf": 0.99
+    },
+    {
+     "p": "real,",
+     "ini": 194.78,
+     "fim": 195.2,
+     "conf": 0.68
+    },
+    {
+     "p": "no",
+     "ini": 195.56,
+     "fim": 195.62,
+     "conf": 0.99
+    },
+    {
+     "p": "iCru",
+     "ini": 195.62,
+     "fim": 196.06,
+     "conf": 0.71
+    }
+   ]
+  },
+  {
+   "ini": 196.06,
+   "fim": 197.64,
+   "texto": "Aproveitei uma promo",
+   "palavras": [
+    {
+     "p": "Aproveitei",
+     "ini": 196.06,
+     "fim": 196.84,
+     "conf": 1.0
+    },
+    {
+     "p": "uma",
+     "ini": 196.84,
+     "fim": 197.02,
+     "conf": 1.0
+    },
+    {
+     "p": "promo",
+     "ini": 197.02,
+     "fim": 197.64,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 197.64,
+   "fim": 200.0,
+   "texto": "Que já estava no site",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 197.64,
+     "fim": 197.9,
+     "conf": 0.56
+    },
+    {
+     "p": "já",
+     "ini": 197.9,
+     "fim": 198.08,
+     "conf": 1.0
+    },
+    {
+     "p": "estava",
+     "ini": 198.08,
+     "fim": 198.86,
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 198.86,
+     "fim": 199.54,
+     "conf": 0.78
+    },
+    {
+     "p": "site",
+     "ini": 199.54,
+     "fim": 200.0,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 200.0,
+   "fim": 200.82,
+   "texto": "Da Legbox",
+   "palavras": [
+    {
+     "p": "Da",
+     "ini": 200.0,
+     "fim": 200.2,
+     "conf": 0.96
+    },
+    {
+     "p": "Legbox",
+     "ini": 200.2,
+     "fim": 200.82,
+     "conf": 0.65
+    }
+   ]
+  },
+  {
+   "ini": 200.82,
+   "fim": 203.28,
+   "texto": "E aí eu disse, eu vou ver se realmente",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 200.82,
+     "fim": 201.5,
+     "conf": 0.92
+    },
+    {
+     "p": "aí",
+     "ini": 201.5,
+     "fim": 201.62,
+     "conf": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 201.62,
+     "fim": 201.76,
+     "conf": 1.0
+    },
+    {
+     "p": "disse,",
+     "ini": 201.76,
+     "fim": 201.84,
+     "conf": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 202.02,
+     "fim": 202.02,
+     "conf": 0.98
+    },
+    {
+     "p": "vou",
+     "ini": 202.02,
+     "fim": 202.18,
+     "conf": 1.0
+    },
+    {
+     "p": "ver",
+     "ini": 202.18,
+     "fim": 202.34,
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "ini": 202.34,
+     "fim": 202.54,
+     "conf": 0.98
+    },
+    {
+     "p": "realmente",
+     "ini": 202.54,
+     "fim": 203.28,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 203.28,
+   "fim": 205.94,
+   "texto": "É válido aquilo tudo que a gente escuta",
+   "palavras": [
+    {
+     "p": "É",
+     "ini": 203.28,
+     "fim": 204.3,
+     "conf": 1.0
+    },
+    {
+     "p": "válido",
+     "ini": 204.3,
+     "fim": 204.7,
+     "conf": 0.99
+    },
+    {
+     "p": "aquilo",
+     "ini": 204.7,
+     "fim": 204.92,
+     "conf": 0.99
+    },
+    {
+     "p": "tudo",
+     "ini": 204.92,
+     "fim": 205.18,
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 205.18,
+     "fim": 205.32,
+     "conf": 0.98
+    },
+    {
+     "p": "a",
+     "ini": 205.32,
+     "fim": 205.42,
+     "conf": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 205.42,
+     "fim": 205.52,
+     "conf": 1.0
+    },
+    {
+     "p": "escuta",
+     "ini": 205.52,
+     "fim": 205.94,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 205.94,
+   "fim": 207.3,
+   "texto": "Eu mesma só acredito",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 205.94,
+     "fim": 206.36,
+     "conf": 0.96
+    },
+    {
+     "p": "mesma",
+     "ini": 206.36,
+     "fim": 206.66,
+     "conf": 0.94
+    },
+    {
+     "p": "só",
+     "ini": 206.66,
+     "fim": 206.84,
+     "conf": 0.99
+    },
+    {
+     "p": "acredito",
+     "ini": 206.84,
+     "fim": 207.3,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 208.64,
+   "fim": 209.92,
+   "texto": "aliás, leg box",
+   "palavras": [
+    {
+     "p": "aliás,",
+     "ini": 208.64,
+     "fim": 209.16,
+     "conf": 0.55
+    },
+    {
+     "p": "leg",
+     "ini": 209.26,
+     "fim": 209.48,
+     "conf": 0.77
+    },
+    {
+     "p": "box",
+     "ini": 209.48,
+     "fim": 209.92,
+     "conf": 0.7
+    }
+   ]
+  },
+  {
+   "ini": 209.92,
+   "fim": 211.46,
+   "texto": "por favor, estamos por aqui, viu?",
+   "palavras": [
+    {
+     "p": "por",
+     "ini": 209.92,
+     "fim": 210.16,
+     "conf": 0.31
+    },
+    {
+     "p": "favor,",
+     "ini": 210.16,
+     "fim": 210.5,
+     "conf": 1.0
+    },
+    {
+     "p": "estamos",
+     "ini": 210.56,
+     "fim": 210.82,
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "ini": 210.82,
+     "fim": 211.12,
+     "conf": 1.0
+    },
+    {
+     "p": "aqui,",
+     "ini": 211.12,
+     "fim": 211.3,
+     "conf": 1.0
+    },
+    {
+     "p": "viu?",
+     "ini": 211.34,
+     "fim": 211.46,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 211.64,
+   "fim": 212.72,
+   "texto": "aceitamos só pra assim",
+   "palavras": [
+    {
+     "p": "aceitamos",
+     "ini": 211.64,
+     "fim": 212.04,
+     "conf": 0.62
+    },
+    {
+     "p": "só",
+     "ini": 212.04,
+     "fim": 212.24,
+     "conf": 0.32
+    },
+    {
+     "p": "pra",
+     "ini": 212.24,
+     "fim": 212.36,
+     "conf": 0.63
+    },
+    {
+     "p": "assim",
+     "ini": 212.36,
+     "fim": 212.72,
+     "conf": 0.17
+    }
+   ]
+  },
+  {
+   "ini": 217.66,
+   "fim": 219.44,
+   "texto": "abrindo junto aqui com vocês",
+   "palavras": [
+    {
+     "p": "abrindo",
+     "ini": 217.66,
+     "fim": 218.18,
+     "conf": 0.81
+    },
+    {
+     "p": "junto",
+     "ini": 218.18,
+     "fim": 218.46,
+     "conf": 0.98
+    },
+    {
+     "p": "aqui",
+     "ini": 218.46,
+     "fim": 218.7,
+     "conf": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 218.7,
+     "fim": 218.86,
+     "conf": 1.0
+    },
+    {
+     "p": "vocês",
+     "ini": 218.86,
+     "fim": 219.44,
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 219.44,
+   "fim": 221.6,
+   "texto": "para ver a nossa primeira impressão",
+   "palavras": [
+    {
+     "p": "para",
+     "ini": 219.44,
+     "fim": 220.18,
+     "conf": 0.16
+    },
+    {
+     "p": "ver",
+     "ini": 220.18,
+     "fim": 220.44,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 220.44,
+     "fim": 220.64,
+     "conf": 0.95
+    },
+    {
+     "p": "nossa",
+     "ini": 220.64,
+     "fim": 220.74,
+     "conf": 1.0
+    },
+    {
+     "p": "primeira",
+     "ini": 220.74,
+     "fim": 221.04,
+     "conf": 1.0
+    },
+    {
+     "p": "impressão",
+     "ini": 221.04,
+     "fim": 221.6,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 221.6,
+   "fim": 222.72,
+   "texto": "do material",
+   "palavras": [
+    {
+     "p": "do",
+     "ini": 221.6,
+     "fim": 221.84,
+     "conf": 0.98
+    },
+    {
+     "p": "material",
+     "ini": 221.84,
+     "fim": 222.72,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 223.32,
+   "fim": 225.54,
+   "texto": "eu amei esse conjuntinho quando eu vi",
+   "palavras": [
+    {
+     "p": "eu",
+     "ini": 223.32,
+     "fim": 223.84,
+     "conf": 0.97
+    },
+    {
+     "p": "amei",
+     "ini": 223.84,
+     "fim": 224.24,
+     "conf": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 224.24,
+     "fim": 224.46,
+     "conf": 1.0
+    },
+    {
+     "p": "conjuntinho",
+     "ini": 224.46,
+     "fim": 225.02,
+     "conf": 0.97
+    },
+    {
+     "p": "quando",
+     "ini": 225.02,
+     "fim": 225.24,
+     "conf": 0.78
+    },
+    {
+     "p": "eu",
+     "ini": 225.24,
+     "fim": 225.36,
+     "conf": 1.0
+    },
+    {
+     "p": "vi",
+     "ini": 225.36,
+     "fim": 225.54,
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 225.54,
+   "fim": 227.42,
+   "texto": "que é o de bananinha",
+   "palavras": [
+    {
+     "p": "que",
+     "ini": 225.54,
+     "fim": 225.7,
+     "conf": 0.28
+    },
+    {
+     "p": "é",
+     "ini": 225.7,
+     "fim": 226.6,
+     "conf": 0.97
+    },
+    {
+     "p": "o",
+     "ini": 226.6,
+     "fim": 226.68,
+     "conf": 0.85
+    },
+    {
+     "p": "de",
+     "ini": 226.68,
+     "fim": 226.78,
+     "conf": 1.0
+    },
+    {
+     "p": "bananinha",
+     "ini": 226.78,
+     "fim": 227.42,
+     "conf": 0.92
+    }
+   ]
+  },
+  {
+   "ini": 228.8,
+   "fim": 230.0,
+   "texto": "gente, ai",
+   "palavras": [
+    {
+     "p": "gente,",
+     "ini": 228.8,
+     "fim": 229.32,
+     "conf": 0.94
+    },
+    {
+     "p": "ai",
+     "ini": 229.58,
+     "fim": 230.0,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 231.0,
+   "fim": 231.52,
+   "texto": "ó",
+   "palavras": [
+    {
+     "p": "ó",
+     "ini": 231.0,
+     "fim": 231.52,
+     "conf": 0.66
+    }
+   ]
+  },
+  {
+   "ini": 233.42,
+   "fim": 235.8,
+   "texto": "na parte de cima, já amei o forro",
+   "palavras": [
+    {
+     "p": "na",
+     "ini": 233.42,
+     "fim": 233.94,
+     "conf": 0.61
+    },
+    {
+     "p": "parte",
+     "ini": 233.94,
+     "fim": 234.46,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 234.46,
+     "fim": 234.62,
+     "conf": 1.0
+    },
+    {
+     "p": "cima,",
+     "ini": 234.62,
+     "fim": 234.88,
+     "conf": 1.0
+    },
+    {
+     "p": "já",
+     "ini": 234.9,
+     "fim": 235.18,
+     "conf": 0.55
+    },
+    {
+     "p": "amei",
+     "ini": 235.18,
+     "fim": 235.44,
+     "conf": 0.81
+    },
+    {
+     "p": "o",
+     "ini": 235.44,
+     "fim": 235.52,
+     "conf": 1.0
+    },
+    {
+     "p": "forro",
+     "ini": 235.52,
+     "fim": 235.8,
+     "conf": 0.91
+    }
+   ]
+  },
+  {
+   "ini": 235.8,
+   "fim": 237.4,
+   "texto": "tá? Ele é forro duplo",
+   "palavras": [
+    {
+     "p": "tá?",
+     "ini": 235.8,
+     "fim": 235.98,
+     "conf": 0.45
+    },
+    {
+     "p": "Ele",
+     "ini": 236.28,
+     "fim": 236.54,
+     "conf": 0.83
+    },
+    {
+     "p": "é",
+     "ini": 236.54,
+     "fim": 236.72,
+     "conf": 1.0
+    },
+    {
+     "p": "forro",
+     "ini": 236.72,
+     "fim": 237.04,
+     "conf": 1.0
+    },
+    {
+     "p": "duplo",
+     "ini": 237.04,
+     "fim": 237.4,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 237.4,
+   "fim": 237.78,
+   "texto": "ó",
+   "palavras": [
+    {
+     "p": "ó",
+     "ini": 237.4,
+     "fim": 237.78,
+     "conf": 0.1
+    }
+   ]
+  },
+  {
+   "ini": 239.02,
+   "fim": 241.1,
+   "texto": "então não fica apagando o peitinho",
+   "palavras": [
+    {
+     "p": "então",
+     "ini": 239.02,
+     "fim": 239.52,
+     "conf": 0.45
+    },
+    {
+     "p": "não",
+     "ini": 239.52,
+     "fim": 239.84,
+     "conf": 0.99
+    },
+    {
+     "p": "fica",
+     "ini": 239.84,
+     "fim": 240.18,
+     "conf": 1.0
+    },
+    {
+     "p": "apagando",
+     "ini": 240.18,
+     "fim": 240.56,
+     "conf": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 240.56,
+     "fim": 240.66,
+     "conf": 0.99
+    },
+    {
+     "p": "peitinho",
+     "ini": 240.66,
+     "fim": 241.1,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 241.1,
+   "fim": 242.34,
+   "texto": "graças a Deus, tá?",
+   "palavras": [
+    {
+     "p": "graças",
+     "ini": 241.1,
+     "fim": 241.52,
+     "conf": 0.63
+    },
+    {
+     "p": "a",
+     "ini": 241.52,
+     "fim": 241.76,
+     "conf": 1.0
+    },
+    {
+     "p": "Deus,",
+     "ini": 241.76,
+     "fim": 242.04,
+     "conf": 1.0
+    },
+    {
+     "p": "tá?",
+     "ini": 242.08,
+     "fim": 242.34,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 243.06,
+   "fim": 244.64,
+   "texto": "Ele tem um forro bem",
+   "palavras": [
+    {
+     "p": "Ele",
+     "ini": 243.06,
+     "fim": 243.42,
+     "conf": 0.82
+    },
+    {
+     "p": "tem",
+     "ini": 243.42,
+     "fim": 243.6,
+     "conf": 1.0
+    },
+    {
+     "p": "um",
+     "ini": 243.6,
+     "fim": 243.72,
+     "conf": 0.93
+    },
+    {
+     "p": "forro",
+     "ini": 243.72,
+     "fim": 244.06,
+     "conf": 1.0
+    },
+    {
+     "p": "bem",
+     "ini": 244.06,
+     "fim": 244.64,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 245.4,
+   "fim": 247.16,
+   "texto": "reforçado, tá? Na parte do bucho",
+   "palavras": [
+    {
+     "p": "reforçado,",
+     "ini": 245.4,
+     "fim": 245.9,
+     "conf": 0.95
+    },
+    {
+     "p": "tá?",
+     "ini": 245.96,
+     "fim": 246.1,
+     "conf": 1.0
+    },
+    {
+     "p": "Na",
+     "ini": 246.22,
+     "fim": 246.32,
+     "conf": 0.78
+    },
+    {
+     "p": "parte",
+     "ini": 246.32,
+     "fim": 246.56,
+     "conf": 1.0
+    },
+    {
+     "p": "do",
+     "ini": 246.56,
+     "fim": 246.72,
+     "conf": 1.0
+    },
+    {
+     "p": "bucho",
+     "ini": 246.72,
+     "fim": 247.16,
+     "conf": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 247.16,
+   "fim": 247.94,
+   "texto": "e aqui também",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 247.16,
+     "fim": 247.38,
+     "conf": 0.99
+    },
+    {
+     "p": "aqui",
+     "ini": 247.38,
+     "fim": 247.6,
+     "conf": 1.0
+    },
+    {
+     "p": "também",
+     "ini": 247.6,
+     "fim": 247.94,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 248.76,
+   "fim": 251.08,
+   "texto": "gostei demais, vamos travar pra ver se fica transparente",
+   "palavras": [
+    {
+     "p": "gostei",
+     "ini": 248.76,
+     "fim": 249.26,
+     "conf": 0.89
+    },
+    {
+     "p": "demais,",
+     "ini": 249.26,
+     "fim": 249.46,
+     "conf": 0.98
+    },
+    {
+     "p": "vamos",
+     "ini": 249.5,
+     "fim": 249.64,
+     "conf": 0.99
+    },
+    {
+     "p": "travar",
+     "ini": 249.64,
+     "fim": 249.94,
+     "conf": 0.78
+    },
+    {
+     "p": "pra",
+     "ini": 249.94,
+     "fim": 250.06,
+     "conf": 0.96
+    },
+    {
+     "p": "ver",
+     "ini": 250.06,
+     "fim": 250.16,
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "ini": 250.16,
+     "fim": 250.24,
+     "conf": 1.0
+    },
+    {
+     "p": "fica",
+     "ini": 250.24,
+     "fim": 250.38,
+     "conf": 1.0
+    },
+    {
+     "p": "transparente",
+     "ini": 250.38,
+     "fim": 251.08,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 251.08,
+   "fim": 251.6,
+   "texto": "se não fica",
+   "palavras": [
+    {
+     "p": "se",
+     "ini": 251.08,
+     "fim": 251.16,
+     "conf": 0.89
+    },
+    {
+     "p": "não",
+     "ini": 251.16,
+     "fim": 251.26,
+     "conf": 1.0
+    },
+    {
+     "p": "fica",
+     "ini": 251.26,
+     "fim": 251.6,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

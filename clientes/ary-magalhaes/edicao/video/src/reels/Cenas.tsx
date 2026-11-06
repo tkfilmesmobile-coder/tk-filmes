@@ -22,12 +22,12 @@ function usaTempo(p: Passos, inicio: number) {
 }
 
 // palco comum: escurece a base, sombra suave em tudo, título que troca por fase
-const Palco: React.FC<{ entra: number; sai: number; fases: [number, string, string][]; s: number; children: React.ReactNode; semTitulo?: number }> = ({ entra, sai, fases, s, children, semTitulo = 0 }) => {
+const Palco: React.FC<{ entra: number; sai: number; fases: [number, string, string][]; s: number; children: React.ReactNode; semTitulo?: number; forca?: number }> = ({ entra, sai, fases, s, children, semTitulo = 0, forca = 1 }) => {
   const atual = fases.filter(([t]) => s >= t).length - 1;
   const troca = atual >= 0 ? interpolate(s, [fases[atual][0], fases[atual][0] + 0.35], [0, 1], { ...clamp, easing: REVELA }) : 0;
   return (
     <AbsoluteFill style={{ opacity: entra * (1 - sai) }}>
-     <Veu x={80} y={1090} w={W} h={410} />
+     <Veu x={80} y={1090} w={W} h={410} forca={forca} />
       <div style={{ position: "absolute", left: 80, top: 1090 + (1 - entra) * 60, width: W, height: 410, filter: TEMA.filtro }}>
         {atual >= 0 ? (
           <div style={{ position: "absolute", left: 0, right: 0, top: 18, textAlign: "center", opacity: troca * (1 - semTitulo), translate: `0px ${(1 - troca) * 10}px`, whiteSpace: "nowrap", textShadow: SOMBRA_TXT }}>
@@ -256,6 +256,181 @@ export const CenaLocal: Cena = ({ p, inicio }) => {
   );
 };
 
+// ───────────── diária de 2026-11-03 (cirurgia, quanto custou, meu corpo) ─────────────
+const Item: React.FC<{ v: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ v, children, style }) => (
+  <div style={{ opacity: v, translate: `0px ${(1 - v) * 14}px`, ...style }}>{children}</div>
+);
+const Rot: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <div style={{ fontFamily: POPPINS, fontWeight: 600, fontSize: 21, letterSpacing: 6, color: TEMA.titulo }}>{children}</div>
+);
+const Ttl: React.FC<{ children: React.ReactNode; tam?: number }> = ({ children, tam = 40 }) => (
+  <div style={{ fontFamily: BODONI, fontSize: tam, color: TEMA.titulo, lineHeight: 1.12 }}>{children}</div>
+);
+const Check: React.FC<{ v: number }> = ({ v }) => (
+  <svg width={34} height={34} viewBox="0 0 34 34" style={{ flexShrink: 0 }}>
+    <circle cx={17} cy={17} r={15} fill="none" stroke={TEMA.acento} strokeWidth={1.8} />
+    <path d="M10 17.5 L15 22.5 L24.5 12" fill="none" stroke={TEMA.titulo} strokeWidth={2.6} strokeLinecap="round" strokeLinejoin="round" pathLength={1} strokeDasharray={`${v} 1`} />
+  </svg>
+);
+
+// por que fiz: estética (mama, pele que sobrou) e saúde (hérnia umbilical)
+export const CenaMotivos: Cena = ({ p, inicio }) => {
+  const { s, prog, entra, sai } = usaTempo(p, inicio);
+  const col = (de: number, rot: string, itens: [number, string][]) => (
+    <Item v={prog(de, 0.45, REVELA)} style={{ flex: 1, textAlign: "center" }}>
+      <Rot>{rot}</Rot>
+      <div style={{ marginTop: 14, display: "flex", flexDirection: "column", gap: 6 }}>
+        {itens.map(([t, txt]) => (
+          <Item key={txt} v={prog(t, 0.45, REVELA)}><Ttl>{txt}</Ttl></Item>
+        ))}
+      </div>
+    </Item>
+  );
+  return (
+    <Palco forca={1.7} entra={entra} sai={sai} s={s} fases={[[p.entra, "Os dois", "estética e saúde"]]}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 150, display: "flex", alignItems: "flex-start", textShadow: SOMBRA_TXT }}>
+        {col(p.estetica, "ESTÉTICA", [[p.mama, "a mama"], [p.pele, "a pele que sobrou"]])}
+        <div style={{ width: 1.5, height: 180, background: TEMA.acento, opacity: 0.7 * prog(p.saude, 0.4) }} />
+        {col(p.saude, "SAÚDE", [[p.hernia, "hérnia umbilical"]])}
+      </div>
+    </Palco>
+  );
+};
+
+// o que eu fiz: os procedimentos vão sendo marcados
+export const CenaProcedimentos: Cena = ({ p, inicio }) => {
+  const { s, prog, entra, sai } = usaTempo(p, inicio);
+  const itens: [number, string][] = [
+    [p.i1, "Mastopexia com prótese"],
+    [p.i2, "Retirada da hérnia"],
+    [p.i3, "Fechamento da diástase"],
+    [p.i4, "Abdominoplastia"],
+  ];
+  return (
+    <Palco forca={1.7} entra={entra} sai={sai} s={s} fases={[[p.entra, "O que eu fiz", ""]]}>
+      <div style={{ position: "absolute", left: 150, right: 0, top: 100, display: "flex", flexDirection: "column", gap: 14, textShadow: SOMBRA_TXT }}>
+        {itens.map(([t, txt]) => {
+          const v = prog(t, 0.45, REVELA);
+          return (
+            <div key={txt} style={{ display: "flex", alignItems: "center", gap: 20, opacity: v, translate: `${(1 - v) * -30}px 0px` }}>
+              <Check v={prog(t + 0.15, 0.4)} />
+              <Ttl tam={42}>{txt}</Ttl>
+            </div>
+          );
+        })}
+      </div>
+    </Palco>
+  );
+};
+
+// quanto custa de verdade: pré, durante e pós
+export const CenaGastos: Cena = ({ p, inicio }) => {
+  const { s, prog, entra, sai } = usaTempo(p, inicio);
+  const col = (de: number, rot: string, itens: [number, string][]) => (
+    <Item v={prog(de, 0.45, REVELA)} style={{ flex: 1, textAlign: "center" }}>
+      <Rot>{rot}</Rot>
+      <div style={{ marginTop: 14, display: "flex", flexDirection: "column", gap: 4 }}>
+        {itens.map(([t, txt]) => (
+          <Item key={txt} v={prog(t, 0.45, REVELA)}><Ttl tam={36}>{txt}</Ttl></Item>
+        ))}
+      </div>
+    </Item>
+  );
+  return (
+    <Palco forca={1.7} entra={entra} sai={sai} s={s} fases={[[p.entra, "Pré, durante e pós", "tudo entra na conta"]]}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 150, display: "flex", alignItems: "flex-start", textShadow: SOMBRA_TXT }}>
+        {col(p.pre, "PRÉ", [[p.exames, "exames"], [p.consulta, "consulta"]])}
+        {col(p.durante, "DURANTE", [[p.cirurgia, "a cirurgia"], [p.roupas, "as roupas"]])}
+        {col(p.pos, "PÓS", [[p.drenagens, "drenagens"], [p.medicacoes, "medicações"]])}
+      </div>
+    </Palco>
+  );
+};
+
+// como eu paguei: preço segurado, fui pagando, no dia só a internação
+export const CenaPagamento: Cena = ({ p, inicio }) => {
+  const { s, prog, entra, sai } = usaTempo(p, inicio);
+  const passos: [number, string, string][] = [
+    [p.s1, "1", "Preço segurado até o fim do ano"],
+    [p.s2, "2", "Fui pagando aos poucos"],
+    [p.s3, "3", "No dia, só a internação"],
+  ];
+  const subs: [number, string][] = [[p.a, "anestesista"], [p.b, "prótese"], [p.c, "equipe"]];
+  return (
+    <Palco forca={1.7} entra={entra} sai={sai} s={s} fases={[[p.entra, "Não foi de uma vez", ""]]}>
+      <div style={{ position: "absolute", left: 70, right: 0, top: 96, display: "flex", flexDirection: "column", gap: 10, textShadow: SOMBRA_TXT }}>
+        {passos.map(([t, n, txt]) => {
+          const v = prog(t, 0.45, REVELA);
+          return (
+            <div key={n} style={{ opacity: v, translate: `${(1 - v) * -30}px 0px` }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
+                <div style={{ fontFamily: GILDA, fontSize: 56, lineHeight: 1, color: TEMA.acento, width: 40, textAlign: "center" }}>{n}</div>
+                <Ttl>{txt}</Ttl>
+              </div>
+              {n === "2" ? (
+                <div style={{ marginLeft: 62, display: "flex", gap: 18, marginTop: 2 }}>
+                  {subs.map(([ts, x]) => (
+                    <Item key={x} v={prog(ts, 0.35, REVELA)}>
+                      <span style={{ fontFamily: POPPINS, fontSize: 26, color: TEMA.texto }}>· {x}</span>
+                    </Item>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          );
+        })}
+      </div>
+    </Palco>
+  );
+};
+
+// duas gestações: o peso subindo (número na Gilda conta junto com a fala)
+export const CenaPeso: Cena = ({ p, inicio }) => {
+  const { s, prog, entra, sai } = usaTempo(p, inicio);
+  const linha = (de: number, ate: number, rot: string, a: number, b: number, mais = false) => {
+    const v = prog(de, 0.45, REVELA);
+    const n = Math.round(interpolate(s, [ate, ate + 0.8], [a, b], { ...clamp, easing: SUAVE }));
+    return (
+      <Item v={v} style={{ display: "flex", alignItems: "baseline", justifyContent: "center", gap: 22 }}>
+        <span style={{ fontFamily: POPPINS, fontWeight: 600, fontSize: 22, letterSpacing: 5, color: TEMA.titulo, width: 210, textAlign: "right" }}>{rot}</span>
+        <span style={{ fontFamily: GILDA, fontSize: 76, lineHeight: 1, color: TEMA.titulo, width: 400, whiteSpace: "nowrap" }}>
+          {a} <span style={{ fontSize: 50 }}>→</span> {n}{mais && s >= ate + 0.8 ? "+" : ""}
+          <span style={{ fontFamily: POPPINS, fontSize: 28, marginLeft: 8 }}>kg</span>
+        </span>
+      </Item>
+    );
+  };
+  return (
+    <Palco forca={1.7} entra={entra} sai={sai} s={s} fases={[[p.entra, "Eu tenho 1,53 m", "e passei por duas gestações"]]}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 185, display: "flex", flexDirection: "column", gap: 8, textShadow: SOMBRA_TXT }}>
+        {linha(p.g1a, p.g1b, "1ª GESTAÇÃO", 54, 90)}
+        {linha(p.g2a, p.g2b, "2ª GESTAÇÃO", 59, 70, true)}
+      </div>
+    </Palco>
+  );
+};
+
+// corrida: as distâncias entram quando ela fala
+export const CenaCorrida: Cena = ({ p, inicio }) => {
+  const { s, prog, entra, sai } = usaTempo(p, inicio);
+  const ks: [number, string][] = [[p.k10, "10"], [p.k21, "21"], [p.k42, "42"]];
+  return (
+    <Palco forca={1.7} entra={entra} sai={sai} s={s} fases={[[p.entra, "Maratona de Maceió", "a corrida virou paixão"]]}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 150, display: "flex", justifyContent: "center", gap: 70, textShadow: SOMBRA_TXT }}>
+        {ks.map(([t, k]) => {
+          const v = prog(t, 0.4, REVELA);
+          return (
+            <div key={k} style={{ opacity: v, scale: String(0.8 + 0.2 * v), textAlign: "center" }}>
+              <div style={{ fontFamily: GILDA, fontSize: 120, lineHeight: 1, color: TEMA.titulo }}>{k}</div>
+              <div style={{ fontFamily: POPPINS, fontWeight: 500, fontSize: 22, letterSpacing: 6, color: TEMA.acento }}>KM</div>
+            </div>
+          );
+        })}
+      </div>
+    </Palco>
+  );
+};
+
 // efeitos sonoros de cada cena (segundos da montagem)
 export const SONS_CENA: Record<string, (p: Passos) => { em: number; nome: string; vol?: number }[]> = {
   protetor: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.32 }, { em: p.camada, nome: "brilho", vol: 0.3 }, { em: p.calor, nome: "sopro", vol: 0.32 }, { em: p.sem, nome: "erro", vol: 0.35 }, { em: p.poroso, nome: "pop-agudo", vol: 0.3 }, { em: p.frizz, nome: "pop-agudo", vol: 0.3 }, { em: p.espigado, nome: "pop-agudo", vol: 0.3 }],
@@ -265,6 +440,15 @@ export const SONS_CENA: Record<string, (p: Passos) => { em: number; nome: string
   lista: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.i1, nome: "check", vol: 0.32 }, { em: p.i2, nome: "check", vol: 0.32 }, { em: p.i3, nome: "check", vol: 0.32 }],
   rosto: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.formato, nome: "brilho", vol: 0.3 }],
   local: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.entra + 0.6, nome: "pop", vol: 0.38 }, { em: p.anp, nome: "clique", vol: 0.35 }, { em: p.salgaderia, nome: "clique", vol: 0.35 }],
+  motivos: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.estetica, nome: "pop", vol: 0.32 }, { em: p.saude, nome: "pop", vol: 0.32 }],
+  procedimentos: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.i1 + 0.15, nome: "check", vol: 0.3 }, { em: p.i2 + 0.15, nome: "check", vol: 0.3 }, { em: p.i3 + 0.15, nome: "check", vol: 0.3 }, { em: p.i4 + 0.15, nome: "check", vol: 0.3 }],
+  gastos: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.pre, nome: "clique", vol: 0.3 }, { em: p.durante, nome: "clique", vol: 0.3 }, { em: p.pos, nome: "clique", vol: 0.3 }],
+  pagamento: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.s1, nome: "clique", vol: 0.32 }, { em: p.s2, nome: "clique", vol: 0.32 }, { em: p.s3, nome: "check", vol: 0.36 }],
+  peso: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.g1b, nome: "sopro", vol: 0.3 }, { em: p.g2b, nome: "sopro", vol: 0.3 }],
+  corrida: (p) => [{ em: p.entra - 0.1, nome: "whoosh", vol: 0.3 }, { em: p.k21, nome: "impacto", vol: 0.28 }, { em: p.k10, nome: "impacto", vol: 0.28 }, { em: p.k42, nome: "impacto", vol: 0.34 }],
 };
 
-export const CENAS: Record<string, Cena> = { protetor: CenaProtetor, molhado: CenaMolhado, mito: CenaMito, saude: CenaSaude, lista: CenaLista, rosto: CenaRosto, local: CenaLocal };
+export const CENAS: Record<string, Cena> = {
+  protetor: CenaProtetor, molhado: CenaMolhado, mito: CenaMito, saude: CenaSaude, lista: CenaLista, rosto: CenaRosto, local: CenaLocal,
+  motivos: CenaMotivos, procedimentos: CenaProcedimentos, gastos: CenaGastos, pagamento: CenaPagamento, peso: CenaPeso, corrida: CenaCorrida,
+};

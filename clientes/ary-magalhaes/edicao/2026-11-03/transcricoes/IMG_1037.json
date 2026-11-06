@@ -1,0 +1,507 @@
+{
+ "arquivo": "IMG_1037",
+ "duracao": 41.92,
+ "segmentos": [
+  {
+   "ini": 0.5,
+   "fim": 8.56,
+   "texto": "E por último, e não bem mais importante, é o meu exemplo, esse divo aqui, que é a mesma pegada dele, tá?",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 0.5,
+     "fim": 1.0,
+     "conf": 0.18
+    },
+    {
+     "p": "por",
+     "ini": 1.0,
+     "fim": 1.26,
+     "conf": 0.74
+    },
+    {
+     "p": "último,",
+     "ini": 1.26,
+     "fim": 1.7,
+     "conf": 0.93
+    },
+    {
+     "p": "e",
+     "ini": 1.98,
+     "fim": 2.2,
+     "conf": 0.5
+    },
+    {
+     "p": "não",
+     "ini": 2.2,
+     "fim": 2.34,
+     "conf": 0.88
+    },
+    {
+     "p": "bem",
+     "ini": 2.34,
+     "fim": 2.52,
+     "conf": 0.2
+    },
+    {
+     "p": "mais",
+     "ini": 2.52,
+     "fim": 2.66,
+     "conf": 0.52
+    },
+    {
+     "p": "importante,",
+     "ini": 2.66,
+     "fim": 3.12,
+     "conf": 0.96
+    },
+    {
+     "p": "é",
+     "ini": 3.2,
+     "fim": 3.38,
+     "conf": 0.14
+    },
+    {
+     "p": "o",
+     "ini": 3.38,
+     "fim": 3.44,
+     "conf": 0.64
+    },
+    {
+     "p": "meu",
+     "ini": 3.44,
+     "fim": 3.44,
+     "conf": 0.4
+    },
+    {
+     "p": "exemplo,",
+     "ini": 3.44,
+     "fim": 3.9,
+     "conf": 0.92
+    },
+    {
+     "p": "esse",
+     "ini": 4.4,
+     "fim": 4.7,
+     "conf": 0.52
+    },
+    {
+     "p": "divo",
+     "ini": 4.7,
+     "fim": 5.5,
+     "conf": 0.46
+    },
+    {
+     "p": "aqui,",
+     "ini": 5.5,
+     "fim": 5.86,
+     "conf": 0.71
+    },
+    {
+     "p": "que",
+     "ini": 6.2,
+     "fim": 6.38,
+     "conf": 0.81
+    },
+    {
+     "p": "é",
+     "ini": 6.38,
+     "fim": 6.72,
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 6.72,
+     "fim": 6.86,
+     "conf": 0.87
+    },
+    {
+     "p": "mesma",
+     "ini": 6.86,
+     "fim": 7.16,
+     "conf": 1.0
+    },
+    {
+     "p": "pegada",
+     "ini": 7.16,
+     "fim": 7.64,
+     "conf": 0.95
+    },
+    {
+     "p": "dele,",
+     "ini": 7.64,
+     "fim": 7.92,
+     "conf": 0.53
+    },
+    {
+     "p": "tá?",
+     "ini": 8.46,
+     "fim": 8.56,
+     "conf": 0.88
+    }
+   ]
+  },
+  {
+   "ini": 9.54,
+   "fim": 13.88,
+   "texto": "Porém, de um fio, desse chileiro, as coisas linhas dela.",
+   "palavras": [
+    {
+     "p": "Porém,",
+     "ini": 9.54,
+     "fim": 10.14,
+     "conf": 0.88
+    },
+    {
+     "p": "de",
+     "ini": 10.5,
+     "fim": 10.58,
+     "conf": 0.75
+    },
+    {
+     "p": "um",
+     "ini": 10.58,
+     "fim": 10.9,
+     "conf": 0.52
+    },
+    {
+     "p": "fio,",
+     "ini": 10.9,
+     "fim": 11.26,
+     "conf": 0.53
+    },
+    {
+     "p": "desse",
+     "ini": 11.48,
+     "fim": 12.26,
+     "conf": 0.4
+    },
+    {
+     "p": "chileiro,",
+     "ini": 12.26,
+     "fim": 12.74,
+     "conf": 0.59
+    },
+    {
+     "p": "as",
+     "ini": 12.78,
+     "fim": 12.92,
+     "conf": 0.2
+    },
+    {
+     "p": "coisas",
+     "ini": 12.92,
+     "fim": 13.18,
+     "conf": 0.55
+    },
+    {
+     "p": "linhas",
+     "ini": 13.18,
+     "fim": 13.52,
+     "conf": 0.46
+    },
+    {
+     "p": "dela.",
+     "ini": 13.52,
+     "fim": 13.88,
+     "conf": 0.64
+    }
+   ]
+  },
+  {
+   "ini": 14.84,
+   "fim": 17.4,
+   "texto": "Ó, ele aparenta ser um pouquinho maior, tá?",
+   "palavras": [
+    {
+     "p": "Ó,",
+     "ini": 14.84,
+     "fim": 15.22,
+     "conf": 0.6
+    },
+    {
+     "p": "ele",
+     "ini": 15.6,
+     "fim": 15.8,
+     "conf": 0.95
+    },
+    {
+     "p": "aparenta",
+     "ini": 15.8,
+     "fim": 16.28,
+     "conf": 0.82
+    },
+    {
+     "p": "ser",
+     "ini": 16.28,
+     "fim": 16.42,
+     "conf": 0.67
+    },
+    {
+     "p": "um",
+     "ini": 16.42,
+     "fim": 16.56,
+     "conf": 1.0
+    },
+    {
+     "p": "pouquinho",
+     "ini": 16.56,
+     "fim": 16.68,
+     "conf": 0.72
+    },
+    {
+     "p": "maior,",
+     "ini": 16.68,
+     "fim": 17.18,
+     "conf": 0.99
+    },
+    {
+     "p": "tá?",
+     "ini": 17.32,
+     "fim": 17.4,
+     "conf": 0.51
+    }
+   ]
+  },
+  {
+   "ini": 17.4,
+   "fim": 18.0,
+   "texto": "Eu vou até ver.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 17.4,
+     "fim": 17.56,
+     "conf": 0.28
+    },
+    {
+     "p": "vou",
+     "ini": 17.56,
+     "fim": 17.56,
+     "conf": 0.42
+    },
+    {
+     "p": "até",
+     "ini": 17.56,
+     "fim": 17.76,
+     "conf": 0.95
+    },
+    {
+     "p": "ver.",
+     "ini": 17.76,
+     "fim": 18.0,
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 18.9,
+   "fim": 21.08,
+   "texto": "E eu só preciso, ó, mesmo não.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 18.9,
+     "fim": 19.5,
+     "conf": 0.98
+    },
+    {
+     "p": "eu",
+     "ini": 19.5,
+     "fim": 19.6,
+     "conf": 0.96
+    },
+    {
+     "p": "só",
+     "ini": 19.6,
+     "fim": 19.82,
+     "conf": 1.0
+    },
+    {
+     "p": "preciso,",
+     "ini": 19.82,
+     "fim": 20.18,
+     "conf": 0.7
+    },
+    {
+     "p": "ó,",
+     "ini": 20.26,
+     "fim": 20.44,
+     "conf": 0.27
+    },
+    {
+     "p": "mesmo",
+     "ini": 20.46,
+     "fim": 20.68,
+     "conf": 0.4
+    },
+    {
+     "p": "não.",
+     "ini": 20.68,
+     "fim": 21.08,
+     "conf": 0.34
+    }
+   ]
+  },
+  {
+   "ini": 21.56,
+   "fim": 29.12,
+   "texto": "Ele, nesse mesmo estilo, estilo esmagador, e ele tem uma compreensão maravilhosa, gente, ó.",
+   "palavras": [
+    {
+     "p": "Ele,",
+     "ini": 21.56,
+     "fim": 21.82,
+     "conf": 0.24
+    },
+    {
+     "p": "nesse",
+     "ini": 21.92,
+     "fim": 22.74,
+     "conf": 0.98
+    },
+    {
+     "p": "mesmo",
+     "ini": 22.74,
+     "fim": 23.06,
+     "conf": 1.0
+    },
+    {
+     "p": "estilo,",
+     "ini": 23.06,
+     "fim": 23.58,
+     "conf": 0.95
+    },
+    {
+     "p": "estilo",
+     "ini": 23.8,
+     "fim": 24.22,
+     "conf": 0.43
+    },
+    {
+     "p": "esmagador,",
+     "ini": 24.22,
+     "fim": 24.84,
+     "conf": 0.65
+    },
+    {
+     "p": "e",
+     "ini": 25.86,
+     "fim": 26.06,
+     "conf": 0.67
+    },
+    {
+     "p": "ele",
+     "ini": 26.06,
+     "fim": 26.52,
+     "conf": 0.85
+    },
+    {
+     "p": "tem",
+     "ini": 26.52,
+     "fim": 26.84,
+     "conf": 0.84
+    },
+    {
+     "p": "uma",
+     "ini": 26.84,
+     "fim": 26.98,
+     "conf": 0.99
+    },
+    {
+     "p": "compreensão",
+     "ini": 26.98,
+     "fim": 27.56,
+     "conf": 0.79
+    },
+    {
+     "p": "maravilhosa,",
+     "ini": 27.56,
+     "fim": 28.6,
+     "conf": 1.0
+    },
+    {
+     "p": "gente,",
+     "ini": 28.72,
+     "fim": 28.88,
+     "conf": 0.99
+    },
+    {
+     "p": "ó.",
+     "ini": 28.98,
+     "fim": 29.12,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 29.12,
+   "fim": 30.86,
+   "texto": "Muito boa",
+   "palavras": [
+    {
+     "p": "Muito",
+     "ini": 29.12,
+     "fim": 30.46,
+     "conf": 0.81
+    },
+    {
+     "p": "boa",
+     "ini": 30.46,
+     "fim": 30.86,
+     "conf": 0.95
+    }
+   ]
+  },
+  {
+   "ini": 30.86,
+   "fim": 39.42,
+   "texto": "Todos, todos têm o pedido",
+   "palavras": [
+    {
+     "p": "Todos,",
+     "ini": 30.86,
+     "fim": 31.82,
+     "conf": 0.22
+    },
+    {
+     "p": "todos",
+     "ini": 31.92,
+     "fim": 32.52,
+     "conf": 1.0
+    },
+    {
+     "p": "têm",
+     "ini": 32.52,
+     "fim": 32.9,
+     "conf": 0.62
+    },
+    {
+     "p": "o",
+     "ini": 32.9,
+     "fim": 33.04,
+     "conf": 0.87
+    },
+    {
+     "p": "pedido",
+     "ini": 39.08,
+     "fim": 39.42,
+     "conf": 0.66
+    }
+   ]
+  },
+  {
+   "ini": 39.42,
+   "fim": 39.86,
+   "texto": "Agora",
+   "palavras": [
+    {
+     "p": "Agora",
+     "ini": 39.42,
+     "fim": 39.86,
+     "conf": 0.37
+    }
+   ]
+  }
+ ]
+}

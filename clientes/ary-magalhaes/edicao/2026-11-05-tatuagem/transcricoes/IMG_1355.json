@@ -1,0 +1,118 @@
+{
+ "arquivo": "IMG_1355",
+ "duracao": 30.83,
+ "segmentos": [
+  {
+   "ini": 16.48,
+   "fim": 18.36,
+   "texto": "Quanto tempo de tatuagem já?",
+   "palavras": [
+    {
+     "p": "Quanto",
+     "ini": 16.48,
+     "fim": 17.08,
+     "conf": 0.63
+    },
+    {
+     "p": "tempo",
+     "ini": 17.08,
+     "fim": 17.36,
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 17.36,
+     "fim": 17.52,
+     "conf": 0.98
+    },
+    {
+     "p": "tatuagem",
+     "ini": 17.52,
+     "fim": 18.06,
+     "conf": 1.0
+    },
+    {
+     "p": "já?",
+     "ini": 18.06,
+     "fim": 18.36,
+     "conf": 0.93
+    }
+   ]
+  },
+  {
+   "ini": 20.42,
+   "fim": 21.7,
+   "texto": "Olha aí a hora",
+   "palavras": [
+    {
+     "p": "Olha",
+     "ini": 20.42,
+     "fim": 21.02,
+     "conf": 0.82
+    },
+    {
+     "p": "aí",
+     "ini": 21.02,
+     "fim": 21.3,
+     "conf": 0.89
+    },
+    {
+     "p": "a",
+     "ini": 21.3,
+     "fim": 21.46,
+     "conf": 0.92
+    },
+    {
+     "p": "hora",
+     "ini": 21.46,
+     "fim": 21.7,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 25.26,
+   "fim": 26.36,
+   "texto": "Tira tatuagem",
+   "palavras": [
+    {
+     "p": "Tira",
+     "ini": 25.26,
+     "fim": 25.86,
+     "conf": 0.1
+    },
+    {
+     "p": "tatuagem",
+     "ini": 25.86,
+     "fim": 26.36,
+     "conf": 0.82
+    }
+   ]
+  },
+  {
+   "ini": 26.36,
+   "fim": 27.3,
+   "texto": "Faltou duas horas",
+   "palavras": [
+    {
+     "p": "Faltou",
+     "ini": 26.36,
+     "fim": 26.66,
+     "conf": 0.56
+    },
+    {
+     "p": "duas",
+     "ini": 26.66,
+     "fim": 26.92,
+     "conf": 0.61
+    },
+    {
+     "p": "horas",
+     "ini": 26.92,
+     "fim": 27.3,
+     "conf": 1.0
+    }
+   ]
+  }
+ ]
+}

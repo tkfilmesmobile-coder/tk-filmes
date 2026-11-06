@@ -1,7 +1,7 @@
 # TK Filmes · andamento
 
-## Onde está (2026-10-29)
-Dois reels esperando: o V10 "A virada não foi sorte" (eleição) foi aprovado pra postar, mas o token da TK foi invalidado (erro 190) e só sai com token novo; o "Um dia na TK" (só b-roll, com os sons reais) foi aprovado e também espera o token. O site (`site/`) está todo em marrom, com a Talyta na abertura e o retrato que segue o mouse no "Quem dirige"; não está no ar.
+## Onde está (2026-11-04)
+A publicação da TK passou pra Post for Me (Instagram + TikTok). V10 saiu em 03/11 e "Um dia na TK" em 04/11. Calendário mesclado por estilo agendado até 12/12 (reels falados Tempo/Viralizar/Barulho, 4 Bastidor, 2 carrosséis, 3 posts editoriais, 6 artes de outubro e 17 posts feitos das referências), tudo também no TikTok, mais o que já saiu no Instagram às 19h. Tabela em `posts/2026-11/agenda/agendados.md`. O site (`site/`) segue pronto e fora do ar.
 
 ## Entregue
 - 2026-09-29 · Instagram da TK conectado ao sistema (`--conta TK_FILMES`), @ trocado pra @tk.filmes, nome e bio novos no app.
@@ -19,6 +19,7 @@ Dois reels esperando: o V10 "A virada não foi sorte" (eleição) foi aprovado p
 - 2026-10-27 · V10 "A virada não foi sorte" editado (composição `Eleicao`, v2) e no Drive (raiz) com a legenda; aprovado pra postar.
 - 2026-10-28 · Site: tema marrom, abertura com a Talyta recortada e o K atrás, retrato do "Quem dirige" que olha pro mouse em 4 direções (detalhes no `site/LEIA-ME.md`).
 - 2026-10-29 · Reels "Um dia na TK" (b-roll, 16 s; composição `UmDia`, cortes em `videos/remotion/scripts/cortar-dia.ps1`) e legenda no Drive (raiz) pra aprovação.
+- 2026-10-30 · Quadro "Bastidor TK" (`quadros/bastidor/`): 4 reels (Start e Anna Líbya, nos formatos "Sem direção × Com direção" e "Pós-produção × Resultado final") + legendas na raiz do Drive, esperando aprovação e autorização dos clientes.
 
 ## Em aberto
 - Republicar o reels "Voltei" (sugestão: sex 16/10, 14h).

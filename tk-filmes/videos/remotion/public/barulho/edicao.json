@@ -1,0 +1,578 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "barulho/bruto.mp4",
+ "legendaPos": "baixo",
+ "sombraBase": true,
+ "clipes": [
+  {
+   "id": "t01",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 123,
+   "zoom": 1.0
+  },
+  {
+   "id": "t02",
+   "trimBefore": 123,
+   "from": 123,
+   "durationInFrames": 248,
+   "zoom": 1.09
+  },
+  {
+   "id": "t03",
+   "trimBefore": 371,
+   "from": 371,
+   "durationInFrames": 574,
+   "zoom": 1.0
+  },
+  {
+   "id": "t04",
+   "trimBefore": 945,
+   "from": 945,
+   "durationInFrames": 282,
+   "zoom": 1.09
+  },
+  {
+   "id": "t05",
+   "trimBefore": 1227,
+   "from": 1227,
+   "durationInFrames": 723,
+   "zoom": 1.0
+  },
+  {
+   "id": "t06",
+   "trimBefore": 1950,
+   "from": 1950,
+   "durationInFrames": 445,
+   "zoom": 1.09
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "2 tipos",
+     "fala": 4,
+     "cor": "#E3B48C"
+    },
+    {
+     "texto": "de pessoa",
+     "fala": 19
+    },
+    {
+     "texto": "nas redes",
+     "fala": 38
+    }
+   ],
+   "forte": true,
+   "from": 9,
+   "durationInFrames": 50
+  },
+  {
+   "tipo": "cartao",
+   "pos": "baixo",
+   "linhas": [
+    {
+     "texto": "não posta: tem vergonha",
+     "atraso": 30,
+     "fala": 30,
+     "tom": "neg"
+    },
+    {
+     "texto": "posta um monte",
+     "atraso": 84,
+     "fala": 84,
+     "tom": "pos"
+    }
+   ],
+   "etiqueta": "as duas reclamam",
+   "from": 65,
+   "durationInFrames": 155
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "sem resultado",
+     "fala": 7,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 342,
+   "durationInFrames": 26
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "estética ✓",
+     "fala": 7
+    },
+    {
+     "texto": "intenção ✕",
+     "fala": 55,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 468,
+   "durationInFrames": 150
+  },
+  {
+   "tipo": "frase",
+   "texto": "O cliente não sente que aquilo foi pensado pra ele.",
+   "pos": "baixo",
+   "fala": 54,
+   "from": 624,
+   "durationInFrames": 83
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "postar por postar",
+     "fala": 12
+    },
+    {
+     "texto": "é barulho",
+     "fala": 74,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 781,
+   "durationInFrames": 98
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "nada.",
+     "fala": 10,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 919,
+   "durationInFrames": 31
+  },
+  {
+   "tipo": "feed",
+   "fala": 32,
+   "modo": "barulho",
+   "rotulo": "o seu perfil",
+   "sai": 202,
+   "from": 1076,
+   "durationInFrames": 218
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "estratégia",
+     "fala": 10
+    },
+    {
+     "texto": "a dor do cliente",
+     "fala": 46,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 1326,
+   "durationInFrames": 68
+  },
+  {
+   "tipo": "chips",
+   "pos": "baixo",
+   "linhas": [
+    {
+     "texto": "o motivo da busca",
+     "atraso": 10,
+     "fala": 10,
+     "tom": "pos"
+    },
+    {
+     "texto": "o serviço que você oferece",
+     "atraso": 77,
+     "fala": 77,
+     "tom": "pos"
+    },
+    {
+     "texto": "o alívio que você entrega",
+     "atraso": 130,
+     "fala": 130,
+     "tom": "pos"
+    }
+   ],
+   "from": 1400,
+   "durationInFrames": 236
+  },
+  {
+   "tipo": "frase",
+   "texto": "“Meu Deus, como eu vivi sem achar esse perfil?”",
+   "pos": "baixo",
+   "fala": 5,
+   "from": 1761,
+   "durationInFrames": 139
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "feito pra mim",
+     "fala": 5,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 1906,
+   "durationInFrames": 40
+  },
+  {
+   "tipo": "celular",
+   "telas": [
+    {
+     "tela": "painel",
+     "fala": 7
+    },
+    {
+     "tela": "publico",
+     "fala": 59
+    }
+   ],
+   "from": 1979,
+   "durationInFrames": 84
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "postar por postar",
+     "fala": 9
+    },
+    {
+     "texto": "é só barulho",
+     "fala": 91,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 2069,
+   "durationInFrames": 100
+  },
+  {
+   "tipo": "headline",
+   "pos": "baixo",
+   "palavras": [
+    {
+     "texto": "estratégia",
+     "fala": 10
+    },
+    {
+     "texto": "mais profunda",
+     "fala": 33,
+     "cor": "#E3B48C"
+    }
+   ],
+   "forte": true,
+   "from": 2272,
+   "durationInFrames": 56
+  },
+  {
+   "tipo": "logo",
+   "from": 2328,
+   "durationInFrames": 67
+  }
+ ],
+ "legendas": [
+  {
+   "from": 2,
+   "durationInFrames": 4,
+   "texto": "Existem"
+  },
+  {
+   "from": 222,
+   "durationInFrames": 11,
+   "texto": "e quando você"
+  },
+  {
+   "from": 234,
+   "durationInFrames": 17,
+   "texto": "entra no perfil,"
+  },
+  {
+   "from": 252,
+   "durationInFrames": 28,
+   "texto": "você vê vários"
+  },
+  {
+   "from": 281,
+   "durationInFrames": 18,
+   "texto": "conteúdos,"
+  },
+  {
+   "from": 300,
+   "durationInFrames": 13,
+   "texto": "mas aí ela"
+  },
+  {
+   "from": 314,
+   "durationInFrames": 15,
+   "texto": "vem com aquela"
+  },
+  {
+   "from": 330,
+   "durationInFrames": 9,
+   "texto": "dor,"
+  },
+  {
+   "from": 372,
+   "durationInFrames": 17,
+   "texto": "Quando eu vou"
+  },
+  {
+   "from": 390,
+   "durationInFrames": 30,
+   "texto": "analisar o perfil"
+  },
+  {
+   "from": 421,
+   "durationInFrames": 29,
+   "texto": "daquela pessoa,"
+  },
+  {
+   "from": 455,
+   "durationInFrames": 10,
+   "texto": "eu vejo"
+  },
+  {
+   "from": 711,
+   "durationInFrames": 10,
+   "texto": "como se você"
+  },
+  {
+   "from": 722,
+   "durationInFrames": 33,
+   "texto": "estivesse só postando."
+  },
+  {
+   "from": 756,
+   "durationInFrames": 9,
+   "texto": "Porque,"
+  },
+  {
+   "from": 767,
+   "durationInFrames": 11,
+   "texto": "gente,"
+  },
+  {
+   "from": 882,
+   "durationInFrames": 16,
+   "texto": "no barulho você"
+  },
+  {
+   "from": 899,
+   "durationInFrames": 17,
+   "texto": "entende o quê?"
+  },
+  {
+   "from": 953,
+   "durationInFrames": 12,
+   "texto": "barulho a gente"
+  },
+  {
+   "from": 966,
+   "durationInFrames": 20,
+   "texto": "se incomoda,"
+  },
+  {
+   "from": 987,
+   "durationInFrames": 26,
+   "texto": "a gente sai"
+  },
+  {
+   "from": 1014,
+   "durationInFrames": 8,
+   "texto": "dali."
+  },
+  {
+   "from": 1023,
+   "durationInFrames": 17,
+   "texto": "E é o"
+  },
+  {
+   "from": 1041,
+   "durationInFrames": 12,
+   "texto": "que muitas vezes"
+  },
+  {
+   "from": 1054,
+   "durationInFrames": 10,
+   "texto": "acontece"
+  },
+  {
+   "from": 1065,
+   "durationInFrames": 8,
+   "texto": "O"
+  },
+  {
+   "from": 1315,
+   "durationInFrames": 8,
+   "texto": "você"
+  },
+  {
+   "from": 1637,
+   "durationInFrames": 8,
+   "texto": "sociais"
+  },
+  {
+   "from": 1646,
+   "durationInFrames": 28,
+   "texto": "Porque quando o"
+  },
+  {
+   "from": 1675,
+   "durationInFrames": 15,
+   "texto": "cliente certo"
+  },
+  {
+   "from": 1691,
+   "durationInFrames": 22,
+   "texto": "Chegar no seu"
+  },
+  {
+   "from": 1714,
+   "durationInFrames": 10,
+   "texto": "perfil"
+  },
+  {
+   "from": 1725,
+   "durationInFrames": 21,
+   "texto": "Ele vai se"
+  },
+  {
+   "from": 1747,
+   "durationInFrames": 11,
+   "texto": "sentir"
+  },
+  {
+   "from": 1951,
+   "durationInFrames": 25,
+   "texto": "Então pensa"
+  },
+  {
+   "from": 2172,
+   "durationInFrames": 16,
+   "texto": "E se isso"
+  },
+  {
+   "from": 2189,
+   "durationInFrames": 18,
+   "texto": "não está trazendo"
+  },
+  {
+   "from": 2208,
+   "durationInFrames": 10,
+   "texto": "resultado"
+  },
+  {
+   "from": 2219,
+   "durationInFrames": 33,
+   "texto": "É porque muitas"
+  },
+  {
+   "from": 2253,
+   "durationInFrames": 16,
+   "texto": "vezes você"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 12,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 191,
+   "durationInFrames": 22,
+   "escala": 1.12
+  },
+  {
+   "from": 348,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 474,
+   "durationInFrames": 22,
+   "escala": 1.1
+  },
+  {
+   "from": 522,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 854,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 928,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 1371,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 1910,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 2158,
+   "durationInFrames": 24,
+   "escala": 1.17
+  },
+  {
+   "from": 2304,
+   "durationInFrames": 24,
+   "escala": 1.17
+  }
+ ],
+ "reenquadramentos": [
+  {
+   "from": 369,
+   "durationInFrames": 99,
+   "escala": 1.1
+  },
+  {
+   "from": 1400,
+   "durationInFrames": 236,
+   "escala": 1.1
+  },
+  {
+   "from": 2172,
+   "durationInFrames": 152,
+   "escala": 1.12
+  }
+ ]
+}

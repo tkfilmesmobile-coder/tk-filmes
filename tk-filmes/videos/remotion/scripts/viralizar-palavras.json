@@ -1,0 +1,1946 @@
+[
+{
+"texto": "Se",
+"ini": 0.0,
+"fim": 0.68,
+"prob": 0.982
+},
+{
+"texto": "tem",
+"ini": 0.68,
+"fim": 0.82,
+"prob": 0.991
+},
+{
+"texto": "uma",
+"ini": 0.82,
+"fim": 1.02,
+"prob": 0.985
+},
+{
+"texto": "das",
+"ini": 1.02,
+"fim": 1.2,
+"prob": 1.0
+},
+{
+"texto": "coisas",
+"ini": 1.2,
+"fim": 1.46,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 1.46,
+"fim": 1.78,
+"prob": 0.996
+},
+{
+"texto": "eu",
+"ini": 1.78,
+"fim": 2.08,
+"prob": 0.998
+},
+{
+"texto": "mais",
+"ini": 2.08,
+"fim": 2.56,
+"prob": 1.0
+},
+{
+"texto": "escuto",
+"ini": 2.56,
+"fim": 3.24,
+"prob": 0.999
+},
+{
+"texto": "é",
+"ini": 3.24,
+"fim": 3.5,
+"prob": 0.928
+},
+{
+"texto": "sobre",
+"ini": 3.5,
+"fim": 3.8,
+"prob": 1.0
+},
+{
+"texto": "viralizar.",
+"ini": 3.8,
+"fim": 4.48,
+"prob": 0.998
+},
+{
+"texto": "Ah,",
+"ini": 4.68,
+"fim": 4.94,
+"prob": 0.961
+},
+{
+"texto": "eu",
+"ini": 4.96,
+"fim": 5.04,
+"prob": 1.0
+},
+{
+"texto": "queria",
+"ini": 5.04,
+"fim": 5.26,
+"prob": 1.0
+},
+{
+"texto": "muito",
+"ini": 5.26,
+"fim": 5.54,
+"prob": 1.0
+},
+{
+"texto": "viralizar,",
+"ini": 5.54,
+"fim": 6.14,
+"prob": 1.0
+},
+{
+"texto": "eu",
+"ini": 6.3,
+"fim": 6.38,
+"prob": 1.0
+},
+{
+"texto": "quero",
+"ini": 6.38,
+"fim": 6.52,
+"prob": 0.991
+},
+{
+"texto": "um",
+"ini": 6.52,
+"fim": 6.66,
+"prob": 1.0
+},
+{
+"texto": "vídeo",
+"ini": 6.66,
+"fim": 6.86,
+"prob": 0.998
+},
+{
+"texto": "bombado.",
+"ini": 6.86,
+"fim": 7.52,
+"prob": 1.0
+},
+{
+"texto": "Mas",
+"ini": 7.84,
+"fim": 8.24,
+"prob": 1.0
+},
+{
+"texto": "será",
+"ini": 8.24,
+"fim": 8.64,
+"prob": 0.982
+},
+{
+"texto": "mesmo",
+"ini": 8.64,
+"fim": 8.96,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 8.96,
+"fim": 9.18,
+"prob": 1.0
+},
+{
+"texto": "viralizar",
+"ini": 9.18,
+"fim": 10.04,
+"prob": 1.0
+},
+{
+"texto": "vai",
+"ini": 10.04,
+"fim": 10.6,
+"prob": 1.0
+},
+{
+"texto": "atender",
+"ini": 10.6,
+"fim": 11.0,
+"prob": 1.0
+},
+{
+"texto": "todas",
+"ini": 11.0,
+"fim": 11.4,
+"prob": 1.0
+},
+{
+"texto": "as",
+"ini": 11.4,
+"fim": 11.62,
+"prob": 1.0
+},
+{
+"texto": "suas",
+"ini": 11.62,
+"fim": 11.74,
+"prob": 1.0
+},
+{
+"texto": "expectativas",
+"ini": 11.74,
+"fim": 12.42,
+"prob": 0.999
+},
+{
+"texto": "e",
+"ini": 12.42,
+"fim": 12.6,
+"prob": 0.99
+},
+{
+"texto": "vai",
+"ini": 12.6,
+"fim": 12.74,
+"prob": 1.0
+},
+{
+"texto": "chegar",
+"ini": 12.74,
+"fim": 13.0,
+"prob": 1.0
+},
+{
+"texto": "no",
+"ini": 13.0,
+"fim": 13.18,
+"prob": 0.998
+},
+{
+"texto": "seu",
+"ini": 13.18,
+"fim": 13.44,
+"prob": 1.0
+},
+{
+"texto": "objetivo",
+"ini": 13.44,
+"fim": 14.22,
+"prob": 1.0
+},
+{
+"texto": "final?",
+"ini": 14.22,
+"fim": 14.66,
+"prob": 0.999
+},
+{
+"texto": "Pensa",
+"ini": 14.81,
+"fim": 15.33,
+"prob": 0.998
+},
+{
+"texto": "comigo.",
+"ini": 15.33,
+"fim": 15.71,
+"prob": 0.996
+},
+{
+"texto": "Você",
+"ini": 16.15,
+"fim": 16.51,
+"prob": 0.999
+},
+{
+"texto": "é",
+"ini": 16.51,
+"fim": 16.63,
+"prob": 0.994
+},
+{
+"texto": "daqui de",
+"ini": 16.63,
+"fim": 16.87,
+"prob": 0.753
+},
+{
+"texto": "União",
+"ini": 16.87,
+"fim": 17.39,
+"prob": 0.747
+},
+{
+"texto": "e",
+"ini": 17.39,
+"fim": 17.71,
+"prob": 0.893
+},
+{
+"texto": "aí",
+"ini": 17.71,
+"fim": 17.81,
+"prob": 0.995
+},
+{
+"texto": "você",
+"ini": 17.81,
+"fim": 18.05,
+"prob": 1.0
+},
+{
+"texto": "faz",
+"ini": 18.05,
+"fim": 18.37,
+"prob": 1.0
+},
+{
+"texto": "um",
+"ini": 18.37,
+"fim": 18.51,
+"prob": 0.999
+},
+{
+"texto": "vídeo",
+"ini": 18.51,
+"fim": 18.79,
+"prob": 1.0
+},
+{
+"texto": "e",
+"ini": 18.79,
+"fim": 18.93,
+"prob": 0.997
+},
+{
+"texto": "viraliza.",
+"ini": 18.93,
+"fim": 19.73,
+"prob": 1.0
+},
+{
+"texto": "Ele",
+"ini": 20.13,
+"fim": 20.33,
+"prob": 0.987
+},
+{
+"texto": "vai",
+"ini": 20.33,
+"fim": 21.61,
+"prob": 1.0
+},
+{
+"texto": "para",
+"ini": 21.61,
+"fim": 21.79,
+"prob": 0.561
+},
+{
+"texto": "todos",
+"ini": 21.79,
+"fim": 22.05,
+"prob": 1.0
+},
+{
+"texto": "os",
+"ini": 22.05,
+"fim": 22.27,
+"prob": 1.0
+},
+{
+"texto": "cantos,",
+"ini": 22.27,
+"fim": 22.77,
+"prob": 0.999
+},
+{
+"texto": "vai",
+"ini": 22.87,
+"fim": 23.01,
+"prob": 1.0
+},
+{
+"texto": "para",
+"ini": 23.01,
+"fim": 23.21,
+"prob": 0.998
+},
+{
+"texto": "cidades",
+"ini": 23.21,
+"fim": 24.01,
+"prob": 0.999
+},
+{
+"texto": "que",
+"ini": 24.01,
+"fim": 24.25,
+"prob": 1.0
+},
+{
+"texto": "você",
+"ini": 24.25,
+"fim": 24.45,
+"prob": 1.0
+},
+{
+"texto": "nem",
+"ini": 24.45,
+"fim": 24.73,
+"prob": 0.998
+},
+{
+"texto": "conhece,",
+"ini": 24.73,
+"fim": 25.45,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 25.63,
+"fim": 25.93,
+"prob": 0.999
+},
+{
+"texto": "você",
+"ini": 25.93,
+"fim": 26.15,
+"prob": 1.0
+},
+{
+"texto": "não",
+"ini": 26.15,
+"fim": 26.29,
+"prob": 0.992
+},
+{
+"texto": "sabe",
+"ini": 26.29,
+"fim": 26.57,
+"prob": 1.0
+},
+{
+"texto": "nem",
+"ini": 26.57,
+"fim": 26.83,
+"prob": 0.999
+},
+{
+"texto": "como",
+"ini": 26.83,
+"fim": 27.07,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 27.07,
+"fim": 27.17,
+"prob": 0.999
+},
+{
+"texto": "que",
+"ini": 27.17,
+"fim": 27.29,
+"prob": 1.0
+},
+{
+"texto": "funciona,",
+"ini": 27.29,
+"fim": 27.73,
+"prob": 1.0
+},
+{
+"texto": "quem",
+"ini": 27.73,
+"fim": 27.97,
+"prob": 0.995
+},
+{
+"texto": "são",
+"ini": 27.97,
+"fim": 28.15,
+"prob": 1.0
+},
+{
+"texto": "as",
+"ini": 28.15,
+"fim": 28.29,
+"prob": 1.0
+},
+{
+"texto": "pessoas",
+"ini": 28.29,
+"fim": 28.61,
+"prob": 1.0
+},
+{
+"texto": "de",
+"ini": 28.61,
+"fim": 28.81,
+"prob": 1.0
+},
+{
+"texto": "lá.",
+"ini": 28.81,
+"fim": 29.03,
+"prob": 1.0
+},
+{
+"texto": "E",
+"ini": 29.15,
+"fim": 29.71,
+"prob": 0.869
+},
+{
+"texto": "o",
+"ini": 29.71,
+"fim": 29.85,
+"prob": 0.999
+},
+{
+"texto": "pessoal",
+"ini": 29.85,
+"fim": 30.17,
+"prob": 0.998
+},
+{
+"texto": "interage",
+"ini": 30.17,
+"fim": 30.59,
+"prob": 0.996
+},
+{
+"texto": "muito,",
+"ini": 30.59,
+"fim": 30.89,
+"prob": 0.991
+},
+{
+"texto": "curte,",
+"ini": 31.13,
+"fim": 31.27,
+"prob": 0.927
+},
+{
+"texto": "comenta",
+"ini": 31.39,
+"fim": 31.75,
+"prob": 0.968
+},
+{
+"texto": "e",
+"ini": 31.75,
+"fim": 31.97,
+"prob": 0.673
+},
+{
+"texto": "tudo",
+"ini": 31.97,
+"fim": 32.07,
+"prob": 0.999
+},
+{
+"texto": "mais,",
+"ini": 32.07,
+"fim": 32.25,
+"prob": 0.999
+},
+{
+"texto": "mas",
+"ini": 32.37,
+"fim": 32.49,
+"prob": 0.998
+},
+{
+"texto": "você",
+"ini": 32.49,
+"fim": 32.73,
+"prob": 1.0
+},
+{
+"texto": "acha",
+"ini": 32.73,
+"fim": 32.93,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 32.93,
+"fim": 33.17,
+"prob": 1.0
+},
+{
+"texto": "na",
+"ini": 33.17,
+"fim": 33.57,
+"prob": 0.991
+},
+{
+"texto": "hora",
+"ini": 33.57,
+"fim": 33.79,
+"prob": 1.0
+},
+{
+"texto": "do",
+"ini": 33.79,
+"fim": 33.97,
+"prob": 1.0
+},
+{
+"texto": "consumo,",
+"ini": 33.97,
+"fim": 34.65,
+"prob": 1.0
+},
+{
+"texto": "na",
+"ini": 34.87,
+"fim": 35.01,
+"prob": 1.0
+},
+{
+"texto": "hora",
+"ini": 35.01,
+"fim": 35.13,
+"prob": 1.0
+},
+{
+"texto": "de",
+"ini": 35.13,
+"fim": 35.27,
+"prob": 1.0
+},
+{
+"texto": "marcar",
+"ini": 35.27,
+"fim": 35.63,
+"prob": 0.999
+},
+{
+"texto": "uma",
+"ini": 35.63,
+"fim": 35.85,
+"prob": 0.998
+},
+{
+"texto": "consulta,",
+"ini": 35.85,
+"fim": 36.57,
+"prob": 1.0
+},
+{
+"texto": "comprar",
+"ini": 36.61,
+"fim": 36.99,
+"prob": 0.996
+},
+{
+"texto": "um",
+"ini": 36.99,
+"fim": 37.21,
+"prob": 0.999
+},
+{
+"texto": "produto,",
+"ini": 37.21,
+"fim": 37.91,
+"prob": 1.0
+},
+{
+"texto": "ele",
+"ini": 38.16,
+"fim": 38.78,
+"prob": 1.0
+},
+{
+"texto": "vai",
+"ini": 38.78,
+"fim": 39.18,
+"prob": 1.0
+},
+{
+"texto": "procurar",
+"ini": 39.18,
+"fim": 39.64,
+"prob": 1.0
+},
+{
+"texto": "mesmo.",
+"ini": 39.64,
+"fim": 40.26,
+"prob": 1.0
+},
+{
+"texto": "Aquela",
+"ini": 40.48,
+"fim": 41.04,
+"prob": 0.998
+},
+{
+"texto": "pessoa",
+"ini": 41.04,
+"fim": 41.34,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 41.34,
+"fim": 41.48,
+"prob": 1.0
+},
+{
+"texto": "viralizou,",
+"ini": 41.48,
+"fim": 42.06,
+"prob": 0.934
+},
+{
+"texto": "entenda",
+"ini": 42.36,
+"fim": 43.04,
+"prob": 0.93
+},
+{
+"texto": "uma",
+"ini": 43.04,
+"fim": 43.16,
+"prob": 0.999
+},
+{
+"texto": "coisa,",
+"ini": 43.16,
+"fim": 43.5,
+"prob": 1.0
+},
+{
+"texto": "existe",
+"ini": 43.68,
+"fim": 43.94,
+"prob": 0.998
+},
+{
+"texto": "uma",
+"ini": 43.94,
+"fim": 44.12,
+"prob": 0.999
+},
+{
+"texto": "diferença",
+"ini": 44.12,
+"fim": 44.68,
+"prob": 1.0
+},
+{
+"texto": "muito",
+"ini": 44.68,
+"fim": 45.4,
+"prob": 1.0
+},
+{
+"texto": "grande",
+"ini": 45.4,
+"fim": 45.94,
+"prob": 1.0
+},
+{
+"texto": "entre",
+"ini": 45.94,
+"fim": 46.78,
+"prob": 1.0
+},
+{
+"texto": "entretenimento",
+"ini": 46.78,
+"fim": 48.16,
+"prob": 0.988
+},
+{
+"texto": "e",
+"ini": 48.16,
+"fim": 48.5,
+"prob": 1.0
+},
+{
+"texto": "consumo.",
+"ini": 48.5,
+"fim": 49.2,
+"prob": 1.0
+},
+{
+"texto": "A",
+"ini": 49.66,
+"fim": 50.22,
+"prob": 0.999
+},
+{
+"texto": "pessoa",
+"ini": 50.22,
+"fim": 50.48,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 50.48,
+"fim": 50.64,
+"prob": 1.0
+},
+{
+"texto": "busca",
+"ini": 50.64,
+"fim": 50.92,
+"prob": 1.0
+},
+{
+"texto": "o",
+"ini": 50.92,
+"fim": 51.02,
+"prob": 0.945
+},
+{
+"texto": "entretenimento,",
+"ini": 51.02,
+"fim": 51.96,
+"prob": 1.0
+},
+{
+"texto": "ela",
+"ini": 52.08,
+"fim": 52.28,
+"prob": 0.999
+},
+{
+"texto": "não",
+"ini": 52.28,
+"fim": 52.52,
+"prob": 1.0
+},
+{
+"texto": "necessariamente",
+"ini": 52.52,
+"fim": 53.2,
+"prob": 1.0
+},
+{
+"texto": "vai",
+"ini": 53.2,
+"fim": 53.6,
+"prob": 1.0
+},
+{
+"texto": "efetuar",
+"ini": 53.6,
+"fim": 54.32,
+"prob": 1.0
+},
+{
+"texto": "o",
+"ini": 54.32,
+"fim": 54.46,
+"prob": 1.0
+},
+{
+"texto": "consumo",
+"ini": 54.46,
+"fim": 54.84,
+"prob": 0.999
+},
+{
+"texto": "em",
+"ini": 54.84,
+"fim": 55.02,
+"prob": 0.963
+},
+{
+"texto": "você.",
+"ini": 55.02,
+"fim": 55.26,
+"prob": 0.999
+},
+{
+"texto": "Principalmente",
+"ini": 55.26,
+"fim": 56.66,
+"prob": 0.913
+},
+{
+"texto": "se",
+"ini": 56.66,
+"fim": 56.88,
+"prob": 0.977
+},
+{
+"texto": "o",
+"ini": 56.88,
+"fim": 57.06,
+"prob": 1.0
+},
+{
+"texto": "seu",
+"ini": 57.06,
+"fim": 57.3,
+"prob": 1.0
+},
+{
+"texto": "alvo",
+"ini": 57.3,
+"fim": 58.02,
+"prob": 0.99
+},
+{
+"texto": "é",
+"ini": 58.02,
+"fim": 58.56,
+"prob": 0.945
+},
+{
+"texto": "um",
+"ini": 58.56,
+"fim": 58.8,
+"prob": 0.999
+},
+{
+"texto": "público",
+"ini": 58.8,
+"fim": 59.32,
+"prob": 1.0
+},
+{
+"texto": "criterioso",
+"ini": 59.32,
+"fim": 60.96,
+"prob": 0.998
+},
+{
+"texto": "Um",
+"ini": 60.96,
+"fim": 61.38,
+"prob": 0.118
+},
+{
+"texto": "público",
+"ini": 61.38,
+"fim": 61.7,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 61.7,
+"fim": 62.0,
+"prob": 1.0
+},
+{
+"texto": "entende",
+"ini": 62.0,
+"fim": 62.72,
+"prob": 1.0
+},
+{
+"texto": "o",
+"ini": 62.72,
+"fim": 62.98,
+"prob": 1.0
+},
+{
+"texto": "valor,",
+"ini": 62.98,
+"fim": 63.5,
+"prob": 1.0
+},
+{
+"texto": "a",
+"ini": 63.8,
+"fim": 63.88,
+"prob": 1.0
+},
+{
+"texto": "qualidade,",
+"ini": 63.88,
+"fim": 64.36,
+"prob": 1.0
+},
+{
+"texto": "a",
+"ini": 64.76,
+"fim": 64.88,
+"prob": 1.0
+},
+{
+"texto": "diferença",
+"ini": 64.88,
+"fim": 65.52,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 65.52,
+"fim": 65.88,
+"prob": 0.911
+},
+{
+"texto": "o",
+"ini": 65.88,
+"fim": 66.02,
+"prob": 1.0
+},
+{
+"texto": "seu",
+"ini": 66.02,
+"fim": 66.24,
+"prob": 1.0
+},
+{
+"texto": "serviço,",
+"ini": 66.24,
+"fim": 66.86,
+"prob": 1.0
+},
+{
+"texto": "o",
+"ini": 67.02,
+"fim": 67.1,
+"prob": 0.986
+},
+{
+"texto": "seu",
+"ini": 67.1,
+"fim": 67.18,
+"prob": 1.0
+},
+{
+"texto": "produto",
+"ini": 67.18,
+"fim": 67.66,
+"prob": 1.0
+},
+{
+"texto": "oferece",
+"ini": 67.66,
+"fim": 68.34,
+"prob": 0.999
+},
+{
+"texto": "A",
+"ini": 68.39,
+"fim": 69.61,
+"prob": 0.998
+},
+{
+"texto": "viralização",
+"ini": 69.61,
+"fim": 70.23,
+"prob": 0.997
+},
+{
+"texto": "não",
+"ini": 70.23,
+"fim": 70.47,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 70.47,
+"fim": 70.61,
+"prob": 1.0
+},
+{
+"texto": "o",
+"ini": 70.61,
+"fim": 70.69,
+"prob": 0.998
+},
+{
+"texto": "meio",
+"ini": 70.69,
+"fim": 70.89,
+"prob": 0.633
+},
+{
+"texto": "correto",
+"ini": 70.89,
+"fim": 71.39,
+"prob": 0.976
+},
+{
+"texto": "Porque",
+"ini": 71.39,
+"fim": 71.89,
+"prob": 0.975
+},
+{
+"texto": "esse",
+"ini": 71.89,
+"fim": 72.15,
+"prob": 1.0
+},
+{
+"texto": "tipo",
+"ini": 72.15,
+"fim": 72.37,
+"prob": 1.0
+},
+{
+"texto": "de",
+"ini": 72.37,
+"fim": 72.51,
+"prob": 1.0
+},
+{
+"texto": "pessoa",
+"ini": 72.51,
+"fim": 73.03,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 73.03,
+"fim": 73.37,
+"prob": 0.663
+},
+{
+"texto": "criteriosa",
+"ini": 73.37,
+"fim": 74.39,
+"prob": 0.998
+},
+{
+"texto": "Quando",
+"ini": 74.39,
+"fim": 75.09,
+"prob": 0.826
+},
+{
+"texto": "ela",
+"ini": 75.09,
+"fim": 75.25,
+"prob": 1.0
+},
+{
+"texto": "vai",
+"ini": 75.25,
+"fim": 75.55,
+"prob": 1.0
+},
+{
+"texto": "marcar",
+"ini": 75.55,
+"fim": 75.87,
+"prob": 1.0
+},
+{
+"texto": "uma",
+"ini": 75.87,
+"fim": 76.07,
+"prob": 0.996
+},
+{
+"texto": "consulta,",
+"ini": 76.07,
+"fim": 76.75,
+"prob": 1.0
+},
+{
+"texto": "por",
+"ini": 76.83,
+"fim": 76.91,
+"prob": 1.0
+},
+{
+"texto": "exemplo",
+"ini": 76.91,
+"fim": 77.37,
+"prob": 1.0
+},
+{
+"texto": "Ela",
+"ini": 77.37,
+"fim": 78.05,
+"prob": 0.183
+},
+{
+"texto": "não",
+"ini": 78.05,
+"fim": 78.29,
+"prob": 1.0
+},
+{
+"texto": "vai",
+"ini": 78.29,
+"fim": 78.63,
+"prob": 1.0
+},
+{
+"texto": "lembrar",
+"ini": 78.63,
+"fim": 79.05,
+"prob": 1.0
+},
+{
+"texto": "do",
+"ini": 79.05,
+"fim": 79.25,
+"prob": 0.968
+},
+{
+"texto": "vídeo",
+"ini": 79.25,
+"fim": 79.59,
+"prob": 0.999
+},
+{
+"texto": "engraçado",
+"ini": 79.59,
+"fim": 80.27,
+"prob": 0.992
+},
+{
+"texto": "que",
+"ini": 80.27,
+"fim": 80.47,
+"prob": 0.886
+},
+{
+"texto": "ela",
+"ini": 80.47,
+"fim": 80.69,
+"prob": 1.0
+},
+{
+"texto": "viu",
+"ini": 80.69,
+"fim": 80.99,
+"prob": 1.0
+},
+{
+"texto": "e",
+"ini": 80.99,
+"fim": 81.11,
+"prob": 0.951
+},
+{
+"texto": "achou",
+"ini": 81.11,
+"fim": 81.37,
+"prob": 1.0
+},
+{
+"texto": "muito",
+"ini": 81.37,
+"fim": 81.63,
+"prob": 1.0
+},
+{
+"texto": "legal",
+"ini": 81.63,
+"fim": 81.97,
+"prob": 1.0
+},
+{
+"texto": "Ela",
+"ini": 81.97,
+"fim": 82.55,
+"prob": 0.997
+},
+{
+"texto": "vai",
+"ini": 82.55,
+"fim": 82.83,
+"prob": 1.0
+},
+{
+"texto": "buscar",
+"ini": 82.83,
+"fim": 83.15,
+"prob": 0.999
+},
+{
+"texto": "um",
+"ini": 83.15,
+"fim": 83.31,
+"prob": 1.0
+},
+{
+"texto": "profissional",
+"ini": 83.31,
+"fim": 83.93,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 83.93,
+"fim": 84.13,
+"prob": 0.999
+},
+{
+"texto": "atenda",
+"ini": 84.13,
+"fim": 84.43,
+"prob": 0.986
+},
+{
+"texto": "as",
+"ini": 84.43,
+"fim": 84.57,
+"prob": 0.893
+},
+{
+"texto": "expectativas",
+"ini": 84.57,
+"fim": 85.23,
+"prob": 1.0
+},
+{
+"texto": "dela",
+"ini": 85.23,
+"fim": 85.65,
+"prob": 1.0
+},
+{
+"texto": "Que",
+"ini": 85.65,
+"fim": 86.15,
+"prob": 0.998
+},
+{
+"texto": "mostre",
+"ini": 86.15,
+"fim": 86.77,
+"prob": 0.898
+},
+{
+"texto": "ali",
+"ini": 86.77,
+"fim": 86.97,
+"prob": 0.984
+},
+{
+"texto": "que",
+"ini": 86.97,
+"fim": 87.17,
+"prob": 0.905
+},
+{
+"texto": "aquilo",
+"ini": 87.17,
+"fim": 87.63,
+"prob": 0.997
+},
+{
+"texto": "ali",
+"ini": 87.63,
+"fim": 87.95,
+"prob": 0.971
+},
+{
+"texto": "ele",
+"ini": 87.95,
+"fim": 88.25,
+"prob": 0.975
+},
+{
+"texto": "vai",
+"ini": 88.25,
+"fim": 88.45,
+"prob": 1.0
+},
+{
+"texto": "encontrar",
+"ini": 88.45,
+"fim": 88.85,
+"prob": 1.0
+},
+{
+"texto": "no",
+"ini": 88.85,
+"fim": 89.03,
+"prob": 0.999
+},
+{
+"texto": "consultório,",
+"ini": 89.03,
+"fim": 89.73,
+"prob": 1.0
+},
+{
+"texto": "na",
+"ini": 90.05,
+"fim": 90.15,
+"prob": 1.0
+},
+{
+"texto": "loja,",
+"ini": 90.15,
+"fim": 90.83,
+"prob": 1.0
+},
+{
+"texto": "no",
+"ini": 90.99,
+"fim": 91.67,
+"prob": 1.0
+},
+{
+"texto": "atendimento",
+"ini": 91.67,
+"fim": 92.75,
+"prob": 1.0
+},
+{
+"texto": "Independente",
+"ini": 93.2,
+"fim": 93.84,
+"prob": 0.978
+},
+{
+"texto": "do",
+"ini": 93.84,
+"fim": 93.98,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 93.98,
+"fim": 94.1,
+"prob": 1.0
+},
+{
+"texto": "seja",
+"ini": 94.1,
+"fim": 94.5,
+"prob": 1.0
+},
+{
+"texto": "Então",
+"ini": 94.5,
+"fim": 95.06,
+"prob": 0.997
+},
+{
+"texto": "muitas",
+"ini": 95.06,
+"fim": 95.48,
+"prob": 0.888
+},
+{
+"texto": "vezes",
+"ini": 95.48,
+"fim": 95.86,
+"prob": 1.0
+},
+{
+"texto": "o",
+"ini": 95.86,
+"fim": 96.1,
+"prob": 0.996
+},
+{
+"texto": "que",
+"ini": 96.1,
+"fim": 96.24,
+"prob": 1.0
+},
+{
+"texto": "falta",
+"ini": 96.24,
+"fim": 96.68,
+"prob": 1.0
+},
+{
+"texto": "no",
+"ini": 96.68,
+"fim": 96.98,
+"prob": 1.0
+},
+{
+"texto": "seu",
+"ini": 96.98,
+"fim": 97.26,
+"prob": 1.0
+},
+{
+"texto": "conteúdo",
+"ini": 97.26,
+"fim": 97.86,
+"prob": 1.0
+},
+{
+"texto": "não",
+"ini": 97.86,
+"fim": 98.84,
+"prob": 0.655
+},
+{
+"texto": "é",
+"ini": 98.84,
+"fim": 99.14,
+"prob": 0.999
+},
+{
+"texto": "simplesmente",
+"ini": 99.14,
+"fim": 99.98,
+"prob": 0.999
+},
+{
+"texto": "postar,",
+"ini": 99.98,
+"fim": 101.06,
+"prob": 0.996
+},
+{
+"texto": "não",
+"ini": 101.48,
+"fim": 101.58,
+"prob": 0.997
+},
+{
+"texto": "é",
+"ini": 101.58,
+"fim": 101.72,
+"prob": 0.998
+},
+{
+"texto": "viralizar,",
+"ini": 101.72,
+"fim": 102.5,
+"prob": 0.999
+},
+{
+"texto": "não",
+"ini": 102.76,
+"fim": 103.02,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 103.02,
+"fim": 103.16,
+"prob": 1.0
+},
+{
+"texto": "bombar,",
+"ini": 103.16,
+"fim": 103.7,
+"prob": 0.999
+},
+{
+"texto": "é",
+"ini": 103.94,
+"fim": 104.04,
+"prob": 0.999
+},
+{
+"texto": "estratégia.",
+"ini": 104.04,
+"fim": 105.28,
+"prob": 0.998
+},
+{
+"texto": "Se",
+"ini": 105.5,
+"fim": 105.86,
+"prob": 0.999
+},
+{
+"texto": "o",
+"ini": 105.86,
+"fim": 106.06,
+"prob": 1.0
+},
+{
+"texto": "seu",
+"ini": 106.06,
+"fim": 106.28,
+"prob": 0.999
+},
+{
+"texto": "intuito",
+"ini": 106.28,
+"fim": 106.8,
+"prob": 1.0
+},
+{
+"texto": "final",
+"ini": 106.8,
+"fim": 107.18,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 107.18,
+"fim": 107.52,
+"prob": 1.0
+},
+{
+"texto": "trazer",
+"ini": 107.52,
+"fim": 107.88,
+"prob": 1.0
+},
+{
+"texto": "clientes",
+"ini": 107.88,
+"fim": 108.84,
+"prob": 1.0
+},
+{
+"texto": "qualificados",
+"ini": 108.84,
+"fim": 109.84,
+"prob": 1.0
+},
+{
+"texto": "para",
+"ini": 109.84,
+"fim": 110.06,
+"prob": 0.999
+},
+{
+"texto": "o",
+"ini": 110.06,
+"fim": 110.18,
+"prob": 0.992
+},
+{
+"texto": "seu",
+"ini": 110.18,
+"fim": 110.26,
+"prob": 1.0
+},
+{
+"texto": "negócio,",
+"ini": 110.26,
+"fim": 110.79,
+"prob": 1.0
+},
+{
+"texto": "eu",
+"ini": 110.82,
+"fim": 111.52,
+"prob": 0.999
+},
+{
+"texto": "pensaria",
+"ini": 111.52,
+"fim": 112.18,
+"prob": 0.997
+},
+{
+"texto": "um",
+"ini": 112.18,
+"fim": 112.32,
+"prob": 1.0
+},
+{
+"texto": "pouco",
+"ini": 112.32,
+"fim": 112.58,
+"prob": 1.0
+},
+{
+"texto": "mais",
+"ini": 112.58,
+"fim": 112.92,
+"prob": 1.0
+},
+{
+"texto": "na",
+"ini": 112.92,
+"fim": 113.08,
+"prob": 0.999
+},
+{
+"texto": "estratégia",
+"ini": 113.08,
+"fim": 113.54,
+"prob": 0.999
+},
+{
+"texto": "que",
+"ini": 113.54,
+"fim": 113.66,
+"prob": 1.0
+},
+{
+"texto": "está",
+"ini": 113.66,
+"fim": 113.82,
+"prob": 1.0
+},
+{
+"texto": "sendo",
+"ini": 113.82,
+"fim": 114.06,
+"prob": 1.0
+},
+{
+"texto": "utilizada.",
+"ini": 114.06,
+"fim": 114.72,
+"prob": 0.997
+},
+{
+"texto": "Porque",
+"ini": 115.04,
+"fim": 115.4,
+"prob": 0.998
+},
+{
+"texto": "viralizar",
+"ini": 115.4,
+"fim": 116.32,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 116.32,
+"fim": 116.78,
+"prob": 1.0
+},
+{
+"texto": "sorte,",
+"ini": 116.78,
+"fim": 117.44,
+"prob": 0.992
+},
+{
+"texto": "mas",
+"ini": 117.54,
+"fim": 117.76,
+"prob": 1.0
+},
+{
+"texto": "ser",
+"ini": 117.76,
+"fim": 118.3,
+"prob": 1.0
+},
+{
+"texto": "lembrado,",
+"ini": 118.3,
+"fim": 119.34,
+"prob": 1.0
+},
+{
+"texto": "isso",
+"ini": 119.54,
+"fim": 120.24,
+"prob": 0.999
+},
+{
+"texto": "aí",
+"ini": 120.24,
+"fim": 120.46,
+"prob": 0.991
+},
+{
+"texto": "é",
+"ini": 120.46,
+"fim": 120.66,
+"prob": 1.0
+},
+{
+"texto": "resultado",
+"ini": 120.66,
+"fim": 121.16,
+"prob": 1.0
+},
+{
+"texto": "de",
+"ini": 121.16,
+"fim": 121.48,
+"prob": 1.0
+},
+{
+"texto": "constância.",
+"ini": 121.48,
+"fim": 122.47,
+"prob": 0.998
+},
+{
+"texto": "Primeiro,",
+"ini": 122.5,
+"fim": 123.34,
+"prob": 0.996
+},
+{
+"texto": "você",
+"ini": 123.58,
+"fim": 123.66,
+"prob": 1.0
+},
+{
+"texto": "busca",
+"ini": 123.66,
+"fim": 123.92,
+"prob": 1.0
+},
+{
+"texto": "fazer",
+"ini": 123.92,
+"fim": 124.24,
+"prob": 1.0
+},
+{
+"texto": "uma",
+"ini": 124.24,
+"fim": 124.48,
+"prob": 1.0
+},
+{
+"texto": "base",
+"ini": 124.48,
+"fim": 124.96,
+"prob": 1.0
+},
+{
+"texto": "sólida,",
+"ini": 124.96,
+"fim": 125.7,
+"prob": 1.0
+},
+{
+"texto": "para",
+"ini": 125.88,
+"fim": 126.14,
+"prob": 0.837
+},
+{
+"texto": "daí",
+"ini": 126.14,
+"fim": 126.46,
+"prob": 0.999
+},
+{
+"texto": "sim,",
+"ini": 126.46,
+"fim": 126.88,
+"prob": 0.98
+},
+{
+"texto": "você",
+"ini": 127.08,
+"fim": 127.32,
+"prob": 0.997
+},
+{
+"texto": "buscar",
+"ini": 127.32,
+"fim": 128.0,
+"prob": 0.991
+},
+{
+"texto": "estratégias",
+"ini": 128.0,
+"fim": 129.36,
+"prob": 1.0
+},
+{
+"texto": "com",
+"ini": 129.36,
+"fim": 129.84,
+"prob": 0.995
+},
+{
+"texto": "intencionalidade",
+"ini": 129.84,
+"fim": 131.2,
+"prob": 0.999
+},
+{
+"texto": "de",
+"ini": 131.2,
+"fim": 131.72,
+"prob": 0.902
+},
+{
+"texto": "alcançar",
+"ini": 131.72,
+"fim": 132.32,
+"prob": 1.0
+},
+{
+"texto": "novos",
+"ini": 132.32,
+"fim": 132.78,
+"prob": 0.996
+},
+{
+"texto": "públicos.",
+"ini": 132.78,
+"fim": 133.44,
+"prob": 1.0
+},
+{
+"texto": "Tudo",
+"ini": 133.7,
+"fim": 134.24,
+"prob": 0.999
+},
+{
+"texto": "isso",
+"ini": 134.24,
+"fim": 134.56,
+"prob": 1.0
+},
+{
+"texto": "é",
+"ini": 134.56,
+"fim": 134.68,
+"prob": 1.0
+},
+{
+"texto": "uma",
+"ini": 134.68,
+"fim": 134.84,
+"prob": 1.0
+},
+{
+"texto": "pirâmide",
+"ini": 134.84,
+"fim": 135.48,
+"prob": 1.0
+},
+{
+"texto": "que",
+"ini": 135.48,
+"fim": 135.64,
+"prob": 0.995
+},
+{
+"texto": "você",
+"ini": 135.64,
+"fim": 135.9,
+"prob": 1.0
+},
+{
+"texto": "vai",
+"ini": 135.9,
+"fim": 136.12,
+"prob": 1.0
+},
+{
+"texto": "construindo",
+"ini": 136.12,
+"fim": 136.82,
+"prob": 0.999
+},
+{
+"texto": "aos",
+"ini": 136.82,
+"fim": 137.08,
+"prob": 0.999
+},
+{
+"texto": "poucos.",
+"ini": 137.08,
+"fim": 137.64,
+"prob": 1.0
+}
+]
