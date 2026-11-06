@@ -30,6 +30,9 @@
   Ajuste pedido pela Dra. Melissa (30-10-2026): linhas brancas finas no nariz e na mandíbula (curvas no antes, retas no
   depois) e pele suavizada de leve, igual nos dois (a Talyta escolheu, depois do aviso sobre retoque em antes e depois).
   A versão sem linhas foi pro `_ARQUIVO/POST 6 sem linhas.png`.
+  06-11-2026 · a cliente mandou o modelo final das marcas: só no nariz, em verde, pontilhado no antes e 3 traços no
+  depois (sem linhas na mandíbula). Feito igual ao desenho dela, mantendo a pele suavizada; as linhas brancas foram pro
+  `_ARQUIVO/POST 6 linhas brancas.png`. Um traço verde solto na touca do antes, no desenho dela, ficou de fora.
 - 30-10-2026 · Prévias feitas e não subidas (esperando a Talyta dizer onde vão): rapaz frente a frente com as duas
   mandíbulas inteiras e a moça em pé no modelo "um atrás do outro".
 

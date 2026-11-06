@@ -21,10 +21,11 @@ New-Item -ItemType Directory -Force "$pub\recortes" | Out-Null
 [Ferr]::SuavizaPele("$pub\fotos\post6-depois-perfil.webp", "$pub\recortes\post6-depois-perfil-suave.png", 0.9)
 [Ferr]::CenaSombra(@("$pub\recortes\post6-antes-perfil-suave.png", "$pub\recortes\post6-depois-perfil-suave.png"),
   [double[]]@(0.685, 14.3, 194.4, 0, 0, 0,  0.783, 333.8, 80.4, 0, 0, 0), 0.5, 180, $lg, 1020, 1170, "$ed\out\post6-base.png")
-# Linhas que a Dra. Melissa marcou (nariz e mandíbula): curvas no antes, retas no depois.
-$n = [double]::NaN
-$curvas = [double[]]@(160,552, 122,598, 88,640, 74,672, 84,700, $n, 455,720, 450,790, 425,840, 380,866, 330,876)
-$retas  = [double[]]@(515,498, 430,632, $n, 862,690, 812,808, 665,878)
-[Ferr]::Linhas("$ed\out\post6-base.png", $curvas, $retas, 3.2, "$ed\out\post6-rapaz.png")
+# Marcas no modelo que a Dra. Melissa mandou (06-11-2026), só no nariz, verde #36FDA1 medido no desenho dela:
+# pontilhado na frente do nariz do antes e 3 traços grossos acima do nariz do depois. (As linhas brancas de
+# nariz e mandíbula de 30-10 foram pro _ARQUIVO/POST 6 linhas brancas.png; o traço solto na touca do modelo ficou de fora.)
+$curva  = [double[]]@(177,577, 152,583.5, 136.5,592, 121.5,609.5, 103,631, 96.6,649.5, 86,670, 88.7,687, 93.5,702.6)
+$tracos = [double[]]@(497,542, 518,523,  467,570, 486,559,  430,591, 448,586)
+[Ferr]::Marcas("$ed\out\post6-base.png", $curva, 15.5, 2.2, $tracos, 7.5, "#36FDA1", "$ed\out\post6-rapaz.png")
 # Centralizado pelos rostos (nariz do antes até a orelha do depois), não pela touca: a ponta de trás da touca do
 # depois passa da borda direita (escolha da Talyta, 30-10-2026, entre isso e rostos 14% menores).
