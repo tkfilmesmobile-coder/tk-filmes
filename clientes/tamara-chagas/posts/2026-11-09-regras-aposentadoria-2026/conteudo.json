@@ -1,0 +1,12 @@
+{
+ "foto": "tamara/tamara-estudio-0081.jpg",
+ "foto_css": "left:330px;top:-60px;width:1150px",
+ "story_foto_css": "left:300px;top:360px;width:1180px;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 30%),linear-gradient(180deg,transparent 0px,#000 260px);-webkit-mask-composite:source-in",
+ "etiquetas": ["APOSENTADORIA", "INSS", "REGRAS 2026"],
+ "fino": "Pensando em se aposentar?",
+ "forte": "Em 2026, a regra mudou.",
+ "destaque": "Pra quem contribuía antes de nov/2019",
+ "lista_titulo": "REGRAS DE TRANSIÇÃO · MULHER · HOMEM",
+ "lista": [["Idade mínima", "59,5 · 64,5 anos"], ["ou soma de pontos", "93 · 103"], ["+ contribuição (nas duas)", "30 · 35 anos"]],
+ "fonte": "INSS · gov.br/inss · 02/01/2026 · EC 103/2019"
+}

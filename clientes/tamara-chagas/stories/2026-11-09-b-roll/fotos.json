@@ -1,0 +1,8 @@
+[
+ {"id": "01-boa-tarde", "foto": "b-roll/natal-2026-papai-noel.jpg", "kicker": "BOA TARDE", "pos": "baixo",
+  "texto": "A semana começou<br><b>com clima de Natal.</b>"},
+ {"id": "04-bastidores", "foto": "b-roll/equipe-07-recepcao-rapaz-b.jpg", "kicker": "BASTIDORES", "pos": "baixo", "posicao": "50% 30%",
+  "texto": "Por trás de cada atendimento,<br><b>uma equipe inteira.</b>"},
+ {"id": "08-ate-amanha", "foto": "b-roll/estrutura-02-prateleira.jpg", "kicker": "ATÉ AMANHÃ", "pos": "baixo",
+  "texto": "Amanhã, das 8h à 1h da tarde,<br><b>estamos aqui.</b>"}
+]

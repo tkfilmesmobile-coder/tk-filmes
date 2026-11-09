@@ -98,7 +98,18 @@
   maxi laço saiu escuro e com teto), árvore "5 metros", fachada "Assista no feed". Todos publicados (log em
   `stories/publicacao.log`). A cópia pro Drive falhou: o G: não estava montado no PC kumyt.
 
+- 2026-11-09 · **Feed + stories do dia, à tarde** (pedido da Talyta às 17h: "poste stories de hoje e feed", "arte para o
+  feed"). Sem vídeo editado na fila, saiu **arte das regras de aposentadoria 2026** (`posts/2026-11-09-regras-aposentadoria-2026/`,
+  padrão limpo, foto 0081; fonte INSS "Regras de aposentadoria mudam em 2026; entenda", 02/01/2026, EC 103/2019; a notícia
+  do 13º em novembro foi descartada: é de 2024, com datas daquele ano). Publicada no @dra.tamarachagas_ com colaboração do
+  @tamarachagas_prev (https://www.instagram.com/p/DfiKGeSHWGH/) e no TikTok. **Lote de 8 stories da tarde** no escritório
+  (`stories/2026-11-09-b-roll/`, 0 falhas): boa tarde com o Papai Noel, localização (preto 0670), fachada com música,
+  bastidores (foto IMG_0499, 1º uso), online (preto 0676), arte da aposentadoria, Natal "o vídeo oficial está no feed",
+  até amanhã com o horário. Música: a do vídeo do Natal (o piano padrão não está no PC kumyt). Drive montado como H:.
+
 ## Em aberto
+- **Fila de vídeos vazia (09/11):** não há Reels editado pra semana de 09 a 13/11. Precisa de bruto novo (ou o episódio
+  3 da feira / "Trabalhador rural" do PC do escritório). (2026-11-09)
 - **Meta da semana (02 a 06/11): 3 de 5** (Novembro Azul 03/11, vídeo oficial do Natal 05/11 7h, salário-maternidade
   05/11 16h). Qua 04/11 ficou sem post; sex 06/11 livre (feira EP3 ou "Trabalhador rural", só no PC do escritório). (2026-11-03)
 - **Conectar o @tamarachagas_prev na Post for Me** pra agendar os 4 stories do escritório de cada Reels. (2026-11-03)

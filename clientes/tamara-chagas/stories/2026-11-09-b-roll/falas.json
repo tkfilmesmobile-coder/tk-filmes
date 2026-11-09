@@ -1,0 +1,17 @@
+[
+ {"id": "02-localizacao", "bruto": "FALA_preto_dentro_atendimento-online-localizacao_01.MOV", "kicker": "ONDE ESTAMOS",
+  "trechos": [[9.35, 14.8]],
+  "linhas": [
+   [["Para", 9.52], ["quem", 9.66], ["não", 9.84], ["sabe,", 10.0]],
+   [["a", 10.18], ["nossa", 10.32], ["localização:", 10.5]],
+   [["nós", 11.6], ["ficamos", 11.8], ["localizados", 11.98], ["aqui", 12.6]],
+   [["no", 13.22], ["Centro", 13.4], ["de", 13.74], ["União", 13.82], ["dos", 13.98], ["Palmares.", 14.14]]
+  ]},
+ {"id": "05-online", "bruto": "FALA_preto_presencial-e-online_04.MOV", "kicker": "ATENDIMENTO ONLINE",
+  "trechos": [[0.0, 4.8]],
+  "linhas": [
+   [["Só", 0.0], ["lembrando", 0.16], ["que", 0.56], ["nossos", 0.74], ["atendimentos", 0.96]],
+   [["são", 1.56], ["presenciais,", 1.76]],
+   [["mas", 2.76], ["também", 2.86], ["temos", 3.16], ["atendimentos", 3.52], ["online.", 4.08]]
+  ]}
+]

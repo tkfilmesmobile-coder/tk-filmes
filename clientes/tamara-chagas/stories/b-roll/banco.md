@@ -10,12 +10,12 @@ A coluna "usado" serve pra escolher o que está há mais tempo sem sair.
 ## Falas (pasta 04) · trechos já conferidos (só a fala aprovada; tempos do bruto)
 | quem | arquivo | trecho bom | fala exata | usado |
 |---|---|---|---|---|
-| preto | FALA_preto_dentro_..._01 (0670) | 0–9,3 s · **só o bom dia: 0–4,5 s** (silêncio 4,25–4,75; "Só lembrando" em 4,8) | "Bom dia, passando para avisar que já iniciamos nossos atendimentos aqui no escritório. Só lembrando que nossos atendimentos são presenciais e também online." | 21/10, 22/10, 29/10, 03/11 (bom dia) |
+| preto | FALA_preto_dentro_..._01 (0670) | 0–9,3 s · **só o bom dia: 0–4,5 s** (silêncio 4,25–4,75; "Só lembrando" em 4,8) | "Bom dia, passando para avisar que já iniciamos nossos atendimentos aqui no escritório. Só lembrando que nossos atendimentos são presenciais e também online." | 21/10, 22/10, 29/10, 03/11 (bom dia), 09/11 (localização) |
 | preto | FALA_preto_fachada_horario_02 (0674) · **só o horário** | **4,1–7,6 s** (o começo tem "o nosso atendimento… já iniciaram": erro de fala, não usar) | "Horário de funcionamento, de 8h da manhã a 1h da tarde." | 03/11 |
 | preto | FALA_preto_dentro_..._01 (0670) · **localização** | **9,35–14,8 s** (silêncio antes e depois, sem emenda; fundo de porta, sem documento; conferido com o `medium`) | "Para quem não sabe, a nossa localização: nós ficamos localizados aqui no Centro de União dos Palmares." | 30/10 |
 | preto | FALA_preto_fachada_horario_02 (0674) | 4,3–7,6 s (o começo, 0–4 s, tem "Bom dia, passando para informar que o nosso atendimento aqui no escritório já é iniciado") | "Horário de funcionamento, de 8h da manhã a 1h da tarde." | 22/10, 27/10, 29/10 (inteiro) |
 | preto | FALA_preto_fachada-rua_localizacao_03 (0675) | 0–5,5 s + 7,55–10,77 s (sem o nome da rua; termina mostrando a rua) | "E para quem não sabe, nossa localização, ficamos localizados aqui no Centro de União dos Palmares, número 268, próximo ao Aquarius." | 22/10 (rua), 27/10, 29/10 |
-| preto | FALA_preto_presencial-e-online_04 (0676) | 0–4,8 s | "Só lembrando que nossos atendimentos são presenciais, mas também temos atendimentos online." | 28/10, 29/10 |
+| preto | FALA_preto_presencial-e-online_04 (0676) | 0–4,8 s | "Só lembrando que nossos atendimentos são presenciais, mas também temos atendimentos online." | 28/10, 29/10, 09/11 |
 | branco | FALA_branco_entrada_horario_05 (0677) | 1,8–6,97 s (sem o "bom dia": 2,62–6,97 s) | "Bom dia, nosso atendimento já começou aqui no escritório, de 8h da manhã até 1h da tarde." | 28/10, 30/10 (sem o bom dia) |
 | branco (Salles) | FALA_branco_..._whatsapp_06 (0678) | **NÃO USAR a localização** (30/10: a Talyta apagou). Só sai sem a rua emendando 7,0–8,41 + 11,7–13,92 s, e a emenda fica com cara de erro; a frase inteira (7,05–15,5 s) tem "é…" arrastado e o nome da rua e da clínica não confirmados | "A nossa localização é aqui na Rua Dr. Antônio A…, número 268, Centro, de frente à Clínica …" | 28/10, 30/10 (apagado) |
 | Rita | FALA_moca_mesa_..._07 (0686) | **5,25–8,38 s** (até 5,2 s ela está sentada e o som é o fim da tentativa anterior; "lembrando" começa em 8,72) | "Bom dia! Já iniciamos o nosso atendimento." | 27/10, 30/10 (v1 apagado; v2 com 5,25–8,38 no ar) |
@@ -34,7 +34,7 @@ O 0678 também tem horário (0–6,7 s) e online/WhatsApp (15,96–25,1 s), mas 
 | produção | 02 | só até 6 s (documento na tela) | 21/10 |
 | recepção, parede do logo (IMG_0494, chegou 27/10) | 02 | até 9 s; depois aparece pessoa não identificada | still em 28/10 |
 | recepção cheia (4) + cliente de rosto visível (IMG_0493, 27/10) | 03 | só com autorização | não |
-| fachada | 05 | — | 21 e 22/10 |
+| fachada (LOCAL_fachada_01, 0,2–5,6 s) | 05 | — | 21 e 22/10, 09/11 |
 
 ## Fotos (`marca/fotos/b-roll/`)
 | foto | origem | usado |
@@ -48,7 +48,8 @@ O 0678 também tem horário (0–6,7 s) e online/WhatsApp (15,96–25,1 s), mas 
 | equipe-04-dupla-papeis-a (IMG_0495) | 06, 27/10 | não |
 | equipe-05-dupla-papeis-b (IMG_0497) | 06, 27/10 | 28/10 |
 | equipe-06-recepcao-rapaz-a (IMG_0498) | 06, 27/10 | 30/10 |
-| equipe-07-recepcao-rapaz-b (IMG_0499) | 06, 27/10 | não |
+| equipe-07-recepcao-rapaz-b (IMG_0499) | 06, 27/10 | 09/11 |
+| natal-2026-papai-noel (quadro da câmera lenta do vídeo oficial) | vídeo oficial do Natal, 05/11 | 09/11 (boa tarde) |
 | equipe-08-recepcao-logo (quadro do IMG_0494) | 02, 27/10 | 28/10 |
 
 Pendente: nome certo da rua e da clínica em frente (as falas dizem "Rua Dr. Antônio A…, 268, Centro, em frente à
