@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Clareamento · Dra. Anna Líbya Duarte</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400;1,6..96,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Post de feed 1080x1350 (2026-11-10): clareamento e seus benefícios. A Talyta pediu imagem clara: foto
+     IDENTIDADE VISUAL/FOTOS/DSC09653 (blazer branco, fundo cinza-claro), só cortada numa faixa vertical à direita
+     (ela fica no centro da foto, sem espaço livre ao lado); texto no painel claro à esquerda, nada sobre ela.
+     CFO: benefício informativo, sem promessa de resultado, sem antes e depois, sem preço; nome + CRO. */
+  :root { --fundo: #F3EFE9; --tinta: #1F1B18; --suave: #3A332D; --champanhe: #8A6A3C; }  /* mais escuro: a cliente pediu letras com mais destaque (2026-11-10) */
+  html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; background: var(--fundo); color: var(--tinta); }
+  .foto { position: absolute; right: 0; top: 0; width: 600px; height: 1350px; background: url(foto.jpg) center/cover; }
+  .chip { position: absolute; left: 60px; top: 64px; display: flex; align-items: center; gap: 14px; }
+  .chip img { height: 44px; }
+  .chip .n { font: 700 19px Montserrat; }
+  .chip .c { font: 500 15px Montserrat; color: var(--suave); }
+  .kicker { position: absolute; left: 62px; top: 246px; font: 700 18px Montserrat; letter-spacing: .32em; text-transform: uppercase; color: var(--champanhe); }
+  .titulo { position: absolute; left: 54px; top: 282px; font: italic 600 72px/1 'Bodoni Moda'; letter-spacing: -0.02em; }
+  .sub { position: absolute; left: 62px; top: 392px; width: 370px; font: 500 23px/1.45 Montserrat; color: var(--suave); }
+  ul { position: absolute; left: 60px; top: 560px; width: 370px; margin: 0; padding: 0; list-style: none; }
+  li { display: flex; gap: 16px; padding: 28px 0; border-top: 1px solid rgba(31,27,24,.3); font: 700 25px/1.35 Montserrat; }
+  li:last-child { border-bottom: 1px solid rgba(31,27,24,.3); }
+  li span { font: 700 17px/2.1 Montserrat; letter-spacing: .08em; color: var(--champanhe); min-width: 30px; }
+  .cta { position: absolute; left: 62px; bottom: 70px; font: 700 17px/1.9 Montserrat; letter-spacing: .26em; text-transform: uppercase; }
+  .cta small { display: block; font: 700 15px Montserrat; letter-spacing: .2em; color: var(--champanhe); }
+</style>
+</head>
+<body>
+  <div class="foto"></div>
+  <div class="chip">
+    <img src="../../../marca/dente-champanhe-transparente.png" alt="">
+    <div><div class="n">Dra. Anna Líbya Duarte</div><div class="c">CRO/AL 3773</div></div>
+  </div>
+  <div class="kicker">Benefícios do</div>
+  <div class="titulo">Clareamento</div>
+  <div class="sub">o seu sorriso mais claro, com segurança.</div>
+  <ul>
+    <li><span>01</span>Sorriso mais claro e iluminado</li>
+    <li><span>02</span>Mais confiança para sorrir</li>
+    <li><span>03</span>Seguro com indicação profissional</li>
+    <li><span>04</span>Começa com a avaliação do seu sorriso</li>
+  </ul>
+  <div class="cta">Agende sua avaliação<small>pelo link da bio</small></div>
+</body>
+</html>

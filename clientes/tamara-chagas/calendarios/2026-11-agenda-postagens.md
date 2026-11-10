@@ -21,6 +21,7 @@ quadro da feira · vlog). Os stories diários das 8h no @tamarachagas_prev conti
 | dia | feed | formato | situação | id na Post for Me |
 |---|---|---|---|---|
 | seg 09/11 | **Arte: regras de aposentadoria 2026** (`posts/2026-11-09-regras-aposentadoria-2026/`, fonte INSS 02/01/2026) | post de imagem | **publicado ~17h15**: https://www.instagram.com/p/DfiKGeSHWGH/ (sem vídeo editado na fila; a Talyta pediu "arte para o feed") · **+ TikTok** `sp_EAjLzeft34GNgQIaVRz2h` · + lote de 8 stories da tarde no escritório (`stories/2026-11-09-b-roll/`) | `sp_P20eg1KZJ6d8BJzA8kOgK` |
+| ter 10/11 | **Arte: aposentadoria por idade rural** (`posts/2026-11-10-aposentadoria-rural/`, fonte INSS 09/11/2026) | post de imagem | **publicado ~9h**: https://www.instagram.com/p/Dfj2fGMEfwy/ · TikTok pendente (sem chave da Post for Me no PC do escritório) · + lote de 8 stories da manhã (`stories/2026-11-10-b-roll/`) | — |
 
 O Novembro Azul substituiu o vídeo do feed de 03/11. O salário-maternidade não foi pra quarta porque seriam dois dias
 seguidos de Tamara pra câmera.

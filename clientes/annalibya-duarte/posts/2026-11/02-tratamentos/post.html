@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Tratamentos · Dra. Anna Líbya</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Post de feed 1080x1350 (2026-11-10), na linha da referência que a Talyta mandou (Pinterest, "Dra. Jéssica Lopes,
+     Prazer!"): foto ocupando tudo, título em caixa alta numa serifa de contraste na faixa livre ao lado dela.
+     Foto: IDENTIDADE VISUAL/FOTOS/DSC09693 (só cortada em 4:5). Texto só na faixa livre à esquerda (x < 370).
+     Lista = a do outdoor de 2026-11-04; CFO: "clínica geral" antes dos procedimentos, nome + CRO, sem preço. */
+  :root { --tinta: #2A2622; --suave: rgba(42,38,34,.72); }
+  html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; background: #ddd; color: var(--tinta); }
+  .foto { position: absolute; inset: 0; background: url(foto.jpg) center/cover; }
+  .chip { position: absolute; left: 66px; top: 52px; display: flex; align-items: center; gap: 14px; }
+  .chip img { height: 42px; }
+  .chip .n { font: 600 18px Montserrat; }
+  .chip .c { font: 400 14px Montserrat; color: var(--suave); }
+  h1 { position: absolute; left: 62px; top: 120px; margin: 0; font: 400 80px/1 'Bodoni Moda'; text-transform: uppercase; letter-spacing: -0.01em; }
+  .col { position: absolute; left: 66px; top: 316px; width: 318px; }
+  .sub { font: italic 400 34px 'Bodoni Moda'; }
+  ul { margin: 20px 0 0; padding: 0; list-style: none; }
+  /* nomes dos procedimentos maiores e escuros (pedido da cliente, 2026-11-10) */
+  li { font: 600 25px/1.8 Montserrat; color: var(--tinta); white-space: nowrap; border-bottom: 1px solid rgba(42,38,34,.22); }
+  .cta { margin-top: 26px; font: 600 14px Montserrat; letter-spacing: .2em; text-transform: uppercase; white-space: nowrap; }
+</style>
+</head>
+<body>
+  <div class="foto"></div>
+  <div class="chip">
+    <img src="../../../marca/dente-champanhe-transparente.png" alt="">
+    <div><div class="n">Dra. Anna Líbya Duarte</div><div class="c">CRO/AL 3773</div></div>
+  </div>
+  <h1>Tudo em um<br>só lugar</h1>
+  <div class="col">
+    <div class="sub">para o seu sorriso.</div>
+    <ul>
+      <li>Clínica geral</li>
+      <li>Limpeza</li>
+      <li>Restauração</li>
+      <li>Clareamento</li>
+      <li>Tratamento de canal</li>
+      <li>Prótese</li>
+      <li>Implante</li>
+      <li>Ortodontia</li>
+    </ul>
+    <div class="cta">Agende pelo link da bio</div>
+  </div>
+</body>
+</html>

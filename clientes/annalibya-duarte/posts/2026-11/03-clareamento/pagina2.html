@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Clareamento · antes e depois</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Página 2 do post de clareamento (2026-11-10), na estética da referência que a Talyta mandou (antes em cima,
+     depois embaixo, frase no meio). Fotos enviadas pela Talyta em 2026-11-10, só separadas e redimensionadas, sem
+     edição de cor ou luz (CFO, Res. 196/2019: diagnóstico e conclusão, do próprio dentista, com TCLE, sem identificar).
+     Sem "condições especiais": CFO proíbe preço/condição/pagamento na publicidade (Código, art. 44, I). */
+  :root { --fundo: #F3EFE9; --tinta: #2A2622; --suave: rgba(42,38,34,.72); --champanhe: #B89B6E; }
+  html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; background: var(--fundo); color: var(--tinta); }
+  .ft { position: absolute; left: 0; width: 1080px; height: 533px; background-size: cover; background-position: center; }
+  .antes { top: 0; background-image: url(antes.png); }
+  .depois { top: 817px; background-image: url(depois.png); }
+  .rotulo { position: absolute; left: 40px; padding: 10px 20px; background: var(--fundo); font: 600 15px Montserrat;
+            letter-spacing: .3em; text-transform: uppercase; }
+  .r1 { top: 40px; } .r2 { top: 857px; }
+  .meio { position: absolute; left: 0; right: 0; top: 533px; height: 284px; display: flex; flex-direction: column;
+          align-items: center; justify-content: center; text-align: center; }
+  .frase { font: 400 33px/1.3 Montserrat; }
+  .frase b { font-weight: 600; }
+  .frase i { font: italic 400 40px 'Bodoni Moda'; }
+  .cta { margin-top: 20px; font: 600 15px Montserrat; letter-spacing: .26em; text-transform: uppercase; color: var(--champanhe); }
+  .assina { position: absolute; left: 0; right: 0; bottom: 26px; text-align: center; font: 500 15px Montserrat; letter-spacing: .14em;
+            color: #fff; text-shadow: 0 1px 6px rgba(0,0,0,.55); }
+</style>
+</head>
+<body>
+  <div class="ft antes"></div>
+  <div class="rotulo r1">Antes</div>
+  <div class="meio">
+    <div class="frase">Quem quer chegar em <b>dezembro</b><br>com os dentes <b>mais claros</b> precisa<br><i>começar a se planejar agora.</i></div>
+    <div class="cta">Agende sua avaliação pelo link da bio</div>
+  </div>
+  <div class="ft depois"></div>
+  <div class="rotulo r2">Depois</div>
+  <div class="assina">Dra. Anna Líbya Duarte · Cirurgiã-dentista · CRO/AL 3773</div>
+</body>
+</html>

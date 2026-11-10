@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Quem sou eu · Dra. Anna Líbya</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Post de feed 1080x1350 (2026-11-10), na linha da referência que a Talyta mandou (Pinterest, "Prazer, Dra. Paula
+     Pascutti"): foto dela ocupando tudo, nome enorme em serifa itálica branca sobre a roupa preta, quase nenhum texto.
+     Foto: IDENTIDADE VISUAL/FOTOS/DSC09442 (só cortada no formato 4:5, sem mexer). Texto fora do rosto. */
+  html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; background: #111; }
+  .foto { position: absolute; inset: 0; background: url(foto.jpg) center/cover; }
+  .marca { position: absolute; left: 64px; top: 64px; display: flex; align-items: center; gap: 18px; color: #F3ECE2; }
+  .marca img { height: 54px; }
+  .marca .nome { font: 400 26px/1.1 'Bodoni Moda'; }
+  .marca .sep { width: 1px; height: 46px; background: rgba(243,236,226,.6); }
+  .marca .prof { font: 500 13px Montserrat; letter-spacing: .28em; text-transform: uppercase; }
+  .nome-grande { position: absolute; right: 64px; top: 446px; color: #fff; text-align: right; }
+  .prazer { font: italic 400 44px 'Bodoni Moda'; margin-right: 10px; }
+  .anna, .libya { font: italic 400 168px/0.92 'Bodoni Moda'; letter-spacing: -0.02em; }
+  .anna { margin-right: 150px; }
+  /* texto da fala dela no vídeo de apresentação (edicao/2026-10-28/analise/v41-transcricao.json), na faixa preta
+     à direita: blazer e fundo escuro, sem rosto nem mãos (a pulseira termina em x ~ 700) */
+  .sobre { position: absolute; left: 728px; right: 60px; top: 838px; font: 400 19px/1.6 Montserrat; color: #EDE6DB; }
+  .sobre b { font-weight: 600; color: #fff; }
+  .sobre .fio { width: 70px; height: 1px; background: #C9AE84; margin-bottom: 20px; }
+  .prof-grande { position: absolute; left: 728px; right: 60px; top: 1214px; font: 500 15px Montserrat; letter-spacing: .26em;
+                 text-transform: uppercase; color: #C9AE84; line-height: 1.7; }
+</style>
+</head>
+<body>
+  <div class="foto"></div>
+  <div class="marca">
+    <img src="../../../marca/dente-champanhe-transparente.png" alt="">
+    <div class="nome">Anna Líbya<br>Duarte</div>
+    <div class="sep"></div>
+    <div class="prof">Odontologia</div>
+  </div>
+  <div class="nome-grande">
+    <div class="prazer">Prazer, Dra.</div>
+    <div class="anna">Anna</div>
+    <div class="libya">Líbya</div>
+  </div>
+  <div class="sobre">
+    <div class="fio"></div>
+    Sou cirurgiã-dentista há <b>12 anos</b> e especialista em <b>endodontia</b>, o tratamento de canal. Mas aqui eu cuido de muito mais: atendo <b>da criança ao idoso</b>, com o seu tratamento completo em um só lugar. Sei que é comum ter medo de dentista, por isso quero que você se sinta <b>à vontade</b> comigo.
+  </div>
+  <div class="prof-grande">Cirurgiã-dentista<br>CRO/AL 3773</div>
+</body>
+</html>

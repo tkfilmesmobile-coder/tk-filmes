@@ -1,0 +1,10 @@
+[
+ {"id": "02-bastidores", "foto": "b-roll/equipe-03-dupla.jpg", "kicker": "BASTIDORES", "pos": "baixo",
+  "texto": "Terça-feira de casa cheia<br><b>e equipe a postos.</b>"},
+ {"id": "04-pericia", "foto": "stock/enfermeira-sorrindo-pexels-4930705.jpg", "kicker": "NOVIDADE DO INSS", "pos": "baixo",
+  "texto": "Perícia por vídeo,<br><b>dentro da agência.</b>",
+  "sub": "Já são <b>900 agências</b> do INSS com a Perícia Conectada, feita por videochamada com apoio de um servidor.",
+  "fonte": "Agência Gov, com informações do INSS · 09/11/2026"},
+ {"id": "08-ate-amanha", "foto": "b-roll/estrutura-01-vaso.jpg", "kicker": "ATÉ AMANHÃ", "pos": "baixo",
+  "texto": "Amanhã, das 8h à 1h da tarde,<br><b>estamos aqui.</b>"}
+]

@@ -1,4 +1,4 @@
-﻿# Tamara Chagas Advocacia · andamento
+# Tamara Chagas Advocacia · andamento
 
 ## Entregue
 - 2026-09-28 · Instagram do escritório (@tamarachagas_prev) e pessoal (@dra.tamarachagas_)
@@ -106,6 +106,17 @@
   (`stories/2026-11-09-b-roll/`, 0 falhas): boa tarde com o Papai Noel, localização (preto 0670), fachada com música,
   bastidores (foto IMG_0499, 1º uso), online (preto 0676), arte da aposentadoria, Natal "o vídeo oficial está no feed",
   até amanhã com o horário. Música: a do vídeo do Natal (o piano padrão não está no PC kumyt). Drive montado como H:.
+
+- 2026-11-10 · **Feed + stories do dia, de manhã, pelo PC do escritório** (pedido da Talyta: "postar stories de hoje e post
+  no feed baseado em alguma notícia que saiu de ontem para hoje nos canais oficiais"). Feed: **arte da aposentadoria por idade
+  rural** (`posts/2026-11-10-aposentadoria-rural/`, padrão limpo, foto 0110; fonte INSS "Benefícios rurais do INSS garantem
+  R$ 1,47 bilhão a famílias do Maranhão, em outubro", 09/11/2026: 55/60 anos, em geral 180 meses de atividade rural, um salário
+  mínimo). Publicada às 9h no @dra.tamarachagas_ com colaboração do @tamarachagas_prev (https://www.instagram.com/p/Dfj2fGMEfwy/).
+  **TikTok não saiu:** este PC não tem a POSTFORME_API_KEY no `.env`. **Lote de 8 stories** no escritório
+  (`stories/2026-11-10-b-roll/`, 9h04–9h11, 0 falhas): bom dia da Rita, bastidores (dupla), horário (branco), novidade
+  "Perícia Conectada em 900 agências" (Agência Gov/INSS 09/11, foto de banco da enfermeira), localização (preto 0675, só
+  0–5,5 s), arte do feed, recepção com música (piano padrão), até amanhã (vaso). A foto do teclado foi descartada: tela de
+  conversa ao fundo.
 
 ## Em aberto
 - **Fila de vídeos vazia (09/11):** não há Reels editado pra semana de 09 a 13/11. Precisa de bruto novo (ou o episódio

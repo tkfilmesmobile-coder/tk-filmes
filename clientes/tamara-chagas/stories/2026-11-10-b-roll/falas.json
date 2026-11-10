@@ -1,0 +1,23 @@
+[
+ {"id": "01-bom-dia", "bruto": "FALA_moca_mesa_bom-dia-incompleto_07.MOV", "kicker": "BOM DIA",
+  "trechos": [[5.25, 8.38]],
+  "linhas": [
+   [["Bom", 5.3], ["dia!", 5.5]],
+   [["Já", 6.32], ["iniciamos", 6.5], ["o", 7.02], ["nosso", 7.1], ["atendimento.", 7.32]]
+  ]},
+ {"id": "03-horario", "bruto": "FALA_branco_entrada_horario_05.MOV", "kicker": "HORÁRIO DE ATENDIMENTO",
+  "trechos": [[2.62, 6.97]],
+  "linhas": [
+   [["Nosso", 2.74], ["atendimento", 2.88], ["já", 3.42], ["começou", 3.66]],
+   [["aqui", 4.08], ["no", 4.3], ["escritório,", 4.4]],
+   [["de", 5.2], ["8h", 5.36], ["da", 5.7], ["manhã", 5.75], ["até", 6.12], ["1h", 6.34], ["da", 6.58], ["tarde.", 6.64]]
+  ]},
+ {"id": "05-localizacao", "bruto": "FALA_preto_fachada-rua_localizacao_03.MOV", "kicker": "ONDE ESTAMOS",
+  "trechos": [[0.0, 5.5]],
+  "linhas": [
+   [["E", 0.0], ["para", 0.08], ["quem", 0.22], ["não", 0.44], ["sabe,", 0.54]],
+   [["nossa", 1.18], ["localização:", 1.38]],
+   [["ficamos", 2.46], ["localizados", 2.86], ["aqui", 3.56]],
+   [["no", 3.82], ["Centro", 3.98], ["de", 4.3], ["União", 4.52], ["dos", 4.7], ["Palmares.", 4.82]]
+  ]}
+]
