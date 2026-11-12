@@ -1,0 +1,163 @@
+[
+ {
+  "id": "01-n-bolas",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\reels\\2026-11-natal-oficial\\edicao\\public\\g-IMG_7304.mp4",
+  "a": 21.7,
+  "b": 26.9,
+  "cx": 0.47,
+  "estilo": "titulo",
+  "titulo": "Bom dia",
+  "linha": "o Natal já chegou ao escritório",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\natal-philadelphia-orchestra.mp3",
+  "trilha_ini": 36
+ },
+ {
+  "id": "02-n-arvore-base",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\reels\\2026-11-natal-oficial\\edicao\\public\\g-IMG_7302.mp4",
+  "a": 1.0,
+  "b": 6.0,
+  "cx": 0.44,
+  "estilo": "titulo",
+  "titulo": "Bom dia",
+  "linha": "o Natal já chegou ao escritório",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\natal-philadelphia-orchestra.mp3",
+  "trilha_ini": 3
+ },
+ {
+  "id": "03-f-drone-lateral",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\reels\\2026-11-natal-oficial\\stories\\_lento\\e4-fachada-lento.mp4",
+  "a": 0,
+  "b": 5.5,
+  "estilo": "titulo",
+  "titulo": "Bom dia",
+  "linha": "o Natal já chegou ao escritório",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\natal-philadelphia-orchestra.mp3",
+  "trilha_ini": 16
+ },
+ {
+  "id": "04-e-foto-prateleira",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\fotos\\b-roll\\estrutura-02-prateleira.jpg",
+  "dur": 4.5,
+  "estilo": "local",
+  "pre": "Equipe",
+  "grande": "a postos",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\chill-rnb-danyvin-pixabay.mp3",
+  "trilha_ini": 38
+ },
+ {
+  "id": "05-e-detalhes-sala",
+  "src": "H:/Meu Drive/Tamara Chagas/CONTEÚDO/B-ROLL/01_ESTRUTURA-DETALHES/ESTRUTURA_detalhes-sala-producao_01.MOV",
+  "a": 0,
+  "b": 5.4,
+  "estilo": "local",
+  "pre": "Equipe",
+  "grande": "a postos",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\chill-rnb-danyvin-pixabay.mp3",
+  "trilha_ini": 51
+ },
+ {
+  "id": "06-r-foto-rapaz-a",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\fotos\\b-roll\\equipe-06-recepcao-rapaz-a.jpg",
+  "dur": 4.5,
+  "estilo": "titulo",
+  "titulo": "",
+  "linha": "a nossa recepção<br>está pronta pra você",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\chill-rnb-danyvin-pixabay.mp3",
+  "trilha_ini": 64
+ },
+ {
+  "id": "07-v-eiffel-casal",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\fotos\\viagem\\2026-11-07_feed_18024750734931241-18019084502747188.jpg",
+  "dur": 4.5,
+  "estilo": "titulo",
+  "titulo": "De longe",
+  "linha": "mas sempre presente",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\fresh-bransboynd-pixabay.mp3",
+  "trilha_ini": 22
+ },
+ {
+  "id": "08-v-arco",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\fotos\\viagem\\2026-11-07_feed_18024750734931241-18102286610419582.jpg",
+  "dur": 4.5,
+  "y": 1560,
+  "estilo": "titulo",
+  "titulo": "",
+  "linha": "por aqui, o atendimento continua<br>com a excelência de sempre",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\fresh-bransboynd-pixabay.mp3",
+  "trilha_ini": 35
+ },
+ {
+  "id": "09-e-foto-dupla",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\fotos\\b-roll\\equipe-03-dupla.jpg",
+  "dur": 4.5,
+  "estilo": "local",
+  "pre": "Cuidado",
+  "grande": "em cada caso",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\chill-rnb-danyvin-pixabay.mp3",
+  "trilha_ini": 103
+ },
+ {
+  "id": "10-n-lento-veludo",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\reels\\2026-11-natal-oficial\\stories\\_lento\\p2-veludo-lento.mp4",
+  "a": 0,
+  "b": 5.5,
+  "estilo": "titulo",
+  "titulo": "",
+  "linha": "feito à mão,<br>com muito carinho",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\natal-philadelphia-orchestra.mp3",
+  "trilha_ini": 15
+ },
+ {
+  "id": "11-v-eiffel-noite",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\fotos\\viagem\\2026-11-09_feed_18028015730921976.jpg",
+  "dur": 4.5,
+  "estilo": "titulo",
+  "titulo": "Pode contar",
+  "linha": "com a nossa equipe",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\fresh-bransboynd-pixabay.mp3",
+  "trilha_ini": 74
+ },
+ {
+  "id": "12-fd-logo",
+  "src": "H:/Meu Drive/Tamara Chagas/CONTEÚDO/B-ROLL/05_LOCALIZACAO-FACHADA-RUA/LOCAL_fachada_01.MOV",
+  "a": 0.2,
+  "b": 5.6,
+  "estilo": "local",
+  "pre": "Estamos no Centro de",
+  "grande": "União dos Palmares",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\chill-rnb-danyvin-pixabay.mp3",
+  "trilha_ini": 142
+ },
+ {
+  "id": "13-e-foto-maos",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\fotos\\b-roll\\equipe-02-maos.jpg",
+  "dur": 4.5,
+  "estilo": "titulo",
+  "titulo": "Atendimento",
+  "linha": "das 8h à 1h da tarde · presencial e online",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\chill-rnb-danyvin-pixabay.mp3",
+  "trilha_ini": 10
+ },
+ {
+  "id": "14-n-lento-arvore",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\reels\\2026-11-natal-oficial\\stories\\_lento\\e3-arvore-lento.mp4",
+  "a": 0,
+  "b": 5.5,
+  "estilo": "titulo",
+  "titulo": "",
+  "linha": "venha ver de pertinho<br>o nosso Natal",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\natal-philadelphia-orchestra.mp3",
+  "trilha_ini": 21
+ },
+ {
+  "id": "15-f-drone-frente",
+  "src": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\reels\\2026-11-natal-oficial\\stories\\_lento\\p3-fachada-lento.mp4",
+  "a": 0,
+  "b": 5.0,
+  "estilo": "titulo",
+  "titulo": "Até amanhã",
+  "linha": "seguimos juntos",
+  "musica": "C:\\Users\\kumyt\\Documents\\Projeto TK FILMES\\TK FILMES\\clientes\\tamara-chagas\\marca\\audio\\natal-philadelphia-orchestra.mp3",
+  "trilha_ini": 34
+ }
+]

@@ -14,6 +14,10 @@ function Linha([string]$t) { "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] (PC ku
 if (-not (Test-Path "$pasta/ordem.txt")) { Linha "SEM STORIES: $pasta/ordem.txt não existe"; exit 1 }
 if (Test-Path "$pasta/.publicado") { Linha "$Data já publicado antes; nada a fazer"; exit 0 }
 if (-not $Forcar -and (Get-Date).Hour -ge 11) { Linha "${Data}: PC ligou depois das 11h; lote não publicado (abre com bom dia)"; exit 1 }
+# trava (12/11/2026): a rotina das 7h30 e esta tarefa das 8h nunca publicam o mesmo lote ao mesmo tempo
+$trava = "$pasta/.publicando"
+if ((Test-Path $trava) -and ((Get-Date) - (Get-Item $trava).LastWriteTime).TotalHours -lt 2) { Linha "$Data já está sendo publicado por outra rotina; nada a fazer"; exit 0 }
+"$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" | Out-File $trava -Encoding utf8
 
 # o PC às vezes acorda sem internet: espera a conexão com o Instagram (até 15 min)
 for ($w = 0; $w -lt 30; $w++) {

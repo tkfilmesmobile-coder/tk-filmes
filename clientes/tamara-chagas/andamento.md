@@ -118,7 +118,31 @@
   0–5,5 s), arte do feed, recepção com música (piano padrão), até amanhã (vaso). A foto do teclado foi descartada: tela de
   conversa ao fundo.
 
+- 2026-11-12 · **REGRA IMUTÁVEL + stories e feed automáticos** (Talyta: "os stories não estão saindo automaticamente…
+  às 7h30 da manhã, todos os dias úteis"; "todos os dias feed, independente de ter vídeo"; "sempre do perfil profissional
+  para o pessoal"; "torne isso uma regra imutável"; "no mínimo 15 stories por dia"; "não quero mais as falas de bom dia
+  e localização"; "baixe vídeos da viagem da doutora"). Por que falhou: a tarefa das 8h só publica lote pronto e ninguém
+  produziu os de 10, 11 e 12/11 no PC kumyt. **Modelo:** a sequência que ela postou à mão em 11/11 (gravação em
+  `stories/auto/modelo-2026-11-11.mp4`). Feito: `modelos/stories_modelo.py` (layout do modelo), `modelos/stories_dia.py`
+  (lote de 15+ do banco conferido `stories/auto/banco.json`, rodízio sem repetir o dia anterior), `modelos/baixar_viagem.mjs`
+  (32 mídias do perfil pessoal desde 01/11 em `marca/fotos/viagem/`; da viagem entram 2 trechos do barco em Veneza e 4 fotos;
+  Florença e Disney ficaram de fora por terem texto gravado; 3 stories dela não vêm pela API, música da biblioteca),
+  `modelos/rotina-diaria.ps1` (feed + stories, com reserva) e a tarefa do app "Tamara · stories + feed 7h30".
+  **Hoje:** feed "Benefício Lei Maria da Penha" (MPS 09/10/2026, Portaria Conjunta 48) no @tamarachagas_prev com convite
+  de colaboração ao @dra.tamarachagas_ (https://www.instagram.com/p/DfpbV0SETwQ/) + TikTok; lote de 16 stories da tarde
+  (boa tarde) no modelo novo. **Reserva do feed:** Perícia Conectada (MPS 06/11) e auxílio-acidente (Lei 8.213, art. 86).
+  Músicas novas em `marca/audio/` (Pixabay, vindas da pasta da Camilla, e a do vídeo do Natal); o piano padrão não está neste PC.
+
 ## Em aberto
+- **Liberar a tarefa do Windows das 7h30** (acorda o PC; a segurança bloqueou a criação sem OK da Talyta). Até lá, a
+  rotina depende do app Claude aberto no PC kumyt; fechado, roda quando abrir. (2026-11-12)
+- **Conectar o @tamarachagas_prev na Post for Me:** com ele lá, feed e stories ficam agendados no servidor e saem às 7h30
+  mesmo com os PCs desligados. (2026-11-12)
+- **Colaboração no feed:** o post sai do @tamarachagas_prev e manda convite ao @dra.tamarachagas_; alguém precisa aceitar
+  no app, logado no pessoal, pra aparecer lá também. (2026-11-12)
+- **Material novo pros stories:** subir vídeos curtos do dia a dia (equipe, recepção sem cliente de rosto, árvore) no
+  `B-ROLL/00_ENTRADA`; a rotina das 7h faz a curadoria e põe no banco. Sem isso, o banco gira os mesmos ~30 trechos. (2026-11-12)
+- **Desligar a viagem** em `stories/auto/config.json` quando a Doutora voltar. (2026-11-12)
 - **Fila de vídeos vazia (09/11):** não há Reels editado pra semana de 09 a 13/11. Precisa de bruto novo (ou o episódio
   3 da feira / "Trabalhador rural" do PC do escritório). (2026-11-09)
 - **Meta da semana (02 a 06/11): 3 de 5** (Novembro Azul 03/11, vídeo oficial do Natal 05/11 7h, salário-maternidade

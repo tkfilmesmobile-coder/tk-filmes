@@ -1,0 +1,45 @@
+{
+ "_leia": "Banco de mídias JÁ CONFERIDAS pro lote automático de stories (regra imutável da Talyta, 12/11/2026). Só entra aqui trecho sem documento, sem tela legível, sem cliente de rosto visível e sem fala de bom dia/localização (desatualizadas). Caminhos relativos a clientes/tamara-chagas; 'drive:' = H:/Meu Drive/Tamara Chagas/CONTEÚDO/B-ROLL. a/b em segundos; dur só pra foto; cx = centro do recorte vertical.",
+ "natal": [
+  {"id": "n-espiral", "src": "reels/2026-11-natal-oficial/edicao/public/g-IMG_7303.mp4", "a": 8.0, "b": 13.5, "cx": 0.56},
+  {"id": "n-veludo", "src": "reels/2026-11-natal-oficial/edicao/public/g-IMG_7304.mp4", "a": 13.2, "b": 18.7, "cx": 0.5},
+  {"id": "n-bolas", "src": "reels/2026-11-natal-oficial/edicao/public/g-IMG_7304.mp4", "a": 21.7, "b": 26.9, "cx": 0.47},
+  {"id": "n-arvore-base", "src": "reels/2026-11-natal-oficial/edicao/public/g-IMG_7302.mp4", "a": 1.0, "b": 6.0, "cx": 0.44},
+  {"id": "n-lento-veludo", "src": "reels/2026-11-natal-oficial/stories/_lento/p2-veludo-lento.mp4", "a": 0, "b": 5.5},
+  {"id": "n-lento-espiral", "src": "reels/2026-11-natal-oficial/stories/_lento/e1-espiral-lento.mp4", "a": 0, "b": 5.5},
+  {"id": "n-lento-arvore", "src": "reels/2026-11-natal-oficial/stories/_lento/e3-arvore-lento.mp4", "a": 0, "b": 5.5}
+ ],
+ "fachada_natal": [
+  {"id": "f-papai-noel", "src": "reels/2026-11-natal-oficial/edicao/public/g-IMG_7295.mp4", "a": 0.3, "b": 5.8, "cx": 0.61},
+  {"id": "f-lento-papai-noel", "src": "reels/2026-11-natal-oficial/stories/_lento/p1-papai-noel-lento.mp4", "a": 0, "b": 5.5},
+  {"id": "f-drone-frente", "src": "reels/2026-11-natal-oficial/stories/_lento/p3-fachada-lento.mp4", "a": 0, "b": 5.0},
+  {"id": "f-drone-lateral", "src": "reels/2026-11-natal-oficial/stories/_lento/e4-fachada-lento.mp4", "a": 0, "b": 5.5}
+ ],
+ "fachada_dia": [
+  {"id": "fd-logo", "src": "drive:05_LOCALIZACAO-FACHADA-RUA/LOCAL_fachada_01.MOV", "a": 0.2, "b": 5.6}
+ ],
+ "escritorio": [
+  {"id": "e-trabalhando-a", "src": "drive:02_EQUIPE-TRABALHANDO/EQUIPE_trabalhando_01.MOV", "a": 0, "b": 3.4},
+  {"id": "e-trabalhando-b", "src": "drive:02_EQUIPE-TRABALHANDO/EQUIPE_trabalhando_01.MOV", "a": 9.0, "b": 11.6},
+  {"id": "e-producao", "src": "drive:02_EQUIPE-TRABALHANDO/EQUIPE_producao_02_TELA-COM-DOCUMENTOS-a-partir-de-6s.MOV", "a": 0, "b": 5.6},
+  {"id": "e-detalhes-sala", "src": "drive:01_ESTRUTURA-DETALHES/ESTRUTURA_detalhes-sala-producao_01.MOV", "a": 0, "b": 5.4},
+  {"id": "e-foto-maos", "src": "marca/fotos/b-roll/equipe-02-maos.jpg", "dur": 4.5},
+  {"id": "e-foto-dupla", "src": "marca/fotos/b-roll/equipe-03-dupla.jpg", "dur": 4.5},
+  {"id": "e-foto-vaso", "src": "marca/fotos/b-roll/estrutura-01-vaso.jpg", "dur": 4.5},
+  {"id": "e-foto-prateleira", "src": "marca/fotos/b-roll/estrutura-02-prateleira.jpg", "dur": 4.5}
+ ],
+ "recepcao": [
+  {"id": "r-parede-logo", "src": "drive:02_EQUIPE-TRABALHANDO/EQUIPE_recepcao-parede-do-logo_03_usar-ate-9s.MOV", "a": 0.5, "b": 6.0},
+  {"id": "r-foto-rapaz-a", "src": "marca/fotos/b-roll/equipe-06-recepcao-rapaz-a.jpg", "dur": 4.5},
+  {"id": "r-foto-rapaz-b", "src": "marca/fotos/b-roll/equipe-07-recepcao-rapaz-b.jpg", "dur": 4.5, "cx": 0.5},
+  {"id": "r-foto-logo", "src": "marca/fotos/b-roll/equipe-08-recepcao-logo.jpg", "dur": 4.5}
+ ],
+ "viagem": [
+  {"id": "v-veneza-a", "src": "marca/fotos/viagem/2026-11-11_feed_18025790375935996.mp4", "a": 2.0, "b": 7.5},
+  {"id": "v-veneza-b", "src": "marca/fotos/viagem/2026-11-11_feed_18025790375935996.mp4", "a": 22.0, "b": 27.5},
+  {"id": "v-florenca", "src": "marca/fotos/viagem/2026-11-07_feed_18024750734931241-17965172754248568.jpg", "dur": 4.5, "y": 1520},
+  {"id": "v-eiffel-casal", "src": "marca/fotos/viagem/2026-11-07_feed_18024750734931241-18019084502747188.jpg", "dur": 4.5},
+  {"id": "v-arco", "src": "marca/fotos/viagem/2026-11-07_feed_18024750734931241-18102286610419582.jpg", "dur": 4.5, "y": 1560},
+  {"id": "v-eiffel-noite", "src": "marca/fotos/viagem/2026-11-09_feed_18028015730921976.jpg", "dur": 4.5}
+ ]
+}

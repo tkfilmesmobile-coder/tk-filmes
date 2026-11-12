@@ -33,7 +33,28 @@ Vídeos (regra da Talyta, 15/10/2026):
 - **Tamara falando pra câmera:** publicar sempre no perfil pessoal `@dra.tamarachagas_`
   (conta `DRA_TAMARACHAGAS_`) em colaboração com o `@tamarachagas_prev`.
 
-Stories diários com b-roll (regra da Talyta, 21/10/2026):
+**REGRA IMUTÁVEL (Talyta, 12/11/2026): "de forma alguma os stories e o feed podem deixar de sair."**
+- **Todo dia útil, às 7h30, no @tamarachagas_prev: no mínimo 15 stories + 1 post de feed.** Feed todo dia útil, com ou
+  sem vídeo: arte de imagem (padrão post-tamara, notícia oficial conferida), **sempre do perfil profissional
+  (@tamarachagas_prev) em colaboração com o pessoal (@dra.tamarachagas_)**: pra imagem, isso substitui a regra de
+  03/11 (Reels continuam como estão). Vai também pro TikTok @tamarachagas.prev.
+- **Modelo dos stories = a sequência que a Talyta postou à mão em 11/11** (gravação de tela em
+  `stories/auto/modelo-2026-11-11.mp4`): vídeos curtos com movimento e música, texto curto no centro, branco, sem caixa:
+  título em serifa itálica fina ("BOM DIA") + linha pequena em caixa alta ("COM A MAGIA DO NATAL REINANDO POR AQUI"), ou
+  📍 Tamara Chagas Advocacia + linha pequena + frase grande fina ("POR AQUI A NOSSA PRODUÇÃO / INICIA CEDO"). Árvore e
+  fachada de Natal, equipe produzindo, recepção, fachada. Gerador: `modelos/stories_modelo.py` (um story) e
+  `modelos/stories_dia.py <data>` (o lote inteiro, do banco conferido `stories/auto/banco.json`, sem repetir o dia anterior).
+- **Não usar mais as falas de bom dia e de localização** (`04_EQUIPE-FALANDO`): estão desatualizadas (Talyta, 12/11).
+  Bom dia e localização agora saem com imagem + texto.
+- **Viagem da Doutora** (12/11): enquanto ela viaja, os stories mesclam fotos e vídeos da viagem (baixados do perfil
+  pessoal com `modelos/baixar_viagem.mjs`, em `marca/fotos/viagem/`) reforçando que o escritório segue funcionando e
+  atendendo com excelência. Liga e desliga em `stories/auto/config.json` (`viagem_ativa`).
+- **Como sai sozinho:** tarefa do app Claude "Tamara · stories + feed 7h30" (dias úteis, 7h: faz a arte do dia com
+  notícia oficial, cura material novo do `B-ROLL/00_ENTRADA`, e às 7h30 roda `modelos/rotina-diaria.ps1`). A rotina
+  publica o feed (se não houver arte do dia, usa a próxima de `posts/reserva/`, que deve ter sempre 3+), monta o lote se
+  ninguém montou e publica tudo; falha vira recado em `_memoria/recados/`. Detalhe em `_contexto/automacoes.md`.
+
+Stories diários com b-roll (regra da Talyta, 21/10/2026; o que conflitar com a regra imutável acima, vale a de cima):
 - Todo dia útil, **às 8h**, sai o lote de stories do dia no @tamarachagas_prev (6 a 8), feito com o material da
   pasta `CONTEÚDO/B-ROLL` do Drive (subpastas e cuidados no `_LEIA-ME.txt` de lá). Somados aos 4 stories do Reels
   das 16h, batem a meta de 10 por dia. O lote fica em `stories/AAAA-MM-DD-b-roll/` com um `ordem.txt` e é

@@ -158,9 +158,11 @@ async function getPermalink(mediaId) {
 // --- TK Filmes (23/10/2026): arquivo no Drive do cliente + registro de cada publicação ---
 // Regra da Talyta: todo vídeo/arte que vai pras redes vai pro Drive do cliente, organizado por mês,
 // e entra no registro que alimenta os relatórios mensal e trimestral.
+// o Google Drive monta como G: num PC e H: no outro (12/11/2026): usa a letra em que a pasta existir
+const MEU_DRIVE = ["G", "H", "I"].map((l) => `${l}:/Meu Drive`).find((p) => fs.existsSync(p)) || "G:/Meu Drive";
 const CLIENTES = {
-  TAMARACHAGAS_PREV: { drive: "G:/Meu Drive/Tamara Chagas/CONTEÚDO", registro: "clientes/tamara-chagas/relatorios/publicacoes.csv" },
-  DRA_TAMARACHAGAS_: { drive: "G:/Meu Drive/Tamara Chagas/CONTEÚDO", registro: "clientes/tamara-chagas/relatorios/publicacoes.csv" },
+  TAMARACHAGAS_PREV: { drive: `${MEU_DRIVE}/Tamara Chagas/CONTEÚDO`, registro: "clientes/tamara-chagas/relatorios/publicacoes.csv" },
+  DRA_TAMARACHAGAS_: { drive: `${MEU_DRIVE}/Tamara Chagas/CONTEÚDO`, registro: "clientes/tamara-chagas/relatorios/publicacoes.csv" },
 };
 const MESES = ["JANEIRO","FEVEREIRO","MARÇO","ABRIL","MAIO","JUNHO","JULHO","AGOSTO","SETEMBRO","OUTUBRO","NOVEMBRO","DEZEMBRO"];
 function registrarPublicacao(tipo, arquivos, mediaId, link) {
@@ -254,8 +256,9 @@ async function main() {
     }
     console.log(`  Container: ${containerId}`);
 
-    console.log(`Aguardando processamento (pode levar ate 2 min)...`);
-    await pollStatus(containerId, 180000);
+    console.log(`Aguardando processamento (pode levar alguns minutos)...`);
+    // TK Filmes (06/11/2026): reels de 2 min 30 s passa dos 3 min de processamento; espera até 10 min
+    await pollStatus(containerId, 600000);
 
     console.log(`Publicando...`);
     const mediaId = await publish(containerId);

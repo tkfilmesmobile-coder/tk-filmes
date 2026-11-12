@@ -1,0 +1,17 @@
+# lote automático de 2026-11-13 (modelo da Talyta de 11/11/2026; regra imutável: sai todo dia útil às 7h30)
+# 15 stories · saudação: Bom dia · Natal: sim · viagem: sim
+01-n-bolas.mp4
+02-n-arvore-base.mp4
+03-f-drone-lateral.mp4
+04-e-foto-prateleira.mp4
+05-e-detalhes-sala.mp4
+06-r-foto-rapaz-a.mp4
+07-v-eiffel-casal.mp4
+08-v-arco.mp4
+09-e-foto-dupla.mp4
+10-n-lento-veludo.mp4
+11-v-eiffel-noite.mp4
+12-fd-logo.mp4
+13-e-foto-maos.mp4
+14-n-lento-arvore.mp4
+15-f-drone-frente.mp4

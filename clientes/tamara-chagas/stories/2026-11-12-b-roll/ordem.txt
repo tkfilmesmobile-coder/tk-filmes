@@ -1,0 +1,18 @@
+# lote automático de 2026-11-12 (modelo da Talyta de 11/11/2026; regra imutável: sai todo dia útil às 7h30)
+# 16 stories · saudação: Boa tarde · Natal: sim · viagem: sim
+01-n-lento-espiral.mp4
+02-n-lento-arvore.mp4
+03-f-papai-noel.mp4
+04-e-trabalhando-a.mp4
+05-e-trabalhando-b.mp4
+06-r-parede-logo.mp4
+07-v-veneza-a.mp4
+08-v-veneza-b.mp4
+09-e-foto-vaso.mp4
+10-n-veludo.mp4
+11-v-florenca.mp4
+12-fd-logo.mp4
+13-e-producao.mp4
+14-n-espiral.mp4
+arte-beneficio-maria-da-penha.jpg
+15-f-lento-papai-noel.mp4

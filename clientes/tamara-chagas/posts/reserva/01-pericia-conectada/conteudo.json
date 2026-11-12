@@ -1,0 +1,12 @@
+{
+ "foto": "tamara/tamara-estudio-0132.jpg",
+ "foto_css": "left:300px;top:-60px;width:1150px",
+ "story_foto_css": "left:300px;top:360px;width:1180px;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 30%),linear-gradient(180deg,transparent 0px,#000 260px);-webkit-mask-composite:source-in",
+ "etiquetas": ["PERÍCIA MÉDICA", "INSS", "TELEMEDICINA"],
+ "fino": "Perícia do INSS",
+ "forte": "à distância, na agência.",
+ "destaque": "Perícia Conectada: 900 agências",
+ "lista_titulo": "COMO FUNCIONA",
+ "lista": [["Onde", "dentro da agência do INSS"], ["Com quem", "médico perito por vídeo"], ["Pra quê", "menos tempo de espera"]],
+ "fonte": "MPS · gov.br/previdencia · 06/11/2026"
+}
