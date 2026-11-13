@@ -1,4 +1,5 @@
 {
- "_leia": "viagem_ativa: true enquanto a Dra. Tamara estiver viajando (os stories mostram a viagem e reforçam que o escritório segue atendendo). Desligar quando ela voltar.",
- "viagem_ativa": true
+ "_leia": "viagem_ativa: true enquanto a Dra. Tamara estiver viajando (os stories mostram a viagem e reforçam que o escritório segue atendendo). Desligar quando ela voltar. sem_expediente: dias úteis em que o escritório não abre (feriado, ponto facultativo sem expediente): a rotina das 7h30 não publica. Confirmar com a Talyta os de Natal, Ano-Novo e Carnaval.",
+ "viagem_ativa": true,
+ "sem_expediente": ["2026-11-20", "2026-12-24", "2026-12-25", "2026-12-31", "2027-01-01", "2027-02-08", "2027-02-09"]
 }

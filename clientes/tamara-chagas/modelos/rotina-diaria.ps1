@@ -21,6 +21,8 @@ function Recado([string]$assunto, [string]$texto) {
 }
 $dia = [datetime]::ParseExact($Data, "yyyy-MM-dd", $null)
 if ($dia.DayOfWeek -in @("Saturday", "Sunday")) { Linha "$Data é fim de semana: nada a fazer"; exit 0 }
+$cfg = Get-Content "$t/stories/auto/config.json" -Raw -Encoding utf8 | ConvertFrom-Json
+if ($cfg.sem_expediente -contains $Data) { Linha "$Data é feriado ou dia sem expediente (stories/auto/config.json): nada a fazer"; exit 0 }
 Linha "== início da rotina de $Data"
 
 # espera a internet (o PC às vezes acorda sem rede), até 15 min
