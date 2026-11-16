@@ -24,6 +24,16 @@ quadro da feira · vlog). Os stories diários das 8h no @tamarachagas_prev conti
 | ter 10/11 | **Arte: aposentadoria por idade rural** (`posts/2026-11-10-aposentadoria-rural/`, fonte INSS 09/11/2026) | post de imagem | **publicado ~9h**: https://www.instagram.com/p/Dfj2fGMEfwy/ · TikTok pendente (sem chave da Post for Me no PC do escritório) · + lote de 8 stories da manhã (`stories/2026-11-10-b-roll/`) | — |
 | qui 12/11 | **Arte: Benefício Lei Maria da Penha** (`posts/2026-11-12-beneficio-maria-da-penha/`, fonte MPS 09/10/2026) | post de imagem | **publicado ~13h20 no @tamarachagas_prev com convite ao @dra.tamarachagas_**: https://www.instagram.com/p/DfpbV0SETwQ/ · **+ TikTok** `sp_50yS4iijIqfiJzdMvfMo3` · + 16 stories no modelo novo (`stories/2026-11-12-b-roll/`) | — |
 
+| sex 13/11 | — | — | **o feed NÃO saiu** (a tarefa do app rodou às 12h44 e parou esperando aprovação); os 15 stories saíram às 8h pela tarefa antiga | — |
+
+## Semana de 16 a 20/11
+| dia | feed | formato | situação | id na Post for Me |
+|---|---|---|---|---|
+| seg 16/11 7h | **Reels "a contribuição vence hoje"** (`reels/2026-11-16-img1689/`, equipe, editado com legenda, relógio e fonte) | Reels | **publicado 7h** no @dra.tamarachagas_ com colaboração: https://www.instagram.com/reel/DfzGN2amf-Q/ · + TikTok `sp_v1uIFKIwipyUFFwvybAI` | `sp_r1LWAOEkICeE74veCdMCb` |
+| seg 16/11 7h25 | **Carrossel "Contribuição do INSS: qual é a sua?"** (8 slides: tipos, valores de 2026, códigos e como pagar a GPS; `posts/2026-11-16-contribuicoes-inss/`) | carrossel | **publicado** no @tamarachagas_prev com convite ao @dra.tamarachagas_: https://www.instagram.com/p/DfzIHqwmwiL/ · + TikTok `sp_cnBtb6Od8FOqASL6AZS4h` | — |
+
+**Stories pausados desde 16/11** (pedido da Talyta, até o novo formato).
+
 **Desde 12/11/2026 (regra imutável):** todo dia útil às 7h30, feed (arte, do profissional pro pessoal) + 15 stories ou
 mais, pela rotina `modelos/rotina-diaria.ps1`. Reserva de artes em `posts/reserva/`.
 

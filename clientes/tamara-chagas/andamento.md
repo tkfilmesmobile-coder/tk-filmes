@@ -133,7 +133,19 @@
   (boa tarde) no modelo novo. **Reserva do feed:** Perícia Conectada (MPS 06/11) e auxílio-acidente (Lei 8.213, art. 86).
   Músicas novas em `marca/audio/` (Pixabay, vindas da pasta da Camilla, e a do vídeo do Natal); o piano padrão não está neste PC.
 
+- 2026-11-16 · **Stories pausados** (Talyta: não gostou do formato; alinhar no PC do escritório). **Feed de 13/11 não
+  saiu:** a tarefa do app rodou só às 12h44 (app aberto tarde) e parou no 1º comando esperando aprovação; a de hoje (7h04)
+  também travou esperando aprovação. Hoje: **Reels IMG_1689** (equipe: "a contribuição caiu no domingo, pague na segunda";
+  legenda, relógio animado com "VENCE HOJE" e fonte Lei 8.212, art. 30, II) às 7h no pessoal com colaboração + TikTok, e
+  **carrossel de 8 slides sobre contribuições** (pedido dela: tipos, como é feito e como pagar; tabela INSS 2026, códigos da
+  Receita, GPS pelo Meu INSS/SAL) às 7h25 no escritório com colaboração + TikTok. Rotina das 7h30 agora só faz o feed, com
+  trava contra post duplicado.
+
 ## Em aberto
+- **Aprovar as permissões da tarefa "Tamara · feed 7h30"** (abrir a tarefa no app e clicar em "Executar agora" uma vez) ou
+  liberar a tarefa do Windows / conectar o @tamarachagas_prev na Post for Me: sem isso, o feed automático trava esperando
+  aprovação. (2026-11-16)
+- **Novo formato dos stories:** alinhar com a Talyta no PC do escritório e só então soltar de novo. (2026-11-16)
 - **Liberar a tarefa do Windows das 7h30** (acorda o PC; a segurança bloqueou a criação sem OK da Talyta). Até lá, a
   rotina depende do app Claude aberto no PC kumyt; fechado, roda quando abrir. (2026-11-12)
 - **Conectar o @tamarachagas_prev na Post for Me:** com ele lá, feed e stories ficam agendados no servidor e saem às 7h30
