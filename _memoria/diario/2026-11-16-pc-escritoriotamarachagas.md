@@ -1,0 +1,4 @@
+## [pc-escritoriotamarachagas]
+- Tamara: o Reels "Trabalhador rural" (Sales e Rita em frente à igreja, diária da feira) nunca tinha saído (tarefa de 30/10 travou em 01/11). Publicado à tarde no @tamarachagas_prev com colaboração; a Talyta apagou e pediu os vídeos em dias separados.
+- Agendados neste PC às 16h (`modelos/publicar-reels-escritorio.ps1`, não repete): rural ter 17/11, feira parte 3 (salário-maternidade) qui 19/11, parte 4 (pensão por morte, legenda nova) seg 23/11. Removidas as tarefas antigas de 30/10.
+- Aviso do feriado de sex 20/11 (Consciência Negra, Lei 14.759/2023; voltamos seg 23/11) feito com `post_aviso.py` (agora aceita "mes"). Publicado por engano na hora (https://www.instagram.com/p/DfzR85pEV1m/); a Talyta queria só na quinta: apagar pelo app. Reagendado qui 19/11 10h.

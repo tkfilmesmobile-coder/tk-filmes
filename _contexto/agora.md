@@ -28,10 +28,9 @@ e entregues no mesmo dia no Drive dela (`Start Fitnes/POSTS/2026-10`): a chamada
 Em 1º/11 a cobertura da corrida (stories pela Talyta, vídeo do feed pela TK): o feed foi aprovado em 2/11 na v3 (`Start Fitnes/POSTS/2026-11`).
 TK (2026-10-29): reels "Um dia na TK" (só b-roll) e o V10 da eleição estão na raiz do Drive com as legendas; o V10 foi aprovado, mas
 o token da TK foi invalidado e só posta com token novo. Site em `tk-filmes/site/` todo em marrom, com a Talyta na abertura (`tk-filmes/andamento.md`).
-Tamara (2026-10-29): o PC do escritório voltou em 29/10 e postou 8 stories do dia. Sex 30/10 saem 3 Reels: feira EP. 3 às 11h e
-"Trabalhador rural" às 13h30 (pelo PC do escritório, que precisa estar ligado) e a carta negada às 16h (PC kumyt). Com isso a semana
-fecha 5 de 5. Vlog de Natal EP. 03 começado (`clientes/tamara-chagas/reels/2026-10-29-vlog-natal-ep3/`); o bruto só está no Downloads
-do PC do escritório. Regras novas na ficha dela: curadoria de toda fala (feed e stories) e variar fotos e quem fala nos stories.
+Tamara (2026-11-16): os 3 vídeos da diária da feira que nunca saíram estão agendados no PC do escritório às 16h (rural com Sales
+na igreja ter 17/11, parte 3 qui 19/11, parte 4 seg 23/11) e o aviso do feriado de 20/11 qui 19/11 às 10h; o PC precisa estar ligado.
+O aviso saiu por engano em 16/11: a Talyta apaga pelo app. Feed diário 7h30 segue pela Post for Me; stories pausados desde 16/11.
 Em 2026-11-04 entrou a Pingo de Gente (moda infantil, vídeo unitário R$ 100, `clientes/pingo-de-gente/`): a chamada "Live Black Day"
 (rabiscos de giz, bichos por trás da menina, setas presas na sacola, macaquinhos nas árvores, trilha do TikTok @llamahappykids) foi
 aprovada na v4 e entregue no Drive dela (`Pingo de Gente/04-11-2026 - Live Black Day Pingo de Gente.mp4`).

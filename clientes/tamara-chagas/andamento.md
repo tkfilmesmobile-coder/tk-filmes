@@ -141,6 +141,23 @@
   Receita, GPS pelo Meu INSS/SAL) às 7h25 no escritório com colaboração + TikTok. Rotina das 7h30 agora só faz o feed, com
   trava contra post duplicado.
 
+- 2026-11-16 · **Reels "Trabalhador rural tem direito sem contribuir?"** (Sales e Rita em frente à igreja, diária da feira;
+  `reels/2026-10-19-erros-cortes/trabalhador-rural-sales-leve.mp4`) publicado à tarde pelo PC do escritório no @tamarachagas_prev
+  com colaboração do @dra.tamarachagas_ (https://www.instagram.com/reel/DfzRXirlK1W/), a pedido da Talyta: nunca tinha saído
+  (a tarefa de 30/10 travou em 01/11). Sem stories (pausados desde 16/11). TikTok não saiu: sem chave da Post for Me neste PC.
+  **Ainda não publicados:** feira parte 3 (salário-maternidade) e parte 4 (pensão por morte); só existem neste PC.
+
+- 2026-11-16 · A Talyta apagou o Reels do rural publicado à tarde e pediu os 3 vídeos da feira em dias separados. **Agendados
+  neste PC às 16h** (Agendador do Windows, `modelos/publicar-reels-escritorio.ps1`, @tamarachagas_prev com colaboração do
+  @dra.tamarachagas_, sem stories, não repete): rural (Sales na igreja) ter 17/11 · parte 3 salário-maternidade qui 19/11 ·
+  parte 4 pensão por morte seg 23/11 (legenda nova em `parte4/legenda.md`). As artes das 7h30 seguem. **O PC do escritório
+  precisa estar ligado nesses horários.** Removidas as tarefas antigas de 30/10.
+- 2026-11-16 · **Aviso do feriado de sex 20/11** (Dia Nacional de Zumbi e da Consciência Negra, Lei 14.759/2023; voltamos seg
+  23/11 às 8h) publicado por engano no feed do @tamarachagas_prev em 16/11 (https://www.instagram.com/p/DfzR85pEV1m/, a Talyta queria só na
+  quinta: apagar pelo app). **Agendado de novo pra qui 19/11 às 10h** neste PC (`publicar.ps1` da pasta;
+  `posts/2026-11-20-aviso-consciencia-negra/`, com story.jpg pronto, não publicado: stories pausados). `post_aviso.py` agora
+  aceita "mes" no aviso.json (antes vinha OUTUBRO fixo).
+
 ## Em aberto
 - **Aprovar as permissões da tarefa "Tamara · feed 7h30"** (abrir a tarefa no app e clicar em "Executar agora" uma vez) ou
   liberar a tarefa do Windows / conectar o @tamarachagas_prev na Post for Me: sem isso, o feed automático trava esperando

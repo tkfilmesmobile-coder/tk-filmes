@@ -33,7 +33,7 @@ def html(c, pasta, story):
     topo = 230 if story else 64
     if c["layout"] == "calendario":
         y0 = 520 if story else 280
-        cards = "".join(f'<div class="card"><div class="x"></div><div class="mes">OUTUBRO</div><div class="dia">{d}</div>'
+        cards = "".join(f'<div class="card"><div class="x"></div><div class="mes">{c.get("mes", "OUTUBRO")}</div><div class="dia">{d}</div>'
                         f'<div class="num">{n}</div><div class="ev">{ev}</div></div>' for n, d, ev in c["dias"])
         corpo = f"""<div style="position:absolute;left:72px;right:72px;top:{y0}px"><div class="k">{c['kicker']}</div>
 <h1 style="margin-top:20px">{c['titulo']}</h1>
