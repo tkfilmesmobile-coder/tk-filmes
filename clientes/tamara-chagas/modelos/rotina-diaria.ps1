@@ -44,7 +44,12 @@ if (-not $feed) {
     if ($sobra -lt 3) { Recado "reserva-feed" "A reserva de artes do feed está com $sobra arte(s). Produzir mais em clientes/tamara-chagas/posts/reserva/ (padrão post-tamara, fonte oficial)." }
   } else { Linha "FEED: SEM ARTE DO DIA E SEM RESERVA"; Recado "feed-sem-arte" "Não havia arte do dia nem reserva: o feed de $Data NÃO saiu. Produzir arte e publicar." }
 }
+$travaFeed = if ($feed) { "$($feed.FullName)/.publicando" } else { $null }
+if ($travaFeed -and (Test-Path $travaFeed) -and ((Get-Date) - (Get-Item $travaFeed).LastWriteTime).TotalMinutes -lt 30 -and -not (Test-Path "$($feed.FullName)/.publicado")) {
+  Linha "feed $($feed.Name) já está sendo publicado por outra rotina; pulei"; $feed = $null
+}
 if ($feed -and -not (Test-Path "$($feed.FullName)/.publicado")) {
+  "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" | Out-File $travaFeed -Encoding utf8
   $ok = $false
   for ($i = 1; $i -le 3 -and -not $ok; $i++) {
     $s = (& $node --env-file=.env .claude/skills/publicar-social-ratos/scripts/publish-graph-api.js --conta TAMARACHAGAS_PREV --images "$($feed.FullName)/post.png" --caption-file "$($feed.FullName)/legenda.md" --colaboradores dra.tamarachagas_ 2>&1 | Out-String)
@@ -59,6 +64,7 @@ if ($feed -and -not (Test-Path "$($feed.FullName)/.publicado")) {
 }
 
 # ---------- 2. STORIES ----------
+if ($cfg.stories_pausados) { Linha "stories pausados (stories/auto/config.json): só o feed hoje"; Linha "== fim da rotina de $Data"; exit 0 }
 $lote = "$t/stories/$Data-b-roll"
 if (-not (Test-Path "$lote/ordem.txt")) {
   $saud = if ((Get-Date).Hour -lt 12) { "Bom dia" } else { "Boa tarde" }

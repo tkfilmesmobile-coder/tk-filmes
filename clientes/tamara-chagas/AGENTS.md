@@ -33,6 +33,10 @@ Vídeos (regra da Talyta, 15/10/2026):
 - **Tamara falando pra câmera:** publicar sempre no perfil pessoal `@dra.tamarachagas_`
   (conta `DRA_TAMARACHAGAS_`) em colaboração com o `@tamarachagas_prev`.
 
+**STORIES PAUSADOS desde 16/11/2026** (Talyta: "não gostei do formato dos stories… vamos alinhar mais tarde pelo
+computador do escritório, então não quero que solte os stories"). Nenhum lote sai até o novo alinhamento
+(`stories_pausados` em `stories/auto/config.json`; a rotina e a tarefa das 8h respeitam). **O feed diário continua.**
+
 **REGRA IMUTÁVEL (Talyta, 12/11/2026): "de forma alguma os stories e o feed podem deixar de sair."**
 - **Todo dia útil, às 7h30, no @tamarachagas_prev: no mínimo 15 stories + 1 post de feed.** Feed todo dia útil, com ou
   sem vídeo: arte de imagem (padrão post-tamara, notícia oficial conferida), **sempre do perfil profissional

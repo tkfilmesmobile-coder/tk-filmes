@@ -11,6 +11,8 @@ $log = "clientes/tamara-chagas/stories/publicacao-diaria.log"
 $js = ".claude/skills/publicar-social-ratos/scripts/publish-graph-api.js"
 function Linha([string]$t) { "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] (PC kumyt) $t" | Out-File $log -Append -Encoding utf8 }
 
+$cfgS = Get-Content "clientes/tamara-chagas/stories/auto/config.json" -Raw -Encoding utf8 | ConvertFrom-Json
+if ($cfgS.stories_pausados) { Linha "${Data}: stories pausados (stories/auto/config.json, pedido da Talyta 16/11/2026)"; exit 0 }
 if (-not (Test-Path "$pasta/ordem.txt")) { Linha "SEM STORIES: $pasta/ordem.txt não existe"; exit 1 }
 if (Test-Path "$pasta/.publicado") { Linha "$Data já publicado antes; nada a fazer"; exit 0 }
 if (-not $Forcar -and (Get-Date).Hour -ge 11) { Linha "${Data}: PC ligou depois das 11h; lote não publicado (abre com bom dia)"; exit 1 }
