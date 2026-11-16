@@ -1,0 +1,670 @@
+{
+ "fps": 24,
+ "etapa": "completo",
+ "grade": "H",
+ "estilo": "caps",
+ "fonte": "raizes/bruto.mp4",
+ "legendaPos": "alto",
+ "sombraBase": true,
+ "clipes": [
+  {
+   "id": "t01",
+   "trimBefore": 0,
+   "from": 0,
+   "durationInFrames": 196,
+   "zoom": 1.0
+  },
+  {
+   "id": "t02",
+   "trimBefore": 196,
+   "from": 196,
+   "durationInFrames": 919,
+   "zoom": 1.09
+  },
+  {
+   "id": "t03",
+   "trimBefore": 1115,
+   "from": 1115,
+   "durationInFrames": 141,
+   "zoom": 1.0
+  },
+  {
+   "id": "t04",
+   "trimBefore": 1256,
+   "from": 1256,
+   "durationInFrames": 246,
+   "zoom": 1.09
+  },
+  {
+   "id": "t05",
+   "trimBefore": 1502,
+   "from": 1502,
+   "durationInFrames": 164,
+   "zoom": 1.0
+  },
+  {
+   "id": "t06",
+   "trimBefore": 1666,
+   "from": 1666,
+   "durationInFrames": 255,
+   "zoom": 1.09
+  },
+  {
+   "id": "t07",
+   "trimBefore": 1921,
+   "from": 1921,
+   "durationInFrames": 398,
+   "zoom": 1.0
+  }
+ ],
+ "textos": [],
+ "figuras": [
+  {
+   "tipo": "capitulo",
+   "from": 176,
+   "durationInFrames": 36,
+   "texto": "O marketing é uma [[planta]].",
+   "rotulo": "parte 1"
+  },
+  {
+   "tipo": "capitulo",
+   "from": 626,
+   "durationInFrames": 36,
+   "texto": "No começo, [[tudo cresce]].",
+   "rotulo": "parte 2"
+  },
+  {
+   "tipo": "instagram",
+   "from": 753,
+   "durationInFrames": 161,
+   "foto": "raizes/post.jpg",
+   "seguir": 68,
+   "curtida": 96,
+   "comentario": 111,
+   "compartilhar": 134
+  },
+  {
+   "tipo": "capitulo",
+   "from": 1503,
+   "durationInFrames": 34,
+   "texto": "Não é sobre [[amanhã]].",
+   "rotulo": "parte 3"
+  },
+  {
+   "tipo": "capitulo",
+   "from": 1667,
+   "durationInFrames": 41,
+   "texto": "É sobre construir [[algo concreto]].",
+   "rotulo": "o que fica"
+  },
+  {
+   "tipo": "logo",
+   "from": 2252,
+   "durationInFrames": 67
+  },
+  {
+   "tipo": "planta",
+   "from": 213,
+   "durationInFrames": 403,
+   "folhas": 51,
+   "parada": 176,
+   "raizes": 306
+  },
+  {
+   "tipo": "planta",
+   "from": 1260,
+   "durationInFrames": 177,
+   "folhas": 0,
+   "palavras": [
+    {
+     "texto": "reconhecimento",
+     "fala": 64
+    },
+    {
+     "texto": "posicionamento",
+     "fala": 111
+    },
+    {
+     "texto": "confiança",
+     "fala": 137
+    },
+    {
+     "texto": "relacionamento",
+     "fala": 154
+    }
+   ]
+  },
+  {
+   "tipo": "planta",
+   "from": 2123,
+   "durationInFrames": 129,
+   "folhas": 0,
+   "palavras": [
+    {
+     "texto": "reconhecimento",
+     "fala": 9
+    },
+    {
+     "texto": "posicionamento",
+     "fala": 14
+    },
+    {
+     "texto": "confiança",
+     "fala": 18
+    },
+    {
+     "texto": "relacionamento",
+     "fala": 22
+    }
+   ]
+  }
+ ],
+ "legendas": [
+  {
+   "from": 2,
+   "durationInFrames": 19,
+   "texto": "Eu quero te"
+  },
+  {
+   "from": 22,
+   "durationInFrames": 25,
+   "texto": "fazer uma pergunta."
+  },
+  {
+   "from": 49,
+   "durationInFrames": 16,
+   "texto": "Você sabe como"
+  },
+  {
+   "from": 66,
+   "durationInFrames": 18,
+   "texto": "de fato o"
+  },
+  {
+   "from": 85,
+   "durationInFrames": 23,
+   "texto": "marketing funciona"
+  },
+  {
+   "from": 109,
+   "durationInFrames": 18,
+   "texto": "dentro da sua"
+  },
+  {
+   "from": 128,
+   "durationInFrames": 14,
+   "texto": "empresa?"
+  },
+  {
+   "from": 144,
+   "durationInFrames": 23,
+   "texto": "Ele funciona mais"
+  },
+  {
+   "from": 168,
+   "durationInFrames": 5,
+   "texto": "ou"
+  },
+  {
+   "from": 213,
+   "durationInFrames": 23,
+   "texto": "planta uma semente,"
+  },
+  {
+   "from": 237,
+   "durationInFrames": 14,
+   "texto": "você logo vê"
+  },
+  {
+   "from": 252,
+   "durationInFrames": 24,
+   "texto": "as primeiras folhinhas"
+  },
+  {
+   "from": 277,
+   "durationInFrames": 12,
+   "texto": "e você fica"
+  },
+  {
+   "from": 290,
+   "durationInFrames": 12,
+   "texto": "animado,"
+  },
+  {
+   "from": 303,
+   "durationInFrames": 12,
+   "texto": "você sente que"
+  },
+  {
+   "from": 316,
+   "durationInFrames": 19,
+   "texto": "tem algo acontecendo"
+  },
+  {
+   "from": 336,
+   "durationInFrames": 14,
+   "texto": "por ali."
+  },
+  {
+   "from": 354,
+   "durationInFrames": 10,
+   "texto": "Só que chega"
+  },
+  {
+   "from": 365,
+   "durationInFrames": 23,
+   "texto": "um momento que"
+  },
+  {
+   "from": 389,
+   "durationInFrames": 12,
+   "texto": "parece que ela"
+  },
+  {
+   "from": 402,
+   "durationInFrames": 30,
+   "texto": "não evolui tanto,"
+  },
+  {
+   "from": 434,
+   "durationInFrames": 11,
+   "texto": "parece que está"
+  },
+  {
+   "from": 446,
+   "durationInFrames": 20,
+   "texto": "demorando um pouco"
+  },
+  {
+   "from": 467,
+   "durationInFrames": 13,
+   "texto": "mais."
+  },
+  {
+   "from": 481,
+   "durationInFrames": 7,
+   "texto": "E é ali"
+  },
+  {
+   "from": 489,
+   "durationInFrames": 13,
+   "texto": "que estão sendo"
+  },
+  {
+   "from": 503,
+   "durationInFrames": 35,
+   "texto": "construídas as raízes"
+  },
+  {
+   "from": 539,
+   "durationInFrames": 13,
+   "texto": "dela,"
+  },
+  {
+   "from": 555,
+   "durationInFrames": 14,
+   "texto": "para tornar ela"
+  },
+  {
+   "from": 570,
+   "durationInFrames": 17,
+   "texto": "mais forte,"
+  },
+  {
+   "from": 588,
+   "durationInFrames": 29,
+   "texto": "uma planta saudável."
+  },
+  {
+   "from": 618,
+   "durationInFrames": 5,
+   "texto": "E"
+  },
+  {
+   "from": 668,
+   "durationInFrames": 10,
+   "texto": "assim."
+  },
+  {
+   "from": 679,
+   "durationInFrames": 33,
+   "texto": "As primeiras vezes"
+  },
+  {
+   "from": 713,
+   "durationInFrames": 10,
+   "texto": "que você vai"
+  },
+  {
+   "from": 724,
+   "durationInFrames": 13,
+   "texto": "postar o seu"
+  },
+  {
+   "from": 738,
+   "durationInFrames": 12,
+   "texto": "conteúdo"
+  },
+  {
+   "from": 918,
+   "durationInFrames": 19,
+   "texto": "chega um determinado"
+  },
+  {
+   "from": 938,
+   "durationInFrames": 28,
+   "texto": "momento que parece"
+  },
+  {
+   "from": 967,
+   "durationInFrames": 14,
+   "texto": "que tudo isso"
+  },
+  {
+   "from": 982,
+   "durationInFrames": 9,
+   "texto": "trava"
+  },
+  {
+   "from": 992,
+   "durationInFrames": 27,
+   "texto": "Que para,"
+  },
+  {
+   "from": 1020,
+   "durationInFrames": 11,
+   "texto": "que você não"
+  },
+  {
+   "from": 1032,
+   "durationInFrames": 17,
+   "texto": "sente que está"
+  },
+  {
+   "from": 1050,
+   "durationInFrames": 32,
+   "texto": "mais tendo aquela"
+  },
+  {
+   "from": 1083,
+   "durationInFrames": 32,
+   "texto": "grande mudança"
+  },
+  {
+   "from": 1116,
+   "durationInFrames": 21,
+   "texto": "Mas é aí"
+  },
+  {
+   "from": 1138,
+   "durationInFrames": 10,
+   "texto": "que a gente"
+  },
+  {
+   "from": 1149,
+   "durationInFrames": 40,
+   "texto": "está construindo as"
+  },
+  {
+   "from": 1190,
+   "durationInFrames": 36,
+   "texto": "raízes do marketing"
+  },
+  {
+   "from": 1227,
+   "durationInFrames": 28,
+   "texto": "da sua empresa"
+  },
+  {
+   "from": 1257,
+   "durationInFrames": 27,
+   "texto": "É justamente nessa"
+  },
+  {
+   "from": 1285,
+   "durationInFrames": 14,
+   "texto": "fase que a"
+  },
+  {
+   "from": 1300,
+   "durationInFrames": 23,
+   "texto": "gente está construindo"
+  },
+  {
+   "from": 1324,
+   "durationInFrames": 43,
+   "texto": "reconhecimento,"
+  },
+  {
+   "from": 1371,
+   "durationInFrames": 25,
+   "texto": "posicionamento,"
+  },
+  {
+   "from": 1397,
+   "durationInFrames": 16,
+   "texto": "Confiança e"
+  },
+  {
+   "from": 1414,
+   "durationInFrames": 34,
+   "texto": "relacionamento com as"
+  },
+  {
+   "from": 1449,
+   "durationInFrames": 18,
+   "texto": "pessoas que estão"
+  },
+  {
+   "from": 1468,
+   "durationInFrames": 23,
+   "texto": "por trás da"
+  },
+  {
+   "from": 1492,
+   "durationInFrames": 8,
+   "texto": "tela"
+  },
+  {
+   "from": 1540,
+   "durationInFrames": 19,
+   "texto": "sobre fazer uma"
+  },
+  {
+   "from": 1560,
+   "durationInFrames": 24,
+   "texto": "publicação hoje"
+  },
+  {
+   "from": 1585,
+   "durationInFrames": 19,
+   "texto": "E esperar que"
+  },
+  {
+   "from": 1605,
+   "durationInFrames": 15,
+   "texto": "amanhã a sua"
+  },
+  {
+   "from": 1621,
+   "durationInFrames": 20,
+   "texto": "empresa esteja em"
+  },
+  {
+   "from": 1642,
+   "durationInFrames": 22,
+   "texto": "outro patamar"
+  },
+  {
+   "from": 1710,
+   "durationInFrames": 32,
+   "texto": "algo concreto que"
+  },
+  {
+   "from": 1743,
+   "durationInFrames": 29,
+   "texto": "continue gerando"
+  },
+  {
+   "from": 1773,
+   "durationInFrames": 41,
+   "texto": "posicionamento,"
+  },
+  {
+   "from": 1817,
+   "durationInFrames": 16,
+   "texto": "crescimento e"
+  },
+  {
+   "from": 1834,
+   "durationInFrames": 25,
+   "texto": "reconhecimento para"
+  },
+  {
+   "from": 1860,
+   "durationInFrames": 28,
+   "texto": "aquela marca ao"
+  },
+  {
+   "from": 1889,
+   "durationInFrames": 29,
+   "texto": "longo do tempo."
+  },
+  {
+   "from": 1922,
+   "durationInFrames": 11,
+   "texto": "Então,"
+  },
+  {
+   "from": 1934,
+   "durationInFrames": 13,
+   "texto": "empresário,"
+  },
+  {
+   "from": 1948,
+   "durationInFrames": 20,
+   "texto": "fica tranquilo,"
+  },
+  {
+   "from": 1969,
+   "durationInFrames": 28,
+   "texto": "porque nem sempre"
+  },
+  {
+   "from": 1998,
+   "durationInFrames": 21,
+   "texto": "a falta do"
+  },
+  {
+   "from": 2020,
+   "durationInFrames": 24,
+   "texto": "resultado que você"
+  },
+  {
+   "from": 2045,
+   "durationInFrames": 19,
+   "texto": "almeja"
+  },
+  {
+   "from": 2065,
+   "durationInFrames": 27,
+   "texto": "Significa que a"
+  },
+  {
+   "from": 2093,
+   "durationInFrames": 12,
+   "texto": "sua marca não"
+  },
+  {
+   "from": 2106,
+   "durationInFrames": 18,
+   "texto": "está crescendo"
+  },
+  {
+   "from": 2125,
+   "durationInFrames": 18,
+   "texto": "Na verdade,"
+  },
+  {
+   "from": 2144,
+   "durationInFrames": 16,
+   "texto": "ela só pode"
+  },
+  {
+   "from": 2161,
+   "durationInFrames": 44,
+   "texto": "estar construindo raízes"
+  },
+  {
+   "from": 2206,
+   "durationInFrames": 41,
+   "texto": "sólidas naquele período"
+  }
+ ],
+ "zooms": [
+  {
+   "from": 30,
+   "durationInFrames": 22,
+   "escala": 1.07
+  },
+  {
+   "from": 522,
+   "durationInFrames": 22,
+   "escala": 1.07
+  },
+  {
+   "from": 981,
+   "durationInFrames": 22,
+   "escala": 1.06
+  },
+  {
+   "from": 1189,
+   "durationInFrames": 22,
+   "escala": 1.07
+  },
+  {
+   "from": 1950,
+   "durationInFrames": 22,
+   "escala": 1.07
+  },
+  {
+   "from": 2205,
+   "durationInFrames": 24,
+   "escala": 1.08
+  }
+ ],
+ "reenquadramentos": [],
+ "inserts": [
+  {
+   "from": 702,
+   "durationInFrames": 40,
+   "src": "raizes/br-celular.mp4",
+   "modo": "cheio"
+  },
+  {
+   "from": 1116,
+   "durationInFrames": 38,
+   "src": "raizes/br-pensando.mp4",
+   "modo": "cheio"
+  },
+  {
+   "from": 1440,
+   "durationInFrames": 62,
+   "src": "raizes/br-tela.mp4",
+   "modo": "cheio"
+  },
+  {
+   "from": 1553,
+   "durationInFrames": 32,
+   "src": "raizes/br-touchpad.mp4",
+   "modo": "cheio"
+  },
+  {
+   "from": 1802,
+   "durationInFrames": 39,
+   "src": "raizes/br-linha-tempo.mp4",
+   "modo": "cheio"
+  }
+ ],
+ "trilha": "raizes/trilha.wav"
+}

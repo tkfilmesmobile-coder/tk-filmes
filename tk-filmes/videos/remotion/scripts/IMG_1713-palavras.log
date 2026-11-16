@@ -1,0 +1,112 @@
+Whisper already exists at C:/Users/tamar/TK FILMES/projetos/curso-mestres-ai/remotion/whisper.cpp
+Model already exists at C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin
+(node:29124) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\IMG_1713-p00.wav' (126720 samples, 7.9 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:00.120]  
+[00:00:00.120 --> 00:00:00.120]   Eu
+[00:00:00.120 --> 00:00:00.550]   quero
+[00:00:00.550 --> 00:00:00.550]   te
+[00:00:00.550 --> 00:00:00.860]   fazer
+[00:00:00.860 --> 00:00:01.050]   uma
+[00:00:01.050 --> 00:00:01.680]   pergunta
+[00:00:01.680 --> 00:00:01.680]  .
+[00:00:01.680 --> 00:00:02.040]   Você
+[00:00:02.040 --> 00:00:02.330]   sabe
+[00:00:02.330 --> 00:00:02.730]   como
+[00:00:02.730 --> 00:00:02.760]   de
+[00:00:02.760 --> 00:00:03.050]   fato
+[00:00:03.050 --> 00:00:03.120]   o
+[00:00:03.120 --> 00:00:03.920]   marketing
+[00:00:03.920 --> 00:00:04.360]   funciona
+[00:00:04.360 --> 00:00:04.770]   dentro
+[00:00:04.770 --> 00:00:04.910]   da
+[00:00:04.910 --> 00:00:05.100]   sua
+[00:00:05.100 --> 00:00:05.620]   empresa
+[00:00:05.620 --> 00:00:05.800]  ?
+[00:00:05.800 --> 00:00:05.990]   Ele
+[00:00:05.990 --> 00:00:06.480]   funciona
+[00:00:06.480 --> 00:00:06.730]   mais
+[00:00:06.730 --> 00:00:06.850]   ou
+[00:00:06.850 --> 00:00:07.160]   menos
+[00:00:07.160 --> 00:00:07.410]   como
+[00:00:07.410 --> 00:00:07.590]   uma
+[00:00:07.590 --> 00:00:07.900]   plant
+[00:00:07.900 --> 00:00:07.910]  a
+[00:00:07.910 --> 00:00:08.120]  .
+whisper_print_progress_callback: progress = 102%
+output_json: saving output to 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\tmp.json'
+
+whisper_print_timings:     load time =  3452.84 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    50.08 ms
+whisper_print_timings:   sample time =  3097.50 ms /   176 runs (   17.60 ms per run)
+whisper_print_timings:   encode time = 117973.20 ms /     1 runs (117973.20 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (    0.00 ms per run)
+whisper_print_timings:   batchd time = 17728.03 ms /   174 runs (  101.89 ms per run)
+whisper_print_timings:   prompt time =  3048.39 ms /    34 runs (   89.66 ms per run)
+whisper_print_timings:    total time = 145464.70 ms
+
+trecho 0 5.23-13.15: Eu quero te fazer uma pergunta. Você sabe como de fato o marketing funciona dentro da sua empresa? Ele funciona mais ou menos como uma planta.
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\tamar\TK FILMES\projetos\curso-mestres-ai\remotion\whisper.cpp\ggml-medium.bin'
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51865
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1024
+whisper_model_load: n_audio_head  = 16
+whisper_model_load: n_audio_layer = 24
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1024
+whisper_model_load: n_text_head   = 16
+whisper_model_load: n_text_layer  = 24
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 4 (medium)
+whisper_model_load: adding 1608 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:      CPU total size =  1533.14 MB
+whisper_model_load: model size    = 1533.14 MB
+whisper_init_state: kv self size  =  132.12 MB
+whisper_init_state: kv cross size =  147.46 MB
+whisper_init_state: alignment heads masks size = 384 B
+whisper_init_state: compute buffer (conv)   =   28.68 MB
+whisper_init_state: compute buffer (encode) =  594.22 MB
+whisper_init_state: compute buffer (cross)  =    7.85 MB
+whisper_init_state: compute buffer (decode) =  264.23 MB
+
+system_info: n_threads = 4 / 12 | AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0
+
+main: processing 'C:\Users\tamar\TK FILMES\tk-filmes\videos\remotion\scripts\cache\IMG_1713-p01.wav' (612320 samples, 38.3 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = pt, task = transcribe, timestamps = 1 ...
+

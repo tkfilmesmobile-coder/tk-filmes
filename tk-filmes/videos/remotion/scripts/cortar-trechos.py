@@ -13,6 +13,8 @@ bruto, pj, cj, saida, pjs = sys.argv[1:6]
 P = json.load(open(pj, encoding="utf-8-sig"))
 C = json.load(open(cj, encoding="utf-8-sig"))
 PAUSA = C.get("pausa_max", 0.35)
+# placa NVIDIA (PC kumyt) usa nvenc; sem ela (TK_X264=1, ex.: PC do escritório) vai no libx264
+VCODEC = ["-c:v", "libx264", "-preset", "fast", "-crf", "16"] if os.environ.get("TK_X264") else ["-c:v", "h264_nvenc", "-preset", "p7", "-rc", "vbr", "-cq", "16", "-b:v", "18M"]
 # A transcrição às vezes estica o fim de uma palavra por cima de um silêncio longo (ex.: "pessoas" com 8 s).
 # Palavra longa de verdade ("intencionalidade") passa de 1,3 s; acima de 2,5 s é esticamento: o fim vira começo + 1,2 s.
 for p in P:
@@ -159,7 +161,7 @@ with open(lista, "w", encoding="utf-8") as L:
         # 12 ms de fade no áudio nas pontas: tira o estalo do corte sem comer fala
         af = f"afade=t=in:d=0.012,afade=t=out:st={max(0, b0 - a0 - 0.012):.3f}:d=0.012"
         subprocess.run([FFMPEG, "-hide_banner", "-loglevel", "error", "-y", "-ss", f"{a0:.3f}", "-i", bruto, "-t", f"{b0 - a0:.3f}",
-                        "-vf", VF, "-af", af, "-c:v", "h264_nvenc", "-preset", "p7", "-rc", "vbr", "-cq", "16", "-b:v", "18M", "-pix_fmt", "yuv420p",
+                        "-vf", VF, "-af", af, *VCODEC, "-pix_fmt", "yuv420p",
                         "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
                         "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-ac", "2", parte], check=True)
         L.write(f"file '{parte}'\n")

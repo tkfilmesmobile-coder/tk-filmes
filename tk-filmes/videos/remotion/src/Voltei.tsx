@@ -11,6 +11,8 @@ import { Easing,
 } from "remotion";
 import { Audio, Video } from "@remotion/media";
 import { loadFont } from "@remotion/google-fonts/Montserrat";
+import { Capitulo, Planta, InsertNaTela, type FigCapitulo, type FigPlanta, type Insert } from "./EstiloNovo";
+import { Instagram, type FigInstagram } from "./InstagramPost";
 import { loadFont as loadSerif } from "@remotion/google-fonts/InstrumentSerif";
 import { loadFont as loadRound } from "@remotion/google-fonts/Nunito";
 const redonda = loadRound("normal", { weights: ["800", "900"], subsets: ["latin", "latin-ext"] }).fontFamily;
@@ -95,7 +97,11 @@ type Figura =
   // comentario: um comentário sendo escrito em movimento e a resposta logo abaixo
   | { tipo: "comentario"; from: number; durationInFrames: number; usuario: string; pergunta: string; resposta: string; fala: number }
   // porta: uma porta abrindo atrás da apresentadora (recorte em `pessoa`), com luz saindo pela abertura
-  | { tipo: "porta"; from: number; durationInFrames: number; fala: number; pessoa: string };
+  | { tipo: "porta"; from: number; durationInFrames: number; fala: number; pessoa: string }
+  // estilo novo (2026-11-16): cartão de capítulo digitado e planta desenhada (ver EstiloNovo.tsx)
+  | FigCapitulo
+  | FigPlanta
+  | FigInstagram;
 // Legenda normal (palavra por palavra agrupada), mostrada só quando não há arte na tela.
 type Legenda = { from: number; durationInFrames: number; texto: string };
 // Reenquadramento: num trecho, o vídeo dá um zoom leve e acompanha o rosto, mantendo a apresentadora centrada.
@@ -105,7 +111,7 @@ export type Estilo = "sans" | "serif" | "caps" | "legenda";
 export type Grade = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I";
 // legendaPos: "alto" (padrão, acima da cabeça) ou "baixo" (abaixo do queixo, pra quando o enquadramento é fechado
 // e a cabeça encosta no topo: a legenda no alto cobriria a testa)
-export type VolteiProps = { clipes: Clipe[]; textos: Texto[]; figuras?: Figura[]; legendas?: Legenda[]; zooms?: Zoom[]; reenquadramentos?: Reenquadramento[]; rosto?: PontoRosto[]; etapa: Etapa; grade?: Grade; estilo?: Estilo; fonte?: string; legendaPos?: "alto" | "baixo"; sombraBase?: boolean; forcar?: { etapa?: Etapa; grade?: Grade; estilo?: Estilo } };
+export type VolteiProps = { clipes: Clipe[]; textos: Texto[]; figuras?: Figura[]; legendas?: Legenda[]; zooms?: Zoom[]; reenquadramentos?: Reenquadramento[]; rosto?: PontoRosto[]; etapa: Etapa; grade?: Grade; estilo?: Estilo; fonte?: string; legendaPos?: "alto" | "baixo"; sombraBase?: boolean; inserts?: Insert[]; trilha?: string; trilhaVolume?: number; forcar?: { etapa?: Etapa; grade?: Grade; estilo?: Estilo } };
 
 // Cada vídeo mora em public/<pasta>/ (edicao.json, rosto.json, mídia). O componente é o mesmo pra todos.
 export const calcularVideo = (pasta: string): CalculateMetadataFunction<VolteiProps> => async ({ props }) => {
@@ -117,7 +123,7 @@ export const calcularVideo = (pasta: string): CalculateMetadataFunction<VolteiPr
   return {
     durationInFrames: d.previa ? Math.min(total, d.previa) : total,
     fps: d.fps ?? 30,
-    props: { clipes: d.clipes, textos: d.textos ?? [], figuras: d.figuras ?? [], legendas: d.legendas ?? [], zooms: d.zooms ?? [], reenquadramentos: d.reenquadramentos ?? [], rosto, etapa: props.forcar?.etapa ?? d.etapa ?? "cortes", grade: props.forcar?.grade ?? d.grade ?? "A", estilo: props.forcar?.estilo ?? d.estilo ?? "sans", fonte: d.fonte ?? "voltei/IMG_0511.mp4", legendaPos: d.legendaPos ?? "alto", sombraBase: d.sombraBase ?? false },
+    props: { clipes: d.clipes, textos: d.textos ?? [], figuras: d.figuras ?? [], legendas: d.legendas ?? [], zooms: d.zooms ?? [], reenquadramentos: d.reenquadramentos ?? [], rosto, etapa: props.forcar?.etapa ?? d.etapa ?? "cortes", grade: props.forcar?.grade ?? d.grade ?? "A", estilo: props.forcar?.estilo ?? d.estilo ?? "sans", fonte: d.fonte ?? "voltei/IMG_0511.mp4", legendaPos: d.legendaPos ?? "alto", sombraBase: d.sombraBase ?? false, inserts: d.inserts ?? [], trilha: d.trilha, trilhaVolume: d.trilhaVolume ?? 1 },
   };
 };
 
@@ -1129,6 +1135,9 @@ const FiguraNaTela: React.FC<{ f: Figura; rosto: Rosto | null; frameAbs: number;
   : f.tipo === "escuro" ? <Escuro f={f} frameAbs={frameAbs} grade={grade} transformVideo={transformVideo} />
   : f.tipo === "manchete" ? <Manchete f={f} />
   : f.tipo === "celular" ? <Celular f={f} />
+  : f.tipo === "capitulo" ? <Capitulo f={f} />
+  : f.tipo === "planta" ? <Planta f={f} />
+  : f.tipo === "instagram" ? <Instagram f={f} />
   : <Fecho f={f} />;
 
 // Posição do rosto no frame atual (px), suavizada com média de ±0,35 s sobre os pontos do rastreio.
@@ -1148,7 +1157,7 @@ const rostoNoFrame = (pontos: PontoRosto[], frame: number, fps: number): Rosto |
   return { x: (x / sw) * 1080, y: (y / sw) * 1920, w: (w / sw) * 1080, topo: (topo / sw) * 1920 };
 };
 
-export const Voltei: React.FC<VolteiProps> = ({ clipes, textos, figuras = [], legendas = [], zooms = [], reenquadramentos = [], rosto = [], etapa, grade = "A", estilo = "sans", fonte = "voltei/IMG_0511.mp4", legendaPos = "alto", sombraBase = false }) => {
+export const Voltei: React.FC<VolteiProps> = ({ clipes, textos, figuras = [], legendas = [], zooms = [], reenquadramentos = [], rosto = [], etapa, grade = "A", estilo = "sans", fonte = "voltei/IMG_0511.mp4", legendaPos = "alto", sombraBase = false, inserts = [], trilha, trilhaVolume = 1 }) => {
   LEGENDA_BAIXO = legendaPos === "baixo";
   const cor = etapa !== "cortes";
   const frame = useCurrentFrame();
@@ -1198,6 +1207,13 @@ export const Voltei: React.FC<VolteiProps> = ({ clipes, textos, figuras = [], le
         </Sequence>
       ))}
       </AbsoluteFill>
+      {/* inserts de b-roll por cima da fala (a voz continua por baixo), com o mesmo tratamento de cor */}
+      {inserts.map((ins, i) => (
+        <Sequence key={`ins${i}`} from={ins.from} durationInFrames={ins.durationInFrames} name="Insert">
+          <InsertNaTela i={{ ...ins, filtro: cor ? GRADES[grade].filtro : undefined }} />
+        </Sequence>
+      ))}
+      {trilha && etapa === "completo" ? <Audio src={staticFile(trilha)} volume={trilhaVolume} /> : null}
       {cor ? <Vinheta /> : null}
       {cor ? <Grao /> : null}
       {/* sombraBase: escurece de leve a metade de baixo (roupa clara atrás dos textos), como uma luz de cinema caindo */}

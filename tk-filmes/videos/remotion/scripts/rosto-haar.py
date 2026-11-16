@@ -16,8 +16,13 @@ while t <= dur:
     h, w = img.shape[:2]
     pw = 360; ph = int(h * pw / w)
     peq = cv2.resize(img, (pw, ph))
-    if det is None: det = cv2.FaceDetectorYN.create(YUNET, "", (pw, ph), 0.7)
-    _, rs = det.detect(peq)
+    if os.path.exists(YUNET):
+        if det is None: det = cv2.FaceDetectorYN.create(YUNET, "", (pw, ph), 0.7)
+        _, rs = det.detect(peq)
+    else:  # sem o YuNet nesta máquina: Haar frontal do próprio OpenCV
+        if det is None: det = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+        rs = det.detectMultiScale(cv2.cvtColor(peq, cv2.COLOR_BGR2GRAY), 1.1, 5, minSize=(40, 40))
+        rs = [list(r) for r in rs] if len(rs) else None
     if rs is not None and len(rs):
         x, y, fw, fh = map(float, max(rs, key=lambda r: r[2] * r[3])[:4])
         pts.append({"t": round(t, 2), "x": (x + fw / 2) / pw, "y": (y + fh / 2) / ph, "w": fw / pw, "topo": y / ph})

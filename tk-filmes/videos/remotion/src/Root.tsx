@@ -51,6 +51,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="Tempo" component={Voltei} calculateMetadata={calcularVideo("tempo")} width={1080} height={1920} fps={24} durationInFrames={300} defaultProps={{ clipes: [], textos: [], etapa: "cortes" } satisfies VolteiProps} />
       <Composition id="Viralizar" component={Voltei} calculateMetadata={calcularVideo("viralizar")} width={1080} height={1920} fps={24} durationInFrames={300} defaultProps={{ clipes: [], textos: [], etapa: "cortes" } satisfies VolteiProps} />
       <Composition id="Barulho" component={Voltei} calculateMetadata={calcularVideo("barulho")} width={1080} height={1920} fps={24} durationInFrames={300} defaultProps={{ clipes: [], textos: [], etapa: "cortes" } satisfies VolteiProps} />
+      <Composition id="Raizes" component={Voltei} calculateMetadata={calcularVideo("raizes")} width={1080} height={1920} fps={24} durationInFrames={300} defaultProps={{ clipes: [], textos: [], etapa: "cortes" } satisfies VolteiProps} />
       {/* posts de imagem única que acompanham cada reel (estética dos reels) */}
       {(["tempo", "viralizar", "barulho"] as const).map((k) => (
         <Still key={`post-${k}`} id={`Post${k[0].toUpperCase()}${k.slice(1)}`} component={PostReel} width={1080} height={1350} defaultProps={postsReels[k] as PostReelProps} />

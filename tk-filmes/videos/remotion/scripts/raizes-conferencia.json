@@ -1,0 +1,1297 @@
+[
+ {
+  "texto": "Eu",
+  "ini": 0.14,
+  "fim": 0.62
+ },
+ {
+  "texto": "quero",
+  "ini": 0.62,
+  "fim": 0.82
+ },
+ {
+  "texto": "te",
+  "ini": 0.82,
+  "fim": 0.92
+ },
+ {
+  "texto": "fazer",
+  "ini": 0.92,
+  "fim": 1.14
+ },
+ {
+  "texto": "uma",
+  "ini": 1.14,
+  "fim": 1.32
+ },
+ {
+  "texto": "pergunta.",
+  "ini": 1.32,
+  "fim": 1.84
+ },
+ {
+  "texto": "Você",
+  "ini": 2.08,
+  "fim": 2.34
+ },
+ {
+  "texto": "sabe",
+  "ini": 2.34,
+  "fim": 2.56
+ },
+ {
+  "texto": "como",
+  "ini": 2.56,
+  "fim": 2.78
+ },
+ {
+  "texto": "de",
+  "ini": 2.78,
+  "fim": 3.0
+ },
+ {
+  "texto": "fato",
+  "ini": 3.0,
+  "fim": 3.38
+ },
+ {
+  "texto": "o",
+  "ini": 3.38,
+  "fim": 3.58
+ },
+ {
+  "texto": "marketing",
+  "ini": 3.58,
+  "fim": 3.94
+ },
+ {
+  "texto": "funciona",
+  "ini": 3.94,
+  "fim": 4.6
+ },
+ {
+  "texto": "dentro",
+  "ini": 4.6,
+  "fim": 5.02
+ },
+ {
+  "texto": "da",
+  "ini": 5.02,
+  "fim": 5.2
+ },
+ {
+  "texto": "sua",
+  "ini": 5.2,
+  "fim": 5.34
+ },
+ {
+  "texto": "empresa?",
+  "ini": 5.34,
+  "fim": 5.78
+ },
+ {
+  "texto": "Ele",
+  "ini": 6.08,
+  "fim": 6.52
+ },
+ {
+  "texto": "funciona",
+  "ini": 6.52,
+  "fim": 6.86
+ },
+ {
+  "texto": "mais",
+  "ini": 6.86,
+  "fim": 7.06
+ },
+ {
+  "texto": "ou",
+  "ini": 7.06,
+  "fim": 7.18
+ },
+ {
+  "texto": "menos",
+  "ini": 7.18,
+  "fim": 7.34
+ },
+ {
+  "texto": "como",
+  "ini": 7.34,
+  "fim": 7.62
+ },
+ {
+  "texto": "uma",
+  "ini": 7.62,
+  "fim": 7.84
+ },
+ {
+  "texto": "planta.",
+  "ini": 7.84,
+  "fim": 8.18
+ },
+ {
+  "texto": "Quando",
+  "ini": 8.38,
+  "fim": 8.7
+ },
+ {
+  "texto": "você",
+  "ini": 8.7,
+  "fim": 8.96
+ },
+ {
+  "texto": "planta",
+  "ini": 8.96,
+  "fim": 9.28
+ },
+ {
+  "texto": "uma",
+  "ini": 9.28,
+  "fim": 9.4
+ },
+ {
+  "texto": "semente,",
+  "ini": 9.4,
+  "fim": 9.82
+ },
+ {
+  "texto": "você",
+  "ini": 9.92,
+  "fim": 10.08
+ },
+ {
+  "texto": "logo",
+  "ini": 10.08,
+  "fim": 10.36
+ },
+ {
+  "texto": "vê",
+  "ini": 10.36,
+  "fim": 10.56
+ },
+ {
+  "texto": "as",
+  "ini": 10.56,
+  "fim": 10.7
+ },
+ {
+  "texto": "primeiras",
+  "ini": 10.7,
+  "fim": 11.06
+ },
+ {
+  "texto": "folhinhas",
+  "ini": 11.06,
+  "fim": 11.58
+ },
+ {
+  "texto": "e",
+  "ini": 11.58,
+  "fim": 11.74
+ },
+ {
+  "texto": "você",
+  "ini": 11.74,
+  "fim": 11.9
+ },
+ {
+  "texto": "fica",
+  "ini": 11.9,
+  "fim": 12.12
+ },
+ {
+  "texto": "animado,",
+  "ini": 12.12,
+  "fim": 12.56
+ },
+ {
+  "texto": "você",
+  "ini": 12.68,
+  "fim": 12.82
+ },
+ {
+  "texto": "sente",
+  "ini": 12.82,
+  "fim": 13.08
+ },
+ {
+  "texto": "que",
+  "ini": 13.08,
+  "fim": 13.22
+ },
+ {
+  "texto": "tem",
+  "ini": 13.22,
+  "fim": 13.4
+ },
+ {
+  "texto": "algo",
+  "ini": 13.4,
+  "fim": 13.64
+ },
+ {
+  "texto": "acontecendo",
+  "ini": 13.64,
+  "fim": 14.04
+ },
+ {
+  "texto": "por",
+  "ini": 14.04,
+  "fim": 14.26
+ },
+ {
+  "texto": "ali.",
+  "ini": 14.26,
+  "fim": 14.48
+ },
+ {
+  "texto": "Só",
+  "ini": 14.84,
+  "fim": 15.02
+ },
+ {
+  "texto": "que",
+  "ini": 15.02,
+  "fim": 15.1
+ },
+ {
+  "texto": "chega",
+  "ini": 15.1,
+  "fim": 15.26
+ },
+ {
+  "texto": "um",
+  "ini": 15.26,
+  "fim": 15.36
+ },
+ {
+  "texto": "momento",
+  "ini": 15.36,
+  "fim": 15.86
+ },
+ {
+  "texto": "que",
+  "ini": 15.86,
+  "fim": 16.26
+ },
+ {
+  "texto": "parece",
+  "ini": 16.26,
+  "fim": 16.56
+ },
+ {
+  "texto": "que",
+  "ini": 16.56,
+  "fim": 16.72
+ },
+ {
+  "texto": "ela",
+  "ini": 16.72,
+  "fim": 16.8
+ },
+ {
+  "texto": "não",
+  "ini": 16.8,
+  "fim": 16.96
+ },
+ {
+  "texto": "evolui",
+  "ini": 16.96,
+  "fim": 17.5
+ },
+ {
+  "texto": "tanto,",
+  "ini": 17.5,
+  "fim": 17.94
+ },
+ {
+  "texto": "parece",
+  "ini": 18.14,
+  "fim": 18.36
+ },
+ {
+  "texto": "que",
+  "ini": 18.36,
+  "fim": 18.54
+ },
+ {
+  "texto": "está",
+  "ini": 18.54,
+  "fim": 18.64
+ },
+ {
+  "texto": "demorando",
+  "ini": 18.64,
+  "fim": 19.14
+ },
+ {
+  "texto": "um",
+  "ini": 19.14,
+  "fim": 19.28
+ },
+ {
+  "texto": "pouco",
+  "ini": 19.28,
+  "fim": 19.5
+ },
+ {
+  "texto": "mais.",
+  "ini": 19.5,
+  "fim": 19.94
+ },
+ {
+  "texto": "E",
+  "ini": 20.12,
+  "fim": 20.18
+ },
+ {
+  "texto": "é",
+  "ini": 20.18,
+  "fim": 20.26
+ },
+ {
+  "texto": "ali",
+  "ini": 20.26,
+  "fim": 20.44
+ },
+ {
+  "texto": "que",
+  "ini": 20.44,
+  "fim": 20.6
+ },
+ {
+  "texto": "estão",
+  "ini": 20.6,
+  "fim": 20.72
+ },
+ {
+  "texto": "sendo",
+  "ini": 20.72,
+  "fim": 21.02
+ },
+ {
+  "texto": "construídas",
+  "ini": 21.02,
+  "fim": 21.58
+ },
+ {
+  "texto": "as",
+  "ini": 21.58,
+  "fim": 21.88
+ },
+ {
+  "texto": "raízes",
+  "ini": 21.88,
+  "fim": 22.54
+ },
+ {
+  "texto": "dela,",
+  "ini": 22.54,
+  "fim": 22.92
+ },
+ {
+  "texto": "para",
+  "ini": 23.1,
+  "fim": 23.38
+ },
+ {
+  "texto": "tornar",
+  "ini": 23.38,
+  "fim": 23.64
+ },
+ {
+  "texto": "ela",
+  "ini": 23.64,
+  "fim": 23.8
+ },
+ {
+  "texto": "mais",
+  "ini": 23.8,
+  "fim": 24.04
+ },
+ {
+  "texto": "forte,",
+  "ini": 24.04,
+  "fim": 24.46
+ },
+ {
+  "texto": "uma",
+  "ini": 24.54,
+  "fim": 24.62
+ },
+ {
+  "texto": "planta",
+  "ini": 24.62,
+  "fim": 25.02
+ },
+ {
+  "texto": "saudável.",
+  "ini": 25.02,
+  "fim": 25.64
+ },
+ {
+  "texto": "E",
+  "ini": 25.82,
+  "fim": 26.14
+ },
+ {
+  "texto": "o",
+  "ini": 26.14,
+  "fim": 26.22
+ },
+ {
+  "texto": "marketing",
+  "ini": 26.22,
+  "fim": 26.56
+ },
+ {
+  "texto": "é",
+  "ini": 26.56,
+  "fim": 26.84
+ },
+ {
+  "texto": "exatamente",
+  "ini": 26.84,
+  "fim": 27.9
+ },
+ {
+  "texto": "assim.",
+  "ini": 27.9,
+  "fim": 28.36
+ },
+ {
+  "texto": "As",
+  "ini": 28.36,
+  "fim": 29.12
+ },
+ {
+  "texto": "primeiras",
+  "ini": 29.12,
+  "fim": 29.52
+ },
+ {
+  "texto": "vezes",
+  "ini": 29.52,
+  "fim": 29.74
+ },
+ {
+  "texto": "que",
+  "ini": 29.74,
+  "fim": 29.9
+ },
+ {
+  "texto": "você",
+  "ini": 29.9,
+  "fim": 30.08
+ },
+ {
+  "texto": "vai",
+  "ini": 30.08,
+  "fim": 30.22
+ },
+ {
+  "texto": "postar",
+  "ini": 30.22,
+  "fim": 30.56
+ },
+ {
+  "texto": "o",
+  "ini": 30.56,
+  "fim": 30.68
+ },
+ {
+  "texto": "seu",
+  "ini": 30.68,
+  "fim": 30.78
+ },
+ {
+  "texto": "conteúdo",
+  "ini": 30.78,
+  "fim": 31.3
+ },
+ {
+  "texto": "O",
+  "ini": 31.3,
+  "fim": 31.82
+ },
+ {
+  "texto": "que",
+  "ini": 31.82,
+  "fim": 31.92
+ },
+ {
+  "texto": "acontece",
+  "ini": 31.92,
+  "fim": 32.26
+ },
+ {
+  "texto": "é",
+  "ini": 32.26,
+  "fim": 32.46
+ },
+ {
+  "texto": "que",
+  "ini": 32.46,
+  "fim": 32.48
+ },
+ {
+  "texto": "tem",
+  "ini": 32.48,
+  "fim": 32.6
+ },
+ {
+  "texto": "uma",
+  "ini": 32.6,
+  "fim": 32.72
+ },
+ {
+  "texto": "movimentação",
+  "ini": 32.72,
+  "fim": 33.32
+ },
+ {
+  "texto": "muito",
+  "ini": 33.32,
+  "fim": 33.58
+ },
+ {
+  "texto": "grande",
+  "ini": 33.58,
+  "fim": 34.04
+ },
+ {
+  "texto": "Tem",
+  "ini": 34.04,
+  "fim": 34.26
+ },
+ {
+  "texto": "muita",
+  "ini": 34.26,
+  "fim": 34.52
+ },
+ {
+  "texto": "gente",
+  "ini": 34.52,
+  "fim": 34.74
+ },
+ {
+  "texto": "chegando,",
+  "ini": 34.74,
+  "fim": 35.28
+ },
+ {
+  "texto": "tem",
+  "ini": 35.38,
+  "fim": 35.44
+ },
+ {
+  "texto": "curtida,",
+  "ini": 35.44,
+  "fim": 35.88
+ },
+ {
+  "texto": "tem",
+  "ini": 36.0,
+  "fim": 36.06
+ },
+ {
+  "texto": "comentário,",
+  "ini": 36.06,
+  "fim": 36.64
+ },
+ {
+  "texto": "tem",
+  "ini": 36.78,
+  "fim": 37.02
+ },
+ {
+  "texto": "compartilhamento",
+  "ini": 37.02,
+  "fim": 37.82
+ },
+ {
+  "texto": "E",
+  "ini": 37.82,
+  "fim": 38.3
+ },
+ {
+  "texto": "chega",
+  "ini": 38.3,
+  "fim": 38.52
+ },
+ {
+  "texto": "um",
+  "ini": 38.52,
+  "fim": 38.62
+ },
+ {
+  "texto": "determinado",
+  "ini": 38.62,
+  "fim": 39.16
+ },
+ {
+  "texto": "momento",
+  "ini": 39.16,
+  "fim": 39.66
+ },
+ {
+  "texto": "que",
+  "ini": 39.66,
+  "fim": 40.08
+ },
+ {
+  "texto": "parece",
+  "ini": 40.08,
+  "fim": 40.36
+ },
+ {
+  "texto": "que",
+  "ini": 40.36,
+  "fim": 40.56
+ },
+ {
+  "texto": "tudo",
+  "ini": 40.56,
+  "fim": 40.74
+ },
+ {
+  "texto": "isso",
+  "ini": 40.74,
+  "fim": 40.96
+ },
+ {
+  "texto": "trava",
+  "ini": 40.96,
+  "fim": 41.4
+ },
+ {
+  "texto": "Que",
+  "ini": 41.4,
+  "fim": 41.9
+ },
+ {
+  "texto": "para,",
+  "ini": 41.9,
+  "fim": 42.38
+ },
+ {
+  "texto": "que",
+  "ini": 42.56,
+  "fim": 42.62
+ },
+ {
+  "texto": "você",
+  "ini": 42.62,
+  "fim": 42.9
+ },
+ {
+  "texto": "não",
+  "ini": 42.9,
+  "fim": 43.08
+ },
+ {
+  "texto": "sente",
+  "ini": 43.08,
+  "fim": 43.5
+ },
+ {
+  "texto": "que",
+  "ini": 43.5,
+  "fim": 43.66
+ },
+ {
+  "texto": "está",
+  "ini": 43.66,
+  "fim": 43.82
+ },
+ {
+  "texto": "mais",
+  "ini": 43.82,
+  "fim": 44.14
+ },
+ {
+  "texto": "tendo",
+  "ini": 44.14,
+  "fim": 44.88
+ },
+ {
+  "texto": "aquela",
+  "ini": 44.88,
+  "fim": 45.18
+ },
+ {
+  "texto": "grande",
+  "ini": 45.18,
+  "fim": 45.66
+ },
+ {
+  "texto": "mudança",
+  "ini": 45.66,
+  "fim": 46.4
+ },
+ {
+  "texto": "Mas",
+  "ini": 46.4,
+  "fim": 47.08
+ },
+ {
+  "texto": "é",
+  "ini": 47.08,
+  "fim": 47.28
+ },
+ {
+  "texto": "aí",
+  "ini": 47.28,
+  "fim": 47.5
+ },
+ {
+  "texto": "que",
+  "ini": 47.5,
+  "fim": 47.66
+ },
+ {
+  "texto": "a",
+  "ini": 47.66,
+  "fim": 47.78
+ },
+ {
+  "texto": "gente",
+  "ini": 47.78,
+  "fim": 47.94
+ },
+ {
+  "texto": "está",
+  "ini": 47.94,
+  "fim": 48.2
+ },
+ {
+  "texto": "construindo",
+  "ini": 48.2,
+  "fim": 49.16
+ },
+ {
+  "texto": "as",
+  "ini": 49.16,
+  "fim": 49.7
+ },
+ {
+  "texto": "raízes",
+  "ini": 49.7,
+  "fim": 50.5
+ },
+ {
+  "texto": "do",
+  "ini": 50.5,
+  "fim": 50.74
+ },
+ {
+  "texto": "marketing",
+  "ini": 50.74,
+  "fim": 51.22
+ },
+ {
+  "texto": "da",
+  "ini": 51.22,
+  "fim": 51.52
+ },
+ {
+  "texto": "sua",
+  "ini": 51.52,
+  "fim": 51.72
+ },
+ {
+  "texto": "empresa",
+  "ini": 51.72,
+  "fim": 52.22
+ },
+ {
+  "texto": "É",
+  "ini": 52.22,
+  "fim": 52.9
+ },
+ {
+  "texto": "justamente",
+  "ini": 52.9,
+  "fim": 53.32
+ },
+ {
+  "texto": "nessa",
+  "ini": 53.32,
+  "fim": 53.68
+ },
+ {
+  "texto": "fase",
+  "ini": 53.68,
+  "fim": 54.04
+ },
+ {
+  "texto": "que",
+  "ini": 54.04,
+  "fim": 54.2
+ },
+ {
+  "texto": "a",
+  "ini": 54.2,
+  "fim": 54.28
+ },
+ {
+  "texto": "gente",
+  "ini": 54.28,
+  "fim": 54.42
+ },
+ {
+  "texto": "está",
+  "ini": 54.42,
+  "fim": 54.6
+ },
+ {
+  "texto": "construindo",
+  "ini": 54.6,
+  "fim": 55.28
+ },
+ {
+  "texto": "Reconhecimento,",
+  "ini": 56.92,
+  "fim": 57.6
+ },
+ {
+  "texto": "posicionamento,",
+  "ini": 57.6,
+  "fim": 58.28
+ },
+ {
+  "texto": "confiança",
+  "ini": 58.46,
+  "fim": 58.98
+ },
+ {
+  "texto": "e",
+  "ini": 58.98,
+  "fim": 59.06
+ },
+ {
+  "texto": "relacionamento",
+  "ini": 59.06,
+  "fim": 59.98
+ },
+ {
+  "texto": "Com",
+  "ini": 59.98,
+  "fim": 60.4
+ },
+ {
+  "texto": "as",
+  "ini": 60.4,
+  "fim": 60.5
+ },
+ {
+  "texto": "pessoas",
+  "ini": 60.5,
+  "fim": 60.8
+ },
+ {
+  "texto": "que",
+  "ini": 60.8,
+  "fim": 61.04
+ },
+ {
+  "texto": "estão",
+  "ini": 61.04,
+  "fim": 61.3
+ },
+ {
+  "texto": "por",
+  "ini": 61.3,
+  "fim": 61.7
+ },
+ {
+  "texto": "trás",
+  "ini": 61.7,
+  "fim": 62.06
+ },
+ {
+  "texto": "da",
+  "ini": 62.06,
+  "fim": 62.28
+ },
+ {
+  "texto": "tela",
+  "ini": 62.28,
+  "fim": 62.62
+ },
+ {
+  "texto": "O",
+  "ini": 62.62,
+  "fim": 62.94
+ },
+ {
+  "texto": "marketing",
+  "ini": 62.94,
+  "fim": 63.5
+ },
+ {
+  "texto": "não",
+  "ini": 63.5,
+  "fim": 64.06
+ },
+ {
+  "texto": "é",
+  "ini": 64.06,
+  "fim": 64.3
+ },
+ {
+  "texto": "sobre",
+  "ini": 64.3,
+  "fim": 64.56
+ },
+ {
+  "texto": "fazer",
+  "ini": 64.56,
+  "fim": 64.92
+ },
+ {
+  "texto": "uma",
+  "ini": 64.92,
+  "fim": 65.18
+ },
+ {
+  "texto": "publicação",
+  "ini": 65.18,
+  "fim": 65.8
+ },
+ {
+  "texto": "hoje",
+  "ini": 65.8,
+  "fim": 66.2
+ },
+ {
+  "texto": "E",
+  "ini": 66.2,
+  "fim": 66.56
+ },
+ {
+  "texto": "esperar",
+  "ini": 66.56,
+  "fim": 66.86
+ },
+ {
+  "texto": "que",
+  "ini": 66.86,
+  "fim": 67.06
+ },
+ {
+  "texto": "amanhã",
+  "ini": 67.06,
+  "fim": 67.5
+ },
+ {
+  "texto": "a",
+  "ini": 67.5,
+  "fim": 67.68
+ },
+ {
+  "texto": "sua",
+  "ini": 67.68,
+  "fim": 67.7
+ },
+ {
+  "texto": "empresa",
+  "ini": 67.7,
+  "fim": 68.04
+ },
+ {
+  "texto": "esteja",
+  "ini": 68.04,
+  "fim": 68.44
+ },
+ {
+  "texto": "em",
+  "ini": 68.44,
+  "fim": 68.58
+ },
+ {
+  "texto": "outro",
+  "ini": 68.58,
+  "fim": 68.88
+ },
+ {
+  "texto": "patamar",
+  "ini": 68.88,
+  "fim": 69.42
+ },
+ {
+  "texto": "Na",
+  "ini": 69.42,
+  "fim": 69.76
+ },
+ {
+  "texto": "verdade,",
+  "ini": 69.76,
+  "fim": 70.32
+ },
+ {
+  "texto": "ele",
+  "ini": 70.52,
+  "fim": 70.76
+ },
+ {
+  "texto": "é",
+  "ini": 70.76,
+  "fim": 70.86
+ },
+ {
+  "texto": "sobre",
+  "ini": 70.86,
+  "fim": 71.08
+ },
+ {
+  "texto": "gerar",
+  "ini": 71.08,
+  "fim": 71.44
+ },
+ {
+  "texto": "algo",
+  "ini": 71.44,
+  "fim": 71.66
+ },
+ {
+  "texto": "concreto",
+  "ini": 71.66,
+  "fim": 72.36
+ },
+ {
+  "texto": "Que",
+  "ini": 72.36,
+  "fim": 72.82
+ },
+ {
+  "texto": "continue",
+  "ini": 72.82,
+  "fim": 73.46
+ },
+ {
+  "texto": "gerando",
+  "ini": 73.46,
+  "fim": 74.08
+ },
+ {
+  "texto": "posicionamento,",
+  "ini": 74.08,
+  "fim": 75.64
+ },
+ {
+  "texto": "crescimento",
+  "ini": 75.86,
+  "fim": 76.42
+ },
+ {
+  "texto": "e",
+  "ini": 76.42,
+  "fim": 76.58
+ },
+ {
+  "texto": "reconhecimento",
+  "ini": 76.58,
+  "fim": 77.5
+ },
+ {
+  "texto": "Para",
+  "ini": 77.5,
+  "fim": 77.7
+ },
+ {
+  "texto": "aquela",
+  "ini": 77.7,
+  "fim": 77.96
+ },
+ {
+  "texto": "marca",
+  "ini": 77.96,
+  "fim": 78.42
+ },
+ {
+  "texto": "ao",
+  "ini": 78.42,
+  "fim": 78.92
+ },
+ {
+  "texto": "longo",
+  "ini": 78.92,
+  "fim": 79.32
+ },
+ {
+  "texto": "do",
+  "ini": 79.32,
+  "fim": 79.52
+ },
+ {
+  "texto": "tempo",
+  "ini": 79.52,
+  "fim": 79.94
+ },
+ {
+  "texto": "Então,",
+  "ini": 79.94,
+  "fim": 80.72
+ },
+ {
+  "texto": "empresário,",
+  "ini": 80.8,
+  "fim": 81.28
+ },
+ {
+  "texto": "fica",
+  "ini": 81.44,
+  "fim": 81.52
+ },
+ {
+  "texto": "tranquilo",
+  "ini": 81.52,
+  "fim": 82.1
+ },
+ {
+  "texto": "Porque",
+  "ini": 82.1,
+  "fim": 82.58
+ },
+ {
+  "texto": "nem",
+  "ini": 82.58,
+  "fim": 82.82
+ },
+ {
+  "texto": "sempre",
+  "ini": 82.82,
+  "fim": 83.46
+ },
+ {
+  "texto": "a",
+  "ini": 83.46,
+  "fim": 83.94
+ },
+ {
+  "texto": "falta",
+  "ini": 83.94,
+  "fim": 84.24
+ },
+ {
+  "texto": "do",
+  "ini": 84.24,
+  "fim": 84.38
+ },
+ {
+  "texto": "resultado",
+  "ini": 84.38,
+  "fim": 84.74
+ },
+ {
+  "texto": "que",
+  "ini": 84.74,
+  "fim": 84.98
+ },
+ {
+  "texto": "você",
+  "ini": 84.98,
+  "fim": 85.4
+ },
+ {
+  "texto": "almeja",
+  "ini": 85.4,
+  "fim": 86.26
+ },
+ {
+  "texto": "Significa",
+  "ini": 86.26,
+  "fim": 87.12
+ },
+ {
+  "texto": "que",
+  "ini": 87.12,
+  "fim": 87.28
+ },
+ {
+  "texto": "a",
+  "ini": 87.28,
+  "fim": 87.4
+ },
+ {
+  "texto": "sua",
+  "ini": 87.4,
+  "fim": 87.54
+ },
+ {
+  "texto": "marca",
+  "ini": 87.54,
+  "fim": 87.84
+ },
+ {
+  "texto": "não",
+  "ini": 87.84,
+  "fim": 87.98
+ },
+ {
+  "texto": "está",
+  "ini": 87.98,
+  "fim": 88.2
+ },
+ {
+  "texto": "crescendo",
+  "ini": 88.2,
+  "fim": 88.78
+ },
+ {
+  "texto": "Na",
+  "ini": 88.78,
+  "fim": 89.28
+ },
+ {
+  "texto": "verdade,",
+  "ini": 89.28,
+  "fim": 89.54
+ },
+ {
+  "texto": "ela",
+  "ini": 89.6,
+  "fim": 89.78
+ },
+ {
+  "texto": "só",
+  "ini": 89.78,
+  "fim": 89.96
+ },
+ {
+  "texto": "pode",
+  "ini": 89.96,
+  "fim": 90.28
+ },
+ {
+  "texto": "estar",
+  "ini": 90.28,
+  "fim": 90.6
+ },
+ {
+  "texto": "construindo",
+  "ini": 90.6,
+  "fim": 91.64
+ },
+ {
+  "texto": "raízes",
+  "ini": 91.64,
+  "fim": 92.16
+ },
+ {
+  "texto": "sólidas",
+  "ini": 92.16,
+  "fim": 92.84
+ },
+ {
+  "texto": "naquele",
+  "ini": 92.84,
+  "fim": 93.22
+ },
+ {
+  "texto": "período",
+  "ini": 93.22,
+  "fim": 93.62
+ }
+]

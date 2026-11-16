@@ -11,5 +11,8 @@ e o filtro de publicação da seção 8 do `estrategia.md` (v2, do Brand Book 2.
 Qualquer citação de profissão e regra de marketing (não só o quadro "Pode ou não pode?"): só com norma citada por nome,
 número e artigo, lida na fonte oficial, e com busca por alterações feita no ano atual. A referência conferida, com data de checagem, está em `referencias/publicidade-conselhos.md`.
 
+Edição de Reels da TK: seguir `videos/perfil-de-edicao.md` (estilo novo de 2026-11-16: corte rápido, trilha contínua,
+batidas graves, cartões de capítulo). Só vale pra TK, não pros clientes.
+
 Roteiro e legenda em nome da Talyta seguem o DNA da linguagem dela (`_contexto/marca/dna-linguagem.md`): estrutura,
 marcadores ("gente, calma", "pois é", "aí", "sim" de carimbo), sem enumeração falada, fecho que ensina o próximo passo.
