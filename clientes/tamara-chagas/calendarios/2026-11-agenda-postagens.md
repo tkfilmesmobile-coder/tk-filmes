@@ -32,6 +32,12 @@ quadro da feira · vlog). Os stories diários das 8h no @tamarachagas_prev conti
 | seg 16/11 7h | **Reels "a contribuição vence hoje"** (`reels/2026-11-16-img1689/`, equipe, editado com legenda, relógio e fonte) | Reels | **publicado 7h** no @dra.tamarachagas_ com colaboração: https://www.instagram.com/reel/DfzGN2amf-Q/ · + TikTok `sp_v1uIFKIwipyUFFwvybAI` | `sp_r1LWAOEkICeE74veCdMCb` |
 | seg 16/11 7h25 | **Carrossel "Contribuição do INSS: qual é a sua?"** (8 slides: tipos, valores de 2026, códigos e como pagar a GPS; `posts/2026-11-16-contribuicoes-inss/`) | carrossel | **publicado** no @tamarachagas_prev com convite ao @dra.tamarachagas_: https://www.instagram.com/p/DfzIHqwmwiL/ · + TikTok `sp_cnBtb6Od8FOqASL6AZS4h` | — |
 
+| ter 17/11 7h30 | **Arte: Perícia Conectada** (`posts/2026-11-17-pericia-conectada/`, MPS 06/11/2026) | post de imagem | **agendado** no @dra.tamarachagas_ com colaboração do @tamarachagas_prev · TikTok `sp_a2zVffqE7T4F6xq4dscN` | `sp_IGgiohUIVFhFJBXpn3TI1` |
+| qua 18/11 7h30 | **Arte: auxílio-acidente** (`posts/2026-11-18-auxilio-acidente/`, Lei 8.213, art. 86) | post de imagem | **agendado** (pessoal com colaboração) · TikTok `sp_s7m87mBwdGj2sauapOA` | `sp_50EzhYmXhjKcNx1GTR1Nj` |
+| qui 19/11 7h30 | **Arte: Novembro Azul, câncer de próstata e INSS** (`posts/2026-11-19-novembro-azul/`, Lei 8.213, art. 151; Lei 7.713, art. 6º, XIV) | post de imagem | **agendado** (pessoal com colaboração) · TikTok `sp_aHbZ6jyvzpqFC5csjft` | `sp_UMPPAAstRgPRLVg9RxFT` |
+| sex 20/11 | feriado (Consciência Negra) | — | sem post obrigatório | — |
+
+**Desde 16/11: o feed sai do pessoal pro profissional**, agendado na Post for Me às 7h30 (pedido da Talyta).
 **Stories pausados desde 16/11** (pedido da Talyta, até o novo formato).
 
 **Desde 12/11/2026 (regra imutável):** todo dia útil às 7h30, feed (arte, do profissional pro pessoal) + 15 stories ou

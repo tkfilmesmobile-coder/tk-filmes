@@ -44,6 +44,8 @@ if (-not $feed) {
     if ($sobra -lt 3) { Recado "reserva-feed" "A reserva de artes do feed está com $sobra arte(s). Produzir mais em clientes/tamara-chagas/posts/reserva/ (padrão post-tamara, fonte oficial)." }
   } else { Linha "FEED: SEM ARTE DO DIA E SEM RESERVA"; Recado "feed-sem-arte" "Não havia arte do dia nem reserva: o feed de $Data NÃO saiu. Produzir arte e publicar." }
 }
+# já agendado no servidor da Post for Me (16/11/2026): o servidor publica sozinho; não publicar de novo
+if ($feed -and (Test-Path "$($feed.FullName)/.agendado")) { Linha "feed $($feed.Name) já está agendado na Post for Me: $(Get-Content "$($feed.FullName)/.agendado")"; $feed = $null }
 $travaFeed = if ($feed) { "$($feed.FullName)/.publicando" } else { $null }
 if ($travaFeed -and (Test-Path $travaFeed) -and ((Get-Date) - (Get-Item $travaFeed).LastWriteTime).TotalMinutes -lt 30 -and -not (Test-Path "$($feed.FullName)/.publicado")) {
   Linha "feed $($feed.Name) já está sendo publicado por outra rotina; pulei"; $feed = $null
@@ -52,9 +54,10 @@ if ($feed -and -not (Test-Path "$($feed.FullName)/.publicado")) {
   "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" | Out-File $travaFeed -Encoding utf8
   $ok = $false
   for ($i = 1; $i -le 3 -and -not $ok; $i++) {
-    $s = (& $node --env-file=.env .claude/skills/publicar-social-ratos/scripts/publish-graph-api.js --conta TAMARACHAGAS_PREV --images "$($feed.FullName)/post.png" --caption-file "$($feed.FullName)/legenda.md" --colaboradores dra.tamarachagas_ 2>&1 | Out-String)
+    # do pessoal pro profissional (Talyta, 16/11/2026): sai no @dra.tamarachagas_ com colaboração do @tamarachagas_prev
+    $s = (& $node --env-file=.env .claude/skills/publicar-social-ratos/scripts/publish-postforme.js --platform instagram --conta dra.tamarachagas_ --colaboradores tamarachagas_prev --images "$($feed.FullName)/post.png" --caption-file "$($feed.FullName)/legenda.md" 2>&1 | Out-String)
     Linha "feed $($feed.Name) (tentativa $i)`n$s"
-    if ($s -match "Publicado!") { $ok = $true } else { Start-Sleep -Seconds 90 }
+    if ($s -match "Post criado:") { $ok = $true } else { Start-Sleep -Seconds 90 }
   }
   if ($ok) {
     "publicado em $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" | Out-File "$($feed.FullName)/.publicado" -Encoding utf8

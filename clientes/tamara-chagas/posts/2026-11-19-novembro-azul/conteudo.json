@@ -1,0 +1,12 @@
+{
+ "foto": "tamara/tamara-estudio-0056.jpg",
+ "foto_css": "left:400px;width:1050px;top:0px",
+ "story_foto_css": "left:330px;width:1150px;top:420px;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 30%),linear-gradient(180deg,transparent 0px,#000 220px);-webkit-mask-composite:source-in",
+ "etiquetas": ["NOVEMBRO AZUL", "INSS", "SAÚDE DO HOMEM"],
+ "fino": "Câncer de próstata e INSS:",
+ "forte": "o que pouca gente sabe.",
+ "destaque": "O auxílio não exige carência",
+ "lista_titulo": "O QUE DIZ A LEI",
+ "lista": [["Auxílio por incapacidade", "sem carência"], ["Aposentar por invalidez", "sem carência"], ["Aposentado com câncer", "isento de IR"]],
+ "fonte": "Planalto · Lei 8.213/1991, art. 151 · Lei 7.713/1988, art. 6º, XIV"
+}
