@@ -41,3 +41,6 @@ Ainda livres (ensaio da Tamara): 0004, 0020, 0029, 0040, 0044, 0046, 0056, 0084,
 - stock/mae-filha-carinho-pexels-18251000.jpg · https://www.pexels.com/photo/18251000/
 - stock/mae-filho-brincando-pexels-31559971.jpg · https://www.pexels.com/photo/31559971/
 - stock/martelo-justica-pexels-6077447.jpg · https://www.pexels.com/photo/6077447/
+
+## Wikimedia Commons (CC BY 2.0: crédito obrigatório) · baixada em 20/11/2026 a pedido da Talyta
+- stock/serra-da-barriga-20nov-lia-de-paula-minc-ccby2.jpg · Lia de Paula/MinC, 20/11/2015 · https://commons.wikimedia.org/wiki/File:Comemora%C3%A7%C3%B5es_do_Dia_da_Consci%C3%AAncia_Negra_na_Serra_da_Barriga_(22925613720).jpg · usada no post de 20/11/2026 (Consciência Negra)
