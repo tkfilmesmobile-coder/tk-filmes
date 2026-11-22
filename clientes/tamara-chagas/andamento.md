@@ -158,6 +158,13 @@
   `posts/2026-11-20-aviso-consciencia-negra/`, com story.jpg pronto, não publicado: stories pausados). `post_aviso.py` agora
   aceita "mes" no aviso.json (antes vinha OUTUBRO fixo).
 
+- 2026-11-22 · **Relatório de 6 meses** (22/05 a 22/11/2026, pedido da Talyta: tudo o que foi produzido e os resultados
+  dos 2 perfis) em `relatorios/2026-11-relatorio-6-meses-tamara-chagas.pdf` (papel timbrado, 8 páginas; dados em
+  `relatorios/2026-11-22-ig-6meses.json`, script `relatorios/relatorio_6m.mjs`). Destaques: 1,37 milhão de visualizações
+  nos 2 perfis; pessoal de 128.944 para 406.530 views/mês (+215%) e interações +245%; escritório de 5 posts em 3 meses para
+  44, com 4,2× mais views; 196 posts de feed (119 Reels, 57 imagens, 20 carrosséis); 51 posts além dos dias úteis; TikTok
+  com 99 posts em 18 dias.
+
 ## Em aberto
 - **Aprovar as permissões da tarefa "Tamara · feed 7h30"** (abrir a tarefa no app e clicar em "Executar agora" uma vez) ou
   liberar a tarefa do Windows / conectar o @tamarachagas_prev na Post for Me: sem isso, o feed automático trava esperando
