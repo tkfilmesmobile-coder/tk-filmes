@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Relatório de 6 meses · Tamara Chagas Advocacia</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+@page { size: A4; margin: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --bg:#F5F1EB; --card:#FFFFFF; --cinza:#ECEBE9; --tinta:#1F1D1A; --taupe:#8C7B6B; --fio:#D9D0C4; --claro:#C9BBAA; --suave:#E7DFD4; }
+body { font-family: Inter, sans-serif; color: var(--tinta); background: var(--bg); -webkit-print-color-adjust: exact; print-color-adjust: exact; font-size: 9.6pt; line-height: 1.55; }
+.pg { width: 210mm; height: 297mm; padding: 20mm 18mm 22mm; position: relative; page-break-after: always; overflow: hidden; background: var(--bg); }
+.pg:last-child { page-break-after: auto; }
+.k { font-size: 7.4pt; font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--taupe); }
+.k .n { color: var(--tinta); margin-right: 3mm; }
+h2 { font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 25pt; line-height: 1.15; letter-spacing: -.01em; margin: 3mm 0 3mm; }
+h2 b { font-family: Inter; font-weight: 800; letter-spacing: -.02em; }
+.lead { font-size: 10.5pt; font-weight: 300; color: #4a443d; max-width: 150mm; margin-bottom: 7mm; }
+.lead b { font-weight: 600; color: var(--tinta); }
+p b, li b { font-weight: 600; }
+.fio { height: 1px; background: var(--fio); margin: 6mm 0; }
+.topo { position: absolute; top: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: center; font-size: 6.8pt; letter-spacing: .24em; text-transform: uppercase; color: var(--taupe); }
+.topo img { height: 7mm; }
+.rod { position: absolute; bottom: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: center; font-size: 6.8pt; letter-spacing: .2em; text-transform: uppercase; color: var(--taupe); border-top: 1px solid var(--fio); padding-top: 3mm; }
+.rod img { height: 4.2mm; opacity: .85; }
+.num { font-family: 'Libre Baskerville', serif; font-weight: 400; letter-spacing: -.02em; line-height: 1; }
+.nota { font-size: 7.6pt; color: var(--taupe); line-height: 1.5; }
+
+/* capa */
+.capa { padding: 0; background: #EDEAE5; }
+.capa .foto { position: absolute; right: 0; top: 0; bottom: 0; width: 128mm; background: url('../marca/fotos/tamara/tamara-estudio-0081.jpg') center 18% / cover no-repeat;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,.55) 22%, #000 45%); }
+.capa .veu { position: absolute; left: 0; right: 0; bottom: 0; height: 120mm; background: linear-gradient(to top, #EDEAE5 30%, rgba(237,234,229,0)); }
+.capa .logo { position: absolute; top: 18mm; left: 18mm; height: 15mm; }
+.capa .txt { position: absolute; left: 18mm; top: 92mm; width: 112mm; }
+.capa h1 { font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 44pt; line-height: 1.05; letter-spacing: -.02em; margin: 5mm 0 6mm; }
+.capa h1 b { font-family: Inter; font-weight: 800; letter-spacing: -.035em; display: block; }
+.capa .sub { font-size: 10.5pt; font-weight: 300; line-height: 1.55; color: #3d3833; width: 92mm; }
+.capa .base { position: absolute; left: 18mm; right: 18mm; bottom: 16mm; display: flex; justify-content: space-between; align-items: flex-end; }
+.capa .base .pf { display: flex; gap: 10mm; }
+.capa .base .pf div { font-size: 7.4pt; color: var(--taupe); letter-spacing: .06em; line-height: 1.5; }
+.capa .base .pf b { display: block; color: var(--tinta); font-size: 9pt; letter-spacing: 0; font-weight: 600; }
+.capa .base .tk { text-align: right; font-size: 6.8pt; letter-spacing: .24em; text-transform: uppercase; color: var(--taupe); }
+.capa .base .tk img { height: 7.5mm; display: block; margin: 2mm 0 0 auto; }
+
+/* KPIs */
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--fio); }
+.kpi { padding: 6mm 5mm 6mm 0; border-bottom: 1px solid var(--fio); }
+.kpi:nth-child(3n+2), .kpi:nth-child(3n) { padding-left: 5mm; border-left: 1px solid var(--fio); }
+.kpi .num { font-size: 30pt; }
+.kpi .num small { font-family: Inter; font-size: 12pt; font-weight: 600; color: var(--taupe); margin-left: 1mm; letter-spacing: 0; }
+.kpi .t { font-size: 8.4pt; color: #4a443d; margin-top: 2.5mm; line-height: 1.45; }
+.kpi .t b { color: var(--tinta); }
+.frase { margin-top: 10mm; display: grid; grid-template-columns: 26mm 1fr; gap: 6mm; align-items: start; }
+.frase .k { padding-top: 1.5mm; }
+.frase p { font-family: 'Libre Baskerville', serif; font-size: 12.5pt; line-height: 1.6; color: #2c2925; }
+
+/* gráficos de colunas */
+.graf { background: var(--card); border-radius: 4mm; padding: 5.5mm 7mm 5mm; margin-bottom: 4.5mm; }
+.graf .cab { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5mm; }
+.graf .cab .tit { font-weight: 700; font-size: 10.5pt; }
+.graf .cab .tit span { font-weight: 300; color: var(--taupe); margin-left: 2mm; }
+.graf .cab .tot { font-size: 8pt; color: var(--taupe); }
+.graf .cab .tot b { font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 15pt; color: var(--tinta); margin-right: 1.5mm; }
+.cols { display: flex; align-items: flex-end; gap: 5mm; height: 40mm; border-bottom: 1px solid var(--fio); }
+.col { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
+.col .v { font-size: 7.6pt; font-weight: 600; margin-bottom: 1.5mm; white-space: nowrap; }
+.col .b { width: 100%; background: var(--claro); border-radius: 1.5mm 1.5mm 0 0; }
+.col.top .b { background: var(--tinta); }
+.col.parc .b { background: repeating-linear-gradient(135deg, var(--claro) 0 1.2mm, transparent 1.2mm 2.4mm); border: 1px solid var(--claro); border-bottom: 0; }
+.rot { display: flex; gap: 5mm; margin-top: 2mm; }
+.rot span { flex: 1; text-align: center; font-size: 7pt; color: var(--taupe); line-height: 1.35; }
+.leitura { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-top: 4mm; }
+.leitura div { border-top: 1px solid var(--tinta); padding-top: 2.5mm; }
+.leitura .num { font-size: 16pt; }
+.leitura span { display: block; font-size: 7.6pt; color: #4a443d; margin-top: 1.5mm; line-height: 1.4; }
+.txt-leitura { font-size: 9pt; color: #3d3833; margin-top: 4mm; }
+
+/* empilhado */
+.emp { display: flex; align-items: flex-end; gap: 6mm; height: 62mm; border-bottom: 1px solid var(--fio); }
+.emp .col .b { background: none; display: flex; flex-direction: column-reverse; border-radius: 0; }
+.seg { width: 100%; }
+.seg.r { background: var(--tinta); } .seg.i { background: var(--taupe); } .seg.c { background: var(--claro); }
+.emp .col .seg:last-child { border-radius: 1.5mm 1.5mm 0 0; }
+.leg { display: flex; gap: 6mm; font-size: 7.6pt; color: #4a443d; margin-top: 4mm; }
+.leg i { display: inline-block; width: 3mm; height: 3mm; border-radius: 50%; margin-right: 1.5mm; vertical-align: -.4mm; }
+.formatos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin-top: 6mm; }
+.fmt { background: var(--card); border-radius: 4mm; padding: 5mm; }
+.fmt .num { font-size: 26pt; }
+.fmt .t { font-weight: 700; font-size: 9.5pt; margin-top: 2mm; }
+.fmt .t i { display: inline-block; width: 2.6mm; height: 2.6mm; border-radius: 50%; margin-right: 1.6mm; }
+.fmt p { font-size: 8pt; color: #4a443d; margin-top: 1mm; line-height: 1.45; }
+.perfis { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 5mm; }
+.perfis .pf { background: var(--cinza); border-radius: 4mm; padding: 4.5mm 5mm; font-size: 8.4pt; color: #3d3833; }
+.perfis .pf b.h { display: block; font-size: 9.5pt; color: var(--tinta); margin-bottom: 1mm; }
+.minibar { display: flex; height: 2.4mm; border-radius: 2mm; overflow: hidden; margin: 2.5mm 0 1.5mm; }
+
+/* campanhas */
+.camp { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+.cp { background: var(--card); border-radius: 4mm; overflow: hidden; display: grid; grid-template-columns: 30mm 1fr; min-height: 47mm; }
+.cp .im { background-size: cover; background-position: center; }
+.cp .in { padding: 4.5mm 5mm 4mm; }
+.cp .tt { font-family: 'Libre Baskerville', serif; font-size: 11.5pt; line-height: 1.25; }
+.cp p { font-size: 7.8pt; color: #4a443d; margin: 1.8mm 0 3mm; line-height: 1.45; }
+.cp .nn { display: flex; gap: 4mm; border-top: 1px solid var(--fio); padding-top: 2.5mm; }
+.cp .nn div { font-size: 6.6pt; color: var(--taupe); letter-spacing: .08em; text-transform: uppercase; }
+.cp .nn b { display: block; font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 11.5pt; color: var(--tinta); letter-spacing: 0; text-transform: none; }
+.cp.larga { grid-column: span 2; grid-template-columns: 62mm 1fr; min-height: 52mm; }
+.cp.larga .tt { font-size: 15pt; }
+.cp.larga p { font-size: 8.6pt; }
+
+/* tabela top */
+.top { width: 100%; border-collapse: collapse; }
+.top td { padding: 1.8mm 2mm; border-bottom: 1px solid var(--fio); vertical-align: middle; font-size: 8.6pt; }
+.top th { text-align: left; font-size: 6.6pt; letter-spacing: .18em; text-transform: uppercase; color: var(--taupe); font-weight: 600; padding: 0 2mm 2.5mm; border-bottom: 1px solid var(--tinta); }
+.top .pos { font-family: 'Libre Baskerville', serif; font-size: 13pt; color: var(--claro); width: 9mm; }
+.top .dt { font-size: 7.6pt; color: var(--taupe); white-space: nowrap; }
+.top .pf { width: 22mm; line-height: 1.4; font-size: 6.4pt; letter-spacing: .14em; text-transform: uppercase; color: var(--taupe); }
+.top .r { text-align: right; white-space: nowrap; }
+.top .al { font-family: 'Libre Baskerville', serif; font-size: 11pt; }
+.top .bar { display: block; height: 1.4mm; background: var(--claro); border-radius: 1mm; margin-top: 1.3mm; }
+.top tr.esc td.pos { color: var(--taupe); }
+
+/* fim de semana */
+.grande { display: grid; grid-template-columns: 62mm 1fr; gap: 8mm; align-items: center; margin-bottom: 7mm; }
+.grande .num { font-size: 92pt; }
+.grande .div { display: flex; gap: 6mm; margin-top: 3mm; }
+.grande .div div { font-size: 8pt; color: #4a443d; }
+.grande .div b { font-family: 'Libre Baskerville'; font-weight: 400; font-size: 20pt; display: block; color: var(--tinta); }
+.linha-t { position: relative; padding-left: 7mm; border-left: 1px solid var(--fio); margin-left: 2mm; }
+.ev { position: relative; padding: 0 0 3.6mm; display: grid; grid-template-columns: 17mm 40mm 1fr 14mm; gap: 3mm; font-size: 8.4pt; align-items: baseline; }
+.ev::before { content: ""; position: absolute; left: -8.6mm; top: 1.3mm; width: 2.6mm; height: 2.6mm; border-radius: 50%; background: var(--bg); border: 1px solid var(--taupe); }
+.ev.forte::before { background: var(--tinta); border-color: var(--tinta); }
+.ev .d { font-family: 'Libre Baskerville'; font-size: 10pt; }
+.ev .q { font-size: 6.8pt; letter-spacing: .14em; text-transform: uppercase; color: var(--taupe); }
+.ev .r { text-align: right; color: var(--taupe); font-size: 7.6pt; }
+.pess { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-top: 4mm; }
+.pess div { background: var(--card); border-radius: 3mm; padding: 4mm; font-size: 7.8pt; color: #4a443d; line-height: 1.45; }
+.pess div b { display: block; color: var(--tinta); font-size: 8.6pt; margin-bottom: 1mm; }
+
+/* produção */
+.prod { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-bottom: 6mm; }
+.pd { border-top: 1px solid var(--tinta); padding-top: 3mm; }
+.pd .num { font-size: 30pt; }
+.pd .t { font-weight: 700; font-size: 9pt; margin-top: 1.5mm; }
+.pd p { font-size: 7.8pt; color: #4a443d; margin-top: 1mm; line-height: 1.45; }
+.lista2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 8mm; }
+.it { font-size: 8.3pt; color: #3d3833; line-height: 1.5; }
+.it .h { font-weight: 700; color: var(--tinta); font-size: 9pt; display: block; margin-bottom: .6mm; }
+.galeria { display: grid; grid-template-columns: repeat(6, 1fr); gap: 2.6mm; margin-top: 6mm; }
+.galeria div { aspect-ratio: 4/5; background-size: cover; background-position: center; border-radius: 1.6mm; box-shadow: 0 .6mm 2mm rgba(31,29,26,.10); }
+.galeria.sete { grid-template-columns: repeat(7, 1fr); }
+.galeria.quatro { grid-template-columns: repeat(4, 1fr); gap: 3.5mm; margin-top: 2mm; width: 150mm; }
+.cap { font-size: 7pt; color: var(--taupe); margin-top: 2mm; letter-spacing: .04em; }
+
+/* identidade */
+.idv { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 8mm; margin-top: 6mm; }
+.idv .it { border-top: 1px solid var(--fio); padding-top: 3mm; }
+.evolucao { display: flex; align-items: stretch; gap: 0; margin-top: 5mm; }
+.evolucao div { flex: 1; padding: 3mm 3mm 3mm 0; border-top: 2px solid var(--claro); font-size: 7.6pt; color: #4a443d; line-height: 1.4; }
+.evolucao div:last-child { border-top-color: var(--tinta); }
+.evolucao b { display: block; color: var(--tinta); font-size: 8.2pt; margin-bottom: .6mm; }
+
+/* automação + público */
+.auto { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4mm; }
+.au { background: var(--card); border-radius: 4mm; padding: 5mm; }
+.au .q { font-size: 6.8pt; letter-spacing: .2em; text-transform: uppercase; color: var(--taupe); font-weight: 600; }
+.au .tt { font-family: 'Libre Baskerville'; font-size: 12.5pt; margin: 1.5mm 0 1.5mm; }
+.au p { font-size: 8pt; color: #4a443d; line-height: 1.5; }
+.au .mini { display: flex; gap: 6mm; margin-top: 3mm; border-top: 1px solid var(--fio); padding-top: 2.5mm; }
+.au .mini div { font-size: 6.8pt; color: var(--taupe); text-transform: uppercase; letter-spacing: .1em; }
+.au .mini b { display: block; font-family: 'Libre Baskerville'; font-weight: 400; font-size: 13pt; color: var(--tinta); text-transform: none; letter-spacing: 0; }
+.seg2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 5mm; }
+.sg { background: var(--cinza); border-radius: 4mm; padding: 5mm; }
+.sg .num { font-size: 28pt; }
+.sg .h { font-size: 6.8pt; letter-spacing: .2em; text-transform: uppercase; color: var(--taupe); font-weight: 600; }
+.sg p { font-size: 8pt; color: #3d3833; margin-top: 2mm; line-height: 1.5; }
+.pub { margin-top: 3mm; }
+.pub .l { display: grid; grid-template-columns: 30mm 1fr 10mm; gap: 2mm; align-items: center; font-size: 7.6pt; color: #3d3833; margin: 1.6mm 0; }
+.pub .tr { height: 2.4mm; background: rgba(255,255,255,.75); border-radius: 2mm; overflow: hidden; }
+.pub .tr i { display: block; height: 100%; background: var(--tinta); border-radius: 2mm; }
+.pub .l span:last-child { text-align: right; font-weight: 600; }
+
+/* resumo final */
+.fim { background: var(--tinta); color: #F5F1EB; }
+.fim .k { color: var(--claro); }
+.fim h2 { color: #F5F1EB; }
+.fim .topo, .fim .rod { color: var(--claro); border-color: rgba(245,241,235,.18); }
+.conq { margin-top: 8mm; }
+.cq { display: grid; grid-template-columns: 14mm 1fr; gap: 4mm; padding: 4.4mm 0; border-top: 1px solid rgba(245,241,235,.18); }
+.cq .num { font-size: 15pt; color: var(--claro); }
+.cq .t { font-size: 10pt; line-height: 1.55; font-weight: 300; }
+.cq .t b { font-weight: 600; color: #fff; }
+.fontes { margin-top: 8mm; font-size: 7.2pt; color: var(--claro); line-height: 1.6; }
+.assin { position: absolute; left: 18mm; right: 18mm; bottom: 24mm; display: flex; justify-content: space-between; align-items: flex-end; }
+.assin img { height: 11mm; }
+.assin div { font-size: 7.4pt; color: var(--claro); line-height: 1.6; text-align: right; }
+</style></head><body>
+
+<!-- 1 · CAPA -->
+<section class="pg capa">
+ <div class="foto"></div><div class="veu"></div>
+ <img class="logo" src="../marca/logo-escuro-recortado.png" alt="">
+ <div class="txt">
+  <div class="k">Relatório de resultados · 22 mai a 22 nov 2026</div>
+  <h1>Seis meses<b>de conteúdo.</b></h1>
+  <p class="sub">Tudo o que foi produzido, publicado e conquistado no Instagram e no TikTok do escritório Tamara Chagas Advocacia: números, campanhas, identidade e organização.</p>
+ </div>
+ <div class="base">
+  <div class="pf">
+   <div><b>@dra.tamarachagas_</b>perfil da Dra. Tamara</div>
+   <div><b>@tamarachagas_prev</b>perfil do escritório</div>
+   <div><b>@tamarachagas.prev</b>TikTok, desde nov.</div>
+  </div>
+  <div class="tk">preparado por<img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+ </div>
+</section>
+
+<!-- 2 · EM NÚMEROS -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">01</span>Em números</div>
+ <h2>Seis meses em <b>nove números.</b></h2>
+ <p class="lead">De 22 de maio a 22 de novembro de 2026, nos dois perfis do Instagram e no TikTok. Os números vêm dos Insights oficiais do Instagram e do registro de tudo o que foi publicado.</p>
+ <div class="kpis">
+  <div class="kpi"><div class="num">1,37<small>mi</small></div><div class="t"><b>visualizações</b> nos dois perfis: 1.209.913 no da Doutora e 161.577 no do escritório</div></div>
+  <div class="kpi"><div class="num">196</div><div class="t"><b>posts de feed:</b> 119 Reels, 57 artes de imagem e 20 carrosséis (140 telas)</div></div>
+  <div class="kpi"><div class="num">3,2<small>×</small></div><div class="t"><b>mais visualizações por mês</b> no perfil da Doutora: de 128.944 para 406.530</div></div>
+  <div class="kpi"><div class="num">+245<small>%</small></div><div class="t"><b>de interações por mês</b> no perfil da Doutora: de 3.829 para 13.228</div></div>
+  <div class="kpi"><div class="num">4,2<small>×</small></div><div class="t"><b>mais visualizações no escritório</b> nos dois últimos meses que nos quatro anteriores somados</div></div>
+  <div class="kpi"><div class="num">51</div><div class="t"><b>posts além dos dias úteis:</b> fins de semana, domingos de eleição e feriados</div></div>
+  <div class="kpi"><div class="num">16.032</div><div class="t"><b>curtidas,</b> com 1.655 comentários, 1.328 compartilhamentos e 401 salvamentos</div></div>
+  <div class="kpi"><div class="num">101</div><div class="t"><b>stories publicados</b> pelo sistema da TK entre 01/10 e 16/11</div></div>
+  <div class="kpi"><div class="num">99</div><div class="t"><b>posts no TikTok</b> em 18 dias, com outros 97 já agendados até dezembro</div></div>
+ </div>
+ <div class="frase">
+  <div class="k">Em uma frase</div>
+  <p>O conteúdo do escritório ganhou ritmo diário, identidade própria e quadros fixos. O perfil da Dra. Tamara fechou o período no seu melhor mês, o perfil do escritório saiu de quase parado para 44 posts em três meses, e a marca chegou ao TikTok, com publicação automática todos os dias.</p>
+ </div>
+ <div class="rod"><span>02</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 3 · VISUALIZAÇÕES -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">02</span>Visualizações mês a mês</div>
+ <h2>O melhor mês veio <b>no fim.</b></h2>
+ <p class="lead">Visualizações de cada perfil em janelas de 30 dias, direto dos Insights da conta. Somam tudo o que foi visto: Reels, posts e stories.</p>
+
+ <div class="graf">
+  <div class="cab"><div class="tit">@dra.tamarachagas_<span>perfil da Dra. Tamara · 16.299 seguidores</span></div><div class="tot"><b>1.209.913</b>visualizações</div></div>
+  <div class="cols">
+   <div class="col"><span class="v">128.944</span><div class="b" style="height:31.7%"></div></div>
+   <div class="col"><span class="v">114.103</span><div class="b" style="height:28.1%"></div></div>
+   <div class="col"><span class="v">224.124</span><div class="b" style="height:55.1%"></div></div>
+   <div class="col"><span class="v">101.624</span><div class="b" style="height:25%"></div></div>
+   <div class="col"><span class="v">208.217</span><div class="b" style="height:51.2%"></div></div>
+   <div class="col top"><span class="v">406.530</span><div class="b" style="height:88%"></div></div>
+   <div class="col parc"><span class="v">26.371</span><div class="b" style="height:6.5%"></div></div>
+  </div>
+  <div class="rot"><span>22/05 a 21/06</span><span>21/06 a 21/07</span><span>21/07 a 20/08</span><span>20/08 a 19/09</span><span>19/09 a 19/10</span><span><b>19/10 a 18/11</b></span><span>18 a 22/11<br>(4 dias)</span></div>
+  <div class="leitura">
+   <div><span class="num">+215%</span><span>visualizações, primeiro mês contra o último</span></div>
+   <div><span class="num">+131%</span><span>contas alcançadas (15.455 → 35.763)</span></div>
+   <div><span class="num">+210%</span><span>contas engajadas (895 → 2.772)</span></div>
+   <div><span class="num">+59%</span><span>nos 3 últimos meses contra os 3 primeiros</span></div>
+  </div>
+ </div>
+
+ <div class="graf">
+  <div class="cab"><div class="tit">@tamarachagas_prev<span>perfil do escritório · 1.060 seguidores</span></div><div class="tot"><b>161.577</b>visualizações</div></div>
+  <div class="cols">
+   <div class="col"><span class="v">13.110</span><div class="b" style="height:14.5%"></div></div>
+   <div class="col"><span class="v">1.312</span><div class="b" style="height:1.5%"></div></div>
+   <div class="col"><span class="v">8.958</span><div class="b" style="height:9.9%"></div></div>
+   <div class="col"><span class="v">5.870</span><div class="b" style="height:6.5%"></div></div>
+   <div class="col top"><span class="v">79.695</span><div class="b" style="height:88%"></div></div>
+   <div class="col"><span class="v">43.744</span><div class="b" style="height:48.3%"></div></div>
+   <div class="col parc"><span class="v">8.888</span><div class="b" style="height:9.8%"></div></div>
+  </div>
+  <div class="rot"><span>22/05 a 21/06</span><span>21/06 a 21/07</span><span>21/07 a 20/08</span><span>20/08 a 19/09</span><span><b>19/09 a 19/10</b></span><span>19/10 a 18/11</span><span>18 a 22/11<br>(4 dias)</span></div>
+  <div class="leitura">
+   <div><span class="num">6×</span><span>visualizações no mês das eleições contra o primeiro mês</span></div>
+   <div><span class="num">4,2×</span><span>123.439 em 2 meses contra 29.250 nos 4 anteriores</span></div>
+   <div><span class="num">3,7×</span><span>interações no mesmo comparativo (912 → 3.414)</span></div>
+   <div><span class="num">366</span><span>interações só nos 4 primeiros dias da semana de 18/11</span></div>
+  </div>
+ </div>
+ <p class="nota">As colunas de cada perfil estão em escalas diferentes. A última coluna (listrada) tem só 4 dias, de 18 a 22/11.</p>
+ <div class="rod"><span>03</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 4 · O QUE FOI PUBLICADO -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">03</span>O que foi publicado</div>
+ <h2>196 posts, com o ritmo <b>dobrando no fim.</b></h2>
+ <p class="lead">Posts de feed por mês, somando os dois perfis do Instagram. Outubro, mês das eleições e do quadro da feira, foi o mais intenso: 63 posts.</p>
+ <div class="graf">
+  <div class="cab"><div class="tit">Posts de feed por mês<span>@dra.tamarachagas_ + @tamarachagas_prev</span></div><div class="tot"><b>196</b>posts</div></div>
+  <div class="emp">
+   <div class="col"><span class="v">2</span><div class="b" style="height:3.2%"><div class="seg r" style="height:100%"></div></div></div>
+   <div class="col"><span class="v">21</span><div class="b" style="height:33.3%"><div class="seg r" style="height:66.7%"></div><div class="seg i" style="height:14.3%"></div><div class="seg c" style="height:19%"></div></div></div>
+   <div class="col"><span class="v">13</span><div class="b" style="height:20.6%"><div class="seg r" style="height:53.8%"></div><div class="seg i" style="height:38.5%"></div><div class="seg c" style="height:7.7%"></div></div></div>
+   <div class="col"><span class="v">31</span><div class="b" style="height:49.2%"><div class="seg r" style="height:64.5%"></div><div class="seg i" style="height:22.6%"></div><div class="seg c" style="height:12.9%"></div></div></div>
+   <div class="col"><span class="v">30</span><div class="b" style="height:47.6%"><div class="seg r" style="height:60%"></div><div class="seg i" style="height:30%"></div><div class="seg c" style="height:10%"></div></div></div>
+   <div class="col"><span class="v">63</span><div class="b" style="height:92%"><div class="seg r" style="height:58.7%"></div><div class="seg i" style="height:36.5%"></div><div class="seg c" style="height:4.8%"></div></div></div>
+   <div class="col"><span class="v">36</span><div class="b" style="height:57.1%"><div class="seg r" style="height:58.3%"></div><div class="seg i" style="height:27.8%"></div><div class="seg c" style="height:13.9%"></div></div></div>
+  </div>
+  <div class="rot" style="gap:6mm"><span>maio<br>(10 dias)</span><span>junho</span><span>julho</span><span>agosto</span><span>setembro</span><span><b>outubro</b></span><span>novembro<br>(até 22)</span></div>
+  <div class="leg"><span><i style="background:var(--tinta)"></i>Reels</span><span><i style="background:var(--taupe)"></i>arte de imagem</span><span><i style="background:var(--claro)"></i>carrossel</span></div>
+ </div>
+ <div class="formatos">
+  <div class="fmt"><div class="num">119</div><div class="t"><i style="background:var(--tinta)"></i>Reels</div><p>O formato mais forte: alcance mediano de 1.400 pessoas por Reels no perfil da Doutora e de 635 no escritório.</p></div>
+  <div class="fmt"><div class="num">57</div><div class="t"><i style="background:var(--taupe)"></i>artes de imagem</div><p>Informativos com fonte oficial conferida, avisos de feriado e o calendário das eleições.</p></div>
+  <div class="fmt"><div class="num">20</div><div class="t"><i style="background:var(--claro)"></i>carrosséis</div><p>140 telas ao todo, entre elas os carrosséis do quadro da feira e o de contribuições.</p></div>
+ </div>
+ <div class="perfis">
+  <div class="pf"><b class="h">@dra.tamarachagas_ · 147 posts</b>107 Reels, 24 artes e 16 carrosséis. Outubro foi o mês com mais posts: 34.
+   <div class="minibar"><i style="width:72.8%;background:var(--tinta)"></i><i style="width:16.3%;background:var(--taupe)"></i><i style="width:10.9%;background:var(--claro)"></i></div></div>
+  <div class="pf"><b class="h">@tamarachagas_prev · 49 posts</b>De 5 posts entre junho e agosto para 44 entre setembro e novembro. Desde 16/11 a arte diária sai em colaboração a partir do perfil da Doutora.
+   <div class="minibar"><i style="width:24.5%;background:var(--tinta)"></i><i style="width:67.3%;background:var(--taupe)"></i><i style="width:8.2%;background:var(--claro)"></i></div></div>
+ </div>
+ <p class="nota" style="margin-top:4mm">Somando os posts do período: 515.634 visualizações e 312.868 contas alcançadas (soma do alcance de cada post).</p>
+ <div class="rod"><span>04</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 5 · CAMPANHAS -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">04</span>Campanhas e séries</div>
+ <h2>As séries que o público <b>reconhece.</b></h2>
+ <p class="lead">Números somados dos dois perfis, com os posts identificados pelo tema da legenda.</p>
+ <div class="camp">
+  <div class="cp larga"><div class="im" style="background-image:url('../marca/fotos/vlog-natal/ep03-0707-300.jpg');background-position:center 30%"></div><div class="in">
+   <div class="k">vlog + vídeo oficial</div><div class="tt">Saga da decoração de Natal</div>
+   <p>Vlog em episódios (EP. 01, 02, 03, "não ficou pronto" e "Finalizamos!"), vídeo oficial cinematográfico em versões vertical e horizontal, com câmeras lentas e cor de cinema, e stories da saga. Na finalização, o perfil da Doutora teve picos de 41 e 39 novos seguidores por dia.</p>
+   <div class="nn"><div><b>7</b>posts</div><div><b>35.677</b>alcance</div><div><b>60.191</b>visualizações</div><div><b>115</b>compart.</div></div></div></div>
+  <div class="cp"><div class="im" style="background-image:url('../reels/2026-10-08-feira-perguntas/parte1/carrossel/01.jpg')"></div><div class="in">
+   <div class="tt">O povo da feira sabe de INSS?</div>
+   <p>Quadro fixo gravado na feira: episódio de rua, a Rita respondendo, a Doutora fechando e o carrossel com fotos reais.</p>
+   <div class="nn"><div><b>11</b>posts</div><div><b>16.736</b>alcance</div><div><b>26.834</b>views</div></div></div></div>
+  <div class="cp"><div class="im" style="background-image:url('../calendarios/2026-10-eleicoes/posts/04-2026-10-04-hoje-e-dia-de-votar.png')"></div><div class="in">
+   <div class="tt">Eleições 2026</div>
+   <p>Calendário especial com 18 posts nos dois turnos: onde votar, documento, justificativa, voto como prova de vida, 70+ e PcD.</p>
+   <div class="nn"><div><b>18</b>posts</div><div><b>13.496</b>alcance</div><div><b>22.245</b>views</div></div></div></div>
+  <div class="cp"><div class="im" style="background-image:url('../marca/fotos/b-roll/equipe-08-recepcao-logo.jpg')"></div><div class="in">
+   <div class="tt">Equipe e escritório</div>
+   <p>"Estamos contratando", dia de cuidado com a equipe, escuta e reflexão e bastidores do escritório.</p>
+   <div class="nn"><div><b>12</b>posts</div><div><b>30.346</b>alcance</div><div><b>212</b>compart.</div></div></div></div>
+  <div class="cp"><div class="im" style="background-image:url('../posts/2026-09-29-golpes-canais-oficiais/post.png');background-position:right center"></div><div class="in">
+   <div class="tt">Alertas e golpes</div>
+   <p>Atestados médicos falsos (2 vídeos) e alerta de golpe com os canais oficiais do INSS.</p>
+   <div class="nn"><div><b>4</b>posts</div><div><b>15.359</b>alcance</div><div><b>154</b>compart.</div></div></div></div>
+ </div>
+ <div class="rod"><span>05</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 6 · MAIORES ALCANCES -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">05</span>Os destaques</div>
+ <h2>Os posts de <b>maior alcance.</b></h2>
+ <p class="lead">Os oito maiores do perfil da Doutora e os quatro maiores do escritório. Alcance é o número de pessoas diferentes que viram o post.</p>
+ <table class="top">
+  <tr><th></th><th>data</th><th>perfil</th><th>post</th><th class="r">alcance</th><th class="r">views</th><th class="r">coment.</th><th class="r">compart.</th></tr>
+  <tr><td class="pos">1</td><td class="dt">18/08</td><td class="pf">pessoal</td><td>BPC/LOAS para criança mesmo com a mãe MEI (decisão da Justiça Federal em Alagoas)<span class="bar" style="width:100%"></span></td><td class="r al">17.816</td><td class="r">23.345</td><td class="r">3</td><td class="r">35</td></tr>
+  <tr><td class="pos">2</td><td class="dt">14/08</td><td class="pf">pessoal</td><td>Atualização sobre os atestados médicos falsos<span class="bar" style="width:61%"></span></td><td class="r al">10.931</td><td class="r">16.502</td><td class="r">5</td><td class="r">69</td></tr>
+  <tr><td class="pos">3</td><td class="dt">01/08</td><td class="pf">pessoal</td><td>"Como dizia minha avó Lia…" (opinião com humor)<span class="bar" style="width:48%"></span></td><td class="r al">8.592</td><td class="r">14.541</td><td class="r">67</td><td class="r">55</td></tr>
+  <tr><td class="pos">4</td><td class="dt">01/11</td><td class="pf">pessoal · domingo</td><td>Saga do Natal: "a decoração não ficará pronta nesta segunda"<span class="bar" style="width:42%"></span></td><td class="r al">7.433</td><td class="r">12.523</td><td class="r">16</td><td class="r">4</td></tr>
+  <tr><td class="pos">5</td><td class="dt">27/09</td><td class="pf">pessoal · domingo</td><td>"Estamos contratando!"<span class="bar" style="width:39%"></span></td><td class="r al">7.021</td><td class="r">13.981</td><td class="r">1</td><td class="r">97</td></tr>
+  <tr><td class="pos">6</td><td class="dt">05/11</td><td class="pf">pessoal</td><td>Vídeo oficial do Natal 2026 do escritório<span class="bar" style="width:38%"></span></td><td class="r al">6.816</td><td class="r">12.466</td><td class="r">66</td><td class="r">65</td></tr>
+  <tr><td class="pos">7</td><td class="dt">11/11</td><td class="pf">pessoal</td><td>Meme da viagem ("não me lembra disso, Elton")<span class="bar" style="width:31%"></span></td><td class="r al">5.555</td><td class="r">8.432</td><td class="r">75</td><td class="r">74</td></tr>
+  <tr><td class="pos">8</td><td class="dt">05/11</td><td class="pf">pessoal</td><td>"Uma menininha perto nessa árvore de Natal"<span class="bar" style="width:30%"></span></td><td class="r al">5.258</td><td class="r">10.221</td><td class="r">34</td><td class="r">23</td></tr>
+  <tr class="esc"><td class="pos">1</td><td class="dt">08/10</td><td class="pf">escritório</td><td>O povo da feira, Parte 1: quem trabalha na roça precisa contribuir?<span class="bar" style="width:18%"></span></td><td class="r al">3.216</td><td class="r">4.399</td><td class="r">18</td><td class="r">7</td></tr>
+  <tr class="esc"><td class="pos">2</td><td class="dt">19/10</td><td class="pf">escritório</td><td>O povo da feira, Parte 2: quem trabalha na roça tem direito a auxílio?<span class="bar" style="width:9.6%"></span></td><td class="r al">1.709</td><td class="r">2.278</td><td class="r">2</td><td class="r">3</td></tr>
+  <tr class="esc"><td class="pos">3</td><td class="dt">21/10</td><td class="pf">escritório</td><td>"A vizinha disse": quem se aposenta pode trabalhar?<span class="bar" style="width:7.5%"></span></td><td class="r al">1.345</td><td class="r">1.945</td><td class="r">8</td><td class="r">2</td></tr>
+  <tr class="esc"><td class="pos">4</td><td class="dt">29/09</td><td class="pf">escritório</td><td>Calendário: quem ganha acima do mínimo recebe a partir de quinta<span class="bar" style="width:5.6%"></span></td><td class="r al">1.001</td><td class="r">2.018</td><td class="r">0</td><td class="r">0</td></tr>
+ </table>
+ <p class="nota" style="margin-top:4mm">Entre os destaques, os mais compartilhados mostram o que o público leva adiante: "Estamos contratando" (97), o meme da viagem (74) e os atestados falsos (69). Os mais comentados são os de tom pessoal: o meme da viagem (75), "Como dizia minha avó Lia" (67) e o vídeo oficial do Natal (66).</p>
+ <div class="rod"><span>06</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 7 · ALÉM DOS DIAS ÚTEIS -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">06</span>Além do combinado</div>
+ <h2>Presente também nos <b>domingos e feriados.</b></h2>
+ <div class="grande">
+  <div><div class="num">51</div></div>
+  <div><p class="lead" style="margin:0">posts saíram em sábados, domingos e feriados, fora do combinado de segunda a sexta, quando o assunto pedia: domingo de eleição, datas de Alagoas e de União dos Palmares, e a saga do Natal.</p>
+   <div class="grande div"><div><b>13</b>no escritório</div><div><b>38</b>no perfil da Doutora</div></div></div>
+ </div>
+ <div class="k" style="margin-bottom:4mm">Os do escritório</div>
+ <div class="linha-t">
+  <div class="ev"><span class="d">07/09</span><span class="q">feriado · Independência</span><span>arte institucional</span><span class="r">83</span></div>
+  <div class="ev"><span class="d">16/09</span><span class="q">feriado · Emancipação de AL</span><span>"Hoje celebramos Alagoas"</span><span class="r">326</span></div>
+  <div class="ev forte"><span class="d">04/10</span><span class="q">domingo de eleição</span><span>"Amanhã é dia de votar: onde fica a sua seção" (publicado à 0h22)</span><span class="r">613</span></div>
+  <div class="ev forte"><span class="d">04/10</span><span class="q">domingo de eleição</span><span>"Hoje é dia de eleição": horários e o que levar</span><span class="r">431</span></div>
+  <div class="ev"><span class="d">10/10</span><span class="q">sábado</span><span>"Quem pode mudar as regras da sua aposentadoria?"</span><span class="r">80</span></div>
+  <div class="ev"><span class="d">11/10</span><span class="q">domingo</span><span>"Domingo é dia de família"</span><span class="r">35</span></div>
+  <div class="ev"><span class="d">12/10</span><span class="q">feriado · N. Sra. Aparecida</span><span>Dia das Crianças e BPC para criança (2 posts)</span><span class="r">61</span></div>
+  <div class="ev forte"><span class="d">13/10</span><span class="q">feriado · Emancipação de União</span><span>"Parabéns, União dos Palmares", eleições e o Reels do dia (3 posts)</span><span class="r">510</span></div>
+  <div class="ev"><span class="d">17/10</span><span class="q">sábado</span><span>"Ouviu que vão mudar a aposentadoria?"</span><span class="r">57</span></div>
+  <div class="ev"><span class="d">31/10</span><span class="q">sábado</span><span>aviso de funcionamento no feriado de Finados</span><span class="r">72</span></div>
+ </div>
+ <p class="nota" style="margin:-1mm 0 0 9mm">À direita, o alcance de cada post (pessoas).</p>
+ <div class="k" style="margin:7mm 0 0">No perfil da Doutora, ligados ao escritório</div>
+ <div class="pess">
+  <div><b>27/09 · domingo</b>"Estamos contratando": 7.021 de alcance e 97 compartilhamentos.</div>
+  <div><b>01 e 02/11 · domingo e Finados</b>Saga do Natal: "não ficará pronta" (7.433) e "Finalizamos!" (4.324).</div>
+  <div><b>20/09 e 24/10</b>Campanha das eleições: o voto como prova de vida, num domingo e num sábado.</div>
+  <div><b>20/11 · feriado</b>Dia de Zumbi e da Consciência Negra: post da Serra da Barriga e Reels do dia.</div>
+ </div>
+ <div class="rod"><span>07</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 8 · PRODUÇÃO -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">07</span>Produção</div>
+ <h2>O que foi feito <b>nos bastidores.</b></h2>
+ <p class="lead">Desde 28/09/2026 a produção é organizada num sistema próprio da TK, com histórico no GitHub e cópia no Drive do escritório. Tudo abaixo está registrado lá.</p>
+ <div class="prod">
+  <div class="pd"><div class="num">19</div><div class="t">projetos de vídeo</div><p>Editados com curadoria da fala: corte só no silêncio e legenda palavra por palavra conferida.</p></div>
+  <div class="pd"><div class="num">39</div><div class="t">artes de feed</div><p>18 do calendário das eleições e 21 informativos e avisos, todos com fonte oficial.</p></div>
+  <div class="pd"><div class="num">109</div><div class="t">stories montados</div><p>Em 13 lotes diários, além dos stories de cada Reels e da saga do Natal.</p></div>
+  <div class="pd"><div class="num">6</div><div class="t">calendários e planos</div><p>Das eleições ao calendário editorial de 3 meses, com análise de mercado.</p></div>
+ </div>
+ <div class="lista2">
+  <div class="it"><span class="h">Quadro "O povo da feira sabe de INSS?"</span>4 partes (trabalhador rural, auxílio-doença, salário-maternidade e pensão por morte), cada uma com o episódio de rua, a Rita no escritório, a Doutora e o carrossel com fotos reais.</div>
+  <div class="it"><span class="h">Natal 2026</span>Vlog em 3 episódios e o vídeo oficial em 3 versões até a final cinematográfica, vertical e horizontal, com cor de cinema e 6 câmeras lentas.</div>
+  <div class="it"><span class="h">Dra. Tamara para a câmera</span>Salário-maternidade, benefício negado, pensão por morte, cirurgia estética e INSS, Novembro Azul e "afastado pelo INSS pode ser demitido?".</div>
+  <div class="it"><span class="h">Equipe e humor</span>"A vizinha disse", "Sextou com feriadão", voto dos 70+ e "a contribuição vence hoje", com relógio animado e legenda.</div>
+  <div class="it"><span class="h">Carrosséis</span>Contribuições do INSS em 8 telas (tipos, valores de 2026, códigos e como pagar), quadro da feira e Outubro Rosa.</div>
+  <div class="it"><span class="h">Planejamento</span>Calendário das eleições, estratégia do último trimestre, pauta de notícias oficiais, agenda de novembro, acervo do TikTok e o calendário de 16/11/2026 a 14/02/2027.</div>
+ </div>
+ <div class="galeria sete">
+  <div style="background-image:url('../posts/2026-09-28-prova-de-vida-voto/post.png')"></div>
+  <div style="background-image:url('../posts/2026-09-29-pagamento-acima-do-minimo/post.png')"></div>
+  <div style="background-image:url('../posts/2026-11-09-regras-aposentadoria-2026/post.png')"></div>
+  <div style="background-image:url('../posts/2026-11-12-beneficio-maria-da-penha/post.png')"></div>
+  <div style="background-image:url('../posts/2026-11-16-contribuicoes-inss/slide-01.png')"></div>
+  <div style="background-image:url('../reels/2026-10-08-feira-perguntas/parte3/carrossel/01.jpg')"></div>
+  <div style="background-image:url('../posts/2026-11-20-consciencia-negra/post.png')"></div>
+ </div>
+ <p class="cap">Algumas das artes do período: prova de vida pelo voto, calendário de pagamento, regras de 2026, Benefício Lei Maria da Penha, contribuições, quadro da feira e Consciência Negra.</p>
+ <div class="rod"><span>08</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 9 · IDENTIDADE VISUAL -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">08</span>Identidade visual</div>
+ <h2>Um jeito próprio de <b>aparecer.</b></h2>
+ <p class="lead">O feed passou a ter uma cara reconhecível: fundo claro, foto posada da Dra. Tamara, título fino com negrito, logo sempre presente e fonte oficial em todo informativo, dentro das regras da OAB.</p>
+ <div class="galeria quatro">
+  <div style="background-image:url('../posts/2026-09-29-simei-prazo-janeiro/post.png')"></div>
+  <div style="background-image:url('../calendarios/2026-10-eleicoes/posts/02-2026-10-02-documento-com-foto.png')"></div>
+  <div style="background-image:url('../posts/2026-11-10-aposentadoria-rural/post.png')"></div>
+  <div style="background-image:url('../calendarios/2026-10-eleicoes/posts/03-2026-10-03-onde-votar.png')"></div>
+  <div style="background-image:url('../posts/2026-11-18-auxilio-acidente/post.png')"></div>
+  <div style="background-image:url('../calendarios/2026-10-eleicoes/posts/05-2026-10-06-justifique.png')"></div>
+  <div style="background-image:url('../posts/2026-11-19-novembro-azul/post.png')"></div>
+  <div style="background-image:url('../posts/2026-11-20-aviso-consciencia-negra/post.png')"></div>
+ </div>
+ <p class="cap">Os layouts alternados do feed: retrato, tipográfico, foto cheia, metades e cartão.</p>
+ <div class="idv">
+  <div class="it"><span class="h">Padrão de post do escritório</span>Aprovado em 29/09: foto posada, título fino com negrito, etiquetas nas bordas, logo e fonte oficial.</div>
+  <div class="it"><span class="h">5 layouts alternados</span>Retrato, tipográfico, foto cheia, metades e cartão, para o feed não ficar repetitivo.</div>
+  <div class="it"><span class="h">Identidade do quadro da feira</span>Capa com quem respondeu, telas com fotos reais da feira, número em tipografia grande e chamada para a próxima parte.</div>
+  <div class="it"><span class="h">Estética de cinema no Natal</span>Só música, takes longos, fusões, quadro fechado e cor de cinema no vlog e no vídeo oficial.</div>
+  <div class="it"><span class="h">Organização da marca</span>Logo recortado em versão escura, banco com 20 poses da Doutora e banco de b-roll do escritório com curadoria.</div>
+  <div class="it"><span class="h">Regras de uso de imagem</span>Sem documento, sem tela com processo e sem cliente sem autorização em nenhuma peça.</div>
+ </div>
+ <div class="k" style="margin-top:7mm">A evolução dos stories</div>
+ <div class="evolucao">
+  <div><b>Orgânicos</b>bom dia, bastidores e localização</div>
+  <div><b>Trio e linha editorial</b>card, notas e conversa</div>
+  <div><b>Escrita elegante</b>sobre foto em tela cheia</div>
+  <div><b>Modelo de 11/11</b>vídeo, música e título em serifa</div>
+ </div>
+ <div class="rod"><span>09</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 10 · AUTOMAÇÃO, TIKTOK, SEGUIDORES -->
+<section class="pg">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k"><span class="n">09</span>Novas frentes e público</div>
+ <h2>Uma rede nova e <b>publicação automática.</b></h2>
+ <p class="lead">O conteúdo deixou de depender de alguém apertar "publicar": sai todo dia, mesmo com os computadores desligados e nas viagens da Doutora.</p>
+ <div class="auto">
+  <div class="au"><div class="q">desde 04/11</div><div class="tt">TikTok @tamarachagas.prev</div><p>Tudo o que vai para o Instagram vai também para o TikTok, no mesmo horário. O acervo antigo (186 posts selecionados) sai em 5 por dia.</p>
+   <div class="mini"><div><b>99</b>publicados</div><div><b>97</b>agendados</div><div><b>1.074</b>seguidores</div><div><b>6.952</b>curtidas</div></div></div>
+  <div class="au"><div class="q">desde 12/11</div><div class="tt">Feed todo dia útil às 7h30</div><p>Arte informativa com notícia oficial, agendada com 3 dias de folga e publicada do perfil da Doutora em colaboração com o escritório.</p>
+   <div class="mini"><div><b>7h30</b>todo dia útil</div><div><b>3 dias</b>de folga</div></div></div>
+  <div class="au"><div class="q">Post for Me</div><div class="tt">Programação na nuvem</div><p>Reels e artes agendados no servidor, que publica mesmo com os computadores desligados, sempre com colaboração entre os dois perfis.</p></div>
+  <div class="au"><div class="q">API do Instagram e Drive</div><div class="tt">Métricas e arquivo</div><p>Relatórios com os dados oficiais de cada post e da conta, sem depender de prints. Drive organizado por mês, com cópia de tudo o que é publicado.</p></div>
+ </div>
+ <div class="seg2">
+  <div class="sg"><div class="h">@dra.tamarachagas_</div><div class="num">16.299</div><p><b>270 novos seguidores</b> nos últimos 30 dias, com picos de 41 e 39 por dia em 01 e 02/11, na finalização da saga do Natal.</p>
+   <div class="pub">
+    <div class="l"><span>mulheres</span><span class="tr"><i style="width:57%"></i></span><span>57%</span></div>
+    <div class="l"><span>União dos Palmares</span><span class="tr"><i style="width:38%"></i></span><span>38%</span></div>
+    <div class="l"><span>Maceió</span><span class="tr"><i style="width:16%"></i></span><span>16%</span></div>
+   </div></div>
+  <div class="sg"><div class="h">@tamarachagas_prev</div><div class="num">1.060</div><p>Eram <b>1.011 em 06/10</b>: +49 em seis semanas (+4,8%), com 36 novos seguidores nos últimos 30 dias.</p>
+   <div class="pub">
+    <div class="l"><span>mulheres</span><span class="tr"><i style="width:64%"></i></span><span>64%</span></div>
+    <div class="l"><span>União dos Palmares</span><span class="tr"><i style="width:63%"></i></span><span>63%</span></div>
+    <div class="l"><span>Maceió</span><span class="tr"><i style="width:16%"></i></span><span>16%</span></div>
+   </div></div>
+ </div>
+ <p class="nota" style="margin-top:4mm">O público dos dois perfis é majoritariamente feminino, de 35 a 54 anos. O Instagram só guarda o histórico de seguidores dos últimos 30 dias, por isso não há o número de maio para comparar. "Novos seguidores" não desconta quem deixou de seguir.</p>
+ <div class="rod"><span>10</span><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal.svg" alt=""></div>
+</section>
+
+<!-- 11 · RESUMO -->
+<section class="pg fim">
+ <div class="topo"><span>Tamara Chagas Advocacia</span><span>Relatório de 6 meses</span></div>
+ <div class="k" style="margin-top:14mm"><span class="n" style="color:#F5F1EB">10</span>O que foi conquistado</div>
+ <h2>Seis meses, <b>em resumo.</b></h2>
+ <div class="conq">
+  <div class="cq"><span class="num">01</span><span class="t">O perfil da Dra. Tamara fechou o período no <b>melhor mês dos seis</b>: 406 mil visualizações, 35 mil pessoas alcançadas e 13 mil interações.</span></div>
+  <div class="cq"><span class="num">02</span><span class="t">O escritório saiu de 5 posts em três meses para <b>44 posts em três meses</b>, com <b>4,2 vezes mais visualizações</b>.</span></div>
+  <div class="cq"><span class="num">03</span><span class="t"><b>Quadros próprios</b> que o público reconhece: "O povo da feira sabe de INSS?", "A vizinha disse" e a saga do Natal.</span></div>
+  <div class="cq"><span class="num">04</span><span class="t"><b>Campanha das eleições</b> completa, com 18 posts, inclusive nos domingos de votação e feriados.</span></div>
+  <div class="cq"><span class="num">05</span><span class="t"><b>Identidade visual definida</b> para feed, stories e vídeos, com curadoria e fonte oficial em todo conteúdo informativo, dentro das regras da OAB.</span></div>
+  <div class="cq"><span class="num">06</span><span class="t"><b>Nova rede (TikTok)</b> e <b>publicação automática</b>, que garantem o conteúdo todo dia, mesmo nas viagens da Doutora.</span></div>
+ </div>
+ <p class="fontes">Fontes: Instagram Graph API (insights das contas e de cada post, puxados em 22/11/2026), registro de publicações e histórico do sistema da TK Filmes, Post for Me (TikTok) e perfil público do TikTok. O perfil pessoal inclui também posts pessoais da Dra. Tamara. A produção anterior a 28/09/2026 aparece pelos números do Instagram, porque o registro do sistema começou nessa data.</p>
+ <div class="assin"><img src="../../../_contexto/marca/logo-2.0/tkfilmes-horizontal-creme.svg" alt=""><div>Direção de conteúdo · TK Filmes<br>@tk.filmes · novembro de 2026</div></div>
+</section>
+
+</body></html>
