@@ -1,0 +1,87 @@
+@page { size: A4; margin: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --bg:#F5F1EB; --card:#FFFFFF; --cinza:#ECEBE9; --tinta:#1F1D1A; --taupe:#8C7B6B; --fio:#D9D0C4; --claro:#C9BBAA;
+  --prev:#1F1D1A; --nac:#8C7B6B; --saude:#A8826A; --local:#5E6B5A; --util:#B9A98F; }
+body { font-family: Inter, sans-serif; color: var(--tinta); background: var(--bg); -webkit-print-color-adjust: exact; print-color-adjust: exact; font-size: 9.4pt; line-height: 1.5; }
+.pg { width: 210mm; height: 297mm; padding: 20mm 18mm 22mm; position: relative; page-break-after: always; overflow: hidden; background: var(--bg); }
+.pg:last-child { page-break-after: auto; }
+.k { font-size: 7.4pt; font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--taupe); }
+.k .n { color: var(--tinta); margin-right: 3mm; }
+h2 { font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 25pt; line-height: 1.15; letter-spacing: -.01em; margin: 3mm 0 3mm; }
+h2 b { font-family: Inter; font-weight: 800; letter-spacing: -.02em; }
+h2 span { font-family: Inter; font-weight: 300; font-size: 12pt; color: var(--taupe); letter-spacing: 0; }
+.lead { font-size: 10.2pt; font-weight: 300; color: #4a443d; max-width: 150mm; margin-bottom: 6mm; }
+.topo { position: absolute; top: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; font-size: 6.8pt; letter-spacing: .24em; text-transform: uppercase; color: var(--taupe); }
+.rod { position: absolute; bottom: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: center; font-size: 6.8pt; letter-spacing: .2em; color: var(--taupe); border-top: 1px solid var(--fio); padding-top: 3mm; }
+.rod img { height: 4.2mm; opacity: .85; }
+.nota { font-size: 7.4pt; color: var(--taupe); line-height: 1.5; margin-top: 3mm; }
+
+/* capa */
+.capa { padding: 0; background: #EDEAE5; }
+.capa .foto { position: absolute; right: 0; top: -2mm; bottom: -2mm; width: 125mm; background: url('../../marca/fotos/tamara/tamara-estudio-0099.jpg') center 20% / cover no-repeat; }
+.capa .foto { -webkit-mask-image: linear-gradient(to right, transparent 0%, transparent 4%, rgba(0,0,0,.55) 24%, #000 46%); }
+.capa .veu { position: absolute; left: 0; right: 0; bottom: 0; height: 110mm; background: linear-gradient(to top, #EDEAE5 32%, rgba(237,234,229,0)); }
+.capa .logo { position: absolute; top: 18mm; left: 18mm; height: 15mm; }
+.capa .txt { position: absolute; left: 18mm; top: 92mm; width: 112mm; }
+.capa h1 { font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 44pt; line-height: 1.05; letter-spacing: -.02em; margin: 5mm 0 6mm; }
+.capa h1 b { font-family: Inter; font-weight: 800; letter-spacing: -.035em; display: block; }
+.capa .sub { font-size: 10.5pt; font-weight: 300; line-height: 1.55; color: #3d3833; width: 92mm; }
+.capa .base { position: absolute; left: 18mm; right: 18mm; bottom: 16mm; display: flex; justify-content: space-between; align-items: flex-end; }
+.capa .pf { display: flex; gap: 10mm; }
+.capa .pf div { font-size: 7.4pt; color: var(--taupe); line-height: 1.4; }
+.capa .pf b { display: block; font-family: 'Libre Baskerville'; font-weight: 400; color: var(--tinta); font-size: 20pt; }
+.capa .tk { text-align: right; font-size: 6.8pt; letter-spacing: .24em; text-transform: uppercase; color: var(--taupe); }
+.capa .tk img { height: 7.5mm; display: block; margin: 2mm 0 0 auto; }
+
+/* visão geral */
+.tl { background: var(--card); border-radius: 4mm; padding: 12mm 8mm 6mm; margin-top: 2mm; }
+.tl .eixo { position: relative; height: 10mm; border-bottom: 1.5px solid var(--tinta); }
+.mk { position: absolute; bottom: -1.6mm; width: 3.2mm; height: 3.2mm; border-radius: 50%; transform: translateX(-50%); display: inline-block; vertical-align: -.5mm; margin-right: 1.5mm; }
+.mk.p3 { width: 4.2mm; height: 4.2mm; bottom: -2.1mm; }
+.mk.p1 { opacity: .55; }
+.mk.prev { background: var(--prev); } .mk.nac { background: var(--nac); } .mk.saude { background: var(--saude); } .mk.local { background: var(--local); } .mk.util { background: var(--util); }
+.tl .ms { position: relative; height: 7mm; }
+.tl .ms span { position: absolute; top: 2.5mm; transform: translateX(-50%); font-size: 7pt; letter-spacing: .2em; text-transform: uppercase; color: var(--taupe); }
+.tl .ms span::before { content: ""; position: absolute; left: 50%; top: -4.5mm; height: 3mm; border-left: 1px solid var(--taupe); }
+.tl .pontas { display: flex; justify-content: space-between; font-size: 7.4pt; font-weight: 600; margin-top: 1mm; }
+.leg { display: flex; flex-wrap: wrap; gap: 3mm 6mm; margin-top: 4mm; font-size: 7.8pt; color: #4a443d; }
+.leg .mk { position: static; transform: none; width: 3mm; height: 3mm; }
+.altas { display: grid; grid-template-columns: 1fr 1fr; gap: 0 8mm; margin-top: 3mm; }
+.altas div { display: grid; grid-template-columns: 27mm 1fr; gap: 3mm; padding: 2.6mm 0; border-top: 1px solid var(--fio); font-size: 8.4pt; }
+.altas b { font-family: 'Libre Baskerville'; font-weight: 400; font-size: 10pt; }
+
+/* meses */
+.mes { margin-bottom: 4mm; }
+.lista { border-top: 1px solid var(--tinta); }
+.dt { display: grid; grid-template-columns: 25mm 1fr 36mm; gap: 4mm; padding: 2.8mm 0; border-bottom: 1px solid var(--fio); break-inside: avoid; }
+.dt .q b { display: block; font-family: 'Libre Baskerville'; font-weight: 400; font-size: 12.5pt; line-height: 1.15; }
+.dt .q span { font-size: 6.8pt; letter-spacing: .18em; text-transform: uppercase; color: var(--taupe); }
+.dt .tt { font-weight: 700; font-size: 9.6pt; line-height: 1.3; }
+.dt .uso { font-size: 8.2pt; color: #3d3833; margin-top: 1mm; line-height: 1.45; }
+.dt .base { font-size: 6.9pt; color: var(--taupe); margin-top: 1.2mm; }
+.dt .m { display: flex; flex-direction: column; align-items: flex-end; gap: 1.5mm; text-align: right; }
+.tag { white-space: nowrap; font-size: 6.2pt; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; color: #fff; padding: .8mm 2mm; border-radius: 2mm; }
+.tag.prev { background: var(--prev); } .tag.nac { background: var(--nac); } .tag.saude { background: var(--saude); } .tag.local { background: var(--local); } .tag.util { background: var(--util); color: var(--tinta); }
+.pr i { display: inline-block; width: 2.4mm; height: 2.4mm; border-radius: 50%; border: 1px solid var(--tinta); margin-left: .9mm; }
+.pr i.on { background: var(--tinta); }
+.fm { font-size: 6.8pt; color: var(--taupe); }
+
+/* fecho */
+.dois { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 4mm; }
+.bx { background: var(--card); border-radius: 4mm; padding: 5mm; }
+.bx .h { font-size: 6.8pt; letter-spacing: .2em; text-transform: uppercase; color: var(--taupe); font-weight: 600; margin-bottom: 2mm; }
+.bx .l { font-size: 8pt; color: #3d3833; padding: 2.2mm 0; border-top: 1px solid var(--fio); line-height: 1.45; }
+.bx .l b { display: block; font-size: 8.8pt; color: var(--tinta); }
+.bx .l em { font-style: normal; color: #8a5a3c; font-weight: 600; }
+.regras { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 6mm; }
+.regras div { border-top: 1px solid var(--tinta); padding-top: 3mm; font-size: 8pt; color: #3d3833; line-height: 1.5; }
+.regras b { display: block; font-family: 'Libre Baskerville'; font-weight: 400; font-size: 11pt; color: var(--tinta); margin-bottom: 1mm; }
+.fontes { margin-top: 7mm; font-size: 7.2pt; color: var(--taupe); line-height: 1.6; }
+
+.dt .q b.per { font-family: Inter; font-weight: 600; font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; color: var(--taupe); }
+
+.mes2 { margin: 7mm 0 3mm; }
+.mes2 h3 { font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 18pt; line-height: 1.2; margin: 1.5mm 0 1mm; }
+.mes2 p { font-size: 8.8pt; font-weight: 300; color: #4a443d; max-width: 150mm; }
+
+.capa .cobre { position: absolute; top: -2mm; bottom: -2mm; left: 82mm; width: 8mm; background: #EDEAE5; }

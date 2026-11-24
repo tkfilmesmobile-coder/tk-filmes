@@ -35,7 +35,7 @@ quadro da feira · vlog). Os stories diários das 8h no @tamarachagas_prev conti
 | ter 17/11 7h30 | **Arte: Perícia Conectada** (`posts/2026-11-17-pericia-conectada/`, MPS 06/11/2026) | post de imagem | **agendado** no @dra.tamarachagas_ com colaboração do @tamarachagas_prev · TikTok `sp_a2zVffqE7T4F6xq4dscN` | `sp_IGgiohUIVFhFJBXpn3TI1` |
 | qua 18/11 7h30 | **Arte: auxílio-acidente** (`posts/2026-11-18-auxilio-acidente/`, Lei 8.213, art. 86) | post de imagem | **agendado** (pessoal com colaboração) · TikTok `sp_s7m87mBwdGj2sauapOA` | `sp_50EzhYmXhjKcNx1GTR1Nj` |
 | qui 19/11 7h30 | **Arte: Novembro Azul, câncer de próstata e INSS** (`posts/2026-11-19-novembro-azul/`, Lei 8.213, art. 151; Lei 7.713, art. 6º, XIV) | post de imagem | **agendado** (pessoal com colaboração) · TikTok `sp_aHbZ6jyvzpqFC5csjft` | `sp_UMPPAAstRgPRLVg9RxFT` |
-| sex 20/11 | feriado (Consciência Negra) | — | sem post obrigatório | — |
+| sex 20/11 | **Arte: Dia Nacional de Zumbi e da Consciência Negra** (posts/2026-11-20-consciencia-negra/, foto da Serra da Barriga em 20/11/2015, Lia de Paula/MinC, CC BY 2.0; Lei 14.759/2023) | post de imagem | **publicado** a pedido da Talyta no @dra.tamarachagas_ com colaboração do @tamarachagas_prev: https://www.instagram.com/p/Df-AG_0ER9l/ · + TikTok sp_rLoHtlfxyHtYnDFVhXax | sp_OV1GWCaOynLInJC3dlyD |
 
 **Desde 16/11: o feed sai do pessoal pro profissional**, agendado na Post for Me às 7h30 (pedido da Talyta).
 **Stories pausados desde 16/11** (pedido da Talyta, até o novo formato).
