@@ -170,6 +170,14 @@
   kumyt):** os vídeos dos stories de 03/11 (bom dia, horário, saga n1–n4), de 06/11 (e1–e4 do Natal) e de 09/11 (localização,
   fachada, online, natal) e o Reels IMG_1689 de 16/11. Parte 3 da feira segue sem publicar (a tarefa de 19/11 foi interrompida).
 
+- 2026-11-24 · **Dois vídeos do 25 de novembro editados e no Drive** (`CONTEÚDO/2026-11 NOVEMBRO/REELS`, com LEGENDA.txt):
+  equipe contra a violência (`reels/2026-11-25-contra-violencia/`, v4, 49 s: abertura com os 3 rostos maquiados piscando e
+  golpes graves, aviso de imagem ilustrativa, falas na última tentativa inteira, camadas das agredidas em câmera lenta, coro
+  "Por uma vida sem violência" com as seis na tela, tela final com Ligue 180/190) e institucional da Dra. Tamara
+  (`reels/2026-11-25-institucional-tamara/`, 1 min 09: cartões de notícia oficial MPS 09/10, Ministério das Mulheres 01/10 e
+  Agência Brasil 19/11). Publicação ainda não agendada (falta horário e perfil). Regras da Talyta nesta edição: em gravação com
+  várias tentativas vale a última com a frase inteira; cortar no começo real da voz (medir pelo som, não pela transcrição).
+
 ## Em aberto
 - **Aprovar as permissões da tarefa "Tamara · feed 7h30"** (abrir a tarefa no app e clicar em "Executar agora" uma vez) ou
   liberar a tarefa do Windows / conectar o @tamarachagas_prev na Post for Me: sem isso, o feed automático trava esperando
