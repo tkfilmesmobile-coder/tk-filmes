@@ -1,0 +1,32 @@
+﻿[2026-11-24 00:55:32] publicando 04-2026-11-20-consciencia-negra (clientes/ary-magalhaes/posts/2026-11/04-2026-11-20-consciencia-negra/s1.jpg)...
+Fazendo upload da imagem pro catbox...
+  upload falhou (tentativa 1/8), tentando de novo...
+  OK: s1.jpg
+
+Criando container...
+node.exe : Container: Error validating access token: The session has been invalidated because the user changed their 
+password or Facebook has changed the session for security reasons.
+No C:\Users\tamar\TK FILMES\clientes\ary-magalhaes\modelos\publicar-agendado.ps1:15 caractere:13
++   $saida = (& node --env-file=.env $js --conta CABELOSMAGALHAES --ima ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Container: Erro...curity reasons.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76
+
+[2026-11-24 08:24:56] falhou (tentativa 1), tentando de novo em 60 s
+Fazendo upload da imagem pro catbox...
+  OK: s1.jpg
+
+Criando container...
+node.exe : Container: Error validating access token: The session has been invalidated because the user changed their 
+password or Facebook has changed the session for security reasons.
+No C:\Users\tamar\TK FILMES\clientes\ary-magalhaes\modelos\publicar-agendado.ps1:15 caractere:13
++   $saida = (& node --env-file=.env $js --conta CABELOSMAGALHAES --ima ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Container: Erro...curity reasons.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76
+
+[2026-11-24 08:26:02] falhou (tentativa 2), tentando de novo em 60 s

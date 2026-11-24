@@ -158,6 +158,12 @@
   `posts/2026-11-20-aviso-consciencia-negra/`, com story.jpg pronto, não publicado: stories pausados). `post_aviso.py` agora
   aceita "mes" no aviso.json (antes vinha OUTUBRO fixo).
 
+- 2026-11-24 · **Drive de novembro completado** (pedido da Talyta: "suba os que faltam"). O app do Google Drive estava fechado
+  neste PC (sem G:), por isso a cópia automática falhou; reaberto. Copiados 20 arquivos pra `CONTEÚDO/2026-11 NOVEMBRO`: feed de
+  09, 16 (8 slides), 17, 18 e 19/11, Reels da parte 4 (24/11) e as artes dos stories de 03 e 09/11. **Faltam (só existem no PC
+  kumyt):** os vídeos dos stories de 03/11 (bom dia, horário, saga n1–n4), de 06/11 (e1–e4 do Natal) e de 09/11 (localização,
+  fachada, online, natal) e o Reels IMG_1689 de 16/11. Parte 3 da feira segue sem publicar (a tarefa de 19/11 foi interrompida).
+
 ## Em aberto
 - **Aprovar as permissões da tarefa "Tamara · feed 7h30"** (abrir a tarefa no app e clicar em "Executar agora" uma vez) ou
   liberar a tarefa do Windows / conectar o @tamarachagas_prev na Post for Me: sem isso, o feed automático trava esperando
