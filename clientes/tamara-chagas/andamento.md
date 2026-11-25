@@ -219,3 +219,5 @@
 - Trilha dos dois vídeos do 25 de novembro trocada pela música "Maria da Penha" (Alcione), enviada pela Talyta: bem baixa sob as falas (equipe um pouco mais alta, a pedido) e subindo na tela final no trecho "Cadê meu celular? Eu vou ligar pro 180".
 - Vídeo da equipe (v5) publicado em 25/11 no @dra.tamarachagas_ com colaboração @tamarachagas_prev: https://www.instagram.com/reel/DgKoIzNJ1g_/
 - Institucional v2 (com a música) pronto, ainda não publicado. Risco: música com direitos pode ser silenciada pelo Instagram.
+- 25/11: versões finais (equipe v5 e institucional v2, com a música) substituíram os "(EDITADO)" no Drive (CONTEÚDO/2026-11 NOVEMBRO/REELS). Bruto do 25 de novembro apagado a pedido: cópias locais (bruto/) e a pasta do Drive "Gravação/Contra violência da mulher 25 11" (fica na lixeira do Drive até ~25/12/2026).
+- TikTok do vídeo da equipe: não sai deste PC (sem chave do Post for Me); pendente.
