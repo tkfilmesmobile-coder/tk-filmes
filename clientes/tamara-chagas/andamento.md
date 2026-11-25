@@ -214,3 +214,8 @@
 - Ficha: faltam outras redes (site, YouTube etc.) e o tom de fala da Tamara nos vídeos.
 
 - [ ] Gerar o brand book (regra geral de 2026-10-13, ver `clientes/_regras.md`). Aprovação do cliente nas recomendações.
+
+### 25/11/2026 (pc-escritoriotamarachagas)
+- Trilha dos dois vídeos do 25 de novembro trocada pela música "Maria da Penha" (Alcione), enviada pela Talyta: bem baixa sob as falas (equipe um pouco mais alta, a pedido) e subindo na tela final no trecho "Cadê meu celular? Eu vou ligar pro 180".
+- Vídeo da equipe (v5) publicado em 25/11 no @dra.tamarachagas_ com colaboração @tamarachagas_prev: https://www.instagram.com/reel/DgKoIzNJ1g_/
+- Institucional v2 (com a música) pronto, ainda não publicado. Risco: música com direitos pode ser silenciada pelo Instagram.

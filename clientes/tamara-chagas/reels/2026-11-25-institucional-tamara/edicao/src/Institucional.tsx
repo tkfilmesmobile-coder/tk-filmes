@@ -158,6 +158,8 @@ export const Institucional: React.FC = () => (
       <Selo texto="LIGUE 180 · EMERGÊNCIAS 190" dur={SEGS[8].dur + SEGS[9].dur} />
     </Sequence>
     <Sequence from={fr(FALA)}><Final /></Sequence>
-    <Audio src={staticFile("trilha.wav")} volume={(x) => interpolate(x, [0, fr(1.5), fr(FALA) - fr(1), fr(FALA) + fr(0.8), DURACAO - fr(1.2), DURACAO], [0, 0.1, 0.12, 0.45, 0.45, 0], cl)} />
+    {/* música (Maria da Penha): bem baixa sob a fala; na tela final sobe no "Cadê meu celular? Eu vou ligar pro 180" */}
+    <Sequence durationInFrames={fr(FALA) + fr(0.4)}><Audio src={staticFile("musica-fundo.wav")} volume={(x) => interpolate(x, [0, fr(1), fr(FALA) - fr(0.3), fr(FALA) + fr(0.4)], [0, 0.045, 0.045, 0], cl)} /></Sequence>
+    <Sequence from={fr(FALA)}><Audio src={staticFile("musica-final.wav")} volume={(x) => interpolate(x, [0, fr(0.25), fr(FINAL) - fr(0.5), fr(FINAL)], [0.5, 0.95, 0.95, 0], cl)} /></Sequence>
   </AbsoluteFill>
 );

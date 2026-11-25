@@ -147,8 +147,9 @@ export const Violencia: React.FC = () => {
       </Sequence>
       <Sequence from={tFinal}><Final /></Sequence>
       {FLASH.map(([, , t0, , som], i) => <React.Fragment key={`h${i}`}>{S(t0, som, som === "golpe-final" ? 0.6 : 0.5)}</React.Fragment>)}
-      {/* trilha: entra baixinha, cresce e fica firme no coro e na tela final */}
-      <Audio src={staticFile("trilha.wav")} volume={(x) => interpolate(x, [0, fr(ABERTURA), tCoro, tFinal, tFinal + fr(1.5), DURACAO - fr(1.2), DURACAO], [0.08, 0.14, 0.24, 0.3, 0.6, 0.6, 0], cl)} />
+      {/* música (Maria da Penha): bem baixa sob as falas; na tela final sobe no "Cadê meu celular? Eu vou ligar pro 180" */}
+      <Sequence durationInFrames={tFinal + fr(0.4)}><Audio src={staticFile("musica-fundo.wav")} volume={(x) => interpolate(x, [0, fr(1), tFinal - fr(0.3), tFinal + fr(0.4)], [0, 0.085, 0.085, 0], cl)} /></Sequence>
+      <Sequence from={tFinal}><Audio src={staticFile("musica-final.wav")} volume={(x) => interpolate(x, [0, fr(0.25), fr(FINAL) - fr(0.6), fr(FINAL)], [0.5, 0.95, 0.95, 0], cl)} /></Sequence>
     </AbsoluteFill>
   );
 };
