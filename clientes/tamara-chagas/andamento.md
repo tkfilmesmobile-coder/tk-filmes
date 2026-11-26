@@ -221,3 +221,4 @@
 - Institucional v2 (com a música) pronto, ainda não publicado. Risco: música com direitos pode ser silenciada pelo Instagram.
 - 25/11: versões finais (equipe v5 e institucional v2, com a música) substituíram os "(EDITADO)" no Drive (CONTEÚDO/2026-11 NOVEMBRO/REELS). Bruto do 25 de novembro apagado a pedido: cópias locais (bruto/) e a pasta do Drive "Gravação/Contra violência da mulher 25 11" (fica na lixeira do Drive até ~25/12/2026).
 - TikTok do vídeo da equipe: não sai deste PC (sem chave do Post for Me); pendente.
+- 2026-11-26 · **Feira parte 3 (salário-maternidade) publicada** no @tamarachagas_prev com colaboração do @dra.tamarachagas_: https://www.instagram.com/reel/DgNy7IAhiyO/ (legenda com "A Parte 4 já está no perfil"). Fecha a série da feira. A Talyta pediu só um no ar: o institucional do 25 de novembro **não** foi publicado (a postagem foi parada antes de subir).
