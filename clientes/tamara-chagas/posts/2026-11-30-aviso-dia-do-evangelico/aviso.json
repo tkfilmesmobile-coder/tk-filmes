@@ -1,0 +1,16 @@
+{
+ "layout": "calendario",
+ "mes": "NOVEMBRO",
+ "kicker": "AVISO DE FUNCIONAMENTO",
+ "titulo": "Nesta segunda, <b>não abriremos.</b>",
+ "recado": "Instituído pela <b style=\"font-weight:600\">Lei nº 12.328/2010</b>, celebra a fé e a presença da comunidade evangélica no Brasil. Em Alagoas, é <b style=\"font-weight:600\">feriado estadual</b>.",
+ "dias": [
+  [
+   "30",
+   "SEG",
+   "Dia do Evangélico"
+  ]
+ ],
+ "retorno": "Voltamos na <b>terça, 01/12</b>, a partir das <b>8h</b>.",
+ "rodape": "FERIADO ESTADUAL · ALAGOAS"
+}

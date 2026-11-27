@@ -2,7 +2,7 @@
 off-white #ECEBE9, grafite #141414, taupe #8C7B6B, champanhe #E6D3B8, Inter fino + negrito, filetes, logo.
 uso: python modelos/post_aviso.py <pasta>   (lê <pasta>/aviso.json; gera post.jpg 1080x1350 e story.jpg 1080x1920)
 aviso.json (layout "calendario"): {"layout":"calendario","kicker":"AVISO","titulo":"fino <b>forte</b>",
-   "dias":[["12","SEG","Dia das Crianças"],["13","TER","Emancipação de União"]],"retorno":"Voltamos quarta, 14/10, às 8h.","rodape":"..."}
+   "dias":[["12","SEG","Dia das Crianças"],["13","TER","Emancipação de União"]],"retorno":"Voltamos quarta, 14/10, às 8h.","rodape":"...","recado":"opcional, texto humano"}
 aviso.json (layout "foto"): {"layout":"foto","foto":"caminho absoluto ou relativo à pasta","pos":"50% 40%","kicker":"...","titulo":"...","texto":"...","rodape":"..."}
 """
 import json, sys, pathlib
@@ -32,12 +32,28 @@ def html(c, pasta, story):
     css = BASE.replace("__H__", str(H)).replace("__RB__", "250" if story else "56")
     topo = 230 if story else 64
     if c["layout"] == "calendario":
-        y0 = 520 if story else 280
-        cards = "".join(f'<div class="card"><div class="x"></div><div class="mes">{c.get("mes", "OUTUBRO")}</div><div class="dia">{d}</div>'
-                        f'<div class="num">{n}</div><div class="ev">{ev}</div></div>' for n, d, ev in c["dias"])
+        # recado (opcional): o que a data celebra. Com um dia só, vai DENTRO do cartão, à direita do número
+        # (a Talyta não gosta do vazio do cartão, 27/11/2026); com mais dias, vira parágrafo entre o título e os cartões.
+        um = len(c["dias"]) == 1 and c.get("recado")
+        y0 = (440 if story else 240) if (c.get("recado") and not um) else (520 if story else 280)
+        if um: y0 = 590 if story else 330  # bloco centrado entre os filetes (sem vazio embaixo)
+        recado = "" if um or not c.get("recado") else (
+            f'<p style="margin-top:26px;font-size:31px;line-height:1.45;font-weight:300;color:#3a3734;max-width:900px">{c["recado"]}</p>'
+            '<style>.card .num{font-size:220px}</style>')
+        if um:
+            n, d, ev = c["dias"][0]
+            cards = (f'<div class="card" style="display:flex;gap:40px;align-items:stretch"><div class="x"></div>'
+                     f'<div style="position:relative"><div class="mes">{c.get("mes", "OUTUBRO")}</div><div class="num">{n}</div></div>'
+                     f'<div style="position:relative;flex:1;padding-top:62px;border-left:1px solid rgba(20,20,20,.12);padding-left:36px">'
+                     f'<div class="ev" style="margin-top:0;font-size:32px">{ev}</div>'
+                     f'<div style="margin-top:16px;font-size:24px;line-height:1.45;font-weight:300;color:#3a3734">{c["recado"]}</div></div>'
+                     f'<div class="dia">{d}</div></div>')
+        else:
+            cards = "".join(f'<div class="card"><div class="x"></div><div class="mes">{c.get("mes", "OUTUBRO")}</div><div class="dia">{d}</div>'
+                            f'<div class="num">{n}</div><div class="ev">{ev}</div></div>' for n, d, ev in c["dias"])
         corpo = f"""<div style="position:absolute;left:72px;right:72px;top:{y0}px"><div class="k">{c['kicker']}</div>
-<h1 style="margin-top:20px">{c['titulo']}</h1>
-<div style="display:flex;gap:24px;margin-top:50px">{cards}</div>
+<h1 style="margin-top:20px">{c['titulo']}</h1>{recado}
+<div style="display:flex;gap:24px;margin-top:{36 if c.get('recado') else 50}px">{cards}</div>
 <div class="ret" style="margin-top:28px"><span class="ic">→</span><span style="font-size:36px;font-weight:300;letter-spacing:-.01em">{c['retorno']}</span></div></div>"""
         logo = f'<img src="{M}/logo-escuro-recortado.png" style="position:absolute;left:72px;top:{topo}px;width:116px">'
         return css, logo + f'<div class="fil" style="top:{topo + 120}px"></div>' + corpo + f'<div class="fil" style="bottom:{(250 if story else 56) + 40}px"></div><div class="rod"><span>{c.get("rodape", "")}</span><span>UNIÃO DOS PALMARES · AL</span></div>'
